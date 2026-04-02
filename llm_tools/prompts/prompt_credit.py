@@ -1,353 +1,395 @@
-DATASET_DESCRIPTION = """
-You are working with a binary classification model that predicts whether a person has an annual income above or below 50K USD.
-The dataset consists of adult individuals from the US Census.
+import pickle
+import pandas as pd
+import numpy as np
+from pathlib import Path
 
-Each row in the data is one person. The target variable is:
-- income = 0: predicted income <= 50K (50,000 USD)
-- income = 1: predicted income > 50K (50,000 USD)
+# Load dataset_info from pickle file
+DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "dataset_info"
 
-The features are:
-- age: Age of the individual in years (continuous).
-- education-num: The highest level of education achieved, represented as a numerical ordinal value:
-    1: Preschool, 2: 1st-4th, 3: 5th-6th, 4: 7th-8th, 5: 9th, 
-    6: 10th, 7: 11th, 8: 12th, 9: High School Grad, 10: Some College, 
-    11: Associate Degree (Vocational), 12: Associate Degree (Academic), 
-    13: Bachelor's, 14: Master's, 15: Professional School, 16: Doctorate.
-- hours-per-week: The average number of hours worked per week (continuous).
-- capital-gain: Annual income from investment sources (capital gains) in USD (continuous).
-- capital-loss: Annual loss from investment sources (capital losses) in USD (continuous).
-- workclass: The type of employment or employment status, represented as a numerical value:
-    0: Other/Unknown (missing data)
-    1: Federal government
-    2: Local government
-    3: Never worked
-    4: Private sector
-    5: Self-employed with incorporation
-    6: Self-employed without incorporation
-    7: State government
-    8: Without pay
-- occupation: The primary occupation or job type, represented as a numerical value:
-    0: Other/Unknown (missing data)
-    1: Administrative and clerical
-    2: Armed forces
-    3: Craft and repair
-    4: Executive and managerial
-    5: Farming and fishing
-    6: Handlers and cleaners
-    7: Machine operators and inspectors
-    8: Other service
-    9: Private household service
-    10: Professional specialty
-    11: Protective services
-    12: Sales
-    13: Technical support
-    14: Transportation and moving
-- sex: Biological sex, where 0 = Female and 1 = Male.
-- race: The individual's reported racial/ethnic background, represented as a numerical value:
-    0: American Indian or Alaska Native
-    1: Asian or Pacific Islander
-    2: Black or African American
-    3: Other
-    4: White
-- married: A binary indicator derived from marital status.
-    1 = Married with spouse present (includes "Married-civ-spouse" and "Married-AF-spouse").
-    0 = Not currently married (includes "Never-married", "Divorced", "Separated", "Widowed", and "Married-spouse-absent").
-- relationship: The family relationship of the individual, represented as a numerical value:
-    0: Husband
-    1: Not in family
-    2: Other relative
-    3: Own child
-    4: Unmarried partner
-    5: Wife
-- native-country: The country of origin or residence, represented as a numerical value:
-    0: Other/Unknown (missing data)
-    Countries are numbered from 1 onwards (e.g., 39: United States, 2: Canada, 3: China, etc.)
+def load_dataset_info():
+    """Load dataset info from pickle file"""
+    try:
+        with open(DATASET_INFO_PATH, 'rb') as f:
+            return pickle.load(f)
+    except Exception as e:
+        print(f"Warning: Could not load dataset_info from {DATASET_INFO_PATH}: {e}")
+        return None
 
-In this project, age, sex, and race are considered fixed characteristics that cannot be changed.
-All other features are considered potentially changeable in the counterfactuals.
+DATASET_INFO = load_dataset_info()
+
+def get_dataset_description():
+    """Generate dataset description from loaded info"""
+    if DATASET_INFO is None:
+        return ""
+    
+    desc = DATASET_INFO.get("dataset_description", "")
+    target = DATASET_INFO.get("target_description", "")
+    task = DATASET_INFO.get("task_description", "")
+    
+    return f"""{desc}
+
+Target: {target}
+
+ML Task: {task}"""
+
+DATASET_DESCRIPTION = get_dataset_description()
+
+def create_instance_description_from_row(row, prediction):
+    """
+    Create instance description using actual feature names and descriptions from dataset_info.
+    
+    Parameters:
+    - row: pandas Series with feature values
+    - prediction: model prediction (0 or 1)
+    """
+    if DATASET_INFO is None:
+        # Fallback for when dataset_info isn't available
+        feature_lines = [f"- {col} = {row[col]}" for col in row.index]
+    else:
+        feature_df = DATASET_INFO.get("feature_description")
+        feature_lines = []
+        
+        for col in row.index:
+            value = row[col]
+            # Find feature description
+            feature_info = feature_df[feature_df['feature_name'] == col]
+            if not feature_info.empty:
+                desc = feature_info.iloc[0]['feature_desc']
+                avg = feature_info.iloc[0]['feature_average']
+                # Handle numeric and non-numeric values
+                try:
+                    value_str = f"{float(value):.2f}"
+                    avg_str = f"{float(avg):.2f}"
+                    feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
+                except (ValueError, TypeError):
+                    feature_lines.append(f"- {col} = {value} - {desc}")
+            else:
+                feature_lines.append(f"- {col} = {value}")
+    
+    instance_desc = f"""The model is making a prediction for a customer.
+
+Feature values:
+{chr(10).join(feature_lines)}
+
+The model's prediction:
+- credit_risk = {prediction}  (0 = good credit, 1 = bad credit risk)
+"""
+    return instance_desc
+
+def describe_instance(row, prediction):
+    """Generate instance description from row and prediction"""
+    return create_instance_description_from_row(row, prediction)
+
+
+
+PROMPT_PREAMBLE = """
+A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED.
+
+YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the applicant understand:
+- Why the model made this prediction
+- Which factors were most important in this decision
+- How their specific situation compared to typical applicants
+
+INFORMATION YOU WILL RECEIVE:
+1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
+2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
+3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to dataset averages
+4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
+5. CLEAR INSTRUCTIONS: What narrative you should write
 """
 
-
-INSTANCE_DESCRIPTION_TEMPLATE = """
-The model is making a prediction for a single person.
-
-For this person:
-- age = {age}
-- education-num = {education_num}
-- hours-per-week = {hours_per_week}
-- capital-gain = {capital_gain}
-- capital-loss = {capital_loss}
-- workclass = {workclass_label}
-- occupation = {occupation_label}
-- sex = {sex_label}
-- race = {race_label}
-- married = {married_label}
-- relationship = {relationship_label}
-- native-country = {native_country_label}
-
-The model's prediction for this person is:
-- income = {income_pred}  (0 = income <= 50K, 1 = income > 50K)
+DATASET_EXPLANATION = """
+1. DATASET INFORMATION
 """
 
-
-def describe_instance(row):
-    sex_label = "male" if row["sex"] == 1 else "female"
-    married_label = "married" if row["married"] == 1 else "not married"
-    
-    race_mapping = {
-        0: "American Indian or Alaska Native",
-        1: "Asian or Pacific Islander",
-        2: "Black or African American",
-        3: "Other",
-        4: "White"
-    }
-    race_label = race_mapping.get(int(row["race"]), "Unknown")
-    
-    workclass_mapping = {
-        0: "Unknown", 1: "Federal government", 2: "Local government", 
-        3: "Never worked", 4: "Private", 5: "Self-employed (inc)", 
-        6: "Self-employed (no inc)", 7: "State government", 8: "Without pay"
-    }
-    workclass_label = workclass_mapping.get(int(row["workclass"]), "Unknown")
-    
-    occupation_mapping = {
-        0: "Unknown", 1: "Admin/Clerical", 2: "Armed Forces", 3: "Craft/Repair",
-        4: "Executive", 5: "Farming", 6: "Handlers", 7: "Machine ops",
-        8: "Service", 9: "Household service", 10: "Professional", 11: "Protective",
-        12: "Sales", 13: "Tech support", 14: "Transportation"
-    }
-    occupation_label = occupation_mapping.get(int(row["occupation"]), "Unknown")
-    
-    relationship_mapping = {
-        0: "Husband", 1: "Not in family", 2: "Other relative",
-        3: "Own child", 4: "Unmarried partner", 5: "Wife"
-    }
-    relationship_label = relationship_mapping.get(int(row["relationship"]), "Unknown")
-    
-    # Simple country mapping (most common countries)
-    country_mapping = {
-        0: "Unknown", 1: "Cambodia", 2: "Canada", 3: "China", 4: "Columbia",
-        5: "Cuba", 6: "Dominican-Republic", 7: "Ecuador", 8: "El-Salvador",
-        9: "England", 10: "France", 11: "Germany", 12: "Greece", 13: "Guatemala",
-        14: "Haiti", 15: "Holand-Netherlands", 16: "Honduras", 17: "Hong Kong",
-        18: "Hungary", 19: "India", 20: "Iran", 21: "Ireland", 22: "Italy",
-        23: "Jamaica", 24: "Japan", 25: "Laos", 26: "Mexico", 27: "Nicaragua",
-        28: "Outlying-US", 29: "Peru", 30: "Philippines", 31: "Poland",
-        32: "Portugal", 33: "Puerto-Rico", 34: "Scotland", 35: "South",
-        36: "Taiwan", 37: "Thailand", 38: "Trinidad&Tobago", 39: "United-States",
-        40: "Vietnam", 41: "Yugoslavia"
-    }
-    native_country_label = country_mapping.get(int(row["native-country"]), "Unknown")
-
-    return INSTANCE_DESCRIPTION_TEMPLATE.format(
-        age=int(row["age"]),
-        education_num=int(row["education-num"]),
-        hours_per_week=float(row["hours-per-week"]),
-        capital_gain=float(row["capital-gain"]),
-        capital_loss=float(row["capital-loss"]),
-        workclass_label=workclass_label,
-        occupation_label=occupation_label,
-        sex_label=sex_label,
-        race_label=race_label,
-        married_label=married_label,
-        relationship_label=relationship_label,
-        native_country_label=native_country_label,
-        income_pred=int(row["income"]),
-    )
-
-
-
-COUNTERFACTUAL_EXPLANATION = """
-You are also given a small table with one row called 'original' and several rows called 'cf_1', 'cf_2', etc.
-
-- The 'original' row shows this person's current feature values and the model's current prediction.
-- Each 'cf_k' row is a counterfactual version of this person:
-  it shows a change to some of the features that would flip the model's prediction to the opposite class.
-  Refer to cf_k as "counterfactual k" in your explanation.
-
-In other words:
-- The original row corresponds to the current situation.
-- Each counterfactual row corresponds to a "what if" scenario where some change in the person's situation would be enough for the model to predict an income greater than 50K instead of smaller or equal than 50K (or vice versa).
-
-The features age, sex, and race must be treated as fixed personal attributes.
-They are not allowed to change in the counterfactuals and you must not suggest changing them.
-You do not need to mention the unchangeability of age, sex, or race. 
-Changes are only allowed in education-num, hours-per-week, capital-gain, capital-loss, married, workclass, occupation, relationship, or native-country.
-Refer to these features as "education level", "hours worked per week", "capital gains", "capital losses", "marital status", "type of employment", "occupation", "family relationship", and "country of residence" in your explanation.
-Or use similar clear, non-technical language.
+APPLICANT_INFORMATION = """
+3. APPLICANT PROFILE 
 """
 
+SHAP_VALUES_SECTION = """
+4. FEATURE IMPORTANCE ANALYSIS (Ranked by Influence)
+"""
+
+INSTRUCTIONS_SECTION = """
+5. YOUR NARRATIVE TASK
+"""
+
+COUNTERFACTUAL_EXPLANATION_DETAILS = """
+2. COUNTERFACTUAL ANALYSIS (Alternative Scenarios)
+
+You are given a table comparing the applicant's current situation (original) with alternative scenarios (counterfactuals cf_1, cf_2, etc.):
+
+- The 'original' row shows the applicant's actual feature values and the model's actual prediction (bad credit risk).
+- Each 'cf_k' row shows what would happen if certain features changed - representing scenarios where the model WOULD approve the loan.
+
+In other words: Each counterfactual is a "what if" scenario showing the minimum feature changes needed to flip the model's prediction from "bad credit risk" to "good credit". This helps answer: "What would need to be different for the application to be approved?"
+
+Financial characteristics like credit amount, duration, employment status, and savings can change in real scenarios. The counterfactuals show which combinations of changes would be most effective.
+"""
 
 SHAP_EXPLANATION = """
-You are also given SHAP values for this person's prediction.
+2. TECHNICAL EXPLANATION: SHAP VALUES
 
-SHAP values are a way to understand how much each feature contributes to the model's prediction for this specific person.
-Think of it as a breakdown showing which features pushed the prediction up or down compared to the average prediction.
+You are given SHAP values for this customer's prediction.
 
+SHAP values explain how much each feature contributes to the model's prediction for this specific customer.
 Each feature has a SHAP value that tells you:
-- How much that feature influenced the model's decision for this person.
-- Whether it pushed the prediction toward income > 50K (positive contribution) or income <= 50K (negative contribution).
-- The larger the absolute value, the more important that feature was for this particular prediction.
+- How much that feature influenced the model's decision for this customer.
+- Whether it pushed the prediction toward "bad credit risk" (positive contribution) or "good credit" (negative contribution).
+- Larger absolute values indicate features with stronger influence on the prediction.
 
-For this person:
-- The base value (average prediction) is the starting point.
-- Each feature's SHAP value is added or subtracted from this base.
-- The sum of all SHAP values plus the base value equals the model's final prediction for this person.
-
-Features with large positive SHAP values are the main reasons the model predicted income > 50K.
-Features with large negative SHAP values are the main reasons the model predicted income <= 50K.
-
-The features age, sex, and race are treated as fixed characteristics and cannot be changed to improve the prediction.
+Features are ranked by their absolute SHAP values, with the most influential features listed first.
+Features with positive SHAP values contributed toward a "bad credit risk" prediction.
+Features with negative SHAP values contributed toward a "good credit" prediction.
 """
 
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-- You are given SHAP values that explain the model's prediction for this specific person.
-- It is your job to summarize which features had the strongest influence on the prediction.
-- Provide an end user with a clear understanding of why the model made this prediction.
-- Identify which features pushed the prediction in the positive direction (toward income > 50K) and which pushed it in the negative direction (toward income <= 50K).
-- You must talk in terms of feature importance and directional influence. Quantify the relative strength of each feature's contribution.
+Your goal is to generate a textual explanation or narrative explaining why the model made this prediction for this customer.
 
 Write a detailed narrative explanation for a non-technical reader that explains:
-1) The current prediction for this person and what their overall situation looks like.
-2) The base value (average prediction) and how this person's features compare to that baseline.
-3) Which features had the strongest positive influence on the prediction (pushing it toward income > 50K). Explain why these features are important.
-4) Which features had the strongest negative influence on the prediction (pushing it toward income <= 50K). Explain why these features are important.
-5) A summary of the overall story: which factors are the primary drivers of this prediction, and how they interact.
+1) The model's predicted probability of bad credit and what this means for the customer.
+2) Which features were most important in driving this prediction.
+3) How each important feature contributed (either pushing toward bad credit or toward good credit).
+4) The relative importance ranking of features based on their influence.
+5) A summary of the overall story: which factors are the primary drivers of this prediction.
 
 CONSTRAINTS:
-- Only use information from the dataset description, the original instance description, and the SHAP values.
-- Do NOT invent new SHAP values or new feature contributions.
-- Do NOT suggest that age, sex, or race should be changed. 
-- Do not talk about model internals, algorithms, probabilities, loss functions, or training details.
-- Rank features by the absolute magnitude of their SHAP values when describing importance.
+- Only use information from the dataset description, instance description, and SHAP values table.
+- Do NOT invent new SHAP values or numerical values.
+- Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
+- Do not talk about model internals, algorithms, or training details.
+- Focus on the direction (positive/negative contribution) and relative ranking of features.
 
 STYLE:
-- Length: aim for around 12-15 sentences.
-- Tone: neutral, explanatory, patient, and educational.
-- Focus on translating SHAP values into human-understandable feature importance rankings.
-- Do not use bullet points or tables; write a coherent, flowing narrative.
-- Don't refer to categories of features as their number, but use real-world names. For example, say "PhD" instead of education level 13.
-- You are directly talking to the person in the original instance. Be polite, empathic, and respectful.
-- Emphasize that this explanation shows what the model learned, not a judgment of the person.
-
+- Length: 12-15 sentences.
+- Tone: neutral, explanatory, respectful.
+- Write a coherent narrative without bullet points or tables. The goal is to have a narrative/story.
+- Directly address the customer. Be empathic and respectful.
+- Consider the relative magnitude of feature importance when discussing their roles in the decision.
 """
 
-MANY_CF_PROMPT_INSTRUCTIONS = """
+
+COUNTERFACTUAL_PROMPT_INSTRUCTIONS = """
 TASK:
 - You are given a table of counterfactuals for the same original instance.
-- It is your job to summarize what the model seems to consider important for changing the prediction. If a change to a feature in order to change the target class is counterintuitive and seems wrong, don't mention it. 
-- Provide an end user with actionable insights that do change the predicted class.
-- At the same time, provide a numeric summary of the counterfactuals. This means saying how many counterfactuals changed which features, and by how much on average.
-- You must talk in explicit percentages (in %) and averages where relevant. Don't refer to individual counterfactuals, except for in the last phrase.
+- Summarize what the model considers important for changing the predicted credit risk class.
+- Provide concrete, actionable insights about which feature changes would shift the prediction.
+- Provide a numeric summary: which features always/never change, and by how much on average.
 
-Write a detailed narrative explanation for a non-technical reader that explains:
-1) The current prediction for the original person and what their situation looks like.
-2) Quantified summary over all counterfactuals: mention how many total counterfactuals the were generated,
-and extract the most relevant features. If relevant, include which features were often changed together as this might contain extra information. 
-3) Based on the situation of the current person and the quantified summary, provide the best actionable insights for this person to actually change the predicted class. 
-Make sure that your suggestions change the target class and explicitely mention that following these suggestions does change the target class. 
-4) Provide, based on your insights, the best counterfactual given this context in the last phrase. Explicitely refer to this counterfactual.  
-
-CONSTRAINTS:
-- Only use information from the dataset description, the original instance description, and the counterfactual table.
-- Do NOT invent new feature values or new counterfactual examples.
-- Do NOT suggest changing age, sex, or race; mention explicitly that these are treated as fixed characteristics if relevant.
-- Only discuss changes in education-num, hours-per-week, capital-gain, capital-loss, married, workclass, occupation, relationship, or native-country.
-- If several counterfactuals show a similar pattern (e.g. education-num is always higher), highlight that pattern explicitly.
-- Do not talk about model internals, algorithms, probabilities, loss functions, or training details.
-- DO NOT refer to individual counterfactuals, except for the last phrase; focus on the overall patterns you see in the data.
-- Use a maximum of 20 sentences. 
-
-STYLE:
-- Length: aim for around 10-15 sentences.
-- Tone: neutral, explanatory, and patient.
-- Focus on making the link between the specific numbers in the table and the qualitative story.
-- Do not use bullet points or tables; write a coherent, flowing narrative.
-- Do not refer to cf_k in technical terms; refer to them as "counterfactual k".
-- Don't refer to categories of features as their number, but use real-world names. For example, say "PhD" instead of education level 13. 
-- You are directly talking to the person in the original instance. Be polite, empathic, and respectful.
-
-"""
-
-NEW_CF_PROMPT_INSTRUCTIONS = """
-TASK:
-- You are given a table of counterfactuals for the same original instance.
-- It is your job to summarize what the model seems to consider important for changing the predicted target class. 
-- The end user will use this narrative (summary) and interact with it to find out which changed work best for them to alter the predicted class. 
-- It's very important to keep in mind that the user will use the provided information to base their preferences on. 
-- Provide an end user with concrete actionable insights that do change the predicted class.
-- At the same time, provide a numeric summary of the counterfactuals. This means saying how many counterfactuals changed which features and by how much on average. 
-- You must talk in explicit percentages (in %) and averages where relevant. Don't refer to individual counterfactuals. 
-
-Write a detailed narrative explanation for a non-technical reader that explains:
-1) Start by shortly going over the current prediction for the original instance and what their situation looks like.
-2) Explain in one phrase what it means that the counterfactuals were generated. You are talking to lay-people. 
-3) Mention briefly, if applicable, which features always changed in the counterfactuals, and which features never changed. Be explicit about this and convey to the user that they HAVE (or not) to change this feature in order to flip the predicted class. 
-4) Quantified summary over all counterfactuals: mention how many total counterfactuals the were generated, and extract the most relevant features. 
-5) Specifically mention which features always (never) change, be clear that these are MUST (NOT) changes.
-6) Specifically mention which features always or often changed together in order to change the predicted class.  
-7) Finally, ask the end user based on the summary which features they seem fit to change and, in the case of continuous features, by how much. 
+Write a detailed narrative explanation for a non-technical reader:
+1) Briefly summarize the current prediction and credit situation.
+2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
+3) Specify which features always changed (MUST changes) and which never changed.
+4) Quantified summary: how many counterfactuals were generated, which features changed most often.
+5) Describe which features changed together - this shows effective combination patterns.
+6) End with actionable guidance: based on patterns, which features are realistic to change and by approximately how much.
 
 CONSTRAINTS:
-- Only use information from the dataset description, the original instance description, and the counterfactual table.
-- Do NOT invent new feature values or new counterfactual examples.
-- Do NOT suggest changing age, sex, or race; mention explicitly that these are treated as fixed characteristics if relevant.
-- Only discuss changes in education-num, hours-per-week, capital-gain, capital-loss, married, workclass, occupation, relationship, or native-country.
-- If several counterfactuals show a similar pattern (e.g. education-num is always higher), highlight that pattern explicitly.
-- Do not talk about model internals, algorithms, probabilities, loss functions, or training details.
-- DO NOT refer to individual counterfactuals, focus on the overall patterns you see in the data.
-- Use a maximum of 20 sentences. 
+- Only use information from dataset description, instance description, and counterfactual table.
+- Do NOT invent new feature values or examples.
+- Do NOT refer to individual counterfactuals; discuss overall patterns only.
+- Do not talk about model internals or training details.
+- Use realistic ranges when discussing feature changes.
 
 STYLE:
-- Length: aim for around 15 sentences.
-- Tone: neutral, explanatory, and patient.
-- Focus on making the link between the specific numbers in the table and the qualitative story.
-- Do not use bullet points or tables; write a coherent, flowing narrative.
-- Do not refer to cf_k in technical terms; refer to them as "counterfactual k".
-- Don't refer to categories of features as their number, but use real-world names. For example, say "PhD" instead of education level 13. 
-- You are directly talking to the person in the original instance. Be polite, empathic, and respectful. Use "you" statements.
-- You are expecting a user prompt including user preferences after reading your narrative. Keep this in mind when writing the narrative, but don't mention it explicitly.
-
+- Length: 15-18 sentences.
+- Tone: neutral, explanatory, helpful.
+- Write a coherent narrative without bullet points or tables.
+- Directly address the customer. Be respectful and empathic.
+- Focus on actionable insights the customer can implement.
 """
-PROMPT_INSTRUCTIONS = {
-    "many": MANY_CF_PROMPT_INSTRUCTIONS,  
-    "new": NEW_CF_PROMPT_INSTRUCTIONS,
-}
-def build_cf_prompt(cf_table, prompt_type: str = "many") -> str:
+
+
+def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
     """
-    Build a counterfactual prompt for a given cf_table and prompt type.
-
-    prompt_type must be one of the keys in PROMPT_INSTRUCTIONS
+    Build a SHAP explanation prompt by loading from the SHAP CSV.
+    
+    Parameters:
+    - instance_index: the instance index to explain (e.g., 438, 89, etc.)
+    - shap_csv_path: path to the SHAP CSV file (defaults to credit_dataset/credit_shap.csv)
+    
+    Returns:
+    - Full prompt string ready for LLM
     """
-    if prompt_type not in PROMPT_INSTRUCTIONS:
-        raise ValueError(
-            f"Unknown prompt_type '{prompt_type}'. "
-            f"Available types: {list(PROMPT_INSTRUCTIONS.keys())}"
-        )
-
-    # original row
-    original = cf_table.loc["original"]
-    instance_desc = describe_instance(original)
-
-    # counterfactual table as Markdown
-    table_str = cf_table.to_markdown(index=True)
-
-    instructions = PROMPT_INSTRUCTIONS[prompt_type]
-
-    prompt = f"""
+    if shap_csv_path is None:
+        shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_shap.csv"
+    
+    # Load SHAP values
+    shap_df = pd.read_csv(shap_csv_path)
+    shap_row = shap_df[shap_df['instance_index'] == instance_index]
+    
+    if shap_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in SHAP CSV")
+    
+    shap_values = shap_row.iloc[0]
+    
+    # Extract base_value and predicted_probability
+    base_value = shap_values.get('base_value', np.nan)
+    predicted_probability = shap_values.get('predicted_probability', np.nan)
+    
+    # Load corresponding original data
+    test_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
+    adverse_df = pd.read_csv(test_csv_path, index_col=0)
+    original_instance = adverse_df.loc[instance_index]
+    prediction = original_instance['predicted_class']
+    
+    # Extract SHAP values (remove instance_index and SHAP_ prefix)
+    shap_dict = {}
+    for col in shap_values.index:
+        if col.startswith('SHAP_'):
+            feature_name = col[5:]  # Remove 'SHAP_' prefix
+            shap_dict[feature_name] = shap_values[col]
+    
+    # Create instance description (excluding metadata columns)
+    feature_cols = [col for col in original_instance.index if col not in ['predicted_class', 'prediction_score', 'actual_target', 'instance_index']]
+    instance_row = original_instance[feature_cols]
+    
+    instance_desc = describe_instance(instance_row, prediction)
+    
+    # Create SHAP table as simple text
+    shap_table_df = pd.DataFrame({
+        'Feature': list(shap_dict.keys()),
+        'SHAP_Value': list(shap_dict.values())
+    }).sort_values('SHAP_Value', key=abs, ascending=False)
+    
+    shap_table = shap_table_df.to_string(index=False)
+    
+    # Format predicted_probability for display
+    pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
+    
+    prompt = f"""{PROMPT_PREAMBLE}
+{DATASET_EXPLANATION}
 {DATASET_DESCRIPTION}
 
+{SHAP_EXPLANATION}
+
+{APPLICANT_INFORMATION}
 {instance_desc}
 
-{COUNTERFACTUAL_EXPLANATION}
+The model's prediction:
+- Predicted probability of bad credit: {pred_prob_str}
 
-Here is the table with the original instance and its counterfactuals:
+{SHAP_VALUES_SECTION}
+{shap_table}
+
+{INSTRUCTIONS_SECTION}
+{SHAP_PROMPT_INSTRUCTIONS}
+"""
+    return prompt
+
+
+def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None) -> str:
+    """
+    Build a counterfactual prompt by loading from the CSV files.
+    
+    Parameters:
+    - instance_index: the instance index to explain (e.g., 438, 89, etc.)
+    - cf_csv_path: path to counterfactual CSV (defaults to credit_dataset/credit_counterfactual.csv)
+    - adverse_csv_path: path to adverse CSV (defaults to credit_dataset/credit_adverse.csv)
+    
+    Returns:
+    - Full prompt string ready for LLM
+    """
+    if cf_csv_path is None:
+        cf_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_counterfactual.csv"
+    if adverse_csv_path is None:
+        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
+    
+    # Load original instance
+    adverse_df = pd.read_csv(adverse_csv_path, index_col=0)
+    original = adverse_df.loc[instance_index]
+    prediction = original['predicted_class']
+    
+    # Load counterfactuals for this instance
+    cf_df = pd.read_csv(cf_csv_path)
+    cf_rows = cf_df[cf_df['instance_index'] == float(instance_index)]
+    
+    if cf_rows.empty:
+        raise ValueError(f"No counterfactuals found for instance {instance_index}")
+    
+    # Create table with original + counterfactuals
+    # Extract feature columns only (exclude metadata like CF_number, distance_to_original)
+    feature_cols = [col for col in cf_rows.columns 
+                   if col not in ['instance_index', 'CF_number', 'distance_to_original']]
+    
+    table_data = []
+    
+    # Add original row
+    original_features = original[feature_cols]
+    table_data.append(dict(row_type='original', **original_features))
+    
+    # Add counterfactuals
+    for idx, cf_row in cf_rows.iterrows():
+        cf_data = {'row_type': f"cf_{int(cf_row['CF_number'])}"}
+        for col in feature_cols:
+            cf_data[col] = cf_row[col]
+        table_data.append(cf_data)
+    
+    table_df = pd.DataFrame(table_data).set_index('row_type')
+    
+    # Create instance description (excluding metadata)
+    instance_features = original[[c for c in original.index if c not in ['predicted_class', 'prediction_score', 'actual_target']]]
+    instance_desc = describe_instance(instance_features, prediction)
+    
+    table_str = table_df.to_string()
+    
+    prompt = f"""{PROMPT_PREAMBLE}
+{DATASET_EXPLANATION}
+{DATASET_DESCRIPTION}
+
+{TARGET_EXPLANATION}
+Target Variable: {DATASET_INFO.get("target_description", "N/A")}
+ML Task: {DATASET_INFO.get("task_description", "N/A")}
+
+{COUNTERFACTUAL_EXPLANATION_DETAILS}
+
+{APPLICANT_INFORMATION}
+{instance_desc}
+
+================================================================================
+4. COUNTERFACTUAL SCENARIOS TABLE
+================================================================================
 
 {table_str}
 
-{instructions}
-    """.strip()
-
+{INSTRUCTIONS_SECTION}
+{COUNTERFACTUAL_PROMPT_INSTRUCTIONS}
+"""
     return prompt
+
+
+if __name__ == "__main__":
+    """Example usage: generate and display prompts for review"""
+    
+    # Example instance indices from credit_adverse.csv
+    example_indices = [438]
+    
+    print("=" * 80)
+    print("CREDIT DATASET PROMPT GENERATION EXAMPLES")
+    print("=" * 80)
+    print()
+    
+    for idx in example_indices:
+        try:
+            print(f"\n{'='*80}")
+            print(f"INSTANCE {idx} - SHAP EXPLANATION PROMPT")
+            print(f"{'='*80}\n")
+            shap_prompt = build_shap_prompt(idx)
+            print(shap_prompt)
+            print()
+        except Exception as e:
+            print(f"Error generating SHAP prompt for instance {idx}: {e}\n")
+        
+        try:
+            print(f"\n{'='*80}")
+            print(f"INSTANCE {idx} - COUNTERFACTUAL PROMPT")
+            print(f"{'='*80}\n")
+            cf_prompt = build_cf_prompt(idx)
+            print(cf_prompt)
+            print()
+        except Exception as e:
+            print(f"Error generating CF prompt for instance {idx}: {e}\n")
+        
+        break  # Just show first instance to avoid too much output

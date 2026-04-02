@@ -65,6 +65,12 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     explainer = shap.TreeExplainer(rf_model)
     shap_values = explainer.shap_values(adverse_features)
     
+    # Get base value (expected value) for bad credit class (class 1)
+    if isinstance(explainer.expected_value, (list, np.ndarray)):
+        base_value = explainer.expected_value[1]
+    else:
+        base_value = explainer.expected_value
+    
     # For binary classification, TreeExplainer returns shap values as a list [class_0, class_1]
     # Use class 1 (bad class) shap values
     if isinstance(shap_values, list):
@@ -85,6 +91,10 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
         index=adverse_features.index
     )
     shap_df.index.name = 'instance_index'
+    
+    # Add base_value and instance prediction_score columns
+    shap_df.insert(0, 'base_value', base_value)
+    shap_df.insert(1, 'predicted_probability', adverse_df.loc[adverse_features.index, 'prediction_score'].values)
         
     # Save SHAP values
     shap_output_path = os.path.join(dataset_path, f'{dataset_name}_shap.csv')
