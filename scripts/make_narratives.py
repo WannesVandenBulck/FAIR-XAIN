@@ -1,118 +1,227 @@
-import os
-import pickle
-import pandas as pd
-import numpy as np
-import sys
-from pathlib import Path
+"""
+Generate LLM narratives for SHAP and Counterfactual explanations.
 
-current_file = Path(__file__).resolve()
-ROOT = current_file.parent if (current_file.parent / "data").exists() else current_file.parent.parent
+Usage:
+    python scripts/make_narratives_new.py --dataset saudi --prompt-type shap --instances 62 63 71
+    python scripts/make_narratives_new.py --dataset credit --prompt-type cf --all-instances
+    python scripts/make_narratives_new.py --dataset law --prompt-type shap --model claude-3-opus
+"""
+
+import os
+import sys
+import json
+import argparse
+import pandas as pd
+from pathlib import Path
+from datetime import datetime
+
+# Add parent directory to path to find llm_tools
+ROOT = Path(__file__).parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from llm_tools.prompts.prompt_adult import (
-    DATASET_DESCRIPTION, 
-    SHAP_EXPLANATION, 
-    SHAP_PROMPT_INSTRUCTIONS,
-    describe_instance
-)
+# Import prompt modules
+from llm_tools.prompts import prompt_saudi, prompt_credit, prompt_law, prompt_student
 from llm_tools.llm_client import generate_text
 
-# --- CONFIG ---
-DATA_DIR = os.path.join(ROOT, "data")
 
-GENERATE_SHAP_NARRATIVES = True
-GENERATE_CF_NARRATIVES = False
-
-# Process all groups: original + counterfactual attribute swaps
-GROUPS = [
-    "minority",
-    "majority", 
-    "minority_with_majority_race",
-    "majority_with_minority_race"
-]
-
-SHAP_NARRATIVES_DIRS = {
-    group: os.path.join(DATA_DIR, "shap_narratives", group) 
-    for group in GROUPS
+# Dataset configuration
+DATASETS = {
+    "saudi": prompt_saudi,
+    "credit": prompt_credit,
+    "law": prompt_law,
+    "student": prompt_student,
 }
 
-for dir_path in SHAP_NARRATIVES_DIRS.values():
-    os.makedirs(dir_path, exist_ok=True)
+# LLM provider configuration
+LLM_PROVIDERS = ["openai", "anthropic", "ollama"]
+LLM_MODELS = {
+    "openai": ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"],
+    "anthropic": ["claude-3-opus-20240229", "claude-3-sonnet-20240229", "claude-3-haiku-20240307"],
+    "ollama": ["llama2", "mistral"],
+}
 
-LLM_PROVIDER = "openai"
-LLM_MODEL = "gpt-4o"
 
-def build_shap_prompt(shap_data, instance_idx, instance_data):
-    shap_vals = shap_data['shap_values']
-    feature_names = shap_data['feature_names']
-    base_value = shap_data['base_value']
-    instance_shap = shap_vals[instance_idx]
+def get_available_instances(dataset_name, prompt_type):
+    """Get available instance indices for a dataset and prompt type."""
+    prompt_module = DATASETS[dataset_name]
     
-    shap_table_data = []
-    for feat_name, feat_val, shap_val in zip(feature_names, instance_data.values, instance_shap):
-        shap_arr = np.asarray(shap_val).flatten()
-        shap_table_data.append({
-            "feature": feat_name,
-            "value": round(float(feat_val), 3),
-            "shap_value": round(float(shap_arr[0]), 4)
-        })
+    if prompt_type == "shap":
+        shap_csv = f"datasets_prep/data/{dataset_name}_dataset/{dataset_name}_shap.csv"
+        df = pd.read_csv(shap_csv)
+    else:  # counterfactual
+        cf_csv = f"datasets_prep/data/{dataset_name}_dataset/{dataset_name}_counterfactual.csv"
+        df = pd.read_csv(cf_csv)
     
-    shap_df = pd.DataFrame(shap_table_data)
+    return sorted(df['instance_index'].unique())
+
+
+def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai", model=None):
+    """
+    Generate a narrative for a given instance using LLM.
     
-    # Extract scalar base value
-    base_val = np.asarray(base_value).flatten()[0]
+    Args:
+        dataset_name: One of "saudi", "credit", "law", "student"
+        instance_idx: Instance index (must be in SHAP or CF CSV)
+        prompt_type: "shap" or "cf"
+        provider: LLM provider ("openai", "anthropic", "ollama")
+        model: Specific model name
+    
+    Returns:
+        dict with keys: "instance_idx", "prompt_type", "narrative", "model", "timestamp", "status"
+    """
+    result = {
+        "dataset": dataset_name,
+        "instance_idx": instance_idx,
+        "prompt_type": prompt_type,
+        "provider": provider,
+        "model": model or ("gpt-4o" if provider == "openai" else "claude-3-opus-20240229"),
+        "timestamp": datetime.now().isoformat(),
+        "status": "pending",
+        "narrative": None,
+        "error": None
+    }
     
     try:
-        instance_desc = describe_instance(instance_data)
-    except KeyError:
-        instance_desc = "Instance features:\n" + "\n".join(
-            f"- {name}: {round(float(val), 3)}" for name, val in zip(feature_names, instance_data.values)
+        prompt_module = DATASETS[dataset_name]
+        
+        # Build full prompt using dataset-specific functions
+        if prompt_type == "shap":
+            full_prompt = prompt_module.build_shap_prompt(instance_idx)
+        elif prompt_type == "cf":
+            full_prompt = prompt_module.build_cf_prompt(instance_idx)
+        else:
+            raise ValueError(f"Unknown prompt type: {prompt_type}")
+        
+        # Call LLM API
+        messages = [
+            {
+                "role": "system",
+                "content": "You are an expert at explaining machine learning predictions to non-technical users. Write clear, empathetic narratives that help people understand model decisions."
+            },
+            {"role": "user", "content": full_prompt}
+        ]
+        
+        narrative = generate_text(
+            messages,
+            provider=provider,
+            model=result["model"],
+            temperature=0,
+            max_tokens=4096
         )
+        
+        result["narrative"] = narrative
+        result["status"] = "success"
+        
+    except Exception as e:
+        result["status"] = "error"
+        result["error"] = str(e)
     
-    prompt = f"""{DATASET_DESCRIPTION}
+    return result
 
-{SHAP_EXPLANATION}
 
-{instance_desc}
+def save_result(result, output_dir):
+    """Save result to JSON file."""
+    dataset = result["dataset"]
+    instance = result["instance_idx"]
+    prompt_type = result["prompt_type"]
+    provider = result["provider"]
+    
+    # Create directory structure
+    result_dir = Path(output_dir) / dataset / "narratives" / prompt_type / provider
+    result_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Save as JSON
+    filepath = result_dir / f"instance_{instance}.json"
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+    
+    return filepath
 
-SHAP values:
-{shap_df.to_string(index=False)}
 
-Base value: {round(float(base_val), 4)}
+def main():
+    parser = argparse.ArgumentParser(description="Generate LLM narratives for SHAP/CF explanations")
+    
+    parser.add_argument("--dataset", required=True, choices=list(DATASETS.keys()),
+                        help="Dataset to process")
+    parser.add_argument("--prompt-type", required=True, choices=["shap", "cf"],
+                        help="Prompt type")
+    parser.add_argument("--instances", nargs="+", type=int, default=None,
+                        help="Specific instance indices to process")
+    parser.add_argument("--all-instances", action="store_true",
+                        help="Process all available instances")
+    parser.add_argument("--provider", choices=LLM_PROVIDERS, default="openai",
+                        help="LLM provider")
+    parser.add_argument("--model", type=str, default=None,
+                        help="Specific model name")
+    parser.add_argument("--output-dir", default="results/narratives",
+                        help="Output directory for results")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Show what would be processed without calling LLM")
+    
+    args = parser.parse_args()
+    
+    # Determine instances to process
+    if args.all_instances:
+        instances = get_available_instances(args.dataset, args.prompt_type)
+    elif args.instances:
+        instances = args.instances
+    else:
+        parser.error("Must specify --instances or --all-instances")
+    
+    print(f"Dataset: {args.dataset}")
+    print(f"Prompt type: {args.prompt_type}")
+    print(f"Provider: {args.provider}")
+    print(f"Model: {args.model or ('gpt-4o' if args.provider == 'openai' else 'default')}")
+    print(f"Instances to process: {len(instances)} instances")
+    print(f"Output directory: {args.output_dir}")
+    
+    if args.dry_run:
+        print(f"\n[DRY RUN] Would process instances: {instances[:10]}{'...' if len(instances) > 10 else ''}")
+        return
+    
+    # Process instances
+    results = []
+    for i, instance_idx in enumerate(instances, 1):
+        print(f"\n[{i}/{len(instances)}] Processing instance {instance_idx}...", end=" ")
+        
+        try:
+            result = generate_narrative(
+                args.dataset,
+                instance_idx,
+                args.prompt_type,
+                provider=args.provider,
+                model=args.model
+            )
+            results.append(result)
+            
+            # Save individual result
+            filepath = save_result(result, args.output_dir)
+            
+            if result["status"] == "success":
+                print(f"✓ Saved to {filepath}")
+            else:
+                print(f"✗ Error: {result['error']}")
+        
+        except Exception as e:
+            print(f"✗ Exception: {str(e)}")
+            results.append({
+                "dataset": args.dataset,
+                "instance_idx": instance_idx,
+                "prompt_type": args.prompt_type,
+                "status": "error",
+                "error": str(e),
+                "timestamp": datetime.now().isoformat()
+            })
+    
+    # Print summary
+    successful = sum(1 for r in results if r["status"] == "success")
+    failed = sum(1 for r in results if r["status"] == "error")
+    
+    print(f"\n{'='*60}")
+    print(f"Summary: {successful} successful, {failed} failed out of {len(results)} total")
+    print(f"Results saved to: {args.output_dir}")
 
-{SHAP_PROMPT_INSTRUCTIONS}
-"""
-    return prompt
 
 if __name__ == "__main__":
-    for group in GROUPS:
-        SHAP_PATH = os.path.join(DATA_DIR, "shap", group, "shap_values.pkl")
-        SHAP_NARRATIVES_DIR = SHAP_NARRATIVES_DIRS[group]
-        
-        if not os.path.exists(SHAP_PATH):
-            print(f"Skipping {group}: no SHAP file found")
-            continue
-        
-        with open(SHAP_PATH, "rb") as f:
-            shap_data = pickle.load(f)
-        
-        X_explain = pd.DataFrame(shap_data['X_explain'], columns=shap_data['feature_names'])
-        num_instances = shap_data['num_instances']
-        
-        for idx in range(num_instances):
-            instance_data = X_explain.iloc[idx]
-            
-            if GENERATE_SHAP_NARRATIVES:
-                prompt = build_shap_prompt(shap_data, idx, instance_data)
-                
-                messages = [
-                    {"role": "system", "content": "You are an expert at explaining machine learning predictions to non-technical users."},
-                    {"role": "user", "content": prompt},
-                ]
-                
-                narrative = generate_text(messages, provider=LLM_PROVIDER, model=LLM_MODEL)
-                
-                out_path = os.path.join(SHAP_NARRATIVES_DIR, f"instance_{idx}.md")
-                with open(out_path, "w", encoding="utf-8") as f:
-                    f.write(f"# Instance {idx}\n\n{narrative}")
+    main()

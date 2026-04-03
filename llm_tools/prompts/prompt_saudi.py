@@ -81,34 +81,34 @@ def describe_instance(row, prediction):
 # ===== PROMPT TEMPLATES =====
 
 PROMPT_PREAMBLE_SHAP = """
-A machine learning model predicted that a job applicant will LEAVE their position and therefore the job offer was REJECTED.
+A machine learning model predicted that an employee will LEAVE their position and therefore a promotion offer was REJECTED.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the applicant understand:
 - Why the model made this prediction
 - Which factors were most important in this decision
-- How their specific situation compared to typical employees
+- How their specific situation compared to other employees
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to dataset averages
+3. APPLICANT PROFILE: The employee's specific feature values with comparisons to dataset averages
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
 
 PROMPT_PREAMBLE_CF = """
-A machine learning model predicted that a job applicant will LEAVE their position and therefore the job offer was REJECTED.
+A machine learning model predicted that an employee will LEAVE their position and therefore a promotion offer was REJECTED.
 
 YOUR TASK: Summarize the following counterfactual scenarios into a clear, non-technical narrative explanation that helps the applicant understand:
 - Why the model made this prediction
 - Which factors were most important in this decision
-- How their specific situation compared to typical employees
+- How their specific situation compared to other employees
 - What changes would be needed to flip the prediction to "will stay" and get the job offer accepted
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. COUNTERFACTUAL EXPLANATION: Information about what counterfactuals are and how to interpret them
-3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to dataset averages and the model's predicted probability of leaving
+3. APPLICANT PROFILE: The employee's specific feature values with comparisons to dataset averages and the model's predicted probability of leaving
 4. COUNTERFACTUAL SCENARIOS TABLE: A table showing the original instance and multiple counterfactual scenarios with feature changes that would flip the prediction
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -132,9 +132,9 @@ INSTRUCTIONS_SECTION = """
 COUNTERFACTUAL_EXPLANATION_DETAILS = """
 2. COUNTERFACTUAL ANALYSIS (Alternative Scenarios)
 
-You are given a table comparing the applicant's current situation (original) with alternative scenarios (counterfactuals cf_1, cf_2, etc.):
+You are given a table comparing the employee's current situation (original) with alternative scenarios (counterfactuals cf_1, cf_2, etc.):
 
-- The 'original' row shows the applicant's actual feature values and the model's actual prediction (will leave).
+- The 'original' row shows the employee's actual feature values and the model's actual prediction (will leave).
 - Each 'cf_k' row shows what would happen if certain features changed - representing scenarios where the model WOULD predict staying.
 
 In other words: Each counterfactual is a "what if" scenario showing the minimum feature changes needed to flip the model's prediction from "will leave" to "will stay". This helps answer: "What would need to be different for the job offer to be accepted?"
@@ -381,7 +381,6 @@ The model's prediction:
 
 4. COUNTERFACTUAL SCENARIOS TABLE
 
-
 {table_str}
 
 {INSTRUCTIONS_SECTION}
@@ -390,18 +389,3 @@ The model's prediction:
     return prompt
 
 
-if __name__ == "__main__":
-    """Example usage: generate and display prompts for review"""
-    
-    # Example instance indices from saudi_adverse.csv
-    example_indices = [10]
-    
-    for idx in example_indices:
-        print(f"\n{'='*80}")
-        print(f"SHAP PROMPT for instance {idx}")
-        print(f"{'='*80}\n")
-        try:
-            prompt = build_shap_prompt(idx)
-            print(prompt)
-        except ValueError as e:
-            print(f"Error: {e}")

@@ -390,18 +390,3 @@ The model's prediction:
     return prompt
 
 
-if __name__ == "__main__":
-    """Example usage: generate and display prompts for review"""
-    
-    # Example instance indices from student_adverse.csv
-    example_indices = [1]
-    
-    for idx in example_indices:
-        print(f"\n{'='*80}")
-        print(f"SHAP PROMPT for instance {idx}")
-        print(f"{'='*80}\n")
-        try:
-            prompt = build_shap_prompt(idx)
-            print(prompt)
-        except ValueError as e:
-            print(f"Error: {e}")

@@ -390,37 +390,3 @@ The model's prediction:
 """
     return prompt
 
-
-if __name__ == "__main__":
-    """Example usage: generate and display prompts for review"""
-    
-    # Example instance indices from credit_adverse.csv
-    example_indices = [438]
-    
-    print("=" * 80)
-    print("CREDIT DATASET PROMPT GENERATION EXAMPLES")
-    print("=" * 80)
-    print()
-    
-    for idx in example_indices:
-        try:
-            print(f"\n{'='*80}")
-            print(f"INSTANCE {idx} - SHAP EXPLANATION PROMPT")
-            print(f"{'='*80}\n")
-            shap_prompt = build_shap_prompt(idx)
-            print(shap_prompt)
-            print()
-        except Exception as e:
-            print(f"Error generating SHAP prompt for instance {idx}: {e}\n")
-        
-        try:
-            print(f"\n{'='*80}")
-            print(f"INSTANCE {idx} - COUNTERFACTUAL PROMPT")
-            print(f"{'='*80}\n")
-            cf_prompt = build_cf_prompt(idx)
-            print(cf_prompt)
-            print()
-        except Exception as e:
-            print(f"Error generating CF prompt for instance {idx}: {e}\n")
-        
-        break  # Just show first instance to avoid too much output
