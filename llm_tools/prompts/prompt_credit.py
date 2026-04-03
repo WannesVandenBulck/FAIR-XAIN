@@ -71,8 +71,6 @@ def create_instance_description_from_row(row, prediction):
 Feature values:
 {chr(10).join(feature_lines)}
 
-The model's prediction:
-- credit_risk = {prediction}  (0 = good credit, 1 = bad credit risk)
 """
     return instance_desc
 
@@ -82,7 +80,7 @@ def describe_instance(row, prediction):
 
 
 
-PROMPT_PREAMBLE = """
+PROMPT_PREAMBLE_SHAP = """
 A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the applicant understand:
@@ -95,6 +93,22 @@ INFORMATION YOU WILL RECEIVE:
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
 3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to dataset averages
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
+5. CLEAR INSTRUCTIONS: What narrative you should write
+"""
+PROMPT_PREAMBLE_CF = """
+A machine learning model predicted that a loan applicant represents a BAD CREDIT RISK and therefore their loan application was DENIED.
+
+YOUR TASK: Summarize the following counterfactual scenarios into a clear, non-technical narrative explanation that helps the applicant understand:
+- Why the model made this prediction
+- Which factors were most important in this decision
+- How their specific situation compared to typical applicants
+- What changes would be needed to flip the prediction to "good credit" and get the loan approved
+
+INFORMATION YOU WILL RECEIVE:
+1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
+2. COUNTERFACTUAL EXPLANATION: Information about what counterfactuals are and how to interpret them
+3. APPLICANT PROFILE: The applicant's specific feature values with comparisons to dataset averages and the model's predicted probability of bad credit
+4. COUNTERFACTUAL SCENARIOS TABLE: A table showing the original instance and multiple counterfactual scenarios with feature changes that would flip the prediction
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
 
@@ -225,8 +239,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
     
     shap_values = shap_row.iloc[0]
     
-    # Extract base_value and predicted_probability
-    base_value = shap_values.get('base_value', np.nan)
+    # Extract predicted_probability
     predicted_probability = shap_values.get('predicted_probability', np.nan)
     
     # Load corresponding original data
@@ -259,9 +272,12 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
     # Format predicted_probability for display
     pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
     
-    prompt = f"""{PROMPT_PREAMBLE}
+    # Get fresh dataset description (compute dynamically instead of using module-level variable)
+    dataset_desc = get_dataset_description()
+    
+    prompt = f"""{PROMPT_PREAMBLE_SHAP}
 {DATASET_EXPLANATION}
-{DATASET_DESCRIPTION}
+{dataset_desc}
 
 {SHAP_EXPLANATION}
 
@@ -280,7 +296,7 @@ The model's prediction:
     return prompt
 
 
-def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None) -> str:
+def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None) -> str:
     """
     Build a counterfactual prompt by loading from the CSV files.
     
@@ -288,6 +304,7 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     - instance_index: the instance index to explain (e.g., 438, 89, etc.)
     - cf_csv_path: path to counterfactual CSV (defaults to credit_dataset/credit_counterfactual.csv)
     - adverse_csv_path: path to adverse CSV (defaults to credit_dataset/credit_adverse.csv)
+    - shap_csv_path: path to SHAP CSV for predicted_probability (defaults to credit_dataset/credit_shap.csv)
     
     Returns:
     - Full prompt string ready for LLM
@@ -296,11 +313,21 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
         cf_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_counterfactual.csv"
     if adverse_csv_path is None:
         adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_adverse.csv"
+    if shap_csv_path is None:
+        shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "credit_shap.csv"
     
     # Load original instance
     adverse_df = pd.read_csv(adverse_csv_path, index_col=0)
     original = adverse_df.loc[instance_index]
     prediction = original['predicted_class']
+    
+    # Load predicted_probability from SHAP CSV
+    shap_df = pd.read_csv(shap_csv_path)
+    shap_row = shap_df[shap_df['instance_index'] == instance_index]
+    if shap_row.empty:
+        predicted_probability = np.nan
+    else:
+        predicted_probability = shap_row.iloc[0]['predicted_probability']
     
     # Load counterfactuals for this instance
     cf_df = pd.read_csv(cf_csv_path)
@@ -334,23 +361,27 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     instance_desc = describe_instance(instance_features, prediction)
     
     table_str = table_df.to_string()
-    
-    prompt = f"""{PROMPT_PREAMBLE}
-{DATASET_EXPLANATION}
-{DATASET_DESCRIPTION}
 
-{TARGET_EXPLANATION}
-Target Variable: {DATASET_INFO.get("target_description", "N/A")}
-ML Task: {DATASET_INFO.get("task_description", "N/A")}
+    # Format predicted_probability for display
+    pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
+    
+    # Get fresh dataset description (compute dynamically instead of using module-level variable)
+    dataset_desc = get_dataset_description()
+    
+    prompt = f"""{PROMPT_PREAMBLE_CF}
+{DATASET_EXPLANATION}
+{dataset_desc}
 
 {COUNTERFACTUAL_EXPLANATION_DETAILS}
 
 {APPLICANT_INFORMATION}
 {instance_desc}
 
-================================================================================
+The model's prediction:
+- Predicted probability of bad credit: {pred_prob_str}
+
 4. COUNTERFACTUAL SCENARIOS TABLE
-================================================================================
+
 
 {table_str}
 
