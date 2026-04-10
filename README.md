@@ -9,7 +9,7 @@ $ prompts can be made for all datasets for both SHAPstories and CFstories genera
 
 # Walkthrough code 
 
-$ 1. prep_{dataset}.py files exist to prepare the datasets fit for logistic regression models. Logistic regression models are trained and evaluated. Also contain contextual information and information on features used in the prompts. Everything is saved under {dataset}_dataset folders, that thus contain (a) cleaned training and test set (parquet file), (b) trained RF model (pickle file) and (c) dataset info. 
+$ 1. prep_{dataset}.ipynb files exist to prepare the datasets fit for random forest models. Random forest models are trained and evaluated. Also contain contextual information and information on features used in the prompts. Everything is saved under {dataset}_dataset folders, that thus contain (a) cleaned training and test set (parquet file), (b) trained RF model (pickle file) and (c) dataset info. 
 
 $ 2. predictions.py uses the random forest machine learning models to predict whether an instance from any dataset belongs to the adverse class or not. The adversely predicted instances are saves as {dataset}_adverse.csv in the {dataset}_dataset folder. 
 

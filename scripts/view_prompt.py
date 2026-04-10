@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Add workspace root to Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from llm_tools.prompts import prompt_saudi, prompt_credit, prompt_law, prompt_student
 import pandas as pd
 
