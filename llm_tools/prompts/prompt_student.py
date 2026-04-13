@@ -8,12 +8,8 @@ DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "dat
 
 def load_dataset_info():
     """Load dataset info from pickle file"""
-    try:
-        with open(DATASET_INFO_PATH, 'rb') as f:
-            return pickle.load(f)
-    except Exception as e:
-        print(f"Warning: Could not load dataset_info from {DATASET_INFO_PATH}: {e}")
-        return None
+    with open(DATASET_INFO_PATH, 'rb') as f:
+        return pickle.load(f)
 
 DATASET_INFO = load_dataset_info()
 
@@ -32,15 +28,12 @@ Target: {target}
 
 ML Task: {task}"""
 
-DATASET_DESCRIPTION = get_dataset_description()
-
-def create_instance_description_from_row(row, prediction):
+def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
     
     Parameters:
     - row: pandas Series with feature values
-    - prediction: model prediction (0 or 1)
     """
     if DATASET_INFO is None:
         # Fallback for when dataset_info isn't available
@@ -74,9 +67,9 @@ Feature values:
 """
     return instance_desc
 
-def describe_instance(row, prediction):
-    """Wrapper around create_instance_description_from_row"""
-    return create_instance_description_from_row(row, prediction)
+def describe_instance(row):
+    """Generate instance description from row"""
+    return create_instance_description_from_row(row)
 
 # ===== PROMPT TEMPLATES =====
 
@@ -229,7 +222,7 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
     if shap_csv_path is None:
         shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "student_shap.csv"
     
-    # Load SHAP values
+    # Load SHAP values (instance_index is now an explicit column)
     shap_df = pd.read_csv(shap_csv_path)
     shap_row = shap_df[shap_df['instance_index'] == instance_index]
     
@@ -243,8 +236,13 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
     
     # Load corresponding original data
     test_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "student_adverse.csv"
-    adverse_df = pd.read_csv(test_csv_path, index_col=0)
-    original_instance = adverse_df.loc[instance_index]
+    adverse_df = pd.read_csv(test_csv_path)
+    adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
+    
+    if adverse_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
+    
+    original_instance = adverse_row.iloc[0]
     prediction = original_instance['predicted_class']
     
     # Extract SHAP values (remove instance_index and SHAP_ prefix)
@@ -255,10 +253,11 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
             shap_dict[feature_name] = shap_values[col]
     
     # Create instance description (excluding metadata columns)
-    feature_cols = [col for col in original_instance.index if col not in ['predicted_class', 'prediction_score', 'actual_target', 'instance_index']]
+    feature_cols = [col for col in original_instance.index if col not in 
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
     instance_row = original_instance[feature_cols]
     
-    instance_desc = describe_instance(instance_row, prediction)
+    instance_desc = describe_instance(instance_row)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
@@ -315,9 +314,14 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     if shap_csv_path is None:
         shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "student_dataset" / "student_shap.csv"
     
-    # Load original instance
-    adverse_df = pd.read_csv(adverse_csv_path, index_col=0)
-    original = adverse_df.loc[instance_index]
+    # Load original instance (instance_index is now an explicit column)
+    adverse_df = pd.read_csv(adverse_csv_path)
+    adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
+    
+    if adverse_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
+    
+    original = adverse_row.iloc[0]
     prediction = original['predicted_class']
     
     # Load predicted_probability from SHAP CSV
@@ -328,17 +332,17 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     else:
         predicted_probability = shap_row.iloc[0]['predicted_probability']
     
-    # Load counterfactuals for this instance
+    # Load counterfactuals for this instance (use integer comparison, no float conversion)
     cf_df = pd.read_csv(cf_csv_path)
-    cf_rows = cf_df[cf_df['instance_index'] == float(instance_index)]
+    cf_rows = cf_df[cf_df['instance_index'] == instance_index]
     
     if cf_rows.empty:
         raise ValueError(f"No counterfactuals found for instance {instance_index}")
     
     # Create table with original + counterfactuals
-    # Extract feature columns only (exclude metadata like CF_number, distance_to_original)
-    feature_cols = [col for col in cf_rows.columns 
-                   if col not in ['instance_index', 'CF_number', 'distance_to_original']]
+    # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original)
+    feature_cols = [col for col in adverse_df.columns 
+                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
     
     table_data = []
     
@@ -356,8 +360,9 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     table_df = pd.DataFrame(table_data).set_index('row_type')
     
     # Create instance description (excluding metadata)
-    instance_features = original[[c for c in original.index if c not in ['predicted_class', 'prediction_score', 'actual_target']]]
-    instance_desc = describe_instance(instance_features, prediction)
+    instance_features = original[[c for c in original.index if c not in 
+                                   ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]]
+    instance_desc = describe_instance(instance_features)
     
     table_str = table_df.to_string()
 

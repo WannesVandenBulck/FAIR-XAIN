@@ -41,9 +41,9 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     target_col = config['target_col']
     adverse_file = config['adverse_file']
     
-    # Load adverse predictions
+    # Load adverse predictions (instance_index is now an explicit column, not index)
     adverse_path = os.path.join(dataset_path, adverse_file)
-    adverse_df = pd.read_csv(adverse_path, index_col=0)
+    adverse_df = pd.read_csv(adverse_path)
         
     # Load the RF model
     model_path = os.path.join(dataset_path, 'RF.pkl')
@@ -55,21 +55,15 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     test_df = pd.read_parquet(test_path)
     test_features = test_df.drop(columns=[target_col])
     
-    # Get only the feature columns (exclude prediction-related columns)
+    # Get only the feature columns (exclude prediction-related columns and instance_index)
     feature_cols = [col for col in adverse_df.columns if col not in 
-                    ['predicted_class', 'prediction_score', 'actual_target']]
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
     adverse_features = adverse_df[feature_cols].copy()
     
     # ===== SHAP VALUES =====
     # Use TreeSHAP for RF models
     explainer = shap.TreeExplainer(rf_model)
     shap_values = explainer.shap_values(adverse_features)
-    
-    # Get base value (expected value) for bad credit class (class 1)
-    if isinstance(explainer.expected_value, (list, np.ndarray)):
-        base_value = explainer.expected_value[1]
-    else:
-        base_value = explainer.expected_value
     
     # For binary classification, TreeExplainer returns shap values as a list [class_0, class_1]
     # Use class 1 (bad class) shap values
@@ -84,21 +78,21 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     if shap_values.ndim == 1:
         shap_values = shap_values.reshape(-1, 1)
     
-    # Create dataframe with SHAP values (with instance index)
+    # Create dataframe with SHAP values (with explicit instance_index column)
     shap_df = pd.DataFrame(
         shap_values,
-        columns=[f'SHAP_{col}' for col in feature_cols],
-        index=adverse_features.index
+        columns=[f'SHAP_{col}' for col in feature_cols]
     )
-    shap_df.index.name = 'instance_index'
     
-    # Add base_value and instance prediction_score columns
-    shap_df.insert(0, 'base_value', base_value)
-    shap_df.insert(1, 'predicted_probability', adverse_df.loc[adverse_features.index, 'prediction_score'].values)
+    # Add instance_index and original_test_index as first columns from adverse_df
+    shap_df.insert(0, 'instance_index', adverse_df['instance_index'].values)
+    shap_df.insert(1, 'original_test_index', adverse_df['original_test_index'].values)
+    # Add instance prediction_score column
+    shap_df.insert(2, 'predicted_probability', adverse_df['prediction_score'].values)
         
     # Save SHAP values
     shap_output_path = os.path.join(dataset_path, f'{dataset_name}_shap.csv')
-    shap_df.to_csv(shap_output_path)
+    shap_df.to_csv(shap_output_path, index=False)
     
     # ===== COUNTERFACTUALS (using NICE Algorithm) =====    
     # Get predictions for test set to identify good class instances
@@ -116,32 +110,43 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
                                 algorithm='ball_tree').fit(good_class_instances.values)
         
         # Generate counterfactuals for each adverse instance
-        for idx, (index, instance) in enumerate(adverse_features.iterrows()):
-            if (idx + 1) % max(1, len(adverse_features) // 10) == 0:
-                print(f"    Processing instance {idx + 1}/{len(adverse_features)}")
+        for adverse_idx, (_, adverse_row) in enumerate(adverse_df.iterrows()):
+            if (adverse_idx + 1) % max(1, len(adverse_df) // 10) == 0:
+                print(f"    Processing instance {adverse_idx + 1}/{len(adverse_df)}")
             
             try:
+                # Get the feature values for this adverse instance
+                instance = adverse_row[feature_cols].values.reshape(1, -1)
+                instance_idx_val = adverse_row['instance_index']
+                original_idx_val = adverse_row['original_test_index']
+                
                 # Find nearest neighbors in good class using NICE
-                distances, indices = nbrs.kneighbors(instance.values.reshape(1, -1))
+                distances, indices = nbrs.kneighbors(instance)
                 
                 # Extract the nearest instances as counterfactuals
                 for cf_idx, neighbor_idx in enumerate(indices[0]):
                     cf_instance = good_class_instances.iloc[neighbor_idx].copy()
-                    cf_instance['instance_index'] = index
+                    cf_instance['instance_index'] = instance_idx_val
+                    cf_instance['original_test_index'] = original_idx_val
                     cf_instance['CF_number'] = cf_idx + 1
                     cf_instance['distance_to_original'] = distances[0][cf_idx]
                     all_counterfactuals.append(cf_instance)
                     
             except Exception as e:
-                print(f"    Warning: Could not generate counterfactuals for instance {index}: {str(e)}")
+                print(f"    Warning: Could not generate counterfactuals for instance {adverse_idx}: {str(e)}")
         
         print(f"  Generated {len(all_counterfactuals)} total counterfactuals using NICE")
         
         # Create counterfactual dataframe
         cf_df = pd.DataFrame(all_counterfactuals)
         
-        # Reorganize columns: instance_index first, then CF_number, then features
-        cols = ['instance_index', 'CF_number', 'distance_to_original']
+        # Reorganize columns: instance_index and original_test_index first, then CF metadata
+        # Ensure instance_index, original_test_index, and CF_number are integer types
+        cf_df['instance_index'] = cf_df['instance_index'].astype(int)
+        cf_df['original_test_index'] = cf_df['original_test_index'].astype(int)
+        cf_df['CF_number'] = cf_df['CF_number'].astype(int)
+        
+        cols = ['instance_index', 'original_test_index', 'CF_number', 'distance_to_original']
         feature_cf_cols = [col for col in cf_df.columns if col not in cols]
         cf_df = cf_df[cols + feature_cf_cols]
         

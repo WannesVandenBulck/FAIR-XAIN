@@ -4,8 +4,8 @@
   "prompt_type": "shap",
   "provider": "openai",
   "model": "gpt-4o",
-  "timestamp": "2026-04-03T17:18:54.743290",
-  "status": "success",
-  "narrative": "Dear Applicant,\n\nI understand that receiving a loan denial can be disappointing, and I want to help you understand why this decision was made. Our model predicted a 51.5% probability that you might be a bad credit risk, which led to the denial of your loan application. This prediction is based on several factors from your financial profile compared to typical applicants.\n\nThe most influential factor in this decision was the purpose of your loan, which was for a new car. This purpose, in the context of our dataset, tends to be associated with a higher risk. Additionally, the amount you requested was significantly lower than the average, which actually worked in your favor, suggesting a lower risk. However, the status of your checking account, which indicates a balance between 0 and 200 DM, was another factor that leaned slightly towards a higher risk.\n\nYour property status, indicating ownership of real estate, was a positive factor, suggesting stability and reducing perceived risk. On the other hand, your relatively short duration at your current residence compared to the average applicant slightly increased the risk perception. Your credit history, which shows existing credits paid till now, was a positive aspect, indicating reliability in managing past debts.\n\nOther factors, such as your age and personal status, had minor influences but generally leaned towards a positive credit assessment. The model also considered your savings, employment duration, and installment rate, which had smaller impacts on the decision.\n\nIn summary, while there were positive aspects of your profile, such as your credit history and property ownership, the purpose of the loan and the status of your checking account were primary drivers that led to the prediction of a higher credit risk. I hope this explanation provides clarity, and I encourage you to consider these factors if you decide to reapply in the future. Thank you for your understanding.",
-  "error": null
+  "timestamp": "2026-04-13T17:11:01.394214",
+  "status": "error",
+  "narrative": null,
+  "error": "Instance 67 not found in SHAP CSV"
 }

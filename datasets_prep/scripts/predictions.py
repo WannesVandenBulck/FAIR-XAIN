@@ -55,14 +55,23 @@ def make_predictions(dataset_name, config):
     test_proba = rf_model.predict_proba(test_features)[:, 1]
     
     # Filter for class 1 predictions (bad class) from test set
-    test_adverse = test_features[test_pred == 1].copy()
-    test_adverse['predicted_class'] = test_pred[test_pred == 1]
-    test_adverse['prediction_score'] = test_proba[test_pred == 1]
-    test_adverse['actual_target'] = test_target[test_pred == 1]
+    adverse_mask = test_pred == 1
+    test_adverse = test_features[adverse_mask].copy()
+    test_adverse['predicted_class'] = test_pred[adverse_mask]
+    test_adverse['prediction_score'] = test_proba[adverse_mask]
+    test_adverse['actual_target'] = test_target[adverse_mask]
     
-    # Save to CSV
+    # Capture original test set indices before resetting
+    original_indices = test_features[adverse_mask].index.values
+    
+    # Add explicit instance_index column (sequential 0, 1, 2, ...)
+    test_adverse.reset_index(drop=True, inplace=True)
+    test_adverse.insert(0, 'instance_index', range(len(test_adverse)))
+    test_adverse.insert(1, 'original_test_index', original_indices)
+    
+    # Save to CSV without index (instance_index is now an explicit column)
     output_path = os.path.join(dataset_path, f'{output_file}.csv')
-    test_adverse.to_csv(output_path)
+    test_adverse.to_csv(output_path, index=False)
     
     print(f"  Saved {len(test_adverse)} adverse instances to {output_path}")
     
