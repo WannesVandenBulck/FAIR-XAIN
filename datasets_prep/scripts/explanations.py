@@ -8,6 +8,9 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configuration
+# Target encoding across all datasets:
+#   1 = adverse/bad class (bad credit, failed exam, left company, failed final exams)
+#   0 = favorable/good class (good credit, passed exam, stayed, passed final exams)
 NUM_COUNTERFACTUALS = 3  # Change this to generate different numbers of counterfactuals
 
 # Define dataset configurations
@@ -15,30 +18,39 @@ datasets = {
     'credit': {
         'path': r'datasets_prep/data/credit_dataset',
         'target_col': 'credit_risk',
+        'target_name': 'target_credit',        # Standardized column name (1=bad credit risk, 0=good)
         'adverse_file': 'credit_adverse.csv'
     },
     'law': {
         'path': r'datasets_prep/data/law_dataset',
         'target_col': 'bar',
+        'target_name': 'target_law',           # Standardized column name (1=failed bar exam, 0=passed)
         'adverse_file': 'law_adverse.csv'
     },
     'saudi': {
         'path': r'datasets_prep/data/saudi_dataset',
         'target_col': 'Attrition',
+        'target_name': 'target_saudi',         # Standardized column name (1=left company, 0=stayed)
         'adverse_file': 'saudi_adverse.csv'
     },
     'student': {
         'path': r'datasets_prep/data/student_dataset',
         'target_col': 'target',
+        'target_name': 'target_student',       # Standardized column name (1=failed final exams, 0=passed)
         'adverse_file': 'student_adverse.csv'
     }
 }
 
 def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
-    """Generate SHAP values and counterfactuals for adverse predictions."""
+    """Generate SHAP values and counterfactuals for adverse predictions.
+    
+    Only processes instances with class 1 (adverse outcome).
+    Adds target variable with standardized name to SHAP and CF outputs.
+    """
         
     dataset_path = config['path']
     target_col = config['target_col']
+    target_name = config['target_name']  # Standardized target column name
     adverse_file = config['adverse_file']
     
     # Load adverse predictions (instance_index is now an explicit column, not index)
@@ -55,9 +67,10 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     test_df = pd.read_parquet(test_path)
     test_features = test_df.drop(columns=[target_col])
     
-    # Get only the feature columns (exclude prediction-related columns and instance_index)
+    # Get only the feature columns (exclude metadata like instance_index, predictions, and target)
+    # Target variable has been renamed to standardized name (e.g., target_credit, target_law, etc.)
     feature_cols = [col for col in adverse_df.columns if col not in 
-                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', target_name]]
     adverse_features = adverse_df[feature_cols].copy()
     
     # ===== SHAP VALUES =====

@@ -58,7 +58,7 @@ except Exception as e:
 
 # Save to file
 filename = f"prompt_{name}_{idx}_{prompt_type}.txt"
-with open(filename, 'w') as f:
+with open(filename, 'w', encoding='utf-8') as f:
     f.write(full_prompt)
 
 print(full_prompt)

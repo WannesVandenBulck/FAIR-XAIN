@@ -14,19 +14,25 @@ def load_dataset_info():
 DATASET_INFO = load_dataset_info()
 
 def get_dataset_description():
-    """Generate dataset description from loaded info"""
+    """Generate dataset description from loaded info with clear target encoding."""
     if DATASET_INFO is None:
-        return ""
+        base_desc = ""
+    else:
+        desc = DATASET_INFO.get("dataset_description", "")
+        target = DATASET_INFO.get("target_description", "")
+        task = DATASET_INFO.get("task_description", "")
+        base_desc = f"{desc}\n\nTarget Variable: {target}\n\nML Task: {task}"
     
-    desc = DATASET_INFO.get("dataset_description", "")
-    target = DATASET_INFO.get("target_description", "")
-    task = DATASET_INFO.get("task_description", "")
+    # Add clear target encoding explanation
+    target_encoding = """
+Target Encoding (target_student):
+- 1 (model predicted 1) = FAILED FINAL EXAMS: Student is predicted to fail the final exams (flagged as at-risk)
+- 0 (not predicted, favorable) = PASSED FINAL EXAMS: Student showed strong performance and would pass
+
+The model makes predictions for class 1 (failed final exams). This explanation covers instances where the model predicted 1.
+"""
     
-    return f"""{desc}
-
-Target: {target}
-
-ML Task: {task}"""
+    return base_desc + target_encoding if base_desc else target_encoding
 
 def create_instance_description_from_row(row):
     """

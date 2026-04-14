@@ -3,34 +3,46 @@ import pickle
 import os
 
 # Define dataset configurations
+# Target encoding: 1 = adverse/bad class (denied credit, failed exam, left company, failed exams)
+#                 0 = favorable/good class (approved credit, passed exam, stayed, passed exams)
 datasets = {
     'credit': {
         'path': r'datasets_prep/data/credit_dataset',
-        'target_col': 'credit_risk',
+        'target_col': 'credit_risk',           # Original column name in raw data
+        'target_name': 'target_credit',        # Standardized column name (1=bad credit risk, 0=good)
         'output_file': 'credit_adverse'
     },
     'law': {
         'path': r'datasets_prep/data/law_dataset',
-        'target_col': 'bar',
+        'target_col': 'bar',                   # Original column name in raw data
+        'target_name': 'target_law',           # Standardized column name (1=failed bar exam, 0=passed)
         'output_file': 'law_adverse'
     },
     'saudi': {
         'path': r'datasets_prep/data/saudi_dataset',
-        'target_col': 'Attrition',
+        'target_col': 'Attrition',             # Original column name in raw data
+        'target_name': 'target_saudi',         # Standardized column name (1=left company, 0=stayed)
         'output_file': 'saudi_adverse'
     },
     'student': {
         'path': r'datasets_prep/data/student_dataset',
-        'target_col': 'target',
+        'target_col': 'target',                # Original column name in raw data
+        'target_name': 'target_student',       # Standardized column name (1=failed final exams, 0=passed)
         'output_file': 'student_adverse'
     }
 }
 
 def make_predictions(dataset_name, config):
-    """Load model and make predictions for the test set."""
+    """Load model and make predictions for the test set.
+    
+    Predictions are filtered for class 1 (adverse/bad class).
+    Target variable is renamed to standardized name (e.g., target_credit).
+    The target value 1 represents the adverse outcome for each dataset.
+    """
     
     dataset_path = config['path']
-    target_col = config['target_col']
+    target_col = config['target_col']  # Original column name
+    target_name = config['target_name']  # Standardized column name
     output_file = config['output_file']
     
     print(f"\nProcessing {dataset_name} dataset...")
@@ -45,8 +57,10 @@ def make_predictions(dataset_name, config):
     test_df = pd.read_parquet(test_path)
     
     # Separate features and target
+    # Target value 1 = adverse outcome (e.g., bad credit, failed exam, left company)
+    # Target value 0 = favorable outcome (e.g., good credit, passed exam, stayed)
     test_features = test_df.drop(columns=[target_col])
-    test_target = test_df[target_col]
+    test_target = test_df[target_col].rename(target_name)  # Rename to standardized name
     
     # Make predictions on test set
     test_pred = rf_model.predict(test_features)
@@ -54,12 +68,12 @@ def make_predictions(dataset_name, config):
     # Get prediction probabilities for class 1 (bad class)
     test_proba = rf_model.predict_proba(test_features)[:, 1]
     
-    # Filter for class 1 predictions (bad class) from test set
+    # Filter for class 1 predictions (adverse class: bad credit, failed exam, etc.)
     adverse_mask = test_pred == 1
     test_adverse = test_features[adverse_mask].copy()
     test_adverse['predicted_class'] = test_pred[adverse_mask]
     test_adverse['prediction_score'] = test_proba[adverse_mask]
-    test_adverse['actual_target'] = test_target[adverse_mask]
+    test_adverse[target_name] = test_target[adverse_mask]  # Use standardized target name
     
     # Capture original test set indices before resetting
     original_indices = test_features[adverse_mask].index.values
