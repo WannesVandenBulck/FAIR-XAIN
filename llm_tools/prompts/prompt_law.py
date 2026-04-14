@@ -37,6 +37,7 @@ The model makes predictions for class 1 (failed bar exam). This explanation cove
 def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
+    For categorical features, displays distribution; for numerical features, displays average.
     
     Parameters:
     - row: pandas Series with feature values
@@ -54,13 +55,22 @@ def create_instance_description_from_row(row):
             feature_info = feature_df[feature_df['feature_name'] == col]
             if not feature_info.empty:
                 desc = feature_info.iloc[0]['feature_desc']
-                avg = feature_info.iloc[0]['feature_average']
-                # Handle numeric and non-numeric values
-                try:
-                    value_str = f"{float(value):.2f}"
-                    avg_str = f"{float(avg):.2f}"
-                    feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
-                except (ValueError, TypeError):
+                distribution = feature_info.iloc[0].get('feature_distribution')
+                avg = feature_info.iloc[0].get('feature_average')
+                
+                # If distribution exists (categorical feature), show distribution; otherwise show average (numerical)
+                if pd.notna(distribution) and distribution is not None:
+                    # Categorical feature - show distribution
+                    feature_lines.append(f"- {col} = {value} - Distribution: {distribution} - {desc}")
+                elif pd.notna(avg) and avg is not None:
+                    # Numerical feature - show average
+                    try:
+                        value_str = f"{float(value):.2f}"
+                        avg_str = f"{float(avg):.2f}"
+                        feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
+                    except (ValueError, TypeError):
+                        feature_lines.append(f"- {col} = {value} - {desc}")
+                else:
                     feature_lines.append(f"- {col} = {value} - {desc}")
             else:
                 feature_lines.append(f"- {col} = {value}")
@@ -80,26 +90,26 @@ def describe_instance(row):
 # ===== PROMPT TEMPLATES =====
 
 PROMPT_PREAMBLE_SHAP = """
-A machine learning model predicted that a student will FAIL the bar exam and therefore their application was REJECTED.
+A machine learning model predicted that a student will FAIL the bar exam and therefore their application for university admission was REJECTED.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the student understand:
-- Why the model made this prediction
+- Why the model rejected their application
 - Which factors were most important in this decision
 - How their specific situation compared to typical students
 
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. TECHNICAL EXPLANATION METHOD: How we measure feature importance (SHAP values)
-3. STUDENT PROFILE: The student's specific feature values with comparisons to dataset averages
+3. STUDENT PROFILE: The student's specific feature values with comparisons to dataset averages and distributions
 4. FEATURE IMPORTANCE ANALYSIS: SHAP values showing which features most influenced the decision
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
 
 PROMPT_PREAMBLE_CF = """
-A machine learning model predicted that a student will FAIL the bar exam and therefore their application was REJECTED.
+A machine learning model predicted that a student will FAIL the bar exam and therefore their application for university admission was REJECTED.
 
 YOUR TASK: Summarize the following counterfactual scenarios into a clear, non-technical narrative explanation that helps the student understand:
-- Why the model made this prediction
+- Why the model rejected their application
 - Which factors were most important in this decision
 - How their specific situation compared to typical students
 - What changes would be needed to flip the prediction to "pass the exam" and get the application approved
@@ -107,7 +117,7 @@ YOUR TASK: Summarize the following counterfactual scenarios into a clear, non-te
 INFORMATION YOU WILL RECEIVE:
 1. DATASET INFORMATION: Context about the dataset, target variable and ML task used to train the model
 2. COUNTERFACTUAL EXPLANATION: Information about what counterfactuals are and how to interpret them
-3. STUDENT PROFILE: The student's specific feature values with comparisons to dataset averages and the model's predicted probability of failure
+3. STUDENT PROFILE: The student's specific feature values with comparisons to dataset averages and distributions, and the model's predicted probability of failure
 4. COUNTERFACTUAL SCENARIOS TABLE: A table showing the original instance and multiple counterfactual scenarios with feature changes that would flip the prediction
 5. CLEAR INSTRUCTIONS: What narrative you should write
 """
@@ -159,14 +169,15 @@ Features with negative SHAP values contributed toward a "will pass" prediction.
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a textual explanation or narrative explaining why the model made this prediction for this student.
+Your goal is to generate a textual explanation or narrative explaining why the model rejected this student.
 
 Write a detailed narrative explanation for a non-technical reader that explains:
-1) The model's predicted probability of failing the bar exam and what this means for the student.
-2) Which features were most important in driving this prediction.
-3) How each important feature contributed (either pushing toward failure or toward passing).
-4) The relative importance ranking of features based on their influence.
-5) A summary of the overall story: which factors are the primary drivers of this prediction.
+1) The student's current situation based on their feature values
+2) The model's predicted probability of failing the bar exam and what this means for the student.
+3) Which features were most important in driving this prediction.
+4) How each important feature contributed (either pushing toward failure or toward passing).
+5) The relative importance ranking of features based on their influence.
+6) A summary of the overall story: which factors are the primary drivers of this prediction.
 
 CONSTRAINTS:
 - Only use information from the dataset description, instance description, and SHAP values table.
@@ -191,7 +202,7 @@ TASK:
 - Discuss patterns: which features consistently need to change together to flip the prediction.
 
 Write a detailed narrative explanation for a non-technical reader:
-1) Briefly summarize the current prediction and academic situation.
+1) Briefly summarize the current prediction and the student's situation.
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
 3) Specify which features always changed (MUST changes) and which never changed.
 4) Quantified summary: how many counterfactuals were generated, which features changed most often.
@@ -346,9 +357,9 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
         raise ValueError(f"No counterfactuals found for instance {instance_index}")
     
     # Create table with original + counterfactuals
-    # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original)
+    # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original, and target)
     feature_cols = [col for col in adverse_df.columns 
-                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
+                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]
     
     table_data = []
     
@@ -365,9 +376,9 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     
     table_df = pd.DataFrame(table_data).set_index('row_type')
     
-    # Create instance description (excluding metadata)
+    # Create instance description (excluding metadata and target)
     instance_features = original[[c for c in original.index if c not in 
-                                   ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]]
+                                   ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]]
     instance_desc = describe_instance(instance_features)
     
     table_str = table_df.to_string()

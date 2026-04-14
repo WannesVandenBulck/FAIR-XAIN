@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:21:56.572305",
+  "status": "success",
+  "narrative": "Let's take a closer look at the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal profile, such as your grades, LSAT score, and family background.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the bar exam and having your application approved.\n\nIn examining these scenarios, we notice that some features consistently need to change to flip the prediction. For instance, your undergraduate GPA and racial background were among the features that, when adjusted, often led to a more favorable prediction. Specifically, increasing your GPA slightly above its current level and considering the racial background adjustments were common changes in these scenarios. On the other hand, features like your LSAT score and whether you work full-time or part-time did not need to change in these scenarios, indicating they were less critical in altering the prediction.\n\nAcross the counterfactual scenarios generated, the most frequent changes involved your GPA and racial background. These features often changed together, suggesting that improving your academic performance while considering the broader context of your background could be an effective strategy.\n\nBased on these patterns, a realistic and actionable step would be to focus on slightly improving your GPA, as even a modest increase could significantly impact the prediction. Additionally, understanding how your background is perceived and finding ways to highlight your unique strengths and experiences could also be beneficial. While some changes might be more challenging to implement, focusing on academic improvement is a tangible step you can take to enhance your chances of success.",
+  "error": null
+}

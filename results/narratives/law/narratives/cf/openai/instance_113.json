@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 113,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:25:42.636527",
+  "status": "success",
+  "narrative": "Let's take a closer look at the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, family income, and LSAT score.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that some features consistently need to change to flip the prediction. For instance, your undergraduate GPA and family income bracket are two areas where adjustments could make a significant difference. In the scenarios we analyzed, increasing your GPA closer to or above the average of 3.21 and moving your family income bracket slightly higher were common changes that led to a positive prediction.\n\nOut of the scenarios generated, the most frequent changes involved your GPA and family income. These features often changed together, suggesting that improving both your academic performance and financial support could be an effective strategy. Interestingly, some features, like your LSAT score and whether you work full-time, did not need to change in these scenarios, indicating they might be less critical in altering the prediction.\n\nBased on these patterns, focusing on improving your GPA by even a small margin could be a realistic and impactful step. Additionally, exploring ways to enhance your family's financial support, perhaps through scholarships or part-time work, might also help. By targeting these areas, you could increase your chances of passing the bar exam and having your application approved. Remember, these are just guidelines, and every small improvement can contribute to a more favorable outcome.",
+  "error": null
+}

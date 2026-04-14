@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 43,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:21:01.063875",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, family income, and LSAT score, among others.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the bar exam. By examining these scenarios, we can identify which changes are most impactful.\n\nIn your case, the model suggests that certain features consistently need to change to flip the prediction. For instance, improving your undergraduate GPA and LSAT score are crucial. These features were highlighted as areas where your current values are below the average of typical students who pass. Additionally, working part-time instead of full-time could also positively influence the prediction, as it might allow more time for study and preparation.\n\nAcross the counterfactual scenarios, the most frequent changes involved increasing your LSAT score and undergraduate GPA. These changes often appeared together, indicating that improving both simultaneously could be particularly effective. For example, raising your LSAT score closer to the average of 36.7 and your GPA to around 3.3 could significantly enhance your chances.\n\nWhile some changes, like family income, are less within your control, focusing on academic improvements and adjusting your work schedule are more actionable. Consider dedicating additional time to LSAT preparation and seeking academic support to boost your GPA. These adjustments, though challenging, are realistic steps that could help shift the prediction in your favor. Remember, these insights are meant to guide you towards a more favorable outcome, and with dedication, you can work towards achieving your goals.",
+  "error": null
+}

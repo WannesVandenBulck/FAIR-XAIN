@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 122,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:26:20.879988",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, compared to typical students who have taken the exam.\n\nCounterfactuals are essentially \"what if\" scenarios that help us explore how changing certain aspects of your profile could lead to a different prediction—specifically, one where you pass the exam. These scenarios show the minimum changes needed to flip the prediction from failing to passing.\n\nIn your case, the model highlighted a few key areas. Your LSAT score and undergraduate GPA are slightly below the average of students who typically pass. The counterfactual scenarios suggest that improving your LSAT score and maintaining a strong GPA could significantly impact the prediction. Interestingly, some features, like your gender and racial background, did not change across scenarios, indicating they are not pivotal in altering the prediction.\n\nWe generated several counterfactual scenarios, and the most frequent changes involved your LSAT score and GPA. These features often changed together, suggesting that a combination of a higher LSAT score and a consistent GPA improvement could be effective in changing the prediction outcome.\n\nTo provide actionable guidance, focusing on improving your LSAT score by a few points and ensuring your GPA remains strong could be realistic and impactful steps. These changes align with the patterns observed in the counterfactual scenarios and could enhance your chances of passing the bar exam on the first try. Remember, these are just suggestions based on the model's analysis, and your dedication and effort in these areas can make a significant difference.",
+  "error": null
+}

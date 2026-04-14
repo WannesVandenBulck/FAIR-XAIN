@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:19:29.226464",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, LSAT score, and family income.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that certain features consistently need to change to flip the prediction. For instance, your academic performance, particularly your grades in Year 3, often needs to improve. Additionally, your undergraduate GPA is another area where a slight increase could make a significant difference. Interestingly, your LSAT score and family income did not frequently appear as factors needing change, suggesting they are less critical in altering the prediction.\n\nWe generated several counterfactual scenarios, and in most of them, improvements in your academic deciles and GPA were common. These changes often occurred together, indicating that a combination of better grades and a slightly higher GPA could be effective in shifting the prediction.\n\nBased on these patterns, focusing on improving your academic performance seems to be the most actionable step. For example, aiming to raise your Year 3 decile from 1.0 to around 2.0 and your GPA from 3.0 to approximately 3.3 could be realistic targets. These adjustments could enhance your chances of passing the bar exam and getting your application approved. Remember, these are just guidelines, and every small improvement can contribute positively to your overall profile.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:19:55.798613",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on various aspects of your academic and personal profile, such as your grades, family income, and study habits.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the bar exam and having your application approved.\n\nIn examining these scenarios, we notice that some features consistently need to change to flip the prediction. For instance, working full-time seems to be a significant factor. In scenarios where the prediction changed to passing, switching from full-time to part-time work was a common adjustment. This suggests that having more time to focus on your studies could positively impact your exam performance.\n\nInterestingly, some features, like your LSAT score and family income, did not need to change in any scenario to alter the prediction. This indicates that these aspects of your profile are already strong and not contributing to the prediction of failure.\n\nAcross the scenarios, the most frequent changes involved your employment status and, occasionally, a slight adjustment in your academic decile. These patterns suggest that reducing work commitments and slightly improving your academic standing could be effective strategies.\n\nIn terms of actionable guidance, consider exploring options to reduce your work hours, if feasible, to allow more time for study and preparation. Additionally, focusing on maintaining or slightly improving your academic performance could also help. These changes, while challenging, are realistic and could significantly increase your chances of passing the bar exam on your first try. Remember, these insights are meant to guide you in making informed decisions that align with your personal and academic goals.",
+  "error": null
+}

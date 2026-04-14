@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T14:56:50.566982",
+  "status": "success",
+  "narrative": "Hello, and thank you for reaching out to understand the prediction made by the model regarding your bar exam outcome. I understand that receiving a prediction of failing the bar exam can be disheartening, and I want to help clarify why this decision was made.\n\nThe model predicted a 50% probability that you might not pass the bar exam on your first attempt. This prediction was primarily influenced by several key factors from your academic and personal background. The most significant factor was your academic performance in Year 3, where your grades placed you in a lower decile compared to your peers. This suggests that your performance in that year was below average, which contributed to the model's prediction of a potential struggle with the bar exam.\n\nYour LSAT score also played a crucial role. It was notably lower than the average score of other students, which the model interpreted as a potential indicator of difficulty in passing the exam. Similarly, your academic performance in Year 1 and your family's income bracket were influential. Both were below the average levels seen in students who typically pass the bar exam, which further pushed the prediction towards a potential failure.\n\nOther factors, such as your undergraduate GPA and racial background, also contributed to the prediction, albeit to a lesser extent. Your GPA was slightly below average, and your racial background, being less common in the dataset, might have influenced the model's decision. Additionally, working full-time while studying was considered, but it had a smaller impact compared to the other factors.\n\nIn summary, the primary drivers of this prediction were your academic performance in Year 3, your LSAT score, and your Year 1 grades. These factors, combined with your family's income level, were the most influential in the model's assessment. It's important to remember that this prediction is not a definitive outcome but rather an assessment based on the data available. There are always opportunities to improve and succeed, and understanding these factors can help you focus on areas that might need more attention.",
+  "error": null
+}

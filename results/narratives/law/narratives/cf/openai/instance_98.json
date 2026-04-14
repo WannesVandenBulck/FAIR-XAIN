@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:24:38.985403",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts a 64% probability that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, LSAT score, and family income.\n\nTo help you understand what could change this prediction, we look at \"counterfactuals.\" These are hypothetical scenarios that show what would need to be different in your profile to flip the prediction from \"fail\" to \"pass.\" Think of them as \"what if\" situations that highlight the smallest changes necessary to achieve a different outcome.\n\nIn examining these scenarios, certain features consistently emerged as crucial for changing the prediction. Notably, your LSAT score and undergraduate GPA were the most frequently adjusted factors. In every scenario that led to a passing prediction, a slight increase in your LSAT score and GPA was necessary. Interestingly, your gender was also a factor that changed in these scenarios, although this is not something you can alter.\n\nAcross the counterfactual scenarios, the LSAT score was often increased by just one point, and the GPA was adjusted by a small margin, indicating that even minor improvements in these areas could significantly impact the prediction. These changes suggest that focusing on enhancing your test preparation and academic performance could be beneficial.\n\nWhile some features like your family income and racial background remained unchanged in these scenarios, the consistent pattern of LSAT and GPA adjustments highlights their importance. Therefore, it would be realistic and actionable to concentrate on improving your LSAT score and GPA. Consider dedicating more time to LSAT preparation and seeking academic support to boost your GPA. Even modest improvements in these areas could potentially change the outcome of your application in the future.",
+  "error": null
+}

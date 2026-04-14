@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 117,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:25:57.876372",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, family income, and LSAT score.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that some features consistently need to change to flip the prediction. For instance, your undergraduate GPA (ugpa) often appears as a critical factor. In several scenarios, a slight increase in your GPA from 2.6 to around 2.9 or 3.0 could significantly improve your chances. This suggests that focusing on improving your academic performance could be a key area to work on.\n\nInterestingly, some features, like your LSAT score and family income, did not need to change in these scenarios, indicating that they might not be as pivotal in altering the prediction. This means you might not need to worry about these aspects as much as others.\n\nAcross the counterfactual scenarios, we generated a few different combinations of changes. The most common pattern involved improving your GPA, sometimes alongside a change in your decile ranking in Year 3. This suggests that enhancing your academic standing overall could be a powerful strategy.\n\nBased on these insights, a realistic and actionable step would be to focus on boosting your GPA. This could involve seeking additional academic support, dedicating more time to study, or finding ways to enhance your learning strategies. By aiming for a GPA closer to the average or slightly above, you could significantly increase your chances of passing the bar exam and having your application approved. Remember, small, consistent improvements can make a big difference.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 12,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:19:17.443973",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, LSAT score, and family income.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that certain features consistently need to change to flip the prediction. For instance, your undergraduate GPA and LSAT score are crucial. In most scenarios, improving your GPA closer to the average of 3.21 and increasing your LSAT score would significantly impact the prediction. Additionally, working full-time instead of part-time also appears to be a factor that could positively influence the outcome.\n\nAcross the scenarios, we generated several counterfactuals, and the features that changed most often were your GPA, LSAT score, and employment status. These changes often occurred together, suggesting that a combination of academic improvement and full-time commitment could be effective.\n\nBased on these patterns, focusing on raising your GPA and LSAT score could be realistic and impactful. For example, aiming to increase your GPA by about 0.9 points and your LSAT score by around 10 points could make a substantial difference. Additionally, considering a shift to full-time study might also enhance your chances.\n\nRemember, these insights are meant to guide you in understanding the model's decision and exploring practical steps you can take to improve your chances of success. With dedication and strategic adjustments, you can work towards a more favorable outcome.",
+  "error": null
+}

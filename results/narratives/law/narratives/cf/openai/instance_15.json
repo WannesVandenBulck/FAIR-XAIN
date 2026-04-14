@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:19:26.757469",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, family income, and LSAT score.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that certain features consistently need to change to flip the prediction. For instance, your academic performance, particularly your undergraduate GPA and your decile rankings in school, often need improvement. Additionally, your family income bracket and whether you work full-time or part-time also play significant roles. Interestingly, some features like your gender and LSAT score remain unchanged in many scenarios, suggesting they are less critical in altering the prediction.\n\nWe generated several counterfactual scenarios, and in most of them, improving your undergraduate GPA and decile rankings were common changes. These features often changed together, indicating that a combination of better academic performance and possibly increased family support or reduced work hours could be effective.\n\nBased on these patterns, actionable steps you might consider include focusing on improving your academic performance, perhaps by seeking additional tutoring or study resources to boost your GPA. Additionally, exploring ways to increase your family income bracket or adjusting your work schedule to allow more time for study could also be beneficial. While some changes might be challenging, even small improvements in these areas could significantly impact the prediction and your future opportunities.",
+  "error": null
+}

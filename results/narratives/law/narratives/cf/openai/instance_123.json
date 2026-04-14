@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 123,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:26:24.014213",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts a 71% probability that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically predicting that you would pass the exam.\n\nIn examining these scenarios, we notice that certain features consistently need to change to flip the prediction. For instance, your academic performance, particularly your grades in Year 3 (decile3) and your undergraduate GPA (ugpa), are crucial. In every scenario where the prediction changed to passing, either your Year 3 decile or your GPA improved. This suggests that enhancing your academic performance in these areas could significantly impact the prediction.\n\nWe generated several counterfactual scenarios, and in each, the most frequent changes involved improving your Year 3 decile and your undergraduate GPA. These features often changed together, indicating that a combination of better grades and a higher GPA is a powerful pattern for altering the prediction.\n\nBased on these insights, focusing on improving your academic performance could be a realistic and effective strategy. For example, aiming to raise your Year 3 decile from 3 to 4 and your GPA from 2.7 to around 3.1 or higher could make a substantial difference. While this might require additional effort and resources, such as tutoring or study groups, it is a tangible goal that could enhance your chances of passing the bar exam and getting your application approved.\n\nRemember, these changes are not just about meeting a model's criteria but also about strengthening your overall readiness for the bar exam. By focusing on these areas, you can improve your academic standing and increase your likelihood of success.",
+  "error": null
+}

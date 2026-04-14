@@ -68,10 +68,16 @@ def make_predictions(dataset_name, config):
     # Get prediction probabilities for class 1 (bad class)
     test_proba = rf_model.predict_proba(test_features)[:, 1]
     
-    # Filter for class 1 predictions (adverse class: bad credit, failed exam, etc.)
-    adverse_mask = test_pred == 1
+    # Apply threshold tuning: use probability >= 0.4 instead of default 0.5
+    # This is more permissive and catches more adverse cases
+    threshold = 0.4
+    adverse_mask = test_proba >= threshold
+    
+    # Get predicted class based on threshold (1 if >= threshold, 0 otherwise)
+    test_pred_threshold = (test_proba >= threshold).astype(int)
+    
     test_adverse = test_features[adverse_mask].copy()
-    test_adverse['predicted_class'] = test_pred[adverse_mask]
+    test_adverse['predicted_class'] = test_pred_threshold[adverse_mask]
     test_adverse['prediction_score'] = test_proba[adverse_mask]
     test_adverse[target_name] = test_target[adverse_mask]  # Use standardized target name
     

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:10:42.129496",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background. Your grades in Year 1 and Year 3, family income, LSAT score, undergraduate GPA, gender, racial background, and whether you plan to work full-time or part-time were all considered.\n\nCounterfactuals are essentially \"what if\" scenarios that help us explore how small changes in certain factors could lead to a different prediction. They show us what aspects of your profile would need to change to flip the prediction from \"fail\" to \"pass.\"\n\nIn your case, the counterfactual analysis suggests that certain features consistently need to change to alter the prediction. Notably, your family income and whether you work full-time or part-time are key factors. In all scenarios where the prediction changed to \"pass,\" these features were adjusted. Interestingly, your undergraduate GPA and LSAT score did not require significant changes, indicating they are already strong points in your profile.\n\nOut of the counterfactual scenarios generated, the most frequent changes involved increasing your family income bracket and switching from full-time to part-time work. These changes often appeared together, suggesting that a combination of improved financial support and reduced work commitments could significantly enhance your chances of passing the exam.\n\nBased on these patterns, you might consider focusing on securing additional financial support, perhaps through scholarships or part-time work that allows more time for study. Additionally, if feasible, reducing your work hours could provide more time to focus on exam preparation. These adjustments, while challenging, could make a meaningful difference in your predicted outcome. Remember, these are just suggestions based on the model's analysis, and your personal circumstances and goals should guide any decisions you make.",
+  "error": null
+}

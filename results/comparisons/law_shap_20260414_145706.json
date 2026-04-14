@@ -1,0 +1,30 @@
+{
+  "dataset": "law",
+  "prompt_type": "shap",
+  "timestamp": "2026-04-14T14:57:06.781441",
+  "num_instances": 5,
+  "results": {
+    "sentiment": {
+      "0": {
+        "label": "UNKNOWN",
+        "score": 0.0
+      },
+      "1": {
+        "label": "UNKNOWN",
+        "score": 0.0
+      },
+      "2": {
+        "label": "UNKNOWN",
+        "score": 0.0
+      },
+      "3": {
+        "label": "UNKNOWN",
+        "score": 0.0
+      },
+      "4": {
+        "label": "UNKNOWN",
+        "score": 0.0
+      }
+    }
+  }
+}

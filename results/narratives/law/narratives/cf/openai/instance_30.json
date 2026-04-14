@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:20:16.796840",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. The model currently predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background, such as your grades, LSAT score, and family income.\n\nTo help you understand what could change this prediction, we use something called counterfactual scenarios. These are \"what if\" situations that show how altering certain aspects of your profile could lead to a different outcome, specifically passing the exam and having your application approved.\n\nIn examining these scenarios, we notice that certain features consistently need to change to flip the prediction. For instance, your LSAT score and academic performance in Year 3 are crucial. In all scenarios where the prediction changes to passing, your LSAT score needs to increase, and your Year 3 grades need to improve. Interestingly, some features, like your family income and whether you work full-time, do not need to change in these scenarios, indicating they are less critical for altering the prediction.\n\nAcross the counterfactual scenarios, we generated several possibilities, and the most frequent changes involved improving your LSAT score and Year 3 grades. These changes often occurred together, suggesting that a combination of better test preparation and academic performance could significantly impact the prediction.\n\nBased on these patterns, focusing on enhancing your LSAT score and improving your academic performance in Year 3 could be the most effective strategy. For instance, aiming to increase your LSAT score by a few points and improving your Year 3 grades to align more closely with the average could make a substantial difference. While these changes might require effort and time, they are realistic and actionable steps that could help you achieve a more favorable outcome. Remember, these insights are meant to guide you in understanding the model's decision and exploring ways to improve your chances of success.",
+  "error": null
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "law",
+  "prompt_type": "shap",
+  "timestamp": "2026-04-14T15:27:50.926765",
+  "num_instances": 5,
+  "results": {
+    "sentiment": {
+      "0": {
+        "label": "POSITIVE",
+        "score": 0.9854,
+        "pos": 0.141,
+        "neu": 0.811,
+        "neg": 0.048
+      },
+      "1": {
+        "label": "POSITIVE",
+        "score": 0.9846,
+        "pos": 0.121,
+        "neu": 0.858,
+        "neg": 0.021
+      },
+      "2": {
+        "label": "POSITIVE",
+        "score": 0.985,
+        "pos": 0.135,
+        "neu": 0.827,
+        "neg": 0.038
+      },
+      "3": {
+        "label": "POSITIVE",
+        "score": 0.9625,
+        "pos": 0.092,
+        "neu": 0.872,
+        "neg": 0.036
+      },
+      "4": {
+        "label": "POSITIVE",
+        "score": 0.9727,
+        "pos": 0.094,
+        "neu": 0.884,
+        "neg": 0.022
+      }
+    }
+  }
+}

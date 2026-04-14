@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T14:56:44.451055",
+  "status": "success",
+  "narrative": "Hello, and thank you for reaching out to understand the prediction made by the model regarding your bar exam outcome. I understand that receiving a prediction of failing the bar exam can be disheartening, and I’m here to help clarify why this decision was made.\n\nThe model predicted a 40% probability that you might not pass the bar exam on your first attempt. This prediction was based on several factors from your academic and personal background. The most influential factor was your academic performance in Year 3, where your grades placed you in a lower decile compared to your peers. This was followed closely by your Year 1 academic performance, which also showed a similar pattern. These academic indicators were the strongest contributors to the model's prediction, suggesting that improving your grades could significantly impact future predictions.\n\nYour family income bracket also played a role, as it was lower than the average in the dataset. While this factor was less influential than your academic performance, it still contributed to the prediction. Additionally, your racial background, being Asian, was considered, although it had a smaller impact compared to the academic factors.\n\nOn a more positive note, your undergraduate GPA was above average, which worked in your favor, slightly pushing the prediction towards passing. Similarly, your LSAT score was close to the average, providing a neutral influence on the prediction. Other factors, such as your gender and employment status, had minimal impact on the model's decision.\n\nIn summary, the primary drivers of this prediction were your academic performance in Year 1 and Year 3, along with your family income bracket. While these factors contributed to the prediction of failing, it's important to remember that this is just a model's assessment based on available data. It does not determine your potential or future success. Understanding these factors can help you focus on areas for improvement and better prepare for the bar exam. Please feel free to reach out if you have any more questions or need further assistance.",
+  "error": null
+}

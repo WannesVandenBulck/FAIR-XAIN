@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "cf",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T17:19:35.686524",
+  "status": "success",
+  "narrative": "Let's take a moment to understand the prediction made by the model regarding your bar exam outcome. Currently, the model predicts that you might not pass the bar exam on your first attempt, which led to the rejection of your university application. This prediction is based on several factors from your academic and personal background. It's important to note that this is not a definitive outcome but rather a prediction based on the data available.\n\nTo help you understand what could change this prediction, we look at \"counterfactuals,\" which are hypothetical scenarios showing what would need to be different for the model to predict that you would pass the exam. These scenarios help identify which aspects of your profile are most influential in the model's decision.\n\nIn your case, the model suggests that certain features, such as your academic performance in Year 3 and your family's income bracket, are crucial. Specifically, improving your Year 3 decile ranking and increasing your family's income bracket appear to be consistent factors that could change the prediction. Interestingly, your LSAT score also plays a role, where even a slight increase could positively impact the prediction.\n\nAcross the scenarios analyzed, changes in your Year 3 academic performance and family income were the most frequent adjustments needed to flip the prediction. These features often changed together, indicating that a combination of improved academic performance and financial support could significantly enhance your chances.\n\nFor actionable guidance, focusing on improving your academic performance in Year 3 could be a realistic goal. This might involve seeking additional academic support or resources to boost your grades. Additionally, exploring financial aid options or scholarships could help alleviate financial constraints, indirectly supporting your academic endeavors.\n\nRemember, these insights are meant to guide you in understanding the model's decision and exploring potential areas for improvement. It's important to approach these changes with a plan that aligns with your personal circumstances and goals.",
+  "error": null
+}

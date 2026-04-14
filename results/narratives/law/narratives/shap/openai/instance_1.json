@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-14T14:56:38.936407",
+  "status": "success",
+  "narrative": "Hello, and thank you for reaching out to understand the prediction made by the model regarding your bar exam outcome. I understand that receiving a prediction of failing the bar exam can be disheartening, and I want to help clarify why this decision was made.\n\nThe model predicted a 78% probability that you might not pass the bar exam on your first attempt. This prediction was based on several factors from your academic and personal profile. The most influential factors in this decision were your academic performance in the first and third years of your studies, as indicated by your decile rankings. These rankings were lower than the average, which contributed significantly to the prediction that you might struggle with the bar exam.\n\nYour LSAT score also played a crucial role. Although it was slightly below the average, it was still an important factor that leaned towards the prediction of not passing. Additionally, your undergraduate GPA was considered, and while it was close to the average, it still had a slight influence on the prediction.\n\nInterestingly, your family income was above average, which typically might suggest a positive influence, but in this case, it was not enough to outweigh the academic indicators. Other factors such as your racial background, gender, and employment status had less influence on the prediction. Your racial background and gender were in line with the majority of the dataset, and your full-time status was common among students.\n\nIn summary, the primary drivers of this prediction were your academic performance indicators, particularly your decile rankings and LSAT score. These factors collectively suggested to the model that you might face challenges in passing the bar exam on the first try. It's important to remember that this is just a prediction based on past data, and it doesn't determine your future. There are always opportunities to improve and succeed, and I encourage you to focus on your strengths and areas for growth as you prepare for the exam.",
+  "error": null
+}
