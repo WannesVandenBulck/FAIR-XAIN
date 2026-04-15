@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:45:51.934697",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model, which predicts the likelihood of employees leaving their positions, estimated a 79% probability that you might leave your job. This prediction influenced the decision to withhold the promotion, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors played a crucial role in this prediction. The most significant was the perception of job opportunities elsewhere, which suggested that you might be considering other options. Additionally, dissatisfaction with rewards and wages, along with a lack of job stability, contributed to the prediction that you might leave. These factors pushed the model towards predicting a higher likelihood of attrition.\n\nOn the other hand, your years of experience and emotional commitment to the organization were positive indicators, suggesting a potential for long-term engagement. However, these positive aspects were outweighed by the factors indicating a risk of leaving.\n\nThe model ranked these features based on their influence, with job opportunities and rewards satisfaction being the most impactful. Emotional commitment and job stability also played significant roles, albeit to a lesser extent.\n\nTo improve your chances of promotion in the future, consider addressing the factors that contributed to the prediction. Engaging in discussions with your manager about your career path and exploring ways to enhance job satisfaction could be beneficial. Additionally, seeking clarity on job stability and exploring opportunities for professional development might help reinforce your commitment to the organization.\n\nI hope this explanation provides clarity and guidance on how you can work towards achieving your career goals. Please feel free to reach out if you have any further questions or need support in your professional journey.\n\nBest regards,\n\n[Your Name]",
+  "error": null
+}

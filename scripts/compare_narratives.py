@@ -45,10 +45,10 @@ except ImportError:
 # ============================================================================
 
 # Which dataset to analyze
-DATASET = "law"  # Options: "law", "credit", "saudi", "student"
+DATASET = "saudi"  # Options: "law", "credit", "saudi", "student"
 
 # Number of adversely predicted instances to analyze
-NUM_INSTANCES = 80
+NUM_INSTANCES = None  # Set to None to analyze all available instances
 
 # Type of explanation narratives
 PROMPT_TYPE = "shap"  # Options: "shap" or "cf" 
@@ -106,13 +106,13 @@ ATTRIBUTE_VALUE_MAPPINGS = {
     },
     "saudi": {
         "Gender": {
-            "Male": "Male",
-            "Female": "Female",
-            "M": "Male",
-            "F": "Female",
+            0: "Female",
+            1: "Male",
         },
         "Age": {
-            # Age is typically numeric
+            0: "21-30",
+            1: "31-40",
+            2: "41+",
         },
     },
     "student": {
@@ -334,19 +334,19 @@ class NarrativeAnalyzer:
     
     def analyze_protected_attribute_mentions(self, narratives=None):
         """
-        Count explicit mentions of race and gender in narratives.
+        Count explicit mentions of protected attributes in narratives.
+        
+        For datasets with gender/race: counts mentions of gender (Male, Female, etc.) and race terms
+        For datasets with gender/age: counts only gender mentions (since age is typically numeric)
         
         Uses word boundary matching (\\b) to avoid false positives from substring matches.
         E.g., "man" won't match "management" or "performance".
-        
-        Race mentions: Black, Hispanic, Asian, White, Native American, etc.
-        Gender mentions: Male, Female, Man, Woman, etc.
         
         Args:
             narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> {"race_mentions": int, "gender_mentions": int}
+            Dictionary mapping instance_idx -> {"gender_mentions": int, "race_mentions": int}
         """
         if narratives is None:
             narratives = self.narratives
@@ -354,15 +354,15 @@ class NarrativeAnalyzer:
         if not narratives:
             return {}
         
-        # Define search terms for race and gender (will use word boundaries)
-        race_terms = ["Black", "Hispanic", "Asian", "White", "Native American", 
-                     "African", "Latino", "Caucasian", "Asians", "Africans"]
+        # Define search terms for gender and race (will use word boundaries)
         gender_terms = ["Male", "Female", "Man", "Woman", "men", "women", "boy", "girl",
                        "masculine", "feminine"]
+        race_terms = ["Black", "Hispanic", "Asian", "White", "Native American", 
+                     "African", "Latino", "Caucasian", "Asians", "Africans"]
         
         # Compile regex patterns with word boundaries (case-insensitive)
-        race_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in race_terms]
         gender_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in gender_terms]
+        race_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in race_terms]
         
         results = {}
         total = len(narratives)
@@ -372,20 +372,20 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                # Count race mentions using word boundaries
-                race_count = sum(len(pattern.findall(narrative)) for pattern in race_patterns)
-                
                 # Count gender mentions using word boundaries
                 gender_count = sum(len(pattern.findall(narrative)) for pattern in gender_patterns)
                 
+                # Count race mentions using word boundaries
+                race_count = sum(len(pattern.findall(narrative)) for pattern in race_patterns)
+                
                 results[instance_idx] = {
-                    "race_mentions": race_count,
                     "gender_mentions": gender_count,
+                    "race_mentions": race_count,
                 }
             
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {"race_mentions": 0, "gender_mentions": 0}
+                results[instance_idx] = {"gender_mentions": 0, "race_mentions": 0}
         
         return results
     
@@ -565,34 +565,53 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
     print("="*70)
     
     # Print protected attribute mentions by protected class
+    # Print protected attribute mentions by protected class
     if "protected_mentions" in analyzer.results:
-        print("\nPROTECTED ATTRIBUTE MENTIONS (Race and Gender):")
         protected_mentions = analyzer.results["protected_mentions"]
-        
         protected_attrs = PROTECTED_ATTRIBUTES[dataset]
-        for attr in protected_attrs:
-            print(f"\n  {attr.upper()}:")
-            unique_values = adverse_df[attr].unique()
+        
+        # Determine which mention types are relevant for this dataset
+        has_race = any(attr.lower() == "race1" or "race" in attr.lower() for attr in protected_attrs)
+        has_gender = any(attr.lower() in ["gender", "sex", "personal_status_sex"] for attr in protected_attrs)
+        
+        if protected_mentions and (has_gender or has_race):
+            print("\nPROTECTED ATTRIBUTE MENTIONS:")
             
-            for value in sorted(unique_values):
-                matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
+            for attr in protected_attrs:
+                print(f"\n  {attr.upper()}:")
+                unique_values = adverse_df[attr].unique()
                 
-                # Get mention counts for instances with this attribute value
-                race_mentions = [protected_mentions.get(idx, {}).get("race_mentions", 0) for idx in matching_instances if idx in protected_mentions]
-                gender_mentions = [protected_mentions.get(idx, {}).get("gender_mentions", 0) for idx in matching_instances if idx in protected_mentions]
-                
-                if race_mentions and gender_mentions:
-                    mapped_value = map_attribute_value(value, dataset, attr)
-                    total_narratives = len(race_mentions)
-                    total_race_mentions = sum(race_mentions)
-                    total_gender_mentions = sum(gender_mentions)
-                    avg_race_mentions = np.mean(race_mentions)
-                    avg_gender_mentions = np.mean(gender_mentions)
+                for value in sorted(unique_values):
+                    matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                     
-                    print(f"    {mapped_value}:")
-                    print(f"      Total Narratives: {total_narratives}")
-                    print(f"      Total Race Mentions: {total_race_mentions} (Avg: {avg_race_mentions:.2f} per narrative)")
-                    print(f"      Total Gender Mentions: {total_gender_mentions} (Avg: {avg_gender_mentions:.2f} per narrative)")
+                    # Get mention counts for instances with this attribute value
+                    if has_gender:
+                        gender_mentions = [protected_mentions.get(idx, {}).get("gender_mentions", 0) for idx in matching_instances if idx in protected_mentions]
+                    else:
+                        gender_mentions = []
+                    
+                    if has_race:
+                        race_mentions = [protected_mentions.get(idx, {}).get("race_mentions", 0) for idx in matching_instances if idx in protected_mentions]
+                    else:
+                        race_mentions = []
+                    
+                    # Only print if we have data
+                    if gender_mentions or race_mentions:
+                        mapped_value = map_attribute_value(value, dataset, attr)
+                        total_narratives = len(gender_mentions) if gender_mentions else len(race_mentions)
+                        
+                        print(f"    {mapped_value}:")
+                        print(f"      Total Narratives: {total_narratives}")
+                        
+                        if gender_mentions:
+                            total_gender_mentions = sum(gender_mentions)
+                            avg_gender_mentions = np.mean(gender_mentions)
+                            print(f"      Total Gender Mentions: {total_gender_mentions} (Avg: {avg_gender_mentions:.2f} per narrative)")
+                        
+                        if race_mentions:
+                            total_race_mentions = sum(race_mentions)
+                            avg_race_mentions = np.mean(race_mentions)
+                            print(f"      Total Race Mentions: {total_race_mentions} (Avg: {avg_race_mentions:.2f} per narrative)")
     
     # Print sentiment words by protected class
     if "sentiment_words" in analyzer.results and analyzer.results["sentiment_words"]:

@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:41:19.992516",
+  "status": "success",
+  "narrative": "Hello, and thank you for taking the time to understand the decision regarding your promotion. The machine learning model used by your company predicted a high likelihood—87%—that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as the company aims to invest in employees who are likely to stay and grow with them.\n\nSeveral factors contributed to this prediction. The most significant was the presence of other job opportunities, which suggests that you might be considering alternatives outside your current role. This factor strongly pushed the prediction towards leaving. Additionally, the sector you work in and your satisfaction with rewards and wages also played crucial roles. It seems that your current sector might have higher turnover rates, and dissatisfaction with rewards could be nudging you towards considering a change.\n\nYour years of experience at the current organization and overall work experience were also influential. While you have a solid amount of experience, the model interpreted this as a potential readiness to explore new opportunities. Furthermore, the perception of not receiving deserved promotions and a lack of job stability contributed to the prediction that you might leave.\n\nOn the other hand, factors like job support and satisfaction with the work environment had a more neutral or slightly positive influence, suggesting that these aspects of your job are not pushing you towards leaving. However, they were not strong enough to outweigh the factors pushing towards attrition.\n\nTo improve your retention prospects and increase your chances of promotion in the future, you might consider addressing areas where you feel dissatisfied, such as rewards and job stability. Engaging in discussions with your management about career development opportunities and expressing your interest in long-term growth within the company could also be beneficial. By focusing on these areas, you can work towards aligning your career goals with the company's objectives, potentially leading to more favorable outcomes in future evaluations.",
+  "error": null
+}

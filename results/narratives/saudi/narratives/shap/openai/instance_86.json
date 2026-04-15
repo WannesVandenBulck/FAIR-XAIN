@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:47:22.149049",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the decision regarding your promotion. Our model predicted a 66% probability that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the perception that you have not received the promotions you deserve. This perception strongly suggested to the model that you might be considering leaving. Additionally, your relatively short tenure at the current organization, combined with feelings of job instability, further contributed to the prediction that you might leave. These factors, along with dissatisfaction with rewards and wages, were key in shaping the model's decision.\n\nOn the other hand, some aspects of your profile, such as your participation in useful training programs and your emotional commitment to the organization, suggested a tendency to stay. However, these positive influences were not strong enough to outweigh the factors pushing toward a potential departure.\n\nGiven this analysis, it might be beneficial for you to focus on areas that could enhance your job satisfaction and stability. Seeking clarity on promotion pathways and discussing your career development with your manager could help address some of the concerns highlighted by the model. Additionally, exploring ways to increase your satisfaction with rewards and wages might also improve your retention prospects. By addressing these areas, you could strengthen your position for future promotion opportunities.",
+  "error": null
+}

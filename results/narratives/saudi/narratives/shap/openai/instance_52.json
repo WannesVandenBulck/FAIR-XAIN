@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 52,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:44:10.178270",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model, which predicts the likelihood of employees leaving their positions, estimated a 47% probability that you might leave your job. This prediction influenced the decision to withhold the promotion, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the presence of job opportunities elsewhere, which suggests that you might be considering other career paths. Additionally, your years of experience, both overall and within the current organization, were considered. While you have 1-5 years of experience, which is common among your peers, it still contributed to the prediction that you might leave.\n\nYour perception of receiving deserved promotions also played a role. Although you feel satisfied with the promotions you've received, the model still flagged this as a factor. The lack of recent training programs was another important aspect, as employees who engage in continuous learning tend to show higher commitment levels. Furthermore, the level of support you receive at work and your satisfaction with rewards and wages were also considered, both of which are crucial for job satisfaction and retention.\n\nWhile these factors contributed to the prediction that you might leave, there are areas you can focus on to improve your retention prospects. Engaging in more training programs could enhance your skills and demonstrate your commitment to growth within the company. Additionally, seeking feedback and discussing career development opportunities with your manager might help align your career goals with the company's objectives.\n\nBy addressing these areas, you can increase your chances of securing a promotion in the future. Remember, this prediction is not set in stone, and with proactive steps, you can influence your career trajectory positively.",
+  "error": null
+}

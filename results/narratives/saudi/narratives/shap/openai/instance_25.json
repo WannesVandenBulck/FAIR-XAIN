@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:41:27.901296",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model, which helps us understand employee retention, predicted a high likelihood—97%—that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as we aim to ensure that promotions are given to employees who are likely to stay and grow with the company.\n\nSeveral factors played a significant role in this prediction. The most influential was the perception of job opportunities elsewhere, which suggests that you might be considering other career options. Additionally, your extensive work experience, both overall and within the current organization, was noted. However, the feeling of not receiving deserved promotions and the lack of recent training programs also contributed to the prediction that you might leave. These factors, combined with dissatisfaction with rewards and wages, were key in shaping the model's decision.\n\nOn the positive side, some aspects of your profile, such as your engagement level and the fact that you have medical insurance, slightly countered the prediction of leaving. However, these were less influential compared to the factors pushing towards the likelihood of leaving.\n\nTo improve your retention prospects and increase your chances of future promotions, it might be beneficial to focus on areas where change is possible. Seeking additional training opportunities and discussing career advancement paths with your manager could help. Additionally, addressing any dissatisfaction with rewards and wages through open communication with your employer might also be beneficial. By taking these steps, you can enhance your job satisfaction and demonstrate your commitment to the organization, potentially leading to more favorable outcomes in the future.",
+  "error": null
+}

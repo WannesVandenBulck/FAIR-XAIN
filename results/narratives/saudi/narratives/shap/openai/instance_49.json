@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:43:54.521304",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the decision regarding your promotion. Our model predicted a 50% probability that you might leave your current position, which influenced the decision to withhold the promotion offer at this time. This prediction is based on various factors related to your work environment and personal circumstances.\n\nThe most significant factor in this prediction was the perception of job opportunities elsewhere. It seems that the model detected a potential interest in exploring other job options, which contributed to the prediction that you might leave. Additionally, your level of emotional commitment to the organization was noted as lower than average, which also suggested a higher likelihood of leaving. On the positive side, your psychological exhaustion was not as high as it could be, which slightly countered the prediction of leaving.\n\nOther factors that played a role included the lack of useful training programs and dissatisfaction with rewards and wages, both of which nudged the prediction towards leaving. Your gender and job stability perceptions were also considered, but they had a more neutral impact. Interestingly, your years of experience and the sector you work in had a minor influence, suggesting that these aspects are not major concerns in your current situation.\n\nTo improve your chances of promotion in the future, you might consider focusing on areas that can enhance your job satisfaction and emotional commitment. Engaging in training programs that you find beneficial and seeking recognition for your contributions could help. Additionally, discussing potential career paths within the organization might alleviate the perception of external job opportunities being more attractive. By addressing these areas, you can strengthen your position and increase the likelihood of a favorable promotion decision in the future. We hope this explanation helps clarify the decision and provides guidance on how to move forward.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:41:13.933920",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model, which predicts the likelihood of employees leaving their positions, estimated a 70% probability that you might leave your job. This prediction influenced the decision to withhold the promotion, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the presence of other job opportunities, which suggested that you might be considering alternatives outside the company. Additionally, your extensive experience, both overall and within the current organization, was noted. While this experience is valuable, it also indicated a potential readiness for change, especially if you feel your skills are not being fully utilized or rewarded.\n\nYour satisfaction with rewards and wages also contributed to the prediction. It seems there might be some dissatisfaction in this area, which could be pushing you toward considering leaving. Furthermore, the lack of perceived job stability and the absence of recent training programs that you found useful were also factors that leaned toward a potential departure.\n\nOn the other hand, some aspects of your profile, such as your sector of employment, slightly countered the prediction, suggesting a degree of stability. However, these were not strong enough to outweigh the factors pushing toward leaving.\n\nTo improve your retention prospects and increase your chances of promotion in the future, consider addressing areas where you feel less satisfied. Engaging in discussions with your manager about career development opportunities, seeking additional training, and exploring ways to enhance job stability could be beneficial. By focusing on these areas, you can work towards aligning your career path with your aspirations and demonstrate your commitment to the organization.\n\nI hope this explanation provides clarity and helps you take proactive steps toward your career goals.",
+  "error": null
+}

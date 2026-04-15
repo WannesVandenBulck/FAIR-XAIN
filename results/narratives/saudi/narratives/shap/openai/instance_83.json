@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 83,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:47:07.208121",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model, which helps us understand employee retention, predicted a 76% probability that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as we aim to ensure that promotions are given to employees who are likely to stay and grow with the company.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the presence of other job opportunities, which suggests that you might be considering options outside your current role. Additionally, the length of time you've spent at your current organization and your overall years of experience were also important. These factors, along with your feelings about rewards and wages, and whether you feel you have received deserved promotions, contributed to the prediction that you might leave.\n\nYour satisfaction with training programs and your sense of job stability also played a role, albeit to a lesser extent. While your emotional commitment to the organization and the support you receive at work were positive influences, they were not enough to outweigh the factors pushing toward a potential departure.\n\nTo improve your retention prospects and increase your chances of promotion in the future, you might consider focusing on areas that can be realistically changed. For instance, seeking clarity on career advancement opportunities within the company and discussing your concerns about rewards and recognition with your manager could be beneficial. Additionally, exploring ways to enhance your job satisfaction and stability might help shift the prediction toward a more favorable outcome. We value your contributions and are here to support you in your career journey.",
+  "error": null
+}

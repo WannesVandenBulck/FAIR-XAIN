@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:47:41.131419",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model predicted that there is an 87% probability that you might leave your current position. This prediction was based on various factors related to your work environment and personal circumstances.\n\nThe most influential factor in this prediction was the presence of other job opportunities. This suggests that the model perceived you as someone who might be considering other career paths. Additionally, the length of time you've spent at your current organization was also significant. With 1-5 years in your current role, the model might see this as a period where employees often reassess their career goals.\n\nAnother important factor was your perception of not receiving deserved promotions, which can understandably lead to feelings of dissatisfaction and thoughts of leaving. Similarly, dissatisfaction with rewards and wages played a role, indicating that feeling undervalued could contribute to your potential decision to leave.\n\nThe lack of recent training programs and perceived job instability also influenced the prediction. These factors suggest that opportunities for growth and security are crucial for your job satisfaction. On the positive side, your overall years of experience and job engagement were seen as stabilizing factors, suggesting that your skills and involvement in your work are valued.\n\nGiven these insights, you might consider discussing your career development opportunities with your employer. Expressing your interest in training programs and seeking clarity on promotion pathways could help improve your job satisfaction and retention prospects. Addressing these areas might not only enhance your current work experience but also increase your chances of future promotions.\n\nI hope this explanation provides clarity and helps you take proactive steps towards achieving your career goals.",
+  "error": null
+}

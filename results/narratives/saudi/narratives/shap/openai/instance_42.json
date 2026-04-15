@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 42,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:43:07.150579",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model predicted a 41% probability that you might leave your current position. This prediction was based on various factors related to your work experience and conditions, which influenced the decision to withhold the promotion offer.\n\nThe most significant factor in this prediction was the perception of job opportunities elsewhere. It seems that the model detected a potential interest in exploring other job options, which contributed to the prediction that you might leave. Additionally, the length of time you've spent at your current organization was another important factor. While you have a solid tenure, the model considered this alongside other elements like your satisfaction with rewards and wages, and your sense of job stability, which also leaned towards a potential departure.\n\nYour satisfaction with the support you receive at work and whether you feel you are getting deserved promotions were also influential. These factors, along with your overall years of experience, played a role in the model's assessment. While these aspects pushed the prediction towards leaving, other factors like your high level of job support and satisfaction with the work environment worked in favor of staying.\n\nTo improve your retention prospects and increase your chances of promotion in the future, you might consider focusing on areas where you can enhance your job satisfaction and stability. Engaging in more training programs, seeking recognition for your contributions, and addressing any physical stress or psychological exhaustion could positively impact your situation. By addressing these areas, you can strengthen your position and demonstrate a commitment to your current role, which may lead to better opportunities for advancement.\n\nI hope this explanation provides clarity and helps you in planning your next steps. Please feel free to reach out if you have any further questions or need additional support.",
+  "error": null
+}

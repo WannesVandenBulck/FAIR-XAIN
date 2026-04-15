@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 101,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:48:43.853090",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model predicted a 53% probability that you might leave your current position, which influenced the decision to withhold the promotion offer at this time. This prediction is based on various factors related to your work experience and satisfaction levels.\n\nThe most significant factor in this prediction was your years of experience at your current organization. Having 1-5 years of experience, which is common among your peers, suggests a potential for seeking new opportunities. Additionally, the perception of limited job opportunities and a lack of job stability were influential. These factors suggest that you might be considering other career paths, which contributed to the prediction that you might leave.\n\nYour satisfaction with rewards and wages, as well as the usefulness of training programs, also played a role. The model noted that you are not satisfied with these aspects, which can understandably lead to thoughts of leaving. Furthermore, the number of training programs you've attended and your feelings about deserved promotions were also considered, indicating that you might feel undervalued or underprepared for advancement.\n\nOn the positive side, your engagement level in your job was noted as a factor that could encourage you to stay. However, the overall influence of other factors, such as emotional commitment and job satisfaction, leaned more towards the possibility of leaving.\n\nTo improve your retention prospects and increase your chances of promotion in the future, consider focusing on areas where you can seek improvement or support. Engaging in discussions with your manager about job stability and exploring opportunities for professional development could be beneficial. Additionally, seeking feedback on how to enhance your job satisfaction and exploring ways to feel more recognized and supported at work might help shift the prediction towards staying. We hope this explanation provides clarity and assists you in making informed decisions about your career path.",
+  "error": null
+}

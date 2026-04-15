@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:44:46.851137",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the decision regarding your promotion. Our model predicted a 71% probability that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors contributed to this prediction. The most significant was the perception of job opportunities elsewhere, which suggests you might be considering other career paths. Additionally, feeling that you haven't received deserved promotions and experiencing low emotional commitment to the organization also played crucial roles. These factors collectively pushed the prediction towards a higher likelihood of leaving.\n\nOn the other hand, your years of experience, both overall and within the current organization, slightly countered this prediction, indicating some stability and commitment. However, the lack of satisfaction with rewards and wages, along with a sense of job instability, further reinforced the likelihood of leaving.\n\nIn terms of influence, the perception of external job opportunities was the most significant factor, followed by the feeling of not receiving deserved promotions and low emotional commitment. These were the primary drivers of the prediction. While your years of experience provided some balance, they were not enough to outweigh the other factors.\n\nTo improve your retention prospects and increase your chances of promotion in the future, consider focusing on areas that can enhance your job satisfaction and emotional commitment. Engaging in discussions with your manager about career development opportunities and seeking ways to increase your satisfaction with rewards and recognition could be beneficial. Additionally, exploring training programs that align with your career goals might help you feel more valued and invested in your current role. By addressing these areas, you can work towards a more fulfilling and stable career path within the organization.",
+  "error": null
+}

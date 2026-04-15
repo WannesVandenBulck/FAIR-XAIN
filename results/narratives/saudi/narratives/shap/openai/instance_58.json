@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:44:41.527961",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the decision regarding your promotion. Our model predicted a 67% probability that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as it suggests a higher risk of attrition. Let's delve into the factors that contributed to this prediction and how they relate to your situation.\n\nThe most significant factor was the presence of other job opportunities, which suggests that you might be considering alternatives outside your current role. This factor strongly pushed the prediction towards the likelihood of leaving. Additionally, your years of experience, both overall and within your current organization, played a role. While these factors are neutral in themselves, they can indicate a readiness for change, especially if combined with other elements.\n\nYour satisfaction with rewards and wages, as well as your perception of deserved promotions, also contributed to the prediction. These factors suggest that you might feel undervalued or underappreciated, which can lead to considering other opportunities. Job stability was another important factor, indicating that you might not feel secure in your current position, further influencing the prediction towards leaving.\n\nOn the other hand, factors like overtime compensation and the level of job support you receive had a more neutral influence, neither strongly pushing towards leaving nor staying. However, they still play a role in your overall job satisfaction and engagement.\n\nTo improve your retention prospects and increase your chances of promotion in the future, consider addressing areas where you feel dissatisfied. Engaging in discussions with your employer about your career path, seeking additional training opportunities, and exploring ways to enhance job stability could be beneficial. By focusing on these areas, you can work towards creating a more fulfilling and secure work environment, which may positively influence future promotion decisions.",
+  "error": null
+}

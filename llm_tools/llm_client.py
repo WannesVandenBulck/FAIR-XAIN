@@ -12,7 +12,7 @@ openai_client = OpenAI(api_key=KEYS.get("openai_key"))
 anthropic_client = anthropic.Anthropic(api_key=KEYS.get("anthropic_key"))
 
 
-def generate_text(messages, provider="openai", model=None, temperature=0, max_tokens=4096):
+def generate_text(messages, provider="openai", model=None, temperature=0.5, max_tokens=4096):
     """
     Generate text using different LLM providers.
     

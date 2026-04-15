@@ -6,34 +6,34 @@ from pathlib import Path
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
     'Gender': {0: 'Female', 1: 'Male'},
-    'Age': {0: '21-30', 1: '31-40', 3: '41+'},
-    'Education': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
-    'Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
-    'Years_in_Job': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Age': {0: '21-30', 1: '31-40', 2: '41+'},
+    'Academic_degree': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
+    'Years_Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Years_experience_lastorganization': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
     'Sector': {1: 'other', 2: 'medical', 3: 'education', 4: 'financial', 5: 'food'},
-    'Salary': {0: '1k-5k SAR', 1: '6k-10k SAR', 2: '11k-15k SAR', 3: '16k+ SAR'},
-    'Medical_Insurance': {0: 'no', 1: 'yes'},
-    'Annual_Bonus': {0: 'no', 1: 'yes'},
-    'Overtime': {0: 'no', 1: 'yes'},
-    'Overtime_Compensation': {0: 'no overtime', 1: 'no', 2: 'yes'},
-    'Income_Satisfaction': {0: 'no', 1: 'yes'},
-    'Promotion_Satisfaction': {0: 'no', 1: 'yes'},
-    'Training_Programs': {0: 'none', 1: '1-3', 2: '4-6', 3: '7+'},
-    'Training_Benefit': {0: 'no', 1: 'yes'},
+    'MonthlySalary': {0: '1k-5k SAR', 1: '6k-10k SAR', 2: '11k-15k SAR', 3: '16k+ SAR'},
+    'MedicalInsurance': {0: 'no', 1: 'yes'},
+    'Bonus': {0: 'no', 1: 'yes'},
+    'OverTime': {0: 'no', 1: 'yes'},
+    'Payment_Overtime': {0: 'no overtime', 1: 'no', 2: 'yes'},
+    'Rewards_Wages_Satisfaction': {0: 'no', 1: 'yes'},
+    'Get_Deserved_Promotion': {0: 'no', 1: 'yes'},
+    'Training_programs_During_last_three_years': {0: 'none', 1: '1-3', 2: '4-6', 3: '7+'},
+    'Useful_Training_Programs': {0: 'no', 1: 'yes'},
     'Business_Travel': {0: 'never', 1: 'rarely', 2: 'frequently'},
-    'Organizational_Support': {0: 'low', 1: 'medium', 2: 'high'},
-    'Moral_Appreciation': {0: 'no', 1: 'yes'},
-    'Organizational_Commitment': {0: 'low', 1: 'medium', 2: 'high'},
-    'Work_Involvement': {0: 'easy', 1: 'medium', 2: 'difficult'},
-    'Distance_to_Workplace': {0: 'close', 1: 'medium', 2: 'far'},
-    'Work_Life_Balance': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Job_Support': {0: 'low', 1: 'medium', 2: 'high'},
+    'Recognition': {0: 'no', 1: 'yes'},
+    'Emotional_Commitment': {0: 'low', 1: 'medium', 2: 'high'},
+    'Job_Engagement': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Distance_to_work': {0: 'close', 1: 'medium', 2: 'far'},
+    'Work_Live_Balance': {0: 'easy', 1: 'medium', 2: 'difficult'},
     'Physical_Stress': {0: 'no', 1: 'sometimes', 2: 'yes'},
-    'Emotional_Exhaustion': {0: 'no', 1: 'sometimes', 2: 'yes'},
-    'Job_Security': {0: 'no', 1: 'yes'},
+    'Psychological_Exhaustion': {0: 'no', 1: 'sometimes', 2: 'yes'},
+    'Job_Stability': {0: 'no', 1: 'yes'},
     'Health_Issues': {0: 'no', 1: 'yes'},
-    'Work_Environment_Satisfaction': {0: 'low', 1: 'medium', 2: 'high'},
+    'Environment_Satisfaction': {0: 'low', 1: 'medium', 2: 'high'},
     'Job_Satisfaction': {0: 'not satisfied', 1: 'satisfied', 2: 'very satisfied'},
-    'Other_Job_Opportunities': {0: 'no', 1: 'yes'},
+    'Job_Opportunities': {0: 'no', 1: 'yes'},
 }
 
 # Load dataset_info from pickle file
@@ -87,16 +87,23 @@ def create_instance_description_from_row(row):
     Parameters:
     - row: pandas Series with feature values
     """
+    # Columns to exclude (target and metadata columns)
+    exclude_cols = {'target_saudi', 'Attrition', 'target_law', 'target_credit', 'target_student'}
+    
     if DATASET_INFO is None:
         feature_lines = []
         for col in row.index:
-            mapped_value = map_attribute_value(col, row[col])
-            feature_lines.append(f"- {col} = {mapped_value}")
+            if col not in exclude_cols:
+                mapped_value = map_attribute_value(col, row[col])
+                feature_lines.append(f"- {col} = {mapped_value}")
     else:
         feature_df = DATASET_INFO.get("feature_description")
         feature_lines = []
         
         for col in row.index:
+            if col in exclude_cols:
+                continue
+                
             value = row[col]
             mapped_value = map_attribute_value(col, value)
             feature_info = feature_df[feature_df['feature_name'] == col]

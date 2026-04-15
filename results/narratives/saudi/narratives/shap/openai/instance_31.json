@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:42:07.120011",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model predicted a 56% probability that you might leave your current position, which influenced the decision to withhold the promotion offer at this time. This prediction is based on several factors related to your work experience and satisfaction levels.\n\nThe most significant factor in this prediction was the presence of other job opportunities. This suggests that the model perceived you as having viable alternatives outside your current role, which might increase the likelihood of leaving. Additionally, your satisfaction with receiving deserved promotions and your extensive experience at your current organization were also influential. These factors, while positive in some respects, might indicate to the model that you are at a point where you might seek new challenges elsewhere.\n\nYour satisfaction with rewards and wages, along with your overall years of experience, also played a role. While these factors are generally positive, they might suggest to the model that you have reached a plateau in your current role. On the other hand, your salary and the support you receive at work were factors that leaned towards you staying, indicating that these aspects of your job are favorable.\n\nGiven these insights, you might consider focusing on areas that could enhance your retention prospects. For instance, increasing your engagement with training programs or seeking additional responsibilities could demonstrate your commitment to growth within the company. Additionally, discussing your career aspirations with your manager might help align your goals with the organization's opportunities, potentially improving your chances for future promotions. We value your contributions and are here to support your career development.",
+  "error": null
+}

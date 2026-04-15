@@ -136,7 +136,7 @@ PROMPT_PREAMBLE_SHAP = """
 A machine learning model predicted that a student will FAIL the bar exam and therefore their application for university admission was REJECTED.
 
 YOUR TASK: Translate the following technical information into a clear, non-technical narrative explanation that helps the student understand:
-- Why the model rejected their application
+- Why the model rejected their application in specific terms of their features
 - Which factors were most important in this decision
 - How their specific situation compared to typical students
 

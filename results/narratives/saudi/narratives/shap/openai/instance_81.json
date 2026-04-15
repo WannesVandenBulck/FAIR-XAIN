@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:46:55.018247",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the decision regarding your promotion. Our model predicted a 47% probability that you might leave your current position. This prediction influenced the decision to withhold the promotion offer, as the company aims to invest in employees who are likely to stay and grow with the organization.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the presence of other job opportunities, which suggests that you might be considering alternatives outside your current role. This factor strongly pushed the prediction towards the possibility of leaving. Additionally, your years of experience, both overall and within the current organization, were considered. While these factors were neutral, they did not strongly sway the prediction towards staying.\n\nYour satisfaction with rewards and wages, as well as your perception of deserved promotions, also contributed to the prediction. Unfortunately, these factors indicated dissatisfaction, which nudged the prediction towards leaving. Job stability and the number of training programs attended in the last three years were also influential. A perceived lack of stability and fewer training opportunities can make employees feel less anchored to their current roles.\n\nOn the positive side, your recognition at work and emotional commitment were factors that leaned towards staying, but their influence was not strong enough to outweigh the other factors. Given this analysis, you might consider focusing on areas that can enhance your job satisfaction and stability. Engaging in more training programs, seeking feedback on how to improve your chances for deserved promotions, and discussing potential career paths within the company could help improve your retention prospects.\n\nWe understand that this decision might be disappointing, but we hope this explanation provides clarity. We encourage you to discuss these insights with your manager to explore ways to address these factors and enhance your career growth within the company.",
+  "error": null
+}

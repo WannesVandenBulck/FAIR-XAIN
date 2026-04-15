@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 37,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:42:41.591367",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model, which helps us understand employee retention, predicted a 46% probability that you might leave your current position. This prediction influenced the decision to hold off on offering a promotion at this time. Let's delve into the factors that contributed to this prediction and what it means for you.\n\nThe model considered several aspects of your work life and personal circumstances. The most influential factor was the presence of job opportunities elsewhere, which suggested that you might be considering other options. Additionally, the level of support you receive at work and your sense of job stability were significant. These factors, along with the number of training programs you've attended recently, all leaned towards the possibility of you leaving.\n\nYour satisfaction with promotions and rewards, as well as your tenure at the current organization, also played a role, albeit to a lesser extent. Interestingly, your age and experiences of psychological exhaustion were noted, but they had a smaller impact on the prediction. On the positive side, your work-life balance and job satisfaction were factors that suggested you might stay, though their influence was not as strong as the others.\n\nGiven this analysis, you might consider focusing on areas that could enhance your retention prospects. For instance, seeking more support at work or exploring ways to increase your job stability could be beneficial. Additionally, engaging in more training programs could not only improve your skills but also demonstrate your commitment to growth within the company.\n\nWe understand that this decision might be disappointing, but it's important to view it as an opportunity to address these factors. By doing so, you can strengthen your position for future promotion opportunities. We are here to support you in this journey and encourage you to discuss any concerns or aspirations with your manager.",
+  "error": null
+}

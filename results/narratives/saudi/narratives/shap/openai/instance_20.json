@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:41:02.254286",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a promotion denial can be disappointing, and I want to help you understand the reasoning behind this decision. Our model predicted a 55% probability that you might leave your current position, which influenced the decision to withhold the promotion offer. This prediction is based on various factors related to your work experience and satisfaction levels.\n\nThe most significant factor in this prediction was your years of experience, both overall and within your current organization. While you have a solid amount of experience, the model suggests that this might be a period where employees often consider new opportunities. Additionally, the perception of limited job opportunities elsewhere was another key factor, indicating that you might be exploring options beyond your current role.\n\nYour feelings about not receiving deserved promotions and dissatisfaction with rewards and wages also played a crucial role. These factors suggest that you might feel undervalued, which could contribute to thoughts of leaving. Furthermore, the lack of job stability and satisfaction with your work environment were influential, indicating areas where you might feel less secure or content.\n\nOn the positive side, your gender, age, and academic degree did not significantly push the prediction toward leaving, suggesting these aspects are not areas of concern. However, the model highlighted that improving your satisfaction with rewards, wages, and promotion opportunities could positively impact your retention prospects.\n\nTo enhance your chances of future promotions, consider discussing your career goals and concerns with your manager. Seeking feedback and exploring opportunities for professional development could also help. By addressing these areas, you can work towards a more satisfying and stable work environment, which may lead to better opportunities in the future.\n\nI hope this explanation provides clarity and guidance as you navigate your career path.",
+  "error": null
+}

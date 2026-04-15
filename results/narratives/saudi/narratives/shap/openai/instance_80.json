@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 80,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:46:49.450998",
+  "status": "success",
+  "narrative": "Dear Employee,\n\nI understand that receiving news about a denied promotion can be disappointing, and I want to help you understand the reasoning behind this decision. Our model predicted a 51% probability that you might leave your current position, which influenced the decision to withhold the promotion offer. This prediction is based on various factors related to your work experience and conditions.\n\nThe most influential factors in this prediction were your years of experience and the perception of job opportunities elsewhere. Both of these factors suggested a potential inclination to explore other career paths, which contributed to the prediction that you might leave. Additionally, the level of support you receive at work and your satisfaction with promotions were also significant. While you feel you have received deserved promotions, the overall satisfaction with rewards and wages was less positive, which also nudged the prediction towards leaving.\n\nOther factors, such as your job stability and the number of training programs attended, played a role as well. Although you have medical insurance, which is a positive aspect, the lack of useful training programs and satisfaction with your job environment were less favorable. These elements, combined with your current job satisfaction level, contributed to the model's prediction.\n\nTo improve your retention prospects and increase your chances of promotion in the future, consider focusing on areas that can be realistically changed. Enhancing your job satisfaction and seeking more beneficial training opportunities could positively impact your situation. Additionally, addressing any concerns about job stability and exploring ways to increase your engagement at work might also help. By taking these steps, you can work towards a more favorable outcome in future evaluations.\n\nI hope this explanation provides clarity and guidance as you navigate your career path.",
+  "error": null
+}

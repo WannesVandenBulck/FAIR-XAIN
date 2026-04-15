@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:39:49.153084",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model, which helps us understand employee retention, predicted a 45% probability that you might leave your current position. This prediction influenced the decision to hold off on offering a promotion at this time. Let's delve into the factors that contributed to this prediction and what it means for you.\n\nThe model considered various aspects of your work experience and conditions. Among the most influential factors was your overall years of experience, which is relatively common among your peers, but it still played a significant role in the prediction. The sector you work in also had a notable impact, as did the number of training programs you've attended in the last three years. Unfortunately, not having participated in recent training programs might have contributed to the prediction that you might leave.\n\nYour satisfaction with rewards and wages, as well as your perception of deserved promotions, were also key factors. It seems that feeling undervalued in these areas might have nudged the prediction towards leaving. On a more positive note, your job stability and the presence of job opportunities were seen as factors that could encourage you to stay, though they were less influential in the overall prediction.\n\nGiven these insights, you might consider focusing on areas that could enhance your retention prospects. Engaging in more training programs could not only improve your skills but also signal your commitment to growth within the company. Additionally, discussing your career path and potential for promotions with your manager could help address any concerns about recognition and advancement.\n\nWe hope this explanation provides clarity and helps you understand the decision. We value your contributions and are here to support you in your career journey. Please feel free to reach out if you have any questions or need further assistance.",
+  "error": null
+}

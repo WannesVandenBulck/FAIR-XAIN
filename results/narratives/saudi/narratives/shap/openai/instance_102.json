@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 102,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:48:48.866849",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model predicted a 65% probability that you might leave your current position, which influenced the decision to withhold the promotion offer at this time. This prediction is based on various factors related to your work experience and conditions.\n\nThe most significant factor in this prediction was the presence of other job opportunities. This suggests that the model perceived you as having viable alternatives outside your current role, which might increase the likelihood of you considering a change. Additionally, your years of experience at your current organization and overall work experience were also influential. These factors typically indicate stability, but in your case, they contributed to the prediction that you might leave, possibly because they align with the profile of employees who have moved on after similar tenures.\n\nYour satisfaction with receiving deserved promotions and the number of training programs you've attended recently also played a role. While you expressed satisfaction in these areas, the model still interpreted these as factors that could lead to a departure, perhaps due to the broader context of your profile. The level of support you receive at work and your satisfaction with rewards and wages were also considered, but they had a less pronounced impact on the prediction.\n\nGiven these insights, you might want to focus on factors that could enhance your retention prospects. For instance, increasing your engagement with the current role or seeking additional responsibilities could demonstrate a stronger commitment to staying. Additionally, discussing your career goals with your manager might help align your aspirations with opportunities within the company, potentially improving your chances for future promotions.\n\nWe understand that this decision might be disappointing, but we hope this explanation provides clarity. We encourage you to consider these factors and discuss any concerns with your supervisor to explore ways to strengthen your position within the company.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "saudi",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T17:39:58.467838",
+  "status": "success",
+  "narrative": "Hello, and thank you for your patience as we explain the recent decision regarding your promotion. Our model, which helps us understand employee retention, predicted a 48% probability that you might leave your current position. This prediction influenced the decision to hold off on offering a promotion at this time, as we aim to ensure that promotions are given to employees who are likely to stay and grow with the company.\n\nSeveral factors played a significant role in this prediction. The most influential factor was the perception of job opportunities elsewhere, which suggested that you might be considering other options. This perception can often lead to a higher likelihood of leaving. Additionally, your feelings about receiving deserved promotions and the sector you work in also contributed to the prediction. These factors, along with your emotional commitment to the organization and satisfaction with rewards and wages, were key in shaping the model's outlook.\n\nEach of these factors pushed the prediction towards the possibility of leaving. For instance, if you feel there are better opportunities outside, it naturally increases the chance of considering a move. Similarly, if there's any dissatisfaction with promotions or rewards, it can impact your decision to stay. On the other hand, factors like your distance to work and the support you receive at your job had a lesser influence but still played a role in the overall prediction.\n\nGiven this information, you might consider focusing on aspects that can enhance your retention prospects. For example, discussing career development opportunities with your manager or exploring ways to increase your emotional commitment to the organization could be beneficial. By addressing these areas, you can improve your chances of receiving a promotion in the future. We value your contributions and are here to support you in your career journey.",
+  "error": null
+}
