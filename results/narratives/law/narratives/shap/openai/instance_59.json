@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:54:10.857458",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 48% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam on their first try.\n\nLet's look at the factors that influenced this prediction. Your academic performance in Year 3, represented by your decile ranking, was the most significant factor. Your ranking was lower than the average, which contributed to the prediction that you might struggle with the bar exam. Similarly, your LSAT score, which was below the average, also played a crucial role in the model's decision, suggesting that you might face challenges in the exam.\n\nYour Year 1 academic performance and family income were also important. Your Year 1 decile ranking was lower than the average, which further pushed the prediction towards a potential failure. Meanwhile, your family income, categorized as middle, was slightly below the average income bracket, which might have influenced the model's assessment of your resources and support system.\n\nOther factors, such as your racial background and undergraduate GPA, had a lesser but still notable impact. Being part of a minority group and having a GPA slightly above average contributed positively, but not enough to outweigh the other factors. Your gender and full-time status had minimal influence on the prediction.\n\nTo improve your chances of passing the bar exam in the future, you might consider focusing on enhancing your academic performance and preparing thoroughly for the LSAT. Seeking additional resources or support to strengthen these areas could make a significant difference. Remember, this prediction is not a definitive measure of your potential, and with dedication and effort, you can work towards achieving your goals.",
+  "error": null
+}

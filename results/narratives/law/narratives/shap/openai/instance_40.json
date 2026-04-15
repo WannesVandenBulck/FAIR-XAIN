@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:52:27.591074",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 71.6% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, but let's delve into the factors that influenced this outcome.\n\nYour academic journey shows that you were in the first decile for your grades in both Year 1 and Year 3, which means your grades were lower compared to most of your peers. This was a significant factor in the model's prediction, suggesting a challenge in academic performance. Additionally, your LSAT score was notably lower than the average, which also contributed to the prediction that you might struggle with the bar exam.\n\nYour family's income bracket is upper-middle, which is generally seen as a positive factor, but in this case, it had less influence compared to your academic indicators. Your undergraduate GPA was slightly above average, which is a positive aspect of your profile, but it wasn't enough to outweigh the other factors. The model also considered your racial background, as you identify as Black, which is less common in the dataset. While this factor was influential, it was not the primary driver of the prediction.\n\nThe model ranked these features based on their influence, with your LSAT score and academic deciles being the most impactful, followed by family income and racial background. Your gender and full-time status had minimal influence on the prediction.\n\nTo improve your chances of passing the bar exam in the future, focusing on enhancing your academic performance and preparing thoroughly for the LSAT could be beneficial. Consider seeking additional resources or support to strengthen these areas. Remember, this prediction is not a definitive measure of your potential, and with dedication and effort, you can work towards achieving your goals.\n\nI hope this explanation provides clarity and encourages you to continue pursuing your aspirations.",
+  "error": null
+}

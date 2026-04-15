@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:54:06.359379",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 65.5% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. Both of these grades placed you in the lowest decile compared to your peers, which strongly influenced the model's prediction towards a potential failure. Additionally, your LSAT score was considerably lower than the average, further pushing the prediction towards a less favorable outcome.\n\nYour family's income level also played a role, as it was lower than the average, which might suggest fewer resources available for preparation. Your racial background as Asian, while a minority in the dataset, also had some influence, though less than the academic factors. Your undergraduate GPA was slightly below average, which contributed to the prediction but to a lesser extent than your grades and LSAT score.\n\nOther factors, such as your full-time status and gender, had minimal impact on the prediction. Given this information, you might consider focusing on improving your academic performance and LSAT score, as these are areas where changes could significantly enhance your chances of passing the bar exam. Seeking additional resources or support to boost your preparation could also be beneficial.\n\nRemember, this prediction is not a definitive measure of your potential. With dedication and targeted efforts, you can improve your chances of success in the future.",
+  "error": null
+}

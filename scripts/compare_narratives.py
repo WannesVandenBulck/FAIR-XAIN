@@ -7,6 +7,7 @@ Then press the play button to run.
 
 import json
 import sys
+import re
 import argparse
 import pandas as pd
 import numpy as np
@@ -22,26 +23,21 @@ if str(ROOT) not in sys.path:
 # Import narrative generation function
 from scripts.make_narratives import generate_narrative, get_available_instances, save_result
 
-# Import sentiment analysis - use VADER (lightweight, rule-based)
+# Import AFINN for sentiment word lexicon
 try:
-    from nltk.sentiment import SentimentIntensityAnalyzer
-    import nltk
-    try:
-        nltk.data.find('vader_lexicon')
-    except LookupError:
-        nltk.download('vader_lexicon')
-    SENTIMENT_AVAILABLE = True
+    from afinn import Afinn
+    AFINN_AVAILABLE = True
 except ImportError:
-    SENTIMENT_AVAILABLE = False
-    print("Warning: nltk not installed. Install with: pip install nltk")
+    AFINN_AVAILABLE = False
+    print("Warning: afinn not installed. Install with: pip install afinn")
 
-# Import readability analysis
+# Import TextBlob for polarity and subjectivity analysis
 try:
-    import textstat
-    TEXTSTAT_AVAILABLE = True
+    from textblob import TextBlob
+    TEXTBLOB_AVAILABLE = True
 except ImportError:
-    TEXTSTAT_AVAILABLE = False
-    print("Warning: textstat not installed. Install with: pip install textstat")
+    TEXTBLOB_AVAILABLE = False
+    print("Warning: textblob not installed. Install with: pip install textblob")
 
 
 # ============================================================================
@@ -52,10 +48,10 @@ except ImportError:
 DATASET = "law"  # Options: "law", "credit", "saudi", "student"
 
 # Number of adversely predicted instances to analyze
-NUM_INSTANCES = 150
+NUM_INSTANCES = 80
 
 # Type of explanation narratives
-PROMPT_TYPE = "cf"  # Options: "shap" or "cf" 
+PROMPT_TYPE = "shap"  # Options: "shap" or "cf" 
 
 # Generate missing narratives? (Set to True to create narratives)
 GENERATE_NARRATIVES = True  # Set to True to generate missing narratives
@@ -317,8 +313,12 @@ def get_narrative_statistics(narratives):
 # ANALYSIS FRAMEWORK (Placeholder functions for user to implement)
 # ============================================================================
 
+# ============================================================================
+# ANALYSIS FRAMEWORK
+# ============================================================================
+
 class NarrativeAnalyzer:
-    """Framework for analyzing narratives. Users can add specific analyzers."""
+    """Framework for analyzing narratives - explicit mentions and sentiment words."""
     
     def __init__(self, narratives, protected_groups):
         """
@@ -332,25 +332,21 @@ class NarrativeAnalyzer:
         self.protected_groups = protected_groups
         self.results = {}
     
-    # ========================================================================
-    # SENTIMENT ANALYSIS FOR LAW SCHOOL ADMISSION NARRATIVES
-    # ========================================================================
-    
-    def analyze_sentiment(self, narratives=None):
+    def analyze_protected_attribute_mentions(self, narratives=None):
         """
-        Analyze sentiment of law school admission narratives using VADER.
+        Count explicit mentions of race and gender in narratives.
         
-        VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lightweight,
-        rule-based sentiment analyzer that doesn't require model downloads.
-        Works well for text with mixed positive/negative expression.
+        Uses word boundary matching (\\b) to avoid false positives from substring matches.
+        E.g., "man" won't match "management" or "performance".
+        
+        Race mentions: Black, Hispanic, Asian, White, Native American, etc.
+        Gender mentions: Male, Female, Man, Woman, etc.
         
         Args:
-            narratives: Optional dict of narratives to analyze. 
-                       If None, uses self.narratives
+            narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> {"label": str, "score": float}
-            where label is POSITIVE, NEGATIVE, or NEUTRAL and score is -1 to 1
+            Dictionary mapping instance_idx -> {"race_mentions": int, "gender_mentions": int}
         """
         if narratives is None:
             narratives = self.narratives
@@ -358,77 +354,15 @@ class NarrativeAnalyzer:
         if not narratives:
             return {}
         
-        if not SENTIMENT_AVAILABLE:
-            print("Error: nltk library not available. Install with: pip install nltk")
-            return {idx: {"label": "UNKNOWN", "score": 0.0} for idx in narratives.keys()}
+        # Define search terms for race and gender (will use word boundaries)
+        race_terms = ["Black", "Hispanic", "Asian", "White", "Native American", 
+                     "African", "Latino", "Caucasian", "Asians", "Africans"]
+        gender_terms = ["Male", "Female", "Man", "Woman", "men", "women", "boy", "girl",
+                       "masculine", "feminine"]
         
-        # Initialize VADER sentiment analyzer (no model download needed)
-        print("Initializing VADER sentiment analyzer...")
-        sia = SentimentIntensityAnalyzer()
-        print("VADER analyzer ready (lightweight, rule-based).")
-        
-        sentiments = {}
-        total = len(narratives)
-        
-        for idx, (instance_idx, narrative) in enumerate(narratives.items()):
-            if (idx + 1) % 10 == 0:
-                print(f"  Processing narrative {idx + 1}/{total}...")
-            
-            try:
-                # Get VADER sentiment scores
-                scores = sia.polarity_scores(narrative)
-                
-                # compound score ranges from -1 (most negative) to 1 (most positive)
-                # Classify: negative < -0.1, positive > 0.1, otherwise neutral
-                compound = scores['compound']
-                
-                if compound >= 0.1:
-                    label = "POSITIVE"
-                elif compound <= -0.1:
-                    label = "NEGATIVE"
-                else:
-                    label = "NEUTRAL"
-                
-                sentiments[instance_idx] = {
-                    "label": label,
-                    "score": float(compound),  # -1 to 1 scale
-                    "pos": float(scores['pos']),
-                    "neu": float(scores['neu']),
-                    "neg": float(scores['neg']),
-                }
-            
-            except Exception as e:
-                print(f"  Error processing instance {instance_idx}: {e}")
-                sentiments[instance_idx] = {"label": "ERROR", "score": 0.0}
-        
-        return sentiments
-    
-    # ========================================================================
-    # 1. EMPATHY/TONE ANALYSIS
-    # ========================================================================
-    
-    def analyze_empathy(self, narratives=None):
-        """
-        Analyze empathy and tone of narratives.
-        
-        Detects empathetic language vs blame language.
-        - Empathetic: "unfortunately", "despite", "challenging", "circumstances"
-        - Blame: "failed", "couldn't", "weakness", "lack of"
-        
-        Args:
-            narratives: Optional dict of narratives to analyze
-        
-        Returns:
-            Dictionary mapping instance_idx -> {"empathy_score": float, "blame_score": float}
-        """
-        if narratives is None:
-            narratives = self.narratives
-        
-        empathy_words = ["unfortunately", "despite", "challenging", "circumstances", 
-                        "difficult", "struggled", "limited", "however", "although",
-                        "still", "remarkable", "nonetheless"]
-        blame_words = ["failed", "couldn't", "couldn't", "weakness", "lack", "insufficient",
-                      "poor", "low", "difficult", "underperformed", "mistake"]
+        # Compile regex patterns with word boundaries (case-insensitive)
+        race_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in race_terms]
+        gender_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in gender_terms]
         
         results = {}
         total = len(narratives)
@@ -438,54 +372,49 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                text_lower = narrative.lower()
+                # Count race mentions using word boundaries
+                race_count = sum(len(pattern.findall(narrative)) for pattern in race_patterns)
                 
-                # Count empathy and blame words
-                empathy_count = sum(text_lower.count(word) for word in empathy_words)
-                blame_count = sum(text_lower.count(word) for word in blame_words)
-                
-                # Normalize by text length
-                word_count = len(narrative.split())
-                empathy_score = empathy_count / max(word_count, 1) if word_count > 0 else 0
-                blame_score = blame_count / max(word_count, 1) if word_count > 0 else 0
-                
-                # Overall empathy metric: empathy - blame
-                overall_empathy = empathy_score - blame_score
+                # Count gender mentions using word boundaries
+                gender_count = sum(len(pattern.findall(narrative)) for pattern in gender_patterns)
                 
                 results[instance_idx] = {
-                    "empathy_score": float(empathy_score),
-                    "blame_score": float(blame_score),
-                    "overall_tone": float(overall_empathy),  # Positive = empathetic, Negative = blaming
+                    "race_mentions": race_count,
+                    "gender_mentions": gender_count,
                 }
             
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {"empathy_score": 0.0, "blame_score": 0.0, "overall_tone": 0.0}
+                results[instance_idx] = {"race_mentions": 0, "gender_mentions": 0}
         
         return results
     
-    # ========================================================================
-    # 2. SPECIFICITY ANALYSIS (Feature Coverage)
-    # ========================================================================
-    
-    def analyze_specificity(self, narratives=None):
+    def analyze_sentiment_words(self, narratives=None):
         """
-        Analyze specificity of narratives - how many concrete details/numbers mentioned.
+        Count negative and positive words in narratives using AFINN lexicon.
         
-        Measures:
-        - Number of sentences
-        - Average sentence length
-        - Mentions of numbers/percentages/specific values
-        - Feature coverage (how many different features are discussed)
+        AFINN is a simple lexicon of ~3,500 English words rated for sentiment (-5 to +5).
         
         Args:
             narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> specificity metrics
+            Dictionary mapping instance_idx -> {"negative_words": int, "positive_words": int}
         """
         if narratives is None:
             narratives = self.narratives
+        
+        if not narratives:
+            return {}
+        
+        if not AFINN_AVAILABLE:
+            print("Error: afinn library not available. Install with: pip install afinn")
+            return {idx: {"negative_words": 0, "positive_words": 0} for idx in narratives.keys()}
+        
+        # Initialize AFINN lexicon
+        print("Loading AFINN sentiment lexicon...")
+        afinn = Afinn()
+        print("AFINN lexicon loaded.")
         
         results = {}
         total = len(narratives)
@@ -495,72 +424,56 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                # Count sentences
-                sentences = [s.strip() for s in narrative.split('.') if s.strip()]
-                sentence_count = len(sentences)
+                # Split narrative into words and check AFINN scores
+                words = narrative.lower().split()
                 
-                # Average sentence length
-                avg_sentence_length = len(narrative.split()) / max(sentence_count, 1)
+                negative_count = 0
+                positive_count = 0
                 
-                # Count numbers/specific values (integers, decimals, percentages)
-                import re
-                numbers = re.findall(r'\d+\.?\d*\s*%?|\b\d+(?:\.\d+)?\b', narrative)
-                number_count = len(numbers)
-                
-                # Count mentions of key explanation words (indicating feature discussion)
-                explanation_words = ["feature", "value", "score", "important", "contributed", 
-                                   "because", "reason", "due to", "compared to", "average",
-                                   "typically", "usually", "percentage", "rate"]
-                explanation_mentions = sum(1 for word in explanation_words 
-                                         if word in narrative.lower())
-                
-                specificity_score = (number_count + explanation_mentions) / max(
-                    len(narrative.split()), 1)
+                # Count words in AFINN lexicon
+                for word in words:
+                    # Remove punctuation for better matching
+                    word_clean = ''.join(c for c in word if c.isalnum())
+                    score = afinn.score(word_clean)
+                    
+                    if score < 0:
+                        negative_count += 1
+                    elif score > 0:
+                        positive_count += 1
                 
                 results[instance_idx] = {
-                    "sentence_count": float(sentence_count),
-                    "avg_sentence_length": float(avg_sentence_length),
-                    "number_mentions": float(number_count),
-                    "explanation_detail": float(explanation_mentions),
-                    "specificity_score": float(specificity_score),
+                    "negative_words": negative_count,
+                    "positive_words": positive_count,
                 }
             
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {
-                    "sentence_count": 0.0,
-                    "avg_sentence_length": 0.0,
-                    "number_mentions": 0.0,
-                    "explanation_detail": 0.0,
-                    "specificity_score": 0.0,
-                }
+                results[instance_idx] = {"negative_words": 0, "positive_words": 0}
         
         return results
     
-    # ========================================================================
-    # 3. READABILITY ANALYSIS (Flesch-Kincaid)
-    # ========================================================================
-    
-    def analyze_readability(self, narratives=None):
+    def analyze_polarity_subjectivity(self, narratives=None):
         """
-        Analyze readability of narratives using Flesch-Kincaid metrics.
+        Analyze polarity and subjectivity of narratives using TextBlob.
         
-        Measures:
-        - Flesch-Kincaid Grade Level (what US school grade is needed to understand)
-        - Flesch Reading Ease (0-100, higher = easier)
+        Polarity: -1 (most negative) to 1 (most positive)
+        Subjectivity: 0 (objective) to 1 (subjective)
         
         Args:
             narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> readability metrics
+            Dictionary mapping instance_idx -> {"polarity": float, "subjectivity": float}
         """
         if narratives is None:
             narratives = self.narratives
         
-        if not TEXTSTAT_AVAILABLE:
-            print("Warning: textstat not available. Install with: pip install textstat")
-            return {idx: {"grade_level": 0.0, "reading_ease": 0.0} for idx in narratives.keys()}
+        if not narratives:
+            return {}
+        
+        if not TEXTBLOB_AVAILABLE:
+            print("Error: textblob library not available. Install with: pip install textblob")
+            return {idx: {"polarity": 0.0, "subjectivity": 0.0} for idx in narratives.keys()}
         
         results = {}
         total = len(narratives)
@@ -570,18 +483,17 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                # Calculate Flesch-Kincaid metrics
-                grade_level = textstat.flesch_kincaid_grade(narrative)
-                reading_ease = textstat.flesch_reading_ease(narrative)
+                # Create TextBlob and extract sentiment
+                blob = TextBlob(narrative)
                 
                 results[instance_idx] = {
-                    "flesch_kincaid_grade": float(grade_level),
-                    "flesch_reading_ease": float(reading_ease),  # 0-100: 90+ = very easy, 60-70 = standard, <30 = difficult
+                    "polarity": float(blob.sentiment.polarity),      # -1 to 1
+                    "subjectivity": float(blob.sentiment.subjectivity),  # 0 to 1
                 }
             
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {"flesch_kincaid_grade": 0.0, "flesch_reading_ease": 0.0}
+                results[instance_idx] = {"polarity": 0.0, "subjectivity": 0.0}
         
         return results
     
@@ -596,41 +508,32 @@ class NarrativeAnalyzer:
         print("Running narrative analyses...")
         print("="*70)
         
-        # Sentiment Analysis
-        print("\n1. Sentiment Analysis (VADER)...")
+        # Protected Attribute Mentions
+        print("\n1. Protected Attribute Mentions (Race and Gender)...")
         try:
-            self.results["sentiment"] = self.analyze_sentiment()
+            self.results["protected_mentions"] = self.analyze_protected_attribute_mentions()
         except Exception as e:
             print(f"Error: {e}")
             raise
         
-        # Empathy/Tone Analysis
-        print("\n2. Empathy/Tone Analysis...")
+        # Sentiment Words
+        print("\n2. Negative and Positive Words...")
         try:
-            self.results["empathy"] = self.analyze_empathy()
+            self.results["sentiment_words"] = self.analyze_sentiment_words()
         except Exception as e:
             print(f"Error: {e}")
-            self.results["empathy"] = {}
+            self.results["sentiment_words"] = {}
         
-        # Specificity Analysis
-        print("\n3. Specificity Analysis...")
+        # Polarity and Subjectivity
+        print("\n3. Polarity and Subjectivity (TextBlob)...")
         try:
-            self.results["specificity"] = self.analyze_specificity()
+            self.results["polarity_subjectivity"] = self.analyze_polarity_subjectivity()
         except Exception as e:
             print(f"Error: {e}")
-            self.results["specificity"] = {}
-        
-        # Readability Analysis
-        print("\n4. Readability Analysis...")
-        try:
-            self.results["readability"] = self.analyze_readability()
-        except Exception as e:
-            print(f"Error: {e}")
-            self.results["readability"] = {}
+            self.results["polarity_subjectivity"] = {}
         
         print("\n" + "="*70)
         print("Analysis complete!")
-        print("="*70)
         print("="*70)
         
         return self.results
@@ -661,61 +564,12 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
     print(f"Timestamp: {datetime.now().isoformat()}")
     print("="*70)
     
-    # Print narrative statistics
-    print("\nOVERALL NARRATIVE STATISTICS:")
-    stats = get_narrative_statistics(analyzer.narratives)
-    for key, value in stats.items():
-        print(f"  {key}: {value:.2f}" if isinstance(value, float) else f"  {key}: {value}")
-    
-    # Print statistics by protected attributes
-    print("\nNARRATIVE STATISTICS BY PROTECTED ATTRIBUTE:")
-    protected_attrs = PROTECTED_ATTRIBUTES[dataset]
-    
-    for attr in protected_attrs:
-        print(f"\n  {attr.upper()}:")
-        unique_values = adverse_df[attr].unique()
+    # Print protected attribute mentions by protected class
+    if "protected_mentions" in analyzer.results:
+        print("\nPROTECTED ATTRIBUTE MENTIONS (Race and Gender):")
+        protected_mentions = analyzer.results["protected_mentions"]
         
-        for value in sorted(unique_values):
-            matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
-            group_narratives = {idx: analyzer.narratives[idx] for idx in matching_instances if idx in analyzer.narratives}
-            
-            if group_narratives:
-                group_stats = get_narrative_statistics(group_narratives)
-                mapped_value = map_attribute_value(value, dataset, attr)
-                print(f"    {mapped_value}:")
-                for key, val in group_stats.items():
-                    print(f"      {key}: {val:.2f}" if isinstance(val, float) else f"      {key}: {val}")
-    
-    # Print sentiment analysis by protected attributes
-    if "sentiment" in analyzer.results:
-        print("\nSENTIMENT ANALYSIS BY PROTECTED ATTRIBUTE:")
-        sentiment_results = analyzer.results["sentiment"]
-        
-        for attr in protected_attrs:
-            print(f"\n  {attr.upper()}:")
-            unique_values = adverse_df[attr].unique()
-            
-            for value in sorted(unique_values):
-                # Get instances with this attribute value
-                matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
-                
-                # Get sentiment scores for these instances
-                scores = [sentiment_results.get(idx, {}).get("score", 0) for idx in matching_instances if idx in sentiment_results]
-                labels = [sentiment_results.get(idx, {}).get("label", "UNKNOWN") for idx in matching_instances if idx in sentiment_results]
-                
-                if scores:
-                    label_counts = pd.Series(labels).value_counts().to_dict()
-                    mapped_value = map_attribute_value(value, dataset, attr)
-                    print(f"    {mapped_value}:")
-                    print(f"      Count: {len(scores)}")
-                    print(f"      Avg Sentiment Score: {np.mean(scores):.3f} (±{np.std(scores):.3f})")
-                    print(f"      Label Distribution: {label_counts}")
-    
-    # Print empathy analysis by protected attributes
-    if "empathy" in analyzer.results and analyzer.results["empathy"]:
-        print("\nEMPATHY/TONE ANALYSIS BY PROTECTED ATTRIBUTE:")
-        empathy_results = analyzer.results["empathy"]
-        
+        protected_attrs = PROTECTED_ATTRIBUTES[dataset]
         for attr in protected_attrs:
             print(f"\n  {attr.upper()}:")
             unique_values = adverse_df[attr].unique()
@@ -723,23 +577,29 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
             for value in sorted(unique_values):
                 matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                 
-                # Get empathy scores for these instances
-                empathy_scores = [empathy_results.get(idx, {}).get("empathy_score", 0) for idx in matching_instances if idx in empathy_results]
-                blame_scores = [empathy_results.get(idx, {}).get("blame_score", 0) for idx in matching_instances if idx in empathy_results]
+                # Get mention counts for instances with this attribute value
+                race_mentions = [protected_mentions.get(idx, {}).get("race_mentions", 0) for idx in matching_instances if idx in protected_mentions]
+                gender_mentions = [protected_mentions.get(idx, {}).get("gender_mentions", 0) for idx in matching_instances if idx in protected_mentions]
                 
-                if empathy_scores:
+                if race_mentions and gender_mentions:
                     mapped_value = map_attribute_value(value, dataset, attr)
+                    total_narratives = len(race_mentions)
+                    total_race_mentions = sum(race_mentions)
+                    total_gender_mentions = sum(gender_mentions)
+                    avg_race_mentions = np.mean(race_mentions)
+                    avg_gender_mentions = np.mean(gender_mentions)
+                    
                     print(f"    {mapped_value}:")
-                    print(f"      Count: {len(empathy_scores)}")
-                    print(f"      Avg Empathy Score: {np.mean(empathy_scores):.3f} (±{np.std(empathy_scores):.3f})")
-                    print(f"      Avg Blame Score: {np.mean(blame_scores):.3f} (±{np.std(blame_scores):.3f})")
-                    print(f"      Overall Tone: {np.mean(empathy_scores) - np.mean(blame_scores):.3f} ({'empathetic' if np.mean(empathy_scores) > np.mean(blame_scores) else 'blame-focused'})")
+                    print(f"      Total Narratives: {total_narratives}")
+                    print(f"      Total Race Mentions: {total_race_mentions} (Avg: {avg_race_mentions:.2f} per narrative)")
+                    print(f"      Total Gender Mentions: {total_gender_mentions} (Avg: {avg_gender_mentions:.2f} per narrative)")
     
-    # Print specificity analysis by protected attributes
-    if "specificity" in analyzer.results and analyzer.results["specificity"]:
-        print("\nSPECIFICITY ANALYSIS BY PROTECTED ATTRIBUTE:")
-        specificity_results = analyzer.results["specificity"]
+    # Print sentiment words by protected class
+    if "sentiment_words" in analyzer.results and analyzer.results["sentiment_words"]:
+        print("\nSENTIMENT WORDS (Negative and Positive):")
+        sentiment_words = analyzer.results["sentiment_words"]
         
+        protected_attrs = PROTECTED_ATTRIBUTES[dataset]
         for attr in protected_attrs:
             print(f"\n  {attr.upper()}:")
             unique_values = adverse_df[attr].unique()
@@ -747,24 +607,26 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
             for value in sorted(unique_values):
                 matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                 
-                # Get specificity metrics for these instances
-                specificity_scores = [specificity_results.get(idx, {}).get("specificity_score", 0) for idx in matching_instances if idx in specificity_results]
-                sentence_counts = [specificity_results.get(idx, {}).get("sentence_count", 0) for idx in matching_instances if idx in specificity_results]
-                number_mentions = [specificity_results.get(idx, {}).get("number_mentions", 0) for idx in matching_instances if idx in specificity_results]
+                # Get sentiment word counts for instances with this attribute value
+                negative_words = [sentiment_words.get(idx, {}).get("negative_words", 0) for idx in matching_instances if idx in sentiment_words]
+                positive_words = [sentiment_words.get(idx, {}).get("positive_words", 0) for idx in matching_instances if idx in sentiment_words]
                 
-                if specificity_scores:
+                if negative_words and positive_words:
                     mapped_value = map_attribute_value(value, dataset, attr)
                     print(f"    {mapped_value}:")
-                    print(f"      Count: {len(specificity_scores)}")
-                    print(f"      Avg Specificity Score: {np.mean(specificity_scores):.3f} (±{np.std(specificity_scores):.3f})")
-                    print(f"      Avg Sentence Count: {np.mean(sentence_counts):.1f} (±{np.std(sentence_counts):.1f})")
-                    print(f"      Avg Number Mentions: {np.mean(number_mentions):.1f} (±{np.std(number_mentions):.1f})")
+                    print(f"      Count: {len(negative_words)}")
+                    print(f"      Avg Negative Words: {np.mean(negative_words):.2f} (±{np.std(negative_words):.2f})")
+                    print(f"      Avg Positive Words: {np.mean(positive_words):.2f} (±{np.std(positive_words):.2f})")
     
-    # Print readability analysis by protected attributes
-    if "readability" in analyzer.results and analyzer.results["readability"]:
-        print("\nREADABILITY ANALYSIS BY PROTECTED ATTRIBUTE:")
-        readability_results = analyzer.results["readability"]
+    # Print polarity and subjectivity by protected class
+    if "polarity_subjectivity" in analyzer.results and analyzer.results["polarity_subjectivity"]:
+        print("\nPOLARITY AND SUBJECTIVITY (TextBlob):")
+        print("  Polarity: -1 (negative) to 1 (positive)")
+        print("  Subjectivity: 0 (objective) to 1 (subjective)")
         
+        polarity_subjectivity = analyzer.results["polarity_subjectivity"]
+        
+        protected_attrs = PROTECTED_ATTRIBUTES[dataset]
         for attr in protected_attrs:
             print(f"\n  {attr.upper()}:")
             unique_values = adverse_df[attr].unique()
@@ -772,22 +634,16 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
             for value in sorted(unique_values):
                 matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                 
-                # Get readability metrics for these instances
-                grade_levels = [readability_results.get(idx, {}).get("flesch_kincaid_grade", 0) for idx in matching_instances if idx in readability_results]
-                reading_eases = [readability_results.get(idx, {}).get("flesch_reading_ease", 0) for idx in matching_instances if idx in readability_results]
+                # Get polarity and subjectivity for instances with this attribute value
+                polarities = [polarity_subjectivity.get(idx, {}).get("polarity", 0.0) for idx in matching_instances if idx in polarity_subjectivity]
+                subjectivities = [polarity_subjectivity.get(idx, {}).get("subjectivity", 0.0) for idx in matching_instances if idx in polarity_subjectivity]
                 
-                if grade_levels:
+                if polarities and subjectivities:
                     mapped_value = map_attribute_value(value, dataset, attr)
                     print(f"    {mapped_value}:")
-                    print(f"      Count: {len(grade_levels)}")
-                    print(f"      Avg Grade Level: {np.mean(grade_levels):.1f} (±{np.std(grade_levels):.1f})")
-                    print(f"      Avg Reading Ease: {np.mean(reading_eases):.1f} (±{np.std(reading_eases):.1f})")
-                    difficulty = "Very Easy" if np.mean(reading_eases) >= 90 else \
-                                "Easy" if np.mean(reading_eases) >= 80 else \
-                                "Standard" if np.mean(reading_eases) >= 60 else \
-                                "Difficult" if np.mean(reading_eases) >= 30 else \
-                                "Very Difficult"
-                    print(f"      Difficulty Level: {difficulty}")
+                    print(f"      Count: {len(polarities)}")
+                    print(f"      Avg Polarity: {np.mean(polarities):.3f} (±{np.std(polarities):.3f})")
+                    print(f"      Avg Subjectivity: {np.mean(subjectivities):.3f} (±{np.std(subjectivities):.3f})")
     
     print("\n" + "="*70)
 

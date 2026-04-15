@@ -48,42 +48,42 @@ Academic performance, study habits, and family support can vary. The counterfact
 The model is making a prediction for a student.
 
 Feature values:
-- decile1 = 1.00 (avg: 5.71) - the decile to which the student belongs in the school given his grades in Year 1.
-- decile3 = 2.00 (avg: 5.53) - the decile to which the student belongs in the school given his grades in Year 3.
-- fam_inc = 4.00 (avg: 3.47) - the family income bracket of the student (from 1 to 5).
-- lsat = 31.00 (avg: 36.70) - the LSAT score of the student.
-- ugpa = 2.90 (avg: 3.21) - the undergraduate GPA of the student.
-- gender = 1.0 - Distribution: Value 0: 43.6%, Value 1: 56.4% - the gender of the student (0 = female, 1 = male).
-- race1 = 1.0 - Distribution: Value 0: 83.8%, Value 1: 4.6%, Value 2: 3.9%, Value 3: 5.9%, Value 4: 1.8% - the racial background of the student (0 = white, 1 = hispanic, 2 = asian, 3 = black, 4 = other).
-- fulltime = 1.0 - Distribution: Value 1.0: 92.7%, Value 2.0: 7.3% - whether the student will work full-time or part-time (0 = part-time, 1 = full-time).
+- decile1 = 3.00 (avg: 5.71) - the decile to which the student belongs in the school given his grades in Year 1.
+- decile3 = 3.00 (avg: 5.53) - the decile to which the student belongs in the school given his grades in Year 3.
+- fam_inc = Upper-middle - Distribution: Value Low: 2.0%, Value Lower-middle: 9.8%, Value Middle: 35.9%, Value Upper-middle: 44.1%, Value High: 8.2% - the family income bracket of the student.
+- lsat = 28.00 (avg: 36.70) - the LSAT score of the student.
+- ugpa = 2.50 (avg: 3.21) - the undergraduate GPA of the student.
+- gender = Female - Distribution: Value Female: 43.6%, Value Male: 56.4% - the gender of the student.
+- race1 = Hispanic - Distribution: Value White: 83.8%, Value Black: 4.6%, Value Hispanic: 3.9%, Value Asian: 5.9%, Value Native American: 1.8% - the racial background of the student.
+- fulltime = Full-time - Distribution: Value Full-time: 92.7%, Value Part-time: 7.3% - whether the student will work full-time or part-time.
 
 
 
 The model's prediction:
-- Predicted probability of failure: 67.9%
+- Predicted probability of failure: 45.0%
 
 4. COUNTERFACTUAL SCENARIOS TABLE
 
 
           decile1  decile3  fam_inc  lsat  ugpa  gender  race1  fulltime
 row_type                                                                
-original      1.0      2.0      4.0  31.0   2.9     1.0    1.0       1.0
-cf_1          1.0      2.0      4.0  31.5   3.0     1.0    0.0       1.0
-cf_2          1.0      3.0      4.0  31.0   3.0     0.0    1.0       1.0
-cf_3          1.0      2.0      4.0  30.0   3.0     1.0    0.0       1.0
+original      3.0      3.0      4.0  28.0   2.5     0.0    2.0       1.0
+cf_1          3.0      3.0      4.0  28.0   2.5     0.0    2.0       1.0
+cf_2          2.0      3.0      5.0  28.0   2.7     0.0    1.0       1.0
+cf_3          2.0      2.0      4.0  27.5   2.8     0.0    1.0       1.0
 
 
 5. YOUR NARRATIVE TASK
 
 
 TASK:
-- You are given a table of counterfactuals for the same original student instance.
-- Summarize what the model considers important for changing the prediction outcome.
+- You are given a table of counterfactuals for the same original instance.
+- Summarize what the model considers important for changing the predicted bar exam class.
 - Provide concrete, actionable insights about which feature changes would shift the prediction.
-- Discuss patterns: which features consistently need to change together to flip the prediction.
+- Provide a numeric summary: which features always/never change, and by how much on average.
 
 Write a detailed narrative explanation for a non-technical reader:
-1) Briefly summarize the current prediction and the student's situation.
+1) Briefly summarize the current situation of the applicant, the model's predicted probability of bar exam failure and what this means for the student.
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
 3) Specify which features always changed (MUST changes) and which never changed.
 4) Quantified summary: how many counterfactuals were generated, which features changed most often.
@@ -93,14 +93,12 @@ Write a detailed narrative explanation for a non-technical reader:
 CONSTRAINTS:
 - Only use information from dataset description, instance description, and counterfactual table.
 - Do NOT invent new feature values or examples.
-- Do NOT refer to individual counterfactuals; discuss overall patterns only.
 - Do not talk about model internals or training details.
 - Use realistic ranges when discussing feature changes.
 
 STYLE:
 - Length: 15-18 sentences.
-- Tone: neutral, explanatory, helpful.
 - Write a coherent narrative without bullet points or tables.
-- Directly address the student. Be respectful and empathic.
+- Directly address the student. 
 - Focus on actionable insights the student can implement.
 

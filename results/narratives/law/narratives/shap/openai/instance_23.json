@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:50:49.548317",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted an 80% probability that you might not pass the bar exam on your first attempt. This prediction was based on several factors from your academic and personal profile.\n\nLet's look at your current situation. Your grades in Year 1 and Year 3 placed you in the lowest decile compared to your peers, which means your academic performance was significantly below average. This was one of the most influential factors in the model's decision, suggesting a higher likelihood of struggling with the bar exam. Additionally, your LSAT score was lower than the average score of other applicants, which also contributed to the prediction that you might face challenges in passing the exam.\n\nYour undergraduate GPA was another important factor. It was below the average GPA of other students, which further influenced the model's prediction towards a potential failure. On the other hand, your family income was higher than average, which typically would have been a positive factor, but in this case, it was not enough to outweigh the academic indicators.\n\nOther aspects, such as your racial background and gender, had a smaller influence on the prediction. Being a full-time student was a common trait among applicants and did not significantly sway the model's decision either way.\n\nGiven these insights, you might consider focusing on improving your academic performance and LSAT score if you plan to reapply in the future. Enhancing these areas could increase your chances of passing the bar exam and strengthen your application. Remember, this prediction is not a definitive outcome but rather an assessment based on current data. With dedication and effort, you can work towards a more favorable result.\n\nI hope this explanation helps clarify the decision and guides you on your next steps. Please feel free to reach out if you have any further questions or need additional support.",
+  "error": null
+}

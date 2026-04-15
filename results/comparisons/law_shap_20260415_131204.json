@@ -1,0 +1,974 @@
+{
+  "dataset": "law",
+  "prompt_type": "shap",
+  "timestamp": "2026-04-15T13:12:04.517421",
+  "num_instances": 80,
+  "results": {
+    "protected_mentions": {
+      "0": {
+        "race_mentions": 0,
+        "gender_mentions": 54
+      },
+      "1": {
+        "race_mentions": 0,
+        "gender_mentions": 42
+      },
+      "2": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "3": {
+        "race_mentions": 0,
+        "gender_mentions": 56
+      },
+      "4": {
+        "race_mentions": 1,
+        "gender_mentions": 64
+      },
+      "5": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "6": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "7": {
+        "race_mentions": 0,
+        "gender_mentions": 37
+      },
+      "8": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "9": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "10": {
+        "race_mentions": 1,
+        "gender_mentions": 54
+      },
+      "11": {
+        "race_mentions": 1,
+        "gender_mentions": 52
+      },
+      "12": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "13": {
+        "race_mentions": 0,
+        "gender_mentions": 51
+      },
+      "14": {
+        "race_mentions": 0,
+        "gender_mentions": 44
+      },
+      "15": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "16": {
+        "race_mentions": 1,
+        "gender_mentions": 50
+      },
+      "17": {
+        "race_mentions": 0,
+        "gender_mentions": 36
+      },
+      "18": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "19": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "20": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "21": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "22": {
+        "race_mentions": 1,
+        "gender_mentions": 43
+      },
+      "23": {
+        "race_mentions": 0,
+        "gender_mentions": 57
+      },
+      "24": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "25": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "26": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "27": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "28": {
+        "race_mentions": 0,
+        "gender_mentions": 38
+      },
+      "29": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "30": {
+        "race_mentions": 0,
+        "gender_mentions": 53
+      },
+      "31": {
+        "race_mentions": 0,
+        "gender_mentions": 49
+      },
+      "32": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "33": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "34": {
+        "race_mentions": 1,
+        "gender_mentions": 37
+      },
+      "35": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "36": {
+        "race_mentions": 0,
+        "gender_mentions": 39
+      },
+      "37": {
+        "race_mentions": 1,
+        "gender_mentions": 45
+      },
+      "38": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "39": {
+        "race_mentions": 0,
+        "gender_mentions": 42
+      },
+      "40": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "41": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "42": {
+        "race_mentions": 1,
+        "gender_mentions": 56
+      },
+      "43": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "44": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "45": {
+        "race_mentions": 1,
+        "gender_mentions": 49
+      },
+      "46": {
+        "race_mentions": 1,
+        "gender_mentions": 42
+      },
+      "47": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "48": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "49": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "50": {
+        "race_mentions": 0,
+        "gender_mentions": 39
+      },
+      "51": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "52": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "53": {
+        "race_mentions": 1,
+        "gender_mentions": 38
+      },
+      "54": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "55": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "56": {
+        "race_mentions": 1,
+        "gender_mentions": 47
+      },
+      "57": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "58": {
+        "race_mentions": 1,
+        "gender_mentions": 36
+      },
+      "59": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "60": {
+        "race_mentions": 0,
+        "gender_mentions": 49
+      },
+      "61": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "62": {
+        "race_mentions": 0,
+        "gender_mentions": 44
+      },
+      "63": {
+        "race_mentions": 1,
+        "gender_mentions": 47
+      },
+      "64": {
+        "race_mentions": 1,
+        "gender_mentions": 50
+      },
+      "65": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "66": {
+        "race_mentions": 0,
+        "gender_mentions": 52
+      },
+      "67": {
+        "race_mentions": 0,
+        "gender_mentions": 50
+      },
+      "68": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "69": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "70": {
+        "race_mentions": 1,
+        "gender_mentions": 42
+      },
+      "71": {
+        "race_mentions": 1,
+        "gender_mentions": 43
+      },
+      "72": {
+        "race_mentions": 1,
+        "gender_mentions": 53
+      },
+      "73": {
+        "race_mentions": 1,
+        "gender_mentions": 53
+      },
+      "74": {
+        "race_mentions": 1,
+        "gender_mentions": 46
+      },
+      "75": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "76": {
+        "race_mentions": 1,
+        "gender_mentions": 60
+      },
+      "77": {
+        "race_mentions": 1,
+        "gender_mentions": 45
+      },
+      "78": {
+        "race_mentions": 0,
+        "gender_mentions": 50
+      },
+      "79": {
+        "race_mentions": 0,
+        "gender_mentions": 37
+      }
+    },
+    "sentiment_words": {
+      "0": {
+        "negative_words": 4,
+        "positive_words": 20
+      },
+      "1": {
+        "negative_words": 2,
+        "positive_words": 14
+      },
+      "2": {
+        "negative_words": 2,
+        "positive_words": 17
+      },
+      "3": {
+        "negative_words": 3,
+        "positive_words": 12
+      },
+      "4": {
+        "negative_words": 2,
+        "positive_words": 12
+      },
+      "5": {
+        "negative_words": 5,
+        "positive_words": 12
+      },
+      "6": {
+        "negative_words": 5,
+        "positive_words": 13
+      },
+      "7": {
+        "negative_words": 3,
+        "positive_words": 19
+      },
+      "8": {
+        "negative_words": 4,
+        "positive_words": 20
+      },
+      "9": {
+        "negative_words": 6,
+        "positive_words": 17
+      },
+      "10": {
+        "negative_words": 6,
+        "positive_words": 16
+      },
+      "11": {
+        "negative_words": 7,
+        "positive_words": 12
+      },
+      "12": {
+        "negative_words": 3,
+        "positive_words": 13
+      },
+      "13": {
+        "negative_words": 5,
+        "positive_words": 21
+      },
+      "14": {
+        "negative_words": 6,
+        "positive_words": 18
+      },
+      "15": {
+        "negative_words": 6,
+        "positive_words": 12
+      },
+      "16": {
+        "negative_words": 5,
+        "positive_words": 20
+      },
+      "17": {
+        "negative_words": 3,
+        "positive_words": 24
+      },
+      "18": {
+        "negative_words": 3,
+        "positive_words": 11
+      },
+      "19": {
+        "negative_words": 6,
+        "positive_words": 18
+      },
+      "20": {
+        "negative_words": 6,
+        "positive_words": 26
+      },
+      "21": {
+        "negative_words": 5,
+        "positive_words": 14
+      },
+      "22": {
+        "negative_words": 6,
+        "positive_words": 17
+      },
+      "23": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "24": {
+        "negative_words": 5,
+        "positive_words": 21
+      },
+      "25": {
+        "negative_words": 4,
+        "positive_words": 17
+      },
+      "26": {
+        "negative_words": 3,
+        "positive_words": 18
+      },
+      "27": {
+        "negative_words": 5,
+        "positive_words": 16
+      },
+      "28": {
+        "negative_words": 4,
+        "positive_words": 19
+      },
+      "29": {
+        "negative_words": 3,
+        "positive_words": 15
+      },
+      "30": {
+        "negative_words": 6,
+        "positive_words": 21
+      },
+      "31": {
+        "negative_words": 6,
+        "positive_words": 26
+      },
+      "32": {
+        "negative_words": 5,
+        "positive_words": 16
+      },
+      "33": {
+        "negative_words": 4,
+        "positive_words": 19
+      },
+      "34": {
+        "negative_words": 2,
+        "positive_words": 12
+      },
+      "35": {
+        "negative_words": 6,
+        "positive_words": 14
+      },
+      "36": {
+        "negative_words": 5,
+        "positive_words": 21
+      },
+      "37": {
+        "negative_words": 3,
+        "positive_words": 20
+      },
+      "38": {
+        "negative_words": 5,
+        "positive_words": 16
+      },
+      "39": {
+        "negative_words": 4,
+        "positive_words": 15
+      },
+      "40": {
+        "negative_words": 4,
+        "positive_words": 15
+      },
+      "41": {
+        "negative_words": 6,
+        "positive_words": 16
+      },
+      "42": {
+        "negative_words": 7,
+        "positive_words": 22
+      },
+      "43": {
+        "negative_words": 2,
+        "positive_words": 13
+      },
+      "44": {
+        "negative_words": 5,
+        "positive_words": 19
+      },
+      "45": {
+        "negative_words": 5,
+        "positive_words": 21
+      },
+      "46": {
+        "negative_words": 5,
+        "positive_words": 17
+      },
+      "47": {
+        "negative_words": 4,
+        "positive_words": 20
+      },
+      "48": {
+        "negative_words": 5,
+        "positive_words": 18
+      },
+      "49": {
+        "negative_words": 5,
+        "positive_words": 17
+      },
+      "50": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "51": {
+        "negative_words": 3,
+        "positive_words": 19
+      },
+      "52": {
+        "negative_words": 5,
+        "positive_words": 14
+      },
+      "53": {
+        "negative_words": 5,
+        "positive_words": 21
+      },
+      "54": {
+        "negative_words": 4,
+        "positive_words": 24
+      },
+      "55": {
+        "negative_words": 4,
+        "positive_words": 20
+      },
+      "56": {
+        "negative_words": 5,
+        "positive_words": 22
+      },
+      "57": {
+        "negative_words": 2,
+        "positive_words": 13
+      },
+      "58": {
+        "negative_words": 5,
+        "positive_words": 14
+      },
+      "59": {
+        "negative_words": 5,
+        "positive_words": 15
+      },
+      "60": {
+        "negative_words": 5,
+        "positive_words": 17
+      },
+      "61": {
+        "negative_words": 4,
+        "positive_words": 12
+      },
+      "62": {
+        "negative_words": 4,
+        "positive_words": 16
+      },
+      "63": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "64": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "65": {
+        "negative_words": 7,
+        "positive_words": 19
+      },
+      "66": {
+        "negative_words": 5,
+        "positive_words": 23
+      },
+      "67": {
+        "negative_words": 6,
+        "positive_words": 25
+      },
+      "68": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "69": {
+        "negative_words": 6,
+        "positive_words": 27
+      },
+      "70": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "71": {
+        "negative_words": 4,
+        "positive_words": 14
+      },
+      "72": {
+        "negative_words": 5,
+        "positive_words": 14
+      },
+      "73": {
+        "negative_words": 5,
+        "positive_words": 20
+      },
+      "74": {
+        "negative_words": 6,
+        "positive_words": 18
+      },
+      "75": {
+        "negative_words": 4,
+        "positive_words": 18
+      },
+      "76": {
+        "negative_words": 6,
+        "positive_words": 18
+      },
+      "77": {
+        "negative_words": 4,
+        "positive_words": 20
+      },
+      "78": {
+        "negative_words": 5,
+        "positive_words": 20
+      },
+      "79": {
+        "negative_words": 4,
+        "positive_words": 13
+      }
+    },
+    "polarity_subjectivity": {
+      "0": {
+        "polarity": 0.07001594896331739,
+        "subjectivity": 0.38562599681020737
+      },
+      "1": {
+        "polarity": 0.052272727272727276,
+        "subjectivity": 0.36481729055258466
+      },
+      "2": {
+        "polarity": 0.09852472089314195,
+        "subjectivity": 0.33716108452950566
+      },
+      "3": {
+        "polarity": 0.056140350877192984,
+        "subjectivity": 0.46228070175438596
+      },
+      "4": {
+        "polarity": 0.06271929824561404,
+        "subjectivity": 0.37280701754385975
+      },
+      "5": {
+        "polarity": 0.018621700879765397,
+        "subjectivity": 0.40899315738025416
+      },
+      "6": {
+        "polarity": -0.035515873015873015,
+        "subjectivity": 0.4583333333333334
+      },
+      "7": {
+        "polarity": 0.08101731601731602,
+        "subjectivity": 0.38058441558441564
+      },
+      "8": {
+        "polarity": 0.05293560606060606,
+        "subjectivity": 0.4459517045454545
+      },
+      "9": {
+        "polarity": 0.017619375573921035,
+        "subjectivity": 0.3864784205693297
+      },
+      "10": {
+        "polarity": 0.030322966507177036,
+        "subjectivity": 0.43847687400318985
+      },
+      "11": {
+        "polarity": -0.021296296296296296,
+        "subjectivity": 0.42283950617283955
+      },
+      "12": {
+        "polarity": 0.035738062442607896,
+        "subjectivity": 0.3554178145087236
+      },
+      "13": {
+        "polarity": 0.09237786023500309,
+        "subjectivity": 0.4590538033395177
+      },
+      "14": {
+        "polarity": 0.06862170087976541,
+        "subjectivity": 0.4318426197458456
+      },
+      "15": {
+        "polarity": 0.003780864197530865,
+        "subjectivity": 0.47808641975308647
+      },
+      "16": {
+        "polarity": 0.04804866850321396,
+        "subjectivity": 0.48572084481175387
+      },
+      "17": {
+        "polarity": 0.06539240329562909,
+        "subjectivity": 0.41813992459153754
+      },
+      "18": {
+        "polarity": 0.02206101190476191,
+        "subjectivity": 0.3350446428571429
+      },
+      "19": {
+        "polarity": 0.03005050505050505,
+        "subjectivity": 0.4366161616161617
+      },
+      "20": {
+        "polarity": 0.06290166975881262,
+        "subjectivity": 0.46543475572047005
+      },
+      "21": {
+        "polarity": 0.020211038961038964,
+        "subjectivity": 0.44874458874458867
+      },
+      "22": {
+        "polarity": 0.016074046920821112,
+        "subjectivity": 0.4056207233626589
+      },
+      "23": {
+        "polarity": 0.01793261562998405,
+        "subjectivity": 0.4277312599681022
+      },
+      "24": {
+        "polarity": 0.04803628389154706,
+        "subjectivity": 0.37366427432216903
+      },
+      "25": {
+        "polarity": 0.0304978354978355,
+        "subjectivity": 0.4280519480519481
+      },
+      "26": {
+        "polarity": 0.005965909090909093,
+        "subjectivity": 0.38876262626262625
+      },
+      "27": {
+        "polarity": 0.018979978354978357,
+        "subjectivity": 0.48465909090909093
+      },
+      "28": {
+        "polarity": 0.07222222222222223,
+        "subjectivity": 0.44583333333333336
+      },
+      "29": {
+        "polarity": 0.018424242424242423,
+        "subjectivity": 0.3568181818181818
+      },
+      "30": {
+        "polarity": 0.019675925925925923,
+        "subjectivity": 0.4606481481481482
+      },
+      "31": {
+        "polarity": 0.06505982443482443,
+        "subjectivity": 0.454800986050986
+      },
+      "32": {
+        "polarity": 0.030449657869012704,
+        "subjectivity": 0.4576490713587487
+      },
+      "33": {
+        "polarity": 0.031119791666666667,
+        "subjectivity": 0.4033854166666667
+      },
+      "34": {
+        "polarity": 0.03162878787878788,
+        "subjectivity": 0.3078733766233766
+      },
+      "35": {
+        "polarity": -0.035849567099567096,
+        "subjectivity": 0.41485389610389606
+      },
+      "36": {
+        "polarity": 0.015814393939393944,
+        "subjectivity": 0.482260101010101
+      },
+      "37": {
+        "polarity": 0.06161616161616161,
+        "subjectivity": 0.3457070707070707
+      },
+      "38": {
+        "polarity": 0.0026960784313725507,
+        "subjectivity": 0.3740196078431372
+      },
+      "39": {
+        "polarity": 0.06006666666666667,
+        "subjectivity": 0.42493333333333333
+      },
+      "40": {
+        "polarity": 0.055519480519480524,
+        "subjectivity": 0.37140151515151504
+      },
+      "41": {
+        "polarity": 0.018572084481175394,
+        "subjectivity": 0.45351239669421484
+      },
+      "42": {
+        "polarity": 0.07614942528735631,
+        "subjectivity": 0.43045977011494263
+      },
+      "43": {
+        "polarity": 0.07284226190476191,
+        "subjectivity": 0.4118675595238096
+      },
+      "44": {
+        "polarity": 0.04429226475279107,
+        "subjectivity": 0.4680382775119618
+      },
+      "45": {
+        "polarity": 0.08207070707070706,
+        "subjectivity": 0.36818181818181817
+      },
+      "46": {
+        "polarity": 0.0436026936026936,
+        "subjectivity": 0.38439955106621776
+      },
+      "47": {
+        "polarity": 0.056249999999999994,
+        "subjectivity": 0.4317901234567902
+      },
+      "48": {
+        "polarity": 0.025,
+        "subjectivity": 0.40677083333333336
+      },
+      "49": {
+        "polarity": 0.040631313131313136,
+        "subjectivity": 0.4840151515151515
+      },
+      "50": {
+        "polarity": 0.03401759530791789,
+        "subjectivity": 0.36422287390029323
+      },
+      "51": {
+        "polarity": 0.08243709415584416,
+        "subjectivity": 0.47779694264069267
+      },
+      "52": {
+        "polarity": 0.039136904761904755,
+        "subjectivity": 0.4410714285714286
+      },
+      "53": {
+        "polarity": 0.08498803827751197,
+        "subjectivity": 0.4133572567783094
+      },
+      "54": {
+        "polarity": 0.04155167748917749,
+        "subjectivity": 0.40409902597402597
+      },
+      "55": {
+        "polarity": 0.042938311688311685,
+        "subjectivity": 0.4522186147186148
+      },
+      "56": {
+        "polarity": 0.056124267888973775,
+        "subjectivity": 0.4502514642220525
+      },
+      "57": {
+        "polarity": 0.009555640437993377,
+        "subjectivity": 0.33677107206518975
+      },
+      "58": {
+        "polarity": 0.017528735632183906,
+        "subjectivity": 0.41724137931034483
+      },
+      "59": {
+        "polarity": 0.026292335115864526,
+        "subjectivity": 0.4736408199643494
+      },
+      "60": {
+        "polarity": 0.03235294117647059,
+        "subjectivity": 0.43848039215686274
+      },
+      "61": {
+        "polarity": 0.02115975422427035,
+        "subjectivity": 0.4119815668202765
+      },
+      "62": {
+        "polarity": 0.008902867965367964,
+        "subjectivity": 0.38927759740259743
+      },
+      "63": {
+        "polarity": 0.025953079178885636,
+        "subjectivity": 0.4432551319648095
+      },
+      "64": {
+        "polarity": 0.021847507331378302,
+        "subjectivity": 0.4880254154447703
+      },
+      "65": {
+        "polarity": 0.10695592286501376,
+        "subjectivity": 0.48836088154269974
+      },
+      "66": {
+        "polarity": 0.057456140350877184,
+        "subjectivity": 0.36447368421052634
+      },
+      "67": {
+        "polarity": 0.047619047619047616,
+        "subjectivity": 0.42690476190476195
+      },
+      "68": {
+        "polarity": 0.0016927083333333308,
+        "subjectivity": 0.47291666666666665
+      },
+      "69": {
+        "polarity": 0.08444865319865319,
+        "subjectivity": 0.4088804713804714
+      },
+      "70": {
+        "polarity": 0.056114369501466276,
+        "subjectivity": 0.3915884652981427
+      },
+      "71": {
+        "polarity": 0.013440860215053762,
+        "subjectivity": 0.4319892473118279
+      },
+      "72": {
+        "polarity": -0.019728535353535352,
+        "subjectivity": 0.4003367003367003
+      },
+      "73": {
+        "polarity": 0.08766666666666667,
+        "subjectivity": 0.38804761904761903
+      },
+      "74": {
+        "polarity": 0.044444444444444446,
+        "subjectivity": 0.4172222222222223
+      },
+      "75": {
+        "polarity": 0.08511904761904762,
+        "subjectivity": 0.27767857142857144
+      },
+      "76": {
+        "polarity": 0.048274410774410775,
+        "subjectivity": 0.41409932659932663
+      },
+      "77": {
+        "polarity": 0.017546432062561096,
+        "subjectivity": 0.40442326490713587
+      },
+      "78": {
+        "polarity": -0.02204301075268818,
+        "subjectivity": 0.3895161290322581
+      },
+      "79": {
+        "polarity": 0.12881400208986415,
+        "subjectivity": 0.4073145245559039
+      }
+    }
+  }
+}

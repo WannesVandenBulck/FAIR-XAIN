@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:55:53.640012",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 49% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. You were placed in the lower deciles compared to your peers, which means your grades were below average. This was a strong factor pushing the prediction towards a potential failure. Additionally, your undergraduate GPA was also lower than the average, which further influenced the model's decision in the same direction.\n\nYour family income bracket, categorized as lower-middle, and your LSAT score, which was slightly below average, also played roles in the prediction. While these factors were not as influential as your academic performance, they still contributed to the overall assessment. Your racial background as Native American and your gender as male were considered, but they had a lesser impact on the prediction compared to the other factors.\n\nGiven this information, you might wonder what steps you can take to improve your chances in the future. Focusing on enhancing your academic performance could be a key area to address. Improving your grades and possibly retaking the LSAT to achieve a higher score could positively influence future predictions. Additionally, seeking academic support or tutoring might help strengthen your understanding and performance in your studies.\n\nRemember, this prediction is not a definitive measure of your abilities or potential. It's an opportunity to identify areas for growth and take proactive steps towards achieving your goals. I encourage you to use this feedback constructively and continue striving for success.",
+  "error": null
+}

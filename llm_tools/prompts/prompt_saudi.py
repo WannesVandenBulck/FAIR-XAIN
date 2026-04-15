@@ -3,6 +3,39 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+# Protected attribute mappings for readable display in prompts
+ATTRIBUTE_VALUE_MAPPINGS = {
+    'Gender': {0: 'Female', 1: 'Male'},
+    'Age': {0: '21-30', 1: '31-40', 3: '41+'},
+    'Education': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
+    'Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Years_in_Job': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},
+    'Sector': {1: 'other', 2: 'medical', 3: 'education', 4: 'financial', 5: 'food'},
+    'Salary': {0: '1k-5k SAR', 1: '6k-10k SAR', 2: '11k-15k SAR', 3: '16k+ SAR'},
+    'Medical_Insurance': {0: 'no', 1: 'yes'},
+    'Annual_Bonus': {0: 'no', 1: 'yes'},
+    'Overtime': {0: 'no', 1: 'yes'},
+    'Overtime_Compensation': {0: 'no overtime', 1: 'no', 2: 'yes'},
+    'Income_Satisfaction': {0: 'no', 1: 'yes'},
+    'Promotion_Satisfaction': {0: 'no', 1: 'yes'},
+    'Training_Programs': {0: 'none', 1: '1-3', 2: '4-6', 3: '7+'},
+    'Training_Benefit': {0: 'no', 1: 'yes'},
+    'Business_Travel': {0: 'never', 1: 'rarely', 2: 'frequently'},
+    'Organizational_Support': {0: 'low', 1: 'medium', 2: 'high'},
+    'Moral_Appreciation': {0: 'no', 1: 'yes'},
+    'Organizational_Commitment': {0: 'low', 1: 'medium', 2: 'high'},
+    'Work_Involvement': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Distance_to_Workplace': {0: 'close', 1: 'medium', 2: 'far'},
+    'Work_Life_Balance': {0: 'easy', 1: 'medium', 2: 'difficult'},
+    'Physical_Stress': {0: 'no', 1: 'sometimes', 2: 'yes'},
+    'Emotional_Exhaustion': {0: 'no', 1: 'sometimes', 2: 'yes'},
+    'Job_Security': {0: 'no', 1: 'yes'},
+    'Health_Issues': {0: 'no', 1: 'yes'},
+    'Work_Environment_Satisfaction': {0: 'low', 1: 'medium', 2: 'high'},
+    'Job_Satisfaction': {0: 'not satisfied', 1: 'satisfied', 2: 'very satisfied'},
+    'Other_Job_Opportunities': {0: 'no', 1: 'yes'},
+}
+
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "saudi_dataset" / "dataset_info"
 
@@ -12,6 +45,19 @@ def load_dataset_info():
         return pickle.load(f)
 
 DATASET_INFO = load_dataset_info()
+
+def map_attribute_value(feature_name, value):
+    """Map numeric/code attribute values to human-readable names."""
+    if feature_name in ATTRIBUTE_VALUE_MAPPINGS:
+        mapping = ATTRIBUTE_VALUE_MAPPINGS[feature_name]
+        if value in mapping:
+            return mapping[value]
+        try:
+            if int(value) in mapping:
+                return mapping[int(value)]
+        except (ValueError, TypeError):
+            pass
+    return value
 
 def get_dataset_description():
     """Generate dataset description from loaded info with clear target encoding."""
@@ -28,8 +74,6 @@ def get_dataset_description():
 Target Encoding (target_saudi):
 - 1 (model predicted 1) = LEFT COMPANY: Employee is predicted to leave the company (high attrition risk)
 - 0 (not predicted, favorable) = STAYED AT COMPANY: Employee shows commitment and is predicted to stay
-
-The model makes predictions for class 1 (left company). This explanation covers instances where the model predicted 1.
 """
     
     return base_desc + target_encoding if base_desc else target_encoding
@@ -38,42 +82,42 @@ def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
     For categorical features, displays distribution; for numerical features, displays average.
+    Protected attributes are mapped to readable names.
     
     Parameters:
     - row: pandas Series with feature values
     """
     if DATASET_INFO is None:
-        # Fallback for when dataset_info isn't available
-        feature_lines = [f"- {col} = {row[col]}" for col in row.index]
+        feature_lines = []
+        for col in row.index:
+            mapped_value = map_attribute_value(col, row[col])
+            feature_lines.append(f"- {col} = {mapped_value}")
     else:
         feature_df = DATASET_INFO.get("feature_description")
         feature_lines = []
         
         for col in row.index:
             value = row[col]
-            # Find feature description
+            mapped_value = map_attribute_value(col, value)
             feature_info = feature_df[feature_df['feature_name'] == col]
             if not feature_info.empty:
                 desc = feature_info.iloc[0]['feature_desc']
                 distribution = feature_info.iloc[0].get('feature_distribution')
                 avg = feature_info.iloc[0].get('feature_average')
                 
-                # If distribution exists (categorical feature), show distribution; otherwise show average (numerical)
                 if pd.notna(distribution) and distribution is not None:
-                    # Categorical feature - show distribution
-                    feature_lines.append(f"- {col} = {value} - Distribution: {distribution} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - Distribution: {distribution} - {desc}")
                 elif pd.notna(avg) and avg is not None:
-                    # Numerical feature - show average
                     try:
-                        value_str = f"{float(value):.2f}"
+                        value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg):.2f}"
                         feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
                     except (ValueError, TypeError):
-                        feature_lines.append(f"- {col} = {value} - {desc}")
+                        feature_lines.append(f"- {col} = {mapped_value} - {desc}")
                 else:
-                    feature_lines.append(f"- {col} = {value} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - {desc}")
             else:
-                feature_lines.append(f"- {col} = {value}")
+                feature_lines.append(f"- {col} = {mapped_value}")
     
     instance_desc = f"""The model is making a prediction for a job applicant.
 
@@ -169,14 +213,14 @@ Features with negative SHAP values contributed toward a "will stay" prediction.
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a textual explanation or narrative explaining why the model made this prediction for this applicant.
+Your goal is to generate a textual explanation or narrative explaining why the job promotion was denied for this employee.
 
 Write a detailed narrative explanation for a non-technical reader that explains:
-1) The model's predicted probability of leaving the job and what this means for the applicant.
+1) The current situation of the employee, the model's predicted probability of leaving the job and what this means for the employee.
 2) Which features were most important in driving this prediction.
 3) How each important feature contributed (either pushing toward leaving or toward staying).
 4) The relative importance ranking of features based on their influence.
-5) A summary of the overall story: which factors are the primary drivers of this prediction.
+5) What the employee should do next: which factors they could realistically change to improve their retention prospects and increase chances of promotion in the future.
 
 CONSTRAINTS:
 - Only use information from the dataset description, instance description, and SHAP values table.
@@ -187,21 +231,19 @@ CONSTRAINTS:
 
 STYLE:
 - Length: 12-15 sentences.
-- Tone: neutral, explanatory, respectful.
 - Write a coherent narrative without bullet points or tables. The goal is to have a narrative/story.
-- Directly address the applicant. Be empathic and respectful.
-- Consider the relative magnitude of feature importance when discussing their roles in the decision.
+- Directly address the employee. 
 """
 
 COUNTERFACTUAL_PROMPT_INSTRUCTIONS = """
 TASK:
-- You are given a table of counterfactuals for the same original applicant instance.
-- Summarize what the model considers important for changing the prediction outcome.
-- Provide concrete, actionable insights about which feature changes would shift the prediction.
-- Discuss patterns: which features consistently need to change together to flip the prediction.
+- You are given a table of counterfactuals for the same original instance.
+- Summarize what the model considers important for changing the predicted risk of leaving the company.
+- Provide concrete, actionable insights about which feature changes would shift the prediction and could lead to promotion in the future.
+- Provide a numeric summary: which features always/never change, and by how much on average.
 
 Write a detailed narrative explanation for a non-technical reader:
-1) Briefly summarize the current prediction and employment situation.
+1) Briefly summarize the current situation of the employee, the model's predicted probability of leaving the company and what this means for the employee (no promotion).
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
 3) Specify which features always changed (MUST changes) and which never changed.
 4) Quantified summary: how many counterfactuals were generated, which features changed most often.
@@ -211,16 +253,14 @@ Write a detailed narrative explanation for a non-technical reader:
 CONSTRAINTS:
 - Only use information from dataset description, instance description, and counterfactual table.
 - Do NOT invent new feature values or examples.
-- Do NOT refer to individual counterfactuals; discuss overall patterns only.
 - Do not talk about model internals or training details.
 - Use realistic ranges when discussing feature changes.
 
 STYLE:
 - Length: 15-18 sentences.
-- Tone: neutral, explanatory, helpful.
 - Write a coherent narrative without bullet points or tables.
-- Directly address the applicant. Be respectful and empathic.
-- Focus on actionable insights the applicant can implement.
+- Directly address the employee. 
+- Focus on actionable insights the employee can implement.
 """
 
 

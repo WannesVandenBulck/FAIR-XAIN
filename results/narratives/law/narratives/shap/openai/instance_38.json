@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:52:17.409041",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted an 81% probability that you might not pass the bar exam on your first attempt. This prediction was based on several factors from your academic and personal profile.\n\nLet's look at the key aspects that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were lower than the average, placing you in the second decile compared to the typical fifth or sixth decile. This was one of the most significant factors pushing the prediction towards a potential failure. Additionally, your LSAT score was notably below the average, which also contributed to the model's decision. These academic indicators are crucial as they reflect your preparedness for the rigorous demands of the bar exam.\n\nYour family income, categorized as upper-middle, and your racial background as Asian were also considered, but they had a less pronounced impact compared to your academic performance. Your undergraduate GPA was slightly below average, which further influenced the prediction towards a potential failure. On the other hand, being a full-time student and your gender had minimal impact on the prediction, with your gender slightly nudging the prediction towards passing.\n\nGiven these insights, focusing on improving your academic performance could significantly enhance your chances of success. Consider seeking additional support or resources to boost your grades and LSAT score. This could involve tutoring, study groups, or preparatory courses specifically designed for the bar exam. By addressing these areas, you can strengthen your application and increase your likelihood of passing the bar exam in the future. Remember, this prediction is not a definitive outcome but rather a guide to help you identify areas for improvement. Keep striving, and don't hesitate to reach out for support as you work towards your goals.",
+  "error": null
+}

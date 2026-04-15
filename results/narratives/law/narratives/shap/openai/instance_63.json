@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 63,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:54:31.782710",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 40.9% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. Both of these grades placed you in the second decile, which is below the average decile of students who typically pass the bar exam. This suggests that improving your academic performance could positively impact your chances in the future.\n\nAnother important factor was your LSAT score, which was slightly below the average score of successful students. This score is a critical component of your application, and improving it could enhance your likelihood of passing the bar exam. Additionally, your undergraduate GPA was also below the average, which further influenced the prediction towards a potential failure.\n\nYour family income, categorized as upper-middle, and your racial background as White, were also considered, but they had a less significant impact compared to your academic performance and LSAT score. Your gender and full-time status had the least influence on the prediction.\n\nTo improve your chances of passing the bar exam and strengthening your application, you might consider focusing on enhancing your academic performance and LSAT score. These are areas where you have the potential to make changes that could positively affect future predictions. Remember, this prediction is not a definitive outcome but rather an assessment based on current data. With dedication and effort, you can work towards achieving your goal of passing the bar exam and gaining admission to the university.",
+  "error": null
+}

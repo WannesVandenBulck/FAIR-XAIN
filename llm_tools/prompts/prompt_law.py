@@ -3,6 +3,15 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+# Protected attribute mappings for readable display in prompts
+ATTRIBUTE_VALUE_MAPPINGS = {
+    "gender": {0: "Female", 1: "Male"},
+    "race1": {0: "White", 1: "Black", 2: "Hispanic", 3: "Asian", 4: "Native American"},
+    "fulltime": {1: "Full-time", 1.0: "Full-time", 2: "Part-time", 2.0: "Part-time"},
+    "fam_inc": {1.0: "Low", 2.0: "Lower-middle", 3.0: "Middle", 4.0: "Upper-middle", 5.0: "High", 
+                1: "Low", 2: "Lower-middle", 3: "Middle", 4: "Upper-middle", 5: "High"},
+}
+
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "dataset_info"
 
@@ -12,6 +21,35 @@ def load_dataset_info():
         return pickle.load(f)
 
 DATASET_INFO = load_dataset_info()
+
+def map_attribute_value(feature_name, value):
+    """
+    Map numeric/code attribute values to human-readable names.
+    
+    Parameters:
+    - feature_name: the feature name (e.g., "gender", "race1")
+    - value: the numeric or code value (e.g., 0, 1, "A91")
+    
+    Returns:
+    - Mapped readable name if mapping exists, otherwise the original value
+    """
+    if feature_name in ATTRIBUTE_VALUE_MAPPINGS:
+        mapping = ATTRIBUTE_VALUE_MAPPINGS[feature_name]
+        # Try numeric conversion for the mapping lookup
+        try:
+            numeric_value = float(value) if not isinstance(value, int) else value
+            # Check if numeric value matches a key in mapping
+            if numeric_value in mapping:
+                return mapping[numeric_value]
+            # Check if integer version matches
+            if int(numeric_value) in mapping:
+                return mapping[int(numeric_value)]
+        except (ValueError, TypeError):
+            pass
+        # If not found as numeric, try as-is (for string codes)
+        if value in mapping:
+            return mapping[value]
+    return value
 
 def get_dataset_description():
     """Generate dataset description from loaded info with clear target encoding."""
@@ -28,8 +66,6 @@ def get_dataset_description():
 Target Encoding (target_law):
 - 1 (model predicted 1) = FAILED BAR EXAM: Student is predicted to fail the bar exam (application was REJECTED)
 - 0 (not predicted, favorable) = PASSED BAR EXAM: Student showed strong performance and would pass (application would be approved)
-
-The model makes predictions for class 1 (failed bar exam). This explanation covers instances where the model predicted 1.
 """
     
     return base_desc + target_encoding if base_desc else target_encoding
@@ -38,19 +74,26 @@ def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
     For categorical features, displays distribution; for numerical features, displays average.
+    Protected attributes (gender, race1) are mapped to readable names.
     
     Parameters:
     - row: pandas Series with feature values
     """
     if DATASET_INFO is None:
         # Fallback for when dataset_info isn't available
-        feature_lines = [f"- {col} = {row[col]}" for col in row.index]
+        feature_lines = []
+        for col in row.index:
+            mapped_value = map_attribute_value(col, row[col])
+            feature_lines.append(f"- {col} = {mapped_value}")
     else:
         feature_df = DATASET_INFO.get("feature_description")
         feature_lines = []
         
         for col in row.index:
             value = row[col]
+            # Map attribute value if applicable
+            mapped_value = map_attribute_value(col, value)
+            
             # Find feature description
             feature_info = feature_df[feature_df['feature_name'] == col]
             if not feature_info.empty:
@@ -61,19 +104,19 @@ def create_instance_description_from_row(row):
                 # If distribution exists (categorical feature), show distribution; otherwise show average (numerical)
                 if pd.notna(distribution) and distribution is not None:
                     # Categorical feature - show distribution
-                    feature_lines.append(f"- {col} = {value} - Distribution: {distribution} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - Distribution: {distribution} - {desc}")
                 elif pd.notna(avg) and avg is not None:
                     # Numerical feature - show average
                     try:
-                        value_str = f"{float(value):.2f}"
+                        value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg):.2f}"
                         feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
                     except (ValueError, TypeError):
-                        feature_lines.append(f"- {col} = {value} - {desc}")
+                        feature_lines.append(f"- {col} = {mapped_value} - {desc}")
                 else:
-                    feature_lines.append(f"- {col} = {value} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - {desc}")
             else:
-                feature_lines.append(f"- {col} = {value}")
+                feature_lines.append(f"- {col} = {mapped_value}")
     
     instance_desc = f"""The model is making a prediction for a student.
 
@@ -169,15 +212,15 @@ Features with negative SHAP values contributed toward a "will pass" prediction.
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a textual explanation or narrative explaining why the model rejected this student.
+Your goal is to generate a textual explanation or narrative explaining why the law school application was denied for this student.
 
-Write a detailed narrative explanation for a non-technical reader that explains:
-1) The student's current situation based on their feature values
-2) The model's predicted probability of failing the bar exam and what this means for the student.
+Write a detailed narrative explanation for a non-technical reader that MUST explain:
+1) The current situation of the applicant (what are their features).
+2) The model's predicted probability of bar exam failure and what this means for the student.
 3) Which features were most important in driving this prediction.
-4) How each important feature contributed (either pushing toward failure or toward passing).
+4) How each important feature contributed (either pushing toward bar exam failure or toward passing).
 5) The relative importance ranking of features based on their influence.
-6) A summary of the overall story: which factors are the primary drivers of this prediction.
+6) What the applicant should do next: which factors they could realistically change to improve their chances of passing the bar exam in the future.
 
 CONSTRAINTS:
 - Only use information from the dataset description, instance description, and SHAP values table.
@@ -188,21 +231,19 @@ CONSTRAINTS:
 
 STYLE:
 - Length: 12-15 sentences.
-- Tone: neutral, explanatory, respectful.
 - Write a coherent narrative without bullet points or tables. The goal is to have a narrative/story.
-- Directly address the student. Be empathic and respectful.
-- Consider the relative magnitude of feature importance when discussing their roles in the decision.
+- Directly address the student. 
 """
 
 COUNTERFACTUAL_PROMPT_INSTRUCTIONS = """
 TASK:
-- You are given a table of counterfactuals for the same original student instance.
-- Summarize what the model considers important for changing the prediction outcome.
+- You are given a table of counterfactuals for the same original instance.
+- Summarize what the model considers important for changing the predicted bar exam class.
 - Provide concrete, actionable insights about which feature changes would shift the prediction.
-- Discuss patterns: which features consistently need to change together to flip the prediction.
+- Provide a numeric summary: which features always/never change, and by how much on average.
 
 Write a detailed narrative explanation for a non-technical reader:
-1) Briefly summarize the current prediction and the student's situation.
+1) Briefly summarize the current situation of the applicant, the model's predicted probability of bar exam failure and what this means for the student.
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
 3) Specify which features always changed (MUST changes) and which never changed.
 4) Quantified summary: how many counterfactuals were generated, which features changed most often.
@@ -212,15 +253,13 @@ Write a detailed narrative explanation for a non-technical reader:
 CONSTRAINTS:
 - Only use information from dataset description, instance description, and counterfactual table.
 - Do NOT invent new feature values or examples.
-- Do NOT refer to individual counterfactuals; discuss overall patterns only.
 - Do not talk about model internals or training details.
 - Use realistic ranges when discussing feature changes.
 
 STYLE:
 - Length: 15-18 sentences.
-- Tone: neutral, explanatory, helpful.
 - Write a coherent narrative without bullet points or tables.
-- Directly address the student. Be respectful and empathic.
+- Directly address the student. 
 - Focus on actionable insights the student can implement.
 """
 

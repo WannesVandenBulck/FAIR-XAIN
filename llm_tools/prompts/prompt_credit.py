@@ -3,6 +3,23 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
+# Protected attribute mappings for readable display in prompts
+ATTRIBUTE_VALUE_MAPPINGS = {
+    'status': {1: '<0 DM', 2: '0-200 DM', 3: '≥200 DM/salary', 4: 'none'},
+    'credit_history': {1: 'no credits/all paid', 2: 'all paid at bank', 3: 'existing paid', 4: 'past delays', 5: 'critical/other credits'},
+    'purpose': {1: 'new car', 2: 'used car', 3: 'furniture/equipment', 4: 'radio/TV', 5: 'domestic appliances', 6: 'repairs', 7: 'education', 8: 'retraining', 9: 'business', 10: 'others'},
+    'savings': {1: '<100 DM', 2: '100-500 DM', 3: '500-1000 DM', 4: '≥1000 DM', 5: 'unknown/none'},
+    'employment_duration': {1: 'unemployed', 2: '<1 year', 3: '1-4 years', 4: '4-7 years', 5: '≥7 years'},
+    'personal_status_sex': {1: 'male divorced/separated', 2: 'female divorced/separated/married', 3: 'male single', 4: 'male married/widowed', 5: 'female single'},
+    'other_debtors': {1: 'none', 2: 'co-applicant', 3: 'guarantor'},
+    'property': {1: 'real estate', 2: 'building society/life insurance', 3: 'car/other', 4: 'unknown/none'},
+    'other_installment_plans': {1: 'bank', 2: 'stores', 3: 'none'},
+    'housing': {1: 'rent', 2: 'own', 3: 'for free'},
+    'job': {1: 'unemployed/unskilled-non-resident', 2: 'unskilled-resident', 3: 'skilled/official', 4: 'management/self-employed/highly skilled'},
+    'telephone': {1: 'none', 2: 'yes registered'},
+    'foreign_worker': {1: 'yes', 2: 'no'}
+}
+
 # Load dataset_info from pickle file
 DATASET_INFO_PATH = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "credit_dataset" / "dataset_info"
 
@@ -12,6 +29,19 @@ def load_dataset_info():
         return pickle.load(f)
 
 DATASET_INFO = load_dataset_info()
+
+def map_attribute_value(feature_name, value):
+    """Map numeric/code attribute values to human-readable names."""
+    if feature_name in ATTRIBUTE_VALUE_MAPPINGS:
+        mapping = ATTRIBUTE_VALUE_MAPPINGS[feature_name]
+        if value in mapping:
+            return mapping[value]
+        try:
+            if int(value) in mapping:
+                return mapping[int(value)]
+        except (ValueError, TypeError):
+            pass
+    return value
 
 def get_dataset_description():
     """Generate dataset description from loaded info with clear target encoding."""
@@ -28,8 +58,6 @@ def get_dataset_description():
 Target Encoding (target_credit):
 - 1 (model predicted 1) = BAD CREDIT RISK: Applicant is predicted to be a bad credit risk (and thus credit application was DENIED)
 - 0 (not predicted, favorable) = GOOD CREDIT: Applicant showed good credit behavior (and thus credit application was APPROVED)
-
-The model makes predictions for class 1 (bad credit risk). This explanation covers instances where the model predicted 1.
 """
     
     return base_desc + target_encoding if base_desc else target_encoding
@@ -38,42 +66,42 @@ def create_instance_description_from_row(row):
     """
     Create instance description using actual feature names and descriptions from dataset_info.
     For categorical features, displays distribution; for numerical features, displays average.
+    Protected attributes are mapped to readable names.
     
     Parameters:
     - row: pandas Series with feature values
     """
     if DATASET_INFO is None:
-        # Fallback for when dataset_info isn't available
-        feature_lines = [f"- {col} = {row[col]}" for col in row.index]
+        feature_lines = []
+        for col in row.index:
+            mapped_value = map_attribute_value(col, row[col])
+            feature_lines.append(f"- {col} = {mapped_value}")
     else:
         feature_df = DATASET_INFO.get("feature_description")
         feature_lines = []
         
         for col in row.index:
             value = row[col]
-            # Find feature description
+            mapped_value = map_attribute_value(col, value)
             feature_info = feature_df[feature_df['feature_name'] == col]
             if not feature_info.empty:
                 desc = feature_info.iloc[0]['feature_desc']
                 distribution = feature_info.iloc[0].get('feature_distribution')
                 avg = feature_info.iloc[0].get('feature_average')
                 
-                # If distribution exists (categorical feature), show distribution; otherwise show average (numerical)
                 if pd.notna(distribution) and distribution is not None:
-                    # Categorical feature - show distribution
-                    feature_lines.append(f"- {col} = {value} - Distribution: {distribution} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - Distribution: {distribution} - {desc}")
                 elif pd.notna(avg) and avg is not None:
-                    # Numerical feature - show average
                     try:
-                        value_str = f"{float(value):.2f}"
+                        value_str = f"{float(mapped_value):.2f}" if isinstance(mapped_value, (int, float)) else mapped_value
                         avg_str = f"{float(avg):.2f}"
                         feature_lines.append(f"- {col} = {value_str} (avg: {avg_str}) - {desc}")
                     except (ValueError, TypeError):
-                        feature_lines.append(f"- {col} = {value} - {desc}")
+                        feature_lines.append(f"- {col} = {mapped_value} - {desc}")
                 else:
-                    feature_lines.append(f"- {col} = {value} - {desc}")
+                    feature_lines.append(f"- {col} = {mapped_value} - {desc}")
             else:
-                feature_lines.append(f"- {col} = {value}")
+                feature_lines.append(f"- {col} = {mapped_value}")
     
     instance_desc = f"""The model is making a prediction for a customer.
 
@@ -169,14 +197,14 @@ Features with negative SHAP values contributed toward a "good credit" prediction
 
 SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
-Your goal is to generate a textual explanation or narrative explaining why the model made this prediction for this customer.
+Your goal is to generate a textual explanation or narrative explaining why the loan application was denied for this customer.
 
 Write a detailed narrative explanation for a non-technical reader that explains:
-1) The model's predicted probability of bad credit and what this means for the customer.
+1) The current situation of the applicant, the model's predicted probability of bad credit and what this means for the customer.
 2) Which features were most important in driving this prediction.
 3) How each important feature contributed (either pushing toward bad credit or toward good credit).
 4) The relative importance ranking of features based on their influence.
-5) A summary of the overall story: which factors are the primary drivers of this prediction.
+5) What the applicant should do next: which factors they could realistically change to improve their credit risk and increase chances of approval in the future.
 
 CONSTRAINTS:
 - Only use information from the dataset description, instance description, and SHAP values table.
@@ -187,10 +215,8 @@ CONSTRAINTS:
 
 STYLE:
 - Length: 12-15 sentences.
-- Tone: neutral, explanatory, respectful.
 - Write a coherent narrative without bullet points or tables. The goal is to have a narrative/story.
-- Directly address the customer. Be empathic and respectful.
-- Consider the relative magnitude of feature importance when discussing their roles in the decision.
+- Directly address the customer. 
 """
 
 
@@ -202,7 +228,7 @@ TASK:
 - Provide a numeric summary: which features always/never change, and by how much on average.
 
 Write a detailed narrative explanation for a non-technical reader:
-1) Briefly summarize the current prediction and credit situation.
+1) Briefly summarize the current situation of the applicant, the model's predicted probability of bad credit and what this means for the customer.
 2) Explain what counterfactuals represent: "what if" scenarios that would change the prediction.
 3) Specify which features always changed (MUST changes) and which never changed.
 4) Quantified summary: how many counterfactuals were generated, which features changed most often.
@@ -212,15 +238,13 @@ Write a detailed narrative explanation for a non-technical reader:
 CONSTRAINTS:
 - Only use information from dataset description, instance description, and counterfactual table.
 - Do NOT invent new feature values or examples.
-- Do NOT refer to individual counterfactuals; discuss overall patterns only.
 - Do not talk about model internals or training details.
 - Use realistic ranges when discussing feature changes.
 
 STYLE:
 - Length: 15-18 sentences.
-- Tone: neutral, explanatory, helpful.
 - Write a coherent narrative without bullet points or tables.
-- Directly address the customer. Be respectful and empathic.
+- Directly address the customer. 
 - Focus on actionable insights the customer can implement.
 """
 

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 68,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:55:03.865699",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 56.7% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. Your decile rankings in these years were lower than the average, which pushed the prediction towards a potential failure. Additionally, your undergraduate GPA was slightly below the average, which also contributed to the model's decision. On the other hand, your LSAT score was slightly above average, which worked in your favor, but not enough to outweigh the other factors.\n\nFamily income was another factor considered, and while your income bracket was typical, it did not significantly sway the prediction either way. Your racial background and gender were also part of the analysis, but they had a lesser impact compared to your academic performance. Being a full-time student was common among applicants and did not heavily influence the outcome.\n\nGiven this information, focusing on improving your academic performance could be a practical step forward. Enhancing your grades in any future coursework and possibly retaking the LSAT to achieve an even higher score could improve your chances of passing the bar exam. Remember, this prediction is not a definitive measure of your abilities or potential. With dedication and effort, you can work towards a successful outcome in the future.\n\nI hope this explanation provides clarity and guidance as you plan your next steps. Please feel free to reach out if you have any further questions or need additional support.",
+  "error": null
+}

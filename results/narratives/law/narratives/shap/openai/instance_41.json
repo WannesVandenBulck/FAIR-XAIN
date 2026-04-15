@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:52:32.000319",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 54.9% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are likely to succeed in passing the bar exam.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant factors. Your Year 3 decile ranking was slightly below average, which contributed to the prediction that you might struggle with the bar exam. Similarly, your LSAT score was lower than the average, which also pushed the prediction towards a potential failure. Your undergraduate GPA was another factor, as it was below the average of other applicants, indicating potential challenges in academic performance.\n\nOn the other hand, your family income, being in the upper-middle bracket, was a positive aspect, as it typically correlates with access to resources that can aid in exam preparation. Your gender and full-time status had minimal influence on the prediction, with gender slightly contributing positively towards passing.\n\nThe most influential factors were your Year 3 decile ranking, Year 1 decile ranking, and LSAT score, in that order. These factors primarily pushed the prediction towards a potential failure. To improve your chances of passing the bar exam in the future, you might consider focusing on enhancing your academic performance and preparing more thoroughly for the LSAT. Seeking additional resources or support, such as tutoring or study groups, could also be beneficial.\n\nRemember, this prediction is not a definitive measure of your abilities or potential. With dedication and targeted efforts, you can improve your chances of success in future attempts.",
+  "error": null
+}

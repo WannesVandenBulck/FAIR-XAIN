@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:50:11.328122",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your law school application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 41% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the model aims to identify students who are most likely to succeed.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. Both of these grades placed you in a lower decile compared to the average student, which pushed the prediction towards a potential failure. Your LSAT score, while slightly below the average, also played a role in this direction. Additionally, your family's income bracket, which is categorized as middle, was another factor that influenced the prediction towards a less favorable outcome.\n\nOn the positive side, your undergraduate GPA was above average, which worked in your favor by suggesting a strong academic foundation. Your racial background, gender, and full-time status had less influence on the prediction, but they still contributed slightly towards a positive outcome.\n\nIn terms of importance, your grades in Year 3 and Year 1 were the most influential, followed by your LSAT score and family income. These were the primary drivers of the prediction. To improve your chances of passing the bar exam in the future, you might consider focusing on enhancing your test-taking skills, particularly for standardized exams like the LSAT. Additionally, seeking academic support to improve your grades could also be beneficial.\n\nRemember, this prediction is not a definitive measure of your abilities or potential. With dedication and targeted efforts, you can certainly improve your prospects and achieve your goals. If you have any further questions or need guidance, please feel free to reach out.",
+  "error": null
+}

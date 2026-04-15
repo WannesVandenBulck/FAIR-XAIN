@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "openai",
+  "model": "gpt-4o",
+  "timestamp": "2026-04-15T12:49:20.740849",
+  "status": "success",
+  "narrative": "Dear Student,\n\nI understand that receiving a rejection for your university application can be disheartening, and I want to help you understand the reasons behind this decision. The model used to evaluate your application predicted a 46.2% probability that you might not pass the bar exam on your first attempt. This prediction led to the rejection of your application, as the university aims to admit students who are more likely to succeed in passing the bar exam on their first try.\n\nLet's look at the factors that influenced this prediction. Your academic performance, particularly your grades in Year 1 and Year 3, were significant contributors. Your decile rankings in these years were lower than the average, which pushed the prediction towards a potential failure. Additionally, your LSAT score, while close to the average, also played a role in this direction. Your undergraduate GPA was slightly below average, which further influenced the prediction towards a less favorable outcome.\n\nFamily income was another factor considered, and while it was not the most influential, it did have some impact. Your demographic information, such as being a female student and your racial background, were also part of the model's considerations, but they had a lesser influence compared to your academic performance and LSAT score.\n\nGiven this information, you might wonder what steps you can take to improve your chances in the future. Focusing on enhancing your academic performance and possibly retaking the LSAT to achieve a higher score could significantly improve your profile. These are areas where you have the potential to make changes that could positively influence future predictions.\n\nRemember, this prediction is not a definitive measure of your abilities or potential. It's an opportunity to identify areas for growth and improvement. With dedication and effort, you can strengthen your application and increase your chances of success in future endeavors.",
+  "error": null
+}

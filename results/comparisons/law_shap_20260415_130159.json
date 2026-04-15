@@ -1,0 +1,652 @@
+{
+  "dataset": "law",
+  "prompt_type": "shap",
+  "timestamp": "2026-04-15T13:01:59.799190",
+  "num_instances": 80,
+  "results": {
+    "protected_mentions": {
+      "0": {
+        "race_mentions": 0,
+        "gender_mentions": 54
+      },
+      "1": {
+        "race_mentions": 0,
+        "gender_mentions": 42
+      },
+      "2": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "3": {
+        "race_mentions": 0,
+        "gender_mentions": 56
+      },
+      "4": {
+        "race_mentions": 1,
+        "gender_mentions": 64
+      },
+      "5": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "6": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "7": {
+        "race_mentions": 0,
+        "gender_mentions": 37
+      },
+      "8": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "9": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "10": {
+        "race_mentions": 1,
+        "gender_mentions": 54
+      },
+      "11": {
+        "race_mentions": 1,
+        "gender_mentions": 52
+      },
+      "12": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "13": {
+        "race_mentions": 0,
+        "gender_mentions": 51
+      },
+      "14": {
+        "race_mentions": 0,
+        "gender_mentions": 44
+      },
+      "15": {
+        "race_mentions": 0,
+        "gender_mentions": 46
+      },
+      "16": {
+        "race_mentions": 1,
+        "gender_mentions": 50
+      },
+      "17": {
+        "race_mentions": 0,
+        "gender_mentions": 36
+      },
+      "18": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "19": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "20": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "21": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "22": {
+        "race_mentions": 1,
+        "gender_mentions": 43
+      },
+      "23": {
+        "race_mentions": 0,
+        "gender_mentions": 57
+      },
+      "24": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "25": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "26": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "27": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "28": {
+        "race_mentions": 0,
+        "gender_mentions": 38
+      },
+      "29": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "30": {
+        "race_mentions": 0,
+        "gender_mentions": 53
+      },
+      "31": {
+        "race_mentions": 0,
+        "gender_mentions": 49
+      },
+      "32": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "33": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "34": {
+        "race_mentions": 1,
+        "gender_mentions": 37
+      },
+      "35": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "36": {
+        "race_mentions": 0,
+        "gender_mentions": 39
+      },
+      "37": {
+        "race_mentions": 1,
+        "gender_mentions": 45
+      },
+      "38": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "39": {
+        "race_mentions": 0,
+        "gender_mentions": 42
+      },
+      "40": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "41": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "42": {
+        "race_mentions": 1,
+        "gender_mentions": 56
+      },
+      "43": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "44": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "45": {
+        "race_mentions": 1,
+        "gender_mentions": 49
+      },
+      "46": {
+        "race_mentions": 1,
+        "gender_mentions": 42
+      },
+      "47": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "48": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "49": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "50": {
+        "race_mentions": 0,
+        "gender_mentions": 39
+      },
+      "51": {
+        "race_mentions": 1,
+        "gender_mentions": 48
+      },
+      "52": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "53": {
+        "race_mentions": 1,
+        "gender_mentions": 38
+      },
+      "54": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "55": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "56": {
+        "race_mentions": 1,
+        "gender_mentions": 47
+      },
+      "57": {
+        "race_mentions": 1,
+        "gender_mentions": 40
+      },
+      "58": {
+        "race_mentions": 1,
+        "gender_mentions": 36
+      },
+      "59": {
+        "race_mentions": 0,
+        "gender_mentions": 45
+      },
+      "60": {
+        "race_mentions": 0,
+        "gender_mentions": 49
+      },
+      "61": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "62": {
+        "race_mentions": 0,
+        "gender_mentions": 44
+      },
+      "63": {
+        "race_mentions": 1,
+        "gender_mentions": 47
+      },
+      "64": {
+        "race_mentions": 1,
+        "gender_mentions": 50
+      },
+      "65": {
+        "race_mentions": 0,
+        "gender_mentions": 41
+      },
+      "66": {
+        "race_mentions": 0,
+        "gender_mentions": 52
+      },
+      "67": {
+        "race_mentions": 0,
+        "gender_mentions": 50
+      },
+      "68": {
+        "race_mentions": 0,
+        "gender_mentions": 48
+      },
+      "69": {
+        "race_mentions": 0,
+        "gender_mentions": 47
+      },
+      "70": {
+        "race_mentions": 1,
+        "gender_mentions": 42
+      },
+      "71": {
+        "race_mentions": 1,
+        "gender_mentions": 43
+      },
+      "72": {
+        "race_mentions": 1,
+        "gender_mentions": 53
+      },
+      "73": {
+        "race_mentions": 1,
+        "gender_mentions": 53
+      },
+      "74": {
+        "race_mentions": 1,
+        "gender_mentions": 46
+      },
+      "75": {
+        "race_mentions": 1,
+        "gender_mentions": 44
+      },
+      "76": {
+        "race_mentions": 1,
+        "gender_mentions": 60
+      },
+      "77": {
+        "race_mentions": 1,
+        "gender_mentions": 45
+      },
+      "78": {
+        "race_mentions": 0,
+        "gender_mentions": 50
+      },
+      "79": {
+        "race_mentions": 0,
+        "gender_mentions": 37
+      }
+    },
+    "sentiment_words": {
+      "0": {
+        "negative_words": 10,
+        "positive_words": 9
+      },
+      "1": {
+        "negative_words": 5,
+        "positive_words": 8
+      },
+      "2": {
+        "negative_words": 5,
+        "positive_words": 8
+      },
+      "3": {
+        "negative_words": 10,
+        "positive_words": 5
+      },
+      "4": {
+        "negative_words": 6,
+        "positive_words": 5
+      },
+      "5": {
+        "negative_words": 7,
+        "positive_words": 6
+      },
+      "6": {
+        "negative_words": 6,
+        "positive_words": 7
+      },
+      "7": {
+        "negative_words": 2,
+        "positive_words": 10
+      },
+      "8": {
+        "negative_words": 4,
+        "positive_words": 12
+      },
+      "9": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "10": {
+        "negative_words": 8,
+        "positive_words": 9
+      },
+      "11": {
+        "negative_words": 9,
+        "positive_words": 10
+      },
+      "12": {
+        "negative_words": 6,
+        "positive_words": 10
+      },
+      "13": {
+        "negative_words": 8,
+        "positive_words": 10
+      },
+      "14": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "15": {
+        "negative_words": 8,
+        "positive_words": 7
+      },
+      "16": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "17": {
+        "negative_words": 5,
+        "positive_words": 9
+      },
+      "18": {
+        "negative_words": 5,
+        "positive_words": 6
+      },
+      "19": {
+        "negative_words": 9,
+        "positive_words": 10
+      },
+      "20": {
+        "negative_words": 7,
+        "positive_words": 12
+      },
+      "21": {
+        "negative_words": 4,
+        "positive_words": 10
+      },
+      "22": {
+        "negative_words": 5,
+        "positive_words": 9
+      },
+      "23": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "24": {
+        "negative_words": 4,
+        "positive_words": 12
+      },
+      "25": {
+        "negative_words": 6,
+        "positive_words": 8
+      },
+      "26": {
+        "negative_words": 7,
+        "positive_words": 6
+      },
+      "27": {
+        "negative_words": 5,
+        "positive_words": 11
+      },
+      "28": {
+        "negative_words": 4,
+        "positive_words": 10
+      },
+      "29": {
+        "negative_words": 5,
+        "positive_words": 6
+      },
+      "30": {
+        "negative_words": 6,
+        "positive_words": 12
+      },
+      "31": {
+        "negative_words": 6,
+        "positive_words": 8
+      },
+      "32": {
+        "negative_words": 4,
+        "positive_words": 9
+      },
+      "33": {
+        "negative_words": 6,
+        "positive_words": 11
+      },
+      "34": {
+        "negative_words": 4,
+        "positive_words": 10
+      },
+      "35": {
+        "negative_words": 9,
+        "positive_words": 9
+      },
+      "36": {
+        "negative_words": 3,
+        "positive_words": 10
+      },
+      "37": {
+        "negative_words": 6,
+        "positive_words": 10
+      },
+      "38": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "39": {
+        "negative_words": 4,
+        "positive_words": 10
+      },
+      "40": {
+        "negative_words": 6,
+        "positive_words": 7
+      },
+      "41": {
+        "negative_words": 9,
+        "positive_words": 10
+      },
+      "42": {
+        "negative_words": 11,
+        "positive_words": 10
+      },
+      "43": {
+        "negative_words": 7,
+        "positive_words": 8
+      },
+      "44": {
+        "negative_words": 6,
+        "positive_words": 11
+      },
+      "45": {
+        "negative_words": 8,
+        "positive_words": 13
+      },
+      "46": {
+        "negative_words": 6,
+        "positive_words": 7
+      },
+      "47": {
+        "negative_words": 6,
+        "positive_words": 7
+      },
+      "48": {
+        "negative_words": 6,
+        "positive_words": 10
+      },
+      "49": {
+        "negative_words": 7,
+        "positive_words": 9
+      },
+      "50": {
+        "negative_words": 2,
+        "positive_words": 11
+      },
+      "51": {
+        "negative_words": 3,
+        "positive_words": 13
+      },
+      "52": {
+        "negative_words": 5,
+        "positive_words": 10
+      },
+      "53": {
+        "negative_words": 6,
+        "positive_words": 11
+      },
+      "54": {
+        "negative_words": 8,
+        "positive_words": 9
+      },
+      "55": {
+        "negative_words": 6,
+        "positive_words": 8
+      },
+      "56": {
+        "negative_words": 5,
+        "positive_words": 11
+      },
+      "57": {
+        "negative_words": 2,
+        "positive_words": 10
+      },
+      "58": {
+        "negative_words": 6,
+        "positive_words": 7
+      },
+      "59": {
+        "negative_words": 8,
+        "positive_words": 8
+      },
+      "60": {
+        "negative_words": 6,
+        "positive_words": 11
+      },
+      "61": {
+        "negative_words": 5,
+        "positive_words": 9
+      },
+      "62": {
+        "negative_words": 4,
+        "positive_words": 13
+      },
+      "63": {
+        "negative_words": 5,
+        "positive_words": 13
+      },
+      "64": {
+        "negative_words": 9,
+        "positive_words": 7
+      },
+      "65": {
+        "negative_words": 7,
+        "positive_words": 11
+      },
+      "66": {
+        "negative_words": 5,
+        "positive_words": 12
+      },
+      "67": {
+        "negative_words": 8,
+        "positive_words": 11
+      },
+      "68": {
+        "negative_words": 4,
+        "positive_words": 7
+      },
+      "69": {
+        "negative_words": 6,
+        "positive_words": 15
+      },
+      "70": {
+        "negative_words": 6,
+        "positive_words": 12
+      },
+      "71": {
+        "negative_words": 5,
+        "positive_words": 9
+      },
+      "72": {
+        "negative_words": 7,
+        "positive_words": 10
+      },
+      "73": {
+        "negative_words": 5,
+        "positive_words": 15
+      },
+      "74": {
+        "negative_words": 8,
+        "positive_words": 10
+      },
+      "75": {
+        "negative_words": 5,
+        "positive_words": 7
+      },
+      "76": {
+        "negative_words": 7,
+        "positive_words": 17
+      },
+      "77": {
+        "negative_words": 7,
+        "positive_words": 10
+      },
+      "78": {
+        "negative_words": 6,
+        "positive_words": 11
+      },
+      "79": {
+        "negative_words": 3,
+        "positive_words": 10
+      }
+    }
+  }
+}
