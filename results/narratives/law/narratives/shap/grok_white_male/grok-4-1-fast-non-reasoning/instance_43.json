@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 43,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:26.366392",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and a respectable LSAT score of 35, along with a high family income bracket and plans to attend full-time, you've put together a thoughtful law school application. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 60.5%—just over the threshold that led to your rejection. This decision was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 2 was the biggest factor pushing the prediction toward failure, well below the typical student's average of around the 5th or 6th decile. Your Year 1 decile of 3 also contributed notably in the same direction, ranking as the second most influential factor and similarly lagging behind what the model sees in most successful applicants. On a brighter note, your undergraduate GPA stood out positively, as it's higher than the average of 3.21 and helped pull the prediction toward passing. Your high family income and LSAT score provided additional favorable nudges, though not enough to outweigh the early academic concerns, while your full-time status had a minor positive influence, aligning with the vast majority of students who pursue that path. Compared to typical students in the dataset—who often have stronger mid-school deciles around 5.5—your profile showed these as relative weak spots that tipped the scales. We understand this is disappointing, especially given your strengths in GPA and test scores that many applicants would envy. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved most pivotal here, and perhaps seek targeted bar prep resources early. You might also explore schools with more holistic reviews or appeal with updated transcripts showing recent improvement. Your background positions you well for success with some focused effort—keep pushing, and we're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

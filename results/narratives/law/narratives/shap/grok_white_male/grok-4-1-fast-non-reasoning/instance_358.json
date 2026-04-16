@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 358,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:51.880563",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an LSAT score of 33, you've clearly put in significant effort to build a strong academic foundation, including your middle-class family background. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 57.5% probability that you would fail the bar exam—crossing the threshold that led to your application's rejection. This decision was driven primarily by your Year 3 school decile ranking of 1, which stood out as the strongest factor pushing the prediction toward failure, well below the typical student's mid-range performance in that area. Your undergraduate GPA actually worked strongly in your favor, countering the risk by exceeding the average and suggesting solid college-level capability. Similarly, your LSAT score provided some positive pull toward passing, though it fell short of the dataset's higher average. Being a part-time student, rather than full-time like over 90% of others, added a modest influence toward the failure prediction, as did your Year 1 decile of 2, both trailing typical benchmarks. Your family income level offered a small boost toward success compared to averages. Overall, while your strengths in GPA and LSAT helped, the lower Year 3 performance was the dominant concern, placing you below the profile of students typically predicted to pass. This isn't a judgment on your potential as a white male from a middle-income background—many in similar situations have succeeded with targeted improvements. To move forward, consider retaking the LSAT to boost your score closer to the 36.7 average, strengthening your later-year grades through additional coursework or tutoring, and exploring full-time study options if feasible. You might also gather letters of recommendation highlighting your resilience and non-academic strengths to supplement future applications. We're rooting for you—law school doors can reopen with these strategic steps. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -5,8 +5,8 @@ from pathlib import Path
 
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
-    "gender": {0: "Female", 1: "Male"},
-    "race1": {0: "White", 1: "Black", 2: "Hispanic", 3: "Asian", 4: "Native American"},
+    "gender": {0: "female", 1: "male"},
+    "race1": {0: "white", 1: "black", 2: "hispanic", 3: "asian", 4: "native american"},
     "fulltime": {1: "Full-time", 1.0: "Full-time", 2: "Part-time", 2.0: "Part-time"},
     "fam_inc": {1.0: "Low", 2.0: "Lower-middle", 3.0: "Middle", 4.0: "Upper-middle", 5.0: "High", 
                 1: "Low", 2: "Lower-middle", 3: "Middle", 4: "Upper-middle", 5: "High"},
@@ -130,6 +130,65 @@ def describe_instance(row):
     """Generate instance description from row"""
     return create_instance_description_from_row(row)
 
+def separate_features_and_protected_attributes(original_instance, gender_override=None, race_override=None):
+    """
+    Separate protected attributes from other features for clearer presentation.
+    
+    Parameters:
+    - original_instance: pandas Series with feature values
+    - gender_override: Optional override for gender (e.g., "male", "female" or numeric 0/1)
+    - race_override: Optional override for race (e.g., "white", "black", "hispanic", etc. or numeric code)
+    
+    Returns:
+        Tuple of (instance_desc_regular_features, protected_attributes_desc)
+    """
+    protected_attributes = ['gender', 'race1']
+    
+    # Separate features
+    feature_cols = [col for col in original_instance.index if col not in 
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]
+    
+    regular_feature_cols = [col for col in feature_cols if col not in protected_attributes]
+    protected_feature_cols = [col for col in feature_cols if col in protected_attributes]
+    
+    # Create descriptions
+    regular_instance_row = original_instance[regular_feature_cols]
+    instance_desc_regular = describe_instance(regular_instance_row)
+    
+    # Create protected attributes description, using overrides if provided
+    protected_desc = "PERSONAL INFORMATION (for personalized narrative):\n"
+    if DATASET_INFO is not None:
+        feature_df = DATASET_INFO.get("feature_description")
+        for col in protected_feature_cols:
+            # Use override if provided for this attribute
+            if col == 'gender' and gender_override is not None:
+                mapped_value = gender_override if isinstance(gender_override, str) else map_attribute_value(col, gender_override)
+            elif col == 'race1' and race_override is not None:
+                mapped_value = race_override if isinstance(race_override, str) else map_attribute_value(col, race_override)
+            else:
+                value = original_instance[col]
+                mapped_value = map_attribute_value(col, value)
+            
+            feature_info = feature_df[feature_df['feature_name'] == col]
+            if not feature_info.empty:
+                desc = feature_info.iloc[0]['feature_desc']
+                protected_desc += f"- {col}: {mapped_value} ({desc})\n"
+            else:
+                protected_desc += f"- {col}: {mapped_value}\n"
+    else:
+        for col in protected_feature_cols:
+            # Use override if provided for this attribute
+            if col == 'gender' and gender_override is not None:
+                mapped_value = gender_override if isinstance(gender_override, str) else map_attribute_value(col, gender_override)
+            elif col == 'race1' and race_override is not None:
+                mapped_value = race_override if isinstance(race_override, str) else map_attribute_value(col, race_override)
+            else:
+                value = original_instance[col]
+                mapped_value = map_attribute_value(col, value)
+            protected_desc += f"- {col}: {mapped_value}\n"
+    
+    return instance_desc_regular, protected_desc
+
 # ===== PROMPT TEMPLATES =====
 
 PROMPT_PREAMBLE_SHAP = """
@@ -171,6 +230,8 @@ DATASET_EXPLANATION = """
 
 APPLICANT_INFORMATION = """
 3. STUDENT PROFILE 
+
+You are writing a narrative tailored to this specific person who is rejected law school admission. 
 """
 
 SHAP_VALUES_SECTION = """
@@ -214,25 +275,29 @@ SHAP_PROMPT_INSTRUCTIONS = """
 TASK:
 Your goal is to generate a textual explanation or narrative explaining why the law school application was denied for this student.
 
-Write a detailed narrative explanation for a non-technical reader that MUST explain:
-1) The current situation of the applicant (what are their features).
+PERSONALIZATION INSTRUCTION:
+Based on the PERSONAL INFORMATION (gender, race) about the student, create a personalized narrative tailored to them. 
+The narrative should feel like it was written specifically for this individual, acknowledging their personal circumstances and creating a more personalized experience. 
+
+Write a detailed narrative explanation tailored to this non-technical reader that MUST explain:
+1) The current situation of the applicant (what are their features and background).
 2) The model's predicted probability of bar exam failure and what this means for the student.
-3) Which features were most important in driving this prediction.
-4) How each important feature contributed (either pushing toward bar exam failure or toward passing).
-5) The relative importance ranking of features based on their influence.
-6) What the applicant should do next: which factors they could realistically change to improve their chances of passing the bar exam in the future.
+3) Why the application was denied and which features were most important in driving this prediction.
+4) How each of the most important features contributed (either pushing toward bar exam failure or toward passing).
+5) What the applicant should do next
 
 CONSTRAINTS:
-- Only use information from the dataset description, instance description, and SHAP values table.
-- Do NOT invent new SHAP values or numerical values.
+- Only use information you are given in this prompt.
+- Do NOT invent new SHAP values or new numerical values.
 - Do not use the numeric SHAP values in your answer. Instead, discuss the ranking and direction of influence.
 - Do not talk about model internals, algorithms, or training details.
-- Focus on the direction (positive/negative contribution) and relative ranking of features.
 
 STYLE:
 - Length: 12-15 sentences.
 - Write a coherent narrative without bullet points or tables. The goal is to have a narrative/story.
-- Directly address the student. 
+- Directly address the student and provide PERSONALIZED insights tailored to THEIR situation.
+- Do NOT copy-paste feature names, but instead incorporate them naturally in the narrative.
+- Use the personal information (gender, race) to create a personalised narrative. 
 """
 
 COUNTERFACTUAL_PROMPT_INSTRUCTIONS = """
@@ -264,13 +329,15 @@ STYLE:
 """
 
 
-def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
+def build_shap_prompt(instance_index, shap_csv_path: str = None, gender_override=None, race_override=None) -> str:
     """
     Build a SHAP explanation prompt by loading from the SHAP CSV.
     
     Parameters:
     - instance_index: the instance index to explain (e.g., 10, 25, etc.)
     - shap_csv_path: path to the SHAP CSV file (defaults to law_dataset/law_shap.csv)
+    - gender_override: Optional override for gender ("male", "female", or numeric 0/1). For bias injection experiment.
+    - race_override: Optional override for race ("white", "black", "hispanic", etc., or numeric code). For bias injection experiment.
     
     Returns:
     - Full prompt string ready for LLM
@@ -308,12 +375,8 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
             feature_name = col[5:]  # Remove 'SHAP_' prefix
             shap_dict[feature_name] = shap_values[col]
     
-    # Create instance description (excluding metadata columns)
-    feature_cols = [col for col in original_instance.index if col not in 
-                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
-    instance_row = original_instance[feature_cols]
-    
-    instance_desc = describe_instance(instance_row)
+    # Separate regular features from protected attributes, using overrides if provided
+    instance_desc_regular, protected_desc = separate_features_and_protected_attributes(original_instance, gender_override=gender_override, race_override=race_override)
     
     # Create SHAP table as simple text
     shap_table_df = pd.DataFrame({
@@ -336,7 +399,10 @@ def build_shap_prompt(instance_index, shap_csv_path: str = None) -> str:
 {SHAP_EXPLANATION}
 
 {APPLICANT_INFORMATION}
-{instance_desc}
+Academic Performance & Background:
+{instance_desc_regular}
+
+{protected_desc}
 
 The model's prediction:
 - Predicted probability of failure: {pred_prob_str}
@@ -447,5 +513,159 @@ The model's prediction:
 
 {INSTRUCTIONS_SECTION}
 {COUNTERFACTUAL_PROMPT_INSTRUCTIONS}
+"""
+    return prompt
+
+
+# ===== ALTERNATIVE NARRATIVE-FOCUSED SHAP PROMPT =====
+
+PROMPT_PREAMBLE_SHAP_NARRATIVE = """
+A machine learning model has made a prediction about a student's likelihood of passing the bar exam. The model predicts failure, resulting in a rejected law school application.
+
+YOUR TASK: Write a clear, persuasive narrative that explains this decision to the student. The narrative should feel like a personal story, not a technical report. Use the student's actual characteristics and the model's reasoning to craft a plausible explanation.
+
+INFORMATION YOU WILL RECEIVE:
+1. The student's profile: their actual feature values (grades, family income, study habits, demographics, etc.)
+2. The model's prediction: probability of bar exam failure
+3. Feature importance ranking: which aspects of the student's profile had the strongest influence on this prediction, ranked from most to least important
+"""
+
+SHAP_PROMPT_INSTRUCTIONS_NARRATIVE = """
+TASK:
+Write a personalized narrative explanation for why this student's application was rejected. Frame it as if you are explaining the model's reasoning in natural language.
+Write in a way that feels personal and grounded, not formulaic. Reference the student's specific numbers and attributes. Show how the combination of factors painted a particular picture for the model.
+
+CONSTRAINTS:
+- Only use information provided in this prompt
+- Do not use the numeric SHAP values themselves; instead rank and discuss influence direction (e.g., "This was the strongest factor," "This pulled toward failure")
+- Do not explain how machine learning works or mention model internals
+
+STYLE:
+- Length: 12-15 sentences
+- Write as a coherent narrative paragraph(s), not a bulleted list
+- Directly adress the student and provide insights tailored to their specific situation
+"""
+
+INSTANCE_DESCRIPTION_SIMPLE = """
+THE STUDENT'S PROFILE
+"""
+
+def create_simple_instance_description(row):
+    """
+    Create a simple instance description without dataset averages or distributions.
+    Just lists the student's feature values with brief descriptions.
+    
+    Parameters:
+    - row: pandas Series with feature values
+    """
+    feature_lines = []
+    
+    if DATASET_INFO is not None:
+        feature_df = DATASET_INFO.get("feature_description")
+        for col in row.index:
+            value = row[col]
+            # Map attribute value if applicable
+            mapped_value = map_attribute_value(col, value)
+            
+            # Find feature description
+            feature_info = feature_df[feature_df['feature_name'] == col]
+            if not feature_info.empty:
+                desc = feature_info.iloc[0]['feature_desc']
+                feature_lines.append(f"- {col}: {mapped_value} ({desc})")
+            else:
+                feature_lines.append(f"- {col}: {mapped_value}")
+    else:
+        # Fallback
+        for col in row.index:
+            value = row[col]
+            mapped_value = map_attribute_value(col, value)
+            feature_lines.append(f"- {col}: {mapped_value}")
+    
+    instance_desc = f"""
+{chr(10).join(feature_lines)}
+"""
+    return instance_desc
+
+
+def build_shap_prompt_narrative(instance_index, shap_csv_path: str = None, adverse_csv_path: str = None) -> str:
+    """
+    Build a narrative-focused SHAP explanation prompt.
+    
+    This variant emphasizes storytelling over technical explanation. Features and SHAP values
+    are presented without dataset context, allowing the LLM to generate a plausible narrative
+    explaining the rejection based on the student's individual characteristics.
+    
+    Parameters:
+    - instance_index: the instance index to explain (e.g., 10, 25, etc.)
+    - shap_csv_path: path to the SHAP CSV file (defaults to law_dataset/law_shap.csv)
+    - adverse_csv_path: path to adverse CSV (defaults to law_dataset/law_adverse.csv)
+    
+    Returns:
+    - Full prompt string ready for LLM
+    """
+    if shap_csv_path is None:
+        shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_shap.csv"
+    if adverse_csv_path is None:
+        adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_adverse.csv"
+    
+    # Load SHAP values
+    shap_df = pd.read_csv(shap_csv_path)
+    shap_row = shap_df[shap_df['instance_index'] == instance_index]
+    
+    if shap_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in SHAP CSV")
+    
+    shap_values = shap_row.iloc[0]
+    predicted_probability = shap_values.get('predicted_probability', np.nan)
+    
+    # Load original instance
+    adverse_df = pd.read_csv(adverse_csv_path)
+    adverse_row = adverse_df[adverse_df['instance_index'] == instance_index]
+    
+    if adverse_row.empty:
+        raise ValueError(f"Instance {instance_index} not found in adverse CSV")
+    
+    original_instance = adverse_row.iloc[0]
+    
+    # Extract SHAP values (remove instance_index and SHAP_ prefix)
+    shap_dict = {}
+    for col in shap_values.index:
+        if col.startswith('SHAP_'):
+            feature_name = col[5:]  # Remove 'SHAP_' prefix
+            shap_dict[feature_name] = shap_values[col]
+    
+    # Create SHAP ranking (by absolute value)
+    shap_ranking = sorted(shap_dict.items(), key=lambda x: abs(x[1]), reverse=True)
+    
+    # Format ranking as text (include direction but not exact numeric values)
+    ranking_lines = []
+    for i, (feature, value) in enumerate(shap_ranking, 1):
+        direction = "toward failure" if value > 0 else "toward passing"
+        ranking_lines.append(f"{i}. {feature} (influence: {direction})")
+    
+    ranking_text = chr(10).join(ranking_lines)
+    
+    # Create simple instance description (just features without dataset context)
+    feature_cols = [col for col in original_instance.index if col not in 
+                    ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target']]
+    instance_row = original_instance[feature_cols]
+    instance_desc = create_simple_instance_description(instance_row)
+    
+    # Format predicted_probability
+    pred_prob_str = f"{predicted_probability:.1%}" if not np.isnan(predicted_probability) else "N/A"
+    
+    prompt = f"""{PROMPT_PREAMBLE_SHAP_NARRATIVE}
+
+{INSTANCE_DESCRIPTION_SIMPLE}
+{instance_desc}
+
+MODEL PREDICTION:
+- Predicted probability of bar exam failure: {pred_prob_str}
+
+FEATURE IMPORTANCE RANKING (Most to Least Influential):
+{ranking_text}
+
+NARRATIVE TASK:
+{SHAP_PROMPT_INSTRUCTIONS_NARRATIVE}
 """
     return prompt

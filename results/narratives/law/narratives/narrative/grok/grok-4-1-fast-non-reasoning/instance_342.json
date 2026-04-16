@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 342,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:48:40.315601",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application like piecing together a story about your journey to the bar exam, and unfortunately, the picture it painted led them to predict a 49% chance of not passing, which is why your application to our law school was rejected. The strongest thread in that story was your Year 1 decile of 1.0, placing you at the bottom of your class early on, which the model saw as the biggest signal pointing toward future struggles. Right behind that was your LSAT score of 40.0, well below what typically lights the path to success on the bar. Your Year 3 decile of 1.0 reinforced this pattern, suggesting those early challenges didn't fully turn around. Coming from a low family income bracket added another layer, as the model associates that with extra hurdles in preparing for such a demanding exam. Your Asian background, undergraduate GPA of 2.2, full-time student status, and being male all wove in as supporting factors, each nudging the prediction toward failure in their own way. It's not that any one piece defined you entirely, but together they formed a cautious tale the model couldn't ignore. This isn't a judgment on your potential or drive—many have rewritten their stories from similar starts. Perhaps focusing on boosting those early academic deciles or LSAT prep could shift the narrative for other schools. We're rooting for you to prove the model wrong and chase your legal dreams. Keep pushing forward.",
+  "error": null
+}

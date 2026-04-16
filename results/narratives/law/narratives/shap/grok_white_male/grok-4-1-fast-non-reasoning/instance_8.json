@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:12.728753",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid family background in the high income bracket, you've put together an impressive profile including a strong LSAT score of 37 and plans to attend law school full-time, but your undergraduate GPA sits at 3.10 and your school deciles reflect some early challenges—ranking in the top decile for Year 1 grades but dropping to the second decile by Year 3. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 48%, tipping the scales just enough to result in the rejection of your application. This prediction means the model saw your overall chances as borderline, leaning toward a risk of not passing initially, which law schools use to prioritize applicants with stronger forecasted bar success. The key factors driving this decision were your Year 3 school decile ranking, your undergraduate GPA, your LSAT score, and your Year 1 decile—ranked in that order of influence. Most critically, your drop to the second decile in Year 3 grades strongly pushed the model toward predicting bar failure, signaling a concerning downward trend in academic performance compared to peers who typically hold steady or improve into higher deciles around the average of 5.53. On a positive note, your undergraduate GPA had the strongest counterbalancing effect, pulling the prediction toward success even though your 3.10 is slightly below the typical 3.21 average, showing it as a relative strength in your case. Similarly, your LSAT score above the dataset average of 36.70 worked in your favor, nudging the model toward expecting you to pass. Your top-decile Year 1 performance also contributed positively, though less powerfully, highlighting early potential that the model weighed against later dips. Compared to typical students in the dataset, where full-time enrollment is the norm at over 92% and family income varies widely, your high-income background and full-time status offered minor boosts but weren't decisive. While this rejection stings, especially with your strengths in LSAT and early grades, it underscores how much the model prioritizes consistent academic momentum through later years. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your later deciles and GPA, while leveraging your LSAT edge—many students in similar spots reapply successfully after addressing these trends. We're rooting for you to turn this around and ace the bar on your first try.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

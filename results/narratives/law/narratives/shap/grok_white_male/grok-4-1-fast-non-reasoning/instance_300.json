@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 300,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:21.458808",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 54% chance that you would fail the bar exam on your first try, which tipped the scales just enough to result in the rejection of your application—it's a close call, but the threshold requires stronger odds for approval. This prediction was driven primarily by your LSAT score of 25.50, which stands well below the typical applicant's 36.70 and was the single biggest factor pushing the model toward forecasting failure. Your undergraduate GPA of 2.80, slightly under the average of 3.21, worked somewhat in your favor by nudging the prediction toward success, though not enough to offset the LSAT. Similarly, your Year 1 school decile of 5—right around the average—provided a mild positive boost, suggesting steady early performance. However, your Year 3 decile of 3, notably lower than the typical 5.53, pulled things back toward the risk of failure by signaling a dip in later academic standing. Your upper-middle family income and full-time enrollment plans offered smaller supportive influences, aligning with patterns seen in most applicants, but they couldn't overcome the top concerns. Compared to typical students in our dataset, where full-time status is the norm at over 92%, your profile is common in some ways but stands out negatively on key metrics like LSAT and later-year grades that bar success often hinges on. This isn't a judgment on your potential as a white male from a supportive background—many in similar situations succeed with targeted improvements. To move forward, I recommend retaking the LSAT to boost that score significantly, as it's the most influential hurdle here, and reflecting on what led to your Year 3 decile drop to strengthen future academics. Consider supplemental prep courses or advisors familiar with bar passage trends, and reapply once you've addressed these—your full-time commitment and GPA foundation give you a great starting point for a turnaround. We're rooting for you to rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

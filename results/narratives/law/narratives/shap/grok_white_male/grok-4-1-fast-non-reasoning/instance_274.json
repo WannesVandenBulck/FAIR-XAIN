@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 274,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:44.923699",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and a middle-class family background, you've put real effort into your law school journey, including planning to attend full-time. The admissions model we use predicted a 91% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the highest likelihood of bar success to ensure everyone thrives. This prediction was driven primarily by your academic decile rankings from school, particularly your Year 3 performance, which landed in the bottom decile compared to the typical student's middle-of-the-pack standing. Your Year 1 decile, also at the bottom, played a close second role in pushing the model toward this concerning outcome, signaling to it a pattern of underperformance relative to peers. While your undergrad GPA was slightly below the average of 3.21, it actually worked a bit in your favor, nudging the prediction toward bar passage. Your family income bracket had a modest pull toward failure risk, and your LSAT score of 30—well below the usual 36.7—added a small influence in the same direction, though not as strongly as your deciles. Being full-time, like most applicants, provided a tiny positive boost. Compared to typical students who pass the bar, your lowest deciles stand out as the biggest red flags, far from the mid-range averages that correlate with success. This isn't a judgment on your potential, but a data-driven flag based on how these factors have historically predicted bar outcomes. To move forward, consider retaking courses or programs to boost your decile rankings, aiming for top-half performance, and retaking the LSAT to get closer to or above 37. Building a stronger academic track record could dramatically shift future predictions in your favor. We're rooting for you—many students turn things around with targeted improvements. Reach out to advisors for personalized strategies, and reapply once you've strengthened these key areas. You've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

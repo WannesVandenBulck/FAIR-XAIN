@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 114,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:02:55.827328",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive dedication through your strong undergraduate GPA of 3.50—well above the typical 3.21 average—and a solid LSAT score of 38, which edges out the usual 36.70. Your Year 1 school decile of 8 and Year 3 decile of 7 also place you in the upper ranks compared to most students' averages around 5.7 and 5.5, respectively, while coming from a middle-income family reflects resilience in pursuing this path. However, the admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 45.5% chance you'll face failure on that critical test—high enough to tip the decision toward rejecting your application to protect the school's outcomes. The biggest factor pulling against failure was your Year 3 decile rank, which strongly signaled your potential to pass by showing late-blooming academic strength. On the flip side, your middle-income family background had the most notable push toward the failure prediction, as the model associates it with added hurdles others might not face. Your LSAT score also worked in your favor, nudging the prediction toward success much like your high school ranks did, though your undergraduate GPA and Year 1 decile had smaller positive leans that weren't enough to offset the concerns. Compared to typical students, your full-time enrollment plans align with the vast majority, so it barely factored in. This mix left the model cautious, even with your standout metrics in key areas. To move forward, consider retaking the LSAT for an even higher score or bolstering your profile with targeted prep programs that address bar exam predictors—many resilient applicants like you succeed on the next try. You're clearly capable; use this feedback to refine your strategy and reapply stronger. Keep pushing—you've already outperformed averages in ways that matter.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

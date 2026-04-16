@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 416,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:29.931399",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 90.8% chance that you would fail the bar exam on your first try, which is why your application for our law school was unfortunately rejected—our goal is to select students with the strongest predicted odds of bar passage success. This prediction was driven primarily by your academic rankings from earlier years in school, where you placed in the bottom decile for both Year 1 and Year 3 grades, far below the typical student's mid-range performance. These low decile rankings stood out as the strongest factors pushing the model toward forecasting bar exam failure, as they signal potential hurdles in sustaining the high academic performance needed for the bar. Your LSAT score of 27 also played a notable role in this direction, coming in well under the average of around 37 that the model sees in successful applicants. On a more positive note, your undergraduate GPA was right around the dataset average of 3.21, which slightly nudged the prediction toward expecting bar passage success. Your middle-family income bracket had a minor influence toward failure, while your choice of full-time enrollment provided a small boost in the opposite direction, aligning with the vast majority of students who pursue law full-time. Compared to typical applicants, who often have stronger early-year deciles and higher LSATs, your profile highlighted these gaps as the key risks for bar outcomes. While this decision stings, it's not a reflection of your overall potential—many students improve dramatically with targeted effort. I encourage you to focus on boosting your academic deciles through stronger study habits or prep courses, retake the LSAT to aim closer to or above the average, and consider part-time options if that fits your path better. Reapplying after addressing these areas could significantly shift your predicted odds, and we're here to support your journey toward bar success. Keep pushing forward—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

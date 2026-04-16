@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 278,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:57.502436",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong undergraduate GPA of 3.90 and plans to attend law school full-time, you've clearly put in significant effort to build a solid academic foundation, though your family comes from a lower-middle income background. The admissions model we use predicted a 45% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying applications—we aim to select students with the highest likelihood of bar passage success to ensure their long-term achievement. This prediction wasn't a judgment on your potential or character, but a data-driven assessment based on patterns from thousands of past students. The most influential factor pulling in your favor was your impressive undergraduate GPA, well above the typical 3.21 average, which strongly signaled to the model your ability to succeed on high-stakes exams like the bar. However, your Year 3 school decile ranking of 1—much lower than the average of 5.53—was the biggest reason pushing the prediction toward failure risk, suggesting the model saw this as a potential dip in performance compared to peers. Your LSAT score of 21, notably below the average of 36.70, also contributed toward that higher failure risk, as it's a key predictor in these models. Interestingly, your lower-middle family income actually nudged the prediction slightly toward success, perhaps reflecting resilience shown by similar students. Your lower Year 1 decile of 2 and full-time enrollment status had smaller influences but aligned with typical successful profiles. Overall, while your GPA stands out positively against most applicants, the gaps in your decile rankings and LSAT tipped the balance for this model. To strengthen future applications, consider retaking the LSAT to boost your score closer to or above average, seeking ways to improve your in-school rankings through study strategies or tutoring, and highlighting any additional achievements that demonstrate bar readiness. Many students in your position have succeeded by addressing these areas—keep pushing forward, as your strong GPA shows you have the capability. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

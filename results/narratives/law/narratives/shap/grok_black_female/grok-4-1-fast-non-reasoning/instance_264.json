@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 264,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:12:12.246859",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the courage it takes to put yourself out there with your undergraduate GPA of 3.10 and LSAT score of 30. Your background, including your lower-middle family income and plans to attend full-time, reflects the real challenges many face on this path. The admission model we use predicted a 94% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—it's designed to identify students likely to pass and succeed in the program. The biggest factors pushing toward this failure prediction were your Year 3 school decile ranking of 1, which is much lower than the typical student's around the 5th or 6th decile, signaling weaker performance relative to peers at that stage. Nearly as influential was your Year 1 decile also at 1, well below the average, which together painted a picture of consistently lower academic standing compared to most applicants. Your undergraduate GPA actually worked slightly in your favor, as it's close to the dataset average of 3.21 and nudged the prediction a bit toward passing. Meanwhile, your family income bracket contributed toward the failure prediction, as lower-middle income is below the typical level and often correlates with additional hurdles in bar prep. Your LSAT score, though respectable, also pushed somewhat toward failure since it's notably under the average of about 37 that successful students usually have. Being full-time was a small positive, aligning with the vast majority of students who pass. Compared to typical students who get approved, your early and later school deciles stand out as the most concerning, far from the mid-range averages that predict success. To move forward, focus on boosting your academic deciles through targeted study habits or additional coursework, retake the LSAT to aim closer to or above average, and consider programs offering bar prep support tailored for students from similar backgrounds. You're resilient, and with these steps, you can strengthen your profile for future applications—we believe in your potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 389,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:46.572227",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and plans to attend law school full-time, you've put real effort into building a strong profile, including your middle-income family background. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 67% chance that you would fail the bar exam—high enough to lead to the rejection of your application. This prediction was driven primarily by your Year 3 school decile ranking of 2nd, which stood out as a top concern because it signaled weaker performance relative to peers compared to the typical student's 5th or 6th decile position. Your LSAT score of 26 also played a major role in pushing the model toward failure, as it fell well below the average of around 37 seen in successful applicants. On a brighter note, your undergraduate GPA above the typical 3.21 average helped counter this somewhat, nudging the prediction toward success. Your 1st-year decile of 1st was another factor leaning toward failure, though less strongly than your later performance or test score. Meanwhile, your middle family income and full-time enrollment status offered minor positives, aligning with the majority of students who pass but not enough to shift the overall outlook. Compared to typical admitted students, your early grades were strong but faded, and your LSAT was a notable gap that amplified concerns about bar readiness. We understand this is disappointing, especially with your above-average undergrad record. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your later-year performance through additional coursework or tutoring, and reapplying next cycle with these improvements—many students in similar situations have succeeded by targeting these areas. You're clearly capable, and with focused steps, you can turn this around. Keep pushing; law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

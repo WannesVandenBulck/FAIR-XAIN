@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 272,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:37.347953",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong family income background, we understand how disappointing it must be to receive this rejection from our law school admissions process—it's a tough moment, and we're here to help you understand why it happened in clear terms. Our model, trained on data from thousands of past students, predicted an 82% chance that you would fail the bar exam on your first try, which is the key benchmark we use to ensure we admit those most likely to succeed as lawyers. This high failure probability directly led to the denial of your application, as we prioritize students showing strong signals of passing the bar right away. The biggest factor pushing toward this prediction was your Year 3 school grade decile, which ranks quite low at 1 compared to the typical student's 5.5—far below average, it strongly signaled potential struggles ahead on the bar exam. Your Year 1 decile of 2, also well below the average of about 5.7, added to this concern as another early academic red flag. On a brighter note, your LSAT score of 37 edged slightly above the average of 36.7, which helped pull the prediction somewhat toward passing success. Your high family income, while a positive in many ways, unfortunately nudged the model toward higher failure risk in this context, possibly reflecting patterns seen in similar profiles. Your undergraduate GPA of 2.9 fell short of the typical 3.2, contributing a small push toward the failure prediction, though not as dominantly as your deciles. Planning to attend full-time, like most applicants at 93%, offered a minor positive influence but wasn't enough to offset the others. Compared to typical admitted students, your academic deciles stand out as much weaker, while your LSAT is competitively close—it's these gaps that set your profile apart in the model's eyes. To move forward, we recommend targeting ways to boost your academic standing, perhaps through post-baccalaureate courses or retaking key exams to improve those decile rankings, and reapplying once you've strengthened these areas. You're clearly motivated with a solid LSAT foundation—many students in your position have turned things around with focused effort. Hang in there; law school doors can reopen with the right steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

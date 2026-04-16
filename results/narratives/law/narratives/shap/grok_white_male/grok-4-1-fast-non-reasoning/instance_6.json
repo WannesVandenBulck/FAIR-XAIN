@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:04.401057",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school journey, including pursuing full-time studies and achieving a solid LSAT score of 34 along with an undergraduate GPA of 2.90. Unfortunately, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 99.2% chance that you would fail the bar exam—leading directly to the rejection of your application. This high failure probability means the model saw your profile as carrying substantial risk compared to students who typically pass. The key factors driving this tough prediction were your academic decile rankings from school years 1 and 3, both at the 2nd decile, which are notably lower than the typical 6th decile around the middle of the pack for admitted students. These early and later grade positions had the strongest negative pull, strongly pushing the model toward forecasting bar failure because they signal below-average performance relative to peers who succeed. Your LSAT score, while respectable, still fell short of the average 36.7 and added further concern by nudging the prediction toward failure. Similarly, your undergraduate GPA of 2.90, below the usual 3.21, contributed in the same direction, though less intensely. Even your upper-middle family income and full-time study plans had some minor influence tilting against passing, unlike profiles with stronger alignments. Overall, your situation stands out as weaker academically than most students who pass the bar on their first try, where higher deciles, GPAs, and test scores dominate successful profiles. While this decision stings, it's not the end—consider retaking the LSAT or bolstering your GPA through post-baccalaureate courses to shift future predictions in your favor. You might also target schools with more holistic reviews or build bar prep experience to demonstrate resilience. We're rooting for your next steps, and with targeted improvements, brighter opportunities await.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

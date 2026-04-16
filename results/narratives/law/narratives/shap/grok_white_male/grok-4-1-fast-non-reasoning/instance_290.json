@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 290,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:41.983354",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to pursue full-time studies, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 44% chance that you might not pass the bar exam on your first try, which unfortunately crossed the threshold for rejection—it's designed to flag higher-risk profiles to ensure students are set up for long-term success. Your undergraduate GPA of 2.90 was actually a strong positive factor, as it's close to the typical student's 3.21 average and pulled the prediction toward expecting you to pass, standing out as the most influential good sign in your profile. However, your LSAT score of 23 was well below the dataset average of 36.70 and had the biggest negative impact, strongly pushing the model toward predicting bar failure since lower scores like yours are linked to tougher outcomes for many students. Your Year 3 school decile ranking of 3 (below the average 5.53) also leaned against you slightly, though less so than the LSAT, while your Year 1 decile of 3 nudged it a bit toward failure compared to peers. Factors like your middle family income bracket and full-time enrollment plans helped a little by aligning with successful applicants, but they weren't enough to offset the key concerns. Overall, compared to typical students who get approved, your profile showed weaker standardized test performance and early academic deciles that mirrored those who struggled on the bar, even if your college grades held up decently. This isn't a judgment on your potential—it's just the model's data-driven read based on patterns from thousands of past students. To move forward, consider retaking the LSAT to boost that score, as it's the top lever here, and perhaps strengthening your recent academic deciles through additional coursework or prep. You might also explore part-time options or programs with bar passage support tailored to profiles like yours. Keep pushing; many applicants in similar spots turn things around with targeted improvements. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

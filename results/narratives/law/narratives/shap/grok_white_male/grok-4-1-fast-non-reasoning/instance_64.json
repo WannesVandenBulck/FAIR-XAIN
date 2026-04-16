@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 64,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:46.848665",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put significant effort into your law school journey, including your undergraduate studies and LSAT preparation, while planning to pursue full-time studies. The admissions model we use predicted a 51.6% probability that you would fail the bar exam on your first attempt, which tipped the scale toward rejecting your application to help ensure we select candidates with the strongest likelihood of bar success. This prediction was driven primarily by your academic performance in earlier years, particularly your Year 1 school decile ranking, which fell in the lower range compared to the typical student's mid-level standing and strongly pushed the model toward forecasting a bar failure. Your Year 3 decile, also on the lower side relative to averages, reinforced this concern as the next biggest factor pulling in the same direction. On a more positive note, your LSAT score of 33.5, though below the dataset average of 36.7, had the strongest favorable influence, nudging the prediction toward bar passage more than any other feature. Similarly, your undergraduate GPA of 2.9 worked in your favor despite being under the typical 3.21 average, helping to counterbalance some risks. Your middle family income bracket and full-time enrollment plans provided smaller but supportive boosts toward a passing prediction. Overall, your profile stands out as having early academic hurdles that outweighed these strengths when compared to students who typically rank higher in school deciles and score above average on key tests. While this is disappointing, it's not a reflection of your potential as a whole—many factors like resilience and dedication play into real-world success. To strengthen future applications, consider retaking the LSAT to push closer to or above the average, bolstering your undergraduate record through additional coursework or certifications, and highlighting any improvements in later-year performance. We encourage you to reapply after addressing these areas, as models like this are just one tool in a broader evaluation process. Keep pushing forward—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

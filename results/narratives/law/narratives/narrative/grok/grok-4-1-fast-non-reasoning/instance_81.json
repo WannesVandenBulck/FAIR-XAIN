@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:33:39.035860",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application like they're piecing together the story of your journey to becoming a lawyer, drawing from patterns of thousands of students who've walked this path before. Your story starts strong in spirit with your full-time commitment and upper-middle family background, but the model zeroed in on a few key chapters that raised real concerns about passing the bar exam, estimating a 41% chance of falling short. The biggest signal came from your Year 3 decile of 2.0, which stood out as the strongest pull toward struggle, suggesting that by the end of law school, your grades placed you near the bottom of your class compared to peers who typically powered through to bar success. Right behind that was your Year 1 decile of 3.0, reinforcing a pattern of early challenges that the model saw as a persistent hurdle rather than a one-off bump. Your LSAT score of 37.0 added to this narrative, painting a picture of foundational skills that might not fully equip you for the bar's intensity, while your undergraduate GPA of 2.8 echoed that theme of needing extra lift to compete at the top. Even factors like being an Asian male didn't tilt things in your favor here, as the model linked them to higher risks in similar profiles. Your upper-middle family income, which might seem like a boost, surprisingly nudged the outlook downward too, perhaps because it highlighted expectations without the standout academic momentum to match. Together, these elements wove a cautious tale—not a definitive no, but enough to pause on your application for now. The good news is, this isn't the end of your story; focusing on boosting those deciles through targeted study or retakes could rewrite it entirely. You've got the drive—now channel it where it counts most. Keep pushing, Alex; law needs determined voices like yours.",
+  "error": null
+}

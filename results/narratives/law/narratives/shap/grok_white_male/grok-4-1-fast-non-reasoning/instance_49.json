@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:48.794616",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 30.50, you've worked hard to build a competitive profile for law school, including your middle family income background and plans to attend full-time. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 44.5% chance of failure for you—high enough that your application was rejected to prioritize students with stronger projected outcomes. This decision hinged on a few key factors from your academic record that stood out compared to typical applicants. Most notably, your Year 3 school decile ranking of 2—well below the average of around 5.5—strongly pushed the prediction toward expecting bar failure, signaling to the model that your later performance might not hold up under exam pressure. Your Year 1 decile of 2, also lower than the typical 5.7, added to that concern, though with less weight. On a brighter note, your undergraduate GPA above the average of 3.21 worked significantly in your favor, pulling the odds toward passing, while your LSAT score, though below the usual 36.7, still offered some positive counterbalance. Your full-time status and family income aligned closely with most students, so they had minimal sway. Overall, your deciles painted a picture riskier than the typical applicant, whose stronger school rankings often tip predictions toward success. I know this rejection stings, especially with your strengths in GPA and dedication to full-time study, but it's not the end of your path to law. Consider retaking the LSAT to boost it closer to average, strengthening your later-year grades through additional coursework or prep programs, and reapplying next cycle with those improvements—the model responds well to upward trends like that. You're clearly capable, and with targeted steps, you can shift this narrative in your favor. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

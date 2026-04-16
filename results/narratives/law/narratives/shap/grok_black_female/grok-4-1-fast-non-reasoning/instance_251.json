@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 251,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:11:25.855268",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, we know how much heart and determination it takes to pursue this path, and we're here to help you understand the automated decision on your application in a clear way. Your profile includes strong family support from an upper-middle income background, plans to attend full-time, an undergraduate GPA of 2.80, an LSAT score of 26, and Year 1 and Year 3 school decile rankings both at the 1st decile, meaning your grades placed you at the lower end compared to your peers. The admissions model, which predicts the chances of passing the bar exam on the first try based on patterns from thousands of past students, estimated a 95.9% probability that you would not pass it—far higher than what it sees in typical applicants, whose profiles often lead to much lower failure risks and approvals. This high predicted risk is why your application was rejected, as the school prioritizes admitting those the model sees as strong bets for bar success. The biggest factor pulling the prediction toward failure was your Year 3 decile ranking in the bottom of your school, which stood out as a major concern since most admitted students rank much higher on average. Your LSAT score of 26, well below the typical 36.7 average, was the second strongest influence in the same direction, signaling to the model a challenge in competing with peers who score higher. Your Year 1 decile in the 1st position also contributed notably toward this outcome, differing from the mid-range averages that help others. On a more positive note, your undergraduate GPA of 2.80 actually nudged the prediction slightly toward passing, as it's closer to the dataset average of 3.21 than some other elements. Your upper-middle family income and full-time enrollment plans provided small boosts too, aligning with common strengths among successful students. Compared to typical applicants—who often have higher deciles, LSATs around 37, and GPAs over 3.2—your academic markers in school performance and testing were the key areas where the model saw greater risk. To move forward, we encourage you to retake the LSAT aiming for a score closer to or above the average, strengthen your academic deciles through additional coursework or programs, and reapply once you've bolstered these areas—the model responds well to such improvements, and many students like you succeed on a second try. You're capable of turning this around, and we're rooting for your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

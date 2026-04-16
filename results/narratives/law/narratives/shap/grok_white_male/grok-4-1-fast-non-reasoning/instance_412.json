@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 412,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:13.686773",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put real effort into your law school journey, including a competitive LSAT score of 37 and planning to attend full-time. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 68.9% chance that you would fail the bar—high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from school: your Year 3 position in the bottom decile stood out as the strongest factor pushing the model toward forecasting failure, well below the typical student's mid-range standing. Your Year 1 decile in the bottom group also contributed notably in the same concerning direction, unlike the average applicant who ranks much higher. On a brighter note, your LSAT score, slightly above the dataset average, strongly pulled the prediction back toward expecting you to pass. Your undergraduate GPA of 2.70, lower than the typical 3.21, offered some counterbalance but not enough to shift the outcome significantly, while your family income and full-time status had minimal sway. Compared to typical students who pass the bar, your lower high school deciles set you apart as a bigger risk in the model's eyes, even with your other strengths. I know this is disappointing, especially when you've shown promise in areas like the LSAT. To move forward, consider retaking courses or programs to boost your academic deciles, perhaps through community college or targeted GPA improvement initiatives that many applicants use successfully. You might also seek bar prep resources early or explore part-time options if it aligns better with your strengths. Admissions teams value persistence—reapply after addressing these gaps, and your story as a determined white male from a supportive background could shine even brighter next time. Hang in there; this is just one model's view, and your future in law is still within reach.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

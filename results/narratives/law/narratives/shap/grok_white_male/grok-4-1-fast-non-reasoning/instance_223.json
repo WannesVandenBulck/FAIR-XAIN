@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 223,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:38.410095",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score of 38 and undergraduate GPA of 3.0, while planning to attend full-time. The admissions model we use predicted a 76% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the highest likelihood of bar passage success. This prediction was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 2 was the biggest factor pushing the model toward expecting failure, as it lags well behind the typical student's rank around the middle of their class. Your Year 1 decile of 3 was the second most influential, similarly signaling lower performance compared to the average applicant who ranks higher, around the 5th or 6th decile. On a brighter note, your LSAT score stood out positively, above the typical 36.7 average, helping pull the prediction somewhat toward success. Your undergraduate GPA, while respectable, was a minor nudge toward the failure side since it's slightly below the dataset average of 3.21, and your upper-middle family income played a small role in the same direction relative to peers. Being full-time, like most applicants at 92.7%, had almost no impact. Compared to typical students who pass the bar, your early academic deciles are notably lower, which outweighed your strengths in LSAT and full-time status. This isn't a judgment on your potential as a white male from a supportive background—it's just how these key metrics aligned for the model's bar passage forecast. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved most critical here, and reapply once you've strengthened those areas. You're clearly capable, given your LSAT, so targeted improvements could shift the odds dramatically in your favor next time. Keep pushing—we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:52.480420",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and I want to help you understand why the admissions model led to a rejection of your application in a clear, straightforward way. Your profile includes a solid LSAT score of 37, an undergraduate GPA of 3.20, middle family income, part-time enrollment plans, and school deciles of 4 in Year 1 and 7 in Year 3—strong improvement there that shows your growth. The model predicts a 64% chance you'll fail the bar exam on your first try, which is above the threshold these schools use to approve admissions, so they see it as too risky and denied your application to prioritize students likely to pass and succeed as lawyers. The biggest factor pushing toward this failure prediction was your plan to attend part-time, as that's uncommon (only about 7% of students do) and strongly linked in the data to lower bar passage rates compared to the typical full-time path most applicants take. On a positive note, your higher Year 3 decile rank helped pull the prediction toward passing, showing the model recognized your upward trajectory as better than average. Your lower Year 1 decile, however, nudged it back toward failure risk, since it was below the typical student's early performance. Your LSAT score was a helpful boost too, slightly above average and favoring passage, while your GPA was right around average with minimal sway, and family income had little impact. Overall, compared to typical students who pass—who are overwhelmingly full-time with steadier early grades—your part-time choice stood out as the dominant hurdle, outweighing your strengths. This doesn't define your potential; many in similar circumstances, especially Black women facing unique barriers, have triumphed by adjusting paths. Next, consider reapplying full-time if possible, bolstering early-grade equivalents through post-bac work, or targeting schools with strong support for part-time and diverse students—reach out to admissions counselors for advice tailored to you. You've already shown resilience with that Year 3 jump; keep building on it. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

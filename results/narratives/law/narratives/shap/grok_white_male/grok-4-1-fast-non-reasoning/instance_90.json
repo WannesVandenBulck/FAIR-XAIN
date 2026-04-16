@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:23.573949",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score and middle-family income background, we understand how disappointing it must be to receive this law school admission rejection—it's a tough moment, and we're here to help you make sense of it. The admissions process uses a predictive model trained on past students' data to estimate your chances of passing the bar exam on the first try, and unfortunately, it calculated a 72.3% probability that you would fail. This high risk of failure is why your application was denied, as the school prioritizes applicants likely to succeed on the bar right away. The model's decision hinged most heavily on your academic decile rankings from school—specifically, your lower placement in Year 3 grades stood out as the strongest factor pushing toward a failure prediction, followed by your Year 1 decile also contributing in that direction. On a brighter note, your above-average LSAT score worked strongly in your favor, pulling the prediction toward success more than any other positive element. Your undergraduate GPA, while below the typical applicant's, played a smaller role in tipping the scales toward failure, and factors like your middle-income family and full-time student status had minimal sway. Compared to typical students, who often rank in the middle to upper deciles for both Year 1 and Year 3 (around 5th or 6th), your lower rankings pulled you below the pack, even though your LSAT beat the average and your background aligns with most applicants. This isn't a judgment on your potential as a white male from a middle-income home—many in similar situations succeed with targeted improvements. To move forward, focus on boosting your grades to climb those school deciles, perhaps through tutoring or retakes, and consider retaking the LSAT if possible to strengthen that asset further. Reapplying after addressing these academic gaps could shift the model's view dramatically. You've got strengths to build on—keep pushing, and we're rooting for your next step toward law school success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

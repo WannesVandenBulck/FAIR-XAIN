@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:09.921321",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 3.20 and LSAT score of 34, while planning to attend full-time. Unfortunately, the admissions model predicts a 75.2% chance that you would fail the bar exam on your first try, which is the key reason your application was rejected—law schools use this prediction to ensure they admit students likely to succeed in the profession. The model's decision was driven primarily by your academic decile rankings from school, especially your Year 3 performance, which placed you in the 2nd decile compared to the typical student's 5th or 6th decile position. This low Year 3 ranking had the strongest influence, pushing the prediction heavily toward expecting bar failure, as it signals potential challenges in sustaining strong performance over time. Your Year 1 decile, also in the 2nd percentile well below average, added to this concern by reinforcing a pattern of below-typical early academic standing. On a more positive note, your undergraduate GPA stood out favorably, as it's right around the average of 3.21 for admitted students, helping pull the prediction somewhat toward success. Your LSAT score, while respectable, fell short of the typical 36.7 average, contributing moderately to the risk of failure in the model's eyes. Your upper-middle family income and full-time enrollment plans had minimal sway, neither strongly helping nor hurting the outcome. Compared to typical students who pass the bar, your profile shows stronger academics in undergrad but weaker school deciles, tipping the balance toward predicted failure. This isn't a judgment on your potential as a white male from a supportive background—many in similar situations succeed with targeted improvements. To move forward, focus on boosting your academic deciles through stronger coursework or retakes, consider LSAT prep for a higher score, and explore programs that weigh holistic factors beyond predictions. Reapplying after addressing these gaps could significantly improve your odds—keep pushing, as your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

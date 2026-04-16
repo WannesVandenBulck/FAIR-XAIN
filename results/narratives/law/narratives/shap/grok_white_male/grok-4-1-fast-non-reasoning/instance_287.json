@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:30.918745",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 2.40, LSAT score of 27, and early academic deciles of 2nd in Year 1 and 3rd in Year 3, while planning to attend part-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated your probability of failing at 56%—just over the threshold that led to your application's rejection. This decision was driven primarily by a few key factors in your profile that stood out as stronger signals of risk compared to typical applicants. Most influential was your choice to attend part-time, which is uncommon (only about 7% of students do so) and pushed the model toward predicting failure, as it often correlates with challenges in bar preparation for others in the dataset. Your undergraduate GPA also contributed notably in the same direction, being below the average of around 3.21 and signaling potential hurdles in handling rigorous legal studies. On a more positive note, your family income bracket provided a helpful counterbalance, nudging the prediction toward success since upper-middle-class backgrounds are linked to better outcomes on average. Your early school deciles further tilted things slightly toward failure risk, as they fell short of the typical mid-range performance seen in successful bar takers. Meanwhile, your LSAT score offered a small pushback toward passing, though not enough to offset the top concerns. Compared to the average student—who scores around 36.7 on the LSAT, has stronger GPAs and deciles, and usually goes full-time—your profile aligns more closely with those who struggled on the bar exam. While this is disappointing, it's not a definitive verdict on your potential; many overcome similar starts through targeted improvement. I recommend retaking the LSAT to boost your score, strengthening your academic record perhaps through additional coursework, and considering full-time enrollment if feasible, then reapplying to show growth. You're capable of turning this around—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

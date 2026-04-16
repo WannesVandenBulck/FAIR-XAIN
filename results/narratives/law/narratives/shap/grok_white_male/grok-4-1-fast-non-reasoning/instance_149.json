@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 149,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:06.534514",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate background, we understand how disappointing it must be to receive this rejection from our law school admissions process—it's a tough moment, and we're here to help you make sense of it. Our model, trained on data from thousands of students who took the bar exam, predicted a 42% chance that you would fail on your first try, which unfortunately crossed our threshold for denying admission to protect both you and our program's outcomes. The primary reason for this prediction was your Year 3 school decile ranking of 1, which stood out well below the typical student's rank of around the 5th or 6th decile and strongly pushed the model toward expecting bar exam challenges. While your low family income bracket actually worked in your favor—outweighing the average and suggesting resilience that nudged the prediction toward passing—your undergraduate GPA of 2.90, slightly below the dataset average of 3.21, also pulled in a positive direction but not enough to offset the top concern. Your Year 1 decile of 2, LSAT score of 29 (compared to the usual 37), and full-time enrollment status all contributed modestly toward a passing prediction, aligning closer to or with typical successful applicants in those areas. In essence, compared to students who typically pass the bar, your mid-range undergraduate performance and test scores were competitive, but that lower Year 3 ranking was the standout factor tipping the scales against you. This isn't a judgment on your potential as a white male from a modest background who've clearly worked hard to pursue law—many in similar situations succeed with targeted improvements. To move forward, we recommend retaking the LSAT to boost your score above the average and focusing on strengthening your academic decile in any remaining coursework, perhaps through tutoring or advanced classes. Consider part-time options if full-time work might dilute your focus, and gather strong letters of recommendation highlighting your resilience from low-income roots. Reapply after addressing these, or explore bridge programs that support students with profiles like yours to build bar exam readiness. You've got the drive—use this feedback to turn it around, and we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

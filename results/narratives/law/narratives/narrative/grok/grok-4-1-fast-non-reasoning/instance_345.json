@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 345,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:48:49.027444",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our predictive model saw your path to the bar exam as riskier than we'd hoped—landing at a 40% chance of not passing. Picture it like this: you're a full-time student from a lower-middle income family, Native American, male, with solid determination aiming straight for law, but the model zeroed in on patterns from thousands of similar journeys that shaped its view. The biggest red flag for it was your Year 3 decile of 2, meaning you ranked in the bottom 20% of your peers that year, which strongly pulled the prediction toward failure by signaling potential struggles with the mounting demands of advanced coursework. Right behind that was your LSAT score of 32, below the thresholds where most bar passers thrive, tilting things further in that direction. Your Year 1 decile of 2 echoed this early pattern, reinforcing a sense that academic momentum hasn't fully built yet. Layered on top, your lower-middle family income often correlates with fewer resources for the intense bar prep many need, nudging the odds down a bit more. Your Native American background, while a point of pride and resilience, statistically aligns with higher hurdles in these outcomes for the model. Even your undergraduate GPA of 2.8 and full-time status added subtle weight toward caution, as they sometimes predict divided focus or foundational gaps. Gender played a minor role too, but together, these pieces painted a picture of someone who's gritty and committed—yet facing an uphill climb steeper than our admissions threshold allows right now. It's not a judgment on your potential; it's the model spotting echoes of past students who hit similar snags. With targeted boosts, like LSAT retakes or grade improvements, you could rewrite this story—keep pushing, because stories like yours often turn around. We're rooting for you.",
+  "error": null
+}

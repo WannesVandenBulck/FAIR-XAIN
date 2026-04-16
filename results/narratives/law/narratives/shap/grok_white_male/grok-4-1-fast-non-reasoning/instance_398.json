@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 398,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:22.963201",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put in the effort to pursue law school, including committing to full-time studies and earning an undergraduate GPA of 2.90 along with an LSAT score of 34. Unfortunately, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 74.3% chance that you would fail the bar exam—high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from school, particularly your Year 3 performance, which fell in the lowest decile compared to peers (far below the typical mid-range for admitted students). Your Year 1 decile, also in the bottom tier, reinforced this concern as the second-biggest factor pushing the model toward expecting a failure. On a brighter note, your LSAT score stood out positively, as it pulled the prediction somewhat toward success despite being a bit below the average of around 37 seen in stronger applicants. Other elements, like your middle family income bracket and full-time study plans, offered minor boosts compared to the dataset norms, while your undergraduate GPA had a small neutral-to-negative nudge. Overall, your profile compares to typical students by lagging significantly in those early academic deciles—where most successful bar passers rank in the middle or higher—while your LSAT provides a competitive edge that wasn't quite enough to offset them. We understand this is disappointing, especially given your dedication, and it's not a judgment on your potential but a data-driven flag on bar passage risks. To move forward, consider retaking the LSAT to boost that strong feature further, strengthening your recent academic record through additional coursework or a post-bac program to improve those decile standings, and exploring schools with more holistic reviews. You might also connect with a pre-law advisor for personalized bar prep strategies tailored to profiles like yours. Keep pushing—many have turned similar setbacks into success stories. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

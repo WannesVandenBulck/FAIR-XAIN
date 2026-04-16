@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:57:36.532664",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score and commitment to full-time studies. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on past student data, estimated a 75% chance that you might not pass it initially, leading to the tough decision to reject your application right now. This prediction was driven primarily by your academic decile rankings from earlier years in school—specifically, your Year 3 decile of 2, which is notably lower than the typical student's rank around the middle of their class, and pushed the model strongly toward forecasting a bar failure. Your Year 1 decile of 3, also below the average, reinforced this concern as the second-biggest factor pulling the prediction in that direction. On a brighter note, your LSAT score of 38, which exceeds the average of about 37, worked in your favor by nudging the model toward expecting success, as did your lower-middle family income bracket compared to peers. Your undergraduate GPA of 2.8, slightly under the typical 3.2, added some weight toward the failure prediction but wasn't as influential. Overall, your profile stands out from typical admitted students because your early academic deciles lag behind the dataset averages of around 5-6, despite your stronger LSAT pulling you closer to the pass side—unlike many who maintain consistently higher school rankings throughout. While your full-time status aligns with most students and offered a small positive boost, it couldn't outweigh the key academic hurdles the model flagged. This isn't a judgment on your potential as a lawyer or your resilience as a Black woman breaking barriers; it's just the model's data-driven snapshot. To move forward, consider retaking courses or programs to boost your school deciles, perhaps seeking targeted GPA improvement strategies, and reapply once you've strengthened those areas—many students in similar situations have succeeded by addressing exactly these factors. We're rooting for you to turn this around and join the legal field. Keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

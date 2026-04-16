@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 321,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:48:38.878239",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 3.00, LSAT score of 35, and full-time enrollment plans. Unfortunately, the admissions model predicts a 47.1% probability that you would fail the bar exam on your first try, which is high enough to lead to the rejection of your application—essentially, the school uses this prediction to prioritize candidates likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the typical student's 5.53 average, signaling to the model that your later academic performance lagged behind peers. On a more positive note, your undergraduate GPA, though slightly under the 3.21 average, strongly pulled the prediction toward expecting you to pass the bar. Similarly, your LSAT score of 35, close to the dataset average of 36.7, provided a helpful boost in the model's eyes, as did your Year 1 decile of 4, which was somewhat below average but still contributed favorably. Your family's upper-middle income level nudged the prediction slightly toward failure compared to the broader student distribution, while your full-time status had a minor positive influence, aligning with the vast majority of students. Overall, compared to typical applicants who pass the bar, your profile shows strengths in standardized testing and early grades but is held back most by that dip in your Year 3 performance. This isn't a judgment on your potential as a lawyer—models like this weigh patterns from past students, and your story is unique. To move forward, consider retaking the LSAT to push closer to or above average, strengthening your later-year grades through additional coursework or post-bac programs, and highlighting any bar prep or legal experience in future applications. Many students in similar situations improve their profiles and succeed elsewhere—reach out to admissions counselors for targeted advice, and keep pursuing your goals with persistence. You've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

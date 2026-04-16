@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 295,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:02.279164",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and a middle-class family background, you've clearly put in significant effort to pursue law school, including planning to attend full-time. However, the admissions model predicted an 84.9% chance that you would fail the bar exam on your first try, which is why your application was rejected—schools use this prediction to prioritize students likely to succeed and pass the bar promptly. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, meaning your grades that year placed you in the bottom 10% of your peers, far below the typical student's mid-range position around the 5th or 6th decile. Your Year 1 decile of 1 also contributed notably in the same direction, again showing early underperformance compared to the average student's stronger start. On a brighter note, your undergraduate GPA stood out positively, as it's higher than the typical 3.21 average and helped pull the prediction toward expecting you to pass. Your LSAT score of 27, however, which is well below the dataset average of about 37, added some weight toward the failure side, unlike many applicants who score higher. Your middle-income family bracket and full-time enrollment plans had minimal sway in the decision. Overall, compared to typical students who pass the bar, your school deciles were much lower, overshadowing your above-average undergrad performance despite your demographic fitting common profiles. This isn't a judgment on your potential as a white male from a middle-class background—many in similar situations succeed with targeted improvements. To move forward, focus on boosting your academic deciles through stronger high school or undergrad habits, retake the LSAT to aim above 37, and consider programs offering bar prep support or part-time options if needed. You have the GPA foundation to build on, so seek feedback from advisors, prepare rigorously for any reapplication, and explore bridge programs or retake opportunities to demonstrate growth. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

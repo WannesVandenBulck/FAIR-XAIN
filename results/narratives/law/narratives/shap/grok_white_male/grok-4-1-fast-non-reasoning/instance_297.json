@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 297,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:09.835049",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicts your likelihood of passing the bar exam on the first try, and unfortunately, it estimated a 72.6% chance that you would fail, which is why your application was rejected—schools rely on this to ensure strong outcomes for their students. This prediction was driven primarily by your LSAT score of 23, which stood out as the biggest factor pushing the model toward expecting a bar failure, well below the typical score of around 37 seen in the dataset. Your undergraduate GPA, close to the average of 3.21, actually worked in your favor, nudging the prediction slightly toward passing success. Next in influence were your Year 1 school decile ranking of 3 and Year 3 ranking of 4, both lower than the averages of about 6, which contributed somewhat to the failure prediction by signaling room for improvement in early academic performance. Your middle family income bracket had a minor push toward the failure side compared to higher averages, while your full-time enrollment plan offered a small positive boost, as most students (over 90%) follow that path successfully. Overall, compared to typical students who pass, your profile showed stronger alignment in GPA and enrollment status but lagged notably in LSAT and school deciles, tipping the scales against you. This isn't a judgment on your potential—it's just how your specifics stacked up. To move forward, consider retaking the LSAT to boost that score, as it's the top influencer here, and perhaps strengthening your academic deciles through additional coursework or targeted prep. You might also explore part-time options or programs with bar passage support tailored to profiles like yours. Keep pushing; many overcome similar hurdles and succeed in law. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

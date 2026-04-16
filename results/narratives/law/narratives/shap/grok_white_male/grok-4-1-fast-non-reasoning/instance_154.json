@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 154,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:26.929349",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and a middle-class family background, you've clearly put in significant effort to build a strong academic foundation leading up to your law school application. The admissions model we use evaluates your likelihood of passing the bar exam on the first try, and unfortunately, it predicted a 56.5% probability that you would fail, which tipped the decision to reject your application to protect the school's outcomes. This prediction was driven primarily by your school decile rankings from Years 1 and 3, your LSAT score, and your undergraduate performance, with your plan to attend full-time and family income playing smaller roles. The most influential factor pushing toward a failure prediction was your Year 3 decile ranking of 2nd, which is below the typical student's 5th or 6th decile and signaled weaker relative performance in your later undergraduate years compared to peers. Your Year 1 decile of 1st also contributed toward failure, even though it was strong, because it didn't hold up as a sustained advantage over the average applicant. Your LSAT score of 28 further nudged the prediction toward failure, as it's notably lower than the dataset average of around 37, putting you behind many typical students who score in the mid-to-high 30s. On a positive note, your undergraduate GPA stood out strongly above the average of 3.21, powerfully pulling the prediction back toward passing and showing your capability in a broader academic context. Your middle family income and full-time enrollment plans offered minor boosts toward success, aligning with the majority of students who succeed under similar circumstances. Compared to typical applicants, your profile shines in GPA but lags in LSAT and decile consistency, which outweighed your strengths in this model's assessment. While this is disappointing, it's not the end of the road—consider retaking the LSAT to boost that score closer to the average, strengthening your later-year deciles through additional coursework, or exploring part-time programs if that fits your situation better. Many students in your position have improved these key areas and succeeded on appeal or reapplication. We're here to support your next steps; reach out to discuss targeted advice tailored to your background. Keep pushing forward—you've already shown real grit with that standout GPA.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 269,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:27.772334",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an undergraduate GPA of 3.20 and an LSAT score of 31, along with your upper-middle family income background and plans to attend full-time, you've put significant effort into your law school application. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 45.3% probability of failure for you—high enough that it tipped the decision toward rejecting your application to help ensure we select students most likely to succeed on the bar. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st, which is notably lower than the typical student's 5.53 average and signaled weaker performance in those later undergraduate years compared to your peers. This stood out as the most influential concern, far outweighing other elements in the model's eyes. On a more positive note, your undergraduate GPA was right around the average of 3.21, which helped pull the prediction toward expecting you to pass. Similarly, your LSAT score, though below the 36.7 average, still contributed positively by showing some potential for success. Your Year 1 decile of 3rd, also below the 5.71 average, offered a modest boost toward passing, while your upper-middle family income slightly nudged the odds toward failure relative to the broader dataset. Being a full-time student aligned with the vast majority (over 92%) of successful cases, providing a small favorable influence. Overall, your profile compares to typical students by having solid but not standout academics, especially lagging in later-year performance, which set you apart from those with stronger consistent rankings. While this rejection stings, it's not the end of your path to law—consider retaking the LSAT to boost your score above average, strengthening your later-year grades through additional coursework or a post-bac program, and reapplying next cycle with those improvements to shift your predicted odds dramatically in your favor. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

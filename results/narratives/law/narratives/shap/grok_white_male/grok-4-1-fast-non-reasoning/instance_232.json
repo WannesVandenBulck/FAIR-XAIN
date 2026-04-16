@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 232,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:07.661232",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your choice to pursue full-time studies. The admissions model we use evaluates applicants based on key indicators from past students' data, specifically predicting the likelihood of passing the bar exam on the first try. For you, it calculated an 81.8% probability of failing the bar exam, which is why your application was rejected—schools aim to admit those with the strongest predicted odds of success to maintain high bar passage rates. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is much lower than the typical student's rank around the middle of the pack, signaling weaker performance relative to peers at that stage. Next in importance was your Year 1 decile also at 1, again well below the average, reinforcing concerns about your early academic trajectory compared to most applicants. Your undergraduate GPA of 2.30 played a supporting role in nudging the prediction toward failure, as it's notably lower than the dataset average of about 3.21. While your LSAT score of 29.50 was below the strong average of 36.70, it had a milder impact in the same direction. On a brighter note, your upper-middle family income and full-time enrollment status each slightly favored a passing prediction, aligning with traits common among successful students and thus helping balance things a bit. Overall, your profile stands out as having lower academic deciles and grades than typical admitted students, who tend to cluster higher in these areas. This isn't a judgment on your potential or character—it's just how your metrics compared to historical patterns. To move forward, consider retaking the LSAT or strengthening your GPA through additional coursework, perhaps targeting programs that value upward trends or offer support for students starting from similar positions. You could also seek feedback from advisors on building a standout personal statement highlighting any extenuating circumstances or growth. With targeted improvements, you'll be in a stronger position for future applications—keep pushing, as many have turned similar challenges into success. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

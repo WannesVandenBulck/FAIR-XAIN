@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 261,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:44:04.950163",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our predictive model saw your path to the bar exam as riskier than we could support—it's not about you as a person, but the patterns it recognized in your profile. At the top of what stood out was your Year 3 decile of 1.0, the strongest signal pulling toward potential bar struggles, as it placed you at the bottom of your school's performance ranks that year, suggesting challenges in sustaining momentum through tougher coursework. Right behind that was your Year 1 decile, also a 1.0, reinforcing a consistent early picture of academic hurdles right from the start of law school. Your LSAT score of 29.0 added to this, as it fell short of the benchmarks that typically correlate with bar success in our data. Even your upper-middle family income, while a solid foundation, didn't quite offset these trends in the model's eyes, nudging the outlook downward. Your undergraduate GPA of 3.2 played a similar role, hinting at a baseline that might not scale up under bar-level pressure. Factors like being a white male in a full-time program also aligned with profiles the model links to higher failure odds, though they weren't the main drivers. Together, these painted a story of steady underperformance across key academic markers, tipping the predicted chance of not passing the bar to 51%—just over the line we use to protect spots for stronger statistical bets. It's a tough break, but this isn't the end; many with similar starts have pivoted by targeting those early deciles through focused prep or retakes. You've got upper-middle support and full-time dedication on your side—lean into boosting that LSAT or GPA narrative for next time. We're rooting for you to rewrite this story.",
+  "error": null
+}

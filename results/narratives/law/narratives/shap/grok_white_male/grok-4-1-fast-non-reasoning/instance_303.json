@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 303,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:31.096801",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated by our admissions model, which looks at patterns from thousands of past students to predict bar exam success. Your profile includes a Year 1 school decile of 4, a Year 3 decile of 2, an undergraduate GPA of 3.00, an LSAT score of 34, and plans to attend full-time—solid foundations in many ways, but areas where you fell below typical students. The model predicts a 71.8% chance that you would fail the bar exam on your first try, which is why your application was rejected; schools use this to prioritize applicants likely to pass and succeed in practice. The biggest factor pushing toward this failure prediction was your Year 3 decile ranking of 2, well below the average of about 5.5, signaling to the model a significant dip in later academic performance compared to peers who typically pass the bar. Your undergraduate GPA of 3.00, lower than the average 3.21, provided some counterbalance by nudging the prediction slightly toward passing, showing your college work was respectable if not standout. Family income in the upper-middle bracket had a moderate influence toward failure, as the model associates higher brackets with slightly elevated risk in this dataset, though you're right in line with common applicant profiles. Lesser factors like your Year 1 decile of 4 (below the average 5.7), LSAT of 34 (under the typical 36.7), and full-time status played smaller roles, mostly tilting toward failure but not decisively. Overall, your later grades stood out as the dominant concern, especially against students who pass, who often maintain stronger deciles throughout. This isn't a judgment on your potential as a white male from a supportive background—many in similar situations improve with focus. To move forward, consider retaking the LSAT or bolstering your GPA through post-bac courses, and target schools with holistic reviews that weigh your full story. Building a stronger late-academic record could flip this prediction next time. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 52,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:00.772427",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 39 and an undergraduate GPA of 3.00, you've clearly put in the effort to build a strong academic foundation, including your choice to pursue full-time studies and coming from a lower-middle income family background. The university's admission model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 42% probability that you would fail it—high enough to lead to the regrettable rejection of your application. This prediction was driven primarily by your school decile rankings from Year 1 and Year 3, where you placed in the 2nd and 1st deciles respectively, well below the typical student's mid-range performance around the 5th or 6th decile. These lower rankings stood out as the strongest factors pushing the model toward predicting bar failure, suggesting the algorithm saw them as significant hurdles compared to most applicants. On a brighter note, your standout LSAT score was the top factor pulling in the opposite direction, strongly signaling your potential to pass, even exceeding the average of 36.7. Your undergraduate GPA, slightly below the typical 3.21, also helped counterbalance the prediction but wasn't quite enough to offset the weaker school deciles. Other elements, like your full-time commitment and family income, played smaller supportive roles toward a passing prediction, aligning with the norm for most students. Overall, while your LSAT shines brighter than average, the model weighed your relatively low Year 1 and Year 3 deciles most heavily against you, setting your profile apart from typical admitted students who balance stronger consistent school rankings. We understand this is disappointing, especially given your strengths, and it doesn't define your capabilities as a white male applicant with clear potential in a competitive field. To move forward, consider retaking courses or programs to boost your school deciles, perhaps seeking targeted tutoring or additional undergrad-level achievements to strengthen future applications. Many students in similar situations reapply successfully after addressing these key areas—keep pushing, and we're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

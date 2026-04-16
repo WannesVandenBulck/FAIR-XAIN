@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 67,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:32:53.676229",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application as a story of your journey toward becoming a lawyer, piecing together the chapters from your undergrad days through law school to predict if you'd pass the bar on the first try. Your story starts strong in Year 1 at law school, landing you in the 3rd decile, but by Year 3, you stayed right there in the 3rd decile too—that plateau became the biggest signal to the model, whispering that sustaining higher performance might be tough, pulling hardest toward concerns about bar success. Layered on top was your LSAT score of 32, which, while solid for many, stood out as a key factor tilting the prediction toward a riskier path, especially when combined with those decile rankings. Your undergrad GPA of 2.8 added another thread, suggesting the academic climb could feel steeper from the outset. Even your upper-middle family income, which often opens doors, played into a pattern the model saw as not quite buffering the other challenges enough. As a white male going full-time, those details rounded out a profile that, in the model's eyes, mirrored too many stories where the bar exam slipped away, landing your predicted failure risk at 46.5%—just over the line they draw for approvals. It's not that your full story is written yet, but this snapshot painted a picture of hurdles that felt steeper than smoother paths we've greenlit before. The model weighed your Year 3 decile as the heaviest influence, with LSAT and early decile right behind, all nudging toward caution. Your target law school choice factored in too, but it was these core academic markers that dominated the narrative. This isn't a judgment on your potential—it's a data-driven pause, urging a closer look at bolstering those grades or test prep. You've got the drive; now it's about rewriting those chapters to shift the ending. Hang in there—we're rooting for your comeback story.",
+  "error": null
+}

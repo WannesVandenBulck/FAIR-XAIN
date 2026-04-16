@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 318,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:48:29.351661",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an undergraduate GPA of 3.10 and an LSAT score of 28.50, you've shown solid academic effort, including belonging to the 4th decile in your first-year school grades and the 2nd decile by your third year, while coming from an upper-middle-class family and planning to attend law school full-time. The admissions model, which predicts whether students like you will pass the bar exam on the first try, estimated a 49.9% chance that you would fail it—high enough to tip the decision toward rejecting your application, as the school prioritizes those predicted to succeed right away. This prediction wasn't random; it was driven primarily by your third-year school decile ranking, which stood out as the biggest factor pushing the model toward forecasting a bar failure, well below the typical student's stronger mid-5th decile average. Your undergraduate GPA played a major counterbalancing role, pulling strongly in the favorable direction toward passing since your 3.10 is close to the dataset average of 3.21, showing you're right in line with many who succeed. Similarly, your LSAT score, though below the average of 36.70, still contributed positively by nudging the prediction away from failure. Less influential but still helpful were your first-year decile, full-time status (shared by over 90% of students), and family income bracket. Compared to typical applicants who pass the bar, your third-year performance lags noticeably behind their stronger rankings, which is what weighed most heavily here. I know this rejection stings, especially when you've put in the work, but it's a signal to reflect on those later-year grades. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your third-year record through additional coursework or a post-bac program, and reapplying next cycle with those improvements. Many students in similar spots have turned things around by targeting their weakest areas. You're capable of this—keep pushing, and law school could still be yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

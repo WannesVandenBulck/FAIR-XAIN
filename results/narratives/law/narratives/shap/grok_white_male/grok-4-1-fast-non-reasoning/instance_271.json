@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 271,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:34.194641",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an undergraduate GPA of 3.10 and family from an upper-middle income background, you've put significant effort into your law school application, including planning to attend full-time. The admissions model we use predicted a 67.8% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the strongest likelihood of bar passage success. This prediction was driven primarily by your LSAT score of 23.50, which is well below the typical applicant's score of around 36.70 and had the strongest influence in pushing the model toward forecasting failure. Your Year 3 school decile ranking of 2, also lower than the average of about 5.53, was the next biggest factor pulling the prediction in the same concerning direction. On a more positive note, your undergraduate GPA of 3.10, close to the dataset average of 3.21, worked in your favor by nudging the model toward expecting bar exam success. Your upper-middle family income and full-time enrollment plans provided smaller boosts toward a passing prediction, though they weren't enough to outweigh the top concerns. Compared to typical students in our dataset, your profile stands out for its lower early and later academic deciles and especially the LSAT, which are key hurdles that set you apart from those predicted to pass. While your background is solid in areas like GPA and family support, these gaps in standardized testing and school rankings mirrored patterns among students who struggled on the bar. We truly appreciate the dedication you've shown so far, and this isn't a reflection of your potential as a whole. To strengthen future applications, focus on boosting your LSAT through targeted prep courses or retakes, and consider ways to improve your academic deciles in any ongoing studies. You might also explore programs with bar passage support or alternative paths like paralegal experience to build your profile. Keep pushing forward—many successful lawyers faced early setbacks like this and turned them into comebacks. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

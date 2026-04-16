@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:05:43.581235",
+  "status": "success",
+  "narrative": "I'm sorry to share this tough news, but the law school's admission model predicted an 80% chance that you would fail the bar exam on your first try, which led to the rejection of your application. Your profile includes being in the bottom decile for your school's Year 1 grades, the bottom decile for Year 3 grades, a high family income bracket, an LSAT score of 31, an undergraduate GPA of 2.7, identifying as male and White, and planning to attend full-time. Compared to typical students, your Year 1 and Year 3 decile rankings are much lower than the averages around the middle of the pack, your LSAT is well below the usual 36.7, and your GPA trails the standard 3.21. The model's decision was driven most strongly by your low Year 1 decile ranking, which had the biggest influence in pushing the prediction toward expecting a bar failure. Next in importance was your LSAT score, which also contributed toward that unfavorable outcome. Your low Year 3 decile ranking came third, further nudging the model in the same direction. Even your high family income played a notable role in tipping the scales toward failure, followed by your undergraduate GPA. Less influential but still contributing were your racial background as White, your gender as male, and your full-time enrollment plan—all of which aligned with patterns the model associates with higher bar failure risk. In essence, no single feature pulled strongly in your favor; instead, these elements together painted a picture riskier than most applicants'. To improve your future chances, focus on bolstering your academic performance, perhaps by retaking the LSAT to aim higher than 31 or building a stronger GPA through additional coursework if possible. Strengthening study habits early could help shift patterns like those seen in your decile rankings, setting you up better for bar success down the line. Keep pushing forward—you have strengths like your full-time commitment that can be leveraged with targeted improvements.",
+  "error": null
+}

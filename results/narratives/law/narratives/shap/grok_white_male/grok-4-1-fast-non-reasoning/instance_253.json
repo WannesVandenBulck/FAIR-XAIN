@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 253,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:29.283484",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.80 and an impressive LSAT score of 39, along with your upper-middle-class family background and plans to attend full-time, you've clearly put in strong effort to build a promising profile for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 73.8% chance that you would fail it—high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school, specifically your position in the lowest decile for Year 1 and Year 3 grades, which stood out as the strongest factors pushing the model toward forecasting failure. These low decile placements, well below the typical student's mid-range standing, signaled to the model a potential challenge in sustaining consistent performance through law school and onto the bar. On a brighter note, your excellent undergraduate GPA and high LSAT score worked against this prediction, pulling the odds in favor of success and showing your capability in key areas that matter for many applicants. Your family income level had a minor nudge toward the failure prediction compared to average students, while your full-time enrollment plan offered a small positive influence, aligning with the vast majority who pursue it. Overall, when stacked against typical students—who often land in middle deciles for school grades, with somewhat lower GPAs and LSATs—your early academic struggles overshadowed your later strengths in the model's eyes. I know this must feel disappointing, especially given your achievements, but it's a data-driven call focused on bar passage risks. To move forward, consider retaking or bolstering those early-year records if possible, perhaps through additional coursework or explanations in future applications, and target schools with more holistic reviews. You have the raw talent—your GPA and LSAT prove that—so exploring programs that weigh test scores heavily or offer support for academic consistency could open new doors. Keep pushing; many successful lawyers faced early hurdles like this. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

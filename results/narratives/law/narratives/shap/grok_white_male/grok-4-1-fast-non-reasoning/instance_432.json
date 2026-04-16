@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 432,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:35.039032",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and a strong LSAT score of 41, you've clearly put in the effort to build a competitive profile for law school, including your middle family income background and plans to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 75% chance that you would fail it— a threshold that led to the unfortunate rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 3 was the biggest factor pushing the model toward forecasting failure, as it stands notably below the typical student's rank around the middle of their class. Your Year 1 decile of 5 also contributed in the same direction, though less strongly, signaling to the model some inconsistency in maintaining top performance relative to peers. On a brighter note, your standout LSAT score worked strongly in your favor, pulling the prediction toward success and showing your potential in high-stakes testing—better than the average applicant's score. Your undergraduate GPA edged slightly above average, offering a modest positive nudge, while your family income and full-time status had minimal overall impact compared to most students. In essence, while your test scores shine brighter than many applicants, the model weighed your lower school deciles most heavily, viewing them as the strongest signals of bar exam risk when stacked against the profiles of those who typically pass. This isn't a judgment on your character or drive, but a data-driven assessment tailored to patterns in thousands of similar students. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved the tipping point here—perhaps through targeted academic support or additional credentials that highlight upward trends. You might also seek feedback from advisors on strengthening early-year performance narratives in future applications. With your LSAT strength as a foundation, targeted improvements could flip this prediction next time. Keep pushing; many have turned similar setbacks into success stories.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

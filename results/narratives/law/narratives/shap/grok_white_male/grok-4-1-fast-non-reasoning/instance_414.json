@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 414,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:22.646428",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to pursue full-time studies, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use looks at patterns from thousands of past students to predict the likelihood of passing the bar exam on the first try, and unfortunately, it estimated your risk of failure at about 49%—high enough that it tipped the decision toward rejection to help the school maintain strong bar passage rates. This prediction was driven primarily by a few key aspects of your academic profile compared to typical applicants. Your LSAT score stood out as the biggest factor pushing the model toward predicting failure, since at 23, it's notably lower than the average of around 37 seen in the dataset, signaling potential challenges in the rigorous legal reasoning needed for the bar. On a more positive note, your undergraduate GPA of 2.90 was a strong counterbalance, slightly below the typical 3.21 but influential enough to pull the prediction back toward success. Your Year 3 school decile ranking of 2 also worked against you, as it's well below the average of 5.53, suggesting a dip in performance that the model flagged as concerning for bar prep. Meanwhile, your Year 1 decile of 4 provided some helpful lift, being closer to the average of 5.71 and showing early promise. Being full-time and from a middle-income bracket offered minor positives, aligning with the vast majority of successful students, but they weren't enough to outweigh the top concerns. Overall, your profile compares to typical students by having competitive enrollment status and background but falling short on key standardized metrics like LSAT and later-year grades, which carry the most weight in these predictions. While this is disappointing, it's not the end of the road—consider retaking the LSAT to boost that score, strengthening your later academic deciles through targeted improvement, or exploring part-time programs or alternative law schools with more holistic reviews. You're clearly motivated, and with focused steps on those pivotal areas, you can reshape your path to success. Keep pushing forward—we're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

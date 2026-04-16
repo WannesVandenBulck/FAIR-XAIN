@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 237,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:23:22.395188",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 52% chance you'll fail the bar exam on your first attempt, which is just over the threshold we use to approve admissions. This prediction is based on your academic profile, including your Year 1 school decile rank of 4—below the typical student's 5.71—and especially your Year 3 decile of 1, which is much lower than the average 5.53. Your LSAT score of 35 falls short of the dataset average of 36.7, and your undergraduate GPA of 2.7 is under the usual 3.21, while your middle family income bracket aligns roughly with norms around 3.47. As a male student from a white background planning full-time enrollment—both common in our data at about 56% and 84% respectively—these details painted a picture of potential challenges ahead. The model's decision was driven most strongly by your Year 1 decile rank, which had the biggest influence in pushing the prediction toward bar failure. Right behind it was your Year 3 decile rank, reinforcing concerns about your academic trajectory. Your family income level came next in influence, followed closely by your LSAT score, undergraduate GPA, racial background, full-time status, and gender, all contributing in descending order to the overall risk assessment. Each of these factors nudged the prediction toward failure rather than success, with no single one overwhelmingly dominating but together tipping the scales. Compared to typical students who pass the bar, your lower deciles and grades stand out as weaker than average, while your other traits are more standard. To improve your future chances, focus on building stronger study habits and academic performance now, perhaps by retaking the LSAT to boost that score or pursuing additional coursework to lift your GPA equivalent. Targeted bar exam prep programs could also help address the patterns in your record that signal risk. With dedication to these steps, you can shift your profile toward the successful applicants we see in our data. Keep pushing forward—you have the potential to turn this around.",
+  "error": null
+}

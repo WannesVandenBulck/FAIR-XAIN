@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 44,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:31:32.722354",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as an uphill battle—89% chance of not passing, based on patterns from thousands of students like you. Picture it like this: your story starts with your first year in school, where you landed in the bottom decile with grades that set off the biggest alarm bell for the model, signaling early struggles that often snowball in law programs. That low starting point was the strongest pull toward failure, more than anything else in your profile. Then there's your LSAT score of 37, which ranked second in influence and painted a picture of challenges with the kind of analytical reasoning the bar demands, even if you've pushed through elsewhere. Your third-year decile stayed at 1.0 too, reinforcing that consistent bottom-tier performance without the upward trajectory the model associates with bar success. Coming from an upper-middle family income didn't help as much as it might for others—it actually nudged the prediction toward failure, perhaps because it highlighted untapped potential without the extra drive seen in similar profiles. Your undergraduate GPA of 3.1 added to that, showing a solid but not standout academic foundation that, combined with everything else, tipped the scales. As a white male going full-time, those details layered on subtle patterns from past students who've faced similar odds. It's not that any one thing doomed you—your target law interest shows real passion—but together, they told the model a story of high risk, one we've seen play out too often. This isn't the end of your journey; many turn things around with targeted prep, and I'd encourage you to revisit those early grades and LSAT for focused growth. You've got heart—keep fighting for that bar dream.",
+  "error": null
+}

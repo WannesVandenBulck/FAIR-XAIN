@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 210,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:49.083352",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to pursue full-time studies, your law school application was carefully evaluated using a predictive model designed to forecast first-time bar exam success based on profiles like yours from past students. The model assessed your Year 1 grade decile of 2, Year 3 decile of 1, LSAT score of 26, undergraduate GPA of 2.80, and other details, estimating an 82% probability that you would fail the bar exam on your first attempt. This high predicted risk of failure is why your application was rejected—law schools rely on this tool to prioritize candidates likely to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your low Year 3 grade decile, which stands well below the typical student's mid-range performance and signaled potential challenges in sustaining academic momentum. Your LSAT score of 26, significantly lower than the average of around 37, was the second strongest driver toward the failure prediction, as it highlighted a key gap in standardized reasoning skills compared to admitted peers. On a more positive note, your undergraduate GPA of 2.80, though below average, helped pull the prediction somewhat toward passing by showing respectable prior achievement. Your lower Year 1 decile had a minor push toward failure, while your full-time study plan and middle-income background offered small favorable influences, aligning with the norm for most students. Overall, your profile compares to typical students by having strengths in commitment and background but notable shortfalls in later grades and LSAT that outweighed them in the model's view. We understand this rejection may feel disappointing, especially given your dedication, but it's a data-driven call to help ensure long-term success. To move forward, consider retaking the LSAT to boost your score, strengthening your upper-year grades through targeted coursework or tutoring, and reapplying once you've addressed these core areas—many students in similar situations have succeeded by focusing here. You're capable of turning this around, and we're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

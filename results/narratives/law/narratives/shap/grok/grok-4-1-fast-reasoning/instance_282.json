@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 282,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:29:19.581696",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 51% chance you'll fail the bar exam on your first try, which is just over the threshold we use to approve admissions. This prediction is based on key details from your profile, like your second-decile rankings in both first-year and third-year school grades—well below the typical fifth-decile averages—along with your LSAT score of 30 compared to the usual 37, and an undergraduate GPA of 2.4 versus the average 3.2. Your middle family income bracket, part-time work plans, female gender, and white racial background also factored in, though these are closer to common distributions in the applicant pool.\n\nThe model's decision was influenced most strongly by your third-year decile ranking, which stood out as the top factor pushing the prediction toward a higher risk of bar failure. Right behind that was your LSAT score, followed closely by your first-year decile, both contributing notably to the concern. Your family income, undergraduate GPA, racial background, part-time status, and gender rounded out the influences in that order, each nudging the odds slightly toward failure relative to what the model expects from successful bar takers.\n\nIn essence, your academic deciles and LSAT were the heavy hitters here, as they signal to the model a tougher path to bar passage than most applicants who rank higher and score stronger on those metrics. While your profile aligns with many others in gender and race, the lower academics set you apart from the typical student who passes on the first go.\n\nLooking ahead, you can realistically boost your bar prep odds by targeting changeable elements: consider retaking the LSAT for a higher score if possible, or dedicate yourself to full-time study to mimic the habits of top performers. Building stronger study routines now—perhaps through targeted GPA-boosting strategies or bar-specific practice—could shift future predictions in your favor. Many students in similar spots have turned things around with focused effort, so don't lose hope; your story is far from over.",
+  "error": null
+}

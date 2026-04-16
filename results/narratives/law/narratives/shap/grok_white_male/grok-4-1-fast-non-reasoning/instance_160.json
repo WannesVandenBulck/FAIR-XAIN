@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 160,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:49.211595",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 41—well above the typical student's 36.7—your undergraduate GPA sits at 2.6, below the average of 3.21, and your Year 1 and Year 3 school deciles are both 3, lower than the usual 5.7 and 5.5, respectively, while your family income falls in the middle bracket. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 40% chance you'll fail the bar, tipping the scales toward rejection of your law school application to prioritize students with stronger projected success. Your LSAT stood out as the most powerful positive factor, strongly pushing the prediction toward you passing the bar, far outweighing many peers' scores. However, your Year 3 decile ranking had the next biggest pull in the opposite direction, nudging the model toward expecting failure compared to higher-performing students. Similarly, your Year 1 decile contributed against you, signaling early academic challenges relative to the typical applicant. Your undergraduate GPA added a smaller but still unfavorable influence, as it trailed the dataset average, while your middle family income and full-time student status had minimal sway, with the latter slightly favoring passage. Overall, while your impressive LSAT gives you a real edge over most, these academic metrics positioned you below the threshold where the model confidently predicts bar passage. Many admitted students have higher deciles and GPAs that align more closely with proven bar passers. To strengthen future applications, consider retaking the LSAT if possible to build on your strength, boosting your GPA through post-bac courses or targeted academics, and gathering letters highlighting your resilience as a full-time student from a middle-income background. You might also explore programs valuing LSAT standouts or retake opportunities to demonstrate growth. We're rooting for you—persistence pays off for determined applicants like yourself. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

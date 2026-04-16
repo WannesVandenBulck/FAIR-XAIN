@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 202,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:08:36.589396",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strength it takes to get this far with your upper-middle-class family background and plans to attend full-time. The admissions model we use predicts whether applicants are likely to pass the bar exam on their first try, and unfortunately, it estimated an 86% chance that you would not, which is why your application was rejected—it's a tough call designed to ensure students are set up for success. This prediction was driven primarily by your LSAT score, which was a major factor pushing the model toward expecting a bar failure, well below what it typically sees in successful candidates. Your Year 3 school decile ranking also played a significant role in that direction, indicating performance lower than the average for those who pass. Even your undergraduate GPA contributed somewhat to this concern, as it fell short of the stronger records that usually predict passing. On a brighter note, your Year 1 decile was a positive influence, suggesting early potential that nudged the prediction slightly toward success, much like it does for many students. Your family income level also helped a bit, aligning with brackets that sometimes support bar passers better than lower ones. Being full-time was a minor plus too, as most who pass share that status. Compared to typical students who pass, your LSAT stood out as the biggest gap—far below the average—while your other metrics were closer but still trailed the pack that gets predicted to succeed. This isn't a judgment on your worth or potential; it's just the model's data-driven read on bar exam patterns. To move forward, consider retaking the LSAT to boost that key score, strengthening your Year 3 performance through additional coursework, and reapplying once you've addressed these areas—many students like you turn things around and succeed. We're rooting for you, and law schools value resilient applicants like yourself. Keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

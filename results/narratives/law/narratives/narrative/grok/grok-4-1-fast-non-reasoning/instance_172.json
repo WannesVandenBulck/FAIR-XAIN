@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 172,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:38:51.608884",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after pouring so much into your law school dreams, and I want to walk you through why our predictive model saw your path to the bar exam as riskier than we'd like—landing at a 59.6% chance of not passing. Picture it like a story the model pieced together from your profile: your LSAT score of 29.5 stood out as the biggest chapter pushing toward that tougher outcome, signaling to the model a foundational hurdle in the analytical skills bar exams demand. Then came your Year 3 decile of 1.0, the second strongest pull, showing your performance lagged behind peers right when law school ramps up. Your Year 1 decile of 1.0 echoed that early on, reinforcing a pattern of being in the bottom tier academically. Even with your upper-middle family income, which might suggest some advantages, it surprisingly factored in as tilting toward failure in the model's tale, perhaps hinting at mismatched preparation paths. Your Asian background and undergraduate GPA of 2.3 added layers that nudged the story further that way, alongside being male and planning full-time study—these wove in as subtler but consistent threads. Together, they painted a picture of someone the model worries might struggle to climb the steep bar passage hill, not because of who you are, but because of how these pieces historically align with lower success rates. It's not the end of your story, though—many turn things around by targeting weak spots like test prep or GPA-building strategies before reapplying. You've got target_law at 1.0, that fire in your sights, and that's huge. Hang in there; this is just one plot twist.",
+  "error": null
+}

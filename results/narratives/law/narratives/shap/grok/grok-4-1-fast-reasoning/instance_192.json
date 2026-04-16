@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 192,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:30:22.262178",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 95% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile shows you ranked in the bottom decile for grades in both your first and third years of school, far below the typical student's middle-of-the-pack performance. Your LSAT score of 26 is also notably lower than the average of around 37, and your undergraduate GPA of 2.8 sits under the usual 3.2 mark. Coming from an upper-middle-income family puts you in a solid but not standout bracket compared to peers, while being a full-time Asian female student aligns with common demographics, though Asians make up just about 6% of applicants. The model weighed these factors carefully, with your low first-year decile rank emerging as the single strongest influence pushing the prediction toward failure. Right behind it was your similarly low third-year decile, followed closely by your LSAT score, each nudging the odds further against passing. Your family income level, racial background, undergraduate GPA, full-time status, and gender rounded out the influences in that order, all contributing in the direction of higher failure risk compared to stronger student profiles. Overall, your academic rankings and test scores stood out as weaker than most accepted applicants, tipping the scales despite your other solid traits. This doesn't define your potential—many students overcome early hurdles. To boost your bar exam odds moving forward, focus on rebuilding academic strength through targeted test prep, perhaps retaking the LSAT to aim higher, or gaining experience that showcases improved study habits and performance. Consider supplemental bar prep courses early, as past grades suggest room for better preparation strategies. With dedication, you can shift these patterns and reapply stronger next time. We're rooting for your success.",
+  "error": null
+}

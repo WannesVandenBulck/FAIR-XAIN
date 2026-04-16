@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:02:34.626907",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 78% chance you'll fail the bar exam on your first attempt, based on patterns from thousands of past students. Your profile shows strong alignment with full-time enrollment plans, which most applicants share, and your upper-middle family income and white racial background are fairly typical. However, your undergraduate GPA of 2.90 falls below the average of 3.21, your LSAT score of 34 is under the typical 36.70, and especially your Year 1 and Year 3 school decile rankings of 2 are much lower than the averages around 5.5 to 5.7. The model's decision was driven most heavily by those low Year 1 and Year 3 decile rankings, which had the strongest influence in pushing the prediction toward failure. Next in influence came your LSAT score, followed by family income, undergraduate GPA, racial background, gender as female, and full-time status—these all nudged the outcome slightly toward expecting a fail, though with less impact. Compared to typical students who pass, your early and later academic deciles stand out as unusually low, signaling potential challenges in sustaining high performance leading up to the bar. Your LSAT and GPA also trail the stronger scores that usually predict success. While demographics like gender and race played minor roles and align with common profiles, they didn't offset the academic concerns. This isn't a judgment on your potential—it's just how your features stack up against historical data. To boost your future bar passage odds, focus on rebuilding academic momentum through targeted test prep or coursework that mirrors law school rigor, perhaps retaking the LSAT if possible to hit above-average marks. Strengthening study habits early could help mimic the profiles of top performers. Consider gaining practical experience or tutoring to address those low decile signals before reapplying. With dedication, you can shift these predictors in your favor.",
+  "error": null
+}

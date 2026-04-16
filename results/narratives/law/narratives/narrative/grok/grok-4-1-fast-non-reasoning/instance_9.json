@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:29:27.390006",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as riskier than we could support—it's not about you as a person, but the patterns it spotted in your profile. At the top of what stood out was your Year 1 decile of 1.0, the lowest performance bracket in your school, which was the single strongest signal pulling toward a higher chance of bar failure, like an early stumble that echoed through the model's view of your trajectory. Right behind that was your Year 3 decile, also a 1.0, reinforcing that consistent bottom-tier ranking and painting a picture of grades that haven't climbed despite time in school. Your LSAT score of 34 added to this weight, landing below what the model sees as a solid foundation for bar success in similar profiles. Even your upper-middle family income, while a strength in many ways, oddly nudged the prediction toward failure here, perhaps because it fits patterns where that background hasn't translated to academic breakthroughs for others like you. Your undergraduate GPA of 3.0 kept that momentum downward, suggesting a baseline that the model worries might not scale up for the bar's intensity. Being a white male in a full-time program didn't shift things favorably either, as these details aligned with historical trends the model has learned to flag as riskier. Together, these pieces—your deciles, LSAT, and the rest—built a 62.7% predicted probability of not passing the bar, which is why we had to draw the line on your application. It's a tough composite story, one where early and persistent academic hurdles overshadowed your potential. But here's the hopeful part: this isn't destiny; many have rewritten similar starts with targeted prep, tutoring, or even a gap year to rebuild momentum. You've got the drive—your target for law school shows that—and focusing on boosting those deciles or LSAT could flip the script next time. We're rooting for you to prove the model wrong.",
+  "error": null
+}

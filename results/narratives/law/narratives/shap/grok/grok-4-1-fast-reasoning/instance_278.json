@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 278,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:28:44.986476",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 63% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes a Year 1 class decile of 3, which is below the typical student's 5.7, a strikingly low Year 3 decile of 1 compared to the average 5.5, an LSAT score of 32 well under the usual 36.7, a solid undergraduate GPA of 3.2 matching the norm, lower-middle family income below the dataset average, identification as Black in a group that's only about 5% of applicants, and plans for full-time study like most students. The model's decision hinged most heavily on your Year 3 decile rank, which strongly nudged the prediction toward expecting a bar failure. Right behind that was your LSAT score, also pushing in the same unfavorable direction. Your Year 1 decile came next in influence, followed by family income, racial background, undergraduate GPA, gender, and full-time status—all contributing toward the failure prediction in descending order of impact. None of these stood out as protective factors pulling toward success in your case. Compared to typical students who pass, you're in the lower tail for early and especially late academic deciles, with an LSAT that lags the stronger scores seen in passers. This isn't a judgment on your potential, but a reflection of historical trends where these elements correlate with bar outcomes. To boost your future odds, focus on retaking the LSAT to aim above 36, as that's a changeable score with dedicated prep. Strengthening study habits now could mimic higher decile performance in law school, directly addressing your biggest flagged areas. Building a stronger academic record through any upcoming coursework might also help offset these signals over time. You're capable of turning this around—many students improve with targeted effort on these fronts. Keep pursuing your goals; reapplying after these steps could shift the model's view in your favor.",
+  "error": null
+}

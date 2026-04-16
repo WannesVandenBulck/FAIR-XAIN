@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:09:07.430114",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 55.6% chance you'll fail the bar exam on your first try, which is just above our threshold for approval. This model looks at patterns from thousands of past students to forecast bar passage based on academic records, test scores, background, and more. In your case, your profile includes a Year 1 school decile rank of 2—much lower than the typical student's 5.7—a Year 3 decile of 1, well below the average 5.5, an undergraduate GPA of 2.8 compared to the usual 3.21, and an LSAT score of 36, slightly under the average 36.7. You come from a middle-income family, which is around average, and as a white male planning full-time studies, your demographics align closely with the majority of students in the dataset. The strongest factor pulling the prediction toward failure was your Year 3 decile rank, as being in the bottom of your class there signaled higher risk compared to peers. Right behind that was your Year 1 decile, reinforcing concerns about early academic struggles. Your LSAT score played a notable role next, nudging the odds down since it fell short of stronger performers. Family income followed, with middle-class status not providing the boost seen in some higher brackets. Your racial background as white and gender as male had milder influences, both leaning slightly toward higher failure risk in this model's view, while full-time enrollment had the least sway. Overall, your lower academic deciles and GPA stood out as bigger drags than your solid-but-not-outstanding LSAT or common demographics. To improve your chances next time, focus on boosting your grades to climb those school deciles—perhaps through targeted study habits or extra courses—and consider retaking the LSAT or strengthening your undergrad record if possible. Building a stronger academic foundation now could shift future predictions firmly toward bar passage success. Hang in there; many students turn things around with persistence.",
+  "error": null
+}

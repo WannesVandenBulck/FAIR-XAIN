@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:09:39.688885",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 51% chance you'll fail the bar exam on your first try, which is just over the threshold we use to approve admissions. This prediction is based on your academic record, including being in the bottom decile for Year 1 grades and the 3rd decile for Year 3 grades at your school—both well below the typical student's middle-of-the-pack performance. Your LSAT score of 24 is also significantly lower than the average of around 37, and your undergraduate GPA of 2.6 falls short of the usual 3.2. Coming from a lower-middle family income bracket, identifying as Native American—a group representing only about 2% of applicants—and being female further shaped the model's view, as did your plan to study full-time, which is common but didn't offset the others. The strongest factor pulling the prediction toward failure was your Year 3 decile ranking, followed closely by your Year 1 decile, then your LSAT score. Your family income, racial background, and undergraduate GPA were next in influence, with gender and full-time status having smaller but still notable effects—all nudging the odds toward a higher risk of not passing the bar. Compared to typical students who get approved, your metrics are in the lower ranges across grades, test scores, and GPA, putting you at a disadvantage despite full-time dedication being the norm. This isn't a judgment on your potential, but a data-driven signal from patterns in past bar outcomes. To boost your future chances, focus on retaking the LSAT with targeted prep to aim higher than 37, as that's a key changeable factor. Building stronger study habits could help mimic the top deciles in future coursework or bar prep. Seeking scholarships or support programs for Native American students might address income-related barriers indirectly. With persistence, revising these areas could flip the model's outlook next time. Keep pushing—you have strengths like your full-time commitment that align with success stories.",
+  "error": null
+}

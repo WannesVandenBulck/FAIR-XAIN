@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 37,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:58:01.488706",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.30, which is above the typical student's 3.21, and your plan to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 72% chance that you would not pass it. This high predicted risk of failure is why your application was rejected—the school uses this model to prioritize students likely to succeed on the bar and graduate strong. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later academic performance raised concerns about bar readiness. Your Year 1 decile of 3, also below the typical 5.7, reinforced this as the next biggest influence toward failure. On a brighter note, your LSAT score of 30.5, though under the average 36.7, actually nudged the prediction slightly toward passing compared to what the model expected. Your middle family income bracket had a modest push toward failure, while your above-average undergrad GPA helped pull the prediction toward success. Overall, your early and mid-undergrad decile rankings stood out as the top drivers compared to typical students, outweighing your positives and tipping the scales against admission. This doesn't define your potential—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades if possible, or exploring programs with bar passage support tailored for diverse students like you. You have the resilience to retry and succeed—keep pushing. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

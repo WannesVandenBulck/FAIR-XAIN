@@ -23,21 +23,13 @@ if str(ROOT) not in sys.path:
 # Import narrative generation function
 from scripts.make_narratives import generate_narrative, get_available_instances, save_result
 
-# Import AFINN for sentiment word lexicon
+# Import HuggingFace transformers for sentiment analysis
 try:
-    from afinn import Afinn
-    AFINN_AVAILABLE = True
+    from transformers import pipeline
+    TRANSFORMERS_AVAILABLE = True
 except ImportError:
-    AFINN_AVAILABLE = False
-    print("Warning: afinn not installed. Install with: pip install afinn")
-
-# Import TextBlob for polarity and subjectivity analysis
-try:
-    from textblob import TextBlob
-    TEXTBLOB_AVAILABLE = True
-except ImportError:
-    TEXTBLOB_AVAILABLE = False
-    print("Warning: textblob not installed. Install with: pip install textblob")
+    TRANSFORMERS_AVAILABLE = False
+    print("Warning: transformers not installed. Install with: pip install transformers torch")
 
 
 # ============================================================================
@@ -45,13 +37,13 @@ except ImportError:
 # ============================================================================
 
 # Which dataset to analyze
-DATASET = "saudi"  # Options: "law", "credit", "saudi", "student"
+DATASET = "law"  # Options: "law", "credit", "saudi", "student"
 
 # Number of adversely predicted instances to analyze
 NUM_INSTANCES = None  # Set to None to analyze all available instances
 
 # Type of explanation narratives
-PROMPT_TYPE = "shap"  # Options: "shap" or "cf" 
+PROMPT_TYPE = "narrative"  # Options: "shap", "narrative", or "cf" 
 
 # Generate missing narratives? (Set to True to create narratives)
 GENERATE_NARRATIVES = True  # Set to True to generate missing narratives
@@ -60,8 +52,8 @@ GENERATE_NARRATIVES = True  # Set to True to generate missing narratives
 SAVE_RESULTS = True  # Set to True to save comparison results
 
 # LLM provider for generating narratives
-LLM_PROVIDER = "openai"  # Options: "openai", "anthropic", "ollama"
-LLM_MODEL = None  # Leave as None for default model
+LLM_PROVIDER = "grok"  # Options: "openai", "anthropic", "grok", "ollama"
+LLM_MODEL = "grok-4-1-fast-non-reasoning"  # Leave as None for default model
 
 
 # ============================================================================
@@ -215,7 +207,7 @@ def load_or_generate_narratives(dataset, instance_indices, prompt_type,
         dataset: Dataset name
         instance_indices: List of instance indices
         prompt_type: "shap" or "cf"
-        provider: LLM provider ("openai", "anthropic", "ollama")
+        provider: LLM provider ("openai", "anthropic", "grok", "ollama")
         model: Specific model name
         generate_if_missing: If True, generate missing narratives; if False, skip
     
@@ -226,7 +218,7 @@ def load_or_generate_narratives(dataset, instance_indices, prompt_type,
     missing_instances = []
     
     for instance_idx in instance_indices:
-        filepath = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/instance_{instance_idx}.json")
+        filepath = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/{model}/instance_{instance_idx}.json")
         
         if filepath.exists():
             with open(filepath, "r", encoding="utf-8") as f:
@@ -389,32 +381,26 @@ class NarrativeAnalyzer:
         
         return results
     
-    def analyze_sentiment_words(self, narratives=None):
+    def analyze_emotion_distilroberta(self, narratives=None):
         """
-        Count negative and positive words in narratives using AFINN lexicon.
+        Analyze emotions using DistilRoBERTa (j-hartmann/emotion-english-distilroberta-base).
         
-        AFINN is a simple lexicon of ~3,500 English words rated for sentiment (-5 to +5).
+        Detects: anger, disgust, fear, joy, neutral, sadness, surprise
         
         Args:
             narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> {"negative_words": int, "positive_words": int}
+            Dictionary mapping instance_idx -> {"top_emotion": str, "scores": dict}
         """
         if narratives is None:
             narratives = self.narratives
         
-        if not narratives:
+        if not narratives or not TRANSFORMERS_AVAILABLE:
             return {}
         
-        if not AFINN_AVAILABLE:
-            print("Error: afinn library not available. Install with: pip install afinn")
-            return {idx: {"negative_words": 0, "positive_words": 0} for idx in narratives.keys()}
-        
-        # Initialize AFINN lexicon
-        print("Loading AFINN sentiment lexicon...")
-        afinn = Afinn()
-        print("AFINN lexicon loaded.")
+        print("Loading DistilRoBERTa emotion model (j-hartmann/emotion-english-distilroberta-base)...")
+        classifier = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base")
         
         results = {}
         total = len(narratives)
@@ -424,56 +410,44 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                # Split narrative into words and check AFINN scores
-                words = narrative.lower().split()
-                
-                negative_count = 0
-                positive_count = 0
-                
-                # Count words in AFINN lexicon
-                for word in words:
-                    # Remove punctuation for better matching
-                    word_clean = ''.join(c for c in word if c.isalnum())
-                    score = afinn.score(word_clean)
-                    
-                    if score < 0:
-                        negative_count += 1
-                    elif score > 0:
-                        positive_count += 1
+                # Truncate narrative to 512 tokens max for transformer
+                narrative_short = narrative[:512]
+                prediction = classifier(narrative_short)[0]
                 
                 results[instance_idx] = {
-                    "negative_words": negative_count,
-                    "positive_words": positive_count,
+                    "model": "distilroberta",
+                    "top_emotion": prediction["label"],
+                    "confidence": float(prediction["score"])
                 }
-            
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {"negative_words": 0, "positive_words": 0}
+                results[instance_idx] = {"model": "distilroberta", "top_emotion": "neutral", "confidence": 0.0}
         
         return results
     
-    def analyze_polarity_subjectivity(self, narratives=None):
+    def analyze_emotion_go_emotions(self, narratives=None):
         """
-        Analyze polarity and subjectivity of narratives using TextBlob.
+        Analyze emotions using Go Emotions (SamLowe/roberta-base-go_emotions).
         
-        Polarity: -1 (most negative) to 1 (most positive)
-        Subjectivity: 0 (objective) to 1 (subjective)
+        Detects: admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity,
+        desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, 
+        gratitude, grief, joy, love, nervousness, neutral, optimism, pride, realization, 
+        relief, remorse, sadness, surprise, etc.
         
         Args:
             narratives: Optional dict of narratives to analyze
         
         Returns:
-            Dictionary mapping instance_idx -> {"polarity": float, "subjectivity": float}
+            Dictionary mapping instance_idx -> {"top_emotion": str, "scores": dict}
         """
         if narratives is None:
             narratives = self.narratives
         
-        if not narratives:
+        if not narratives or not TRANSFORMERS_AVAILABLE:
             return {}
         
-        if not TEXTBLOB_AVAILABLE:
-            print("Error: textblob library not available. Install with: pip install textblob")
-            return {idx: {"polarity": 0.0, "subjectivity": 0.0} for idx in narratives.keys()}
+        print("Loading Go Emotions model (SamLowe/roberta-base-go_emotions)...")
+        classifier = pipeline("text-classification", model="SamLowe/roberta-base-go_emotions", top_k=None)
         
         results = {}
         total = len(narratives)
@@ -483,17 +457,65 @@ class NarrativeAnalyzer:
                 print(f"  Processing narrative {idx + 1}/{total}...")
             
             try:
-                # Create TextBlob and extract sentiment
-                blob = TextBlob(narrative)
+                # Truncate narrative to 512 tokens max for transformer
+                narrative_short = narrative[:512]
+                predictions = classifier(narrative_short)[0]
+                
+                # Get top emotion
+                top_pred = max(predictions, key=lambda x: x["score"])
                 
                 results[instance_idx] = {
-                    "polarity": float(blob.sentiment.polarity),      # -1 to 1
-                    "subjectivity": float(blob.sentiment.subjectivity),  # 0 to 1
+                    "model": "go_emotions",
+                    "top_emotion": top_pred["label"],
+                    "confidence": float(top_pred["score"])
                 }
-            
             except Exception as e:
                 print(f"  Error processing instance {instance_idx}: {e}")
-                results[instance_idx] = {"polarity": 0.0, "subjectivity": 0.0}
+                results[instance_idx] = {"model": "go_emotions", "top_emotion": "neutral", "confidence": 0.0}
+        
+        return results
+    
+    def analyze_empathy_strategy(self, narratives=None):
+        """
+        Analyze empathy and reassurance strategy (RyanDDD/empathy-strategy-classifier).
+        
+        Detects: empathetic, non-empathetic (and reassurance strategy)
+        
+        Args:
+            narratives: Optional dict of narratives to analyze
+        
+        Returns:
+            Dictionary mapping instance_idx -> {"empathy_label": str, "empathy_score": float}
+        """
+        if narratives is None:
+            narratives = self.narratives
+        
+        if not narratives or not TRANSFORMERS_AVAILABLE:
+            return {}
+        
+        print("Loading Empathy Strategy model (RyanDDD/empathy-strategy-classifier)...")
+        classifier = pipeline("text-classification", model="RyanDDD/empathy-strategy-classifier")
+        
+        results = {}
+        total = len(narratives)
+        
+        for idx, (instance_idx, narrative) in enumerate(narratives.items()):
+            if (idx + 1) % 10 == 0:
+                print(f"  Processing narrative {idx + 1}/{total}...")
+            
+            try:
+                # Truncate narrative to 512 tokens max for transformer
+                narrative_short = narrative[:512]
+                prediction = classifier(narrative_short)[0]
+                
+                results[instance_idx] = {
+                    "model": "empathy_strategy",
+                    "empathy_label": prediction["label"],
+                    "empathy_score": float(prediction["score"])
+                }
+            except Exception as e:
+                print(f"  Error processing instance {instance_idx}: {e}")
+                results[instance_idx] = {"model": "empathy_strategy", "empathy_label": "non-empathetic", "empathy_score": 0.0}
         
         return results
     
@@ -516,21 +538,27 @@ class NarrativeAnalyzer:
             print(f"Error: {e}")
             raise
         
-        # Sentiment Words
-        print("\n2. Negative and Positive Words...")
+        # Sentiment Analysis - Three HuggingFace Models
+        print("\n2. Emotion Analysis (DistilRoBERTa)...")
         try:
-            self.results["sentiment_words"] = self.analyze_sentiment_words()
+            self.results["emotion_distilroberta"] = self.analyze_emotion_distilroberta()
         except Exception as e:
             print(f"Error: {e}")
-            self.results["sentiment_words"] = {}
+            self.results["emotion_distilroberta"] = {}
         
-        # Polarity and Subjectivity
-        print("\n3. Polarity and Subjectivity (TextBlob)...")
+        print("\n3. Emotion Analysis (Go Emotions)...")
         try:
-            self.results["polarity_subjectivity"] = self.analyze_polarity_subjectivity()
+            self.results["emotion_go_emotions"] = self.analyze_emotion_go_emotions()
         except Exception as e:
             print(f"Error: {e}")
-            self.results["polarity_subjectivity"] = {}
+            self.results["emotion_go_emotions"] = {}
+        
+        print("\n4. Empathy & Reassurance Analysis...")
+        try:
+            self.results["empathy_strategy"] = self.analyze_empathy_strategy()
+        except Exception as e:
+            print(f"Error: {e}")
+            self.results["empathy_strategy"] = {}
         
         print("\n" + "="*70)
         print("Analysis complete!")
@@ -613,10 +641,10 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
                             avg_race_mentions = np.mean(race_mentions)
                             print(f"      Total Race Mentions: {total_race_mentions} (Avg: {avg_race_mentions:.2f} per narrative)")
     
-    # Print sentiment words by protected class
-    if "sentiment_words" in analyzer.results and analyzer.results["sentiment_words"]:
-        print("\nSENTIMENT WORDS (Negative and Positive):")
-        sentiment_words = analyzer.results["sentiment_words"]
+    # Print sentiment analysis results - DistilRoBERTa
+    if "emotion_distilroberta" in analyzer.results and analyzer.results["emotion_distilroberta"]:
+        print("\nEMOTION ANALYSIS (DistilRoBERTa - j-hartmann):")
+        emotion_results = analyzer.results["emotion_distilroberta"]
         
         protected_attrs = PROTECTED_ATTRIBUTES[dataset]
         for attr in protected_attrs:
@@ -626,24 +654,23 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
             for value in sorted(unique_values):
                 matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                 
-                # Get sentiment word counts for instances with this attribute value
-                negative_words = [sentiment_words.get(idx, {}).get("negative_words", 0) for idx in matching_instances if idx in sentiment_words]
-                positive_words = [sentiment_words.get(idx, {}).get("positive_words", 0) for idx in matching_instances if idx in sentiment_words]
+                emotions = [emotion_results.get(idx, {}).get("top_emotion", "neutral") for idx in matching_instances if idx in emotion_results]
                 
-                if negative_words and positive_words:
+                if emotions:
+                    emotion_counts = {}
+                    for emotion in emotions:
+                        emotion_counts[emotion] = emotion_counts.get(emotion, 0) + 1
+                    
                     mapped_value = map_attribute_value(value, dataset, attr)
-                    print(f"    {mapped_value}:")
-                    print(f"      Count: {len(negative_words)}")
-                    print(f"      Avg Negative Words: {np.mean(negative_words):.2f} (±{np.std(negative_words):.2f})")
-                    print(f"      Avg Positive Words: {np.mean(positive_words):.2f} (±{np.std(positive_words):.2f})")
+                    print(f"    {mapped_value} (n={len(emotions)}):")
+                    for emotion, count in sorted(emotion_counts.items(), key=lambda x: x[1], reverse=True):
+                        percentage = (count / len(emotions)) * 100
+                        print(f"      {emotion}: {count} ({percentage:.1f}%)")
     
-    # Print polarity and subjectivity by protected class
-    if "polarity_subjectivity" in analyzer.results and analyzer.results["polarity_subjectivity"]:
-        print("\nPOLARITY AND SUBJECTIVITY (TextBlob):")
-        print("  Polarity: -1 (negative) to 1 (positive)")
-        print("  Subjectivity: 0 (objective) to 1 (subjective)")
-        
-        polarity_subjectivity = analyzer.results["polarity_subjectivity"]
+    # Print sentiment analysis results - Go Emotions
+    if "emotion_go_emotions" in analyzer.results and analyzer.results["emotion_go_emotions"]:
+        print("\nEMOTION ANALYSIS (Go Emotions - SamLowe):")
+        emotion_results = analyzer.results["emotion_go_emotions"]
         
         protected_attrs = PROTECTED_ATTRIBUTES[dataset]
         for attr in protected_attrs:
@@ -653,16 +680,49 @@ def generate_report(analyzer, adverse_df, dataset, prompt_type, num_instances):
             for value in sorted(unique_values):
                 matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
                 
-                # Get polarity and subjectivity for instances with this attribute value
-                polarities = [polarity_subjectivity.get(idx, {}).get("polarity", 0.0) for idx in matching_instances if idx in polarity_subjectivity]
-                subjectivities = [polarity_subjectivity.get(idx, {}).get("subjectivity", 0.0) for idx in matching_instances if idx in polarity_subjectivity]
+                emotions = [emotion_results.get(idx, {}).get("top_emotion", "neutral") for idx in matching_instances if idx in emotion_results]
                 
-                if polarities and subjectivities:
+                if emotions:
+                    emotion_counts = {}
+                    for emotion in emotions:
+                        emotion_counts[emotion] = emotion_counts.get(emotion, 0) + 1
+                    
                     mapped_value = map_attribute_value(value, dataset, attr)
-                    print(f"    {mapped_value}:")
-                    print(f"      Count: {len(polarities)}")
-                    print(f"      Avg Polarity: {np.mean(polarities):.3f} (±{np.std(polarities):.3f})")
-                    print(f"      Avg Subjectivity: {np.mean(subjectivities):.3f} (±{np.std(subjectivities):.3f})")
+                    print(f"    {mapped_value} (n={len(emotions)}):")
+                    for emotion, count in sorted(emotion_counts.items(), key=lambda x: x[1], reverse=True):
+                        percentage = (count / len(emotions)) * 100
+                        print(f"      {emotion}: {count} ({percentage:.1f}%)")
+    
+    # Print empathy and reassurance analysis results
+    if "empathy_strategy" in analyzer.results and analyzer.results["empathy_strategy"]:
+        print("\nEMPATHY & REASSURANCE ANALYSIS (Empathy Strategy Classifier):")
+        empathy_results = analyzer.results["empathy_strategy"]
+        
+        protected_attrs = PROTECTED_ATTRIBUTES[dataset]
+        for attr in protected_attrs:
+            print(f"\n  {attr.upper()}:")
+            unique_values = adverse_df[attr].unique()
+            
+            for value in sorted(unique_values):
+                matching_instances = adverse_df[adverse_df[attr] == value]["instance_index"].astype(int).tolist()
+                
+                empathy_labels = [empathy_results.get(idx, {}).get("empathy_label", "neutral") for idx in matching_instances if idx in empathy_results]
+                empathy_scores = [empathy_results.get(idx, {}).get("empathy_score", 0.0) for idx in matching_instances if idx in empathy_results]
+                
+                if empathy_labels:
+                    empathy_counts = {}
+                    for label in empathy_labels:
+                        empathy_counts[label] = empathy_counts.get(label, 0) + 1
+                    
+                    mapped_value = map_attribute_value(value, dataset, attr)
+                    print(f"    {mapped_value} (n={len(empathy_labels)}):")
+                    for label, count in sorted(empathy_counts.items(), key=lambda x: x[1], reverse=True):
+                        percentage = (count / len(empathy_labels)) * 100
+                        if empathy_scores:
+                            avg_score = np.mean([s for i, s in enumerate(empathy_scores) if empathy_labels[i] == label])
+                            print(f"      {label}: {count} ({percentage:.1f}%) - Avg Score: {avg_score:.3f}")
+                        else:
+                            print(f"      {label}: {count} ({percentage:.1f}%)")
     
     print("\n" + "="*70)
 
@@ -722,8 +782,8 @@ def main():
         print(f"Error: Invalid dataset '{dataset}'. Choose from: law, credit, saudi, student")
         return
     
-    if prompt_type not in ["shap", "cf"]:
-        print(f"Error: Invalid prompt_type '{prompt_type}'. Choose from: shap, cf")
+    if prompt_type not in ["shap", "narrative", "cf"]:
+        print(f"Error: Invalid prompt_type '{prompt_type}'. Choose from: shap, narrative, cf")
         return
     
     # Load adverse instances

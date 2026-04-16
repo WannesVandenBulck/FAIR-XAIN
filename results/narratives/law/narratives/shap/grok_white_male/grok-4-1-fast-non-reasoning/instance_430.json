@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 430,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:25.084530",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to attend law school full-time, you've put real effort into your undergraduate studies and LSAT preparation, but I know receiving this rejection letter must feel disheartening. The admissions model we use predicted a 76.7% chance that you would fail the bar exam on your first try, which is why your application for law school admission was unfortunately denied—it's designed to prioritize students with the strongest signals of bar passage success. This prediction was driven primarily by your academic performance in school, particularly your low ranking in Year 3 grades, which stood out as the biggest factor pushing the model toward expecting a bar failure. Your Year 1 grades, also in the bottom decile compared to peers, reinforced this concern as the second-most influential element, suggesting early struggles that carried forward. While your undergraduate GPA of 2.90 was slightly below average, it actually worked a bit in your favor, nudging the prediction slightly toward bar passage success. Your LSAT score of 28, well below the typical 36.7 average, added a modest push toward the failure prediction, though not as strongly as your school deciles. Your middle family income and full-time enrollment plans had minimal impact, neither strongly helping nor hurting the outcome. Compared to typical students in our dataset, who often rank in the middle or higher deciles for grades and score much higher on the LSAT, your profile signaled higher risk in the model's eyes, even as a full-time student like most applicants. I want you to know this isn't a judgment on your potential—many students overcome similar starts. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your high school-level grades through additional coursework or explanations in future applications, and seeking targeted academic advising to build a stronger record. Law schools value persistence, and with focused improvements, you can reapply stronger next cycle. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

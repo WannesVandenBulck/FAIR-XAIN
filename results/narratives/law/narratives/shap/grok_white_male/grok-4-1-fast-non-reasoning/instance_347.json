@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 347,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:11.297609",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an undergraduate GPA of 3.20 and an LSAT score of 31, you've put significant effort into your law school application, including your background from an upper-middle-class family and your plan to attend full-time. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 72.5% chance of failure for you, which is why your application was rejected—schools rely on this to ensure strong bar passage rates. The biggest factor pushing toward this prediction was your Year 3 school decile ranking of 1, which is much lower than the typical student's rank around the middle of their class and signaled to the model a notable dip in later academic performance. Your Year 1 decile of 1 also contributed substantially in the same direction, again well below the average, suggesting early challenges that carried weight in the model's assessment. On a more positive note, your undergraduate GPA was right around the typical 3.21 average, which helped pull the prediction somewhat toward passing success. Your LSAT score, though below the usual 36.7, still offered a modest counterbalance against failure. Being a full-time student, like over 92% of applicants, and coming from an upper-middle-income family provided small boosts toward a passing prediction as well. Compared to typical students who pass the bar, your lower decile rankings in both early and later years stood out as the most influential red flags, outweighing your solid GPA and other factors. This doesn't define your potential, but it highlights where the model saw risks based on patterns from past students. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your high school decile performance through additional coursework or explanations, and gathering strong letters of recommendation that address your academic trajectory. You might also explore part-time programs or schools with holistic reviews that weigh your full story. We're rooting for you—many applicants turn things around with targeted improvements, and your upper-middle background gives you solid resources to do just that. Keep pushing; law school doors can reopen with the right steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

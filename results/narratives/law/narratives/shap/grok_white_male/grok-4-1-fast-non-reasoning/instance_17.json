@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:46.898886",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male with an upper-middle-class family background, you've worked hard to position yourself for law school, including scoring a 34 on your LSAT and maintaining a 3.0 undergraduate GPA while planning to attend full-time. Unfortunately, the admissions model we use to predict first-time bar exam success has assessed your overall profile with a 69.3% probability of failing the bar, which is why your application was rejected—our process prioritizes applicants predicted to pass on their first try to ensure strong outcomes for both students and the program. The model's decision was driven primarily by your academic decile rankings from school, particularly your Year 3 performance, which placed you in the lowest decile compared to typical students who average around the middle of their classes. Your Year 1 decile, also at the bottom, reinforced this concern, as these early and later indicators of relative performance among peers were the strongest factors pushing the prediction toward failure. On a more positive note, your undergraduate GPA stood out as a helpful element, pulling the odds somewhat in favor of passing since it's close to the average of 3.21 seen in successful applicants. Similarly, your LSAT score, though below the typical 36.7 average, still contributed positively by showing solid reasoning ability relative to what the model expects. Your full-time enrollment plan and family income bracket had minimal sway but leaned slightly toward success, aligning with the majority of students who pass. Compared to typical admitted students, your lower deciles in school grades set you apart as riskier, even with your respectable GPA and LSAT, highlighting how consistent top-relative performance is key in these predictions. This isn't a judgment on your potential as a lawyer—many overcome early hurdles—but the model flags patterns from past data. To move forward, consider retaking courses or programs to boost your school deciles, aiming for higher LSAT or GPA if possible, and reapplying once you've strengthened those core academic signals. We're rooting for your success, and targeted improvements could shift the model's view dramatically next time. Keep pushing; your background gives you a strong foundation to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 421,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:48.212586",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and an LSAT score of 33, you've worked hard to build your profile for law school, including your full-time study plans and coming from a low family income background. Unfortunately, the admissions model predicted a 51% chance that you would fail the bar exam on your first try, which tipped the scales toward rejecting your application to protect the school's outcomes. This prediction hinges on a few key aspects of your academic record that stood out as the strongest influences. Most notably, your Year 3 school decile ranking in the bottom tier had the biggest push toward the failure prediction, signaling to the model that your later performance might not hold up for the bar. Your Year 1 decile in the lowest group also contributed significantly in the same direction, reinforcing concerns about consistent academic strength. On a brighter note, your low family income actually worked in your favor, nudging the prediction toward passing by highlighting your resilience despite challenges. Your LSAT score and undergraduate GPA provided some positive counterbalance too, suggesting potential that offset the concerns a bit, while your full-time commitment had a smaller supportive role. Compared to typical students—who average mid-tier deciles around 5.5, higher LSATs near 37, and family incomes in the 3.5 range—your lower early and late deciles pulled you below the pack that usually passes the bar. This isn't a judgment on your character or effort, but a data-driven flag based on patterns from past students. To move forward, consider retaking courses or programs to boost your decile rankings, aiming for top-half performance to realign with successful profiles. You might also explore LSAT prep for a score bump or seek scholarships that value your background. With targeted improvements, you can reshape this story and reapply stronger—many have turned similar predictions around. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

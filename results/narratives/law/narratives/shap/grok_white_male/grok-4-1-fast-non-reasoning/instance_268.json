@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 268,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:24.854338",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background and plans to attend law school full-time, you've put significant effort into your application, including your undergraduate GPA of 2.70 and LSAT score of 32, along with solid Year 1 and Year 3 decile rankings of 4 in your school. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated your probability of failing at 52.5%—just over the tipping point that led to your application's rejection. This decision was driven primarily by your LSAT score, which stood out as the most influential factor pushing the prediction toward failure, especially since it's below the typical 36.7 average seen in the dataset. On a more positive note, your undergraduate GPA played a strong counterbalancing role, pulling the prediction toward success compared to many applicants. Your Year 3 decile ranking also helped in that direction, showing respectable performance relative to peers. Lesser influences included your family income bracket, which nudged slightly toward failure, your Year 1 decile, which had a minor push in the same direction, and your full-time status, which offered a small boost toward passing—common for 92.7% of students. Overall, while your academic metrics are mixed, they fell short of the stronger profiles that typically predict bar passage and secure admission. I know this rejection stings, especially after investing so much as a dedicated full-time aspirant from a supportive background. To move forward, consider retaking the LSAT to boost that key score, strengthening your undergrad record through additional coursework or explanations, and reapplying to programs with holistic reviews that might weigh your full story more favorably. You're clearly motivated—use this as fuel to refine your strongest assets and target schools where your profile aligns better. Keep pushing; many have turned similar setbacks into bar-passing success stories.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

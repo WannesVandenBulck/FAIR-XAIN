@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 343,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:56.033595",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a full-time study plan and a low family income background, we understand how disappointing it must be to receive this law school admission decision. The admissions model, trained on data from thousands of students who took the bar exam, evaluates your likelihood of passing it on the first try based on key aspects of your academic and personal profile. For you specifically, it predicted a 64% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection to protect the school's outcomes and bar passage rates. The strongest factor pushing toward this failure prediction was your Year 3 school grade decile, which placed you in the bottom tier compared to most students—far below the typical mid-range performance that signals strong bar readiness. Your LSAT score was the next biggest influence in the same direction, as it fell well short of the average scores seen in students who pass, making the model view it as a notable risk. On a more positive note, your undergraduate GPA actually worked in your favor, being competitive enough to pull the prediction somewhat toward passing, much like it does for many successful applicants. Similarly, your low family income bracket nudged things positively, reflecting how students from similar backgrounds often overcome challenges to succeed on the bar. Your Year 1 decile had a milder negative pull, still indicating early struggles relative to peers, while your full-time status offered a small boost aligned with the vast majority of students. Overall, your profile stands out as weaker than typical admits in those top risk areas like later-year grades and LSAT, despite some strengths that kept the failure odds from being even higher. This isn't a judgment on your potential as a white male from a modest background—many in similar situations have improved dramatically. To move forward, we recommend retaking the LSAT to boost your score significantly, strengthening your later-year academics through targeted study or additional courses, and reapplying once you've addressed these key gaps, as even modest improvements could flip the model's outlook. You're capable of turning this around—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

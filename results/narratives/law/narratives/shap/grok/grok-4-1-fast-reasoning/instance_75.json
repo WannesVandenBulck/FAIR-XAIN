@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:13:30.106791",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 72% chance you'll fail the bar exam on your first attempt, based on patterns from thousands of past students. Your profile shows you ranked in the bottom decile for grades in both your first and third years of school—much lower than the typical student's mid-range performance—along with a below-average undergraduate GPA of 2.10 and an LSAT score of 30, compared to averages around 3.21 and 36.7. You're from a middle-income family, identify as Native American (a group making up just 1.8% of applicants), plan to study full-time like most, and are male, which is common among applicants.\n\nThe model's decision was driven most strongly by your third-year school decile, which had the biggest influence in pushing the prediction toward bar failure. Right behind that was your LSAT score, followed closely by your first-year decile, each contributing noticeably to the higher failure risk. Your family income level and racial background came next in influence, also nudging the odds toward failure, with your undergraduate GPA playing a somewhat smaller but still notable role; your full-time status and gender had the least impact.\n\nIn short, these academic markers stood out as the top factors because they deviated from what usually predicts bar success, making your overall profile riskier than most applicants who pass on the first try.\n\nTo improve your chances moving forward, focus on realistic steps like intensive LSAT prep to boost that score on a retake, since it's a key influencer you can directly target. Building stronger grades in any ongoing or future coursework could help offset those low deciles over time. Consider bar exam prep resources early, especially tailored for underrepresented backgrounds like yours, and seek mentorship to strengthen your academic trajectory—these changes have turned around predictions for similar students. Keep pursuing your goal; many overcome early hurdles with targeted effort.",
+  "error": null
+}

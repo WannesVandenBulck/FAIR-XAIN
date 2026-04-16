@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 333,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:22.238540",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 39, you've clearly put in strong effort to build a competitive profile for law school, including your choice to pursue full-time studies and coming from a middle-income family background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 52.4%—just over the threshold that led to your application's rejection. This decision was driven primarily by your academic decile rankings from school, particularly your Year 3 performance, which ranked in the bottom decile compared to the typical student's middle-of-the-pack standing. That low Year 3 decile had the strongest pull toward the failure prediction, suggesting it raised concerns about your consistency in later academic years. Your Year 1 decile, also at the bottom, reinforced this worry as the next biggest factor pushing the model in that direction. On a brighter note, your LSAT score stood out above the average, significantly countering the risk and showing your aptitude for legal reasoning. Your undergraduate GPA, higher than most applicants, also helped pull the prediction toward success, as did your middle-income background and full-time commitment, which align with profiles that tend to pass. Compared to typical students—who often land in mid-deciles for school grades—your early and later school performances were notably lower, overshadowing your other strengths despite being a full-time student like over 90% of applicants. While this outcome is disappointing, it highlights where your school grades may have signaled potential hurdles for bar success. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through postgraduate options or targeted prep that demonstrates upward trends. You might also gather letters emphasizing your LSAT and GPA strengths, or explore schools with holistic reviews beyond predictive models. With your above-average test scores, you're well-positioned to strengthen your case—keep pushing, as many overcome similar setbacks to thrive in law. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 196,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:58.727126",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 36, you brought a strong academic foundation to your law school application, along with your upper-middle-class family background and plans to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 49.4%—just over the threshold that led to your application's rejection. This decision was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 2 was the single biggest factor pushing the prediction toward failure, well below the typical student's rank around the middle of their class. Your Year 1 decile of 3 also contributed noticeably in the same direction, signaling to the model a pattern of underperformance relative to peers. On a more positive note, your undergraduate GPA stood out as a strong counterbalance, pulling the prediction toward success since it aligns closely with the average of admitted students. Similarly, your LSAT score, nearly matching the dataset average, helped mitigate some concerns by showing competitive standardized test ability. Your family income bracket and full-time enrollment plans provided smaller boosts toward a passing prediction, as they fit patterns seen in successful bar takers. Compared to typical students in the dataset—who often rank higher in school deciles around 5 or 6—your lower rankings in Years 1 and 3 set you apart in a way that outweighed these strengths for this model. While this is disappointing, it doesn't define your potential; many overcome early hurdles to excel later. To move forward, consider retaking courses or pursuing targeted academic improvement to boost your decile rankings, perhaps through a post-baccalaureate program or additional certifications that highlight upward trends. You might also explore schools with holistic reviews or retake the LSAT to push your score higher. We're rooting for you—persistence has turned similar profiles into bar-passing successes before.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

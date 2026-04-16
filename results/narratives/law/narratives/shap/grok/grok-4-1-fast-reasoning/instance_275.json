@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 275,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:28:20.561494",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 46% chance you'll fail the bar exam on your first attempt, which is high enough to flag concerns for admission. You have a solid foundation with a strong seventh-decile ranking in your first-year grades, placing you above the typical student's fifth-decile average, alongside an upper-middle family income that's a bit higher than average. However, your third-year decile of fourth—below the usual fifth-decile mark—stood out as the most influential factor pushing the model toward predicting failure. Your first-year decile ranking followed closely as the next biggest influence, surprisingly also nudging the prediction toward failure despite being above average. Family income ranked third in impact, contributing in the same direction toward a fail prediction. Your LSAT score of 31, well below the average of about 37, was the fourth most important factor and further tilted things negatively. Similarly, your undergraduate GPA of 2.7, lower than the typical 3.2, reinforced that concerning trend as the fifth strongest influence. Your racial background as White, which is the most common in the dataset at nearly 84%, had a smaller but still negative push toward failure, while your gender as male offered a slight counterbalance toward success. Being full-time, like most applicants at over 92%, had minimal sway but leaned slightly negative. Overall, your profile is close to average in demographics but lags in key academic metrics compared to students who typically pass, especially in later-year performance and test scores. To improve your odds next time, focus on boosting metrics you can influence, like retaking the LSAT for a higher score or strengthening any future graduate-level grades to offset your third-year dip. With targeted prep, you could shift those top influences in your favor and align more closely with successful applicants. Keep pushing—you're not far off, and many turn things around with persistence.",
+  "error": null
+}

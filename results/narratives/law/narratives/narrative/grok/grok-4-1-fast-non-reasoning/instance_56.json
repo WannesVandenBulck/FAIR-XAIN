@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:32:13.298898",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings—pouring your heart into law school dreams only to have them paused like this feels deeply unfair, and I'm here to walk you through why our model arrived at this tough call on your bar exam chances, based on the full picture of your background. At the top of what stood out was your Year 3 decile of 2.0, the strongest signal pulling toward a higher risk of not passing the bar, as it placed you near the bottom of your school's performance that year and echoed patterns we've seen in others who struggled later. Right behind that was your Year 1 decile of 3.0, reinforcing a sense of early challenges that carried forward, making the model worry about building momentum in a demanding field like law. Your LSAT score of 31.5 added to those concerns, landing below the thresholds where most successful bar takers shine, even if it's a solid effort. With your family in the middle income bracket, the model saw added hurdles in accessing the extra resources that often tip the scales for others. Your undergraduate GPA of 3.1, while respectable, didn't fully counterbalance that, fitting into a profile where academic baselines have historically led to tougher bar outcomes. Being a white male in a full-time program nudged the prediction further toward caution too, aligning with broader trends in our data. Together, these pieces painted a story of potential roadblocks ahead, leading the model to estimate a 60.7% chance of bar failure—enough for us to recommend holding off on admission right now. This isn't a judgment on your worth or drive; it's just the model's honest read on the odds stacked in these specifics. The good news? You can shift this narrative—boosting those deciles in future studies or retaking the LSAT could rewrite the story entirely. We're rooting for you to come back stronger; law school doors don't close forever. Keep pushing.",
+  "error": null
+}

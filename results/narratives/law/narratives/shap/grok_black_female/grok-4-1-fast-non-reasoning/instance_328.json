@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 328,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:16:04.808135",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.50—which stands above the typical 3.21 average—and your LSAT score of 34, which is close to the usual 36.70 benchmark. You're planning to attend full-time, just like the vast majority of students at 92.7%, and your upper-middle family income reflects a supportive background. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 42%, tipping the scales toward rejection to prioritize applicants with lower predicted risks. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1, well below the average of 5.53, signaling to the model a notable dip in later academic performance compared to peers. Counterbalancing that strongly was your undergraduate GPA, which pushed firmly toward a passing prediction since it exceeds what's typical. Your LSAT score also helped by nudging the odds in favor of success, though not as powerfully as your GPA. A smaller Year 1 decile of 3 (versus the average 5.71) added some concern, but your family income and full-time status provided minor boosts toward passing. Overall, your later high school grades stood out as the most influential hurdle when stacked against typical students who maintain stronger decile progress. This isn't a reflection of your potential as a Black woman trailblazer in law—many overcome similar profiles through targeted growth. To move forward, focus on bolstering recent academic records, perhaps retaking the LSAT for a higher edge, or seeking programs with holistic reviews that celebrate your unique story. You're resilient, and with strategic next steps like additional test prep or gap-year achievements, stronger opportunities await. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

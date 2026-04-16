@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:10:49.629510",
+  "status": "success",
+  "narrative": "I'm sorry to deliver this news, but the law school's admission model predicted a 60.7% chance that you would fail the bar exam on your first try, which led to the rejection of your application. Your profile includes being a full-time male student from a White background with middle family income, an undergraduate GPA of 3.10, an LSAT score of 31.5, and school deciles placing you in the 3rd percentile for Year 1 grades and the 2nd for Year 3—both notably below the typical student's 6th and 5th deciles, respectively. This prediction stems from how your academic indicators stacked up against patterns seen in thousands of past students. The strongest factor pulling the prediction toward failure was your Year 3 decile rank, as your lower standing there signaled potential challenges in sustaining strong performance. Next in influence came your Year 1 decile, which similarly highlighted early struggles compared to peers. Your LSAT score followed closely, being well below the average of 36.7 that successful students typically show. Family income level, undergraduate GPA, racial background, full-time status, and gender rounded out the key influences, each nudging the model slightly toward expecting a fail due to your specifics deviating from stronger profiles. Overall, your below-average grades and test scores across the board were the dominant drivers, outweighing more neutral factors like your demographics or enrollment plans. Compared to typical admitted students, who boast higher deciles around the 5th to 6th and LSATs near 37, your metrics painted a riskier picture for bar success. To improve your odds moving forward, focus on retaking the LSAT to aim above 36, as scores are changeable with targeted prep. Building stronger study habits now could also help mimic the trajectories of top performers in later years. Consider gaining practical experience or supplemental courses to bolster your academic profile before reapplying. With effort in these areas, you can shift future predictions in your favor and demonstrate growth. Hang in there—this is a data-driven hurdle, not a final verdict on your potential.",
+  "error": null
+}

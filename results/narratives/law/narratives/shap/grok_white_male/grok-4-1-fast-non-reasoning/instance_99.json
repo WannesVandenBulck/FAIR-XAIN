@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 99,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:55.028575",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and a competitive LSAT score of 37, along with a high family income bracket and plans to attend full-time, you've put together an impressive profile for law school admission. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 49.7%—just over the threshold that led to your application's rejection. This decision hinged primarily on your academic decile rankings from earlier years in school, where your Year 3 performance placed you in the 2nd decile (well below the typical 5th or 6th decile for admitted students), exerting the strongest pull toward a failure prediction. Your Year 1 decile of 3rd, also lower than average, added further concern in the model's eyes, reinforcing doubts about your trajectory. On a brighter note, your undergraduate GPA stood out positively, pushing the prediction toward success compared to peers, much like your LSAT score which aligned closely with or slightly exceeded typical strong performers. Your high family income and full-time enrollment plans offered modest boosts too, signaling stability that many applicants lack. Overall, while your recent test scores and background were competitive with successful students, your earlier lower decile rankings in school grades were the standout factors tipping the scales against you, unlike the higher early performers who typically pass the bar. This isn't a reflection of your potential as a whole, but a data-driven flag on those specific academic hurdles. To move forward, consider retaking courses or pursuing targeted prep to boost your decile rankings, perhaps through post-baccalaureate programs that demonstrate upward momentum. You might also gather strong letters of recommendation highlighting your resilience and growth since those early years. Many students in similar positions have succeeded by addressing these gaps head-on—reach out to admissions advisors for personalized strategies, and keep pursuing your legal ambitions with confidence. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

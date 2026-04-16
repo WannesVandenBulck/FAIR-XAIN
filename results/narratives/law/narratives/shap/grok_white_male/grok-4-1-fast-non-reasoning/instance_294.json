@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 294,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:59.619733",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 39 and an undergraduate GPA of 3.10, you've clearly put in the effort to build a strong academic foundation, and your middle family income bracket reflects a background many students share. You're planning to attend full-time, which aligns with the vast majority of applicants. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 56.7%—just over the threshold that led to your application's rejection. This prediction was driven primarily by your Year 3 school decile ranking of 2, which is well below the typical student's rank of around the 5th or 6th decile and stood out as the strongest factor pushing the model toward forecasting a bar exam struggle. Your LSAT score, on the other hand, was a major positive influence, outperforming the average of 36.7 and pulling the prediction toward success. Your undergraduate GPA, slightly below the average of 3.21, provided some counterbalance in a favorable direction but wasn't enough to offset the concerns. Your Year 1 decile of 2 and family income also nudged the prediction slightly toward higher failure risk, though less forcefully than your later school performance. Compared to typical students, your early and mid-undergrad deciles are in the lower range, which the model sees as a red flag despite your stronger standardized test results. While this decision feels disappointing, especially given your strengths, it highlights how much weight the model places on consistent school rankings. To move forward, consider retaking courses or programs to boost your decile rankings, as even small improvements there could shift future predictions dramatically. You might also seek targeted bar prep resources or admissions counseling to address these gaps head-on. Keep pushing—your LSAT prowess shows you have the potential to excel with the right adjustments. We're rooting for your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

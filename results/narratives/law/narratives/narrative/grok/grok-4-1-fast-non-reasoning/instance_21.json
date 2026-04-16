@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 21,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:30:11.780034",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after pouring so much into your undergrad years with that solid 3.7 GPA and your impressive 35 LSAT score—those are real achievements that show your potential. But the admissions team uses a predictive tool that looks at patterns from thousands of students who've walked this path before, and it flagged a 41% chance you might struggle to pass the bar exam down the line, which is why they had to make this tough call. The biggest concern it raised was your Year 3 decile of 2, placing you in the lower ranks of your school's grades that year, as that turned out to be the strongest signal pulling toward potential failure. Right behind it was your Year 1 decile of 2, painting a picture of early challenges that carried through. Your LSAT score, while strong on paper, didn't quite offset those trends in the model's eyes, adding another nudge toward caution. Layered on top was your middle family income bracket, which the tool associates with added pressures that have tripped up others before. Your background as a white female and full-time student status played smaller roles but still tipped the scales slightly against, based on historical patterns. Even your solid UGPA couldn't fully counterbalance this combination—it all added up to a risk profile the school couldn't ignore. This isn't about your worth or drive; it's a data-driven snapshot suggesting hurdles ahead. Many students in similar spots have turned things around by targeting those early deciles with focused improvement. You have the foundation to beat these odds—consider retaking key metrics or seeking targeted prep. We're rooting for you to prove this prediction wrong.",
+  "error": null
+}

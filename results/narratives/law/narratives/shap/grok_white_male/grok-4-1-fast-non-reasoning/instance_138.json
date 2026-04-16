@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 138,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:37:27.163192",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background and plans to attend law school full-time, you've put significant effort into your application, including your undergraduate GPA of 3.00, LSAT score of 35, first-year school decile of 5, and third-year decile of 4. The admissions model we use evaluates applicants by predicting their likelihood of passing the bar exam on the first try, and unfortunately, it estimated a 72.8% chance that you would fail it. This high predicted risk of failure is why your application for admission was rejected—the school aims to select students with the strongest projected odds of bar success to maintain high pass rates. The most influential factor pushing the prediction toward failure was your third-year school decile ranking of 4, which is below the typical student's 5.53 average and signaled weaker performance relative to peers. Your undergraduate GPA of 3.00, lower than the dataset average of 3.21, was the next biggest driver in the same direction, suggesting the model saw it as a key indicator of potential struggles ahead. Even your first-year decile of 5, while middling compared to the average 5.71, added some additional weight toward the failure prediction. On a more positive note, your LSAT score of 35 worked in your favor by nudging the odds slightly toward passing, despite being under the 36.70 average, and your full-time enrollment status helped a bit too as it's the norm for 92.7% of students. Your family income bracket, while upper-middle and not a major factor, didn't shift things much either way. Compared to typical students in the dataset, your academic metrics across the board fell short of averages, which amplified the model's concerns in ways that stronger profiles—like those with higher deciles, GPAs, and LSATs—avoid. This doesn't define your potential, but it explains the data-driven decision. To move forward, consider retaking the LSAT to boost your score, strengthening your academic record through additional coursework or a post-bac program, and reapplying next cycle with updated credentials that align closer to top performers—we'd be happy to review an improved profile. Keep pushing; many have turned similar setbacks into success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

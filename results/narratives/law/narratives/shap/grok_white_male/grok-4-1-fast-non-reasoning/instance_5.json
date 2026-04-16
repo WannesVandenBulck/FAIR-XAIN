@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:28:59.681136",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a part-time work commitment and a low family income background, we understand how disappointing it must be to receive this rejection from our law school admissions process. Our model, trained on data from thousands of past students, predicted a 41% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying admission to protect both you and our program's outcomes. This prediction stemmed from a careful look at key aspects of your profile, like your undergraduate GPA of 2.60, LSAT score of 27, and your rankings in the lower deciles for Year 1 and Year 3 grades at your school—areas where you fell below the typical student's stronger performance. The most influential factor pulling in a positive direction, actually helping your case, was your low family income, as students from similar backgrounds have often shown resilience and success despite challenges. However, your Year 3 decile ranking had the strongest push toward the failure prediction, signaling to the model a notable dip compared to peers who typically rank in the middle of their class. Your LSAT score and undergraduate GPA each provided some counterbalance, nudging the prediction toward passing since they weren't the lowest seen, but they weren't high enough to overcome the concerns. Being part-time rather than full-time, which is less common among admitted students, and your lower Year 1 decile also added slight weight toward the riskier side. Overall, compared to typical applicants who boast higher test scores, GPAs around 3.21, mid-level class rankings, and full-time focus, your profile appeared riskier for bar passage in the model's eyes. We truly empathize with your journey and the hurdles you've faced. To strengthen future applications, consider retaking the LSAT to boost your score, seeking academic advising to improve class rankings, or exploring full-time options if possible. Many students in your position have succeeded by addressing these areas—keep pushing forward, and we wish you the best in your legal aspirations.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

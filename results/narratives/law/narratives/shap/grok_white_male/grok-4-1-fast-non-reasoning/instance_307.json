@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 307,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:47.502153",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score and undergraduate record. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 49.6% chance of failure for you—high enough that it tipped the decision toward rejecting your application to protect the school's outcomes. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of their class, signaling weaker performance in later undergraduate years. This outweighed your strong LSAT score of 37.50, which is slightly above average and pushed the model toward expecting you to pass. Your undergraduate GPA of 3.00, a bit below the usual 3.21, also helped by nudging things toward success, though not enough to counterbalance the concerns. Meanwhile, your Year 1 decile of 3—again lower than average—added some additional weight toward the failure prediction, while your plan to attend full-time (like most applicants) and family income provided only minor positive influences. Compared to typical students who get approved, your mid-pack LSAT and GPA are competitive, but your lower decile rankings in both early and late undergrad years stand out as red flags that deviated from the stronger trajectories seen in successful bar passers. We understand this is disappointing, especially given your dedication as a full-time aspiring lawyer from a supportive background. To strengthen future applications, focus on improving your academic deciles through targeted coursework or post-bac programs, perhaps retaking the LSAT to boost it further, and highlighting any upward trends in your record. Consider schools with holistic reviews that might weigh your personal story more heavily. You're clearly capable—many in similar positions turn things around with persistence. Keep pushing forward; law school doors can reopen with refined preparation.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

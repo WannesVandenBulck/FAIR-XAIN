@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 107,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:02:30.290382",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the unique challenges and strengths you bring to the table. Your profile includes being in the lower deciles for your Year 1 and Year 3 school grades, an undergraduate GPA of 2.50, an LSAT score of 31, coming from an upper-middle-class family, and planning to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 60% chance that you would fail the bar exam—above the typical threshold for approval, leading to the rejection of your application. This prediction was driven primarily by your Year 3 school decile ranking, which fell well below the average and strongly pushed the model toward expecting a failure. Your Year 1 decile, also lower than most students', added to this concern as the second-biggest factor pulling the prediction in that direction. On a brighter note, your undergraduate GPA, though below average, helped counter this somewhat by suggesting potential for passing, as did your LSAT score, which nudged things toward success despite being lower than typical. Your upper-middle family income and full-time enrollment plans provided smaller boosts toward a passing prediction compared to part-time or lower-income peers. Overall, your academic decile rankings stood out as the most influential red flags when compared to students who typically pass the bar, outweighing the positive signals from your other qualifications. While this is disappointing, especially given the barriers many Black women face in higher education, it doesn't define your future. To strengthen future applications, focus on boosting your academic performance—perhaps through targeted test prep for the LSAT or additional coursework to improve your GPA equivalent—and consider retaking key exams or gaining relevant experience. Many students in similar situations have succeeded by addressing these areas head-on; we encourage you to reapply after demonstrating growth. You're capable of great things—keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

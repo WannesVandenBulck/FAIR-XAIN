@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 155,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:25:04.113478",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates an 82% chance you'll struggle to pass the bar exam on your first try, based on patterns from thousands of past students. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, middle family income, an LSAT score of 23.5, an undergraduate GPA of 2.6, being female, Asian background, and planning full-time enrollment—many of these stand out as lower than typical applicants. The model's decision was driven most strongly by your LSAT score, which carried the biggest weight in tipping the prediction toward expecting a bar failure. Next in influence came your Year 1 decile ranking, followed closely by your Year 3 decile, both signaling early and later academic struggles compared to the average student's mid-range performance. Your family income level ranked fourth in sway, then your racial background as Asian—which is less common in the dataset—ahead of your undergraduate GPA. Your plans for full-time study and gender had the smallest roles, still nudging the outlook negative but far less than the academics. Overall, these factors together painted a riskier picture than for students who typically get approved, whose LSATs hover around 37, GPAs near 3.2, and deciles in the middle of their classes. While demographics like gender, race, and family income aren't things you can change, your low LSAT and GPA highlight areas where stronger performance pulled the prediction down. To boost your future odds, consider retaking the LSAT to aim closer to the average, as it's a key lever the model weighs heavily. Building better study habits now could help simulate higher decile-like success in law school coursework. Finally, seeking targeted bar prep resources early might offset these risks, showing admissions teams your commitment to turning things around. Hang in there—this is just one model's view, and with focused effort on your academics, you can rewrite your story.",
+  "error": null
+}

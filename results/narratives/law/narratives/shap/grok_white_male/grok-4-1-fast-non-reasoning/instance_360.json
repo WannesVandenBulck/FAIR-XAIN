@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 360,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:58.116536",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and an LSAT score of 39, you've clearly put in strong effort to build a competitive profile for law school. Your family comes from a middle-income background, you're planning to attend full-time, and your school deciles show you ranked in the 5th percentile for Year 1 grades but improved to the 6th in Year 3. The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 63.8% chance that you would fail the bar—above the threshold that led to your application's rejection. This decision hinged most heavily on your family income bracket, which stood out as a top factor pushing the prediction toward failure compared to many applicants from varied economic backgrounds. Your Year 1 decile ranking was the next biggest influence in that direction, signaling to the model an early academic struggle relative to peers. While your LSAT and undergraduate GPA also nudged slightly toward a failure prediction, your Year 3 decile improvement worked in your favor, pulling the odds back toward passing. Overall, these elements combined to paint a riskier picture than the typical student, who often has stronger early deciles or different family circumstances. It's tough to hear, especially with your above-average test scores and GPA that shine brighter than most. To move forward, consider retaking the LSAT for an even higher score, bolstering early-grade explanations in a new application, or targeting schools with holistic reviews that weigh your improvement story. You could also explore post-bac programs to strengthen your academic foundation before reapplying. Your upward trajectory shows real potential—keep pushing, and a yes is likely just around the corner. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

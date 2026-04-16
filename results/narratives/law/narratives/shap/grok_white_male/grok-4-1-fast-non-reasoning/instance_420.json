@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 420,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:44.258394",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid high family income background and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 55% chance that you would fail the bar exam on your first try, which is just over the threshold that led to your application's rejection—it's designed to flag higher-risk profiles to ensure students are set up for long-term success. Your LSAT score of 26 stood out as the biggest factor pushing the prediction toward failure, as it was notably lower than what the model typically sees in students who pass. On a more positive note, your high family income helped pull the prediction in the direction of passing, likely reflecting advantages like better resources that often correlate with bar success. Similarly, your undergraduate GPA of 2.80 worked in your favor, showing decent academic performance compared to averages. Your lower Year 3 decile ranking had a small nudge toward failure, while your Year 1 decile and full-time enrollment status both slightly supported a passing prediction—full-time is the norm for 93% of students and aligns with stronger outcomes. Overall, compared to typical applicants who get approved, your profile is edged out mainly by that LSAT gap, even though your other strengths like family support and GPA are competitive. This isn't a judgment on your potential as a white male from a high-income background—many in similar situations succeed with targeted improvements. To move forward, I recommend retaking the LSAT to boost your score closer to the average of 37, as that's the most influential lever here. You might also consider GPA-boosting post-bac courses or bar prep programs to strengthen your full profile. Reapplying with these enhancements could flip the model's view in your favor—many students in your shoes do just that and get accepted. Hang in there; your determination will pay off.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 320,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:48:36.016307",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an impressive LSAT score of 41, you've clearly worked hard to build a strong academic foundation, and we appreciate the dedication that brought you here. Your plan to attend full-time also aligns with the path most law students take. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 68.8% chance that you would fail the bar exam—high enough to lead to the regrettable rejection of your application. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of their class, signaling to the model a potential dip in performance that often correlates with bar struggles. This outweighed your standout LSAT score, which was above the average of about 37 and strongly pushed the prediction toward expecting you to pass. Your Year 1 decile of 2, also below the usual mid-range, added further concern by suggesting early inconsistencies in your grades compared to peers. Meanwhile, your lower-middle family income bracket played a smaller role in nudging toward higher risk, while your strong undergrad GPA and full-time status offered minor boosts toward success. Overall, compared to typical admitted students who tend to maintain consistently higher class deciles alongside good test scores, your mid-program rankings stood out as the dominant hurdles in the model's eyes. This isn't a judgment on your potential—many overcome similar profiles with targeted effort. To move forward, consider retaking courses or programs to boost your class rankings, seeking LSAT-level prep for any weak areas, and exploring post-baccalaureate options or community college transfers that could strengthen your deciles before reapplying. We're rooting for you to turn this around and succeed on your next attempt. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

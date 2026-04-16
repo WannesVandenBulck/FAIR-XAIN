@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:31.288905",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing this path, and we appreciate the strengths in your profile, like your solid LSAT score and upper-middle family income background. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 67% chance of failure for you, which crossed the threshold leading to your application's rejection. This prediction draws from patterns in data on thousands of students' academic records, family backgrounds, and demographics to forecast bar passage success. The biggest factors pushing toward this failure prediction were your undergraduate GPA of 2.80, which is below the typical 3.21 average and had the strongest negative pull on your outcome. Right behind that was your Year 1 school decile ranking of 3, lower than the average of about 5.7, signaling early academic challenges compared to peers. These two stood out as the most influential, outweighing other elements in the model's eyes. On a brighter note, your LSAT score of 40—above the 36.7 average—worked strongly in your favor, nudging the prediction toward bar passage success. Your upper-middle family income and Year 3 decile of 4 had smaller influences tilting toward failure risk, while planning to attend full-time (like most students at 92.7%) had minimal impact. Overall, your profile sits below typical students in key early academic metrics, even with your LSAT edge, which is why the model leaned toward caution. This isn't a judgment on your potential—many overcome similar starts through targeted growth. Next, consider bolstering your GPA story with explanations or post-undergrad achievements, retaking the LSAT if possible to widen that advantage, or applying to programs with holistic reviews that value diverse backgrounds like yours. Strengthening those foundational academics could shift future predictions in your favor. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

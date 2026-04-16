@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:20.622487",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, your law school application was carefully evaluated by our admissions model, which looks at patterns from thousands of past students to predict bar exam success on the first try. Your profile includes Year 1 grades placing you in the 2nd decile at your school, Year 3 grades in the 1st decile, an undergraduate GPA of 2.60, an LSAT score of 31.50, and plans to attend full-time. The model assessed your overall predicted probability of failing the bar exam at 95%, a very high risk that led to the rejection of your application to protect both you and the school's outcomes. This decision was driven primarily by your academic decile rankings, with your Year 3 performance having the strongest negative pull toward a failure prediction—far below the typical student's mid-range standing. Your Year 1 decile also contributed notably in the same direction, signaling consistently lower relative performance compared to peers who tend to succeed. Your middle family income level added further concern, as it fell short of the higher brackets more common among bar passers. While your LSAT score nudged the prediction slightly toward failure as well, your undergraduate GPA actually worked a bit in your favor, being closer to average though still below the stronger GPAs of successful students. Your full-time enrollment plan offered a small positive boost, aligning with the vast majority of passers. Overall, your grades' low decile positions stood out as the biggest factors pushing against you when compared to typical admitted students, who cluster around the 5th or 6th deciles with higher test scores and GPAs. We understand this is disappointing, especially given your dedication, but it's a data-driven call to help set you up for long-term success. To move forward, consider retaking the LSAT to aim above the average 36.7, bolstering your undergraduate record through post-bac courses or relevant experience, and targeting schools with strong academic support programs that could help elevate your relative standing. You're capable of turning this around—many students in similar situations have improved their profiles and succeeded. Reach out to our advisors for personalized guidance on your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

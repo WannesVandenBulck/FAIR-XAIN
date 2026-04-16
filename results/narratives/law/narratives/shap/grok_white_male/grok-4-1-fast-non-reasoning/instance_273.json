@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 273,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:41.640712",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a high family income bracket and plans to attend law school full-time, you've put significant effort into your application, including your undergraduate GPA of 2.80, LSAT score of 35, and school decile rankings of 2nd in Year 1 and 3rd in Year 3. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 71.8% chance that you would fail it—high enough to lead to the rejection of your application, as the school prioritizes candidates predicted to succeed. This decision was driven primarily by your early academic performance, where your lower Year 1 decile ranking stood out as the strongest factor pushing the prediction toward failure, well below the typical student's middle-of-the-pack average. Your Year 3 decile, also on the lower side compared to peers, reinforced this concern as the second-most influential element, suggesting inconsistent upward momentum in your grades. Even your undergraduate GPA and LSAT score, both slightly under the dataset averages, added some weight toward the failure prediction, though less forcefully. On a brighter note, your high family income provided a modest push in the opposite direction, toward a passing prediction, likely reflecting advantages in resources or support that help some students. Your full-time enrollment status had virtually no impact either way, aligning with the norm for most applicants. Compared to typical students—who often enter with stronger Year 1 deciles around the 6th rank, higher GPAs near 3.21, and LSATs around 36.7—your profile signaled higher risk to the model, despite your solid background. While this outcome is disappointing, it doesn't define your potential; many overcome similar starts through targeted improvement. I recommend focusing on boosting your academic deciles in future studies, perhaps by seeking tutoring or study strategies, and retaking the LSAT to aim above the average. You might also explore part-time programs or schools with holistic reviews that weigh personal growth more heavily. Keep pushing forward—your determination as a white male from a supportive family background positions you well to rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

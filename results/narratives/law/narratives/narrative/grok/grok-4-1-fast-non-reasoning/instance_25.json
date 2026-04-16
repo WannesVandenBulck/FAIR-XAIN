@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 25,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:30:26.801387",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw such a high risk—94.4% chance—of you struggling to pass the bar exam, leading to this tough call on your application. Picture your profile coming together like chapters in a story: the strongest signal was your Year 3 decile of 1, placing you at the very bottom of your school's rankings that year, which painted a picture of real academic hurdles late in your studies and pulled hardest toward this failure outlook. Layered on top was your LSAT score of 28, well below what typically lights the path to bar success, making the model worry about your foundational test-taking strength. Your Year 1 decile of 2 wasn't much brighter, reinforcing a pattern of being in the lower ranks early on, as the third-biggest factor tipping the scales. Even your middle family income bracket entered the story as a moderate headwind, suggesting fewer resources to buffer the intense demands of law school compared to higher-income peers. Your Asian background, undergraduate GPA of 2.7, full-time student status, and male gender each added their subtle nudges toward risk, with that lower UGPA hinting at uneven undergrad performance and full-time study signaling the full weight of commitments without part-time flexibility. It wasn't any one thing, but this combination—like a steady current pulling downstream—convinced the model that the odds were stacked against passing the bar. You're more than these numbers, though, and this isn't the end of your story; many have turned similar profiles around with targeted prep. What if you boosted that test prep or sought scholarships for extra support? Keep pushing—you've got the drive, and law could still be yours with some strategic shifts. Hang in there.",
+  "error": null
+}

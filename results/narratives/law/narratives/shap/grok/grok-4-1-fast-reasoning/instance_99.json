@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 99,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:17:02.444741",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 55% chance you'll fail the bar exam on your first try, which is just over the threshold we use to flag higher-risk applicants. As a female Asian student from a middle-income family planning to attend full-time, you have a solid foundation in some areas, but your academic record raised concerns. Your position in the second decile for Year 3 grades at school—well below the typical fifth decile—had the single biggest influence on this prediction, strongly signaling to the model a risk of struggling with the bar's demands. Next in importance was your LSAT score of 30, lower than the average 36.7, which further pushed the prediction toward failure by suggesting challenges with the analytical skills needed for bar success. Your Year 1 decile of 3, also under the average 5.7, ranked third and reinforced this pattern of early academic hurdles. Family income in the middle bracket came fourth, slightly tilting the odds against passing compared to higher earners who often have more resources. Your racial background as Asian was fifth, with its minor push toward failure likely due to how it compares to the mostly White dataset makeup. Your undergraduate GPA of 2.8, below the 3.21 average, followed as the sixth factor, indicating room for stronger performance. Gender and full-time status had the least sway, barely nudging the prediction. Overall, these elements combined to outweigh any positives, setting you apart from typical students who pass with higher deciles, LSATs around 37, and GPAs over 3.2. To boost your future bar exam odds, focus on realistic steps like targeted test prep to lift your LSAT if you retake it, building study habits that could have improved your school deciles, and seeking undergraduate coursework or experiences to strengthen your GPA foundation. With dedication to these, you could shift your profile toward the profiles of successful bar takers and reapply stronger next time. We're rooting for you—many overcome similar starts.",
+  "error": null
+}

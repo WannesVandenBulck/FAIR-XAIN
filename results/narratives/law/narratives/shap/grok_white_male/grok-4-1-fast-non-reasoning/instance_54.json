@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 54,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:08.221554",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 36, you've clearly put in the effort to build a strong academic foundation, including upper-middle family income support and plans to attend full-time. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 41.3% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This decision hinged on a few key factors from your profile that stood out when compared to typical applicants. Most notably, your Year 3 school decile ranking of 4, which is below the average of about 5.5, was the strongest signal pushing the model toward predicting failure, suggesting your later academic performance raised concerns relative to peers. On a brighter note, your undergraduate GPA, above the typical 3.21 average, and your LSAT score, close to the usual 36.7, both strongly pulled in the opposite direction, arguing convincingly for your potential to pass. Your full-time status also helped a bit, aligning with the vast majority of successful students who share that path. Meanwhile, your Year 1 decile of 5 (near the average 5.7) and family income bracket had smaller influences tilting slightly toward risk. Overall, while your strengths match or exceed averages in key test scores and undergrad work, that dip in your Year 3 decile carried the most weight, placing you just on the riskier side compared to students who typically get approved. I know this rejection stings, especially with your promising profile, but it's not a judgment on your character or potential—it's one model's data-driven call. To move forward, consider retaking courses or programs to boost your later decile rankings, perhaps prepping intensely for the LSAT to push it higher, and reapplying to schools with more holistic reviews or targeted improvement plans. You've got the building blocks; refining those key areas could flip the script next time. Keep pushing—you're closer than it feels.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 204,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:32:05.863107",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 52% chance you'll fail the bar exam on your first try, which is just over the threshold we use to approve admissions. This prediction is based on your profile: a Year 1 school decile of 5, a Year 3 decile of 4, middle family income, an LSAT score of 28.5, an undergraduate GPA of 3.4, being male, White, and planning full-time studies. Compared to typical students, your LSAT is notably below the average of 36.7, your Year 3 decile is lower than the usual 5.53, and your Year 1 decile sits a bit under the average 5.71, while your UGPA stands out positively above the typical 3.21. The strongest influence on this decision was your Year 3 decile, which pushed the model toward predicting failure since it's on the lower side. Next in importance, your Year 1 decile had a similar effect, contributing to the failure prediction relative to peers. Your LSAT score ranked third, strongly nudging the model toward expecting a bar struggle given how it compares to others. Family income followed, with your middle bracket playing a supporting role in that direction. Your UGPA, though above average, still leaned toward the failure prediction in the model's view, coming in fifth. Race and full-time status had smaller influences, both tilting slightly toward failure, while your gender as male was the only factor that gently pushed back toward expecting success. Overall, these elements combined to tip the scales just over 50% failure risk. To improve your chances next time, focus on boosting areas you can control, like retaking the LSAT for a higher score or strengthening later academic performance to lift those deciles. With targeted prep, students like you often turn things around for future applications. Keep pushing—you've got a solid UGPA foundation to build on.",
+  "error": null
+}

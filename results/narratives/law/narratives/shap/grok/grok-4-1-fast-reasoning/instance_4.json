@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:03:02.605556",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 61.9% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes being in the bottom decile for grades in both your first and third years of law school—much lower than the typical student's middle-of-the-pack standing—along with an LSAT score of 34, an undergraduate GPA of 3.20, middle family income, identifying as Black and female, and planning full-time enrollment. Compared to average applicants, your early and later law school performance ranks unusually low, your LSAT is below the norm of about 37, and while your undergrad GPA is right around average, these factors together paint a picture of higher risk for bar struggles. The model's decision was driven most strongly by your third-year decile rank, which had the biggest push toward predicting failure since it signals weaker performance relative to peers. Right behind that was your LSAT score, also nudging the prediction toward failure compared to stronger typical scores. Your first-year decile rank came next in influence, similarly highlighting early academic challenges below the dataset average. Family income, undergrad GPA, racial background, gender, and full-time status followed in descending order of impact, each contributing a bit more toward the failure prediction in your case versus typical students. None of these stood out as protective factors pushing back toward success here. To boost your future bar exam odds, focus on what you can control: retake the LSAT if possible to aim above 37, build stronger study habits to improve law school deciles in remaining years, and seek targeted bar prep resources tailored to students with similar starting points. Many have turned around low early grades through tutoring or time management changes, so connecting with mentors could make a real difference. You're not defined by this prediction—persistence and strategic improvements have helped others succeed. Keep pushing forward; your next steps can rewrite this story.",
+  "error": null
+}

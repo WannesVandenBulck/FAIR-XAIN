@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 235,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:10:28.603299",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite challenges like your lower-middle family income background, and we appreciate the full-time commitment you're ready to make to your studies. The admissions model we use predicted a 60.2% chance that you would fail the bar exam on your first try, which is above the threshold we set for approving applications, leading to the regrettable rejection of yours. This prediction was driven primarily by your academic deciles from school years 1 and 3, where you ranked in the lowest decile—much lower than the typical student's mid-range position—which strongly pushed the model toward expecting bar failure. Your undergraduate GPA of 2.60, below the average of 3.21, also played a role but had a milder counterbalancing effect, nudging the prediction slightly toward success. Similarly, your LSAT score of 34, while under the dataset average of 36.7, helped pull the odds a bit in your favor compared to what might have been. Less influential factors, like your full-time student status (the norm for most applicants) and family income bracket, offered minor positive boosts but couldn't outweigh the top concerns. In contrast to typical students who pass the bar, your early and later school rankings stand out as unusually low, setting your profile apart in a way that heightened the model's risk assessment. This isn't a judgment on your potential or resilience—many from similar backgrounds overcome these hurdles with targeted effort. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking mentorship programs tailored for Black women in law to build a standout narrative for your next application. You're capable of turning this around, and reapplying after addressing these key areas could change the outcome significantly. Keep pushing; your story matters.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

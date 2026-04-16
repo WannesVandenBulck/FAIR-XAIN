@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 209,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:45.211779",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and a respectable LSAT score of 35, along with coming from a high family income bracket, you brought some strong elements to your law school application. You're planning to attend full-time, which is the typical path for most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 44%, tipping the scales toward rejection to minimize the risk of future struggles. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 2, well below the average of around 5.5, signaling to the model that your later academic performance in school wasn't as competitive as it needs to be for bar success. This outweighed the positive push from your undergraduate GPA, which is slightly above the typical 3.21 and helped argue in favor of passing. Your LSAT score, though a bit under the average 36.7, also contributed positively by showing solid reasoning skills compared to many applicants. Your high family income provided another boost, as it often correlates with resources that support bar passage in the model's view. Meanwhile, your lower Year 1 decile of 2 added a smaller nudge toward the failure prediction, while your full-time status offered a minor positive influence, aligning with the vast majority of successful students. Overall, your profile compares to typical students by having brighter spots in GPA, LSAT, and background, but those early and mid-school deciles stood out as the most influential drags, unlike applicants who rank higher across the board. To move forward, consider retaking courses or programs to boost your school deciles, perhaps supplementing with targeted LSAT prep or bar-focused tutoring to strengthen your academic trajectory. Many students in similar positions have succeeded by addressing these gaps—reach out to advisors for personalized strategies, and don't lose sight of your potential. We're rooting for your next steps toward law school success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

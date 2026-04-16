@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 389,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:19:36.804076",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.50, which stands above the typical student's 3.21, and your middle-family-income background. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 67% chance you'll face failure on that critical test—high enough to lead to your application's rejection, as the school prioritizes those predicted to pass confidently. The biggest factors pulling the prediction toward failure were your Year 3 school decile ranking of 2nd, well below the average 5.53, signaling a dip in later academic performance that worried the model most. Close behind, your LSAT score of 26, far under the usual 36.7, strongly reinforced this risk by suggesting challenges with the intense analytical demands ahead. On a brighter note, your top 1st-decile ranking in Year 1 helped somewhat, nudging things toward success, while your stronger-than-average undergrad GPA pushed back even more forcefully against failure. Your middle-income family status and full-time study plans offered minor positives too, aligning with most successful students. Compared to typical applicants, your early promise faded in later years and on the LSAT, outweighing your GPA edge in the model's eyes. This isn't a judgment on your potential as a brilliant Black woman ready to break barriers—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost that score, strengthening your later undergrad or grad performance to match your Year 1 shine, and seeking targeted bar prep resources tailored for diverse students like you. Many have turned similar predictions around with focused effort; you're capable of that story too. Keep pushing—we're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

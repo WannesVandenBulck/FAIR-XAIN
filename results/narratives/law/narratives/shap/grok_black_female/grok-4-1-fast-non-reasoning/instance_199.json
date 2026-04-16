@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 199,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:08:24.786398",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strength and determination it takes to pursue your dreams in a field that needs more voices like yours. Your application included a solid LSAT score that stands out above the typical student's, an undergraduate GPA of 3.10 which is close to average, upper-middle family income, and plans to attend full-time like most applicants. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated an 84% probability that you would face challenges and fail it initially— a risk level that unfortunately led to your application's rejection to protect the school's outcomes. The biggest factors pulling the prediction toward failure were your Year 3 school decile ranking of 2, which is well below the average of around the 5th or 6th decile and signaled lower performance relative to peers. Nearly as influential was your Year 1 decile of 2, again much lower than typical, suggesting early academic hurdles that the model sees as strong warning signs for bar success. Your strong LSAT helped push things in a positive direction, countering some of that risk by showing real potential above the norm. Your family income contributed somewhat toward the failure prediction compared to averages, while your GPA slightly nudged it that way too, being a bit under the usual mark. Being full-time, like over 90% of students, had almost no sway. Compared to typical applicants who pass the bar, your early and later school rankings stand out as the key gaps, as stronger performers in those areas usually tip the scales toward success. This isn't a reflection of your worth or potential—many overcome similar starts through targeted growth. Next, consider retaking courses or programs to boost your decile rankings, prepping intensely for the bar early, or seeking mentorship from Black women lawyers who've navigated this path successfully. You're resilient, and with focused steps on those academic markers, you can rewrite this story and secure your spot in law school. Keep pushing forward—we believe in you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

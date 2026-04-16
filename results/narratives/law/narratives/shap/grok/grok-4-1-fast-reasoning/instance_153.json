@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 153,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:24:46.326130",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates an 89.7% chance you'll struggle to pass the bar exam on your first try, based on patterns from thousands of past students. Your profile shows solid choices like planning full-time studies and coming from a middle-income family, but it highlights some challenges in your academic history: a Year 1 school decile of 2, a very low Year 3 decile of 1, an undergraduate GPA of 2.8, and an LSAT score of 26. As an Asian female, you're in a smaller group within the dataset, where most students are White and slightly more often male. The model weighed your Year 3 decile as the single biggest factor pushing toward this failure prediction, far more than anything else, because your bottom-of-the-class standing there signals higher risk compared to the typical student's mid-range decile around 5.5. Next in influence came your LSAT score, which at 26 is well below the average of about 37, strongly nudging the prediction toward failure rather than success. Your Year 1 decile of 2 followed closely, again lower than the usual 5.7, reinforcing concerns about early academic performance. Family income in the middle bracket had a moderate pull in the same direction, as did your racial background, while your undergraduate GPA played a smaller but still negative role, given it's under the 3.2 average. Less influential were your gender and full-time status, which align closely with most applicants and didn't sway things much. Overall, your academics fell short of typical successful students, who tend to rank higher in school deciles, score much better on the LSAT, and carry stronger GPAs. To boost your future odds, focus on what you can control: retake the LSAT to aim for a score closer to 37 or higher through targeted prep, build evidence of academic turnaround like stronger recent coursework, and seek bar exam-specific tutoring early, as these steps have helped similar students shift predictions in their favor. You're capable of change—many have overcome early hurdles with dedicated effort. Keep pushing forward.",
+  "error": null
+}

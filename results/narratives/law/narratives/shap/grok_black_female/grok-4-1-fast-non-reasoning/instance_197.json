@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 197,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:08:17.862401",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, we know how much heart and determination you've poured into this journey, and it's tough to receive this news about your application being rejected. The admissions model we use looks at patterns from thousands of past students to predict the chances of passing the bar exam on the first try, and for you, it estimated a 46% probability of failure—high enough that it tipped the decision against admission right now. Your profile includes a Year 1 school decile of 3, a Year 3 decile of 3, lower-middle family income, an LSAT score of 20, an undergraduate GPA of 2.70, and plans to attend full-time, which is the norm for most applicants. The biggest factor pushing the model toward predicting bar failure was your LSAT score, which stood out well below the typical 36.7 average and had the strongest negative pull on your odds. On a brighter note, your undergraduate GPA of 2.70—though below the 3.21 average—worked strongly in your favor, helping to counterbalance some concerns by showing solid college performance. Your lower-middle family income also nudged things positively compared to higher-income peers, suggesting resilience that the model viewed helpfully. Meanwhile, your Year 1 and Year 3 deciles around the lower third of your school, along with your full-time plans, had smaller positive influences but weren't enough to shift the overall picture. Compared to typical students who get approved, your LSAT was a standout low point, while your other metrics were closer to average but didn't outweigh it. This isn't a judgment on your potential as a Black woman trailblazer in law—it's just one model's snapshot based on historical data. To move forward, consider retaking the LSAT to boost that score, strengthening your GPA through additional coursework, or exploring programs with holistic reviews that value your unique background. Keep pushing; many have turned similar setbacks into success stories. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

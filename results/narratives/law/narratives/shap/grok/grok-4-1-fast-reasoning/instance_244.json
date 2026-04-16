@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 244,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:24:18.620755",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our model predicts a 64% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. This prediction stems from several key aspects of your background that stood out as risks compared to typical applicants. Your grades placed you in the lowest decile in your school during both Year 1 and Year 3, far below the average student's mid-range performance, which was the single strongest factor pushing the model toward expecting a failure. Next in influence was your LSAT score of 32, lower than the typical 36.7, signaling potential challenges in the rigorous legal reasoning needed for the bar. Your Year 1 decile rank followed closely, reinforcing concerns about early academic struggles that often persist. Your lower-middle family income bracket, below the dataset average, also contributed by highlighting barriers some students face in accessing resources for success. Your undergraduate GPA of 3.10, slightly under the 3.21 average, added to this picture, as did your Native American background—a smaller group in the data where pass rates tend to be lower. Being male and planning full-time study aligned more with the majority of students but had minimal sway here. Overall, these factors ranked in that order of influence, with your later-year grades, test scores, and early performance carrying the most weight toward the failure prediction. Unlike typical students who cluster around average or higher metrics, your profile consistently fell short, tipping the balance. Looking ahead, you could realistically retake the LSAT to boost that score, focus on building stronger academic habits to improve future decile rankings in law school, and seek scholarships or support programs tailored for students from similar income or racial backgrounds to level the playing field. With targeted preparation like bar exam prep courses, many students overcome these hurdles on later attempts. Keep pushing—you have the determination to change this story.",
+  "error": null
+}

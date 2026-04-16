@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
-    'sex': {0: 'Female', 1: 'Male'},
+    'sex': {0: 'female', 1: 'male'},
     'famsize': {0: '>3', 1: '<=3'},
     'Pstatus': {0: 'Apart', 1: 'Together'},
     'Medu': {0: 'none', 1: 'primary', 2: '5-9th grade', 3: 'secondary', 4: 'higher'},

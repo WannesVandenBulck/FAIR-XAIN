@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 95,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:38.989489",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to pursue full-time studies, we understand how disappointing it must be to receive this rejection from our law school admissions process. Our model, which predicts the likelihood of passing the bar exam on the first try based on academic and background factors, estimated an 82.9% chance that you would not pass, tipping the scales toward denial to ensure we admit students most likely to succeed. The primary reason for this prediction was your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers—far below the typical student's mid-range standing—and this stood out as the strongest factor pushing the model toward forecasting bar failure. Your Year 1 decile of 2 similarly signaled early academic struggles compared to the average student's stronger performance, reinforcing that concern as the second-most influential element. While your undergraduate GPA of 2.60 was below the dataset average of 3.21, it actually worked slightly in your favor, nudging the prediction a bit toward success rather than failure. Your middle family income aligned with typical applicants but contributed modestly toward the failure prediction, and your LSAT score of 27—well under the average of about 37—had a small pushing effect in the same direction. Opting for full-time enrollment, like most applicants, provided a minor positive influence toward passing. Overall, your academic decile rankings in Years 1 and 3 were the dominant forces here, setting you apart from typical students who rank higher and show consistent performance leading to bar success. This isn't a judgment on your potential or character, but a data-driven assessment to protect our program's outcomes. To move forward, we recommend retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework if possible, and addressing those early decile weaknesses—perhaps by seeking academic advising or targeted prep for law school rigor. Many students in similar situations have improved their profiles and succeeded elsewhere; you're capable of turning this around with focused effort. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

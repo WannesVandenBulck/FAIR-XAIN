@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 55,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:59:10.477623",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.40, which stands above the typical student's 3.21, and your upper-middle family income background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 53.4%—just over the tipping point that led to your application's rejection. This decision was driven primarily by your Year 3 school decile ranking of 1, which had the strongest influence in pushing the prediction toward failure, as it signals lower performance relative to peers compared to the average decile of about 5.5. Your undergraduate GPA, on the other hand, was the next most influential factor, working strongly in your favor by suggesting better-than-average academic readiness. Your family income also helped pull the prediction toward passing, reflecting a supportive background that often correlates with success. Less impactful but still notable, your LSAT score of 26—below the typical 36.7—nudged the odds toward failure, while your Year 1 decile of 1 had a smaller similar effect, and your full-time student status offered a minor positive boost, aligning with the vast majority of students. Overall, your profile compares to typical applicants by excelling in GPA and income but lagging in decile rankings and LSAT, which tipped the balance. While this outcome is disappointing, it doesn't define your potential—many overcome similar hurdles. To strengthen future applications, focus on boosting your LSAT through targeted prep and building a stronger academic record in later years to improve those decile rankings. Consider retaking the LSAT or gaining relevant experience, and reapply to programs with holistic reviews that value your unique perspective as a Black woman in law. You're capable of success, and with these steps, you can turn this into a stepping stone. Keep pushing forward—we believe in you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

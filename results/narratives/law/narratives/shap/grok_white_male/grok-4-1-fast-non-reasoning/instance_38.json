@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:08.937767",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and a middle-class family background, you've put real effort into building a strong profile for law school, including planning to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 67.4%—a threshold that unfortunately led to the rejection of your application, as the school prioritizes candidates with lower predicted failure odds. The biggest factors pulling the prediction toward failure were your Year 1 and Year 3 school decile rankings, both at 2nd decile, which are notably lower than the typical student's 6th decile range and signaled to the model a weaker early academic trajectory in a competitive environment. These stood out as the most influential concerns, far outweighing other elements in the decision. On a brighter note, your undergraduate GPA actually worked in your favor, pushing the prediction toward success since it's higher than the average of 3.21 and shows your capability in college-level work. Your LSAT score of 31, though below the usual 37, had a smaller negative pull toward failure, while your middle income and full-time status provided minor boosts compared to the dataset norms. Overall, your profile compares to typical students by having strengths in prior GPA and enrollment plans that many share, but those low school deciles set you apart in a way that dominated the model's view. This isn't a judgment on your potential as a white male from a middle-income home—it's just how these metrics aligned against historical bar passage patterns. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your recent school performance through additional coursework or explanations in a reapplications, and gathering letters that highlight your resilience. Many students in similar spots improve these areas and succeed on later attempts. You're clearly driven, and with targeted steps, you can shift this narrative for the next cycle. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

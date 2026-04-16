@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 276,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:50.752484",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, your law school application was carefully reviewed by our admissions model, which assesses the likelihood of first-time success on the bar exam based on key academic and personal factors. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, an undergraduate GPA of 2.10, an LSAT score of 26, and plans to attend part-time rather than full-time. The model predicts a 78% probability that you would fail the bar exam on your first attempt, which is why your application was rejected—our goal is to admit students with the strongest projected chances of bar passage success. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, which placed you in the bottom tier compared to the typical student's middle-of-the-pack average, signaling a concerning dip in later academic performance. Your LSAT score was the next biggest driver toward failure, as your 26 is well below the dataset average of around 37, making it stand out as a major hurdle relative to peers who typically score much higher. On a more positive note, your undergraduate GPA of 2.10, though below the average of 3.21, actually nudged the prediction slightly toward passing success, showing some resilience in your college record. Your lower Year 1 decile also contributed modestly toward the failure side, again underperforming the typical mid-range standing. Being part-time and from a middle-income bracket offered small boosts toward passing, as full-time students dominate the dataset at over 90%, but these weren't enough to offset the top concerns. Compared to typical students who pass the bar, your metrics in later grades and standardized testing lag significantly behind their stronger averages, which is what tipped the scales. While this is disappointing, it's not the end of your journey—consider retaking the LSAT to boost your score, strengthening your upper-year grades through additional coursework, or exploring part-time prep programs tailored to working students like yourself. We encourage you to address these core areas and reapply once you've built a more competitive profile. Your determination as a white male from a middle-income background can still lead to success with targeted improvements. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

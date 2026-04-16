@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 121,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:35:59.253074",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application as a story of your journey toward becoming a lawyer, piecing together the chapters from your undergrad days through law school to predict if you'd pass the bar on the first try. Your story starts strong in their eyes with your undergraduate GPA of 2.3 and LSAT score of 19.3, but those early signals whispered doubts about keeping pace in a demanding program. What weighed heaviest, though, was your rank in Year 3—landing in the bottom decile of your school painted the clearest picture of struggle, as if that chapter showed the toughest hurdles persisting over time. Your Year 1 decile in the bottom as well reinforced that narrative, suggesting challenges from the very start that didn't ease up. Coming from a middle-income family added another layer, hinting at fewer resources to buffer those academic pressures compared to peers with more support. As an Asian male going full-time, these traits together formed a profile the model has seen time and again lead to bar exam stumbles, pushing the predicted chance of failure to 87%. It's not that your determination or target to excel in law isn't there—it's that this specific combination has historically tripped up others just like you. The model isn't judging your worth; it's just reading the patterns from thousands of similar stories. This is why your application couldn't move forward right now—it’s protecting the program's outcomes. But here's the empowering part: your path isn't set; many have rewritten their stories by targeting those weak spots, like boosting study strategies or seeking extra tutoring early. You've got the drive—now channel it to flip the script for next time. We're rooting for you.",
+  "error": null
+}

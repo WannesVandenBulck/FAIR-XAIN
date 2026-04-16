@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 87,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:01:11.901489",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in academic pathways like this. Your profile includes a solid middle-income family background, full-time student status, an undergraduate GPA of 2.80, an LSAT score of 34, and Year 1 and Year 3 school deciles both at 3rd out of 10. The admissions model, which predicts first-time bar exam success based on patterns from thousands of similar students, estimated your probability of failing the bar at 55.5%—just over the tipping point that led to your application's rejection, as schools prioritize those predicted to pass confidently. The most influential factor pulling in a positive direction was your LSAT score, which is strong and suggested to the model a good shot at passing, even though it's a bit below the typical 36.7 average. However, your Year 3 decile ranking had the strongest push toward predicting failure, as being in the lower third of your school's performance stood out more negatively than average students who tend to rank around the 5th or 6th decile. Similarly, your Year 1 decile in the lower third reinforced that concern, outweighing the milder drag from your undergraduate GPA, which is below the usual 3.21 but not the top issue. Your family income and full-time status played smaller roles, with income slightly favoring success compared to averages. Overall, compared to typical admitted students who boast higher deciles, GPAs, and LSATs, your early and later school rankings were the biggest standouts driving the model's caution. This isn't a judgment on your potential—many overcome similar starts through targeted growth. To move forward, consider retaking the LSAT to boost that strength further, seeking mentorship or programs tailored for Black women in law to elevate your academic deciles next time, and reapplying with bolstered grades or experience that showcases bar readiness. You've got resilience on your side; use this feedback to refine your path and try again stronger. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

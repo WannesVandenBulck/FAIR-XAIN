@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:02:41.899646",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 40% chance you'll fail the bar exam on your first attempt, which is above our threshold for admission. This prediction is based on your profile: you ranked in the 2nd decile for Year 1 grades and a very low 1st decile for Year 3, compared to typical students who average around the 5th or 6th decile; your family comes from a lower-middle income bracket, below the dataset average; your LSAT score of 36 is just shy of the usual 36.7; your undergraduate GPA of 3.40 stands out positively above the average 3.21; you're a male Hispanic student planning full-time enrollment, which aligns with most applicants but is less common for your racial background. The model's decision was driven most strongly by your Year 3 academic decile, which had the single biggest influence by pushing the prediction toward failure since it's so much lower than what's typical. Next in importance was your Year 1 decile, also contributing toward the failure outlook due to its below-average ranking. Your lower-middle family income ranked third, similarly nudging the model toward predicting a struggle on the bar. Your Hispanic background came fourth, influencing the decision in the same direction as these top factors. Even your above-average undergraduate GPA and slightly below-average LSAT played supporting roles, each pushing toward failure but with less weight, followed distantly by your gender and full-time status. Overall, your early and later law school grade deciles were the dominant concerns, far outweighing your strengths like UGPA. To boost your future chances, focus on realistic steps like targeted tutoring or study habits to improve law school performance in upcoming years, seeking financial aid or scholarships to ease income-related stresses, and considering bar prep courses proven for students with similar profiles. With dedication to these areas, you could shift the odds in your favor for reapplying or passing the bar. We're rooting for your success.",
+  "error": null
+}

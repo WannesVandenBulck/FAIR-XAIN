@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 265,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:13.582088",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 35, you've clearly put in the effort to build a strong academic foundation, including planning to attend law school full-time from a middle-income family background. Unfortunately, the admissions model predicted an 82% chance that you would fail the bar exam on your first try, which is the key benchmark used to evaluate applications like yours. This high predicted risk led to the rejection of your application, as the school prioritizes candidates likely to pass the bar and succeed in their legal careers. The model's decision was driven primarily by your Year 3 school decile ranking of 1, which had the strongest negative influence by significantly pushing the prediction toward bar failure compared to typical students who average around the 5th or 6th decile. Your Year 1 decile of 1 was the second biggest factor, similarly pulling the odds against you more than for most applicants who rank higher on average. While your undergraduate GPA and LSAT score offered some counterbalance—leaning slightly toward a passing prediction since they're close to the dataset averages of 3.21 and 36.7—they weren't enough to offset those early performance indicators. Your full-time enrollment plan and middle-income background had minimal sway, with the former nudging things a bit positively but not decisively. In comparison to typical students in the dataset, your lower decile rankings in Years 1 and 3 stand out as unusually weak predictors of bar success, placing you well below the average performance that helps others get approved. This isn't a judgment on your potential as a white male from a middle-class background—many in similar situations succeed with stronger early grades—but the model weighs these school rankings heavily for their track record in forecasting bar outcomes. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps exploring part-time options if that aligns better, or gaining additional experience to strengthen future applications. You're close in key areas like GPA and LSAT, so targeted improvements could shift the prediction dramatically next time. Keep pushing; law school doors can reopen with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

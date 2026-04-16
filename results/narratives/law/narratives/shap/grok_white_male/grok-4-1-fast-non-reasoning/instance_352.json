@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 352,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:29.394048",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, your law school application was carefully evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam based on academic and personal profiles like yours. The model estimated a 49% probability that you would fail the bar exam on your first attempt, which unfortunately crossed the threshold for rejection, as the school prioritizes admitting students predicted to pass with high confidence. The primary reason for this decision was your Year 3 school decile ranking of 2, which stood out well below the typical student's rank of around the 5th or 6th decile and had the strongest influence in pushing the prediction toward failure. This factor outweighed several positives in your profile, including your undergraduate GPA of 2.40—lower than the average of 3.21 but still contributing somewhat toward a passing prediction—and your LSAT score of 30, which is below the usual 37 but helped nudge the odds in your favor. Your Year 1 decile of 2, also below average, added further concern by reinforcing the risk of bar exam struggles. On a brighter note, your part-time work status—uncommon among the 93% of students who go full-time—actually worked in your favor, suggesting the model sees potential resilience there, as did your middle-income bracket compared to higher averages. Overall, your academic deciles were the most decisive drags compared to typical applicants, placing you in the lower tail of the distribution where bar passage rates historically dip. While this is disappointing, it's not a definitive verdict on your potential—many students improve dramatically with targeted effort. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your undergraduate record through additional coursework or certifications, and seeking mentorship to elevate your class rankings in future studies. Reapplying after addressing these core areas could significantly shift the model's view in your favor. We're rooting for your success, and this feedback is designed to empower your next steps. Keep pushing ahead—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

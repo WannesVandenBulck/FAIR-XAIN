@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 376,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:55.930300",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score and middle-family income background, your law school application was carefully reviewed by our admissions model, which predicts first-time bar exam outcomes based on academic and personal profiles like yours. The model assessed your Year 1 school decile ranking of 3, Year 3 decile of 3, undergraduate GPA of 3.0, LSAT of 43, full-time enrollment plans, and family income bracket, estimating a 66% probability that you would fail the bar exam on your first attempt. This high risk of failure is why your application was rejected—our process prioritizes admitting students predicted to pass and succeed in their legal careers. The most influential factor pushing toward this failure prediction was your Year 1 decile ranking, which falls well below the typical student's midpoint level and signaled early academic challenges. Your Year 3 decile, also in the lower third compared to averages, reinforced this concern as the next biggest driver. On a brighter note, your LSAT score stood out strongly above the dataset average, pulling the prediction meaningfully toward success and showing your potential in standardized testing. Other elements like your undergraduate GPA (slightly below average), middle income bracket (a modest push toward risk), and full-time status (common among applicants) played smaller roles, with the GPA edging slightly toward higher failure odds. Compared to typical students—who often rank higher in school deciles around the 5-6 range—your profile highlighted more vulnerability in graded performance despite strengths like your LSAT. This isn't a judgment on your character or effort, but a data-driven flag that early grades may predict bar struggles for profiles like yours. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps exploring part-time options if that fits better, and gathering letters highlighting your LSAT strengths. You could also target schools with holistic reviews beyond predictive models or build bar prep experience through internships. We're rooting for your success—many applicants in similar spots improve their profiles and get accepted elsewhere. Keep pushing; your LSAT edge shows real promise.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

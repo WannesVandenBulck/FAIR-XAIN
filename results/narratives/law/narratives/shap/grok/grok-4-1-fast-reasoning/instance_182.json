@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 182,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:28:58.071592",
+  "status": "success",
+  "narrative": "I'm sorry to share this news, but the law school's admission model predicted a 45.7% chance that you would fail the bar exam on your first try, which unfortunately led to the rejection of your application. Your profile shows a Year 1 school decile of 3, which is below the typical student's 5.71, while your Year 3 decile of 5 aligns closely with the average of 5.53. You also have a solid undergraduate GPA of 3.30, slightly above the average of 3.21, an LSAT score of 33 that's lower than the usual 36.70, middle family income similar to many applicants, and you're a full-time female student of White background—demographics that are fairly common in the applicant pool. The model weighed these factors to arrive at its decision, with your Year 3 decile having the strongest influence, nudging the prediction toward a higher risk of bar failure despite being average. Right behind it in importance was your Year 1 decile, which similarly pushed the outlook toward failure because it was on the lower side. Your LSAT score came next, contributing in the same direction due to being below what's typically seen. Family income followed closely, then your undergraduate GPA, racial background, gender, and full-time status, all exerting smaller but still failure-leaning influences in that order. Overall, no single factor dominated overwhelmingly, but together they tipped the scales just enough against you compared to students whose profiles predict stronger bar success. It's a close call at 45.7%, meaning you're not far from the profile that would have passed muster. Looking ahead, you could realistically retake the LSAT to aim for a score closer to or above the average, focus on boosting later academic performance to improve deciles like your Year 3 standing, and build on your already strong undergraduate GPA through targeted bar prep strategies. These steps could shift future predictions in your favor, as they address the most influential areas within your control. Keep pushing—you have a solid foundation, and many students turn things around with focused effort.",
+  "error": null
+}

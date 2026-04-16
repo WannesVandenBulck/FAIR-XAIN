@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 167,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:39:12.939999",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.80 and an LSAT score of 37, you've clearly worked hard to build a strong academic foundation, coming from an upper-middle-class family and planning to attend law school full-time. The admissions model evaluated your profile against thousands of similar students to predict your chances of passing the bar exam on the first try, and unfortunately, it estimated a 54.7% probability that you would fail—tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on how your background stacks up against patterns seen in past students, where lower early performance often signals challenges ahead. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of the pack, suggesting your later undergraduate grades raised concerns about sustaining high performance through law school and the bar. Your Year 1 decile of 1 also contributed significantly in the same direction, reinforcing that early struggles in your school's grading distribution were a red flag compared to peers who started stronger. On a brighter note, your impressive undergraduate GPA stood out as the top factor pulling the prediction toward success, well above the average of 3.21 and showing your capability to excel in college-level work. Similarly, your LSAT score edged above the typical 36.70, giving the model confidence in your test-taking skills and logical reasoning. Less impactful but still helpful were your upper-middle family income, which aligns favorably with many successful bar passers, and your full-time enrollment plan, the norm for 93% of students. Overall, while your GPA and LSAT shine brighter than most, the model weighed your low decile rankings in Years 1 and 3 as the strongest signals of potential bar exam risk, outweighing those positives in this close call. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through post-baccalaureate options or targeted GPA improvement, and reapply once you've strengthened those early performance indicators. You're already ahead in key areas—many applicants would envy your GPA and LSAT—so with focused effort on those weaker spots, you can shift the odds in your favor next time. We're rooting for you to turn this into just a stepping stone.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

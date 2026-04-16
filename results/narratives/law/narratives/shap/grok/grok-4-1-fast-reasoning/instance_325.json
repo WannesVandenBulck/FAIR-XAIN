@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 325,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:35:45.562493",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates an 84% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile shows you ranked in the bottom decile for grades in both your first and third years of school—much lower than the typical student's mid-range position—along with an undergraduate GPA of 2.7, which falls below the average of 3.21. Your LSAT score of 37 is a bit above the usual 36.7, and you come from an upper-middle income family, identify as female and White, and plan to study full-time, all of which align closely with common student backgrounds. When the model weighed these details, your LSAT score had the strongest influence, unexpectedly nudging the prediction toward failure despite being slightly better than average. Right behind it, your low first-year decile ranking played a major role in pushing toward that same unfavorable outcome. Your third-year decile, also in the bottom tier, was the next biggest factor contributing to the failure prediction. Family income followed closely, with your upper-middle status adding to the risk signal in the model's eyes. Your undergraduate GPA rounded out the top influences, as its below-average level further tilted things negatively. Less impactful but still noted were your racial background, gender, and full-time plans, each exerting a minor push toward failure compared to the others. Overall, your early and later school performance stood out as weaker than most applicants, amplifying concerns even with your solid LSAT. To boost your future odds, focus on realistic steps like targeted bar exam prep to overcome past academic hurdles, possibly retaking the LSAT for a stronger score, and building consistent study habits that could mimic top performers. Many students turn things around with dedicated effort—your upper-middle background and full-time commitment give you a great foundation to build on. Keep pushing; a revised application with improved metrics could change the story next time.",
+  "error": null
+}

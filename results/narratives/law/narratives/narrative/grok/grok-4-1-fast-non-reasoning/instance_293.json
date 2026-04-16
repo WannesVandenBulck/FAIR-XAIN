@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 293,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:45:50.450850",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine our admissions model as a wise mentor who's reviewed thousands of stories like yours, piecing together patterns from past students to guide its advice on bar exam success. It looked at your profile and saw a 42.8% chance of not passing the bar, which tipped the scales against your application to this program—it's a tough call, but one rooted in the details that shaped its view. The biggest signal came from your Year 3 decile of 1, placing you at the very bottom of your class then, which strongly pulled the prediction toward struggle ahead. Layered on that was your Year 1 decile of 2, another early sign of academic hurdles that echoed those concerns. Your upper-middle family income, while supportive, stood out as a factor that in similar profiles has sometimes meant less drive under pressure, nudging things further toward failure in the model's eyes. Even with your solid LSAT of 35, it didn't quite offset the rest, acting as a moderate pull downward. Your undergraduate GPA of 2.9 reinforced that narrative of consistent challenges in rigorous settings. As a white female studying full-time, those traits aligned with patterns where others in your shoes faced steeper odds, each adding their subtle weight. It's not about any one thing—it's this combination painting a picture of potential roadblocks on the path to the bar. We see your passion for law, though, and this isn't the end; with targeted steps to boost those academic deciles, you could rewrite this story. Hang in there—you've got the target in sight, and persistence changes everything.",
+  "error": null
+}

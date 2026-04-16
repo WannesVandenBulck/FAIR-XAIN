@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 297,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:31:25.712305",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 90.6% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile shows strong commitment as a full-time student from a middle-income family, identifying as an Asian female, but it highlights some academic hurdles that weighed heavily in the decision. Specifically, your Year 1 school decile ranking placed you in the bottom group, well below the typical student's middle-of-the-pack standing. Your Year 3 decile was similarly low, marking it as the single most influential factor pushing the model toward predicting bar failure. Right behind that was your LSAT score of 27, which is notably lower than the average of about 37 for students who tend to pass, further nudging the prediction in the unfavorable direction. Your Year 1 decile came next in influence, reinforcing concerns about early academic performance compared to peers. Family income in the middle bracket played a moderate role, followed by your racial background as Asian—which is less common than White students in the dataset—and then your undergraduate GPA of 2.5, lower than the typical 3.2. Gender and full-time status had the smallest impacts but still contributed slightly toward the failure prediction. Overall, these factors positioned you below average on key academic indicators that successful bar takers usually exceed. To boost your future chances, prioritize rebuilding your academic record—perhaps through additional coursework or certifications to offset lower past grades and GPA. Retaking the LSAT for a higher score could make a big difference, as it's a top influencer. Most importantly, invest in targeted bar exam prep early, focusing on study habits that mimic top performers from stronger decile groups. With dedication to these steps, you can shift the odds in your favor for another application down the line.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 270,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:27:34.997144",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 40% chance you'll fail the bar exam on your first try, which is above our threshold for admission. This prediction is based on your academic profile, including your Year 1 school decile ranking of 4th, which sits below the typical student's 6th place average; your Year 3 decile of 3rd, also notably lower than the average 6th; your LSAT score of 32, under the usual 37; and your undergraduate GPA of 3.1, just a bit shy of the standard 3.2. You also come from a middle-income family bracket, identify as female, are White, and plan to attend full-time—demographics that are fairly common among applicants. When the model weighed these factors, your Year 3 decile ranking had the strongest pull toward predicting a bar failure, as it signals weaker performance compared to peers who typically pass. Right behind that was your LSAT score, which further nudged the prediction in the unfavorable direction relative to higher-scoring students. Your Year 1 decile, undergraduate GPA, and family income level followed closely in influence, each contributing similarly by being below typical levels seen in bar passers. Your racial background, gender, and full-time status had smaller but still notable effects in the same direction. Overall, these academic markers paint you as slightly below the profile of students who succeed on their first bar attempt, where stronger early and late undergrad rankings, higher LSATs, and solid GPAs are the norm. It's a close call at 40%—many applicants with similar profiles do pass with focused effort. To boost your future chances, prioritize rigorous bar exam preparation through targeted practice tests and study programs, as that's directly under your control. If possible, retake the LSAT to aim above 37, which could reshape how models view your potential. Building consistent study habits now might also help demonstrate the upward trajectory your profile needs. Keep pushing—you're close, and with these steps, you can turn this around.",
+  "error": null
+}

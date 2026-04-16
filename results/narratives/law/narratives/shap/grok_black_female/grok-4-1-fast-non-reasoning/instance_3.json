@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:48.316908",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your upper-middle-class family background and your full-time commitment to studies. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 48.7%—a threshold that unfortunately led to the rejection of your application, as the school prioritizes candidates with lower predicted risks to ensure high bar passage rates. The most influential factor pulling the prediction toward success was your strong performance in your third-year school decile, ranking in the 8th decile compared to the typical student's 5.5th, which significantly boosted the model's confidence in your potential to pass. On the flip side, your LSAT score of 32, below the average of about 37, was the biggest push toward predicting failure, outweighing that positive academic signal. Your first-year decile of 4, lower than the typical 5.7, added a moderate concern about early consistency, while your undergraduate GPA of 3.1 was close to average but slightly nudged things positively. Compared to typical students in the dataset, where most are full-time like you, your profile stands out with that later academic rebound but is held back by the standardized test score that many successful applicants exceed. This combination made the model lean toward caution, even though your overall story shows resilience. It's tough to hear, especially given the unique challenges Black women often face in competitive fields like law, but this prediction isn't a judgment on your worth—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to strengthen that key area, as even a modest improvement could shift future predictions dramatically. You might also highlight your third-year improvement in a personal statement for other schools, framing your growth narrative. Building more academic momentum or seeking targeted bar prep resources could help too. Keep pushing—you have the upward trajectory that many admire, and with targeted steps, law school doors will open. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

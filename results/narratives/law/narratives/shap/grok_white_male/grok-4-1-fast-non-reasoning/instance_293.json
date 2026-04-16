@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 293,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:56.437442",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put real effort into your law school journey, including choosing full-time studies ahead. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 41% chance of failure for you—high enough that it led to the rejection of your application, as the school prioritizes candidates with stronger projected odds of passing. This prediction stemmed from a close look at key parts of your profile, like your academic deciles, LSAT score, undergraduate GPA, family income, and study plans. The most influential factor working in your favor was your Year 3 school decile ranking of 4th, which is right around the typical student's level and suggested solid improvement, pushing the model toward seeing you as more likely to pass. Your undergraduate GPA of 2.70, a bit below the average of 3.21, also helped by showing decent performance, nudging the prediction slightly toward success. On the flip side, your Year 1 decile of 2nd—lower than the average 6th—stood out as the top concern, pulling strongly toward a failure risk since early struggles often signal challenges ahead. Your LSAT score of 28.5, well below the typical 36.7, added to that concern by indicating potential hurdles in legal reasoning under pressure. Similarly, your middle family income bracket compared to higher averages contributed a modest push toward higher failure odds, as resource differences can impact preparation. Overall, while your later academic gains and full-time commitment offered some balance, the early low decile and below-average test scores tipped the scales against you compared to peers who start stronger. This isn't a judgment on your potential—many overcome similar starts through targeted growth. To move forward, consider retaking the LSAT to boost that score, strengthening your early-grade foundation with extra courses or tutoring, and highlighting any recent upward trends in future applications. Law schools value resilience, so reapplying with these improvements could change the story. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

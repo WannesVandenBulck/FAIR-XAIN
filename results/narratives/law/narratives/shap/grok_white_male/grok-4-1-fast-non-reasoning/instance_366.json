@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 366,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:18.792035",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, we understand how disappointing it must be to receive this rejection notice for our program. The admissions model we use evaluates your likelihood of passing the bar exam on your first try, based on key aspects of your academic history and profile. For you specifically, it predicted a 71.7% chance of failing the bar exam, which is high enough that we had to deny your application to maintain our program's strong bar passage rates. The biggest factors pushing toward this failure prediction were your Year 3 school decile ranking, which placed you in the bottom group compared to peers, and your Year 1 decile, also at the lowest level—both well below the typical student's mid-range performance. These early and later undergraduate struggles stood out as the strongest signals that you'd face challenges on the bar. On a more positive note, your undergraduate GPA of 2.70, though below the average of 3.21, actually worked in your favor by nudging the prediction slightly toward passing, as did your LSAT score of 29, which helped counterbalance some concerns despite being lower than the usual 36.7. Your middle family income and full-time enrollment plans had minimal sway, neither strongly helping nor hurting the outcome. Compared to typical applicants, who often enter with stronger decile rankings and higher test scores, your profile aligned more closely with those who historically struggle on the bar, tipping the scales against admission. This isn't a judgment on your potential or character—many students overcome similar starts—but the model prioritizes these predictors for fairness and program success. To move forward, we recommend retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking mentorship from law school advisors who can help improve your academic deciles. You're clearly motivated, and with targeted improvements in these areas, future applications could look much brighter. We wish you the best in your journey.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

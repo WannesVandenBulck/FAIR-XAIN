@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:56.437202",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dreams despite the challenges many face in academic pathways like this. Your profile includes a strong undergraduate GPA of 3.40, which stands above the typical student's 3.21, along with a lower-middle family income background, an LSAT score of 32, full-time student status, and school decile rankings of 1st in Year 1 and 2nd in Year 3. The admissions model, trained on data from countless students' bar exam outcomes, predicted a 57.4% chance that you would fail the bar on your first try—crossing the threshold that led to your application's rejection, as the school prioritizes those likely to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your 1st-place decile in Year 1 grades, which the model saw as a concerning signal compared to peers who ranked higher on average around the 6th decile. Next in impact, your 2nd-place decile in Year 3 grades also nudged the prediction toward failure, standing well below the typical 5th or 6th decile. On a positive note, your standout undergraduate GPA was the strongest force pulling toward a passing prediction, countering some risks effectively. Your family income and full-time status offered smaller boosts toward success, while your LSAT score had minimal sway. Compared to typical students, your early and mid-school deciles are notably lower, which weighed heavily against you despite strengths like your GPA. This isn't a judgment on your potential as a Black woman trailblazer in law—it's the model's data-driven lens on bar passage patterns. To move forward, consider retaking the LSAT to boost your score, seeking targeted tutoring to elevate your school deciles, or exploring programs with holistic reviews that value your unique background. Many have overcome similar hurdles; with strategic steps, you can strengthen your profile for the next application cycle. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

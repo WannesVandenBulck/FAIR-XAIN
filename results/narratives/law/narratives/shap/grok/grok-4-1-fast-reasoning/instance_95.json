@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 95,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:16:28.273504",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 43.9% chance you'll fail the bar exam on your first try, which is high enough to raise concerns about your readiness. This prediction draws from your academic record, like your Year 1 school decile of 2 and especially your Year 3 decile of 1, both well below the typical student's mid-range performance around the 5th or 6th decile. Your LSAT score of 28.3 also falls short of the average 36.7, signaling potential challenges in the rigorous reasoning needed for the bar. Alongside that, your undergraduate GPA of 2.9 is lower than the usual 3.21, and your upper-middle family income, while solid, didn't offset these academic signals as much as it might for others. You're a full-time White female student, which aligns with common profiles in the dataset—about 44% female, 84% White, and 93% full-time—but these didn't sway the outcome much. The model weighed your Year 3 decile as the strongest factor pushing toward a failure prediction, followed closely by your LSAT, then your Year 1 decile, family income, undergraduate GPA, and racial background. Each of these nudged the prediction toward failure rather than success, with less influence from your gender or full-time status. Compared to typical students who pass, your grades and test scores are in the lower tail of the distribution, where far fewer succeed on the first bar attempt. This isn't a judgment on your potential—it's just how these patterns played out in past data. To boost your future chances, focus on strengthening your academic habits, perhaps through targeted tutoring or study skills courses to lift your deciles if you're still in school. Retaking the LSAT for a higher score could make a big difference, as it's a key lever many improve. Building a stronger GPA trajectory now will also help demonstrate growth. With dedication to these areas, you can shift the odds in your favor for the bar and future applications. Keep pushing—you've got this.",
+  "error": null
+}

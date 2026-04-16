@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 256,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:39.853440",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 69% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying applications—we aim to select students with the strongest likelihood of bar passage success. This prediction was driven primarily by your undergraduate GPA of 2.60, which falls below the typical 3.21 average and stood out as the biggest factor pushing the model toward expecting a failure. Your family income in the middle bracket also contributed notably in that direction, as it didn't provide the same boost seen in higher-income profiles on average. Even your LSAT score of 34, while respectable, landed under the dataset's 36.70 average and added some additional weight toward the failure prediction compared to stronger scorers. Your Year 1 decile of 8 was a relative strength—above the 5.71 average—but it wasn't influential enough to outweigh the top concerns. Your Year 3 decile of 6, right around the 5.53 average, slightly nudged things toward success, as did your full-time enrollment plan, which aligns with the vast majority of students at 92.7%. Overall, your profile compares to typical applicants by having brighter spots in early school performance but lagging in key pre-law metrics like GPA and LSAT that the model weighs heavily for bar success. This isn't a judgment on your potential as a lawyer or person—many factors beyond these numbers shape real-world outcomes. To move forward, consider retaking the LSAT to aim above 36.7 or strengthening your academic record through post-bac courses to lift that GPA perception. You might also explore programs with holistic reviews or bar prep support tailored for full-time students like you. We're rooting for your next steps—persistence pays off, and with targeted improvements, stronger opportunities await.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

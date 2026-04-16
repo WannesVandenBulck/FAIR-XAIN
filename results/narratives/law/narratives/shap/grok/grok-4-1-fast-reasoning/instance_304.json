@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 304,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:32:35.641294",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 59.9% chance you'll fail the bar exam on your first try, which is just over the threshold we use to approve admissions. This prediction is based on your academic record, including your bottom-decile ranking in Year 1 grades and second-bottom decile in Year 3, both well below the typical student's mid-range performance. Your undergraduate GPA of 2.8 and LSAT score of 35.5 also trail the averages of 3.21 and 36.7 seen among admitted students who tend to pass the bar. Coming from a middle-income family put you right around the norm, while being a full-time White male student aligns closely with the majority who succeed. The model's decision hinged most heavily on your Year 3 decile rank, which strongly nudged the prediction toward expecting a bar failure compared to stronger performers. Next in influence was your Year 1 decile, reinforcing concerns about early academic struggles. Your family income level followed as a moderate factor pushing in the same direction, though it's common and less decisive. Your LSAT and undergraduate GPA then played key roles, both signaling below-average preparation relative to bar passers. Less influential but still contributing were your racial background and gender, which match typical successful profiles without much sway, and your full-time status, which is standard. Overall, your profile stands out for weaker grades and test scores against peers who pass the bar. To boost your future odds, focus on what you can control: retake the LSAT to aim above 36.7, build a stronger academic record in any further studies, and invest in targeted bar prep courses proven to lift pass rates for students starting from similar GPAs. With dedicated effort on these, you could shift the prediction in your favor next time. Keep pushing—you've got the drive to turn this around.",
+  "error": null
+}

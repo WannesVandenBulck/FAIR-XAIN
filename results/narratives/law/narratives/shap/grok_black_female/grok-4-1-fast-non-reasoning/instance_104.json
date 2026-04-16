@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 104,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:02:16.229930",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in academic pathways, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at patterns from past students' profiles—like grades, test scores, family background, and study plans—to predict the chances of passing the bar exam on the first try, and unfortunately, it estimated your risk of failing at 52%, just over the tipping point that triggered the denial. This prediction was driven mostly by your Year 3 school decile ranking, which was quite low at 1 compared to the typical student's 5.5-ish standing, strongly pushing the model toward seeing a higher failure risk for you. On a brighter note, your high family income bracket worked significantly in your favor, countering that risk and suggesting stronger support resources than most applicants have. Your LSAT score of 30 and undergraduate GPA of 2.6, both below the averages of around 37 and 3.2, also pulled somewhat toward a failure prediction, though less forcefully than your later-year grades. Being a full-time student aligned with the vast majority (over 90%) who pursue it this way, giving a small positive nudge, while your Year 1 decile of 4 was close to average and barely factored in. Overall, your profile stood out as having that one major weak spot in later academics amid some solid supports, differing from typical students who maintain steadier grade progress. This isn't a judgment on your potential—models like this highlight patterns, not your full story or resilience as a Black woman navigating these spaces. To move forward, consider retaking the LSAT or strengthening your recent academic record through targeted courses or post-bac programs to shift future predictions. You might also reach out to admissions for a holistic review, emphasizing any personal achievements or barriers you've overcome. Keep pushing; many in similar situations have succeeded by addressing these key areas head-on. We're rooting for you to turn this into a stepping stone.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:30.847713",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male with a solid upper-middle-class family background, you've built an impressive academic profile coming into your law school application, including a strong undergraduate GPA of 3.30, an LSAT score of 40, and top-decile rankings in both your first- and third-year school grades. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 59.6%—just over the threshold that led to your application's rejection. This decision hinged primarily on your undergraduate GPA, which stood out as the strongest factor pushing the prediction toward failure, even though your 3.30 is above the typical student's 3.21 average. Counterbalancing that somewhat was your third-year school decile of 9, which had the most significant positive influence, signaling to the model your strong recent performance compared to peers. Your LSAT score of 40, well above the average of 36.70, nudged things slightly toward failure in a surprising way, perhaps due to how it interacts with other factors in the model's view of bar success. Your family's upper-middle income also contributed modestly toward the failure prediction, while your first-year decile and full-time student status had minimal impact. Overall, compared to typical students, your metrics are stronger in several areas like LSAT and deciles, but the model weighed your undergrad GPA as the biggest red flag against bar passage odds. We understand this is disappointing, especially with your achievements, and it's not a judgment on your potential as a lawyer. To move forward, consider retaking the LSAT if possible or bolstering your GPA narrative with explanations of upward trends, like your excellent third-year deciles. You might also explore programs with holistic reviews or appeal with additional evidence of bar prep readiness. Keep pushing—you're clearly capable, and many paths lead to success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

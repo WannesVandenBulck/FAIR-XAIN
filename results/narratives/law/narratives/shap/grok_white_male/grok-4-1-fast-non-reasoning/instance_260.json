@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 260,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:55.215961",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 35, you've clearly put in significant effort to pursue law school, and we appreciate your full-time commitment to your studies ahead. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated an 84.1% chance that you would fail it— a risk level that unfortunately led to the rejection of your application. This prediction was driven primarily by your academic decile rankings from school, especially your Year 3 performance, which placed you in the lowest decile compared to the typical student's mid-range standing. Your Year 1 decile, also at the bottom, reinforced this concern, pushing the model strongly toward expecting bar exam struggles. On a more positive note, your undergraduate GPA actually worked in your favor, as it's above the average for students in the dataset and suggested stronger potential than your school grades indicated. Similarly, your LSAT score, while slightly below average, nudged the prediction a bit toward success, and your middle family income bracket had a modest pull in the opposite direction toward failure. Being a full-time student aligned with the vast majority of successful applicants, offering a small positive influence. Compared to typical students—who often rank around the middle in school deciles, score a bit higher on the LSAT, and have varied GPAs—your lower early academic deciles stood out as the biggest red flags, outweighing your other strengths. While this outcome is disappointing, it highlights specific areas like bolstering your school performance metrics for future applications. We encourage you to consider retaking courses or seeking academic advising to improve those decile rankings, perhaps while gaining practical experience or prepping intensively for the LSAT. Many applicants in similar situations have succeeded by addressing these key factors and reapplying stronger. You're capable of turning this around—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

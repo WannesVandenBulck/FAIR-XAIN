@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 331,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:48:02.361351",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application like they're piecing together the story of your journey to becoming a lawyer, trying to predict if you'll conquer the bar exam based on patterns from thousands of students just like you. Your Year 1 grades placed you in the 2nd decile at school—that low starting point was the biggest signal flashing caution, as it often sets the tone for struggling with the intense demands of law school right from the start. Then, by Year 3, you were still in the 2nd decile, which reinforced that concern, showing the model a consistent challenge in keeping up with the competition over time. Your LSAT score of 31 added to that picture, pulling strongly toward the risk of not passing the bar, since scores in that range have historically made the exam's complexities a tougher climb. Even with your upper-middle family income, which might offer some support, it didn't outweigh those academic hurdles in the model's view. Your undergraduate GPA of 2.9 fit into this narrative of steady but not standout performance, nudging the prediction further toward failure. As a white male studying full-time, those details played smaller roles but still aligned with profiles that have faced higher bar passage obstacles in the data. Overall, these factors combined to give a 69.8% chance of not passing the bar, leading to the tough call to reject your application—it's not about your potential or heart, but about ensuring schools graduate students ready to succeed. The good news? This is just one snapshot; with targeted prep, you could rewrite your story and shine elsewhere. Keep pushing—you've got this.",
+  "error": null
+}

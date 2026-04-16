@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 171,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:39:30.096610",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 36, you've clearly put in the work to build a competitive profile for law school, including your upper-middle-class family background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 51.1%—just over the threshold that led to your application's rejection. This decision hinged on a few key aspects of your academic record that stood out as stronger warning signs compared to typical applicants. Most importantly, your Year 3 school decile ranking of 2 was well below the average of around 5.5, pushing the model firmly toward predicting bar failure because it signals a dip in performance that often correlates with exam struggles. Your Year 1 decile of 3, also lower than the typical 5.7, added to this concern by reinforcing a pattern of below-average grades relative to peers. On a brighter note, your undergraduate GPA exceeded the dataset average of 3.21 and your LSAT was close to the norm of 36.7, both of which pulled the prediction toward success and softened the overall risk. Your family income bracket and full-time status had minor positive influences but weren't enough to outweigh the academic decile red flags. In essence, while your test scores and background align with many successful students, your school deciles were the dominant factors tipping the scales against you, unlike applicants who maintain higher consistent rankings. To move forward, consider retaking courses or programs to boost your decile rankings, as even small improvements there could dramatically shift future predictions. You might also seek targeted bar prep resources early or explore part-time options if they fit your goals better. We're rooting for you—many students in similar spots have turned things around with focused effort. Keep pursuing your passion for law; this is just one data point, not your destiny.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

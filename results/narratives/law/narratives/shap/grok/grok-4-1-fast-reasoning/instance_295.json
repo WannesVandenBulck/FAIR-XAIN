@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 295,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:31:08.429807",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 46% chance you'll fail the bar exam on your first try, which is above our threshold for admission. This prediction is based on your academic history, test scores, and background details compared to thousands of past students. You ranked in the bottom decile for grades in both your first and third years of school—much lower than the typical student's middle-of-the-pack position—which was the single biggest factor pushing the model toward predicting failure. Your LSAT score of 27, well below the average of about 37, came in as the second strongest influence in that direction. Similarly, your bottom-decile ranking from Year 1 grades ranked third in impact, followed by your middle-class family income, which is around average but didn't help offset other weaknesses. Your undergraduate GPA of 3.10 was slightly below the typical 3.21 and added a modest push toward the failure prediction, while your status as an Asian male full-time student—though common in the applicant pool—had even smaller roles. Overall, these factors combined to make your profile riskier than most applicants, whose stronger early grades and higher LSATs predict bar passage more reliably. No single feature sealed the decision, but your consistently low school rankings and test performance stood out as the heaviest weights. The good news is some of these are areas you can address moving forward. To boost your bar exam odds, focus on intensive test preparation, perhaps retaking the LSAT if eligible to build better exam skills, or enrolling in targeted academic support to improve consistency like you might have needed in school. Strengthening your study habits now could mimic the paths of students who overcame similar starts and passed the bar. We encourage reapplying after showing progress in these areas—it could shift your prediction dramatically. Hang in there; many have turned profiles like yours around with focused effort.",
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 303,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:46:27.948340",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why the admissions model saw your profile the way it did—it's not about you as a person, but the story your numbers told it. At the top of what caught the model's eye was your Year 3 decile of 2.0, which stood out as the strongest signal pointing toward a higher chance of bar exam struggles, suggesting that even later in your academic path, you were in the lower ranks compared to peers. Right behind that was your LSAT score of 28.0, which the model flagged as another big pull toward failure, as it's on the lower side of what's typically needed to thrive in rigorous law programs. Your Year 1 decile of 2.0 reinforced this pattern, painting a picture of consistent challenges in keeping pace academically from the start. Layered on top was your lower-middle family income bracket, which the model linked to added hurdles in preparing for something as demanding as the bar. Your undergraduate GPA of 3.3 didn't lift things enough to counterbalance, coming in as another factor tilting toward difficulty. Even details like being white, planning full-time studies, and identifying as female each nudged the prediction in the same direction, though more subtly, as the model weighs how these traits have historically played out for others. Together, these elements added up to a 45% estimated risk of not passing the bar, which is why your application didn't make the cut—law schools are betting on the safest paths to success. It's tough, but this isn't the end; your 3.3 UGPA shows real potential, and targeting schools that value your full-time commitment could be a smart pivot. You've got resilience in you—use this as fuel to strengthen those early indicators next time around. Hang in there; brighter paths await.",
+  "error": null
+}

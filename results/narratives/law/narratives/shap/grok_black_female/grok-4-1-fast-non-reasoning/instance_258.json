@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 258,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:11:50.574785",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the effort you've put into your undergraduate studies and LSAT preparation. Your profile includes an undergraduate GPA of 2.70, an LSAT score of 33, a middle family income bracket, full-time student status, and school decile rankings of 2nd in Year 1 and 1st in Year 3 based on your grades. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 42.4%—a risk level that unfortunately led to the rejection of your application, as the school prioritizes candidates predicted to succeed right away. The most influential factor pushing toward this failure prediction was your low Year 3 decile ranking, which stood out well below the typical student's mid-range performance and signaled potential challenges in sustaining strong academic momentum. On a more positive note, your LSAT score had the strongest counterbalancing effect, pulling the prediction toward success despite being slightly under the average of around 37, showing your aptitude in that area compared to peers. Your undergraduate GPA also helped by nudging the odds toward passing, though it was lower than the typical 3.21 average. Other elements like your middle income bracket, Year 1 decile, and full-time status provided smaller boosts toward a passing prediction, aligning with the norm for most applicants. Overall, while many students in the dataset have higher late-stage grades that tip predictions favorably, your Year 3 performance was the standout concern relative to typical profiles. This doesn't define your potential—it's just one data-driven snapshot. To strengthen future applications, consider retaking the LSAT to boost your score further, improving your GPA through additional coursework or a post-bac program, and highlighting any upward trends or personal achievements in Year 3. We encourage you to seek mentorship from Black women in law or bar prep programs tailored to diverse backgrounds, and reapply after addressing these areas—you have the resilience to turn this around. Keep pushing forward; your story is far from over.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

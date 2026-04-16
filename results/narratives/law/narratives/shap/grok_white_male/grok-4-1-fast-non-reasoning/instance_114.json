@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 114,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:52.250589",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid academic background, including an undergraduate GPA of 3.50 and an LSAT score of 38—both above average for applicants—your law school application was carefully evaluated by our admissions model, which predicts first-time bar exam outcomes. The model estimates a 45.5% probability that you would fail the bar exam on your first attempt, which is high enough to tip the decision toward rejection, as the school prioritizes admitting students likely to pass and succeed in their legal careers. This prediction wasn't driven by any single flaw but by a balance of factors from your profile, compared to typical students in our dataset. Your Year 3 school decile ranking of 7 was the most influential positive factor, strongly pushing the model toward predicting you'd pass, well above the average of around 5.5 and signaling consistent high performance later in your studies. However, your middle family income bracket worked against you as the next biggest influence, nudging the prediction toward failure risk more than most applicants' higher or lower brackets typically do. Your strong LSAT score was another key positive, nearly offsetting that income factor by suggesting solid analytical skills above the average of 36.7. Less impactful but still notable, your undergraduate GPA slightly increased the failure risk despite being above average, while your Year 1 decile of 8 helped a bit toward passing, and your full-time student status had minimal effect, as it's the norm for over 90% of applicants. Overall, your profile shows strengths in test scores and later grades that exceed many peers, but the income-related signal created just enough doubt in the model's eyes. This isn't a judgment on your potential as a lawyer—many factors like determination and study habits aren't captured here. To move forward, consider retaking the LSAT for an even higher score, strengthening recent academic deciles further, or exploring programs that weigh holistic factors beyond predictions; we encourage reapplying with updated achievements or seeking feedback from admissions counselors. You're clearly capable, and with targeted steps, doors will open. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

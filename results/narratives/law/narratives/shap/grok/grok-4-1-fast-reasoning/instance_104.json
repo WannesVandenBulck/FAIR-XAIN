@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 104,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:17:41.003853",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 44% chance you'll fail the bar exam on your first attempt, which is high enough to flag concerns based on patterns from thousands of past students. This model looks at academic records, test scores, background details, and more to forecast bar success, drawing from real outcomes of students just like you. In your case, your Year 3 school decile ranking of 4—below the typical 5.53 average for those who pass—stood out as the biggest influence, nudging the prediction toward failure since lower rankings often signal challenges in sustaining strong performance. Next in impact was your Year 1 decile of 5, slightly under the 5.71 average, which also contributed toward the riskier outlook by suggesting early academic hurdles. Your upper-middle family income level played a supporting role in this direction, as did your LSAT score of 33, well below the 36.7 average seen in bar passers. Other factors like your undergraduate GPA of 2.8 (under the 3.21 norm), Native American background (rarer at just 1.8% of the dataset), full-time enrollment plans (common at 92.7%), and male gender (56.4%) each added smaller pushes toward the failure prediction, though less decisively. Overall, your profile shows academics consistently below what the model sees in successful bar takers, putting you at higher risk compared to typical admits. While no single factor dooms you, these lower performance markers outweighed the more neutral aspects of your background. Looking ahead, you could realistically retake the LSAT to aim for a score closer to or above 36.7, as dedicated prep often boosts results significantly. Strengthening your GPA through postgraduate courses or highlighting upward trends in future applications might also help shift perceptions. Focusing on study habits and time management now could build the skills needed for bar success, regardless of admission elsewhere. Many students in similar spots have turned things around with targeted effort—keep pushing, and you'll have a stronger shot next time.",
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 309,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:55.088135",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an upper-middle-class family background, you've put real effort into building a strong profile for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated an 88.2% chance that you would fail it—far too high a risk for the program to approve your application, leading to the rejection. This prediction was driven primarily by your academic decile rankings from earlier years in school, especially your Year 3 performance, which fell in the bottom decile compared to your peers and stood out as the strongest signal pushing the model toward forecasting failure. Your Year 1 decile in the second-lowest group added to this concern, reinforcing the sense that your grades haven't consistently competed at the top levels needed for bar success. On a brighter note, your undergraduate GPA actually worked in your favor, as it's above the typical 3.21 average and pulled the prediction somewhat toward passing. Your LSAT score of 30, though below the usual 36.7 benchmark, had a moderate influence nudging toward failure, while your upper-middle income bracket played a smaller role in the same direction, and your plan to attend full-time—shared by over 90% of students—barely factored in. Compared to typical applicants, your GPA shines brighter than most, but your school deciles lag well behind the middle-of-the-pack averages around 5th or 6th, which is what tipped the scales against you. We understand this is disappointing, especially when you've achieved above-average undergrad results. To strengthen future applications, focus on boosting your LSAT through targeted prep and seek ways to demonstrate improved academic performance, perhaps via postgraduate courses or detailed explanations of past challenges. Reapplying after addressing these key areas could shift the model's view in your favor. Hang in there—you have strengths to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

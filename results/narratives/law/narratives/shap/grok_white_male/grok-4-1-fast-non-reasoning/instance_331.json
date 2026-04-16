@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 331,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:14.909807",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 36, an undergraduate GPA of 2.50, lower-middle family income, and plans to attend full-time, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 56.8% chance that you would fail the bar exam on your first try, which tipped the scales toward rejecting your application to help ensure we select students most likely to succeed long-term. This prediction wasn't random—it was driven primarily by your academic performance rankings in school, compared to your peers. Your Year 3 decile ranking of 2 was the biggest factor pushing the model toward predicting failure, as it placed you well below the typical student's mid-range standing around the 5th or 6th decile. Similarly, your Year 1 decile of 2 had a notable negative influence, again showing lower performance relative to the average applicant. Your undergraduate GPA of 2.50, compared to the dataset average of 3.21, also contributed toward this riskier outlook, signaling to the model a pattern of grades below what's common for bar passers. On a brighter note, your LSAT score stood out as the strongest positive force, nearly pulling the prediction back toward success since it's close to the average of 36.7 and shows real aptitude. Your lower-middle family income and full-time enrollment plans provided smaller boosts toward passing, aligning with many successful students in the dataset. Overall, while your test scores helped, your consistently lower decile rankings and GPA compared to typical admits outweighed them, making the model see higher bar failure risk for someone in your position. This doesn't define your potential—many overcome similar starts through targeted improvement. Next, I recommend focusing on boosting your academic deciles or GPA through additional coursework, retaking the LSAT if possible to push it higher, or gaining practical experience like internships to strengthen future applications. You're capable of turning this around, and reapplying after addressing these areas could change the outcome—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 220,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:09:36.044625",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in academic pathways, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at patterns from past students—like their grades, test scores, family backgrounds, and more—to predict the chances of passing the bar exam on the first try, and unfortunately, it estimated your risk of failing at about 47%, which crossed the threshold for denial. Your profile includes solid strengths, such as an undergraduate GPA of 3.40 that's above the typical 3.21 average, a Year 1 school decile of 3 (below the average 5.71 but still reflecting effort), lower-middle family income, an LSAT score of 28 (under the average 36.70), and plans to attend full-time like most students. The biggest factor pushing the prediction toward failure was your Year 3 school decile of 1, which is notably lower than the average 5.53 and stood out as the most influential concern, suggesting a dip in performance that the model associates with higher bar exam risks. On a brighter note, your stronger undergraduate GPA played a major role in countering that, pulling the odds toward success more than any other positive factor. Your family income bracket also helped nudge things in a favorable direction compared to higher-income peers. Your Year 1 decile and LSAT score had smaller influences, with the former slightly helping and the latter mildly contributing to the risk. Overall, while some areas like your undergrad record shine brighter than typical students, the sharp drop in your later school deciles weighed heaviest against you in this specific prediction. This isn't a judgment on your potential—models like this highlight patterns, not destinies, especially for underrepresented students like yourself navigating systemic hurdles. To move forward, consider retaking the LSAT to boost your score toward the average, strengthening your later-year grades if possible through additional coursework, and seeking mentorship programs tailored for Black women in law to build a standout narrative for your next application. You're capable of turning this around, and many have—keep pushing with targeted improvements. With empathy and support, your path to law school is still very much open.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

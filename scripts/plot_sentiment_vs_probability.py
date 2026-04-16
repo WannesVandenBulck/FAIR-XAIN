@@ -32,9 +32,10 @@ except ImportError:
 # ============================================================================
 
 DATASET = "law"  # Options: "law", "credit", "saudi", "student"
-NUM_INSTANCES = 80
+NUM_INSTANCES = 50  # None = all instances, or specify a number
 PROMPT_TYPE = "shap"  # Options: "shap" or "cf"
-
+PROVIDER = "grok"  # LLM provider: "openai", "anthropic", "grok"
+MODEL = "grok-3-mini"  # Specific model: "gpt-4o", "grok-3-mini", etc. None = use all available models
 # Protected attributes for each dataset
 PROTECTED_ATTRIBUTES = {
     "law": ["gender", "race1"],
@@ -102,12 +103,11 @@ def load_adverse_instances(dataset, num_instances=None):
     return df
 
 
-def load_narratives_from_results(dataset, instance_indices, prompt_type, provider="openai"):
+def load_narratives_from_results(dataset, instance_indices, prompt_type, provider="openai", model=None):
     """Load narratives from results directory."""
     narratives = {}
     
-    results_dir = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}")
-    
+    results_dir = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/{model}")
     if not results_dir.exists():
         print(f"Results directory not found: {results_dir}")
         return narratives
@@ -125,6 +125,17 @@ def load_narratives_from_results(dataset, instance_indices, prompt_type, provide
                 print(f"Error loading narrative for instance {instance_idx}: {e}")
     
     return narratives
+
+
+def get_available_models(dataset, prompt_type, provider):
+    """Discover available models for a given dataset/prompt_type/provider combination."""
+    provider_path = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}")
+    
+    if not provider_path.exists():
+        return []
+    
+    models = [d.name for d in provider_path.iterdir() if d.is_dir()]
+    return sorted(models)
 
 
 def calculate_sentiment_scores(narratives):
@@ -217,7 +228,7 @@ def add_regression_line(ax, x, y, color, label_suffix=""):
 # PLOTTING FUNCTIONS
 # ============================================================================
 
-def plot_gender_comparison(adverse_df, narratives, sentiment_scores, dataset):
+def plot_gender_comparison(adverse_df, narratives, sentiment_scores, dataset, model):
     """Create scatter plot comparing male vs female narrative sentiments."""
     fig, ax = plt.subplots(figsize=(12, 8))
     
@@ -256,7 +267,7 @@ def plot_gender_comparison(adverse_df, narratives, sentiment_scores, dataset):
     # Formatting
     ax.set_xlabel('Predicted Probability of Failure', fontsize=13, fontweight='bold')
     ax.set_ylabel('Narrative Sentiment Score (TextBlob)', fontsize=13, fontweight='bold')
-    ax.set_title(f'Narrative Sentiment vs. Predicted Failure Probability by Gender\n{dataset.upper()} Dataset (n={len(adverse_df)} instances)', 
+    ax.set_title(f'Narrative Sentiment vs. Predicted Failure Probability by Gender\n{dataset.upper()} Dataset | Model: {model} (n={len(adverse_df)} instances)', 
                 fontsize=14, fontweight='bold', pad=20)
     
     ax.grid(True, alpha=0.3, linestyle='--')
@@ -266,14 +277,14 @@ def plot_gender_comparison(adverse_df, narratives, sentiment_scores, dataset):
     ax.legend(fontsize=11, loc='best', framealpha=0.95)
     
     plt.tight_layout()
-    output_path = Path(f"results/plots/sentiment_vs_probability_gender_{dataset}.png")
+    output_path = Path(f"results/plots/sentiment_vs_probability_gender_{dataset}_{model}.png")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"Saved: {output_path}")
     plt.close()
 
 
-def plot_race_comparison(adverse_df, narratives, sentiment_scores, dataset):
+def plot_race_comparison(adverse_df, narratives, sentiment_scores, dataset, model):
     """Create scatter plot comparing different races' narrative sentiments."""
     fig, ax = plt.subplots(figsize=(14, 8))
     
@@ -321,7 +332,7 @@ def plot_race_comparison(adverse_df, narratives, sentiment_scores, dataset):
     # Formatting
     ax.set_xlabel('Predicted Probability of Failure', fontsize=13, fontweight='bold')
     ax.set_ylabel('Narrative Sentiment Score (TextBlob)', fontsize=13, fontweight='bold')
-    ax.set_title(f'Narrative Sentiment vs. Predicted Failure Probability by Race\n{dataset.upper()} Dataset (n={len(adverse_df)} instances)',
+    ax.set_title(f'Narrative Sentiment vs. Predicted Failure Probability by Race\n{dataset.upper()} Dataset | Model: {model} (n={len(adverse_df)} instances)',
                 fontsize=14, fontweight='bold', pad=20)
     
     ax.grid(True, alpha=0.3, linestyle='--')
@@ -331,7 +342,7 @@ def plot_race_comparison(adverse_df, narratives, sentiment_scores, dataset):
     ax.legend(fontsize=11, loc='best', framealpha=0.95)
     
     plt.tight_layout()
-    output_path = Path(f"results/plots/sentiment_vs_probability_race_{dataset}.png")
+    output_path = Path(f"results/plots/sentiment_vs_probability_race_{dataset}_{model}.png")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"Saved: {output_path}")
@@ -347,35 +358,51 @@ def main():
     print("SENTIMENT VS. PREDICTED PROBABILITY VISUALIZATION")
     print("=" * 70)
     
-    # Load adverse instances
+    # Load adverse instances once for all models
     print(f"\nLoading adverse instances from {DATASET} dataset...")
     adverse_df = load_adverse_instances(DATASET, NUM_INSTANCES)
     print(f"  Loaded {len(adverse_df)} instances")
     
     instance_indices = adverse_df['instance_index'].astype(int).tolist()
     
-    # Load narratives
-    print(f"\nLoading narratives (type: {PROMPT_TYPE})...")
-    narratives = load_narratives_from_results(DATASET, instance_indices, PROMPT_TYPE)
-    print(f"  Loaded {len(narratives)} narratives")
+    # Determine which models to process
+    if MODEL:
+        models_to_process = [MODEL]
+    else:
+        models_to_process = get_available_models(DATASET, PROMPT_TYPE, PROVIDER)
+        if not models_to_process:
+            print(f"ERROR: No models found for {DATASET}/{PROMPT_TYPE}/{PROVIDER}")
+            print("Generate narratives first using: python scripts/make_narratives.py")
+            return
     
-    if len(narratives) == 0:
-        print("ERROR: No narratives found. Generate narratives first using make_narratives.py")
-        return
+    print(f"\nFound {len(models_to_process)} model(s) to process: {', '.join(models_to_process)}")
     
-    # Calculate sentiment scores
-    sentiment_scores = calculate_sentiment_scores(narratives)
-    
-    # Create plots
-    print("\n" + "=" * 70)
-    print("Creating visualizations...")
-    print("=" * 70)
-    
-    print("\n1. Gender Comparison Plot...")
-    plot_gender_comparison(adverse_df, narratives, sentiment_scores, DATASET)
-    
-    print("\n2. Race Comparison Plot...")
-    plot_race_comparison(adverse_df, narratives, sentiment_scores, DATASET)
+    # Process each model
+    for model_name in models_to_process:
+        print(f"\n{'='*70}")
+        print(f"Processing model: {model_name}")
+        print(f"{'='*70}")
+        
+        # Load narratives for this model
+        print(f"\nLoading narratives (type: {PROMPT_TYPE}, model: {model_name})...")
+        narratives = load_narratives_from_results(DATASET, instance_indices, PROMPT_TYPE, PROVIDER, model_name)
+        print(f"  Loaded {len(narratives)} narratives")
+        
+        if len(narratives) == 0:
+            print(f"  SKIPPING: No narratives found for model {model_name}")
+            continue
+        
+        # Calculate sentiment scores
+        sentiment_scores = calculate_sentiment_scores(narratives)
+        
+        # Create plots
+        print(f"\nCreating visualizations for model {model_name}...")
+        
+        print(f"  1. Gender Comparison Plot...")
+        plot_gender_comparison(adverse_df, narratives, sentiment_scores, DATASET, model_name)
+        
+        print(f"  2. Race Comparison Plot...")
+        plot_race_comparison(adverse_df, narratives, sentiment_scores, DATASET, model_name)
     
     print("\n" + "=" * 70)
     print("Visualization complete!")

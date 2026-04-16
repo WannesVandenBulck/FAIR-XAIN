@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 262,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:26:37.795713",
+  "status": "success",
+  "narrative": "I'm sorry to share this news, but the law school's admission model predicted a 69.3% chance that you would fail the bar exam on your first try, which led to the rejection of your application. This prediction is based on your academic record, including your Year 1 school decile ranking of 3—lower than the typical student's 5.71—and your Year 3 decile of 2, which is well below the average of 5.53. Your LSAT score of 34 falls short of the dataset average of 36.7, and your undergraduate GPA of 3.0 is slightly under the usual 3.21. Coming from an upper-middle family income bracket, which aligns somewhat with averages, along with being male, White, and planning full-time studies—traits common among applicants—rounded out your profile. In evaluating your case, the model weighed your Year 3 decile ranking as the most influential factor, as it strongly nudged the prediction toward expecting a bar failure compared to peers. Right behind it was your Year 1 decile, which also pushed in the same concerning direction, followed closely by your LSAT score exerting a similar pull. Your family income, undergraduate GPA, racial background, gender, and full-time status came next in influence, each contributing toward the failure prediction, though with less weight than your school rankings and test score. Overall, your standings in school deciles and LSAT were notably lower than what the model sees in students who typically pass the bar, setting you apart from the stronger profiles that get approved. While demographics like yours are common and didn't help much, they weren't the main drivers here. To improve your chances next time, focus on what you can realistically change: retake the LSAT to aim above 36.7, build a stronger academic record through graduate courses or additional certifications to offset past deciles, and seek bar prep resources early. Many students in similar spots have boosted their profiles this way and succeeded later. You're capable of turning this around—keep pushing forward.",
+  "error": null
+}

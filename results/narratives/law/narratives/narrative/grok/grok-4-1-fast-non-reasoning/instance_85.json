@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:33:54.909763",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've poured into your undergrad work and LSAT prep—it's tough to hear that your path to law school hit this roadblock because our model sees a 57.7% chance you might not pass the bar exam down the line. Picture it like this: the model looked at your story as a whole, and the biggest chapter that stood out was your Year 3 grades, placing you in the bottom decile at school—that was the strongest signal pulling toward this tough prediction, suggesting those final undergrad struggles might carry over into the high-stakes bar prep. Right behind that was your LSAT score of 35, which didn't quite shine as brightly as it needed to in the model's eyes, adding real weight toward the failure side. Your Year 1 decile of 2 followed closely, painting an early picture of grades that haven't climbed as hoped. Even with your solid undergraduate GPA of 3.2 and upper-middle family income, those factors nudged the outlook downward too, as the model has seen similar profiles struggle to bridge the gap to bar success. Your background as a white female pursuing full-time studies didn't shift things favorably here either, rounding out a combination that just didn't add up to the confidence we need for admission. It's not that any one piece defines you—it's how they all wove together into a riskier narrative than we can take on right now. The good news? You're early in this journey, and targeting areas like boosting those decile rankings or LSAT performance could rewrite your story for the next application cycle. You've got the drive; now it's about channeling it where it counts most. Hang in there—this isn't the end, just a detour.",
+  "error": null
+}

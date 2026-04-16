@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 342,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:52.765586",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an impressive LSAT score of 45, you've clearly worked hard to build a strong academic foundation, including top-decile rankings in both your first- and third-year school grades, while coming from an upper-middle-class family background and planning to attend full-time. The admissions model evaluated your profile to predict your chances of passing the bar exam on the first try, and unfortunately, it estimated a 60.8% probability that you would fail—high enough to lead to the rejection of your law school application, as the school prioritizes candidates likely to succeed on the bar. This prediction wasn't driven by any single flaw but by a balance of factors where some pulled strongly toward failure risk, outweighing your strengths. The most influential factor pushing toward a failure prediction was your family income bracket; even though upper-middle class is advantageous for many, in this model's assessment of bar outcomes, it stood out as the top contributor increasing your predicted risk compared to typical students. Next in influence, your third-year decile ranking of 10—well above the average of around 5.5—strongly pushed the model toward expecting you to pass, acting as a major positive counterbalance. Your LSAT score and undergraduate GPA, both above dataset averages, followed closely but unfortunately nudged the prediction slightly toward failure risk, perhaps because the model sees even high performers like you facing certain hurdles relative to bar success patterns. Lesser influences included your first-year top decile, which mildly increased risk, and your full-time status, which is common (over 90% of students) and had minimal impact. Overall, compared to typical applicants, your elite test scores and grades put you ahead in many ways, but the model weighed your family background as the dominant concern tipping the scales. This doesn't reflect your full potential or effort—it's just one data-driven view. To move forward, consider retaking the LSAT for an even higher score, seeking targeted bar prep resources, or applying to programs with holistic reviews that might value your strengths more. You have a bright path ahead; many overcome such predictions through persistence. Keep pushing, and best wishes for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

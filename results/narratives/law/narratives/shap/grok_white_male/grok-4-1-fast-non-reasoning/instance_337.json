@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 337,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:35.707135",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put real effort into your law school journey, including your undergraduate studies where you earned a 2.70 GPA and scored a 27 on the LSAT. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 56.9%—just over the threshold that led to your application's rejection. This decision hinged on a few key aspects of your profile that stood out as stronger risk factors compared to typical applicants. The most influential was your planned part-time enrollment, which is uncommon (only about 7% of students choose this over full-time), and it significantly pushed the prediction toward expecting bar failure, unlike the vast majority who go full-time. Next in importance, your Year 3 school decile ranking of 3—below the average of around 5.5—further nudged the model toward failure concerns, signaling relatively lower performance there compared to peers. On a brighter note, your undergraduate GPA actually worked in your favor, pulling the prediction toward passing since it's not far off the typical 3.21 average. Similarly, your LSAT score and Year 1 decile of 4 provided some positive counterbalance, as did your family income bracket, though their influence was milder. Overall, your profile compares to averages by being a bit lower in grades and test scores, with the part-time choice being the biggest outlier amplifying the risks. While this is disappointing, it's not the end of the road—consider retaking the LSAT to boost your score, aiming for full-time study if possible, or strengthening your recent academic decile through additional coursework. You might also explore programs with more flexible admissions criteria or preparatory bar support tailored for part-time students. We're rooting for you to turn this around and succeed in law. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

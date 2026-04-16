@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 364,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:12.123112",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a lower-middle family income background and plans to attend law school full-time, we've carefully reviewed your application using a predictive model that assesses the likelihood of first-time success on the bar exam. Your undergraduate GPA of 2.60 sits below the typical 3.21 average, while your LSAT score of 25 is notably lower than the usual 36.70, and your Year 1 and Year 3 school deciles both rank at the bottom (1st decile) compared to average mid-range positions around the 5th or 6th decile. The model estimates a 76% probability that you would fail the bar exam on your first attempt, which is why your application for admission has been rejected—law schools prioritize candidates predicted to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your low Year 3 decile ranking, which strongly signaled underperformance relative to peers in the dataset. Your LSAT score was the next biggest driver in the same direction, as it fell well short of what typically correlates with bar passage. On a more positive note, your lower-middle family income actually nudged the prediction slightly toward passing, performing better than average in that regard for admitted students. Your undergraduate GPA also helped a bit, offering a counterbalance despite being below average. Your Year 1 decile had a smaller push toward failure, while your full-time enrollment status provided a minor favorable influence, aligning with the vast majority of successful students. Compared to typical applicants who pass the bar, your academic markers like deciles, LSAT, and GPA are in the lower tails of the distribution, which outweighed the supportive elements in your profile. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your later-year academic deciles through targeted improvement, and perhaps exploring resources for undergraduate GPA context if applicable. Many students in similar situations have succeeded by addressing these core areas—reapplying after clear progress could position you much more competitively. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

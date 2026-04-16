@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 357,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:48.403110",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including scoring a 37 on your LSAT—which is right around the typical score for students in our dataset—and maintaining a 3.10 undergraduate GPA, slightly below the average of 3.21. You're planning to attend full-time, just like the vast majority of applicants at 92.7%. However, our admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 91.9% chance that you would fail it, leading to the unfortunate rejection of your application. This high predicted failure risk means the model saw your profile as carrying substantial uncertainty for bar success, prompting the school to prioritize candidates with stronger forecasted outcomes. The key drivers behind this prediction were your academic decile rankings from school years 1 and 3, both at the 1st decile—far below the averages of about the 5th or 6th decile—making them the most influential factors pushing the model strongly toward forecasting bar failure. Your LSAT score helped in the opposite direction, nudging the prediction toward success since it aligns well with typical strong performers. Other elements, like your undergraduate GPA, provided a modest counterbalance toward passing, while your family income bracket and full-time status had smaller roles, with income slightly tilting toward higher risk. Compared to typical students who pass the bar, your early academic deciles stand out as unusually low, overshadowing your other solid qualifications and setting you apart from the profile of successful bar takers. We understand this is disappointing, especially given your personal strengths and background. To move forward, consider retaking courses or programs to boost your decile rankings, as improving early academic performance has shown to shift predictions favorably for others in similar situations. You might also explore targeted LSAT or GPA enhancement strategies, then reapply once you've strengthened those foundational areas. We're rooting for your success and encourage you to use this feedback as a roadmap. Keep pushing—you've got the drive to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

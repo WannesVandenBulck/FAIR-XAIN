@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:59:13.279248",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing this path despite the challenges many face, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admission system uses a predictive model trained on data from thousands of students, looking at factors like grades, test scores, family background, and study plans to forecast the chances of passing the bar exam on the first try. For you, the model estimated a 54.9% probability of failing the bar exam, which crossed the threshold for denial—meaning it flagged your profile as higher risk compared to applicants predicted to pass with confidence. The biggest influences pulling toward a pass were your Year 3 school decile ranking, which was stronger than average and suggested good late-stage academic momentum, along with your upper-middle family income bracket and full-time study commitment, both of which the model sees as supportive factors in many successful cases. However, these positives were outweighed by concerns from your LSAT score, which fell notably below the typical 36.7 average and pushed the prediction toward failure, and your Year 1 decile of 4, lower than the average, signaling an early academic struggle that carried significant weight. Your undergraduate GPA, also below the dataset average, added a smaller but similar nudge toward the riskier outcome. Compared to typical students in the data—mostly full-time enrollees with stronger early grades and higher LSATs—your profile stood out as having more early hurdles, even with your later improvements and stable background. This isn't a judgment on your potential or the barriers you've overcome as a Black woman in this field; it's just how these key metrics stacked up against patterns from past bar takers. To move forward, consider retaking the LSAT to boost that score, as it's one of the top factors here, and highlight any steps you've taken to strengthen your early academic foundation, like additional coursework or testimonials. You might also explore programs with holistic reviews that weigh your unique story more heavily. Keep pushing—many in similar situations have succeeded by targeting these areas. We're rooting for you to turn this into a stepping stone.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

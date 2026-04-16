@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 107,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:26.988458",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated by our admissions model, which looks at patterns from thousands of past students to predict bar exam success on the first try. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, an undergraduate GPA of 2.50, an LSAT score of 31, and plans to attend full-time, which is the norm for most applicants. The model estimates a 60% chance that you would fail the bar exam on your first attempt, tipping the scales toward rejection to ensure we admit students likely to succeed. The biggest factor pushing toward this failure prediction was your low Year 3 decile ranking, which placed you in the bottom tier compared to the typical student's middle-of-the-pack standing and signaled potential struggles in later academics. Your Year 1 decile, also quite low relative to averages, reinforced this concern as the second-most influential red flag. On a brighter note, your undergraduate GPA stood out positively, pulling the prediction somewhat toward passing since it's a stronger signal than average for many applicants. Similarly, your LSAT score, though below the usual 36.7 average, still contributed helpfully in the model's eyes, as did your upper-middle family income and full-time enrollment plans, which align with successful profiles. Compared to typical students who pass, your early and late deciles are notably weaker, while your other strengths are solid but not enough to offset them here. This isn't a judgment on your potential as a white male from a supportive background—many in similar situations have improved with targeted effort. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through additional coursework or tutoring, and reapplying once you've addressed these key areas. We're rooting for your success and encourage you to use this feedback as a roadmap. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

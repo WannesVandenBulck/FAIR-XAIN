@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:59.264243",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 32, you've worked hard to build a strong academic foundation, including full-time enrollment plans and a lower-middle family income background that reflects your determination to pursue law despite challenges. The university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 57.4% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass on their first try. This decision hinged most heavily on your early academic performance, specifically your Year 1 school decile ranking of 1st, which stood out well below the typical student's 6th decile and strongly signaled higher risk of bar failure to the model. Next in influence was your undergraduate GPA, which actually worked in your favor by exceeding the average of 3.21 and pulling the prediction toward success. Your Year 3 decile of 2nd, however, also dragged the outlook downward compared to peers averaging around the 6th decile, reinforcing concerns about consistency. While your LSAT score was a bit below the usual 37, it had minimal sway, and factors like your full-time status and family income offered slight positive nudges. Overall, your profile compares to typical admitted students by having stronger undergrad grades but weaker high school deciles, tipping the scales toward predicted struggle on the bar. This isn't a judgment on your potential as a white male from a modest background—many in similar situations succeed with targeted effort. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades to climb those deciles, and perhaps seeking mentorship or bar prep resources tailored for full-time students. Reapplying after addressing these could shift your predicted odds dramatically. We're rooting for you to turn this into your story of perseverance.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

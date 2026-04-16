@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:30:17.422022",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and an LSAT score of 33, you've clearly put in significant effort to build a strong academic foundation, including planning to attend law school full-time from a middle-income family background. The admissions model we use evaluates your likelihood of passing the bar exam on your first try, and unfortunately, it predicted a 46% chance that you would fail, which is high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school—specifically, your third-year decile of 1, which ranks you at the lower end compared to the typical student's average of around the middle of the pack, and this stood out as the single biggest factor pushing the model toward expecting a bar failure. On a more positive note, your undergraduate GPA, which is notably stronger than the average applicant's at 3.21, worked strongly in your favor, pulling the prediction back toward success more than any other positive element. Your LSAT score, while below the dataset average of 36.70, also helped nudge things toward passing, showing your potential despite not being at the top tier. Your first-year decile of 3 had a smaller but still unfavorable influence, slightly reinforcing concerns about consistency in your school performance relative to peers. Meanwhile, your middle family income and full-time enrollment plans provided minor boosts, aligning with the majority of successful students in the dataset. Compared to typical applicants, your profile shines in undergraduate performance but lags in those key school deciles, which the model sees as the strongest signals for bar exam outcomes. While this is disappointing, it's not a definitive verdict on your abilities—many factors like dedication and preparation can shift real-world results. I encourage you to consider retaking the LSAT to boost it closer to or above average, strengthening your early academic record through additional coursework or explanations in future applications, and targeting schools with holistic reviews that value your standout GPA. You have the foundation to succeed; exploring post-baccalaureate programs or gaining relevant experience could make your next application even stronger. Keep pushing forward—we're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

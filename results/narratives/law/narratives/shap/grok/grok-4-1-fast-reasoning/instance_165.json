@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 165,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:26:33.987170",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 48% chance that you might not pass the bar exam on your first try, which is above our threshold for approval. This prediction is based on your academic record, including being in the lowest decile for grades in both your first and third years of school—much lower than the typical student's mid-range performance. Your LSAT score of 32 and undergraduate GPA of 2.8 also fall below the averages of 36.7 and 3.21 seen across applicants who generally succeed. As a White female from a middle-income family planning to attend full-time, your demographic and background details align closely with the majority of students in our dataset, so they played smaller roles here. The model's decision was most heavily influenced by your third-year school decile, which strongly pushed the prediction toward expecting a bar failure due to its low ranking. Right behind that was your first-year decile, similarly contributing to the risk assessment because of its bottom-tier standing. Your LSAT score came next in influence, with its below-average result nudging the odds further toward failure. Family income followed as a moderate factor, then your undergraduate GPA, both adding slightly to the concern in your specific case. Less impactful were your racial background, gender, and full-time status, which had minimal sway compared to your grades and test scores. Overall, your profile shows stronger alignment with students who struggled on the bar than those who passed easily. To boost your future chances, focus on targeted preparation like bar exam practice courses or tutoring, and if possible, retake the LSAT to aim higher—since your past grades highlight a need for building stronger study habits and performance under pressure. With dedication, you can shift these patterns and reapply stronger next time. We're rooting for your success.",
+  "error": null
+}

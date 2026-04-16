@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 410,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:51.604947",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strength and determination it takes to get here with your undergraduate GPA of 3.50 and solid LSAT score of 36. Your background, including your upper-middle family income and plans to attend full-time, reflects a promising path forward. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 72.7% chance that you would fail the bar on your first try—this high risk led to the rejection of your application to protect both you and the school's outcomes. The decision hinged most heavily on your school decile rankings from Years 1 and 3, where you placed in the 3rd and 2nd deciles respectively, well below the typical student's 6th decile range, strongly signaling to the model a heightened risk of bar failure. These early and later academic standings in your school were the top two factors pushing the prediction toward failure, outweighing your other strengths. On a brighter note, your above-average undergraduate GPA was a key positive influence, pulling the odds toward passing, much like it does for many successful students. Your LSAT score, close to the dataset average, also helped nudge the prediction in a favorable direction, showing your potential in standardized testing. Lesser factors, like your family income bracket and full-time status, had minimal sway but didn't hurt your case. Compared to typical students who pass the bar, your decile rankings stand out as notably lower, which is why they dominated the model's concern despite your solid GPA and LSAT. This isn't a reflection of your worth or potential as a Black woman trailblazer in law—it's a data-driven flag on those specific academic metrics. To move forward, consider retaking courses or programs to boost your school deciles, seek targeted bar prep resources tailored for diverse students like you, and reapply once you've strengthened those areas—we're rooting for your success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 123,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:29.581255",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong family income background, you've put significant effort into your law school journey, including scoring above average on your LSAT at 39.50 and maintaining a full-time student status, which is the norm for most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 43%, tipping the scales toward rejection of your application. This decision was driven primarily by your academic decile rankings from earlier years, which stood out as the biggest factors pushing the prediction toward failure. Specifically, your Year 3 decile of 1—well below the typical student's 5.53—had the strongest negative influence, signaling to the model a concerning dip in performance relative to your peers. Your Year 1 decile of 1, also far below average, reinforced this concern as the next most influential factor. On a brighter note, your solid LSAT score was the top factor pulling the prediction toward success, showing your potential in standardized testing. Your undergraduate GPA of 3.00, slightly under the average of 3.21, provided some positive counterbalance but wasn't enough to offset the early academic flags. Your high family income and full-time enrollment offered minor boosts toward passing, aligning with patterns seen in successful students. Compared to typical applicants, your LSAT shines brighter than most, but those low deciles in Years 1 and 3 deviate sharply from the mid-range performance that correlates with bar exam success. While this rejection stings, it's not the end of your path to law—consider retaking courses or building a stronger academic record to address those early deciles. Reach out to advisors for targeted prep, and reapply after demonstrating improvement; many students like you turn things around with focused effort. You've got the LSAT edge—lean into that strength for your next steps. Keep pushing forward; your story is still unfolding.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

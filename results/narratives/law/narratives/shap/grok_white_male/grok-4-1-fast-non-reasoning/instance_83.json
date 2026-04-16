@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 83,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:54.725240",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including scoring a strong LSAT at 40—above the typical student's 36.7—and planning to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 40%, tipping the scales toward rejection to prioritize students with lower predicted risks. This decision hinged most heavily on two key factors from your profile: your Year 3 school decile ranking of 1, which is well below the average of about 5.5 and strongly pushed the model toward predicting bar failure, outweighing even your impressive LSAT. Your LSAT, on the other hand, was the top positive influence, pulling the prediction toward success more than any other factor. Other elements like your undergraduate GPA of 2.6—lower than the typical 3.21—provided some downward pull toward passing but weren't as decisive, while your Year 1 decile of 2 (versus an average near 5.7) added a modest nudge toward failure risk. Your family income bracket and full-time status offered minor boosts toward a passing prediction, aligning with common successful profiles. Compared to typical students who pass, your mid-tier undergrad performance and especially that low Year 3 ranking stood out as bigger hurdles than your strengths could fully offset. I know this rejection stings, especially with your LSAT shining through, but it's not a reflection of your potential—it's the model's data-driven caution. To move forward, consider retaking courses or programs to boost your later-year deciles, as those proved pivotal here, and perhaps seek targeted bar prep to demonstrate growth. Many applicants in similar spots rebound stronger; you could reapply after addressing these academic flags, maybe even highlighting any upward trends in a personal statement. We're rooting for you to turn this into your success story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

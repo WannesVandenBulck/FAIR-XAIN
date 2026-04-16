@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 199,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:10.529297",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score of 40 and undergraduate GPA of 3.10, while planning to attend full-time. The admissions model we use predicted an 84% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the highest likelihood of bar passage success. This prediction was driven primarily by your academic decile rankings from school: your Year 3 decile of 2 was the biggest factor pushing the model toward expecting failure, as it signals performance well below the typical student's mid-range standing around the 5th or 6th decile. Your Year 1 decile of 2 reinforced this concern, ranking as the second-most influential element and further highlighting early struggles compared to peers who average over 5th decile. On a brighter note, your strong LSAT score stood out as the top factor pulling the prediction toward bar exam success, outperforming the dataset average of about 37 and showing your potential in that area. Your family income level nudged things slightly toward higher risk, as upper-middle brackets sometimes correlate with other pressures in this model, though less strongly than your grades. Your undergraduate GPA, just shy of the average 3.21, and full-time status had minimal sway but didn't offset the key concerns. Overall, compared to typical students who pass the bar, your early and later school deciles were notably lower, tipping the scales despite strengths like your LSAT. I know this is disappointing, especially given your dedication, and it's not a reflection of your full potential as an individual. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved most critical here, and perhaps seek targeted LSAT or GPA-enhancing prep to strengthen future applications. Many students in similar positions have succeeded by addressing these exact areas—keep pushing, and we're rooting for your next step.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

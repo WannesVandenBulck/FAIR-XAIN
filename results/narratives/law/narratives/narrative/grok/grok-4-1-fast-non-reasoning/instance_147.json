@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 147,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:37:34.092087",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application as a story of your journey toward becoming a lawyer, piecing together the chapters from your undergrad days through law school to predict if you'd pass the bar on the first try. Your story starts strong in their eyes with your undergraduate GPA of 2.5 and LSAT score of 36, but those numbers pulled the narrative toward a tougher road ahead, suggesting challenges in keeping up with the intense demands of legal studies. What weighed heaviest, though, were your Year 1 and Year 3 deciles both at 1.0—the lowest in your school—which painted the clearest picture of early struggles adapting to law school rigor, making the model see a higher risk of bar failure at 51.9%. Your lower-middle family income added another layer, as it often signals fewer resources for the extra tutoring or support that can make a difference in these high-stakes exams. Being a full-time white male student rounded out the profile, with those traits historically linked to patterns where others in similar spots faced steeper odds. It's not that any one part doomed your chances, but together they formed a composite sketch the model couldn't ignore, tipping the scales just over the edge toward predicting you'd need more time before succeeding on the bar. This isn't a judgment on your potential—far from it—but a data-driven glimpse at the patterns from thousands like you. The good news? Stories like yours can change with targeted steps, like bolstering those early grades or seeking financial aid for prep courses. You've got the drive to rewrite this narrative, and many do. Keep pushing; law needs voices like yours.",
+  "error": null
+}

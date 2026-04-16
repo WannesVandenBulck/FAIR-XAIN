@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 429,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:21.565878",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 34, you've worked hard to build a strong academic profile, including middle-family-income background and part-time enrollment plans, while ranking in the 5th decile for your first-year grades and 4th decile by your third year. The university's admission model, which predicts first-time bar exam success based on profiles like yours, estimated a 52.9% chance that you would fail the bar—tipping just over the threshold that led to your application's rejection. This decision hinged most heavily on your choice to attend part-time, which stood out as the biggest factor pushing the prediction toward failure, since the vast majority of students in the dataset—over 92%—opt for full-time and show stronger bar passage rates. Your LSAT score, though respectable, fell below the typical 36.7 average, further nudging the model toward concern by not providing as strong a counterbalance as it might have for others. On a brighter note, your undergraduate GPA actually exceeded the dataset average of 3.21, helping pull the prediction somewhat toward success and showing your potential. Your middle-income bracket and third-year decile rank played smaller roles in favoring failure, while your first-year decile was a minor positive. Compared to typical students who pass the bar, your part-time status is uncommon and correlated with higher risk in the model's view, even as your GPA shines above average. We understand this rejection feels disappointing, especially given your dedication. To move forward, consider reapplying with a full-time commitment if feasible, as that could dramatically shift your predicted odds, or retake the LSAT to boost it closer to or above average. You might also strengthen your school decile rankings through targeted academic strategies. Many students in similar situations succeed by addressing these key areas—your above-average GPA is a great foundation to build on. We're rooting for you to turn this into a stepping stone for law school success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

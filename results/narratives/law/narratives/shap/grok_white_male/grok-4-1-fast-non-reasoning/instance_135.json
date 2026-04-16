@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 135,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:37:12.722815",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong undergraduate GPA of 3.90 and a solid LSAT score of 40, you've clearly worked hard to build an impressive academic foundation, including your choice to pursue full-time studies and coming from a lower-middle family income background. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 43.9%—a threshold that unfortunately led to the rejection of your application, as the school prioritizes candidates predicted to succeed right away. The most influential factor pulling in your favor was your standout LSAT score, which is above the typical student's 36.70 average and strongly signaled to the model your potential to pass the bar. On the flip side, your Year 3 school decile ranking of 2—well below the average of 5.53—was the biggest concern, as it suggested inconsistent performance later in your studies and pushed the prediction toward failure more than any other element. Your undergraduate GPA, also notably higher than the 3.21 average, provided a helpful counterbalance by nudging the odds toward passing, much like your LSAT did. Meanwhile, your Year 1 decile of 3 (below the 5.71 average) added some moderate concern, though less than your later performance. Factors like your lower-middle family income and full-time enrollment status offered smaller positive boosts compared to typical applicants. Overall, while your test scores shine brighter than most, the model weighed your dip in school deciles—especially in Year 3—more heavily, viewing it as a key risk for bar exam success when stacked against the profiles of students who typically pass. This isn't a judgment on your potential as a white male applicant with your strengths; it's just how your specific academic trajectory compared to the dataset of past students. To move forward, consider retaking courses or programs to boost your school deciles, perhaps seeking targeted tutoring for consistency, and reapply once you've strengthened those areas—many students in similar situations have turned things around. We're rooting for you to ace the bar and build the legal career you deserve. Keep pushing; your high UGPA and LSAT show you're capable of it.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

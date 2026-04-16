@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:17:08.028091",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 78% chance that you would fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes being in the bottom decile for school grades in both Year 1 and Year 3, an LSAT score of 28, an undergraduate GPA of 2.8, middle family income, identifying as female and Black, and planning full-time studies. Typical students in our dataset rank around the middle—fifth or sixth decile—for those early grades, score about 37 on the LSAT, and have GPAs near 3.2, with most coming from white backgrounds and higher average family incomes around the 3.5 mark on our scale. The model weighed your Year 1 decile rank as the single biggest influence, pushing strongly toward a failure prediction since it was so much lower than average. Next in impact was your LSAT score, which also pulled the prediction toward failure by falling well below the norm. Your Year 3 decile followed closely, again contributing to the risk because of its low standing compared to peers. Family income, racial background, undergraduate GPA, full-time status, and gender had progressively smaller roles, all nudging toward higher failure odds in your case relative to dataset averages. Overall, your academic metrics—especially those early deciles and LSAT—stood out as the key drivers, setting you apart from the stronger profiles that predict bar passage. While demographics like race and gender played minor roles here, the academics dominated. To boost your future chances, focus on retaking the LSAT to aim for a score closer to 37 or higher, as that's a changeable factor with big influence. Building a stronger academic record through additional coursework or certifications could help offset low past deciles and GPA. Finally, targeted bar exam prep programs have helped many in similar situations pass on the first try—consider those to directly tackle the prediction. Keep pushing; many students turn predictions around with focused effort.",
+  "error": null
+}

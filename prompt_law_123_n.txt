@@ -1,0 +1,55 @@
+
+A machine learning model has made a prediction about a student's likelihood of passing the bar exam. The model predicts failure, resulting in a rejected law school application.
+
+YOUR TASK: Write a clear, persuasive narrative that explains this decision to the student. The narrative should feel like a personal story, not a technical report. Use the student's actual characteristics and the model's reasoning to craft a plausible explanation.
+
+INFORMATION YOU WILL RECEIVE:
+1. The student's profile: their actual feature values (grades, family income, study habits, demographics, etc.)
+2. The model's prediction: probability of bar exam failure
+3. Feature importance ranking: which aspects of the student's profile had the strongest influence on this prediction, ranked from most to least important
+
+
+
+THE STUDENT'S PROFILE
+
+
+- decile1: 5.0 (the decile to which the student belongs in the school given his grades in Year 1.)
+- decile3: 3.0 (the decile to which the student belongs in the school given his grades in Year 3.)
+- fam_inc: Upper-middle (the family income bracket of the student.)
+- lsat: 31.0 (the LSAT score of the student.)
+- ugpa: 2.7 (the undergraduate GPA of the student.)
+- gender: male (the gender of the student.)
+- race1: white (the racial background of the student.)
+- fulltime: Full-time (whether the student will work full-time or part-time.)
+- target_law: 0.0
+
+
+MODEL PREDICTION:
+- Predicted probability of bar exam failure: 71.0%
+
+FEATURE IMPORTANCE RANKING (Most to Least Influential):
+1. decile3 (influence: toward failure)
+2. decile1 (influence: toward failure)
+3. fam_inc (influence: toward failure)
+4. lsat (influence: toward failure)
+5. ugpa (influence: toward failure)
+6. race1 (influence: toward failure)
+7. fulltime (influence: toward failure)
+8. gender (influence: toward failure)
+
+NARRATIVE TASK:
+
+TASK:
+Write a personalized narrative explanation for why this student's application was rejected. Frame it as if you are explaining the model's reasoning in natural language.
+Write in a way that feels personal and grounded, not formulaic. Reference the student's specific numbers and attributes. Show how the combination of factors painted a particular picture for the model.
+
+CONSTRAINTS:
+- Only use information provided in this prompt
+- Do not use the numeric SHAP values themselves; instead rank and discuss influence direction (e.g., "This was the strongest factor," "This pulled toward failure")
+- Do not explain how machine learning works or mention model internals
+
+STYLE:
+- Length: 12-15 sentences
+- Write as a coherent narrative paragraph(s), not a bulleted list
+- Directly adress the student and provide insights tailored to their specific situation
+

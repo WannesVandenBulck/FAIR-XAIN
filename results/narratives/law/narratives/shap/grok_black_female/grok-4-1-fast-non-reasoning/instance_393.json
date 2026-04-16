@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 393,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:19:52.155629",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, we know how much heart and determination it takes to pursue this path, and we're here to help you understand the automated decision on your application in a clear way. Your profile includes a Year 3 school decile of 1, which is notably lower than the typical student's decile of around 5.5, a low family income bracket compared to most applicants' middle-to-higher levels, an LSAT score of 30 versus the average of 36.7, an undergraduate GPA of 2.4 against the usual 3.2, a Year 1 decile of 2 below the average of 5.7, and plans to attend full-time like the vast majority of students. The model assessed your likelihood of failing the bar exam on the first try at 42%, which crossed the threshold that led to your application's rejection—essentially, it flagged a higher-than-acceptable risk based on patterns from past students. The biggest factor pushing toward this failure prediction was your lower Year 3 decile ranking, as it stood out as a strong signal of potential challenges ahead compared to peers. On a more positive note, your low family income actually worked in your favor, pulling the prediction toward success more than any other element, likely reflecting how resilient students from similar backgrounds have often outperformed expectations. Your LSAT score and undergraduate GPA also nudged things positively, showing some strengths relative to what might drag others down. While your Year 1 decile had a minor push toward failure and full-time status barely factored in, the Year 3 performance ultimately tipped the scales. Compared to typical students who get approved, your academic deciles were well below average, though your income background gave you an edge many don't have. This isn't a judgment on your potential—it's just how your specifics stacked up in the model's review of thousands of similar journeys. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic record through additional coursework or targeted prep, and reapplying with updated highlights of your unique strengths as a Black woman trailblazing in law. You've got this—many have turned similar profiles around with focused effort. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 48,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:09:32.288488",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 50.9% chance you'll fail the bar exam on your first try, which is just over the threshold we use to make admission decisions. This prediction is based on your academic record, including your undergraduate GPA of 2.4—well below the typical 3.21 average—and your LSAT score of 31, compared to the usual 36.7. You also ranked in the bottom decile for grades in both your first and third years of school, far lower than the average fifth-decile performance for most students. Your family comes from an upper-middle income bracket, which is around average, and you're a full-time student like most applicants, male like over half of them, and Native American, a background shared by only about 2% of applicants. When the model weighed these details, your LSAT score had the strongest influence, pushing the prediction toward failure because it's notably below what succeeds for others. Right behind that were your low Year 1 and Year 3 grade deciles, which similarly signaled higher risk compared to peers. Your family income level came next in influence, followed by your racial background, undergraduate GPA, gender, and full-time status—all contributing in that order to nudge the odds toward expecting a bar failure rather than a pass. Overall, these factors placed you below the profile of students who typically pass, where stronger test scores and consistent high school rankings are common. The good news is some of these are changeable: consider retaking the LSAT to aim for a score closer to or above 37, as that's the top driver here and many improve with focused prep. Working on study habits could help boost future grade deciles if you're pursuing more education. While background factors like income, gender, race, and enrollment status are harder to shift, building a stronger academic track record now will make a big difference in future applications. We believe in your potential—many students turn predictions around with targeted effort. Reach out to advisors for LSAT resources or tutoring to get started.",
+  "error": null
+}

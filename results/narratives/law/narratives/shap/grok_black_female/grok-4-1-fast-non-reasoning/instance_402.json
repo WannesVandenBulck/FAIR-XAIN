@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 402,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:24.659771",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.40, which stands above the typical student's 3.21. Your family comes from a middle-income background, and you've chosen to pursue full-time studies, aligning with the vast majority of applicants who opt for that path. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 41%, a threshold that unfortunately led to the rejection of your application. This prediction was driven primarily by your academic decile rankings from school—specifically, your Year 3 decile of 1, which is well below the average of around 5.5 and strongly pushed the model toward forecasting a higher chance of bar failure. In contrast, your undergraduate GPA had the most significant positive sway, pulling the prediction in the direction of success and passing more than any other factor. Your Year 1 decile, also at 1 and lower than average, added a slight nudge toward failure, while your LSAT score of 20—below the typical 36.7—had a modest influence in the same concerning direction. Meanwhile, your middle family income and full-time status each offered small boosts toward a passing prediction, though not enough to outweigh the key concerns. Compared to typical students, your GPA shines brighter than most, but your lower school deciles and LSAT score place you below the pack in those critical areas that heavily influence bar outcomes. While this decision is disappointing, it doesn't define your potential—many applicants strengthen their profiles and succeed later. We recommend retaking the LSAT to boost your score, seeking ways to improve or contextualize your school deciles through additional achievements, and perhaps exploring post-baccalaureate programs or targeted bar prep resources tailored for underrepresented students like yourself. You're capable of turning this around, and we're rooting for your next steps toward law school success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

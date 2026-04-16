@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 91,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:15:50.207166",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 50% chance you'll fail the bar exam on your first try, which is the threshold we use to make these tough admission decisions. Your profile shows solid potential in some areas, but several key factors stood out as raising concerns about bar exam success. You ranked in the lower third of your school for Year 1 grades and at the very bottom for Year 3, which were the two strongest influences pushing the model toward predicting failure—far below the typical student's mid-range school rankings. Your LSAT score of 31 was the next biggest factor, as it's noticeably under the average of around 37 that successful students usually bring. Coming from a lower-middle family income bracket also contributed, since students from higher-income backgrounds tend to pass more often in our data. Your Hispanic background played a role too, as it's less common among bar passers compared to the mostly White students in the dataset. Your undergraduate GPA of 2.3, below the typical 3.2, added to the concern, along with planning to attend part-time rather than full-time like nearly all students. Being male was the least influential factor and didn't sway things much either way. Overall, these elements combined to tip the prediction right to that 50% failure risk, unlike typical admitted students who score higher across academics and come from more advantaged or majority backgrounds. The good news is you can take steps to shift this outlook—focus on boosting your academic performance through targeted prep courses, perhaps retaking the LSAT to aim above 37, and committing to full-time study if possible to match successful patterns. Building a stronger support network, like tutoring or mentorship tailored to your background, could also help mimic the profiles of bar passers. With dedication to these changes, you'd likely see a much brighter prediction next time around. Keep pushing—you've got the drive to turn this around.",
+  "error": null
+}

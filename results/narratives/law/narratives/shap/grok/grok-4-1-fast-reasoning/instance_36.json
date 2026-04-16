@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:07:43.064922",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 50.5% chance you'll fail the bar exam on your first try, which is just over our threshold for approval. This prediction is based on your academic history, like your Year 1 school decile of 3—lower than the typical student's 5.71—and your even lower Year 3 decile of 2, compared to the average of 5.53. Your LSAT score of 35.5 also falls short of the usual 36.7, while your undergraduate GPA of 3.2 is close to the average of 3.21. Other details, such as your middle family income bracket, being male, White, and planning full-time study, align closely with most applicants—male students make up 56.4% of the group, White students 83.8%, and full-time plans 92.7%. In assessing your case, the model weighed your Year 3 decile as the most influential factor, pushing the prediction toward failure more than anything else, followed closely by your Year 1 decile. Your LSAT score came next in impact, then family income, racial background, undergraduate GPA, gender, and full-time status—all nudging slightly toward the risk of failing the bar. Compared to typical students who pass, your earlier academic deciles stand out as notably weaker, tipping the balance despite your solid GPA and common demographic profile. While these influences are subtle, they collectively crossed the line into rejection territory. Looking ahead, you could realistically retake the LSAT to aim for a score above the average, which might strengthen future applications significantly. Building stronger late-stage academic performance, if you're still in school, or demonstrating improvement through additional coursework could also help offset those lower deciles. Finally, committing to intensive bar exam preparation early on is key, as it directly addresses the model's core concern about first-try success. With targeted efforts like these, you can shift the odds in your favor for another shot at admission.",
+  "error": null
+}

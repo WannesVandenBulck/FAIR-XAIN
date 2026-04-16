@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 334,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:36:54.981152",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I'm sorry to share that your law school application was rejected because our predictive model estimated a 51% chance that you might not pass the bar exam on your first try, which is just over the threshold we use for admissions decisions. This prediction is based on your academic record, including being in the bottom decile for grades in both your first and third years of undergrad—much lower than the typical student's mid-range performance. Your LSAT score of 33 also fell below the average of around 37 that we've seen in successful applicants. Additionally, your undergraduate GPA of 3.10 was slightly under the usual 3.21, your family income is in the low bracket compared to most, and as an Asian female planning full-time studies, your profile differs a bit from the majority who are white males. When the model weighed all this, your third-year decile rank had the strongest pull toward predicting a bar failure, followed closely by your LSAT score, then your first-year decile, family income, racial background, and undergrad GPA, with your gender and full-time status having minimal sway. Each of these top factors nudged the prediction toward failure rather than success, reflecting how they stack up against patterns in students who typically pass the bar. Overall, your metrics are below average in key academic areas that strongly signal bar exam readiness for most applicants. To boost your future chances, consider retaking the LSAT to aim higher, as that's one area you might realistically improve with focused prep. Building stronger study habits now could help mirror the performance of top decile students who pass more reliably. Seeking scholarships or support programs for lower-income students might also address background barriers indirectly. In the meantime, gaining relevant experience like internships could strengthen future applications, even if it doesn't change past grades. With targeted effort on these, you could shift your profile toward the successful side—many students turn things around. Keep pushing; your determination will make a difference.",
+  "error": null
+}

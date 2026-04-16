@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 127,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:36:24.061088",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've poured into your dream of becoming a lawyer, and I want to walk you through why our predictive model saw your path to the bar exam as an uphill battle—88% likelihood of not passing, based on patterns from thousands of students like you. At the top of what stood out was your Year 3 decile of 1.0, placing you in the lowest performance group that year, which was the strongest signal pulling the prediction toward failure, as it often foreshadows struggles with the kind of sustained rigor the bar demands. Right behind that was your LSAT score of 35.0, another heavy hitter toward the risk side, suggesting the analytical demands of law school might prove especially tough. Your Year 1 decile of 1.0 reinforced this picture, showing that early academic challenges at school weren't just a one-off but a consistent thread. Layered on top was your middle family income bracket, which the model associates with added pressures that can make the road harder without extra buffers. Your undergraduate GPA of 2.9 continued this trend, painting a story of grades that, while earnest, haven't yet cracked the high bar needed for bar success. Even factors like being a white female in a full-time program tipped the scales slightly toward risk in the patterns we've seen. It's this combination—low deciles across years, a modest LSAT and UGPA, and those supportive demographics—that together convinced the model your odds weren't strong enough for admission right now. But here's the empowering part: this isn't destiny; it's a snapshot urging you to target those weak spots, like boosting your study game or retaking the LSAT, to rewrite your story for next time. You've got the drive—full-time commitment says that loud and clear—and with focused changes, you can shift this narrative. We're rooting for you to come back stronger.",
+  "error": null
+}

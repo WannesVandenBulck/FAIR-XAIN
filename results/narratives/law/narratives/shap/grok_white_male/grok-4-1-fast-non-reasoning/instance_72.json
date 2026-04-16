@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:17.556744",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and a middle-class family background, you've put real effort into building a strong profile for law school, including planning to attend full-time. The admissions model we use predicted a 40.3% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying applications—we aim to select students with the highest likelihood of bar success to ensure their long-term achievement. This prediction wasn't a judgment on your potential as a person or your dedication, but a data-driven assessment based on patterns from thousands of past students. The two biggest factors pulling the prediction toward failure were your school decile rankings from Year 1 (2nd decile, well below the typical 6th decile) and Year 3 (1st decile, also much lower than average), suggesting your high school grades placed you in the lower performance groups compared to peers who typically pass the bar. On a brighter note, your undergraduate GPA stood out as a strong positive influence, well above the average of 3.21 and pushing the model toward expecting you to pass. Your LSAT score of 30, while below the usual 37, had a milder negative pull, and your middle-income family background actually nudged things slightly in a favorable direction, as did your full-time study plans, which align with most successful students. Overall, your profile compares to typical admitted students by having standout college grades that offset some concerns, but your earlier decile rankings raised red flags similar to those of applicants who struggled on the bar. These key elements—especially those early academic deciles—were the most influential in tipping the scales toward rejection. I know this news is disappointing, especially when you've achieved above-average undergrad success that shows real growth. To strengthen future applications, consider retaking the LSAT to boost it closer to average levels and gathering more context on your high school performance, like recommendations highlighting your improvement trajectory. You might also explore targeted bar prep resources or post-bac programs to demonstrate even stronger readiness. We're rooting for your success—many students in similar situations turn things around with focused next steps. Keep pushing forward; your story isn't over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

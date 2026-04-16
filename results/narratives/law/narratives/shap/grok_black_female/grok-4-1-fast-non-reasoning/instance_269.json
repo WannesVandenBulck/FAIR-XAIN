@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 269,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:12:31.634680",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strength and determination it takes to get here. Your profile shows a solid undergraduate GPA of 3.20, which is right around the typical level for students in our dataset, along with an upper-middle family income bracket and plans to attend full-time, just like the vast majority of applicants. However, your LSAT score of 31 is below the average of about 37 seen in past students, and your school deciles—3rd in Year 1 and 1st in Year 3—indicate grades that placed you in the lower ranks compared to your peers. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 45.3%, tipping the scales just enough to lead to the rejection of your application. The biggest factor pushing toward this prediction was your Year 3 decile ranking, as being in the lowest group there strongly signaled higher risk of bar struggles to the model. On a brighter note, your undergraduate GPA played the next largest role in the opposite direction, helping pull the prediction toward success since it matched typical strong performers. Your LSAT score followed closely, offering some positive influence despite being below average, while your Year 1 decile provided a modest boost by not being as low as it could have been. Smaller factors like your family income nudged slightly toward failure risk, but your full-time status helped a bit in the other direction. Compared to typical students who get approved, your lower Year 3 performance stood out as the key gap, setting you apart from those with consistently higher rankings. This isn't a judgment on your potential—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score, seeking targeted academic support to improve your decile rankings, or exploring programs with bar passage resources tailored for diverse students like yourself. You've got resilience on your side; keep pushing, and we're rooting for your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

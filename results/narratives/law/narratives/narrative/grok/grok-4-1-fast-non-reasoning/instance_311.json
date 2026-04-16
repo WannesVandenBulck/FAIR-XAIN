@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 311,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:46:55.914702",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application like they're piecing together the story of your journey to the bar exam, drawing from patterns they've seen in thousands of students just like you. Your Year 3 grades placed you in the 9th decile at school, which stood out as the strongest signal pulling toward the risk of not passing—it's like the model saw this as a late stumble that often trips up even strong starters. Right behind that was your Year 1 decile of 8, reinforcing a sense that your academic performance hasn't quite hit the consistent top tier needed to conquer the bar. Your upper-middle family income added another layer, as the model associates that background with profiles that, more often than not, face steeper odds in this high-stakes test. Even with your solid LSAT score of 42 and undergraduate GPA of 3.4—impressive marks that many would celebrate—these couldn't fully counterbalance those earlier flags, each nudging the prediction toward a 67% chance of failure. Your background as a white male and your plan to go full-time were bright spots, actually tilting things slightly in favor of success in the model's view. But overall, it was this combination—strong but not elite grades across key years, paired with your income bracket—that painted a picture of higher risk, leading to the tough call to reject your application. It's not a judgment on your potential or hard work; it's just the story the data told. The good news? You can rewrite it—maybe by targeting those decile rankings in future efforts or seeking targeted bar prep. You've got a 42 LSAT and 3.4 UGPA that show real capability; lean into that full-time focus and build from here. We're rooting for you to prove the odds wrong.",
+  "error": null
+}

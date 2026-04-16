@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:16.515443",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school journey, including choosing full-time studies ahead. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 54.9% chance you'll fail the bar—tipping just over the threshold that led to your application's rejection. This decision hinged on a few key aspects of your academic record that stood out most strongly to the model. Your Year 3 school decile ranking was a major positive force, pushing the prediction toward expecting you to pass, as it showed solid improvement from earlier years. However, your LSAT score had the strongest pull in the opposite direction, significantly raising concerns about bar exam readiness compared to typical applicants who average much higher. Similarly, your Year 1 decile was another notable drag, signaling a weaker start that influenced the model toward failure more than most students' early performances. Your undergraduate GPA added a smaller but still unfavorable nudge toward risk, while your family income and full-time status provided minor boosts, aligning well with successful peers. Overall, these factors placed you below the profile of students who typically pass, especially where test scores and initial grades weigh heavily. It's tough to hear, but this isn't a judgment on your potential—it's the model's data-driven read. To move forward, consider retaking the LSAT to boost that key metric, strengthening early-grade showings through additional coursework, and gathering strong recommendation letters highlighting your Year 3 progress. With targeted improvements, you can reapply stronger and shift those odds in your favor. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

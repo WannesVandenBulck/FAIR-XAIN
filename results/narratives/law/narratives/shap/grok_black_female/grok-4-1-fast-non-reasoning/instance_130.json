@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 130,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:03:59.889262",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dreams despite challenges, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admission system uses a model trained on data from thousands of students to predict their chances of passing the bar exam on the first try, and unfortunately, it estimated your risk of failure at a very high 97%, which triggered the denial to protect the school's outcomes. This prediction was heavily shaped by your academic rankings in school—specifically, your position in the lowest decile for both Year 1 and Year 3 grades stood out as the strongest factors pushing the model toward forecasting failure, well below what it sees in typical students who average mid-level deciles. Your LSAT score of 23.5, much lower than the dataset average of around 37, was the next biggest influence, signaling to the model a notable gap compared to peers who succeed. Even your undergraduate GPA of 2.1, below the average of 3.21, added to this concern, though it played a smaller role. On a brighter note, your lower-middle family income bracket and choice to attend full-time nudged the prediction slightly toward success, aligning with patterns for many students, but they weren't strong enough to offset the others. Overall, your profile compares to typical admitted students by having key academic metrics in the bottom ranges, which the model weighs heavily based on past bar exam results. This isn't a judgment on your potential or resilience—many overcome similar starts—but it explains the data-driven rejection. Moving forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through additional coursework, or exploring programs with supportive prep for bar success tailored to diverse backgrounds like yours. You're capable of turning this around, and targeted improvements could change the model's view dramatically. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

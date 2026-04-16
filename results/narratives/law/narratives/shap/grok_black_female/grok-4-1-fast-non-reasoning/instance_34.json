@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:57:50.100079",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive dedication in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile like your solid undergraduate GPA of 3.30, which is above average, your strong LSAT score of 40, also higher than typical, and your upper-middle family income background. Your school deciles of 7 in both Year 1 and Year 3 reflect consistent performance among your peers. However, the admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 43%, tipping the scales toward rejection to prioritize students with lower predicted risks. The biggest factor pushing toward this failure prediction was your choice to attend part-time, which is uncommon—only about 7% of students do so—and the model sees it as the strongest signal increasing your bar exam risk compared to the vast majority who go full-time. On a positive note, your Year 3 decile rank had the next strongest influence, pulling strongly toward predicting success, followed closely by your undergraduate GPA and LSAT score, both of which favorably outperformed averages and helped counterbalance the concerns. Your Year 1 decile and family income had milder effects, with the latter slightly nudging toward higher risk but not dominantly so. Overall, while your academic metrics shine brighter than many applicants, the part-time status stood out as the most influential hurdle in this data-driven decision, especially when compared to typical full-time students who form over 90% of the dataset. This doesn't define your potential—many overcome similar paths to excel. To move forward, consider reapplying with a full-time plan if feasible, bolstering your profile with additional test prep or experiences that highlight bar readiness, or targeting schools with flexible programs that value diverse backgrounds like yours. You're capable of great things; keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

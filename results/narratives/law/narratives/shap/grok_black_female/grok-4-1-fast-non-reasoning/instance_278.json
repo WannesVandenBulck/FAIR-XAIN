@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 278,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:13:07.130941",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown remarkable strength in achieving a stellar undergraduate GPA of 3.90, well above the typical student's 3.21, and you're planning to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 45% chance that you might fail it—high enough to lead to the tough decision of rejecting your application. This prediction wasn't about your potential or spirit, but stemmed from a few key factors in your academic record that stood out compared to others. The most influential was your Year 3 school decile ranking of 1, far below the average of about 5.5, which strongly pushed the model toward predicting bar failure because it signals a dip in performance relative to peers. Your LSAT score of 21, much lower than the typical 36.7, was the next biggest concern, further tilting the prediction toward risk. Meanwhile, your impressive undergrad GPA worked powerfully in your favor, countering some of that risk by showing your strong foundational abilities. Your lower-middle family income bracket also nudged things slightly toward success, perhaps reflecting resilience many admire. Less impactful were your Year 1 decile of 2, below average, and your full-time status, which aligned with the norm. Compared to typical students who pass the bar, your profile shines in GPA but lags in those later deciles and LSAT, which the model weighs heavily as bar success indicators. This isn't a judgment on you—it's a data-driven call to protect the school's outcomes. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year grades through targeted prep, and reapplying with an even more compelling story of your determination; many in similar situations have succeeded by addressing these exact gaps. You've got the GPA foundation—keep pushing, because your journey matters.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 235,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:18.561914",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid background, we understand how disappointing it must be to receive this rejection from our law school admissions process—it's a tough moment, and we're here to help you make sense of it. Your profile includes being in the lowest decile for grades in both your first and third years of school, an undergraduate GPA of 2.60, an LSAT score of 34, lower-middle family income, and plans to attend full-time, which is the norm for most applicants. The admissions model, trained on data from thousands of past students, predicted a 60.2% chance that you would fail the bar exam on your first try—a threshold that led to your application's rejection to protect our program's bar passage rates and your future success. The two biggest factors pushing the prediction toward failure were your low year-three school decile ranking, which had the strongest negative impact, and your similarly low first-year decile, which also significantly weighed against you compared to typical students who rank much higher on average. On a brighter note, your undergraduate GPA and LSAT score each pulled in the opposite direction, suggesting they demonstrate potential that offset some concerns, while your full-time status and family income had smaller positive influences aligning with successful peers. Overall, your academic decile rankings stood out as unusually low against the dataset averages of around the 5th or 6th decile, making them the dominant drivers in this tough call. This doesn't define your abilities—many students like you have turned things around with targeted effort. Next, we recommend retaking the LSAT to boost your score closer to the average of 36.7, strengthening your undergrad record through additional coursework or a post-bac program, and seeking mentorship to improve your school performance metrics. Consider part-time options or gap-year experiences that build your resume while you address these gaps. You're capable of this, and with focus, you can reapply stronger—reach out to our advisors for personalized guidance on your path forward. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

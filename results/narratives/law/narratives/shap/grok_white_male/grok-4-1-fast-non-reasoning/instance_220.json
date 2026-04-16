@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 220,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:27.558999",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and plans to attend law school full-time, you've put real effort into your application, and we appreciate the journey that's brought you here. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 47% chance of failure for you—high enough that it tipped the decision toward rejecting your application to protect the school's outcomes. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1st, which is notably lower than the typical student's 5th or 6th decile, signaling to the model a potential struggle in sustaining strong academic performance later on. On a brighter note, your undergraduate GPA stood out positively above the average of 3.21, strongly pushing the prediction toward bar exam success and showing your capability in college-level work. Your lower-middle family income bracket also worked in your favor compared to many applicants, as the model associates it with resilience that aids passing the bar. Your Year 1 decile of 3rd, while below average, still contributed somewhat positively by demonstrating early potential. Even your LSAT score of 28, lower than the usual 37, had a minor push toward failure but wasn't the dominant influence. Overall, these factors combined to outweigh your strengths, especially since your Year 3 performance was the most decisive red flag when stacked against typical students who rank higher in later years. This isn't a judgment on your character or potential—many applicants face similar hurdles and pivot successfully. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year grades through additional coursework or tutoring, and highlighting any family or personal resilience stories in a reapplication. You're clearly capable, as your UGPA shows, so targeted improvements could shift the model's view dramatically next time. Keep pushing; law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

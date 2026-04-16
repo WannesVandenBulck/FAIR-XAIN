@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 397,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:18.669485",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 36 and plans to attend law school full-time, you've put real effort into your application, and we appreciate the dedication it took to get here from your lower-middle family income background. Unfortunately, the admissions model predicted a 67% chance that you would fail the bar exam on your first try, which is the threshold we use to make tough calls like rejecting applications to protect our program's bar passage rates. This prediction stemmed primarily from your academic performance in school, where your Year 3 grades placed you in the bottom decile compared to your peers, making it the single biggest factor pushing the model toward expecting a bar failure. Your Year 1 grades, also in the bottom decile, reinforced this concern as the next most influential issue, suggesting early struggles that carried through. On a brighter note, your LSAT score, which is right around the average for students in the dataset, strongly pulled the prediction in the opposite direction, toward expecting you to pass the bar. Your undergraduate GPA of 2.50, below the typical 3.21 average, added some additional weight toward the failure prediction, though not as heavily as your school deciles. Meanwhile, your lower-middle family income and full-time enrollment status—both common among admitted students—helped nudge things slightly toward success. Compared to typical students who pass the bar, your school deciles stand out as much weaker, while your LSAT holds up well, putting you in a mixed but ultimately risky profile for first-time bar success. This isn't a judgment on your potential as a lawyer, but a data-driven flag based on patterns from thousands of past students. To move forward, we recommend retaking courses or seeking academic support to boost your decile rankings, perhaps through a post-bac program, and reapplying once you've strengthened those areas—many students in similar situations have turned things around. You're capable of this, and we're rooting for your next steps. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

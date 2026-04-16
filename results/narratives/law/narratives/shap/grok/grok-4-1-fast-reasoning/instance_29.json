@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:06:33.534696",
+  "status": "success",
+  "narrative": "I'm sorry to deliver this news, but the admissions model predicted a 91% chance that you would fail the bar exam on your first try, which led to the rejection of your law school application. Your profile includes being in the bottom decile for grades in both your first and third years of school—much lower than the typical student's mid-range position—along with an LSAT score of 26, well below the average of around 37, and an undergraduate GPA of 2.3 compared to the usual 3.2. You're from an upper-middle income family, identify as Asian, are female, and plan to attend full-time, which is common among applicants. The model weighed these factors carefully, with your third-year class decile having the strongest influence in pushing the prediction toward failure, followed closely by your first-year decile and your LSAT score. Your family income level, racial background, undergraduate GPA, full-time status, and gender came next in influence, all nudging the outcome further toward expecting a bar failure rather than success. None of these stood out as protective factors in your case; instead, they collectively reinforced the high-risk assessment when compared to students who typically pass. For instance, most successful applicants rank higher in their class deciles, score much better on the LSAT, and have stronger GPAs, placing you below the curve in these key areas. This isn't a judgment on your potential, but a data-driven flag based on patterns from past students. To improve your chances next time, focus on what you can control: retake the LSAT to aim for a score closer to or above the average, strengthen your academic record through additional coursework or a post-bac program to boost your GPA equivalent, and highlight any upward trends in later grades. Building a narrative of improvement around your class rankings could also help demonstrate growth. Consider targeted bar prep resources early, as the model sees your profile as higher risk without these changes. With effort in these areas, you could shift future predictions in your favor and open doors to admission. Keep pushing—you've got this.",
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 373,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:45.510969",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted an 86.7% chance that you would fail the bar exam on your first try, which is why your application for our law school was unfortunately rejected—it's designed to prioritize students likely to succeed on that critical test right away. This prediction stemmed from a close look at key parts of your profile, like your academic rankings, test scores, and grades, compared to patterns from thousands of past students. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking, which placed you in the bottom group—much lower than the typical student's mid-range standing—and this stood out as the strongest influence against you. Your Year 1 decile was also in the lowest group, well below average, reinforcing the model's concern about early academic momentum. On top of that, your LSAT score of 28 was notably lower than the average of around 37 seen in successful applicants, adding to the risk signal. Your undergraduate GPA of 2.50, while not the top driver, was below the typical 3.21, and your middle family income bracket didn't shift things much either, as it's common among applicants. Being full-time, like over 90% of students, had almost no impact here. Overall, your profile showed weaker academic indicators compared to those who typically pass the bar exam first time, pushing the model firmly toward its high failure probability. I know this stings, especially as a dedicated guy navigating these metrics, but it's not a judgment on your potential—many overcome similar starts. Next, consider retaking the LSAT to boost that score, strengthening your undergrad record through additional coursework if possible, and seeking targeted prep for bar-like exams to build proven momentum. Reapply after addressing these core areas, and schools like ours value growth stories; you're capable of turning this around. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

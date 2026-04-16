@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 419,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:40.937380",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate studies and LSAT preparation, while planning to attend full-time. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 54% chance of failure for you—high enough that it tipped the decision toward rejecting your application to help ensure we admit students with the strongest projected outcomes. This prediction was driven primarily by a few key factors from your profile, compared to patterns seen in thousands of past students. Your LSAT score of 23 stood out as the biggest push toward the failure prediction, as it's notably lower than the average of around 37 across applicants, signaling to the model a potential challenge in bar exam readiness. Your undergraduate GPA of 2.3 also contributed toward that concern, falling below the typical 3.2 average and reinforcing worries about academic stamina for law school demands. On a brighter note, your Year 3 school decile ranking of 5 was a strong counterinfluence, slightly better than the average of 5.53 and helping pull the prediction toward success by showing solid performance in later undergrad years. Your Year 1 decile of 5 was about average at 5.71 and provided a small positive nudge, while your upper-middle family income and full-time enrollment plans offered minor boosts compared to the broader student pool. Overall, your profile compares to typical applicants by having respectable later academic deciles and supportive background factors, but the lower LSAT and GPA carried the most weight in outweighing those strengths for this model's bar passage forecast. We understand this rejection stings, especially given your dedication, and it's not a judgment on your potential but a data-driven call to protect program outcomes. To move forward, consider retaking the LSAT to boost your score significantly—many students see big gains with focused prep—and strengthening your GPA through post-bac courses or highlighting upward trends in your record. You might also explore part-time programs or schools with holistic reviews that weigh your full-time commitment and family stability more heavily. Keep pushing; with targeted improvements, doors will open wider for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

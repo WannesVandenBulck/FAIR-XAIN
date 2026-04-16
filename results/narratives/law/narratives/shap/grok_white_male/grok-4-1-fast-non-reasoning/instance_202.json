@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 202,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:21.717726",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated using a predictive model trained on data from thousands of students who took the bar exam. This model assesses the likelihood of passing the bar on the first try based on academic records, test scores, and other background factors, and unfortunately, it estimated an 86% probability that you would fail—leading directly to the rejection of your admission. The primary reason for this tough prediction was your LSAT score of 24, which stands well below the typical score of around 37 seen in the dataset, strongly pushing the model toward expecting bar exam struggles. Reinforcing this concern was your Year 3 school decile ranking of 3, much lower than the average of about 5.5, signaling weaker performance in later undergraduate years compared to most peers. Your undergraduate GPA of 2.4, lower than the dataset average of 3.21, also contributed by nudging the prediction further toward failure, though to a lesser degree. On a more positive note, your Year 1 decile of 5—close to the average of 5.7—helped pull the odds slightly in your favor, as did your upper-middle family income, which is a supportive factor seen in many successful students. Planning to attend full-time, like the vast majority (over 92%) of students in the data, provided a small boost too, aligning you with the typical path. Overall, these elements combined to paint a picture riskier than that of average applicants, who generally show stronger standardized test results and consistent academic deciles leading to higher bar passage rates. While this decision feels disappointing, especially given your solid start in Year 1 and family support, it's not the end of your journey toward law. I encourage you to retake the LSAT to boost that critical score, strengthen your GPA through additional coursework or a post-bac program, and highlight any improvements in future applications. Many students in similar positions have turned things around by focusing on these core areas—your full-time commitment and background position you well to do the same. Keep pushing forward; persistence often leads to bar success and admission elsewhere.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

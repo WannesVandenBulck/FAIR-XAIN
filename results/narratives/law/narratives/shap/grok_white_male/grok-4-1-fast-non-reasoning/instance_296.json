@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 296,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:06.080684",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to pursue full-time studies, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 45% chance of failure for you—high enough that your application was rejected to prioritize candidates with stronger projected outcomes. This prediction stemmed from a careful look at key parts of your profile, like your undergraduate GPA, LSAT score, school decile rankings from Years 1 and 3, family income, and full-time enrollment plans. The two biggest factors pulling the prediction toward failure were your LSAT score and undergraduate GPA, both of which were notably below the typical levels seen in the dataset of past students—your LSAT at 22 compared to an average of about 37, and your GPA at 2.4 versus the usual 3.2. These stood out as the strongest influences pushing the model to see higher risk, even though other elements helped balance things. On a brighter note, your Year 3 school decile ranking of 5—right around the average of 5.5—was the most positive factor, suggesting solid improvement that nudged the prediction toward passing. Your middle-income background and full-time status also contributed positively in a smaller way, aligning with what's common for successful students (over 90% go full-time). Your Year 1 decile of 2 was a minor drag but didn't weigh heavily. Compared to typical students who pass the bar, your profile shows room for growth in those core academic metrics, where stronger scores often tip the scales. While this rejection stings, it's not the end—consider retaking the LSAT to boost that score, strengthening your GPA through post-bac courses if possible, or targeting schools with more holistic reviews. Keep building on your later academic gains, as they show real promise. You've got the determination; use this feedback to refine your path forward. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

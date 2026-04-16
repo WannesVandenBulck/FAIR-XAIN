@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 162,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:26:01.026858",
+  "status": "success",
+  "narrative": "I'm sorry to deliver this news, but the law school's admission model predicted a 57% chance that you would fail the bar exam on your first try, which tipped the decision against accepting your application. Your profile includes a third-year school decile of 1, meaning your grades placed you at the very bottom of your class that year, compared to the typical student's middle-of-the-pack standing around the 5th or 6th decile. Similarly, your first-year decile of 3 put you below average, well under the dataset's typical 5.7. Your LSAT score of 28 is notably lower than the average of about 37 seen in past students. On a brighter note, your undergraduate GPA of 3.4 exceeds the typical 3.2, and your lower-middle family income aligns somewhat with averages, while being female and White matches common demographics, and planning full-time study is the norm. When the model weighed these, your third-year performance had the strongest pull toward predicting failure, more than any other factor. Right behind it, your LSAT score reinforced that concern significantly. Your first-year decile came next in influence, followed closely by family income, with your UGPA, racial background, full-time status, and gender having progressively smaller roles—all nudging the prediction slightly toward failure in their own ways. Overall, these elements combined to make the model see higher risk compared to students whose profiles led to pass predictions. To improve your future chances, focus on boosting test performance like retaking the LSAT for a higher score, as that's a changeable factor admissions teams revisit. Building stronger academic habits now could help simulate better decile rankings in future evaluations. Seeking targeted bar prep resources might also address the patterns the model flagged in your record. With effort on these fronts, you could shift toward the profiles of successful bar takers. Keep pushing—you have strengths like your solid undergrad record to build on.",
+  "error": null
+}

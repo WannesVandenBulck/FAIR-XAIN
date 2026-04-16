@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:23.593987",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put in the effort to pursue law school, including committing to full-time studies, but I know receiving this rejection letter must feel disheartening after all your hard work. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and it estimated a 49.9% chance of failure for you—high enough that it tipped the scales toward denying your application to protect the program's success rates. This decision hinged mostly on a few key parts of your academic profile, starting with your LSAT score of 35, which is a bit below the typical applicant's 36.7 and actually worked in your favor by nudging the prediction toward passing. However, your Year 1 school decile ranking of 4—lower than the average of 5.71—had the strongest pull toward predicting failure, signaling to the model that your early undergrad performance might carry risks for the bar. Right behind that, your undergraduate GPA of 2.6, compared to the usual 3.21, also pushed significantly toward the failure side, reinforcing concerns about consistent academic strength. Your Year 3 decile of 4 was slightly below average too, but it helped a little by leaning toward a passing prediction, while your full-time status and middle family income bracket offered minor positive boosts, aligning with what most successful applicants share. Overall, when stacked against typical students who pass the bar, your profile shows promise in areas like the LSAT and study commitment, but the lower early grades and GPA stood out as the biggest hurdles compared to the stronger averages in the dataset. This isn't a judgment on your potential as a lawyer—it's just the model highlighting patterns from past bar-takers. To move forward, consider retaking the LSAT to boost that score further or strengthening your GPA through additional coursework or a post-bac program, which could reshape your profile for future applications. Many applicants in similar spots have succeeded by addressing these exact gaps, and with your determination, you can too—reach out to admissions advisors for personalized strategies. Keep pushing; your story isn't over yet.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

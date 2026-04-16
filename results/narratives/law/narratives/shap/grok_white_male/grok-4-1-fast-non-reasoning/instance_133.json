@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 133,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:37:05.690172",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put in the effort to pursue law school, including your undergraduate GPA of 3.00 and an LSAT score of 33, while planning to attend full-time like most students. Unfortunately, the admissions model predicted a 59.7% chance that you would fail the bar exam on your first try, which is just over the threshold that led to your application's rejection—it's designed to flag higher-risk candidates to protect the school's bar passage rates. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is much lower than the typical student's rank around the middle of the pack, signaling to the model that your later academic performance might not hold up for the rigors of law and the bar. Your Year 1 decile of 1 also contributed notably in the same direction, reinforcing concerns about consistent performance from the start compared to peers who rank higher. On a brighter note, your LSAT score had the strongest positive pull toward predicting success, as it's competitively close to the average of 36.7, showing real potential there. Your undergraduate GPA similarly nudged the prediction toward passing, even if it's a bit below the typical 3.21 average. Your middle family income and full-time enrollment plans offered smaller but helpful boosts toward success, aligning with the majority of students who succeed. Overall, while some of your strengths like the LSAT shine through, the low decile rankings in school grades outweighed them for this model, placing you below the profile of typical admitted students who pass the bar. This isn't a judgment on your character or potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost it further or strengthening your recent academic record through additional coursework or a post-bac program to improve those decile standings. You could also seek feedback from advisors on bolstering your application with letters highlighting your resilience. With targeted improvements, reapplying next cycle could shift the odds in your favor—keep pushing, you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

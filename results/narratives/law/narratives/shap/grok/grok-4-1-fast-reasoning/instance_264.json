@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 264,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:26:50.979282",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 60% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes a Year 1 school decile ranking of 2—much lower than the typical student's 6th decile—a Year 3 ranking of 4, also below the average 6th decile, an LSAT score of 25 compared to the usual 37, and an undergraduate GPA of 2.3 versus the standard 3.2. You're from a middle-income family, identify as an Asian female planning part-time work, which is less common than the full-time, majority-White profiles in our data. The model weighed these factors to predict bar passage risk, with your Year 3 decile having the strongest pull toward failure, more than any other trait. Next in influence was your Year 1 decile, which also significantly nudged the prediction toward expecting a struggle on the bar. Your low LSAT score ranked third in impact, reinforcing the model's concern about first-try success. Family income came fourth, followed by race, undergraduate GPA, part-time plans, and gender, each adding some push toward the failure prediction in that order. Overall, your academics stand out as weaker than most applicants who pass the bar, putting you below typical benchmarks across the board. To boost your future chances, prioritize retaking the LSAT for a higher score, as that's fully in your control and highly influential. Strengthening any upcoming grades or school rankings will help counter the early decile weaknesses. Consider full-time study if possible, since part-time paths correlated with higher risk here. With targeted improvements like these, you could shift the odds dramatically for another application cycle. Keep pushing—you have the power to change this story.",
+  "error": null
+}

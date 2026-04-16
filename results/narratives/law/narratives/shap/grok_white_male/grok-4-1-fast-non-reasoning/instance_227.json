@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 227,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:51.649715",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an LSAT score of 37, you've clearly worked hard to build a strong academic foundation, coming from an upper-middle-class family and planning to attend law school full-time. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 45.9% chance of failure for you, which crossed the threshold for rejecting your application to protect the school's bar passage rates. This decision was driven primarily by your school decile rankings from Years 1 and 3, both at the 1st decile, meaning your grades placed you at the bottom of your class—far below the typical student's 6th decile average—which strongly pushed the prediction toward expecting a bar failure. On a brighter note, your standout undergraduate GPA, well above the average of 3.21, worked significantly in your favor, pulling the odds toward passing, as did your LSAT score, which is slightly stronger than the typical 36.70. Your 1st-decile Year 1 ranking added further concern, reinforcing the model's worry about your in-school performance compared to peers who generally rank much higher. Meanwhile, your upper-middle family income and full-time enrollment status provided minor positive boosts, aligning with the majority of successful students. Overall, while your pre-law achievements shine brighter than most, your lower class rankings stood out as the biggest red flags, outweighing those strengths in the model's eyes when stacked against typical admits who balance high school deciles with similar GPAs and LSATs. This isn't a judgment on your potential as a lawyer, but a data-driven call based on patterns from past students. To move forward, consider retaking courses or seeking tutoring to boost your class rankings if possible, or target schools with more flexible admissions criteria that weigh your GPA and LSAT more heavily. You might also explore post-baccalaureate programs to demonstrate improved performance. We're rooting for you—many students in your position have succeeded by addressing these gaps head-on. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

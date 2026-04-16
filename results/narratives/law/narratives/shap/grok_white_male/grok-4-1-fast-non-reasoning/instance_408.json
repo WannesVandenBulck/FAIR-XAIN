@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 408,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:57.958057",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put together a thoughtful application highlighting your undergraduate GPA of 3.50 and other achievements. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 44.9% chance of failure—high enough that your application was rejected to prioritize candidates with stronger projected odds of success. This prediction was driven primarily by your school decile rankings from Year 1 and Year 3, both at the 3rd decile, which are notably lower than the typical 6th decile or higher for admitted students, pulling the model's assessment toward expecting bar exam struggles. Your LSAT score of 31 also played a key role, as it's below the average of around 37 seen in successful profiles, further nudging the prediction in an unfavorable direction. On a brighter note, your undergraduate GPA stands out as your strongest asset—well above the typical 3.21 average—which significantly pushed the model toward believing you could pass the bar. Your full-time enrollment plans helped a bit too, aligning with the vast majority of students who succeed, while your family income had only a minor influence. Compared to typical students who pass the bar, your academic deciles and LSAT lag behind the pack, even though your GPA gives you an edge over many. It's tough to hear this, especially when you've worked hard to get here, but these patterns in past data shaped the decision. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your Year 1 and 3 deciles through additional coursework or context in a new application, and gathering letters that highlight your resilience. Many students in similar situations have succeeded by addressing these gaps—reach out to admissions for feedback, and reapply stronger next cycle. You've got real strengths to build on; this is just one data point in your journey. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

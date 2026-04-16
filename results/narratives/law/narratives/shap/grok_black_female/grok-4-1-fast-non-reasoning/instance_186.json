@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 186,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:07:33.697793",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive dedication in your academic journey, with a strong undergraduate GPA of 3.70 that stands out well above the typical 3.21 average, and solid school decile rankings of 6th in both your first and third years, which are slightly better than average. You're planning to attend full-time, just like the vast majority of students at 92.7%, and your family falls into the middle income bracket. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 65.9%—a threshold that unfortunately led to the rejection of your application, as the school prioritizes applicants predicted to succeed. The most influential factor pushing toward this failure prediction was your LSAT score of 34, which is below the average of 36.7 and had the strongest negative pull on the model's outlook. Next in importance, your first-year decile ranking, while decent, still contributed toward the failure risk compared to top performers the model favors. Your middle family income bracket also played a notable role in nudging the prediction toward failure, as higher brackets often correlate with stronger outcomes in the data. On a brighter note, your third-year decile had a mild positive influence, helping pull slightly toward passing, as did your above-average undergraduate GPA and full-time status, though these weren't enough to outweigh the top concerns. Compared to typical students, your GPA is a real strength that sets you apart positively, but the LSAT gap was the biggest deviation dragging the prediction down. This isn't a judgment on your potential—it's just how your profile stacked up against patterns in past bar exam data. To move forward, consider retaking the LSAT to boost that score closer to or above average, as it could dramatically shift future predictions in your favor. You might also seek targeted prep for bar success or explore schools with more holistic reviews. Keep pushing; your strong GPA and resilience as a Black woman in this field position you well for another strong shot. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

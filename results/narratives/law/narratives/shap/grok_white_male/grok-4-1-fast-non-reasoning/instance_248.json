@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 248,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:08.873105",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, you've put a lot of effort into your application, but I know the rejection news is tough to hear. The university uses a predictive model that assesses your likelihood of passing the bar exam on the first try, based on factors like your early grades, later academic performance, LSAT score, undergraduate GPA, family income, and study plans. For you specifically, the model estimated a 90% chance of failing the bar exam, which is why your application was denied—schools aim to admit students predicted to succeed right away to maintain their strong bar passage rates. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, well below the typical student's 5.5-ish level, signaling to the model that your later academic performance might not hold up for the bar's demands. Your Year 1 decile of 2, also much lower than average, reinforced this concern as the second-most influential issue. Even your undergraduate GPA of 2.50, compared to the usual 3.21, added to the model's worries about your overall academic strength. Your LSAT score of 30, lower than the dataset average of about 37, and middle family income bracket played supporting roles in tipping the scales toward failure, while your full-time study plan had a minor positive nudge but wasn't enough to offset the rest. In contrast to typical admitted students, who often rank in the top half of their classes and have stronger test scores and GPAs, your profile stood out as riskier in these key academic areas. This isn't a judgment on your potential or character—it's just the model's data-driven read on bar success patterns. To move forward, consider retaking the LSAT to boost your score, strengthening your GPA through post-bac courses or a master's program, and seeking mentorship from law professors to improve your class rankings. Many students in similar situations have turned things around with targeted prep, and reapplying after addressing these gaps could open doors next cycle. You've got this—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

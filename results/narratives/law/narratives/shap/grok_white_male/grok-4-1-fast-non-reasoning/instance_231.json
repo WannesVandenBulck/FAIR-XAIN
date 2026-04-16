@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 231,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:04.282866",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an LSAT score of 37, you've clearly put in strong effort to build a competitive profile for law school, including your middle-family-income background and plans to attend part-time. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 55.2% chance that you would fail the bar on your first try—crossing the threshold that led to your application's rejection. This prediction wasn't a judgment on your potential or character, but a data-driven assessment comparing your details to thousands of similar students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the typical student's 5.5-ish level, suggesting your later academic performance in school raised concerns about sustaining momentum through law studies and the bar. Counterbalancing that somewhat was your strong undergraduate GPA, which stood out above the average of 3.21 and pulled the prediction toward expecting a pass. Similarly, your LSAT score edged slightly above the norm of 36.7, providing another positive nudge toward success in the model's eyes. Your Year 1 decile of 2 also contributed toward the failure side, though less strongly than Year 3, indicating early grades played a supporting role in the concern. Factors like your middle-income bracket and part-time status had minimal sway, as they're common and didn't shift the scales much. Overall, while your undergrad record and test scores shine brighter than most, your lower school deciles dominated the decision, placing you below the profile of students who typically pass the bar on their first attempt. To move forward, consider retaking courses or programs to boost your school deciles, gaining relevant experience to strengthen your narrative, or targeting schools with more flexible admissions that value your standout GPA and LSAT. You're already ahead in key areas—many applicants would envy those stats—so targeted improvements could flip this prediction next time. Keep pushing; your story isn't over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

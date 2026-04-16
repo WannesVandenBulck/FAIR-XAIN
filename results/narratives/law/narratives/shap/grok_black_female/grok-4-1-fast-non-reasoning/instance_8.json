@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:08.294991",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strengths in your profile, like your high family income bracket and solid LSAT score of 37, which is right around the typical student's level. Your undergraduate GPA of 3.10 is close to the average of 3.21, and planning to attend full-time aligns with what most students do. However, the admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 48% chance you'll face failure on that crucial test—high enough to tip the decision toward rejecting your application to protect the school's outcomes. The biggest factor pulling toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later academic performance might not hold up for the bar's demands. Nearly balancing that was your undergraduate GPA, which pushed strongly in the favorable direction toward passing, showing your college work was competitive. Your LSAT score also helped significantly, nudging the prediction toward success and matching what succeeds for most applicants. Unfortunately, your Year 1 decile of 1, lower than the typical 5.7, added another notable push toward the failure side, highlighting an early academic hurdle. Less influential but still supportive were your high family income and full-time plans, both leaning positive like the majority of students. Compared to typical applicants, your early and later deciles stand out as weaker spots that outweighed your other solid metrics. While this stings, especially given the barriers Black women like you often navigate in higher ed, it's not the end—consider retaking courses to boost your deciles, prepping intensely for the LSAT if possible, or targeting schools with holistic reviews that value your unique background. You have the drive; channeling it into strengthening those academic signals could flip the script next time. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 136,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:22:22.413060",
+  "status": "success",
+  "narrative": "I'm sorry to deliver this news, but the law school's admission model predicted a 72% chance that you would fail the bar exam on your first try, which led to the rejection of your application. This prediction is based on your academic history, like being in the 2nd decile for grades in both your first and third years of school—much lower than the typical student's 6th decile or so. Your LSAT score of 25 and undergraduate GPA of 2.5 also fell well below the averages of around 37 and 3.2, respectively, which the model weighed heavily. As a full-time student from a middle-income family, identifying as female and Asian, your profile aligns with some common patterns but stood out in ways that concerned the model. Among all these factors, your third-year decile rank had the strongest influence, pushing the prediction toward failure because it signals weaker performance relative to peers. Right behind that was your LSAT score, which similarly nudged the odds higher for not passing the bar. Your first-year decile came next in importance, reinforcing the same concerning trend from early on. Family income level, racial background, undergraduate GPA, full-time status, and gender followed in descending order of impact, each contributing a bit more toward the failure prediction compared to what would favor passing. Overall, your academic metrics were the dominant drivers, setting you apart from typical applicants who tend to have stronger showings in these areas. While demographics like gender and race played smaller roles, they didn't offset the gaps in grades and test scores. To improve your chances next time, focus on bolstering your academic foundation—consider retaking the LSAT to aim higher, or pursue post-baccalaureate courses to lift your GPA equivalent. Targeted bar exam prep programs could also help, emphasizing the study habits that might have shown up in your lower deciles. With dedication to these steps, you can shift your profile toward the stronger performers the model favors. Keep pushing forward; many students turn things around with focused effort.",
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:57.965122",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, your law school application was carefully evaluated by our admissions model, which looks at patterns from thousands of past students to predict bar exam success. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 2, an LSAT score of 25, an undergraduate GPA of 2.40, and plans to attend full-time—credentials that stand out when compared to typical applicants, who average much higher deciles around 5-6, LSAT scores near 37, and GPAs over 3.2. The model estimates a 48% chance that you would fail the bar exam on your first try, which is uncomfortably high and the key reason your application was rejected, as the school prioritizes admitting those predicted to pass and succeed in their legal careers. The most influential factor pulling in a positive direction—toward predicting you'd pass—was actually your middle family income, which the model sees as a supportive backdrop compared to lower brackets that sometimes correlate with higher failure risks. However, your Year 3 decile ranking second in influence strongly pushed the prediction toward failure, as it's well below the average and signals challenges in sustaining strong performance later in school. Close behind, your LSAT score had a similar negative pull, being significantly lower than what most successful bar takers achieve. Your Year 1 decile offered some counterbalance by nudging toward success, though not enough to offset the others, while your undergraduate GPA provided a modest positive influence, and your full-time status was a smaller helpful factor aligning with the vast majority of passers. Overall, these academic metrics, especially the lower deciles and LSAT, outweighed the strengths in your background when stacked against typical admitted students who boast higher scores across the board. I know this rejection stings, especially as a determined guy from a white, middle-class family chasing your legal dreams, but it's not a judgment on your potential—it's the model's data-driven caution. To move forward, consider retaking the LSAT to boost that score, strengthening your upper-year grades if possible, or exploring programs with bar passage support tailored to profiles like yours. Many students in similar spots have rebounded by targeting schools with flexible admissions or prep resources—keep pushing, and you'll find your path. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

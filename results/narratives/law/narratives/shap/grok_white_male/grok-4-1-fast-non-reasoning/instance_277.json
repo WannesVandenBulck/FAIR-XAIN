@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 277,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:54.210889",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 94% chance that you would fail the bar exam on your first try, which is why your application for our law school was unfortunately rejected—it's designed to prioritize students with the strongest likelihood of bar success to ensure high pass rates. This prediction was driven primarily by your academic rankings in school, particularly your position in the second decile for both Year 1 and Year 3 grades, which stood out as the biggest factors pushing the model toward expecting a failure. Your LSAT score of 28 also played a significant role in that direction, as it signaled potential challenges in bar-level performance compared to what the model typically sees in successful students. While your undergraduate GPA was close to the average and actually nudged the prediction slightly toward passing, it wasn't enough to offset those top concerns. Your middle family income bracket had a modest influence toward failure, whereas your choice of full-time enrollment had almost no impact. Compared to typical students in our dataset—who average around the sixth decile for Year 1 and Year 3 grades, an LSAT near 37, and a slightly higher GPA—your profile fell notably below those benchmarks in the key areas that matter most for bar passage. This isn't a judgment on your potential or character, but a data-driven assessment based on patterns from past students. To move forward, I recommend retaking the LSAT to boost your score, strengthening your academic decile through additional coursework or post-bac programs, and perhaps seeking mentorship from bar-passed alumni who started from similar positions. Many applicants in your shoes have succeeded by targeting these areas—reapply once you've addressed them, and consider schools with strong support for full-time students like yourself. You've got this; persistence pays off in law. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

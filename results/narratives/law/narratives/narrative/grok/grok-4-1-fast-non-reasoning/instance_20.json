@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 20,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:30:09.046269",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've poured into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as riskier than we'd hope—landing at a 47% chance of not passing. Picture your journey starting strong in your first year, placing you in the top decile at school, but by year three, things shifted to the 4th decile, and that slide became the biggest signal pulling the prediction toward failure, like a promising story hitting unexpected roadblocks. Your LSAT score of 24 followed close behind as the second strongest factor, whispering doubts about the raw analytical edge needed to conquer the bar's brutal logic puzzles. Even your solid undergraduate GPA of 3.3 couldn't fully counterbalance that, ranking fifth in influence but still tipping toward the tougher outcome. Coming from a middle-income family added another layer of challenge in the model's eyes, as it often correlates with fewer resources for the intense prep ahead. Your choice to go part-time, while practical for balancing life, nudged things further toward risk, and your white racial background played a small but similar role in the overall picture. Being female was the one bright spot, gently pulling in the direction of success amid these headwinds. It's this combination—early promise fading over time, a modest LSAT, and practical realities stacking up—that painted you as a higher-risk bet for passing the bar on the first try. This isn't about your potential or heart; it's the model connecting patterns from thousands of similar stories. If you boost that late-game performance or LSAT prep, you could rewrite this narrative entirely. Hang in there—you've got the grit to pivot and prove it wrong.",
+  "error": null
+}

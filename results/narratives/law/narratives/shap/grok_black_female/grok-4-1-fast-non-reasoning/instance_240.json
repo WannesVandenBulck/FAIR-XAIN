@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 240,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:10:46.410990",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in this field, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at patterns from past students—like their early and later school grades, undergraduate GPA, LSAT scores, family income, and whether they plan full-time studies—to predict the chances of passing the bar exam on the first try. For you, it calculated a 52.7% probability of failing the bar exam, which tipped the scales just over the threshold for denial, as the school prioritizes applicants predicted to succeed right away. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of the pack, signaling to the model a potential struggle in later academic performance. Your Year 1 decile of 3 also contributed somewhat toward the failure side, again below the average, suggesting an early pattern that concerned the model. On a brighter note, your undergraduate GPA of 3.30 exceeded the typical 3.21 average, strongly pulling the prediction back toward passing and showing your college-level strength. Similarly, your LSAT score of 36.50 was very close to the average of 36.70, offering a mild positive nudge toward success, while your upper-middle family income and full-time study plans provided smaller boosts in the model's eyes. Compared to typical students, your academic deciles stand out as weaker spots, even as your undergrad record and test score hold up well, which is a common hurdle for many applicants from similar backgrounds. This isn't a judgment on your potential—it's the model weighing these specifics against historical patterns. To move forward, consider retaking courses or programs to boost your school deciles if possible, preparing even more rigorously for the LSAT to push it higher, and gathering letters highlighting your resilience as a Black woman in law. You might also explore schools with holistic reviews or bar prep support tailored to diverse students. Keep pushing; many have turned similar predictions around with targeted improvements. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 424,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:59.379610",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and a middle-class family background, you've put real effort into your law school journey, including planning to attend full-time. The admissions model we use predicted a 57.2% chance that you would fail the bar exam on your first try, which tipped the scales toward rejecting your application to help ensure we select students most likely to succeed long-term. This prediction wasn't random—it hinged on a few key aspects of your profile compared to thousands of past students. The most influential factor pulling in a positive direction was your undergraduate GPA, which is close to the typical 3.21 average and suggested you have the academic foundation to pass the bar. However, your LSAT score of 25, well below the average of about 37, had the strongest negative pull, strongly signaling to the model a higher risk of bar failure. Your Year 3 school decile ranking of 2, lower than the average of 5.53, also pushed the prediction toward failure more than most other elements. Your Year 1 decile of 3 was a minor drag compared to the typical 5.71, while your full-time status and family income bracket played smaller roles, leaning slightly positive like they do for most applicants. Overall, your profile stands out as having weaker standardized test performance and later-year grades than the typical successful student, who often enters with stronger LSATs and higher deciles. This isn't a judgment on your potential—it's the model's data-driven read on bar passage odds. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year academics, or exploring programs with more flexible admissions while building bar prep experience. You're capable of turning this around, and many do with targeted improvements. Keep pushing—we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

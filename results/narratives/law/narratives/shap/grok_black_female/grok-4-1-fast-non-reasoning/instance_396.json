@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 396,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:02.039524",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer despite the challenges many face in this field. Your profile includes a strong start with top decile performance in your first year of school, solid upper-middle family income support, a full-time study commitment, an undergraduate GPA of 2.70, and an LSAT score of 29.50—credentials that reflect your hard work amid a competitive landscape. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated your chance of failing the bar at 41%, a risk level that unfortunately tipped the decision toward rejecting your application to protect the school's outcomes. The biggest factor pulling the prediction toward failure was your first-year school decile ranking, as it stood out as lower than what typically leads to bar success, even though your third-year decile was more average and somewhat helped your case. On a brighter note, your LSAT score and undergraduate GPA both pushed strongly in favor of passing, performing better than the model expected for high-risk profiles and showing your academic potential. Your family's upper-middle income and full-time dedication also nudged the odds toward success, aligning with traits of students who typically pass. Compared to average applicants—who have first-year deciles around the 6th rank, third-year around the 6th, LSATs near 37, GPAs over 3.2, and similar income levels—your early performance was the key outlier dragging the prediction down, while your other strengths kept the failure probability from being even higher. This isn't a judgment on your worth or potential; it's the model highlighting where historical data shows the toughest hurdles for bar passage. To move forward, consider retaking the LSAT to boost that score further, strengthening your early academic record through additional coursework or recommendations, and exploring programs with holistic reviews that value your unique background as a Black woman. Many have overcome similar predictions by targeting schools with strong bar prep support or bridging programs. You're capable of rewriting this story—keep pushing, and reach out to mentors who've walked this path. You've got this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 302,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:14:30.792633",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score and upper-middle family income background. The admissions model predicted a 56% chance that you would fail the bar exam on your first try, which tipped the decision to reject your application—it's a tough threshold designed to prioritize students likely to succeed in this demanding field. Your undergraduate GPA of 2.80, below the typical 3.21 average, was the biggest factor pushing the prediction toward failure, signaling to the model a potential challenge in sustaining the high academic performance needed for the bar. On a brighter note, your LSAT score of 37, slightly above the average of 36.70, strongly pulled in the opposite direction, suggesting real promise in your test-taking ability under pressure. Your Year 3 school decile ranking of 5, right around the average, added some concern by not standing out as exceptionally strong, while your Year 1 decile of 10 was a modest positive that helped a bit. Being in the upper-middle income bracket nudged things slightly toward higher risk in the model's eyes, compared to broader trends, and your full-time student status was a small favorable note, as most applicants share that path. Overall, these elements combined to outweigh your positives, especially since your undergrad grades stood out as the most influential drag against students who typically pass the bar. It's not a reflection of your potential as a Black woman breaking barriers in law—many with similar starting points have thrived with targeted growth. To move forward, focus on bolstering your GPA through post-bac courses or a master's program, retake the LSAT if possible to push it higher, and gather strong recommendation letters highlighting your resilience. Reapply after addressing these key areas, perhaps to schools with holistic reviews that value your unique background. You've got this—keep pushing, and we're rooting for your success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

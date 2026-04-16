@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 242,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:44.065157",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and middle-family income background, you've put real effort into your law school journey, including your Year 1 school decile of 6 and Year 3 decile of 8, along with planning to attend full-time. The admissions model we use predicted a 70% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the strongest predicted odds of bar passage success. This prediction was driven primarily by your LSAT score of 32, which stands below the typical applicant's 36.7 and had the strongest pull toward forecasting a failure risk. While your Year 3 school decile of 8—well above the average of 5.53—worked strongly in your favor, pushing the prediction toward success, it wasn't quite enough to offset the LSAT concern. Your middle-family income bracket also nudged the model toward higher failure risk compared to many applicants, followed by your undergraduate GPA of 3.40, which is above average at 3.21 but still contributed somewhat to the risk side. Your Year 1 decile of 6, slightly above the 5.71 average, and full-time enrollment status had minimal sway in the decision. Overall, compared to typical students who get approved, your profile is competitive in GPA and later-year performance but lags notably on LSAT, where stronger scores are key to tipping predictions toward passing the bar. This isn't a judgment on your potential as a white male from a middle-income family—many in similar situations succeed with targeted improvements. To move forward, I recommend retaking the LSAT to aim higher, perhaps while strengthening study habits that boosted your Year 3 decile. Consider gaining more academic momentum or exploring part-time options if it fits your goals, and reapply once you've bolstered that key area. We're rooting for you to turn this around and join us soon.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

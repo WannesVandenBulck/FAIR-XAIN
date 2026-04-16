@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 115,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:55.508457",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated by our admissions model, which looks at patterns from thousands of past students to predict bar exam success. Your profile includes being in the lowest decile for grades in both your first and third years of school, an undergraduate GPA of 2.90, an LSAT score of 21, and plans to attend full-time. The model predicts an 82.8% chance that you would fail the bar exam on your first try, which is why your application was rejected—schools use this to prioritize students likely to pass and succeed in their legal careers. The biggest factor pushing toward this failure prediction was your low third-year school decile ranking, as it stood out well below the typical student's mid-range performance and strongly signaled challenges ahead. Your first-year decile, also in the bottom rung compared to averages around the middle of the pack, reinforced this concern as the second-most influential issue. Your LSAT score, far below the dataset average of about 37, added further weight toward the failure prediction, highlighting a key area where you differed from stronger applicants. On a more positive note, your undergraduate GPA of 2.90—slightly under the average—actually nudged the prediction a bit toward passing, showing some resilience in your college record. Your upper-middle family income contributed modestly toward the failure side, perhaps reflecting expectations for higher performance from similar backgrounds, while your full-time enrollment plans offered a small boost toward success, aligning with the vast majority of students who pursue that path. Overall, your academic deciles and test scores placed you significantly below typical admitted students, who tend to rank higher and score stronger on metrics like the LSAT. While this is disappointing, it's not the end of your journey—consider retaking the LSAT to boost your score, improving your school grades if possible, or exploring part-time programs or alternative law paths that build your record. We're rooting for you to strengthen these areas and reapply stronger. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

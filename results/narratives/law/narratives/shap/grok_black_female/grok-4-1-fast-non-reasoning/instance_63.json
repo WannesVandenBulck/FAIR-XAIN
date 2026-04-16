@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 63,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:59:39.360352",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown real determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.50—which is actually above the typical student's 3.21—and your choice to attend full-time, just like the vast majority of applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on academic and background factors, estimated your risk of failure at 61.9%, tipping the decision toward rejection to prioritize students with lower predicted risks. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 3, well below the average of 5.53, signaling to the model a notable dip in performance compared to peers. This outweighed your stronger Year 1 decile of 5 (close to the average 5.71) and was compounded by your LSAT score of 33, lower than the typical 36.70, both nudging the odds higher for bar struggles. On a brighter note, your above-average undergrad GPA strongly pushed the model toward expecting success, acting as a key counterbalance, while your upper-middle family income bracket had a modest influence toward higher risk, perhaps reflecting patterns in the data. Overall, these elements placed you outside the profile of students the model sees as safest bets for bar passage, where stronger later-year grades and higher LSATs are common hallmarks. It's tough to hear, especially given the unique challenges many Black women face in competitive academic paths, but this isn't a judgment on your potential—it's one data-driven snapshot. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year performance through targeted study or additional coursework, and highlighting any extenuating circumstances in a future application. You might also explore programs with holistic reviews or bar prep support tailored for diverse students like yourself. Keep pushing; many have turned similar setbacks into bar-passing triumphs. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

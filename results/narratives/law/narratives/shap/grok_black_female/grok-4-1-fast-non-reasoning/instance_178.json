@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 178,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:07:05.026626",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid upper-middle family background and commitment to full-time studies. Your undergraduate GPA of 3.00 sits a bit below the typical 3.21 average, your LSAT score of 35 is slightly under the usual 36.70, your first-year school decile of 6 is right around the average of 5.71, and your third-year decile of 9 is notably higher than the typical 5.53. The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 64% chance you'll face failure on that crucial test—high enough to lead to the tough decision to reject your application right now. The biggest factor pulling in a positive direction was your strong third-year performance, which stood out well above average and suggested real improvement and potential for passing the bar. However, your undergraduate GPA had the strongest negative pull, pushing the prediction more toward failure risk compared to most applicants. Your first-year grades followed as another key concern, being just average and adding to the model's worries about early consistency. Your LSAT score, family income, and full-time status each played smaller roles in tipping the scales toward higher failure odds, though none dominated the decision. Overall, while your later academic gains shine brightly—especially impressive given the challenges many Black women navigate in competitive environments—the model weighed your earlier metrics heavily against typical successful students, who often enter with stronger undergrad records and test scores. This isn't a judgment on your worth or potential; it's a data-driven flag on bar passage patterns from past students. To move forward, consider retaking the LSAT to boost that score, strengthening your undergrad narrative through additional coursework or explanations, and highlighting your upward trajectory in any reapplication. Many applicants in similar situations succeed on their next try—keep pushing, because your story of resilience is powerful, and law schools value diverse voices like yours. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 279,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:01.924129",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 38 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 66.5% chance that you would fail the bar exam on your first try, which is above the threshold we set for approving applications—meaning your application was unfortunately rejected to help ensure we select students likely to succeed long-term. This prediction was driven primarily by your academic rankings in school: you placed in the 2nd decile for both your first-year and third-year grades, which are notably lower than the typical student's 6th decile range. These lower rankings had the strongest pull toward the failure prediction, signaling to the model a tougher path to bar success compared to most applicants. Your LSAT score, on the other hand, worked strongly in your favor, pushing the prediction toward passing since it's higher than the average of 37. Your undergraduate GPA of 2.90, slightly below the typical 3.21, and middle-family income bracket also nudged things slightly toward failure, though less powerfully than your school deciles. Being full-time, like over 90% of students, had a minor positive influence but didn't shift the overall outcome. In comparison to typical students, your LSAT stands out as a strength, but your early and later school rankings lag behind the middle-of-the-pack performance the model favors for bar passers. While this stings, it's not the end of the road—consider retaking courses or boosting your GPA through post-bac programs to improve those decile rankings. You might also explore part-time options or schools with stronger support for students starting from similar academics. Reach out to admissions counselors for feedback, and keep building on that impressive LSAT; many students like you turn things around with targeted preparation. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 93,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:32.937499",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an upper-middle-class family background, you've clearly put in the effort to build a strong foundation for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 48%, tipping the scales just enough to result in the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school, which stood out as the most influential factors pushing the model toward forecasting a higher risk of bar failure—your Year 1 decile of 1 and Year 3 decile of 2 were notably lower than what's typical for admitted students, where averages hover around the middle of the pack. On a brighter note, your undergraduate GPA actually worked strongly in your favor, countering that risk by showing the model you have the academic capability to succeed, well above the dataset average of 3.21. Your LSAT score of 31 and family income bracket also nudged the prediction toward passing, though with somewhat less impact, as they were a bit below the usual benchmarks seen in students who typically pass the bar. Being a full-time student aligned with the norm for most applicants, offering only a minor positive influence. Compared to typical students in the dataset—who often have higher early deciles around 5-6, LSATs near 37, and similar GPAs—your profile showed strengths in sustained performance but was held back by those initial lower rankings, making the overall risk seem too high for admission. I know this must be disappointing, especially when you've achieved above-average results in key areas like your GPA. To move forward, consider retaking the LSAT to boost it closer to the average, or focus on strategies to highlight improvements since those early school years, perhaps through additional coursework or recommendations. You might also explore part-time programs or schools with more holistic reviews that weigh your full-time commitment and background more favorably. With your strengths, targeted improvements could easily shift the odds next time—keep pushing, and don't hesitate to reapply stronger. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

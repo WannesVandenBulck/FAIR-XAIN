@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:01:53.677969",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score and upper-middle family background. However, the admissions model, which predicts first-time bar exam success based on past students' academic records, family details, and demographics, estimated an 80% chance that you would not pass the bar on your first try. This high predicted risk of failure is why your application was rejected—law schools use this to prioritize applicants likely to succeed and pass the bar promptly. The biggest factors pulling the prediction toward failure were your Year 1 and Year 3 school grade deciles, both ranking in the lowest 10% compared to typical students who average around the middle of their classes. These early and later undergraduate performance rankings stood out as the most influential, strongly signaling to the model a higher bar exam risk despite your other positives. On a brighter note, your LSAT score, well above the average of most applicants, pushed meaningfully in the direction of predicting bar success, helping to offset some concerns. Your undergraduate GPA, slightly below average, had a minor positive lean toward passing, as did your upper-middle family income and full-time student status, which align with many successful peers. Overall, your grade deciles placed you below the typical strong performer in the dataset, where students passing the bar often ranked in higher deciles with balanced academics. While this is disappointing, especially given your personal journey, it's not the end of the road—consider retaking courses or undergrad classes to boost your decile rankings, perhaps through targeted tutoring or additional credentials. You might also gain more experience or prep intensely for the LSAT to further highlight your strengths. Many students in similar situations have improved their profiles and succeeded later, so use this feedback to strengthen your application for future cycles. We're rooting for you to turn this around and thrive in law.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

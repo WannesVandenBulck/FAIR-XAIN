@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 340,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:48:34.796444",
+  "status": "success",
+  "narrative": "Dear Alex, I know this rejection letter stings—dreaming of law school only to have your application turned away feels like a punch to the gut, and I'm truly sorry you're facing this right now. Our prediction model looked at your profile and saw an 83.9% chance of struggling to pass the bar exam down the line, which is why we had to make this tough call. What stood out most was your Year 3 decile of 1.0, the lowest rung in your school, signaling to the model that your performance dipped significantly by the end of undergrad, pulling hardest toward this concerning outlook. Right behind that was your Year 1 decile, also a 1.0, showing this wasn't a one-off but a pattern of being at the bottom early on, reinforcing the risk. Your LSAT score of 38.0 added to the worry, as it fell short of what typically lights the path to bar success. Even with your solid undergraduate GPA of 3.5 and upper-middle family income, those couldn't outweigh the headwinds—the model saw your background and full-time student status as neutral at best, but still tilting toward challenges. Being a white male didn't shift things in a positive direction here either, given how patterns play out across similar profiles. It's this combination, like chapters in a story where early struggles snowball despite some steady strengths, that painted a picture of high risk for the bar. This isn't about your potential or heart—it's just the data's honest read on the odds. If you pour effort into boosting those academic deciles or retaking the LSAT, the story could rewrite itself for another school. Hang in there; you've got time to turn the page.",
+  "error": null
+}

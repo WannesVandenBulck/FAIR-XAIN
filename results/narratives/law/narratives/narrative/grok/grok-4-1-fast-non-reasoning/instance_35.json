@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 35,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:31:02.401602",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know hearing that your law school application was rejected because our model predicts a 58.9% chance of failing the bar exam feels like a gut punch, especially after all the effort you've put into getting here. Imagine the model as an experienced admissions advisor who's seen thousands of students like you walk this path, piecing together your story from the details you've shared to gauge your bar exam odds. The biggest piece of that story is your Year 3 decile of 1, which stood out as the strongest signal pulling toward failure—it suggests your performance dipped to the bottom tier that year, raising real concerns about sustaining the grind needed for the bar. Right behind that was your LSAT score of 30, another heavy factor tipping the scales toward struggle, as it falls short of what's typically needed to power through law school rigors. Your Year 1 decile of 2 added to that picture, showing early challenges that echoed those later ones. Then there's your lower-middle family income bracket, which the model saw as a hurdle, often linked to extra pressures that make the journey tougher. Your background as a Black male also nudged the prediction downward, reflecting patterns in the data where systemic barriers have played a role for others in similar spots. Your undergrad GPA of 3.2 and full-time study plans pulled in the same direction, painting a profile of someone who might face an uphill battle despite your commitment. The one bright spot was your gender, which slightly favored passing based on past trends, but it wasn't enough to shift the overall story. Together, these elements formed a cautious tale for the model—one where the risks of bar failure outweighed the promise, leading to this tough call. You're clearly driven, and with targeted steps like boosting study strategies or seeking support networks, you could rewrite this narrative for the next opportunity. Hang in there; this isn't the end of your story.",
+  "error": null
+}

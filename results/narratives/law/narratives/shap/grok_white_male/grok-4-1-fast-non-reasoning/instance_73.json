@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 73,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:21.229061",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and an LSAT score of 31.5, you've worked hard to build your academic profile, coming from a middle-income family and planning to pursue full-time studies. The university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 52.8% chance that you would fail the bar exam—tipping just over the threshold that led to your application's rejection. This decision hinged most heavily on your Year 3 school decile ranking of 2, which is notably lower than the typical student's 5.53 average and strongly pushed the prediction toward expecting a bar failure. Your undergraduate GPA, while slightly below the 3.21 average, actually worked in your favor by pulling the odds toward passing more than any other factor. Next in influence was your Year 1 decile of 3, lower than the usual 5.71, which nudged the model further toward predicting failure. Your LSAT score, though respectable, fell short of the 36.7 average and moderately contributed to concerns about passing, while your full-time status and middle-income background had smaller, mostly favorable effects. Compared to typical admitted students, your early and later school rankings stand out as the biggest drags, placing you below the stronger academic deciles that often signal bar success. We understand this rejection feels disappointing, especially given your dedication. To strengthen future applications, focus on boosting those school deciles through targeted academic improvement or additional coursework, and consider retaking the LSAT to align closer to the higher averages. Exploring part-time options or programs with holistic reviews could also highlight your unique strengths beyond these metrics. You're capable of turning this around—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

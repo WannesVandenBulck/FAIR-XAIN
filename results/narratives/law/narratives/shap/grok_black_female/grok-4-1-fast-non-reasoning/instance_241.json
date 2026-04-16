@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 241,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:10:51.995937",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.30—which is actually a bit above the typical student's 3.21—and your upper-middle family income background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 72% chance that you would not pass, leading to the tough decision to reject your application right now. This prediction was driven primarily by your Year 3 school decile ranking of 1st, which stood out as the biggest factor pushing the model toward forecasting a bar failure, even though your Year 1 decile was also low at 1st and had a smaller but similar negative pull. Your LSAT score of 27, well below the average of about 37, added further concern by nudging the prediction toward failure. On a brighter note, your undergraduate GPA worked strongly in your favor, pulling the odds toward passing, much like your family income did by suggesting a supportive environment compared to many applicants. Being enrolled full-time, which is the norm for over 90% of students, provided a slight positive boost as well. Overall, your profile compares to typical students by having average or better marks in GPA and income, but your lower decile rankings and LSAT score deviated significantly in ways that alarmed the model most. While this outcome is disappointing, especially given the unique challenges Black women like yourself often face in competitive academic pipelines, it's not the end of your journey. To strengthen future applications, focus on boosting your LSAT through targeted prep and excelling in later coursework to improve those decile rankings. Consider retaking the LSAT or gaining relevant experience, then reapply to programs that value your resilience. We're rooting for you—many have turned similar predictions around with persistence. Keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

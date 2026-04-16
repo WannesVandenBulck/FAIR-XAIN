@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 305,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:46:34.166981",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application like piecing together a story about your journey toward the bar exam—your first-year grades placing you in the bottom decile of your school set the opening chapter on a challenging note, signaling early struggles that often foreshadow tougher roads ahead. Then, by your third year, still landing in that same bottom decile painted a picture of persistent hurdles in keeping up with the pack, making it the second-biggest signal of potential difficulty. Your LSAT score of 36, while respectable in some lights, pulled in the same worrying direction, suggesting the analytical edge needed for bar success might be a stretch. Layered on top was your upper-middle family income, which unfortunately aligned with patterns where students in similar brackets sometimes face added pressures that tip toward failure in high-stakes exams like this. Your undergraduate GPA of 2.9 added another thread, reinforcing a narrative of academic performance that's historically correlated with bar exam stumbles. Even factors like being a white male pursuing full-time law study wove in subtly but consistently toward that riskier outlook. Together, these elements built a compelling story for the model, estimating a 68.6% chance of not passing the bar, which is why your application couldn't move forward right now—it's not about your potential as a person, but about matching patterns from thousands of similar paths. The good news? This isn't set in stone; many have rewritten their stories by targeting those early-grade weak spots with focused prep. You've got the drive to apply—channel it into boosting that GPA trajectory or LSAT edge, and reapply stronger. We're rooting for your comeback.",
+  "error": null
+}

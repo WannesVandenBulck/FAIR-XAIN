@@ -38,6 +38,9 @@ def make_predictions(dataset_name, config):
     Predictions are filtered for class 1 (adverse/bad class).
     Target variable is renamed to standardized name (e.g., target_credit).
     The target value 1 represents the adverse outcome for each dataset.
+    
+    For law dataset: Uses model trained WITHOUT protected attributes (gender, race1).
+    For other datasets: Uses standard model with all features.
     """
     
     dataset_path = config['path']
@@ -48,9 +51,18 @@ def make_predictions(dataset_name, config):
     print(f"\nProcessing {dataset_name} dataset...")
     
     # Load the Random Forest model
-    model_path = os.path.join(dataset_path, 'RF.pkl')
+    # For law dataset, use the model trained WITHOUT protected attributes
+    if dataset_name == 'law':
+        model_path = os.path.join(dataset_path, 'RF_no_protected.pkl')
+        model_type = "WITHOUT protected attributes (gender, race1)"
+    else:
+        model_path = os.path.join(dataset_path, 'RF.pkl')
+        model_type = "with all features"
+    
     with open(model_path, 'rb') as f:
         rf_model = pickle.load(f)
+    
+    print(f"  Model used: {model_type}")
     
     # Load test data
     test_path = os.path.join(dataset_path, 'test_cleaned.parquet')
@@ -62,11 +74,19 @@ def make_predictions(dataset_name, config):
     test_features = test_df.drop(columns=[target_col])
     test_target = test_df[target_col].rename(target_name)  # Rename to standardized name
     
+    # For law dataset, create a copy without protected attributes for model prediction
+    # but keep original test_features with all columns for saving later
+    if dataset_name == 'law':
+        protected_attributes = ['gender', 'race1']
+        features_for_prediction = test_features.drop(columns=protected_attributes)
+    else:
+        features_for_prediction = test_features
+    
     # Make predictions on test set
-    test_pred = rf_model.predict(test_features)
+    test_pred = rf_model.predict(features_for_prediction)
     
     # Get prediction probabilities for class 1 (bad class)
-    test_proba = rf_model.predict_proba(test_features)[:, 1]
+    test_proba = rf_model.predict_proba(features_for_prediction)[:, 1]
     
     # Apply threshold tuning: use probability >= 0.4 instead of default 0.5
     # This is more permissive and catches more adverse cases

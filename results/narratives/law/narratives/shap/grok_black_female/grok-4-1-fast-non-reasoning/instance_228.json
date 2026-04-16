@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 228,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:10:03.049761",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown real determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.30—which is above the typical student's 3.21—and an impressive LSAT score of 42.50 that stands out well beyond the average of 36.70. You're planning to attend full-time, just like the vast majority of students at 92.7%, and your family's middle-income background aligns with many others in the dataset. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 41.3%, tipping the decision toward rejection to prioritize applicants with lower predicted risks. The most influential factor pulling against you was your Year 3 school decile ranking of 1, far below the average of 5.53, which strongly signaled to the model a higher chance of bar exam struggles compared to peers with stronger later-year performance. On a positive note, your standout LSAT score was the top factor pushing the prediction toward success, countering some concerns more than any other element. Your undergraduate GPA also helped significantly, nudging the odds in favor of passing, while your lower Year 1 decile of 2—below the average 5.71—added a moderate push toward higher failure risk. Smaller influences, like your full-time status and family income, played minor roles overall. Compared to typical students, your early and late academic deciles lag behind the middle-of-the-pack performers who tend to pass the bar more reliably, even with your excellent test scores. This isn't a reflection of your potential as a Black woman breaking barriers in law—many with similar backgrounds succeed with targeted growth. To move forward, focus on boosting your academic deciles through stronger coursework or supplementary programs, retake the LSAT if possible to solidify that strength, and consider part-time options or income-support resources that have helped others. Reapply after addressing these, perhaps with letters highlighting your resilience—we're rooting for you to pass the bar and thrive.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

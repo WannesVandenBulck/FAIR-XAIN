@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 352,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:17:33.556531",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dreams despite the challenges many face in academic pathways like this. Your profile includes a part-time enrollment status, an undergraduate GPA of 2.40—which is below the typical 3.21 average—a LSAT score of 30 compared to the usual 36.70, Year 1 and Year 3 school deciles both at 2 versus averages around 5.5-5.7, and a middle family income bracket. The admissions model, which predicts first-time bar exam success based on patterns from thousands of similar students, estimated your probability of failing the bar at 49%, tipping the scales just enough to reject your application since it prioritizes those likely to pass on the first try. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, as lower performance there strongly signals higher risk compared to peers who rank higher. Your Year 1 decile also contributed somewhat toward failure, though less so, reflecting early academic hurdles below typical levels. On a positive note, your part-time status actually nudged the prediction toward passing, as it sometimes correlates with better outcomes for students balancing commitments. Similarly, your undergraduate GPA and LSAT score pulled in the direction of passing, even if they fell short of averages, and your middle income provided a slight favorable influence. Overall, your academic deciles stood out as the biggest drags compared to typical students who succeed, outweighing those helpful factors. This isn't a judgment on your potential—many from similar backgrounds overcome these metrics through targeted growth. To move forward, consider retaking the LSAT to boost your score, strengthening your upper-year performance in any ongoing studies, and exploring programs that value part-time paths or offer bar prep support tailored for underrepresented students like yourself. You're capable of rewriting this story; keep pushing, and seek advisors who can highlight your unique strengths in future applications.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

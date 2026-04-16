@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 171,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:27:23.642058",
+  "status": "success",
+  "narrative": "I'm sorry to deliver this news, but the law school's admission model predicted a 49.9% chance that you would fail the bar exam on your first try, which was just enough to tip the decision toward rejecting your application. Your profile includes a Year 1 school decile rank of 3, which is below the typical student's 5.71; a Year 3 decile of 2, well under the average 5.53; a notably low LSAT score of 24 compared to the usual 36.7; a solid undergraduate GPA of 3.3 that edges above the average 3.21; middle family income similar to many applicants; male gender, which is common; Asian racial background, less represented than White students; and plans for full-time study, like most. When the model evaluated you, your Year 3 decile rank stood out as the single most influential factor, nudging the prediction toward expecting a bar failure because it was so much lower than what's typical. Right behind it, your LSAT score had the next biggest sway in the same direction, given how far it fell from the norm. Your Year 1 decile rank came third in influence, again pushing toward failure due to its below-average standing. Family income ranked fourth and contributed similarly by being middle-of-the-road rather than standout, followed by your racial background in fifth, with your stronger UGPA, gender, and full-time status having progressively smaller roles—all leaning slightly against you in this close call. Compared to typical students who get approved, your lower high school deciles and especially that LSAT pulled you down the most, even though your college grades were a bright spot. This prediction isn't set in stone; it's based on patterns from past students. To boost your future chances, focus on retaking the LSAT to aim much higher, as that's something you can directly improve with dedicated prep. Strengthening any upcoming academic performance or building bar-relevant skills through targeted study habits could also help offset those early deciles in later applications. Keep pushing forward—you have strengths like your UGPA that show real potential.",
+  "error": null
+}

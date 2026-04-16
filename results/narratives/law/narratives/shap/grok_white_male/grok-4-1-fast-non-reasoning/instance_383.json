@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 383,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:24.783039",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school aspirations, including scoring a solid 36 on your LSAT and planning to attend full-time. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 94.6% chance that you would fail the bar on your first attempt—this high risk led to the rejection of your application to protect the school's outcomes. The decision hinged most heavily on your academic decile rankings from school: your Year 3 decile of 1 was the biggest factor pushing the prediction toward failure, as it signals performance well below the typical student's mid-range standing around the 5th or 6th decile. Your Year 1 decile of 1 reinforced this concern strongly, placing you far lower than the average applicant's position. While your LSAT score stood out positively, nearly matching the dataset average of 36.7 and nudging the model toward expecting a pass, it wasn't enough to offset those early academic signals. Your undergraduate GPA of 2.90, lower than the typical 3.21, added further weight toward the failure prediction, as did your upper-middle family income, which didn't provide the counterbalancing advantage seen in some profiles. Your choice of full-time study had minimal sway either way, aligning with the norm for over 90% of students. Compared to typical applicants who pass the bar, your standout challenge is those bottom-decile school grades, which deviate sharply from the stronger mid-tier performances that correlate with success. This isn't a judgment on your potential as a person or your dedication—it's the model highlighting patterns from historical data. To move forward, consider retaking courses or programs to boost your decile rankings, aiming to exceed averages in future academics, and perhaps seek targeted LSAT or GPA improvement resources tailored for students like you. Reapplying after addressing these key areas could shift the prediction in your favor—many have turned similar profiles around with focused effort. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

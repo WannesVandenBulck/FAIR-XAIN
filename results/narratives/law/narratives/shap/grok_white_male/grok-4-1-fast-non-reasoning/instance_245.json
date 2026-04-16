@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 245,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:57.029264",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, you've put significant effort into your law school journey, including your undergraduate studies where you earned a 2.70 GPA, scored 31 on the LSAT, and ranked in the lowest decile for your grades in both your first and third years of school. You've also indicated plans to attend part-time, which is less common as most students opt for full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 74.5% chance that you would fail it— a threshold that unfortunately led to the rejection of your application, as the school prioritizes candidates predicted to succeed. The key factors driving this prediction were your school grade deciles, which had the strongest negative influence by signaling lower academic performance compared to typical students who rank around the middle of their classes. Your third-year decile stood out as the most impactful, pushing the model firmly toward expecting bar failure, while your first-year decile reinforced that concern. Being in the part-time track added further weight toward the failure prediction, unlike the vast majority of full-time students who fare better in the model's eyes. On a brighter note, your LSAT score, undergraduate GPA, and family income each nudged the prediction slightly toward success, performing better than they might have otherwise. Compared to averages—where LSAT scores hover around 37, GPAs near 3.21, and deciles in the mid-5s—your profile showed room for stronger academic showings, which tipped the scales. This isn't a judgment on your potential as a white male from a middle-income background, but a data-driven call based on patterns from past students. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic decile through additional coursework or post-bac programs, and exploring full-time options if feasible—these steps could significantly improve your odds in future applications. You're capable of turning this around with targeted improvements, and many have done just that. Keep pushing; law school doors can reopen with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

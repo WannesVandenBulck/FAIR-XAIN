@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 361,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:18:03.004709",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the courage it takes to put yourself out there. Your profile includes being in the lowest decile for grades in both your first and third years of school, a lower-middle family income bracket, an LSAT score of 34, an undergraduate GPA of 2.40, and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 68.4% chance that you would fail it—above the threshold that led to your application's rejection. This decision was driven primarily by your third-year school decile ranking, which had the strongest negative influence by pushing the prediction heavily toward failure. Your first-year decile ranking also played a significant role in the same direction, reinforcing concerns about academic performance. On a brighter note, your LSAT score was the top factor pulling toward success, as it compared reasonably to typical students' averages. Your undergraduate GPA provided some positive counterbalance too, though not as strongly. Other elements, like your family income and full-time status, had milder effects, with income slightly tilting toward failure while full-time attendance nudged it positively. Compared to typical applicants—who average mid-level deciles around 5-6, higher LSATs near 37, GPAs over 3.2, and varied incomes—your lower academic deciles stood out as the biggest departures, overshadowing your strengths. While this outcome is disappointing, it doesn't define your potential; many overcome similar hurdles through targeted preparation. Next, consider retaking the LSAT to boost your score, strengthening your recent academic record perhaps through additional coursework, and seeking mentorship programs tailored for Black women in law to build a standout reapplication. You're resilient, and with focused steps, you can turn this into a comeback story. Keep pushing forward—we believe in you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 384,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:28.486027",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male with a strong undergraduate GPA of 3.90 and a solid LSAT score of 37, you've clearly worked hard to build an impressive academic profile, including upper-middle family income support and plans to attend law school full-time. Your Year 1 school decile ranking placed you in the top group, which is a great start, while your Year 3 decile was a bit lower in the second position compared to peers. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your personal risk of failure at 45.1%—high enough that it tipped the decision to reject your application, as the school prioritizes candidates predicted to succeed right away. The biggest factor pushing toward this failure prediction was your Year 3 decile ranking, which stood out as lower than what the model typically sees in successful bar takers, signaling a potential dip in later academic momentum. On a brighter note, your outstanding undergraduate GPA had the strongest positive pull, strongly favoring a pass prediction and outperforming the typical student's 3.21 average. Your family income bracket also helped nudge the model toward seeing you as likely to pass, aligning with patterns among bar passers from similar backgrounds. Your LSAT score contributed positively too, being right around the dataset average but still supportive in your case. Even your Year 1 decile had some counterbalancing influence toward failure, though less than Year 3, while your full-time status offered a small boost. Compared to typical students, your profile shines in GPA and LSAT but is held back by those decile positions, which carry heavy weight in how the model views bar success odds. This isn't a judgment on your potential as a lawyer—it's just one data-driven snapshot. To move forward, consider retaking courses or programs to boost your later-year deciles, gathering stronger references on your upward trajectory, or targeting schools with more holistic reviews; you're already ahead in key areas, so persistence could turn this around. Keep pushing—you've got the foundation for success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

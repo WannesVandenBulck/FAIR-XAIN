@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 275,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:47.799298",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including your undergraduate GPA of 3.20—which is right in line with the typical student's—and your strong start in school with an 8th decile ranking in Year 1 grades, well above average. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your personal risk of failure at 43%, tipping the scales toward rejection of your application to protect the university's bar passage rates. The two biggest factors driving this prediction were your Year 3 decile ranking, which dropped to 1st—far below the average—strongly pushing the model toward expecting bar failure, while your impressive Year 1 performance worked significantly in your favor by suggesting potential for passing. Your undergraduate GPA also helped pull the prediction toward success, though not as powerfully, whereas your LSAT score of 28.50, noticeably lower than the typical 36.70, nudged it slightly toward failure risk. Being a full-time student and your family income level offered minor positive boosts compared to peers. Overall, your situation stands out because while many applicants maintain steady performance across years, your sharp decline from Year 1 to Year 3 raised red flags that outweighed your other strengths, unlike typical students who show more consistent academics. This isn't a judgment on your character or potential—models like this are just one data-driven tool universities use. To move forward, consider retaking the LSAT to boost that score, reflecting on what led to the Year 3 dip and addressing it through stronger graduate prep or tutoring, and applying to programs with holistic reviews that value your early promise. You're clearly capable, as your Year 1 success shows, and with targeted improvements, you can reshape this story for future applications. Keep pushing—many have turned similar setbacks into bar-passing triumphs.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

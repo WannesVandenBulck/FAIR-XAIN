@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 229,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:57.600243",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid but challenging academic journey behind you, I want to help you understand why the law school's automated admission system turned down your application—it's tough news, and I know it stings, but let's break it down clearly together. Your profile includes a Year 1 school decile of 4, which is below the typical student's 5.71 average, a notably lower Year 3 decile of 1 compared to the usual 5.53, an undergraduate GPA of 2.60 against an average of 3.21, an LSAT score of 27 well below the dataset's 36.70 norm, lower-middle family income, and plans to attend part-time rather than the full-time path chosen by over 92% of students. The model, trained on past students' data to predict first-time bar exam success, estimated a 40% chance you'll fail the bar—high enough that the school views it as too risky for admission, leading to your rejection. The biggest factor pushing toward this failure prediction was your Year 3 decile ranking, as it stood out as unusually low and signaled potential struggles in later undergrad performance compared to most applicants. On a more positive note, your family income level worked strongly in your favor, pulling the prediction toward success more than any other positive element, likely because students from similar backgrounds have historically performed well. Your Year 1 decile and undergraduate GPA also helped nudge things toward passing, showing some resilience early on, though not enough to offset the top concerns. Your LSAT score offered a modest boost toward success, while your part-time status had a tiny influence leaning slightly toward failure risk. Overall, compared to typical students who pass the bar, your later academic deciles and scores fell short of the stronger profiles that secure approvals. This isn't a judgment on your potential as a white male from a lower-middle income background—you've already shown grit by getting this far. To turn things around, focus on retaking the LSAT to boost that score closer to average, strengthening your recent academic record through additional coursework or certifications, and consider full-time options if feasible. With targeted improvements, you could reapply stronger and show the model (and schools) what you're truly capable of—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

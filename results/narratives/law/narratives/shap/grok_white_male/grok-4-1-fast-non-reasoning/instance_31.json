@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:30:43.119823",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 33, you've worked hard to build your academic profile, including middle-family-income background and part-time enrollment plans. Unfortunately, the university's machine learning model, which predicts first-time bar exam success based on profiles like yours from past students, estimated an 83% chance that you would fail the bar exam. This high predicted risk led directly to the rejection of your law school application, as the school prioritizes admitting those likely to pass on their first try. The most influential factor pushing toward this failure prediction was your choice of part-time status, which is uncommon—only about 7% of students opt for it—and the model sees it as a significant hurdle compared to the typical full-time path taken by over 92% of applicants. Next in importance was your Year 3 school decile ranking of 3rd, well below the average of around 5.5th, signaling to the model weaker performance relative to most peers at that stage. Your middle-income family bracket also nudged the prediction toward failure, as it's viewed less favorably than higher brackets common in the dataset. Minor contributions in the same direction came from your Year 1 decile of 5th, slightly under the average. On a brighter note, your undergraduate GPA, nearly matching the typical 3.21 average, and your LSAT score helped pull the prediction somewhat toward passing success. Overall, your profile stands out as riskier than most due to the part-time choice and lower later-year deciles, setting you apart from the stronger, full-time trajectories that dominate successful bar passers. To move forward, consider retaking the LSAT to boost your score, aiming for full-time enrollment if possible, and strengthening your later academic deciles through targeted improvement or additional coursework. You might also explore programs with more flexible admissions or bar prep support tailored to part-time students. We're rooting for your next steps—persistence like yours can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

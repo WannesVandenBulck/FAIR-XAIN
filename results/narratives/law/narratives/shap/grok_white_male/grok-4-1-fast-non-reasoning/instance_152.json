@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 152,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:20.169332",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and middle-class family background, you've put in the effort to pursue law school, including planning to attend full-time. The admissions model we use predicted a 40% chance that you would fail the bar exam on your first try, which is above our threshold for approval, leading to the regrettable rejection of your application. This prediction was driven primarily by your Year 3 school decile ranking of 2, which falls well below the typical student's rank of around the 5th or 6th decile and strongly pushed the model toward expecting a bar failure. On a more positive note, your Year 1 decile of 6, which is slightly above average, worked in your favor by suggesting stronger early potential and pulling the prediction toward passing. Your undergraduate GPA, right around the dataset average of 3.21, also helped by indicating steady academic performance compared to peers. Less influential but still supportive were your middle family income bracket and full-time enrollment plans, both of which align with typical successful students and nudged the odds slightly toward passing. Meanwhile, your LSAT score of 27.3, notably lower than the average of 36.7, added a small push toward the failure prediction, though it wasn't the top factor. Overall, your profile shows promise in early grades and consistency, but the dip in later school performance stood out as the biggest concern relative to others who typically pass the bar. Many applicants with stronger Year 3 rankings see approvals even with similar LSATs, highlighting where you compared less favorably. To move forward, consider retaking the LSAT to boost that score or strengthening your later academic record through additional coursework or a post-bac program. We encourage you to reapply after addressing these areas, as improvements here could shift the model's view significantly. Your background positions you well for success with targeted steps—keep pushing, and law school could still be within reach.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

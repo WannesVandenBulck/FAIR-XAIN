@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 214,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:41:22.619445",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application as a story of your journey toward becoming a lawyer, piecing together the chapters from your undergraduate days through law school to predict if you'd pass the bar on the first try. Your story starts strong in some ways, with a solid undergraduate GPA of 3.1 and a middle-family income background that shows real determination, but the model saw patterns in your profile that echoed too many tales of struggle ahead. The strongest signal pulling toward a 41% chance of bar failure was your Year 3 decile of 2, placing you in the lower ranks among peers late in law school, suggesting the rigors might have worn down your early momentum from that similar Year 1 decile of 2. Layered on top was your LSAT score of 28, which stood out as a hurdle compared to those who typically soar past the bar, making the model worry about foundational test-taking under pressure. Your undergraduate GPA, while respectable at 3.1, didn't quite counterbalance that, and as an Asian female pursuing full-time studies without a specific target law school preference, these details together painted a picture of someone facing steeper odds in a field where every edge counts. Family income in the middle bracket added another nudge toward caution, as the model links it to fewer resources for the intense bar prep many need. It's not that your full story is written—far from it—but this combination made the team see higher risk of that first-time stumble, leading to the tough call on your application. You've got heart and potential; focusing on boosting those deciles or LSAT-like skills could rewrite the ending next time. We're rooting for you.",
+  "error": null
+}

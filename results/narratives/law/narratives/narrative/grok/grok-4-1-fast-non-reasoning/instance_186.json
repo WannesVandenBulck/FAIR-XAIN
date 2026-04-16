@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 186,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:39:48.173720",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as a tough one—about a 65% chance of not passing. Picture the model piecing together your story like chapters in a book: the strongest chapter was your Year 3 decile of 3, which stood out as the biggest signal pulling toward struggle, suggesting those later years in school didn't build the momentum top performers usually show. Right behind that was your LSAT score of 29, which the model saw as another heavy anchor toward failure, below the levels that typically light the way for bar success. Your Year 1 decile of 1 echoed that early challenge, reinforcing a pattern that made the model worry about consistency from the start. Even your upper-middle family income, while a solid foundation for many, tipped the scales toward risk in this mix, perhaps because it didn't offset the other hurdles as strongly as it might in different stories. Your Asian background and undergraduate GPA of 2.3 added layers that nudged the prediction further toward difficulty, as the model has learned these can correlate with steeper climbs in law's high-stakes world. Being a full-time student and female rounded out the picture, each contributing their pull toward that concerning outcome. It's not that any one thing doomed you—it's this combination that painted a narrative of an uphill battle, one our model has seen play out too often without a bar pass at the end. But here's the hopeful part: this is just a data-driven snapshot, not your full story, and with targeted steps like LSAT prep or GPA-boosting strategies, you could rewrite it entirely. You've got the drive—now channel it to shift those chapters. We're rooting for you.",
+  "error": null
+}

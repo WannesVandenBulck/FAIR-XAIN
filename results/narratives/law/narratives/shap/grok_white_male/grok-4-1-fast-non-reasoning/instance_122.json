@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 122,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:23.839913",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and a middle-class family background, you've clearly put in significant effort to pursue law school, including planning to attend full-time. The admissions model we use predicted a 44.3% chance that you would fail the bar exam on your first try, which is high enough to tip the decision toward rejecting your application—essentially, the school aims to admit students with the strongest projected odds of bar passage success. This prediction wasn't random; it weighed your academic profile against patterns from thousands of past students, focusing on key indicators like your school decile rankings, LSAT score of 29.50, and other details. The most influential factor pulling against you was your Year 3 decile ranking of 1st, which is well below the typical student's 5th or 6th decile and strongly signaled a higher risk of bar failure to the model. On a brighter note, your undergraduate GPA stood out as a major strength, well above the average of 3.21, and it pushed the prediction meaningfully toward expecting you to pass. Your LSAT score, while lower than the usual 36-37 range, also helped counterbalance some concerns by nudging things toward success. Less impactful but still noted were your low Year 1 decile and middle income bracket, which slightly raised the risk flags compared to higher-performing peers. Overall, your profile compares to typical admitted students as solid in GPA but lagging in deciles and LSAT, creating this close-call prediction. While disappointing, this rejection doesn't define your potential—many students in similar spots have improved through targeted prep. I recommend retaking the LSAT to boost your score, seeking ways to strengthen your later-year performance perhaps through advanced courses or tutoring, and reapplying next cycle with an updated profile. You're already ahead in key areas like GPA, so focusing there could flip the odds in your favor. Keep pushing forward; your determination as a full-time aspiring lawyer will shine through.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

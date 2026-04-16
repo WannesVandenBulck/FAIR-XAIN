@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:10:56.995766",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 69.9% chance you'll fail the bar exam on your first attempt, based on patterns from thousands of past students. You have a solid undergraduate GPA of 3.30, which is above the typical 3.21 average, along with an upper-middle family income bracket, a full-time study plan, and your background as a white male—traits that align closely with the majority of students in our dataset. However, your LSAT score of 35 falls short of the average 36.7, your first-year school decile of 4 is notably below the 5.71 average, and your third-year decile of 5 is slightly under the 5.53 norm. Among all these factors, your third-year academic decile had the strongest pull toward the failure prediction, as it signaled underperformance compared to peers who typically pass. Right behind it, your first-year decile exerted similar influence, reinforcing concerns about early struggles. Your family income and LSAT score followed closely, both nudging the model toward expecting challenges on the bar, while your racial background played a supporting role in that direction. Your undergraduate GPA also contributed somewhat to the risk assessment, despite being a bright spot. In contrast, your gender as male provided a small counterbalance, tilting slightly toward success since most successful students share that profile. Overall, these academic markers—especially your school deciles and LSAT—outweighed your strengths and set you apart from typical admitted students who boast higher rankings and scores. To boost your future odds, prioritize retaking the LSAT for a stronger score, as that's fully within your control and a top influencer here. Also, focus on excelling in your remaining coursework to lift those deciles, proving you can outperform the averages that held you back this time. With targeted prep like bar exam simulations and study habits honed now, you could flip this prediction and secure admission elsewhere. Hang in there—many students turn early setbacks into bar-passing triumphs.",
+  "error": null
+}

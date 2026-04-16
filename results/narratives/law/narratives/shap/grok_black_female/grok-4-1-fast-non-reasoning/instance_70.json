@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:00:07.133968",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strength and determination it takes to get here. Your undergraduate GPA of 3.20 is right in line with the typical student's, and your family comes from an upper-middle income background, which is a solid foundation many aspire to. You plan to attend full-time, just like the vast majority of applicants at 92.7%, and your LSAT score of 34 is close to average, showing real potential. However, your grades placed you in the second decile in both your first and third years of school, meaning you ranked lower than most peers in your institution. The admissions model, which predicts the chances of passing the bar exam on the first try, estimated a 75.2% probability that you would not pass— a risk level that unfortunately led to the rejection of your application. The biggest factor pulling the prediction toward failure was your third-year decile ranking, as it stood out as notably below average and signaled challenges in sustaining strong academic performance. Your first-year decile had a similar but smaller push in that direction, while your LSAT score also nudged it slightly toward expecting a struggle. On a brighter note, your undergraduate GPA worked strongly in your favor, countering some of that risk by matching what successful students typically show. Your family income added a minor push toward failure compared to averages, but it wasn't a dominant influence. Overall, your profile compares to typical students by being average in key areas like GPA and LSAT, but your lower school deciles set you apart in a way that outweighed those strengths for this model's bar passage forecast. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic record through additional coursework or a post-bac program, and reapplying next cycle with a narrative highlighting your resilience as a Black woman overcoming obstacles. You're capable of turning this around—many do—and we're rooting for your success in law. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

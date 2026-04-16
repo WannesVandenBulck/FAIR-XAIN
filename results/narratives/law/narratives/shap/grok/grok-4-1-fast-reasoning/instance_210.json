@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 210,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:32:57.778601",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 63% chance that you would fail the bar exam on your first try, based on patterns from thousands of past students. This threshold is used to identify applicants at higher risk, prioritizing those likely to succeed and pass the bar. In your case, your profile includes being in the bottom decile for grades in both your first and third years of school—much lower than the typical student's middle-of-the-pack performance—along with an LSAT score of 30, an undergraduate GPA of 3.10, middle family income, identifying as a Black male planning full-time studies. The strongest factor pushing the model toward predicting failure was your low ranking in third-year grades, which stood out as the most influential compared to others. Right behind that was your LSAT score, well below the average of around 37, making it the second-biggest driver toward this outcome. Your first-year grade decile came third in influence, again highlighting early academic struggles relative to peers. Family income played a moderate role next, with your middle bracket not providing the same boost as higher ones often do in these predictions. Your racial background followed closely, as it's underrepresented among high performers in the data. Your undergraduate GPA and gender had smaller but still notable pulls toward failure, while your full-time status had the least impact. Overall, these academic metrics—especially your school deciles and LSAT—dominated the decision far more than demographics or study plans. To improve your future chances, focus on what you can realistically change: retake the LSAT to aim higher than 37, strengthen any ongoing grades to climb out of the bottom decile, and build study habits proven to help bar passage. With targeted prep, students like you have turned similar profiles around—keep pursuing your goal, and consider reapplying after those gains.",
+  "error": null
+}

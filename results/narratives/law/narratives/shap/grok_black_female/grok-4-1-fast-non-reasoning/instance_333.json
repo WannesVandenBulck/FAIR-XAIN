@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 333,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:16:25.823760",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown real promise in several areas, like your solid undergraduate GPA of 3.40—which is above the typical 3.21 average—and an impressive LSAT score of 39, higher than the usual 36.70. Your family comes from a middle-income bracket, and you're planning to attend full-time, which is the norm for most students at 92.7%. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 52.4%, tipping the scales just over the threshold that led to your application's rejection. This prediction draws from patterns in data on thousands of students' academic paths, family backgrounds, and bar outcomes. The biggest factor pulling toward a failure prediction was your Year 3 school decile ranking of 1, well below the average of about 5.5, signaling lower performance relative to peers at that stage. Your Year 1 decile of 1, also far under the typical 5.7, played a strong supporting role in that direction. On a brighter note, your standout LSAT score pushed meaningfully against failure, as did your above-average undergrad GPA, helping to offset some concerns. Your middle-income background and full-time plans offered smaller but positive nudges toward success. Compared to typical students, your early and later school rankings stand out as weaker than most, which overshadowed your test score strengths in the model's eyes. While this is disappointing, especially given the barriers many Black women like you face in competitive fields, it doesn't define your potential. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking targeted tutoring or mentorship tailored to your background. You could also reapply after building even stronger academic momentum—many students turn predictions like this around with focused effort. We're rooting for you to rewrite this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

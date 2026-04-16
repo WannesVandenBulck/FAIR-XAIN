@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 400,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:15.844963",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown real determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.50—which is actually above the typical student's 3.21—and your LSAT score of 35, which is close to the average of 36.70. However, the admission model's prediction played a key role in the decision on your application. Specifically, it estimated a 61.9% chance that you would fail the bar exam on your first try, which tipped the scales toward rejection as the school prioritizes applicants likely to pass and succeed in practice. The biggest factor pulling the prediction toward failure was your Year 1 school decile ranking of 2, well below the average of 5.71, signaling to the model that your early academic performance places you in a riskier group compared to most students. Your family income in the middle bracket also nudged the prediction slightly toward failure, as it aligns with patterns where financial pressures can impact bar outcomes more than higher brackets. On a more positive note, your undergraduate GPA pushed strongly against failure, helping offset some concerns since it's better than typical. Your LSAT score, while solid, contributed moderately toward expecting a pass, given how close it is to the norm. Your Year 3 decile of 4, though improved from Year 1, still leaned a bit toward risk compared to the average 5.53, and your choice of full-time study was a small positive influence, matching the vast majority of successful students. Overall, your early grades stood out as the most influential hurdle when compared to typical applicants who rank higher in school deciles. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking targeted LSAT prep or financial support scholarships tailored for Black women in law, and reapply with strengthened early academics—these steps have helped many in similar situations turn predictions around. We're rooting for your success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

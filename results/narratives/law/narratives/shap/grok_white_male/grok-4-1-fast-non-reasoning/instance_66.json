@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 66,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:56.346808",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including scoring a commendable 39 on your LSAT and planning to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 62.6% chance that you would fail it—above the threshold that led to your application's rejection. This decision hinged primarily on your academic performance in school, where your Year 3 grades placed you in the lowest decile compared to peers, strongly pushing the prediction toward failure as it signaled potential challenges in sustaining high-level legal studies. Your Year 1 grades, also in the bottom decile, reinforced this concern as the next biggest factor pulling in the same direction. On a brighter note, your LSAT score stood out above the typical student's, helping to counterbalance those risks by nudging the model toward expecting a pass. Your undergraduate GPA, though below average at 2.70, provided some additional positive influence but wasn't enough to offset the early academic indicators. Being full-time and your family income level had minimal sway in the final call. Compared to typical students who pass, your low deciles in school grades are a stark outlier, while your stronger LSAT aligns more with successful applicants. I know this rejection stings, especially given your strengths, but it's not the end of the road—consider retaking courses or boosting your GPA through post-bac programs to climb those decile rankings. You might also seek targeted LSAT prep or bar prediction tools to build a stronger profile for other schools. Many applicants in similar spots have rebounded by addressing these exact gaps, and with your LSAT edge, you're well-positioned to do the same. Keep pushing forward; your determination as a white male from a supportive background can turn this into just a detour.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

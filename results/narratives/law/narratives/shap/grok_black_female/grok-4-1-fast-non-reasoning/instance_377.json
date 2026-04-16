@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 377,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:18:54.160113",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dreams despite the challenges many face in this field, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at past students' profiles—like undergraduate grades, LSAT scores, early and later school deciles, family income, and study plans—to predict the chances of passing the bar exam on the first try. For you, it estimated a 72% probability of failing the bar exam, which is high enough that the school automatically rejected your application to prioritize applicants predicted to succeed. The biggest factor pushing toward this failure prediction was your undergraduate GPA of 2.60, which is below the typical 3.21 average and stood out as the strongest negative signal to the model. Your upper-middle family income also contributed toward the failure prediction, as it was a notable influence compared to many applicants. Similarly, your Year 1 school decile of 7—solid but around average—nudged the prediction toward failure rather than standing out as exceptional. On a more positive note, your Year 3 decile of 7 actually helped push the prediction toward passing, showing improvement over time. Your LSAT score of 40, above the 36.70 average, provided a small boost toward success, while planning to study full-time aligned with the norm and had minimal impact. Overall, your profile compares to typical students as stronger in LSAT and deciles but held back by the lower undergrad GPA and income bracket, tipping the scales against you. This isn't a judgment on your potential—models like this rely on patterns from past data and don't capture your full story, resilience, or growth. To move forward, consider retaking the LSAT if possible, strengthening your GPA through post-bac courses or highlighting recent achievements in a new application, and targeting schools with holistic reviews that value diverse backgrounds like yours. You're capable of great things; use this as fuel to build an even stronger case next time. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

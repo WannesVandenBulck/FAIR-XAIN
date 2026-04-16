@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 138,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:22:41.301421",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 46% chance you'll fail the bar exam on your first attempt, which is above our threshold for approval. You have a strong undergraduate GPA of 3.30, slightly above the typical student's 3.21, and an LSAT score of 37.50, just edging out the average of 36.70. However, your decile rankings in school—both 2nd out of 10 for Year 1 grades (versus the average 6th) and Year 3 grades (versus the average 5th or 6th)—stand out as notably lower than most applicants. Coming from a high family income bracket, identifying as male and White (common in the applicant pool), and planning full-time enrollment also factor into your profile. When the model weighed these, your Year 3 decile ranking had the strongest influence, pushing the prediction toward failure since it's well below average. Your LSAT score was the next biggest driver in that direction, followed closely by your Year 1 decile ranking. Family income came fourth in influence, then racial background, undergraduate GPA, gender, and full-time status—all nudging the odds slightly toward a fail prediction compared to a baseline. Overall, your lower early academic deciles were the dominant signals amid otherwise solid metrics, setting you apart from typical students who rank higher in school performance. To boost your future bar exam chances, focus on addressing those early grade weaknesses by building stronger study habits now, like seeking tutoring or structured prep courses tailored to law school rigor. Retaking the LSAT for an even higher score could help demonstrate growth, as it remains influential. With targeted effort in these areas, you can shift the prediction in your favor for future applications. Keep pushing—you've already shown strengths worth building on.",
+  "error": null
+}

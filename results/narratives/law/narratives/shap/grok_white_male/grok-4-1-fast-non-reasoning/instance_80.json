@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 80,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:44.781333",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 36, you brought a strong foundation to your law school application, along with your upper-middle family income background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 68.8%—a threshold that led to the regrettable rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 3, well below the typical student's 5.53 average, had the strongest pull toward forecasting a bar exam struggle. Your Year 1 decile of 4, also lower than the average of 5.71, reinforced this concern as the second-biggest factor pushing the model toward failure. Even your upper-middle family income played a notable role in heightening the predicted risk, standing out compared to the broader dataset. On a brighter note, your LSAT score, close to the average of 36.70, actively worked in your favor, nudging the prediction toward success, while your undergraduate GPA near the 3.21 norm and full-time status provided smaller positive influences. Compared to typical students who pass the bar, your early academic deciles were noticeably lower, which overshadowed these strengths in the model's eyes. We understand this outcome feels disheartening, especially given your dedication so far. To move forward, consider retaking courses or programs to boost your decile rankings, as improving early academic performance has shown to shift predictions positively for others in similar situations. You might also explore targeted LSAT prep or GPA-enhancing post-bac options to strengthen your profile for the next cycle. We're rooting for you—many applicants like you turn things around with focused effort. Keep pursuing your legal ambitions; your story isn't over yet.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

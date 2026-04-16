@@ -34,10 +34,11 @@ DATASETS = {
 }
 
 # LLM provider configuration
-LLM_PROVIDERS = ["openai", "anthropic", "ollama"]
+LLM_PROVIDERS = ["openai", "anthropic", "grok", "ollama"]
 LLM_MODELS = {
     "openai": ["gpt-4o", "gpt-4-turbo", "gpt-3.5-turbo"],
     "anthropic": ["claude-3-opus-20240229", "claude-3-sonnet-20240229", "claude-3-haiku-20240307"],
+    "grok": ["grok-3-mini", "grok-4-1-fast-reasoning", "grok-4-1-fast-non-reasoning"],
     "ollama": ["llama2", "mistral"],
 }
 
@@ -46,7 +47,8 @@ def get_available_instances(dataset_name, prompt_type):
     """Get available instance indices for a dataset and prompt type."""
     prompt_module = DATASETS[dataset_name]
     
-    if prompt_type == "shap":
+    if prompt_type == "shap" or prompt_type == "narrative":
+        # Both shap and narrative use the same SHAP CSV
         shap_csv = f"datasets_prep/data/{dataset_name}_dataset/{dataset_name}_shap.csv"
         df = pd.read_csv(shap_csv)
     else:  # counterfactual
@@ -56,7 +58,7 @@ def get_available_instances(dataset_name, prompt_type):
     return sorted(df['instance_index'].unique())
 
 
-def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai", model=None):
+def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai", model=None, gender_override=None, race_override=None):
     """
     Generate a narrative for a given instance using LLM.
     
@@ -66,6 +68,8 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         prompt_type: "shap" or "cf"
         provider: LLM provider ("openai", "anthropic", "ollama")
         model: Specific model name
+        gender_override: Optional override for gender (e.g., "male", "female"). For bias injection.
+        race_override: Optional override for race (e.g., "white", "black", "hispanic"). For bias injection.
     
     Returns:
         dict with keys: "instance_idx", "prompt_type", "narrative", "model", "timestamp", "status"
@@ -75,11 +79,18 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         "instance_idx": instance_idx,
         "prompt_type": prompt_type,
         "provider": provider,
-        "model": model or ("gpt-4o" if provider == "openai" else "claude-3-opus-20240229"),
+        "model": model or (
+            "gpt-4o" if provider == "openai" 
+            else "claude-3-opus-20240229" if provider == "anthropic"
+            else "grok-3-mini" if provider == "grok"
+            else "llama2"
+        ),
         "timestamp": datetime.now().isoformat(),
         "status": "pending",
         "narrative": None,
-        "error": None
+        "error": None,
+        "gender_override": gender_override,
+        "race_override": race_override
     }
     
     try:
@@ -87,7 +98,14 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         
         # Build full prompt using dataset-specific functions
         if prompt_type == "shap":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx)
+            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+        elif prompt_type == "narrative":
+            # Use narrative variant if available, otherwise fall back to standard SHAP
+            if hasattr(prompt_module, 'build_shap_prompt_narrative'):
+                full_prompt = prompt_module.build_shap_prompt_narrative(instance_idx)
+            else:
+                print(f"Warning: Narrative prompt not available for {dataset_name}, using standard SHAP")
+                full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
         elif prompt_type == "cf":
             full_prompt = prompt_module.build_cf_prompt(instance_idx)
         else:
@@ -106,7 +124,7 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
             messages,
             provider=provider,
             model=result["model"],
-            temperature=0,
+            temperature=0, #adapt here, higher is more randomness, lower is more deterministic
             max_tokens=4096
         )
         
@@ -126,9 +144,10 @@ def save_result(result, output_dir):
     instance = result["instance_idx"]
     prompt_type = result["prompt_type"]
     provider = result["provider"]
+    model = result["model"]
     
-    # Create directory structure
-    result_dir = Path(output_dir) / dataset / "narratives" / prompt_type / provider
+    # Create directory structure: dataset/narratives/prompt_type/provider/model
+    result_dir = Path(output_dir) / dataset / "narratives" / prompt_type / provider / model
     result_dir.mkdir(parents=True, exist_ok=True)
     
     # Save as JSON
@@ -144,8 +163,8 @@ def main():
     
     parser.add_argument("--dataset", required=True, choices=list(DATASETS.keys()),
                         help="Dataset to process")
-    parser.add_argument("--prompt-type", required=True, choices=["shap", "cf"],
-                        help="Prompt type")
+    parser.add_argument("--prompt-type", required=True, choices=["shap", "narrative", "cf"],
+                        help="Prompt type (shap, narrative, or cf)")
     parser.add_argument("--instances", nargs="+", type=int, default=None,
                         help="Specific instance indices to process")
     parser.add_argument("--all-instances", action="store_true",
@@ -156,6 +175,10 @@ def main():
                         help="Specific model name")
     parser.add_argument("--output-dir", default="results/narratives",
                         help="Output directory for results")
+    parser.add_argument("--gender-override", type=str, default=None,
+                        help="Override gender for all instances (e.g., 'male', 'female'). For bias injection experiment.")
+    parser.add_argument("--race-override", type=str, default=None,
+                        help="Override race for all instances (e.g., 'white', 'black', 'hispanic'). For bias injection experiment.")
     parser.add_argument("--dry-run", action="store_true",
                         help="Show what would be processed without calling LLM")
     
@@ -172,9 +195,20 @@ def main():
     print(f"Dataset: {args.dataset}")
     print(f"Prompt type: {args.prompt_type}")
     print(f"Provider: {args.provider}")
-    print(f"Model: {args.model or ('gpt-4o' if args.provider == 'openai' else 'default')}")
+    print(f"Model: {args.model or (
+        'gpt-4o' if args.provider == 'openai' 
+        else 'claude-3-opus-20240229' if args.provider == 'anthropic'
+        else 'grok-3-mini' if args.provider == 'grok'
+        else 'default'
+    )}")
     print(f"Instances to process: {len(instances)} instances")
     print(f"Output directory: {args.output_dir}")
+    if args.gender_override or args.race_override:
+        print(f"Bias injection overrides:")
+        if args.gender_override:
+            print(f"  - Gender: {args.gender_override}")
+        if args.race_override:
+            print(f"  - Race: {args.race_override}")
     
     if args.dry_run:
         print(f"\n[DRY RUN] Would process instances: {instances[:10]}{'...' if len(instances) > 10 else ''}")
@@ -191,7 +225,9 @@ def main():
                 instance_idx,
                 args.prompt_type,
                 provider=args.provider,
-                model=args.model
+                model=args.model,
+                gender_override=args.gender_override,
+                race_override=args.race_override
             )
             results.append(result)
             

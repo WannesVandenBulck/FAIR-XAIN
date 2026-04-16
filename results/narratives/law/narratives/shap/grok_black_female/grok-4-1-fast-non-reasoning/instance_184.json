@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 184,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:07:25.476367",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing this path despite the challenges many face, and we appreciate the strengths in your background like your upper-middle family income and undergraduate GPA of 3.10, which is close to the typical student's. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated an 78% chance that you would not pass it. This high predicted risk of failure is why your application was rejected—the school uses this to ensure they admit students most likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, well below the average of around the 5th or 6th decile, signaling to the model that your later academic performance raised concerns about bar readiness. Your LSAT score of 26, significantly lower than the typical 37, was the next biggest driver toward predicting failure, as strong scores there are key predictors of bar success. Your Year 1 decile of 1, also much lower than average, added to this risk by highlighting early struggles that carried weight in the decision. On a brighter note, your undergraduate GPA actually pulled in the opposite direction, suggesting potential for passing since it's near the dataset average and showed solid college work. Your family income bracket helped a little too, as upper-middle backgrounds often correlate with better outcomes, and planning to attend full-time— like most students—nudged things slightly toward success. Compared to typical applicants who pass the bar, your grades in school deciles were in the bottom range, while your LSAT stood out as a bigger gap than most. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year performance through targeted study or courses, and reapplying once you've addressed these key areas—the model responds well to improvements there, and many in similar situations have succeeded with persistence. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

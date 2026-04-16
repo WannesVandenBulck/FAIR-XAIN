@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 190,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:40:00.630624",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application like piecing together a story about your journey to the bar exam, and unfortunately, the picture it painted led them to predict a tough road ahead with about a 66% chance of not passing. Your LSAT score of 26 stood out as the biggest chapter in this story, whispering strongly that challenges might lie ahead in mastering the intense demands of law school exams. Then came your Year 3 decile of 1, showing that even after some time in school, you were still ranking at the bottom among peers, which pulled the narrative heavily toward struggle. Your Year 1 decile of 1 echoed that early pattern, suggesting those foundational hurdles didn't fully clear up. Layered on top was your lower-middle family income, which the story saw as adding barriers to the resources and support many others draw from. As an Asian male going full-time, those details nudged the tale further toward potential obstacles, much like your undergraduate GPA of 2.9 hinted at a history of grades that could foreshadow bar exam pressures. It wasn't just one thing, but this combination that made the model see a higher risk of falling short, even with your clear aim to target law. We know this stings, especially when you're passionate about this path, but understanding these key pieces might help you target areas like test prep or study strategies to rewrite your story for the next opportunity. You're capable of turning this around—many have with focused effort. Keep pushing forward.",
+  "error": null
+}

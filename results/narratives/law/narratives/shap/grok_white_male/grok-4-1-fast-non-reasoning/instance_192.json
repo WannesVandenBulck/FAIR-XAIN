@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 192,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:43.384887",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background and plans to pursue full-time studies, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 60% chance that you would fail the bar exam on your first try, which unfortunately crossed the threshold for rejecting applications to prioritize students with the strongest likelihood of success. This decision hinged mostly on your early academic performance in school—specifically, your Year 1 grades placing you in the 1st decile, which stood out as a top concern because it signaled potential struggles ahead compared to most students who rank around the 6th decile on average. Your Year 3 grades, in the 2nd decile (versus the typical 6th), reinforced this worry by also falling well below the norm, making these two factors the biggest drivers pushing the prediction toward bar failure. On a brighter note, your choice to go full-time aligned with the vast majority of successful students (over 90%), which helped nudge the odds slightly in your favor, as did your LSAT score and family income bracket. Even your undergraduate GPA, at 2.50 compared to the average 3.21, played a minor role without much sway either way. Overall, your profile showed early grades that were notably lower than typical admits, outweighing those positive elements and leading to this tough call. While this stings, it's not the end of the road—many students in similar spots have improved dramatically with targeted prep. I recommend focusing on boosting your academic deciles through stronger coursework or retakes, perhaps retaking the LSAT to push closer to the 37 average, and seeking mentorship from law alumni who've overcome early hurdles. You're capable of turning this around, and reapplying after addressing these gaps could change the outcome next time. Hang in there—we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

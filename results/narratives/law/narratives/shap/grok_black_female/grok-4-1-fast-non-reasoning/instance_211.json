@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 211,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:09:05.992439",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing this path despite the challenges many face, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admission system uses a model trained on data from thousands of students like you, looking at factors such as early and later school grades, LSAT scores, undergraduate GPA, family income, and study plans to predict the chances of passing the bar exam on the first try. For you specifically, the model estimated an 83.6% probability that you would fail the bar exam initially, which is high enough to trigger a rejection as the school aims to admit those with stronger predicted odds of success. The biggest factors pushing toward this failure prediction were your Year 3 school decile ranking, which placed you in the bottom group compared to the typical mid-range for most students, strongly signaling lower academic momentum to the model. Your Year 1 decile, also at the bottom compared to averages, reinforced this concern as the second-most influential factor, suggesting early struggles that carried forward. These two grade-related rankings stood out as the dominant influences, far outweighing others in driving the model's pessimistic view. On a more positive note, your upper-middle family income pulled slightly in favor of passing, as it exceeds the dataset average and often correlates with better resources. Your undergraduate GPA of 2.60, below the typical 3.21, nudged things a bit toward passing despite being low, while your LSAT score of 30—well under the average 36.7—added a modest push toward failure risk. Planning to study full-time, like nearly all students in the data, offered a small favorable influence too. Compared to typical applicants who pass, your early and later school deciles are notably lower, putting you at a disadvantage in the model's eyes despite some balancing strengths. This isn't a judgment on your potential as a Black woman with resilience in a field that needs diverse voices—it's just how these metrics stacked up. Moving forward, consider retaking the LSAT to boost your score, strengthening your later grades through additional coursework, or exploring programs with holistic reviews that value your unique background; many succeed on second chances at the bar, and targeted prep could shift your trajectory. You've got this—keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

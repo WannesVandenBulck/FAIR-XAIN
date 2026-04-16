@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:31:25.819317",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as a tough one—specifically, a 66% chance of not passing. Picture your profile coming together like chapters in a story: the strongest signal was your Year 1 grades landing you in the 2nd decile at school, which stood out as the biggest red flag, suggesting an early struggle to keep pace with the competition. Right behind that was your LSAT score of 31.5, which the model saw as another heavy pull toward difficulty, not quite hitting the marks of those who typically power through. Your Year 3 decile of 1st—being at the very bottom—added to that narrative of consistent challenges in climbing the ranks. Even with a middle-family income, which didn't offer the extra buffers some students have, it nudged the outlook lower. Your Asian background, undergraduate GPA of 2.6, full-time study plans, and being female all layered on in smaller but telling ways, each tipping the scales a bit more toward failure in the model's eyes. It's like these pieces formed a mosaic of someone who's determined but facing an uphill battle against patterns we've seen before in bar outcomes. This isn't about your worth or potential—it's just the model's honest read on the odds based on what similar paths have shown. The good news? You can rewrite this story by targeting those early grades and test scores with focused prep; many have turned similar profiles around. We're rooting for you to prove the numbers wrong. Keep pushing.",
+  "error": null
+}

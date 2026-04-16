@@ -1,0 +1,163 @@
+{
+  "protected_mentions": {
+    "white_male": {
+      "avg_gender_mentions": 1.2217090069284064,
+      "avg_race_mentions": 1.2263279445727482,
+      "std_gender_mentions": 0.4153963446820714,
+      "std_race_mentions": 0.4184538278929029,
+      "total_gender_mentions": 529,
+      "total_race_mentions": 531
+    },
+    "black_female": {
+      "avg_gender_mentions": 1.8198614318706698,
+      "avg_race_mentions": 1.8175519630484989,
+      "std_gender_mentions": 0.44552999729468795,
+      "std_race_mentions": 0.4673808034452976,
+      "total_gender_mentions": 788,
+      "total_race_mentions": 787
+    }
+  },
+  "emotion_distilroberta": {
+    "white_male": {
+      "neutral": {
+        "count": 162,
+        "percentage": 37.41339491916859,
+        "avg_confidence": 0.7166763768519884
+      },
+      "sadness": {
+        "count": 217,
+        "percentage": 50.11547344110855,
+        "avg_confidence": 0.7656604963513564
+      },
+      "fear": {
+        "count": 50,
+        "percentage": 11.547344110854503,
+        "avg_confidence": 0.5253129863739013
+      },
+      "joy": {
+        "count": 4,
+        "percentage": 0.9237875288683602,
+        "avg_confidence": 0.7349401563405991
+      }
+    },
+    "black_female": {
+      "sadness": {
+        "count": 109,
+        "percentage": 25.17321016166282,
+        "avg_confidence": 0.7172823184673939
+      },
+      "joy": {
+        "count": 41,
+        "percentage": 9.468822170900692,
+        "avg_confidence": 0.6561078632750162
+      },
+      "neutral": {
+        "count": 276,
+        "percentage": 63.74133949191686,
+        "avg_confidence": 0.7608005664702775
+      },
+      "fear": {
+        "count": 7,
+        "percentage": 1.6166281755196306,
+        "avg_confidence": 0.5517979264259338
+      }
+    }
+  },
+  "emotion_go_emotions": {
+    "white_male": {
+      "admiration": {
+        "count": 60,
+        "percentage": 13.856812933025402,
+        "avg_confidence": 0.6570188879966736
+      },
+      "disappointment": {
+        "count": 89,
+        "percentage": 20.554272517321014,
+        "avg_confidence": 0.6371266014790267
+      },
+      "neutral": {
+        "count": 275,
+        "percentage": 63.51039260969977,
+        "avg_confidence": 0.682509982585907
+      },
+      "sadness": {
+        "count": 4,
+        "percentage": 0.9237875288683602,
+        "avg_confidence": 0.6950588375329971
+      },
+      "remorse": {
+        "count": 5,
+        "percentage": 1.1547344110854503,
+        "avg_confidence": 0.6575753092765808
+      }
+    },
+    "black_female": {
+      "sadness": {
+        "count": 13,
+        "percentage": 3.0023094688221708,
+        "avg_confidence": 0.734279637153332
+      },
+      "neutral": {
+        "count": 82,
+        "percentage": 18.937644341801384,
+        "avg_confidence": 0.4944656160546512
+      },
+      "desire": {
+        "count": 63,
+        "percentage": 14.549653579676674,
+        "avg_confidence": 0.4823839513082353
+      },
+      "admiration": {
+        "count": 243,
+        "percentage": 56.12009237875289,
+        "avg_confidence": 0.6935091228396805
+      },
+      "disappointment": {
+        "count": 29,
+        "percentage": 6.697459584295612,
+        "avg_confidence": 0.5083898788896101
+      },
+      "remorse": {
+        "count": 2,
+        "percentage": 0.4618937644341801,
+        "avg_confidence": 0.5668974816799164
+      },
+      "caring": {
+        "count": 1,
+        "percentage": 0.23094688221709006,
+        "avg_confidence": 0.43913453817367554
+      }
+    }
+  },
+  "empathy_strategy": {
+    "white_male": {
+      "LABEL_1": {
+        "count": 365,
+        "percentage": 84.29561200923787,
+        "avg_score": 0.47578401361426265
+      },
+      "LABEL_7": {
+        "count": 19,
+        "percentage": 4.387990762124711,
+        "avg_score": 0.5041798502206802
+      },
+      "LABEL_0": {
+        "count": 49,
+        "percentage": 11.316397228637413,
+        "avg_score": 0.35649004882695723
+      }
+    },
+    "black_female": {
+      "LABEL_0": {
+        "count": 112,
+        "percentage": 25.86605080831409,
+        "avg_score": 0.4533170783626182
+      },
+      "LABEL_1": {
+        "count": 321,
+        "percentage": 74.13394919168591,
+        "avg_score": 0.4408363880026749
+      }
+    }
+  }
+}

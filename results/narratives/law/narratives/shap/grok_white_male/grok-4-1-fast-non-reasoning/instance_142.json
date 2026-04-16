@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 142,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:37:41.516048",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 3.10, LSAT score of 34, and plans to attend full-time. The admissions model we use evaluates applicants based on patterns from past students' bar exam outcomes, predicting whether someone is likely to pass on the first try. For you, it estimated a 62% chance of failing the bar exam, which crossed our threshold for rejection to ensure we admit students with the strongest predicted odds of success. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 3, well below the typical student's 5.5-ish average, signaling to the model that your later academic performance might not translate to bar success. Your Year 1 decile of 3, also lower than average, reinforced this concern as the next most influential issue. Your family income bracket, while upper-middle and not uncommon, nudged the odds slightly higher toward failure compared to what the model sees as ideal profiles. On a positive note, your undergraduate GPA and LSAT score both worked in your favor, pushing the prediction toward passing since they're reasonably close to averages—your GPA just a bit under 3.21 and LSAT near 36.7. Being full-time, like over 90% of students, had a minor positive lean but wasn't enough to offset the top concerns. Overall, your profile stands out as having weaker high school deciles than most admitted students, which dominated the model's view despite your other strengths. This isn't a judgment on your potential—it's just how your specifics stacked up against historical patterns. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades if possible, or gaining targeted bar prep experience to build a stronger case. We're rooting for you to reapply with an even more competitive profile; many students turn things around and succeed. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

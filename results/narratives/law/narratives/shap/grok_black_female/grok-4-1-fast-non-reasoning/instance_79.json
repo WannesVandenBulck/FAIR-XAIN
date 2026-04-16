@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:00:41.646378",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile like your solid undergraduate GPA of 3.20 and upper-middle family income background. However, the admissions model, which predicts first-time bar exam success based on academic and background factors from past students, estimated a 72.9% chance that you would fail the bar exam—high enough to lead to the rejection of your application. This prediction was driven primarily by your lower placement in your school's grading deciles during Year 1 and especially Year 3, where you ranked in the bottom decile compared to typical students who average around the middle of their classes. These early and later academic rankings had the strongest influence, pushing the model's assessment firmly toward expecting bar failure rather than success. Your LSAT score of 35, while below the dataset average of about 37, helped counter this somewhat by nudging the prediction toward passing, showing it as a relative bright spot. Similarly, your undergraduate GPA nearly matching the average and your upper-middle income—stronger than many applicants—provided smaller boosts toward a positive outcome, as did your plan to attend full-time like most successful students. Overall, your Year 3 decile stood out as the single biggest factor tipping the scales against you, far more than these positives could offset when compared to peers who passed the bar. It's tough to hear, especially knowing the extra hurdles Black women often face in competitive fields like law, but this model focuses strictly on these predictors of bar performance. To move forward, consider retaking the LSAT to boost your score or strengthening your recent academic decile through additional coursework or a post-bac program that highlights improvement. You might also seek targeted bar prep resources tailored for underrepresented students to build a stronger case next time. Many have turned similar profiles around—your resilience can too. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

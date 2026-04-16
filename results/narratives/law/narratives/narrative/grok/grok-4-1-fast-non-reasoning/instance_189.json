@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 189,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:39:57.850071",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as a tough one—about a 50% chance of not passing. Picture it like this: you're a full-time student from a middle-income family, a white male with a solid but not standout undergrad GPA of 2.5 and an LSAT score of 30, which together sketch a starting point that's been challenging for others like you in similar spots. What weighed heaviest on the model's mind was your Year 3 decile of 1, placing you at the very bottom of your class that year, signaling a real struggle to keep up as law school ramps up. Right behind that was your Year 1 decile of 2, another early sign that the academic grind hit hard from the start, pulling strongly toward the risk of bar failure. Your LSAT score added to that cautious picture, as it fell short of the benchmarks that often light the way to success for students in your shoes. Even your middle family income, while respectable, didn't offer the extra cushion some peers have to navigate these hurdles. Layered on top were your undergrad grades and background—nothing against you personally, but in the stories of those who've faltered before, these pieces fit a pattern the model couldn't ignore. It's not that you're doomed, but the model saw this combination as a hill too steep for half the folks who've climbed it. The good news? You've got time to reshape that story—maybe by boosting those deciles or prepping that LSAT further. Hang in there; this is just one chapter.",
+  "error": null
+}

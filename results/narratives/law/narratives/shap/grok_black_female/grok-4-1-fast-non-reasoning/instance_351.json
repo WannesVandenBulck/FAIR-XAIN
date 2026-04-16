@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 351,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:17:30.344191",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite challenges like your lower-middle family income background, and we appreciate the courage it takes to get this far. The admissions model we use predicts your likelihood of passing the bar exam on the first try, and unfortunately, it estimated a 72.8% chance that you would not pass, which is why your application was rejected—schools rely on this to ensure strong outcomes for their students. This prediction was driven primarily by your Year 3 school grade decile, which ranked quite low compared to the typical student's mid-range standing, pushing the model strongly toward expecting a bar failure. Your LSAT score of 25.50, well below the average of around 37, was the second biggest factor pulling in the same concerning direction. On a more positive note, your undergraduate GPA of 3.10 was close to the dataset average of 3.21 and actually worked in your favor, nudging the prediction toward success. Your family income level and choice to attend full-time—common for most students—provided smaller boosts toward passing, while your Year 1 decile, though low, had minimal impact overall. Compared to typical applicants who pass the bar, your profile stands out for weaker later academic rankings and test scores, which outweighed your solid undergrad performance. This isn't a reflection of your potential as a Black woman leader in law—many overcome similar hurdles—but the model prioritizes these predictors based on past patterns. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your Year 3 grades if possible through additional coursework, and highlighting any unique experiences in a reapplication that showcase your resilience. You might also explore part-time programs or scholarships tailored for underrepresented students like yourself to build a stronger case next time. Keep pushing; your story deserves to be told in the courtroom. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 164,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:26:20.302782",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 74.6% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. You stand out with solid strengths like an LSAT score of 38—above the typical 36.7 average—and an upper-middle family income background, but your undergraduate GPA of 3.0 sits a bit below the usual 3.21, and as a white male planning full-time studies, you're in line with most applicants. What weighed heaviest, though, were your school deciles: a third-place ranking in Year 1 grades (versus the average fifth or sixth decile) and an even lower second-place in Year 3 (below the typical mid-pack). The model ranked your Year 3 decile as the single most influential factor, strongly nudging the prediction toward failure because it signals ongoing academic challenges compared to peers. Right behind it was your Year 1 decile, also pushing in the same direction due to that early dip below average performance. Your LSAT came third in influence, surprisingly contributing toward the failure prediction in your specific profile, even though it's stronger than most. Family income followed as fourth, then undergraduate GPA, race, gender, and full-time status—all tilting the scales toward higher risk, though less powerfully. Overall, your lower deciles set you apart from typical students who cluster around the middle of their classes, making those the key drivers here. To boost your future odds, focus on what you can control: revisit study habits that may have held back those early grades, consider LSAT prep for a potential retake to push it higher, and build bar-specific skills through targeted practice or courses. Many students turn things around by addressing academic patterns like yours early. You're already ahead in some areas—keep leveraging them, and reapply after showing progress. We believe in your potential with the right adjustments.",
+  "error": null
+}

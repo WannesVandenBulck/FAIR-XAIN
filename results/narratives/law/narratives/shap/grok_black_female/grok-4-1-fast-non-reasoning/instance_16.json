@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:38.963512",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile like your solid Year 1 and Year 3 school decile rankings of 7—both above average—and your strong LSAT score of 40, which stands out compared to the typical 36.7. However, the admissions model, which predicts first-time bar exam success based on academic and background factors from past students, estimated a 72% chance that you would fail the bar exam, leading to the regrettable rejection of your application. This prediction was driven primarily by your undergraduate GPA of 2.6, which is below the average of 3.21 and had the strongest pull toward forecasting failure, as lower GPAs in past students often correlated with bar struggles. Your upper-middle family income bracket, while a positive indicator in many cases, surprisingly nudged the prediction slightly toward failure here, perhaps because the model saw patterns where it didn't fully offset other risks. Your Year 1 decile also contributed toward the failure prediction, even though it's above average, indicating the model weighed it as not quite strong enough in combination with your GPA. On a brighter note, your Year 3 decile ranking pushed meaningfully in the direction of passing, helping to balance things somewhat, and your full-time enrollment status had a minor positive lean as well. Compared to typical students, your LSAT shines brighter than most, but the model prioritized your GPA as the biggest hurdle, where many successful applicants had higher marks. This isn't a reflection of your potential as a Black woman trailblazer in law—far from it—but rather a data-driven snapshot from historical patterns. To move forward, consider retaking undergrad-level courses or targeted GPA-boosting programs to strengthen that area, while leveraging your LSAT edge in reapplying to schools with holistic reviews. You might also seek mentorship from Black women attorneys who've navigated similar paths, and explore post-baccalaureate options to demonstrate bar readiness. Your upper-middle background gives you solid resources—use them to build an even stronger case next time. Keep pushing; your story is just beginning.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

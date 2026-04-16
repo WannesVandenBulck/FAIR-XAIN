@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 407,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:41.092922",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and I know receiving this rejection must feel incredibly disheartening amid the unique challenges you may have faced. The admissions model evaluated your profile— including your undergraduate GPA of 3.10, standout LSAT score of 43, top-decile performance in Year 1 and Year 3 of school, middle-family income bracket, and plan to attend full-time—against patterns from thousands of past students' paths to the bar exam. It predicted a 48.8% chance that you would fail the bar on your first try, which crossed the threshold for denying your application to prioritize spots for those seen as lower-risk for long-term success. While your LSAT score was a major strength, well above the typical student's, it was the single biggest factor pulling the prediction toward expecting you to pass. However, your Year 3 school decile ranking, which placed you in the bottom group compared to peers, had the strongest opposing pull, significantly raising concerns about bar exam readiness. Your Year 1 decile, also in the bottom tier versus averages, added to those worries, though less intensely. Your undergraduate GPA, slightly below average, offered a small buffer toward passing, as did your full-time study plan, which aligns with most successful students. Family income in the middle bracket had minimal sway either way. Overall, these academic deciles stood out as the top drivers tipping the scales toward failure risk, even with your impressive LSAT shining through. Compared to typical applicants, your test score exceeds the norm, but those early and later school rankings lag behind the middle-of-the-pack performance the model favors for bar passers. This isn't a judgment on your potential or resilience—it's just one data-driven snapshot. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking targeted LSAT-level prep for other areas, and reapplying with updated credentials that highlight your full-time commitment and strengths. You've already shown exceptional testing ability; building on that could shift the odds dramatically in your favor next time. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

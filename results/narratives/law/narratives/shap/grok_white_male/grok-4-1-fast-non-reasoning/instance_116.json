@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 116,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:58.536060",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated using a predictive model trained on data from thousands of students who took the bar exam. This model assesses the likelihood of passing the bar on the first try based on academic records, test scores, and personal details like yours. For you specifically, it estimated a 58% probability that you would fail the bar exam, which crossed the threshold for rejection—meaning the university decided not to admit you to protect their pass rates and your future success. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of the pack, signaling to the model a potential struggle in advanced coursework. This outweighed other influences, like your LSAT score of 34, which is a bit below the average of about 37 and helped pull the prediction slightly toward passing. Similarly, your undergraduate GPA of 2.60, lower than the usual 3.21, also nudged things toward failure but with less force than your Year 3 performance. Your upper-middle family income contributed modestly toward the failure side, perhaps reflecting patterns in the data where such backgrounds don't always correlate with bar success. In contrast, your Year 1 decile of 3 and your plan to attend full-time—common for over 90% of students—provided small boosts toward passing, though they weren't enough to shift the overall outcome. Compared to typical applicants, your profile shows solid but consistently below-average academics, especially in later years, which sets you apart from those who usually get approved. I know this rejection stings, especially when you've worked hard, but it's a data-driven call highlighting areas like your decile rankings as key hurdles. To move forward, focus on boosting your academic deciles through targeted study or retakes, consider retaking the LSAT to hit closer to 37 or higher, and explore part-time options or prep programs that have helped others in similar spots succeed on the bar. You're capable of turning this around—many students do by addressing these exact gaps. Keep pushing, and best wishes for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

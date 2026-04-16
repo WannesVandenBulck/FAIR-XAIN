@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:06:12.065720",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 79% chance you'll fail the bar exam on your first attempt, based on patterns from thousands of past students. Your profile shows solid Year 1 school decile ranking of 6, which is a bit above average, but your Year 3 decile dropped to 2, well below the typical 5.5, signaling a concerning dip in performance. Your undergraduate GPA of 2.8 also falls short of the average 3.2, and your LSAT score of 35 is slightly under the usual 36.7. Coming from an upper-middle family income bracket puts you in a stronger position than many, while being a full-time White male aligns closely with the majority of students in our data. The model weighed these factors to predict your bar outcome, with your Year 3 decile having the strongest influence, pushing hardest toward a failure prediction because it's so much lower than what's typical for passers. Next in impact was your Year 1 decile, which still nudged the prediction toward risk despite being decent. Your family income followed closely, offering a minor counterbalance but not enough to offset the academics. Your LSAT and undergraduate GPA each played notable roles in heightening the risk, as both trail averages seen in successful students. Less influential were your racial background, full-time status, and gender, which matched common profiles but didn't sway things much either way—all slightly tipped toward higher failure odds. Overall, academic performance, especially that Year 3 slide, dominated the decision more than demographics or background. To boost your future chances, focus on rebuilding your grades through targeted study habits or extra courses, consider retaking the LSAT to hit or exceed 37, and strengthen your overall academic record before reapplying. With consistent improvement in these areas, you could shift the prediction in your favor next time. Keep pushing—you've got potential, especially from your Year 1 start.",
+  "error": null
+}

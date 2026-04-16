@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 411,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:10.582589",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an LSAT score of 34, you've clearly put in significant effort to build a strong academic foundation, including your upper-middle-class family background and plans to attend full-time. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 42%, tipping the scales toward rejection of your application. This prediction was driven primarily by your Year 3 school decile ranking of 1, which stood out as the strongest factor pushing the model toward forecasting a bar exam struggle, well below the typical student's mid-range performance in that area. Counterbalancing this somewhat was your undergraduate GPA, which is above average and notably pulled the prediction in a positive direction, suggesting your college record signals real potential for success. Your LSAT score, while respectable, also helped by nudging the odds toward passing, though not enough to overcome the top concern. Less influential but still supportive were your Year 1 decile of 3, family income bracket, and full-time status, each contributing mildly against the failure prediction compared to most applicants. In essence, relative to typical students who rank higher in later-year school deciles, your profile showed a dip that the model weighed most heavily, despite your other strengths. I know this rejection stings, especially when you've achieved above-average marks in key areas like undergrad grades. To move forward, consider retaking the LSAT to boost your score or strengthening your later academic deciles through additional coursework or targeted prep that showcases improvement. You might also seek feedback from advisors on bolstering your Year 3 performance narrative in future applications. With your solid baseline, targeted improvements could flip this prediction—many students in similar situations have succeeded by addressing these exact gaps. Keep pushing; your potential is evident, and the right steps can open those law school doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

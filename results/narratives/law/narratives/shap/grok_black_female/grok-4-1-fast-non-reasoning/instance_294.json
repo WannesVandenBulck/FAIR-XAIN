@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 294,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:14:02.252011",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score and undergraduate GPA. The admissions model we use predicts your likelihood of passing the bar exam on the first try, and unfortunately, it estimated a 56.7% chance that you might fail, which is why your application was rejected—schools set a high bar to ensure strong outcomes for their students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the typical student's rank around the middle of the pack, signaling to the model a potential challenge in sustaining high performance. This outweighed your LSAT score of 39, which is stronger than average and pulled notably in the direction of passing success. Your undergraduate GPA of 3.10, slightly below the usual 3.21, also helped toward passing but not enough to offset other concerns. Your Year 1 decile of 2, again lower than the average, added a moderate push toward the failure prediction, as did your middle family income bracket compared to higher-typical levels. Being a full-time student, which is the norm for most applicants, provided a small positive nudge toward passing. Overall, your academic deciles stood out as the biggest hurdles compared to typical students who rank higher and pass more reliably. While this is disappointing, especially given your personal background and achievements, it's not the end of the road—consider retaking courses or exams to boost your decile rankings, seeking targeted LSAT or GPA improvement resources, or applying to programs with additional support for students like you. Many have turned similar predictions around with focused effort, and we're rooting for your success. Keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

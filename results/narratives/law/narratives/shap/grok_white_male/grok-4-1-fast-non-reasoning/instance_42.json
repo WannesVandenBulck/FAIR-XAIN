@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:23.083227",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 43.2% chance that you might fail the bar exam on your first try, which unfortunately crossed the threshold for rejecting your application—it's designed to prioritize students with the strongest signals of bar passage success to protect the school's outcomes. Your undergraduate GPA stood out as the most influential positive factor, as it was close to the typical student's average and pushed the prediction toward expecting you to pass, showing your academic foundation is a real strength. However, your lower decile ranking in Year 3 grades compared to most students was the top factor pulling in the opposite direction, suggesting to the model that your performance dipped in later years and increasing the failure risk. Your LSAT score of 25.50, well below the average, was the next biggest concern, further nudging the prediction toward potential bar struggles despite your other qualifications. Being full-time and from a middle-income family helped a bit, as these align with typical successful profiles and slightly favored passage, while your Year 1 decile was another modest positive. Overall, compared to admitted students, your profile showed stronger early academics and background but weaker later grades and standardized testing, tipping the balance against you. This isn't a judgment on your potential—models like this weigh patterns from past students, and outliers succeed all the time. To strengthen future applications, consider retaking the LSAT to boost that score, building a stronger upper-year record if possible, or gaining relevant experience that highlights your resilience. Reach out to admissions advisors for personalized feedback, and keep pursuing your goals—you've already shown the grit to get this far. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

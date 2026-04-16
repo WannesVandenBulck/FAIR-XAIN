@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 325,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:15:52.770020",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dreams despite the challenges many face in academic pipelines, and we're here to help you understand the automated decision on your application in a clear way. Your profile includes a strong start with an 8th decile ranking in your first-year grades—well above the typical student's 6th decile—along with a solid undergraduate GPA of 3.20, right around the average, and coming from an upper-middle-class family background. You're planning to attend full-time, which is the norm for most students, but your LSAT score of 26 stands out as notably lower than the average of about 37. The model assessed your overall likelihood of failing the bar exam on your first try at 43%, which crossed the threshold that led to your application's rejection—essentially, the school uses this prediction to prioritize candidates seen as strong bets for bar passage and professional success. The biggest factor pushing toward this failure prediction was your LSAT score, as it signaled to the model a higher risk compared to what it typically sees in students who pass. On the positive side, your excellent first-year decile ranking had the strongest pull toward predicting success, showing the model recognized your early academic promise as a key strength. Your undergraduate GPA also helped nudge the prediction toward passing, aligning closely with successful students' profiles. Less influential but still supportive were your third-year decile of 3rd—slightly below average, which added a small push toward failure risk—and your family income and full-time status, both of which leaned positive like most applicants. Compared to typical students, your early grades shine brighter than average, but the LSAT gap was the standout concern that tipped the scales. While this decision is disappointing, especially given barriers Black women often navigate in standardized testing, it doesn't define your potential—many overcome similar hurdles. Next, consider retaking the LSAT to boost that score, strengthening your first-year momentum into later years, and reapplying with those improvements to better align with the profiles of bar-passing students. We're rooting for you and happy to discuss personalized strategies.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

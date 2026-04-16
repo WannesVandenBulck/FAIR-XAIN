@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:05.141285",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and a family from the lower-middle income bracket, you've clearly put in significant effort to pursue law school while planning to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 66.8% chance that you would fail the bar exam—above the threshold that led to your application's rejection. This decision hinged most heavily on your school decile rankings from Years 1 and 3, both at the 1st decile, which stood out as unusually low compared to the typical student's 5th or 6th decile placement and strongly pushed the prediction toward expecting failure. While your undergraduate GPA was a bright spot—higher than the average of 3.21 and the biggest factor pulling the prediction back toward passing success— it wasn't enough to offset those early academic deciles. Your family income level also nudged things slightly in a positive direction, aligning with patterns where lower-middle backgrounds sometimes correlate with bar passage when paired with other strengths. Even your LSAT score of 31, though below the dataset average of 36.7, had only a minor favorable influence, and your full-time enrollment plan barely factored in. Overall, compared to typical admitted students who boast mid-range deciles and stronger standardized scores, your profile signaled higher risk to the model despite your GPA advantage. I know this rejection stings, especially after your hard work, but it's not a judgment on your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost that score closer to average, seeking ways to improve or contextualize those early deciles through additional coursework or explanations in reapplications, and targeting schools with holistic reviews that value your GPA and background. Many students in similar situations rebound stronger; you're capable of turning this around with targeted steps. Keep pushing—you've already shown resilience.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

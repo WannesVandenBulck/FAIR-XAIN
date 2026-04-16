@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:23.888498",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and I know receiving this rejection must feel incredibly disheartening—especially with your solid LSAT score and upper-middle-class family background supporting your dreams. The admissions model we use predicts whether applicants like you are likely to pass the bar exam on the first try, and unfortunately, it estimated a 40.9% chance that you might fail, which crossed the threshold for denying your application to protect the school's outcomes. This prediction wasn't random; it weighed your Year 1 and Year 3 school deciles, undergraduate GPA, LSAT, family income, and full-time study plans against patterns from thousands of past students. The most influential factor pulling in your favor was your strong LSAT score of 40, well above the average of 36.7, which significantly boosted the model's confidence in your potential to pass the bar. However, your Year 3 decile ranking of 2—lower than the typical 5.53—emerged as the top concern, strongly pushing the prediction toward failure by signaling a dip in performance compared to peers. Right behind that, your Year 1 decile of 1, also below the average of 5.71, added to those worries about early academic consistency. Your undergraduate GPA of 3.10, slightly under the 3.21 average, helped a bit by nudging things toward success, while your upper-middle family income played a smaller role in tipping toward risk, perhaps reflecting broader trends in the data. Being a full-time student aligned with the vast majority at 92.7%, offering a minor positive lift. Overall, while your LSAT stands out as a strength that sets you above many applicants, the model saw your lower decile rankings as the biggest red flags when compared to students who typically pass, outweighing those positives for this close-call decision. This isn't a judgment on your worth or resilience as a Black woman breaking barriers—it's just one data-driven snapshot. To move forward, consider retaking courses or programs to boost your decile rankings, highlighting your LSAT prowess in appeals or other schools, and seeking mentorship tailored to diverse law students who've overcome similar hurdles. You've got real potential here; use this as fuel to strengthen those areas and reapply stronger. Keep pushing—you're meant for this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 302,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:28.593765",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including a respectable LSAT score and planning to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 56%—just over the threshold that led to your application's rejection. This decision was driven primarily by your undergraduate GPA of 2.80, which falls below the typical 3.21 average and had the strongest pull toward predicting bar failure, signaling to the model a potential challenge in sustaining high academic performance. Your LSAT score of 37, slightly above the average of 36.70, worked strongly in your favor, pushing the prediction toward success and showing your aptitude for legal reasoning. Next in influence was your Year 3 school decile ranking of 5, right around the average of 5.53 but still nudging the model toward failure compared to top performers. Your family's upper-middle income also contributed somewhat toward the failure prediction, as the model associates it with certain patterns in outcomes. Meanwhile, your top decile 10 ranking from Year 1 and full-time enrollment status provided minor boosts toward passing, aligning with the vast majority of successful students. Overall, your profile compares to typical applicants as competitive in test scores and early performance but held back by later GPA trends below the norm. While this is disappointing, it's not the end of the road—consider retaking courses to boost your GPA, gaining targeted legal experience, or applying to programs with holistic reviews that value your strengths like your LSAT. You have the foundation to improve these key areas and reapply stronger next cycle. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

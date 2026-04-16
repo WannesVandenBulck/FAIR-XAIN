@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 221,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:34:24.621774",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 54.4% chance you'll fail the bar exam on your first try, which is just over the threshold we use to approve admissions. This prediction is based on your overall profile, including your Year 1 school decile of 5, Year 3 decile of 4, upper-middle family income, LSAT score of 36, undergraduate GPA of 3.40, being female, White, and planning full-time enrollment. Compared to typical students, your undergraduate GPA stands out positively above the average of 3.21, while your school deciles in Years 1 and 3 are below the usual 5.71 and 5.53, your LSAT is a bit under the average 36.70, and your family income and demographics align closely with the majority in our dataset. The strongest factor influencing this prediction was your Year 3 decile, as it pushed the model toward expecting a bar failure more than any other detail. Next in influence came your Year 1 decile, which also nudged the outlook toward failure, followed by your family income bracket. Your LSAT score, undergraduate GPA, racial background, gender, and full-time status each played smaller roles, all slightly tilting the prediction in the same concerning direction. While no single factor was overwhelmingly decisive, these elements together created a borderline risk profile that tipped just over our limit. It's encouraging that your strong undergrad performance shows real potential, and being in the common full-time and White demographic categories didn't hurt your case. To boost your future chances, focus on actionable steps like retaking the LSAT to aim above the typical 36.70, building stronger late-stage grades to lift those school deciles, or gaining experiences that highlight your academic resilience. Many students in similar spots have succeeded by targeting these areas before reapplying. You're close to the approval line, so targeted improvements could make a big difference next time. Hang in there—this is a prediction, not a destiny, and you've already shown strengths worth building on.",
+  "error": null
+}

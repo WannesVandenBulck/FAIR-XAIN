@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 182,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:09.005560",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and Year 1 and Year 3 school deciles both at 7—above average for most students—your law school application showed real promise in several areas. Your family comes from a middle-income bracket, and you've indicated plans to attend full-time, which is the norm for over 90% of applicants. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 44% chance you'll fail the bar—high enough to trigger a rejection, as the school prioritizes applicants likely to pass on their first try. The biggest factor working in your favor was your Year 3 academic decile of 7, which strongly suggested you'd perform well under pressure, pulling the prediction toward success more than any other element. Your Year 1 decile of 7 and undergraduate GPA also nudged things positively, showing consistent performance above the typical student's level. That said, your family income bracket played the most significant role in pushing toward a failure prediction, as middle-income backgrounds in the data correlated with higher bar risks compared to others. Your LSAT score of 30.50, below the average of 36.70, added a small counterforce toward failure, though it wasn't as influential. Full-time status helped slightly, aligning with successful students' profiles. Overall, while your grades outshone averages, the model weighed your income and LSAT as key hurdles against bar passage for someone in your circumstances. Many applicants with similar strong deciles and GPAs get approved, but your profile sat just on the edge due to those drags. To move forward, consider retaking the LSAT to boost it toward or above average, gathering more data on bar prep success from middle-income peers, or applying to programs with holistic reviews beyond predictions. You're clearly capable—keep pushing, and stronger options await.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

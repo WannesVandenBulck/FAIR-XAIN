@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 335,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:37:03.979199",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I understand how disappointing it must be to receive a rejection from the law school, especially when you've worked hard to get here. Your application highlighted some strong aspects, like coming from an upper-middle income family, identifying as male and White—which are common among applicants—and planning to attend full-time, just like most students in the dataset. However, your academic record includes a Year 1 school decile of 2, well below the typical 5.7 average, a Year 3 decile of 2 compared to the usual 5.5, an LSAT score of 32 versus the average 36.7, and an undergraduate GPA of 2.9 against the standard 3.2. The model, trained on data from many bar exam takers, predicted a 40.9% chance that you would fail the bar on your first try, which was high enough to trigger the rejection as schools aim to admit those most likely to succeed. In assessing your profile, the strongest factor pushing the prediction toward failure was your Year 3 school decile, as it signaled lower performance relative to peers. This was closely followed by your LSAT score, which had the next biggest influence in that direction, then your Year 1 decile. Your family income level, undergraduate GPA, racial background, gender, and full-time status each played smaller roles, all nudging slightly toward the failure prediction but far less than your grades and test score. Overall, your metrics were below average in key academic areas compared to typical students who pass the bar, making those the dominant drivers here. To improve your future chances, focus on what you can realistically change: consider retaking the LSAT to boost your score closer to or above the average, and build a stronger academic record through targeted study habits or additional coursework that could lift your standing in future evaluations. Strengthening these areas has helped many students shift their profiles toward success on the bar exam. Keep pushing forward—you have solid foundations in other areas, and with some adjustments, you can turn this around.",
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 221,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:30.272262",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put together a thoughtful application highlighting your undergraduate GPA of 3.10 and LSAT score of 33. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 45% chance you'll fail the bar—above the threshold that led to your rejection. This decision hinged on a few key aspects of your academic record that stood out compared to typical applicants. Your undergraduate GPA was the strongest positive factor, as it's close to the average and signaled to the model a good foundation for legal studies, pushing the prediction toward expecting you to pass. Similarly, your LSAT score, though below the typical 36.7 average, still contributed positively by showing decent analytical skills aligned with bar success. On the flip side, your Year 3 school decile ranking of 3—lower than the average 5.53—was the biggest concern, suggesting relatively weaker performance among peers that nudged the model toward predicting failure. Your Year 1 decile of 2, also below the average 5.71, reinforced this worry about early academic struggles. Lesser factors like your family income and full-time status had minimal sway. Compared to peers who typically pass, your deciles indicate room for improvement in consistent school rankings, while your GPA and LSAT held you back less dramatically. To move forward, consider retaking the LSAT to boost it above average or strengthening your academic profile through additional coursework or a post-bac program to improve those decile rankings. With targeted effort, you can reapply stronger—many students in similar spots have turned things around. We're rooting for you to ace this next chapter.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

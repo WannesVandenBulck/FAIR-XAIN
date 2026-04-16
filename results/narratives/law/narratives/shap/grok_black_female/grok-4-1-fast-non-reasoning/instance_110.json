@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 110,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:02:40.459672",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score of 39, which stands out above the typical student's score of around 37. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on academic and background factors, estimated your risk of failure at 44.9%—high enough to lead to the regrettable rejection of your application. This prediction was driven primarily by your Year 3 school decile ranking of 2, well below the average of about 5.5, which strongly pushed the model toward expecting bar exam challenges. Your undergraduate GPA of 2.4, lower than the typical 3.2, also contributed noticeably in that direction, reinforcing concerns about long-term academic hurdles. On a brighter note, your LSAT performance had the strongest positive influence, pulling the prediction toward success more than any other factor. Your Year 1 decile of 4, slightly below average, offered some helpful counterbalance, as did your middle family income bracket. Being enrolled full-time aligned closely with the vast majority of students and had minimal sway. Compared to typical applicants, your LSAT shines, but your later academic deciles and GPA lag behind, tipping the scales for the model. This isn't a judgment on your potential—many overcome similar starts through targeted preparation. To move forward, consider retaking courses or boosting your GPA through post-bac programs, while leveraging that excellent LSAT; community resources for Black women in law, like affinity groups, could provide mentorship and study strategies to strengthen future applications. You're capable of turning this around—keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 130,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:55.376749",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a full-time study plan and a lower-middle family income background, we understand how disappointing it must be to receive this law school admission rejection—it's a tough moment, and we're here to help you make sense of it in plain terms. The admissions model we use looks at patterns from thousands of past students to predict their chances of passing the bar exam on the first try, and unfortunately, it estimated a 97% probability that you would fail it, which is why your application was turned down to protect the school's outcomes. This prediction stemmed largely from your academic rankings in school: you placed in the bottom decile for both your first-year and third-year grades, far below the typical student's middle-of-the-pack standing, and these were the strongest factors pushing the model toward seeing a high risk of bar failure. Your LSAT score of 23.5, which is notably lower than the average of around 37, was the next biggest influence, reinforcing the model's concerns about your readiness for the rigors ahead. Even your undergraduate GPA of 2.1, below the usual 3.2, added to this picture, though it played a smaller role. On a brighter note, your lower-middle family income actually nudged the prediction slightly in a positive direction compared to higher-income peers, suggesting some resilience there, and your choice of full-time study aligned with the vast majority of successful students, offering a minor boost. Overall, these elements painted a profile riskier than most applicants, where stronger early grades, higher test scores, and GPAs typically signal bar passage success. You're not defined by this one snapshot, though—many students in similar spots have turned things around. To move forward, consider retaking the LSAT to boost that score, strengthening your academic record through additional coursework or a post-bac program, and gathering strong recommendation letters that highlight your potential. Reach out to admissions advisors for targeted feedback, explore bridge programs or community college paths to rebuild your GPA trajectory, and remember, persistence has helped countless others like you gain entry elsewhere. You've got this—law school doors aren't closed forever. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

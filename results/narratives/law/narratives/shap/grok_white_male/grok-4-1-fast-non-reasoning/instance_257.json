@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 257,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:45.198605",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an upper-middle-class family background, you've clearly put in strong effort to build a promising profile for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 49.6%—just over the threshold that led to your application's rejection. This decision was driven primarily by your academic decile rankings from school, particularly your Year 3 performance, which ranked in the bottom decile (1st out of 10) compared to the typical student's middle-of-the-pack standing around the 5th or 6th decile. That low Year 3 decile had the strongest pull toward predicting bar failure, suggesting to the model that your later academic momentum didn't keep pace with expectations. Your Year 1 decile, also at the bottom (1st), reinforced this concern as the next biggest factor pushing the prediction toward failure, even though your undergrad GPA stood out positively above the average of 3.21. On a brighter note, your GPA was the most influential factor in the model's favor, strongly nudging the prediction toward bar passage and showing your college success as a real strength. Your LSAT score of 29.50, below the dataset average of 36.70, pulled somewhat toward failure but less intensely than your school deciles, while your family income and full-time student status offered minor positive boosts. Compared to typical students, who often have mid-range school deciles and higher LSATs, your profile highlighted early and persistent challenges in your school's grading context despite your impressive undergrad record. While this rejection stings, it doesn't define your potential—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost it closer to or above the average, strengthening your school performance in any remaining years, and perhaps seeking targeted bar prep resources early. You have the GPA foundation to build on, so exploring other law programs with holistic reviews or gap-year improvements could open new doors. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

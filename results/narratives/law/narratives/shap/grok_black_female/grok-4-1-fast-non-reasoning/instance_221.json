@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 221,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:09:39.387475",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your background, like your upper-middle family income and plans to attend full-time like most applicants. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 45% chance of failure for you—high enough that it tipped the decision toward rejecting your application to help ensure we admit students most likely to succeed. This prediction was driven primarily by your undergraduate GPA and LSAT score, which were the strongest factors pulling in a positive direction toward passing, as your GPA of 3.10 is close to the typical 3.21 average and your LSAT of 33, while below the usual 36.7, still offered some reassurance compared to lower performers. However, your school decile rankings from Year 1 (2nd decile) and Year 3 (3rd decile)—both notably below the averages of around 5th or 6th—had the next biggest influences, pushing the prediction toward failure since they suggest your early academic performance lagged behind most peers who pass the bar. Your family income and full-time status played smaller roles, with income slightly nudging toward higher risk and full-time enrollment offering a minor boost, as it's the norm for 93% of students. Overall, while your GPA and LSAT helped keep the risk from being even higher, those lower decile rankings stood out as the key hurdles compared to typical successful applicants who rank higher in their schools. This isn't a judgment on your potential—many factors like resilience and dedication matter beyond numbers. To strengthen future applications, consider retaking the LSAT to aim above the average, building a stronger academic record through additional coursework or post-bac programs to improve your school rankings, and highlighting any leadership or community work that showcases your unique strengths as a Black woman in law. You might also explore part-time options or schools with holistic reviews that weigh personal stories more heavily. Keep pushing forward; with targeted improvements, you can shift that prediction in your favor and join the ranks of successful bar passers. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

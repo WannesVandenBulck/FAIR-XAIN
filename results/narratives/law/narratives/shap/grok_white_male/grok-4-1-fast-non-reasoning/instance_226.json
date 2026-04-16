@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 226,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:48.772444",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and plans to attend law school part-time, you've put real effort into your application, and we appreciate the background you've shared about your lower-middle family income and early academic performance. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 56% probability of failure for you, which crossed the threshold leading to the rejection of your application. This prediction was driven primarily by your LSAT score of 20, which stood out as the biggest factor pushing the model toward expecting a failure, well below the typical score of around 37 seen in the dataset. Your undergraduate GPA, slightly under the average of 3.21, actually worked in your favor by pulling the prediction toward success, helping to offset some concerns. Meanwhile, your Year 1 school decile of 1 and Year 3 decile of 2—both lower than the averages of about 6—contributed moderately toward the failure prediction, suggesting those early grades raised flags compared to most students. On a positive note, your part-time status, which is less common (only about 7% of students), and your family income bracket nudged things toward expecting you'd pass, much like they do for similar applicants. Overall, your profile compares to typical students by having strengths in GPA and background but notable gaps in LSAT and early deciles that tipped the scales. While this is disappointing, especially given your determination as a white male from a modest background pursuing law part-time, it's not the end of the road. To strengthen future applications, focus on boosting your LSAT score through targeted prep, as it's the most influential hurdle here. You might also consider ways to highlight improvements in later academic deciles or full-time options if feasible. Retake the LSAT, build a stronger narrative around your unique path, and reapply—we've seen students like you turn predictions around with these steps. Keep pushing forward; your story has real potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:30:50.295366",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a high family income background and plans to attend law school full-time, you've put significant effort into your application, including your undergraduate GPA of 2.70 and LSAT score of 31. Unfortunately, the university's machine learning model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 93.3% chance that you would fail the bar exam. This high predicted risk led directly to the rejection of your admission application, as the school prioritizes candidates likely to pass on their first try. The model's decision was driven primarily by your academic decile rankings from school—specifically, your position in the lowest decile for Year 3 grades stood out as the strongest factor pushing toward a failure prediction, far outweighing the typical student's mid-range performance around the fifth or sixth decile. Your Year 1 decile, also in the bottom rung compared to most applicants' averages, reinforced this concern as the second-most influential element. These early academic struggles signaled to the model a pattern more common among students who later struggled on the bar. Your LSAT score, below the dataset average of about 37, added further weight toward the failure prediction, as higher scores are key indicators of bar success for profiles like yours. Similarly, your undergraduate GPA fell short of the typical 3.21 average, contributing in the same direction though with less force. On a brighter note, your high family income slightly favored a passing prediction, countering the risks a bit, while your full-time enrollment plan nudged things positively since most successful students follow that path. Compared to typical admitted students, your profile shows stronger headwinds from those low deciles and test scores, placing you outside the safer zone where bar passage rates are higher. While this outcome is disappointing, it's not the end of your journey—consider retaking the LSAT to boost your score, strengthening your later-year grades if possible, or exploring part-time programs or alternative law schools with more flexible criteria. Many students in similar situations have improved their profiles and succeeded; we encourage you to seek advising from pre-law counselors to chart your next steps confidently. Keep pushing forward—you have the determination to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 166,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:39:10.053473",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 2.90, LSAT score of 33.50, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 60.5% chance that you would fail the bar exam—above the threshold that led to your application's rejection. This decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your peers and strongly pushed the prediction toward failure. Your Year 1 decile, also in the lowest tenth, reinforced this concern as the next biggest factor pulling the odds downward. While your LSAT score, though below the typical 36.70 average, worked in your favor by suggesting stronger potential for passing, it wasn't enough to offset those early academic struggles. Your undergraduate GPA and family income level provided modest positive nudges toward success, and your full-time enrollment plan aligned with the vast majority of successful students, offering a small boost. Compared to typical applicants, your decile rankings stand out as unusually low, while your other metrics are closer to average but couldn't compensate. We understand this rejection feels disappointing, especially given your dedication. To strengthen future applications, focus on boosting your academic deciles through targeted study habits or additional coursework, and consider retaking the LSAT to push closer to or above the average. Exploring part-time options or gap-year experiences that build proven academic momentum could also help. You're capable of turning this around—many students in similar positions have succeeded by addressing these key areas head-on. Keep pursuing your goals with persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

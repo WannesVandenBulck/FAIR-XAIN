@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 228,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:54.671263",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an impressive LSAT score of 42.50, you brought some strong credentials to your law school application, along with your background from a middle-income family and plans to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 41.3%—a risk level that unfortunately led to the rejection of your application, as the school prioritizes candidates with lower predicted failure odds. The most influential factor pulling in your favor was your standout LSAT score, well above the typical 36.70 average, which strongly suggested to the model that you're capable of strong performance on high-stakes tests like the bar. On the flip side, your Year 3 school decile ranking of 1—much lower than the average of 5.53—was the biggest concern, signaling to the model a notable dip in performance that pushed toward a higher failure risk compared to most applicants. Your undergraduate GPA also helped your case, slightly exceeding the 3.21 average and nudging the prediction toward success. Less impactful but still noted were your lower Year 1 decile of 2 versus the 5.71 average, which added a small push toward failure risk, while your middle-income background and full-time status were minor factors with little sway either way. Overall, while your test scores shine brighter than many peers, your school rankings place you below typical successful applicants, tipping the model's balance against admission. This isn't a judgment on your potential as a white male from a middle-class background—many with similar profiles succeed with targeted improvements. To move forward, consider retaking courses or programs to boost your school deciles, perhaps seeking tutoring for consistent academic performance, and reapply after demonstrating upward trends. Law school admissions value growth stories, so building a narrative around overcoming those early dips could make your next application compelling. You're clearly talented on paper with that LSAT; channeling it into stronger grades will open doors. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

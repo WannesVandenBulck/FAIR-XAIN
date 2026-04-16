@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 212,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:59.238188",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background, your law school application was carefully evaluated by our admissions model, which looks at key indicators from past students' paths to the bar exam. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, an undergraduate GPA of 2.60, an LSAT score of 23.50, and plans to attend full-time—standing in contrast to typical applicants who average much higher deciles around 5-6, an undergrad GPA of 3.21, and an LSAT around 37. The model predicts a 72.8% chance that you would fail the bar exam on your first try, which is why your application was rejected; schools use this to prioritize students likely to succeed and pass the bar promptly. The biggest factor pushing toward this failure prediction was your Year 3 decile ranking of 1, well below the average of about 5.5, signaling to the model a significant dip in later academic performance compared to peers. Your LSAT score of 23.50, far lower than the typical 37, was the next strongest influence pulling the prediction toward failure, as strong scores there are crucial for bar success in historical data. On a more positive note, your undergraduate GPA of 2.60, though below the 3.21 average, actually nudged the prediction slightly toward passing, showing some resilience in your college record. Your full-time enrollment plans helped a bit too, aligning with the vast majority of successful students who go full-time. Your Year 1 decile of 2 offered a small positive counterbalance, and your middle-income bracket had minimal sway. Overall, your situation places you below typical admitted students on the most critical academic markers like later-year grades and LSAT, which carry the heaviest weight here. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your later undergraduate or grad school grades to improve those decile rankings, and perhaps exploring part-time options or prep programs tailored for bar success. With targeted improvements, you could reapply stronger—many students in similar spots have turned things around. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

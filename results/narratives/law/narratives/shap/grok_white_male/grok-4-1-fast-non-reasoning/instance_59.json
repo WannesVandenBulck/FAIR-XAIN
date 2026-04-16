@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:28.539915",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and a family from the middle income bracket, you've put real effort into building a strong profile for law school. Your school decile rankings of 4th in Year 1 and Year 3 reflect performance that's a bit below the typical student's 5th or 6th place standing, while your LSAT score of 31 falls noticeably short of the average 37 seen among past applicants. You're planning to attend full-time, which aligns with the vast majority—over 90%—of students in the dataset. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 48% chance that you would fail it on your first try, tipping the scales just enough to reject your application since the school prioritizes those likely to pass and succeed as lawyers. The most influential factor pulling in your favor was actually your undergraduate GPA, which is stronger than average and convinced the model you have real academic potential for law school success. However, your LSAT score had the next biggest impact, pushing the prediction toward failure because it's lower than what typically leads to bar passage. Your middle family income also contributed somewhat to the riskier outlook, as the model associates it with slightly higher odds of struggling on the exam compared to higher brackets. Lesser influences included your Year 1 decile slightly helping your case, your full-time status offering a small boost since most successful students go that route, and your Year 3 decile nudging mildly toward failure. Overall, while your GPA stands out positively against peers, the LSAT and income factors outweighed it, placing you just on the wrong side of the pass-fail line compared to typical admits. This isn't a judgment on your character or drive—it's a data-driven call based on patterns from past students. To turn things around, focus on retaking the LSAT to boost that score closer to 37 or above, perhaps while strengthening any income-related support through scholarships. With targeted prep, you could reapply stronger next cycle and show the model—and the school—what you're truly capable of. Keep pushing forward; many have overcome similar hurdles to pass the bar and thrive.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:01.050060",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer despite the challenges many face in this field. Your application included your undergraduate GPA of 2.90, an LSAT score of 34, rankings in the 2nd decile for both your first-year and third-year school grades, an upper-middle family income background, and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 99.2% chance that you would fail it—far higher than what it sees in most applicants. This extremely high predicted risk of failure is why your application was rejected, as the school prioritizes candidates likely to succeed on the bar to maintain their standards. The most influential factor pushing toward this failure prediction was your third-year school grade decile of 2, well below the typical 5th or 6th decile, signaling to the model a significant drop-off in performance compared to peers. Your first-year decile of 2, also much lower than average, was the next biggest contributor, reinforcing concerns about consistent academic strength. Your LSAT score of 34, under the dataset average of about 37, added to the risk, as did your undergraduate GPA of 2.90 versus the usual 3.21—both nudging the prediction toward failure rather than success. Even your upper-middle family income and full-time enrollment plans played smaller roles in heightening the model's worries, unlike profiles with stronger academics that often predict passing. Compared to typical students who get approved, your metrics across grades, GPA, and LSAT are notably lower, placing you outside the successful range the model recognizes. While this decision stings, especially given the barriers Black women often navigate in legal education, it highlights clear areas for growth. I encourage you to retake the LSAT aiming for 37 or higher, boost your GPA through post-bac courses or a master's program, and build a stronger academic record—perhaps starting at a school where you can rank in higher deciles. With targeted improvements, you can reshape your profile and reapply stronger, turning this setback into a stepping stone toward passing the bar and thriving as a lawyer. Keep pushing forward; your perseverance will pay off.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

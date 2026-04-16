@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 228,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:35:17.114185",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I'm sorry to share that your law school application was rejected because our predictive model estimates a 69.9% chance you'll fail the bar exam on your first try, which is the key benchmark we use for admissions decisions. Your profile includes being in the 2nd decile for Year 1 grades and the 1st decile for Year 3 grades at your school—both well below the typical student's 6th or 5th decile rankings—along with a solid but slightly below-average LSAT score of 35, an undergraduate GPA of 2.9 compared to the average 3.21, middle family income, and your status as a white male planning full-time enrollment. These details painted a picture of academic challenges that the model weighed heavily. The strongest factor pushing the prediction toward bar exam failure was your exceptionally low Year 3 decile ranking, which stood out as the most influential element by far. Right behind it, your low Year 1 decile played a major role in tipping the scales the same way. Your LSAT score came next in importance, contributing noticeably toward the failure prediction since it fell short of the average. Family income followed as a key influencer in that direction, with your middle bracket aligning in a way that didn't help offset other risks. Your racial background as white and undergraduate GPA were next, both nudging the model further toward expecting a struggle on the bar. Gender and full-time status had the least sway but still leaned slightly against you. Overall, your below-average academic deciles, LSAT, and GPA set you apart from typical admitted students who tend to rank higher and score stronger on these metrics. To improve your chances next time, focus on what you can realistically change: retake the LSAT to boost your score above the average, build a stronger academic record if pursuing further undergrad or prep courses, and invest heavily in targeted bar exam preparation strategies that address past performance gaps. With dedication to these steps, you could shift the model's view in your favor for future applications. We're rooting for your success.",
+  "error": null
+}

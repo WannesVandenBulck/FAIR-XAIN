@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 263,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:45:05.970540",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an impressive LSAT score of 46, you've clearly put in the work to build a strong academic foundation, and your upper-middle-class family background reflects stability that many students aspire to. You're planning to attend law school full-time, which aligns with the path most students take. However, the admissions model, trained on data from countless students' bar exam outcomes, has predicted a 60.5% chance that you would fail the bar exam on your first try—a threshold that led to the regrettable rejection of your application, as the school prioritizes applicants likely to pass and succeed in their legal careers. The decision hinged on just a few key factors from your profile, with your Year 3 school decile ranking of 3rd (below the typical 5th or 6th decile) emerging as the strongest influence, pushing the prediction toward failure because it signals relatively weaker performance compared to peers at that stage. Your Year 1 decile of 3rd also played a major role in the same direction, reinforcing concerns about consistency in your school rankings relative to the average student. While your standout LSAT score strongly pulled in the opposite direction—suggesting you'd likely pass, as it's well above the dataset average of around 37—those early and later decile rankings outweighed it in the model's eyes. Your solid undergrad GPA and full-time status offered minor boosts toward passing, but they weren't enough to shift the balance, and family income had only a small nudge toward risk. Compared to typical students who get approved, your LSAT shines brighter, but your deciles lag behind the averages, placing you in a riskier spot for bar success in the model's view. This isn't a judgment on your potential as a lawyer—it's a data-driven call based on patterns from past students. To move forward, consider retaking courses or programs to boost your school deciles, perhaps seeking targeted tutoring or a post-baccalaureate option to demonstrate improvement, and reapply with that stronger profile. You're already ahead in key areas like LSAT and GPA, so with focused effort on those ranking gaps, you can flip this prediction in your favor. Keep pushing—you've got the drive to make it happen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

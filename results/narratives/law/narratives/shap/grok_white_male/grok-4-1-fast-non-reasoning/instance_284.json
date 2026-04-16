@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 284,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:46:19.878564",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and a middle-class family background, you've clearly put in significant effort to pursue law school, including committing to full-time studies. The admissions model we use predicted a 51.3% chance that you would fail the bar exam on your first try, which is just over the threshold that leads to rejecting applications to ensure we select students most likely to succeed. This prediction outweighed your strengths and tipped the decision against admitting you right now. The biggest factor pulling toward this failure prediction was your Year 3 school decile ranking of 1st, which is much lower than the typical student's 5th or 6th decile and signaled potential challenges in sustaining strong academic performance. Your Year 1 decile of 1st also contributed somewhat to this concern, reinforcing a pattern of below-average class standing compared to most applicants. On a positive note, your undergraduate GPA stood out as stronger than the average of 3.21, pushing the model toward expecting bar exam success. Your LSAT score of 29, while below the typical 37, still offered a modest counterbalance in the same direction. Your middle-income family background and full-time study plan provided smaller boosts toward passing, aligning with the majority of successful students. Overall, your early and later school deciles were the most influential drags compared to peers who typically rank higher, overshadowing your respectable college grades. While this is disappointing, it's not the end of your path to law—consider retaking the LSAT to boost it closer to average, improving your later-year grades if possible, or gaining targeted bar prep experience to demonstrate growth. We encourage you to reapply after addressing these key areas, as many students like you turn things around with focused improvements. Your determination as a white male from a middle-income background positions you well to overcome this hurdle. Keep pushing forward—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

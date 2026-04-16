@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 246,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:02.994413",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a high family income bracket and plans to attend law school full-time, you've put significant effort into your application, including your undergraduate GPA of 2.60, LSAT score of 32, and school decile rankings of 3rd in Year 1 and 2nd in Year 3. The admissions model, which predicts whether students like you will pass the bar exam on the first try, estimated a 54.6% probability that you would fail it—crossing the threshold that led to your application's rejection. This decision was driven primarily by your relatively low Year 3 decile ranking, which stood out as the strongest factor pushing the prediction toward failure compared to typical students who rank much higher on average. Your undergraduate GPA, while below the dataset average of 3.21, actually worked in your favor by nudging the model toward expecting success. Similarly, your high family income provided a positive influence, suggesting better resources that often help students pass the bar. Your Year 1 decile had a smaller but still negative pull toward failure, and your LSAT score exerted a minor influence in the same direction, both lagging behind the stronger averages of 5.71 and 36.70 seen in the data. Being full-time, like over 92% of students, offered a tiny boost toward passing. Overall, your profile compares to typical admitted students by having strengths in background support but notable gaps in later academic performance and test scores that tipped the scales. While this is disappointing, it's not the end of the road—consider retaking the LSAT to boost your score closer to the average, strengthening your Year 3 grades through additional coursework, or applying to programs with more holistic reviews that value your full-time commitment and family stability. You have the drive; focusing on these areas can reshape your path forward. We're rooting for you to turn this into a success story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

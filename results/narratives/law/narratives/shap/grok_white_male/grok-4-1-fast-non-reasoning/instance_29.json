@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:30:35.076027",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and middle-class family background, you've put real effort into your law school journey, including choosing part-time status that reflects your unique circumstances. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 51% chance you'll face failure on that critical test—tipping the scale just enough to reject your application. This close call means the model saw your overall profile as riskier than those it greenlights for likely passers. The biggest factor pulling toward failure was your LSAT score of 24, well below the typical 36.7 average, which stood out as the strongest signal of potential struggle compared to most applicants. On a brighter note, your undergraduate GPA above the 3.21 average pushed strongly against failure, showing your academic capability shines there. Your Year 3 school decile of 4, slightly under the average 5.53, also helped by suggesting solid later performance relative to peers. However, your lower Year 1 decile of 1—far below the typical 5.71—nudged the prediction toward risk, hinting at an early stumble. Being part-time, unlike the 93% of students who go full-time, added a small but notable concern for the model. Your middle-income bracket offered minor reassurance, aligning with averages. Compared to typical students who pass, your LSAT lagged significantly while your GPA edged ahead, creating this narrow rejection. To move forward, consider retaking the LSAT to boost that key score, strengthening early grades if possible, and highlighting any part-time successes in a reapplication—many have turned similar profiles around with targeted prep. You're close, and with focus, law school doors can reopen for you. Keep pushing; your story isn't over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

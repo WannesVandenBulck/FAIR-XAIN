@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 137,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:37:20.505313",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put real effort into your law school journey, including choosing full-time studies ahead. Our admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 44.2% chance you'll face failure on that crucial test—high enough to lead to the tough call of rejecting your application right now. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1st, which stands out well below the typical 5th or 6th decile for admitted students and signaled potential challenges in sustaining strong performance. On a brighter note, your undergraduate GPA of 2.80, though under the average 3.21, actually worked in your favor by pushing the odds toward passing compared to lower scorers. Your LSAT score of 28, lower than the usual 37, had a moderate pull toward success too, showing some resilience despite not hitting the higher marks many peers achieve. Being full-time, like over 90% of students, gave a small boost toward the pass side, aligning with the paths of those who typically succeed. Lesser influences, like your Year 1 decile also at 1st or family income bracket, barely tipped the scales. Overall, your profile compares to typical students by lagging in later-year grades while holding steady in GPA and LSAT, but that Year 3 dip outweighed the positives for this model. This isn't a judgment on your potential as a lawyer—it's just one data-driven snapshot. To strengthen future applications, focus on boosting those decile rankings through targeted academic support or retakes, perhaps aiming for LSAT or GPA improvements that shine brighter than averages. Consider reapplying after building a stronger record, and reach out to advisors for bar prep strategies tailored to students like you. You've got this—many turn predictions around with persistence. Keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

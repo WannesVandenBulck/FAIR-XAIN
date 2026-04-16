@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:58:31.817657",
+  "status": "success",
+  "narrative": "Dear [Student's Name], we're sorry to share that your law school application has been denied based on our predictive model's assessment of your likelihood to pass the bar exam on the first try. As a Black woman with a solid undergraduate GPA of 3.20—right around the typical student's level—and plans to attend full-time like most applicants, you've shown determination in pursuing this path. However, the model estimates an 84% probability that you would fail the bar exam initially, which is the key threshold we use for admissions decisions to ensure strong outcomes for our students. The biggest factor pushing toward this prediction was your Year 3 school decile ranking of 1st, which is notably lower than the average 5th or 6th decile and signaled to the model a potential challenge in sustaining high performance. Your Year 1 decile of 2nd, also below the typical 5th or 6th, reinforced this concern as the second-most influential element. Similarly, your LSAT score of 30 fell short of the average 37, adding to the model's worry about bar exam readiness. On a brighter note, your lower-middle family income bracket worked in your favor, nudging the prediction slightly toward success compared to higher-income peers. Your undergraduate GPA provided a small positive lift too, aligning closely with what's typical. Overall, these academic indicators, especially your decile rankings, outweighed the positives and led to the rejection. To move forward, we recommend retaking the LSAT to boost your score, focusing on strategies to improve your school rankings in future years, and perhaps seeking targeted tutoring or bar prep resources tailored for students from similar backgrounds. Many applicants in your position have succeeded by addressing these areas—consider reapplying after strengthening them. We're rooting for your success and encourage you to reach out to our admissions team for personalized advice. Keep pushing; your journey is far from over.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

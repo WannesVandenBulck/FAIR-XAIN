@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 125,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:37.257057",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and plans to attend law school full-time, you've put real effort into your application, and we appreciate the background you've shared about your middle-income family and your academic journey. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 68% chance of failure for you, which is high enough that it led to the rejection of your application—it's designed to flag risks like this to help schools maintain strong bar passage rates. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st, well below the typical student's 5th or 6th decile, signaling to the model that your later academic performance dipped compared to peers. Right behind that, your LSAT score of 18—much lower than the average of around 37—strongly reinforced the model's concern about your readiness for the rigors ahead. On a brighter note, your undergraduate GPA of 3.20, right in line with the typical applicant's, helped pull the prediction somewhat toward success, showing your college work was competitive. Your Year 1 decile of 3rd, though below average, had a milder negative influence, while your middle family income and full-time enrollment status offered small boosts by aligning with patterns of students who tend to pass. Overall, compared to typical students who get approved, your profile stands out for weaker later high school grades and a notably low LSAT, which outweighed your strengths in undergrad performance and background. This isn't a judgment on your potential as a person or lawyer—it's just the model's data-driven read on bar exam odds. To move forward, consider retaking the LSAT to boost that score, strengthening your recent academic record through additional coursework or prep, and reapplying next cycle with those improvements, as many students in similar situations have succeeded by targeting these key areas. We're rooting for you, and resources like LSAT prep programs or academic advising could make a big difference. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

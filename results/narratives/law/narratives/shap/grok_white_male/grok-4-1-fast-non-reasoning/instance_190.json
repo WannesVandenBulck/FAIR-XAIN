@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 190,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:36.829981",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 33.50, you've worked hard to build a competitive profile for law school, including your middle-family-income background and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 49.3% chance that you would fail the bar exam—high enough to tip the decision toward rejecting your application to protect the school's outcomes. This prediction wasn't random; it hinged most strongly on your Year 3 school decile ranking of 4th, which is below the typical 5.53 average and pulled the model's view toward expecting a bar failure. Your family's middle income bracket played a similarly big role, signaling potential challenges that have historically correlated with tougher bar results for students in similar situations. On a brighter note, your LSAT score stood out as a major positive force, nearly offsetting those concerns by showing strong reasoning skills compared to averages. Your undergraduate GPA and full-time enrollment plans also nudged the prediction toward success, as did your Year 1 decile of 5th, demonstrating consistency early on. Compared to typical students who pass the bar, your profile is close in some areas like GPA but lags in those key Year 3 performance and socioeconomic signals that the model weighs heavily. While this rejection stings, it highlights specific areas like bolstering late-stage academic deciles and exploring income-related support that could strengthen future applications. I encourage you to retake the LSAT if possible to push that score even higher, seek mentorship to improve upper-year performance, or consider programs with strong bar prep for students from middle-income backgrounds. You're clearly capable—many in your position have turned things around by targeting these exact factors. Keep pursuing your goals; law school doors can reopen with targeted improvements. With empathy for this setback, we're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -46,6 +46,9 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     
     Only processes instances with class 1 (adverse outcome).
     Adds target variable with standardized name to SHAP and CF outputs.
+    
+    For law dataset: Uses model trained WITHOUT protected attributes (gender, race1).
+    For other datasets: Uses standard model with all features.
     """
         
     dataset_path = config['path']
@@ -58,9 +61,20 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     adverse_df = pd.read_csv(adverse_path)
         
     # Load the RF model
-    model_path = os.path.join(dataset_path, 'RF.pkl')
+    # For law dataset, use the model trained WITHOUT protected attributes
+    if dataset_name == 'law':
+        model_path = os.path.join(dataset_path, 'RF_no_protected.pkl')
+        model_type = "WITHOUT protected attributes"
+        protected_attributes = ['gender', 'race1']
+    else:
+        model_path = os.path.join(dataset_path, 'RF.pkl')
+        model_type = "with all features"
+        protected_attributes = []
+    
     with open(model_path, 'rb') as f:
         rf_model = pickle.load(f)
+    
+    print(f"  Model: {model_type}")
     
     # Load test data for context
     test_path = os.path.join(dataset_path, 'test_cleaned.parquet')
@@ -69,25 +83,31 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     
     # Get only the feature columns (exclude metadata like instance_index, predictions, and target)
     # Target variable has been renamed to standardized name (e.g., target_credit, target_law, etc.)
-    feature_cols = [col for col in adverse_df.columns if col not in 
+    all_feature_cols = [col for col in adverse_df.columns if col not in 
                     ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', target_name]]
+    
+    # For law dataset, exclude protected attributes from features used by model
+    feature_cols = [col for col in all_feature_cols if col not in protected_attributes]
     adverse_features = adverse_df[feature_cols].copy()
+    
+    # Also remove protected attributes from test features for law
+    test_features = test_features.drop(columns=protected_attributes, errors='ignore')
     
     # ===== SHAP VALUES =====
     # Use TreeSHAP for RF models
     explainer = shap.TreeExplainer(rf_model)
     shap_values = explainer.shap_values(adverse_features)
     
-    # For binary classification, TreeExplainer returns shap values as a list [class_0, class_1]
-    # Use class 1 (bad class) shap values
+    # TreeSHAP returns shape (n_instances, n_features, n_classes) for binary classification
+    # We need class 1 (bad/adverse class) SHAP values
     if isinstance(shap_values, list):
+        # If returned as list of arrays [class_0_shap, class_1_shap]
         shap_values = shap_values[1]
+    elif shap_values.ndim == 3:
+        # If returned as 3D array (n_instances, n_features, 2), extract class 1
+        shap_values = shap_values[:, :, 1]
     
-    # Handle different shapes - if still 3D or higher, take mean across extra dimensions
-    while shap_values.ndim > 2:
-        shap_values = shap_values.mean(axis=-1)
-    
-    # Ensure it's 2D
+    # Ensure it's 2D (n_instances, n_features)
     if shap_values.ndim == 1:
         shap_values = shap_values.reshape(-1, 1)
     

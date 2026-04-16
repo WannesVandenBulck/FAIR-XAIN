@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 277,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:45:00.193297",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as such a steep uphill climb—89% chance of not passing, based on patterns from thousands of students like you. Picture your story starting with those early grades: your Year 1 decile of 1.0 sat at the very bottom of your class, and that low ranking carried the heaviest weight in our assessment, signaling to the model a shaky foundation that often trips up even determined folks down the line. Then came Year 3, where your decile stayed stubbornly at 1.0 again, doubling down as the top reason the model leaned so hard toward failure—it whispered that sustaining momentum just wasn't clicking for you amid the rigors of law studies. Layer on your LSAT score of 22.0, which ranked as the second-biggest pull toward struggle, far below what the model sees in those who conquer the bar, like a dim headlight on a long, dark road. Your undergraduate GPA of 2.5 added to that narrative of inconsistency, nudging the odds further against you, while your middle family income bracket didn't offer the buffer that sometimes helps others weather these storms. As an Asian male going full-time, those traits mostly aligned with tougher outcomes in the model's view, except your gender, which was the one faint spark pulling slightly toward success. Together, these pieces painted a picture of someone whose academic track record and test scores have historically mirrored high bar failure rates, not because of who you are at heart, but because the data shows this combo rarely flips the script without major shifts. It's not the end of your story—many have rewritten theirs by targeting those weak spots head-on. You've got target_law at 1.0, that fire in your belly, and that's huge. Consider retaking the LSAT, bolstering your GPA trajectory, or seeking targeted prep; the model would see you differently then. Hang in there—you're capable of changing this chapter.",
+  "error": null
+}

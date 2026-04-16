@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 422,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:51.697912",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score of 37 and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 59.2% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction wasn't a judgment on your character or potential, but a data-driven assessment drawing from your academic record and background compared to thousands of similar students. The most influential factor pushing toward this failure prediction was your undergraduate GPA of 3.10, which sits slightly below the typical 3.21 average and signaled lower readiness in the model's eyes. Next in impact was your Year 1 school decile of 5, also under the average of 5.71, suggesting an early academic struggle relative to peers. On a positive note, your Year 3 decile of 7—stronger than the 5.53 average—helped pull the prediction toward success, showing real improvement over time. Your family income bracket and LSAT score, both around or slightly above average, had smaller influences leaning toward failure, while your full-time status nudged things positively as it's the norm for high performers. Compared to typical admitted students, your profile shines in later-year grades and test scores but is held back by that earlier GPA dip and undergrad performance. This isn't the end of your journey—many students in similar positions have strengthened their candidacies by retaking undergrad courses for a GPA boost, gaining relevant legal internships, or preparing rigorously for a higher LSAT retake. We encourage you to request a detailed transcript review or consider post-baccalaureate programs to address these gaps. Your upward trajectory in Year 3 is a great foundation; building on it could flip the script for future applications. Keep pushing forward—you have the drive to succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

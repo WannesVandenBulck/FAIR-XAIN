@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 310,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:47:58.614464",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, your law school application was carefully evaluated using a predictive model trained on data from thousands of students who took the bar exam. This model looks at key aspects of academic performance, test scores, and background to forecast the likelihood of passing the bar on the first try, and unfortunately, it estimated a 65% chance that you would fail—high enough to lead to the rejection of your admission. The decision hinged most strongly on your Year 3 school decile ranking of 3, which is below the typical student's 5.53 average and significantly pushed the prediction toward expecting a bar failure. Your family income bracket, while upper-middle and solid, also contributed notably in the same direction compared to the broader dataset. Following closely, your undergraduate GPA of 2.90—lower than the average 3.21—further nudged the model toward this unfavorable outcome. Your Year 1 decile of 4, also under the average 5.71, and your LSAT score of 33, below the typical 36.70, added to that influence, though less intensely. The only factor pulling slightly in the positive direction was your plan to attend full-time, which aligns with the vast majority of students (over 92%) and is seen as a minor plus for bar success. Overall, these academic metrics painted a picture riskier than that of typical admitted students, whose stronger rankings and scores correlate with higher first-try pass rates. I know this is disappointing, especially given your background and dedication, but it's not a reflection of your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking mentorship from law school alumni who succeeded from similar starting points. With targeted improvements in these areas, you could reshape your profile for future applications and demonstrate the resilience that top programs value. Keep pushing; many have turned similar predictions around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 120,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:14.041559",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted a 61% chance that you would fail the bar exam on your first try, which is above the threshold we set for approving applications—meaning your application was unfortunately rejected to prioritize candidates with stronger projected odds of bar passage. This prediction was driven primarily by your LSAT score of 32, which stands well below the typical applicant's score of around 37 and was the single biggest factor pushing the model toward forecasting failure. Your undergraduate GPA of 2.70, compared to the average of 3.21, also played a major role in that direction, signaling to the model a potential struggle with the rigors ahead. On a brighter note, your Year 1 school decile ranking of 6—slightly above the average of 5.71—worked in your favor, nudging the prediction toward success and showing your early academic promise. Your Year 3 decile of 4, however, pulled it back toward failure, as it fell short of the typical 5.53 average. Less influential but still noted were your family's upper-middle income, which slightly tilted toward higher risk, and your full-time enrollment plan, which is common for most applicants but didn't shift the scales much. Overall, compared to typical students who get approved, your profile shows strengths in early performance and background but gaps in key standardized metrics like LSAT and GPA that the model weighs heavily for bar success. This isn't a judgment on your potential as a lawyer—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score, strengthening your GPA through post-bac coursework or a master's program, and reapplying next cycle with those improvements to better align with successful profiles. We're rooting for you to turn this around and succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

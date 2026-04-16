@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 329,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:06.476229",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and plans to attend law school full-time, you've clearly put thought into your future in law, but I'm sorry to share that our admissions model has predicted a 62.9% chance you'll fail the bar exam on your first try, leading to the rejection of your application. This prediction draws from patterns in data on thousands of past students, focusing on factors like early academic rankings, family background, test scores, and more to forecast bar success. The strongest influence pulling against you was your low ranking in Year 3 grades at school—placing you in the bottom decile—which significantly raised the model's concern about your bar exam readiness compared to typical students who rank around the middle of their class. Similarly, your Year 1 grades also fell in the lowest decile, well below the average, adding to the model's worry that early struggles might persist. Your LSAT score of 22, much lower than the typical 36.7, further nudged the prediction toward potential failure, as higher scores are strong signals of bar success in most cases. On a brighter note, your strong undergraduate GPA stood out positively, pushing the model toward expecting you to pass, since it's above the average of 3.21 and shows real academic capability. Your low family income bracket and full-time enrollment plans also offered small positive boosts, aligning with many successful students' profiles. Overall, these lower school deciles and LSAT score were the top factors driving the failure prediction, outweighing your GPA strengths when compared to peers who typically enter with mid-range rankings and stronger test scores. We know this is disappointing, especially given your dedication, but it's a data-driven call to help ensure students are set up for bar success. To move forward, consider retaking the LSAT to boost your score, strengthening your high school or undergrad record if possible, or exploring programs with bar prep support tailored to full-time students from modest backgrounds. Many applicants in similar spots improve these areas and reapply successfully—keep pushing, and we're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:51.367074",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put considerable effort into your application, including a respectable LSAT score of 42 and an undergraduate GPA of 3.00. Unfortunately, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would fail it, leading to the rejection of your application. This prediction is based on patterns from thousands of past students, and it hinges heavily on your academic performance in school. Specifically, your Year 3 grades placed you in the bottom decile of your school, which was the strongest factor pushing the model toward predicting bar failure for you—far below the typical student's mid-range standing. Your Year 1 grades, also in the bottom decile, reinforced this concern as the second-biggest influence, signaling to the model a consistent struggle that stands out compared to most applicants who rank higher. On a brighter note, your LSAT score, well above the average of around 37, worked strongly in your favor, pulling the prediction toward success and showing your potential in standardized testing. Your undergraduate GPA, slightly below the typical 3.21, had a minor positive lean but couldn't offset the early academic red flags, while your family income and full-time status aligned with the norm and offered small boosts toward passing. Overall, these early low decile rankings dominated the decision, setting you apart from typical students who maintain stronger consistent performance throughout school. While this is disappointing, it's not the end of the road—consider retaking courses or building a stronger academic record at a community college or another program to boost those decile rankings. You might also seek targeted LSAT or bar prep tutoring to amplify your strengths. Many students in similar situations have succeeded by addressing these gaps head-on, and reapplying after demonstrating improvement could change the model's outlook for you. We're rooting for your perseverance.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

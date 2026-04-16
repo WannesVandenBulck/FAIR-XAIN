@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 271,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:27:43.322180",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 63% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes a third-year school decile of 1, which is much lower than the typical student's 5.5, a first-year decile of 3 versus the average 5.7, an LSAT score of 30 compared to the usual 37, and an undergraduate GPA of 2.7 against the standard 3.2. You come from a middle-income family, which aligns closely with the dataset average, and you're a white female planning part-time work, while most admitted students are full-time and the group is mostly white males. The model's decision was driven most strongly by your low third-year decile, which significantly pushed the prediction toward failure since it signals weaker performance relative to peers. Next in influence was your LSAT score, also below average and nudging the odds further against passing. Your first-year decile followed closely, reinforcing concerns about early academic struggles. Family income had a moderate pull toward failure, though not as extreme as your grades, while your undergraduate GPA added to that direction without being the top factor. Your racial background, gender, and part-time plans had the smallest impacts, still leaning slightly toward the failure prediction but far less decisively. Overall, these academic markers—especially your school deciles and LSAT—stood out as the heaviest weights because they deviated most from successful students' stronger profiles. To boost your future chances, focus on rebuilding your academic record, perhaps by retaking the LSAT for a higher score or pursuing additional coursework to demonstrate improvement. Switching to full-time study could also align better with patterns of bar passers. With targeted effort on these changeable areas, you could shift the model's view in your favor next time. Keep pushing—you have the potential to outperform this prediction.",
+  "error": null
+}

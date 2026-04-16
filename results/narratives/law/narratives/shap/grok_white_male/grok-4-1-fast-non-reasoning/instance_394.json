@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 394,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:06.610889",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your undergraduate studies and law school aspirations, including earning a respectable 3.50 GPA and planning to attend full-time. The admissions model we use predicted a 47.1% probability that you would fail the bar exam on your first try, which unfortunately crossed the threshold for rejecting your application—our goal is to select students with the strongest likelihood of bar success to ensure everyone thrives. This prediction wasn't a judgment on your character or potential, but a data-driven assessment based on patterns from thousands of past students' academic records, test scores, and backgrounds. The most influential factor pulling against you was your Year 3 school decile ranking of 2, which is notably lower than the typical student's 5.5-ish average and strongly nudged the model toward predicting bar failure by signaling inconsistent performance later in your schooling. On a brighter note, your undergraduate GPA of 3.50—above the dataset average of 3.21—had the strongest positive sway, pushing the prediction toward bar passage and highlighting your college-level strengths. Your Year 1 decile of 3, also below average, added a smaller but unfavorable push toward failure, while your LSAT score of 32, under the usual 36.7 benchmark, contributed modestly against you. Your family income bracket and full-time enrollment plans had minimal impact overall. Compared to typical applicants who pass the bar, your profile shows college success that stands out but is offset by weaker high school deciles, placing you in a riskier group statistically. This doesn't define your future—many overcome similar hurdles through targeted prep. I recommend retaking the LSAT to boost your score, seeking academic advising to strengthen any weak areas from high school patterns, and perhaps gaining practical experience like internships to build a more robust profile. Reapply after addressing these, as even small improvements can shift the odds dramatically in your favor. We're rooting for you to succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

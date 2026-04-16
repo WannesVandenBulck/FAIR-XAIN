@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:28:48.400904",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 36, you've clearly put in the work to build a strong academic foundation, and we appreciate your full-time commitment to pursuing law school. Your family comes from a lower-middle income background, which reflects the determination you've shown in getting this far. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 51.8%—just over the threshold that led to your application's rejection. This decision hinged primarily on your school decile rankings from Years 1 and 3, where you placed in the 2nd and 1st deciles respectively, well below the typical student's mid-range performance around the 5th or 6th decile. Your Year 3 decile had the strongest negative pull, significantly pushing the model toward predicting bar failure because it suggests challenges in sustaining high performance later in your studies. On a brighter note, your LSAT score and undergraduate GPA were standout strengths, both countering that risk by demonstrating your potential to pass, as they align closely with or exceed averages for successful students. Your lower Year 1 decile added a slight nudge toward failure, while your full-time status and family income played minor positive roles in the model's eyes. Compared to typical applicants who pass the bar, your early and later school rankings lag behind the pack, even as your LSAT and GPA hold up well. This isn't a judgment on your character or effort—many students like you overcome similar hurdles with targeted preparation. To move forward, consider retaking courses or seeking tutoring to boost your decile rankings, perhaps through a post-bac program, and reapply once you've strengthened those areas. We're rooting for you to turn this around and succeed in law. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 255,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:36.663216",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your undergraduate GPA of 2.90, LSAT score of 33, and solid Year 1 and Year 3 decile rankings of 3 in your school—both below the typical student's decile of around 5 or 6. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated your probability of failing at 44.8%, tipping the scales just enough to result in a rejection of your application. This prediction means the model saw a higher-than-comfortable risk that you might not pass the bar initially, which law schools use to prioritize applicants likely to succeed quickly. The most influential factor pulling in a positive direction—toward predicting you'd pass—was your undergraduate GPA, as it stood out as a stronger asset relative to what might drag others down. Your LSAT score played a similar supportive role, nudging the prediction toward success despite being under the average of 36.7. On the flip side, your Year 3 decile ranking had the strongest push toward predicting failure, as it signaled somewhat weaker performance compared to peers. Your Year 1 decile also leaned slightly against you, though less forcefully, while planning to attend full-time (like most applicants) and your family income offered minor boosts toward passing. Overall, these academic markers, especially the contrast between your GPA's strength and your later-year decile, outweighed the rest in the model's eyes, placing you just outside the profile of students it views as low-risk for bar success. Compared to typical applicants who get approved, your metrics are a bit lower across the board, particularly in deciles and LSAT, which often align more favorably for those predicted to pass. I know this is disappointing, especially given your background and dedication, but it's not a reflection of your potential—it's one model's snapshot. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic decile through additional coursework or a post-bac program, and reapplying next cycle with an updated profile that highlights any improvements. You're capable of turning this around, and many students in similar situations have succeeded by targeting these key areas. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

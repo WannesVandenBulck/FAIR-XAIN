@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 82,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:14:33.443783",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 44% chance you'll fail the bar exam on your first try, which is above our threshold for admission. This prediction is based on your academic record, including being in the 2nd decile for Year 1 grades and the 1st decile for Year 3—both well below the typical student's 5th or 6th decile position. Your LSAT score of 31 and undergraduate GPA of 2.5 also fall short of the averages around 37 and 3.2, respectively, signaling potential challenges ahead. As a Black male from an upper-middle-income family planning full-time studies, you're in line with some common profiles, but these details were weighed alongside your performance metrics. The model's decision was most heavily influenced by your Year 3 decile, which strongly pushed the prediction toward failure since it's so much lower than what's typical for bar passers. Next in influence came your LSAT score, which similarly tilted things negatively compared to stronger scorers. Your Year 1 decile ranked third in impact, reinforcing concerns about early academic struggles. Family income, racial background, and undergraduate GPA followed closely, each contributing toward the failure prediction in your case, while your gender as male provided a slight positive nudge. Full-time status had minimal sway. Overall, these factors together painted a riskier picture than for the average applicant, who tends to have higher grades, LSATs, and GPAs across the board. To boost your future odds, focus on actionable steps like targeted LSAT retakes if eligible, building rigorous study habits proven to lift bar passage rates, or gaining extra academic credentials through post-bac courses. With dedication to shoring up these weaker areas, you could shift your profile toward the successful majority. Keep pushing—you have the drive to turn this around.",
+  "error": null
+}

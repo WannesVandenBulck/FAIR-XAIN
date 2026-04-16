@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 224,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:42:41.907746",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put real effort into your law school journey, including committing to full-time studies ahead. The admissions model we use predicted a 40.9% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying applications—we aim to select students with the strongest likelihood of bar success to ensure everyone thrives. This prediction stemmed from weighing your academic record against patterns seen in thousands of past students. The biggest factor pulling in your favor was your standout performance in your third year of school, where you ranked in the top decile, far above the typical student's mid-range standing—this strongly suggested you have the grit to pass the bar. Your first-year grades, also in the top decile and well ahead of average, provided solid additional support toward a passing prediction. However, these positives were somewhat offset by your undergraduate GPA of 2.80, which sits below the dataset average of 3.21 and nudged the model toward expecting a failure risk. Your LSAT score of 32, lower than the typical 36.7, added a moderate push in the same concerning direction. Your middle-income bracket played a smaller role, slightly tilting toward higher failure odds compared to other backgrounds, while your full-time commitment had minimal impact. Overall, while your later school deciles shone brighter than most applicants', the model saw your undergrad GPA and LSAT as key drags that made your profile riskier than the strongest candidates, who usually combine top scores across the board. I know this rejection stings, especially with your impressive late turnaround, but it's not the end of your path. To strengthen future applications, focus on boosting metrics like GPA through post-bac courses or retaking the LSAT to align closer to top performers. Reach out to admissions counselors for personalized advice, and consider programs that value upward trends like yours—we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

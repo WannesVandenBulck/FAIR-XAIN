@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:33.458266",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and plans to attend law school full-time, you've put real effort into your application, and I appreciate how challenging this process can feel. The admissions model we use predicted an 84% chance that you would fail the bar exam on your first try, which is why your application for our law school was unfortunately rejected—it's designed to prioritize students with the strongest projected odds of bar passage success. This prediction was driven primarily by your academic decile rankings from earlier years in school, especially your Year 3 decile of 1, which stood out as the biggest factor pushing the model toward expecting a failure. Your Year 1 decile of 2 also contributed notably in the same direction, signaling to the model lower relative performance compared to peers. On top of that, your LSAT score of 30 played a supporting role in tipping the scales toward this concerning outcome, as it's below the typical score of around 37 seen in the dataset. While your lower-middle family income bracket and undergraduate GPA actually worked in your favor—nudging the prediction slightly toward bar passage success—they weren't strong enough to offset those top concerns. Compared to typical students, who often rank in the middle to upper deciles (around 5-6) for both Year 1 and Year 3, your positions in the lower end made your profile stand out as riskier for bar success. Full-time status is common among admitted students and didn't sway things much either way for you. I know this stings, especially with your background, but it's not a judgment on your potential—it's just the model's data-driven read. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic deciles through additional coursework or post-bac programs, and exploring schools with more holistic reviews of family background factors. You have the drive; refining these key areas could open doors at other programs. Keep pushing—we're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 404,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:44.250009",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 32, you've worked hard to build a strong academic profile, including top decile performance in your first year of school and a middle family income background, while planning to attend full-time. The law school's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failing at 67.5%—a threshold that unfortunately led to the rejection of your application, as the school prioritizes candidates predicted to succeed right away. This decision hinged most heavily on your Year 1 school decile ranking, which stood out as your top-ranked factor pushing the model toward predicting bar failure, even though it was an impressive 1st decile compared to the typical student's 6th decile position. Next in influence was your undergraduate GPA, which actually worked strongly in your favor by pulling the prediction toward bar passage success, outperforming the average of 3.21. Your Year 3 decile of 2nd, while still strong, ranked third and nudged the model slightly toward failure compared to peers' average 6th decile. Less influential but still contributing to the failure prediction were your LSAT score, which was below the typical 37, and your middle family income bracket relative to higher averages. Your full-time status had a negligible positive lean but didn't sway the outcome much. Overall, compared to typical students, your early academic strengths were offset by later dips and standardized test results that aligned more with those who struggle on the bar. This isn't a judgment on your potential—it's the model's data-driven snapshot. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades to match your Year 1 excellence, and gathering letters highlighting your resilience as a full-time student from a middle-income background. Many applicants in similar situations reapply successfully after targeted improvements—keep pushing, and you'll find the right path. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

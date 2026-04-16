@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:28:52.109192",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including your undergraduate GPA of 3.10 and LSAT score of 32, while planning to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 48.7% chance that you would fail the bar exam—high enough to tip the decision toward rejecting your application to protect the school's outcomes. This prediction wasn't random; it weighed your Year 1 school decile of 4 (below the typical 5.71 average) and other factors against patterns in the data. The most influential element pulling in your favor was your stronger Year 3 decile of 8, well above the average of 5.53, which suggested notable academic improvement and pushed the model toward expecting you to pass. However, your LSAT score stood out as the top factor driving the failure prediction, as it fell short of the dataset average of 36.7 seen in successful bar takers. Your lower Year 1 decile also contributed somewhat toward the risk of failure, reinforcing early concerns despite your later gains. Meanwhile, your undergraduate GPA slightly nudged things positively, being close to the 3.21 average, and your upper-middle income bracket added a minor push toward higher risk, though less impactful overall. Compared to typical students who pass, your profile shows promise in recovery and consistency but lags in key entry benchmarks like LSAT, which often separate passers from those who struggle. Your full-time status aligned with the vast majority (over 92%) and had little sway. While disappointing, this highlights areas like test prep where many applicants like you have turned things around. I encourage you to retake the LSAT for a boost, seek targeted tutoring to build on your Year 3 momentum, and apply to programs with holistic reviews that value your personal growth story. You've already shown resilience—keep pushing, and stronger opportunities await.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

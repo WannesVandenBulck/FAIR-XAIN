@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:38.100662",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score and middle-class family background, you've put real effort into your law school application, and I appreciate how challenging this process can feel. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated your risk at 40.5%—high enough that it tipped the decision toward rejecting your application to protect the school's outcomes. This prediction stemmed from weighing key parts of your profile against patterns from thousands of past students, focusing on academic deciles, test scores, grades, income, and study plans. Your LSAT score stood out as your strongest asset, well above the typical student's, strongly pushing the model toward expecting you to pass the bar. However, your Year 3 school decile ranking, which was notably lower than average, had the biggest negative pull, signaling to the model a heightened risk of bar failure compared to most applicants. Your Year 1 decile, also below the norm, added further concern in a similar way, though with less weight. On brighter notes, your undergraduate GPA, slightly under the average but still respectable, and your middle family income bracket both nudged the prediction toward success, much like they do for many peers. Planning to attend full-time, which is the common choice for over 90% of students, provided a small positive boost too. Overall, while your LSAT gives you an edge over typical applicants, the lower deciles in your school performance were the dominant factors driving the failure prediction, setting you apart from students with stronger consistent rankings. This isn't a judgment on your potential—it's just how your specifics stacked up. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps exploring part-time options if it fits better, and reapplying with updated credentials; many students in similar spots have succeeded by addressing these exact areas. You've got strengths to build on—keep pushing, and we're rooting for your next step.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

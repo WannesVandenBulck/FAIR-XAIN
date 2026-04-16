@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 118,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:36:06.231056",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including choosing full-time enrollment and bringing your undergraduate GPA of 2.20 along with an LSAT score of 24.50. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated an 80% chance that you would fail the bar exam— a risk level that unfortunately led to the rejection of your application. This decision hinged most heavily on your academic decile rankings from school years 1 and 3, both at the very bottom (1st decile), far below the typical student's mid-range standing around the 5th or 6th decile. These low rankings were the strongest factors pushing the prediction toward failure, signaling to the model a consistent struggle with coursework that mirrors patterns in students who later faltered on the bar. Your LSAT score, notably lower than the average of about 37 seen in successful applicants, was the next biggest influence, further tipping the scales against passing by highlighting potential challenges with the rigorous reasoning demands of law exams. In contrast, your solid family income bracket worked slightly in your favor, nudging the odds toward success compared to lower-income peers, while your undergraduate GPA and full-time status provided minor positive boosts, as they're closer to norms among those who pass. Overall, your profile stands out from typical admitted students, who boast stronger early academic deciles, higher LSATs, and more balanced records that predict bar passage with confidence. While this outcome is disappointing, it doesn't define your potential—consider retaking the LSAT to boost your score significantly, strengthening your grades in any ongoing programs to climb those decile rankings, and exploring part-time options or prep courses tailored for bar success. Many applicants in similar situations have improved their profiles and gained admission elsewhere; reaching out to admissions counselors for feedback or targeted advising could be your next smart step. We're rooting for your comeback.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

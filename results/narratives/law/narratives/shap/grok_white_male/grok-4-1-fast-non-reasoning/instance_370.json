@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 370,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:32.606831",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and strong early academic performance—placing you in the 8th decile for Year 1 grades at your school—we wanted to explain the reasoning behind the recent rejection of your law school application in a clear way. The admissions model we use predicts the likelihood of passing the bar exam on the first try, based on patterns from thousands of past students' academic records, family backgrounds, and other details like yours. For you specifically, the model estimated a 40% chance of failing the bar exam, which crossed our threshold for denial since we prioritize applicants predicted to succeed right away. The biggest factor pushing toward this failure prediction was your plan to attend part-time, as only about 7% of students do so and it often correlates with tougher bar outcomes in the data. On a positive note, your Year 3 grades, landing you in the 6th decile, strongly pulled the prediction toward passing, showing solid later performance. Similarly, your high Year 1 decile rank and that respectable undergrad GPA worked in your favor, signaling good academic potential. Your middle-family-income background also nudged things slightly toward success, though it had less sway overall. Compared to typical students—who average lower Year 1 and 3 deciles, higher LSAT scores around 36.7, and are overwhelmingly full-time—your part-time status stood out as the most influential mismatch, despite your LSAT of 30 being a minor drag. While your profile is competitive in grades, the model saw the part-time path as the key risk tipping the scales. We know this is disappointing, especially with your strengths shining through, but it's not the end of the road. Consider retaking the LSAT to boost that score, exploring full-time options if feasible, or strengthening your later-year grades even more before reapplying. Many students in similar spots have succeeded by addressing these areas—keep pushing, and we're rooting for your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

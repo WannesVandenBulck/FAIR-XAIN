@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 101,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:02.694897",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, we understand how disappointing it must be to receive this rejection notice for our program. The admissions model we use predicts your likelihood of passing the bar exam on your first try, and unfortunately, it estimated a 77% chance that you would not pass— a threshold that led to the automatic denial of your application to protect our students' success rates. This prediction was driven primarily by your academic performance in school, particularly your low ranking in Year 3 grades, which stood out as the strongest factor pushing the model toward forecasting failure. Your similarly low Year 1 decile ranking reinforced this concern, making it the second most influential element in the decision. While your undergraduate GPA of 2.10 actually worked slightly in your favor by suggesting some potential for passing, it wasn't enough to offset those earlier red flags. Your LSAT score of 30 also nudged the prediction a bit toward success, but its impact was minor compared to your school deciles. Your middle family income had a small negative pull, hinting at added challenges, whereas your choice of full-time study barely influenced the outcome at all. Compared to typical students—who average much higher deciles around the 5th or 6th, LSAT scores near 37, and GPAs over 3.2—your profile fell notably short in those key early academic markers that our past data shows are critical for bar success. We truly empathize with your situation and recognize the hard work that got you this far. To strengthen future applications, we recommend focusing on boosting your academic deciles through targeted improvement in your remaining coursework, perhaps retaking the LSAT for a higher score, and building a stronger overall GPA narrative. Consider gaining practical experience or additional credentials that demonstrate resilience, and reapply to programs with resources tailored to students like you. You're capable of turning this around—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

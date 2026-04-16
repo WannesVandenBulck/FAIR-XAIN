@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 109,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:18:23.322692",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 66% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile includes being in the lower third for first-year school grades, the very bottom decile for third-year grades, a middle-income family background, an LSAT score of 27, an undergraduate GPA of 2.9, identifying as female and Asian, and planning to attend part-time. Compared to typical students—who often rank in the middle to upper deciles for grades, score around 37 on the LSAT, have a GPA over 3.2, come from varied but often higher income brackets, and study full-time—your metrics fell short in several key areas. The strongest influence on this prediction was your third-year grade decile, as being in the lowest group strongly signaled a higher risk of bar failure to the model. Next in impact was your LSAT score, which being well below average pushed the prediction further toward failure. Your first-year grade decile ranked third in influence, similarly contributing negatively because it was lower than most students'. Family income, racial background, undergraduate GPA, part-time status, and gender followed in descending order of impact, each nudging the odds toward failure relative to typical profiles. Overall, these factors together painted a picture riskier than the students who usually pass the bar exam first time. The good news is you can take actionable steps: retake the LSAT to boost your score, focus intensely on improving your grades in remaining coursework to climb those deciles, and consider full-time enrollment if feasible, as it aligns better with successful patterns. Building a stronger academic track record now could shift future predictions in your favor. You're clearly determined to pursue law—keep pushing, and these changes might open doors soon. We believe in your potential with targeted improvements.",
+  "error": null
+}

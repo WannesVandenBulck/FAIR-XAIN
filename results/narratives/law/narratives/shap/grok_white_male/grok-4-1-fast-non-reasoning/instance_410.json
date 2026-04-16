@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 410,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:05.882064",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an LSAT score of 36, you brought some strong academic credentials to your law school application, along with your background from an upper-middle-class family and plans to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 72.7% chance that you would fail it—high enough to lead to the rejection of your application. This prediction was driven primarily by your school decile rankings from earlier years, which stood out as the biggest factors pushing the model toward forecasting failure. Specifically, your Year 3 decile of 2, well below the typical student's rank around the middle of the pack, had the strongest negative influence, signaling to the model a concerning dip in performance relative to your peers. Your Year 1 decile of 3, also lower than average, reinforced this concern as the second-most influential factor pulling the prediction toward failure. On a brighter note, your above-average undergraduate GPA helped counterbalance this by nudging the outlook toward passing, while your LSAT score, close to the dataset average, provided a modest positive push in the same direction. Your family income bracket and full-time enrollment plans had smaller roles, with income slightly tilting toward failure and full-time status offering a tiny boost toward success. Compared to typical students in the dataset, who often rank higher in school deciles around 5-6, your earlier academic standings made your profile riskier in the model's eyes, despite your later strengths. While this decision feels disappointing, it's not a final verdict on your potential—many factors like dedication and preparation can shift bar exam outcomes. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking tutoring to address any past hurdles, and reapplying after building an even stronger record. Law schools value persistence, and with targeted improvements, you can reshape this story. We're rooting for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:13:00.692168",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 78.7% chance you'll fail the bar exam on your first try, based on patterns from thousands of past students. Your profile shows strong commitments like planning to attend full-time and coming from a middle-income family, but several key academic indicators stand out as below average compared to typical applicants. For instance, your undergraduate GPA of 2.60 is lower than the average of 3.21, your LSAT score of 27 falls well short of the usual 36.7, and your Year 1 school decile rank of 2 is in the lower range versus the average 5.71, with your Year 3 decile of 1 being especially low at the bottom compared to 5.53. As a female Asian student, you're in somewhat underrepresented groups—females make up 43.6% and Asians 5.9% of past applicants, mostly White at 83.8%—but these played smaller roles. The model's decision was driven most strongly by your Year 3 decile rank, which had the biggest influence in pushing the prediction toward failure since it's so much lower than typical. Next in importance was your LSAT score, also pulling heavily toward a fail prediction due to its below-average level. Your Year 1 decile rank came third, further reinforcing that concern with its low standing. Family income, racial background, undergraduate GPA, full-time status, and gender followed in descending order of influence, each contributing somewhat toward the failure outlook but less decisively. Overall, your academic metrics, especially recent school performance and test scores, deviated more from successful students' profiles than any demographic factors. To boost your future chances, focus on realistic steps like retaking the LSAT to aim above 36, strengthening your GPA through additional coursework or post-bac programs, and building a track record of higher decile rankings in any further studies. With targeted improvements in these areas, you could realign your profile closer to those who pass the bar, opening doors to reconsideration. Keep pushing—you have the dedication to turn this around.",
+  "error": null
+}

@@ -11,6 +11,12 @@ with open("config/keys.yaml", "r") as f:
 openai_client = OpenAI(api_key=KEYS.get("openai_key"))
 anthropic_client = anthropic.Anthropic(api_key=KEYS.get("anthropic_key"))
 
+# --- Create Grok client (OpenAI-compatible API) ---
+grok_client = OpenAI(
+    api_key=KEYS.get("grok_key"),
+    base_url="https://api.x.ai/v1"
+)
+
 
 def generate_text(messages, provider="openai", model=None, temperature=0.5, max_tokens=4096):
     """
@@ -49,6 +55,16 @@ def generate_text(messages, provider="openai", model=None, temperature=0.5, max_
                 temperature=temperature
             )
             return response.content[0].text
+        
+        elif provider == "grok":
+            model = model or "grok-3-mini"
+            response = grok_client.chat.completions.create(
+                model=model,
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens
+            )
+            return response.choices[0].message.content
         
         elif provider == "ollama":
             import requests

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 396,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:15.240364",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including choosing full-time studies ahead. The admissions model we use predicted a 41% chance that you would fail the bar exam on your first try, which unfortunately crossed our threshold for denying applications—we aim to select students with the strongest likelihood of bar success to ensure everyone thrives in their legal careers. The primary reason for this decision was your first-year school decile ranking, where you placed in the top decile, but the model saw this as a potential red flag pushing strongly toward a failure prediction, perhaps indicating inconsistencies in early performance relative to peers who succeeded on the bar. Counterbalancing that, your LSAT score stood out positively, as it was below the typical applicant's but still pulled the prediction toward expecting you to pass by showing decent analytical promise. Similarly, your undergraduate GPA, around a 2.7, worked in your favor compared to averages, nudging the model toward seeing you as capable of passing. Your upper-middle family income and third-year decile of 3 also contributed helpfully, suggesting supportive resources and later academic recovery that leaned against failure. Being full-time, like most applicants, provided a slight positive boost too, aligning with the profile of bar passers. Overall, while several factors highlighted your strengths, that early decile stood out as the most influential drag, making your profile riskier than typical admitted students who often have stronger across-the-board early indicators. Compared to averages, your LSAT and GPA were a bit lower, but your deciles showed more variability than the steady high performers who typically pass. To move forward, consider retaking the LSAT to boost that score significantly, strengthening your first-year record through additional coursework or explanations in a new application, and reapplying next cycle—many students in similar situations succeed with targeted improvements. We're rooting for you, and this isn't the end of your path to law; it's a data-driven nudge to refine your preparation. Keep pushing, and feel free to reach out for advice on bolstering your profile.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

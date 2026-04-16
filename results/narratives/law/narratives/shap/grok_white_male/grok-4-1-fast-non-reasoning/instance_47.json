@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 47,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:31:41.238080",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 35.50, you've worked hard to build a strong academic profile, including full-time study plans and a middle-income family background. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 61.8% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction wasn't a judgment on your potential or character, but a data-driven assessment comparing your background to thousands of similar students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of their class, signaling to the model a potential challenge in sustaining high performance through law school. Your Year 1 decile of 3 also contributed somewhat toward the failure side, as it fell below the average early academic standing. On a positive note, your LSAT score had the strongest pull toward predicting bar exam success, nearly offsetting some concerns despite being slightly under the dataset average. Your undergraduate GPA similarly nudged the prediction in a favorable direction, aligning closely with what successful students typically show. Less impactful were your middle family income bracket, which slightly leaned toward failure risk compared to higher averages, and your full-time enrollment plans, which offered a small boost as the norm for passers. Overall, your profile stands out as having room for improvement in later-year school rankings relative to peers who passed the bar, where stronger mid-program performance is key. To move forward, consider retaking the LSAT to boost that positive influence or strengthening your academic deciles through targeted coursework or recommendations that highlight upward trends. We encourage you to appeal with any additional context, like recent achievements, and explore other programs that value your full profile holistically. You're clearly capable—many students in similar situations have succeeded by addressing these specific areas. Keep pushing; your path to law is still very much open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

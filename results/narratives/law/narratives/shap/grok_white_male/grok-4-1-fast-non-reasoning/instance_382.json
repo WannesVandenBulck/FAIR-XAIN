@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 382,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:18.467856",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, your law school application was carefully evaluated using a predictive model trained on data from thousands of students who took the bar exam. The model assesses the likelihood of passing the bar on the first try based on academic records, test scores, and personal details like yours. For you specifically, it estimated a 52% probability that you would fail the bar exam, which crossed the threshold for rejection—meaning the university decided not to admit you to protect their pass rates and your future success. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 2nd, which is notably lower than the typical student's 5th or 6th decile and signaled weaker performance in later undergraduate years. Closely balancing that was your LSAT score of 35.5, slightly below the average of 36.7, but it worked in your favor by nudging the prediction toward passing. Your Year 1 decile of 1st was a strength early on, yet it still contributed somewhat toward the failure risk compared to peers who maintained higher ranks. Your undergraduate GPA of 2.8, under the dataset average of 3.21, also pulled slightly against you, while your middle family income bracket added a modest push toward failure relative to higher-income averages. Being a full-time student aligned with the vast majority (over 90%) and offered a small positive influence. Overall, your profile showed early promise that faded in later years, landing you riskier than the typical admitted student who sustains stronger deciles and GPAs throughout. This isn't a judgment on your potential as a white male from a middle-class background—many in similar situations succeed with targeted effort. To move forward, focus on retaking the LSAT to boost it above average, strengthening your later academic deciles through postgraduate courses or a master's program, and gathering strong recommendation letters highlighting your full-time commitment. Reapply after addressing these, perhaps to schools with holistic reviews, and consider bar prep resources early. You've got the foundation—building on it strategically can turn this around. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

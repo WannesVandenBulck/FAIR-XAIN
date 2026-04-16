@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 401,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:20:21.822324",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream, and we appreciate the strengths in your profile, like your solid LSAT score of 38, which stands out above the typical student's score of around 37. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on past student data, estimated your risk of failure at 45.4%—high enough to lead to the regrettable rejection of your application. This prediction was driven primarily by your academic decile rankings from school: your Year 3 decile of 1 pulled strongly toward a higher failure risk compared to the average of about 5.5, while your Year 1 decile of 1 had a milder but still negative influence in the same direction. On a brighter note, your LSAT score was the single biggest factor pushing the model toward expecting you to pass, countering some of those concerns effectively. Your undergraduate GPA of 2.8, below the typical 3.2, also helped nudge the prediction toward success, though not as powerfully as your LSAT. Other elements, like your middle family income bracket and plans to attend full-time—like most students—played only minor roles. Overall, compared to typical applicants, your early and mid-school deciles were in the bottom tier, which weighed heavily against you despite your stronger test performance. This isn't a judgment on your potential as a Black woman breaking barriers in law; it's the model highlighting patterns from historical data where lower deciles correlated with bar challenges. To move forward, consider retaking courses or programs to boost your decile rankings, as those were the top hurdles here—many students in similar situations have succeeded by targeting academic improvements. You might also explore schools with holistic reviews or bar prep support tailored for diverse applicants like yourself. Keep pushing; your LSAT strength shows you're capable of turning this around. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

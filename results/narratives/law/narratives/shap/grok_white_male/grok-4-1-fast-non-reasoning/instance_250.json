@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 250,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:15.061215",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong family background in the high income bracket, you've put significant effort into your law school journey, including scoring a solid 37 on your LSAT, which is right around the average for students in our dataset. Your undergraduate GPA sits at 2.50, a bit below the typical 3.21 average, while your Year 1 school decile ranking of 1 is notably lower than the average of about 5.7, and your Year 3 decile is also at the bottom at 1 compared to an average near 5.5. You're planning to attend full-time, just like the vast majority—over 92%—of students who go this route. The admissions model we use predicts your chances of failing the bar exam on the first try at 41.6%, which is high enough to tip the scales toward rejection, as the school prioritizes applicants likely to pass and succeed on that critical exam. The biggest factor pushing toward this failure prediction was your low Year 3 decile ranking, which stood out as a strong signal of potential challenges ahead compared to most students who rank much higher. On a more positive note, your high family income played a major protective role, pulling the prediction toward success more than any other factor, likely reflecting resources that help many in similar situations thrive. Your LSAT score also helped significantly, nudging things toward passing since it matches what successful students typically achieve. Your Year 1 decile had a moderate negative pull, reinforcing concerns from early performance, while your undergrad GPA and full-time status offered smaller boosts toward passing. Overall, your profile compares to typical students by having strengths in test scores and background that align well, but your consistently low decile rankings in school years were the standout weaknesses that outweighed them. This isn't a judgment on your potential—it's just how the model weighs patterns from past bar takers. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking tutoring or academic support tailored to law prep, and reapply once you've strengthened those areas; many students in your position have turned things around with targeted improvements. We're rooting for your success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

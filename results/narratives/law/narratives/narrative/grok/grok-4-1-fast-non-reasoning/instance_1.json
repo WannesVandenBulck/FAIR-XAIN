@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:29:01.138702",
+  "status": "success",
+  "narrative": "Dear [Student's Name], imagine the admissions team looking at your application not just as a collection of numbers, but as the opening chapters of your story as a future lawyer—and unfortunately, the early signs painted a picture that made them worry about your chances of passing the bar exam down the line. Your Year 1 grades placed you in the 2nd decile at your school, which stood out as the biggest red flag, suggesting a rocky start that often signals bigger hurdles ahead in the demanding world of law school. This was closely followed by your Year 3 decile also being 2nd, reinforcing a pattern of performance that the model saw as the second strongest pull toward potential failure. Your LSAT score of 34, while respectable to many, ranked third in influence and tipped the scales further by not quite hitting the mark for those who typically thrive on the bar. Even with your upper-middle family income, which might offer some support, it unexpectedly nudged the prediction toward struggle, perhaps because the model links it to certain paths that haven't panned out well historically. Your undergraduate GPA of 2.9 added another layer, quietly but steadily contributing to the concern as the fifth most influential factor. Being a white female pursuing full-time studies didn't shift things in your favor either—these details, along with your racial background, all aligned in a way that the model associated with higher risks. At 78% predicted probability of bar failure, it's not about doubting your heart or drive, but about patterns from thousands of similar stories where these elements together led to tough outcomes. This isn't the end of your journey; it's a signal to reflect on bolstering those early grades or test scores through targeted prep. You've got upper-middle stability as a foundation—lean into it, seek mentorship, and rewrite this narrative. We're rooting for you to prove the patterns wrong. Keep pushing forward.",
+  "error": null
+}

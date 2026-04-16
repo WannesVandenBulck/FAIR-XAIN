@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 136,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:04:23.542309",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in competitive fields like this. Your profile includes an undergraduate GPA of 2.20, an LSAT score of 22, Year 1 school decile of 3, Year 3 decile of 4, upper-middle family income, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 64% chance you'll fail the bar—high enough to trigger an automatic rejection to protect the school's outcomes. Your low LSAT score stood out as the biggest factor pushing the prediction toward failure, far below the typical 36.7 average that helps most applicants signal strong readiness. Meanwhile, your upper-middle family income worked in your favor, as it often correlates with better resources and success compared to lower brackets. Your school deciles, though below the usual mid-range of 5-6, also slightly nudged the model toward expecting you to pass, unlike students in the bottom ranks. Being full-time, like over 90% of applicants, provided a small positive boost too, avoiding the risks tied to part-time schedules. Your undergraduate GPA had minimal sway here. Overall, while some aspects like your background and enrollment status compared favorably to averages, the LSAT gap was the dominant reason the model saw higher risk than for typical admits who pass at much higher rates. This isn't a judgment on your potential—many overcome early hurdles through targeted prep. Next, consider retaking the LSAT to boost your score closer to the norm, strengthening your academic deciles with focused study, and reapplying to schools with holistic reviews that value diverse perspectives like yours. You've got resilience; use this feedback to build a stronger path forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

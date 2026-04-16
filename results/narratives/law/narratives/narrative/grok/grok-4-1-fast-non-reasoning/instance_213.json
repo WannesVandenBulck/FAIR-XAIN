@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 213,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:41:19.461419",
+  "status": "success",
+  "narrative": "Dear [Student's Name], I know this rejection letter stings, especially after all the effort you've put into your law school dreams, and I want to walk you through why our prediction model saw your path to the bar exam as an uphill battle—about an 80% chance of not passing. Picture your application as a story the model reads, and the strongest chapter was your LSAT score of 26, which stood out as the biggest signal pulling toward failure, like a shaky foundation that made the whole house feel unsteady. Right behind that were your Year 1 grades landing you in the 2nd decile at school, whispering early struggles that echoed loudly in the model's mind. Then came your Year 3 decile of 1, reinforcing that pattern of being at the bottom of your class, painting a picture of consistent academic hurdles rather than a steady climb. Your middle family income added another layer, as the model associates it with fewer resources to buffer those challenges. Your Asian background and undergraduate GPA of 2.1 tugged in the same direction, contributing to the sense of added pressures in a competitive field. Even choosing part-time status felt like a risk to the model, suggesting divided focus that could dilute your prep. The one bright spot was your gender as male, which nudged slightly toward success, but it wasn't enough to counterbalance the rest. Together, these pieces formed a narrative of someone facing steep odds, not because of who you are, but because of how they've historically played out for others like you. This isn't the end of your story—many have rewritten theirs by targeting those weak spots head-on. You've got target_law set at 1.0, showing your drive; channel it into boosting that LSAT or grades elsewhere. Keep pushing—you're more than these numbers.",
+  "error": null
+}

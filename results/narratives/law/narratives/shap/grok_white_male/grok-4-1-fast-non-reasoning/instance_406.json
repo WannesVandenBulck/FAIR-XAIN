@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 406,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:53:51.616469",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an LSAT score of 36, you've clearly put in strong effort to build a competitive profile for law school, including your middle family income background and plans to attend full-time. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 40.9% chance of failure for you—high enough that your application was rejected to prioritize candidates with lower predicted risks. This decision hinged on a few key factors from your academic record that stood out compared to typical students. Your Year 3 school decile ranking of 2 was the biggest driver pushing the prediction toward failure, as it's notably lower than the average of around the 5th or 6th decile, suggesting a dip in performance that worried the model. On a brighter note, your LSAT score had the strongest positive influence, pulling strongly toward a passing prediction since it's right around the typical 36.7 average and shows your aptitude for legal reasoning. Your undergraduate GPA also helped significantly, exceeding the dataset average of 3.21 and countering some concerns. However, your Year 1 decile of 1 added a moderate push toward the failure prediction, being well below the average 5.7, indicating an early struggle relative to peers. Your middle income and full-time status provided smaller boosts toward passing, aligning with the majority of successful students. Overall, while your test scores shine, the model saw your school deciles as red flags compared to applicants who maintain higher consistent rankings. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking tutoring for those weaker years, and reapply with updated transcripts—many students in similar situations have succeeded by addressing these exact gaps. We're rooting for you to turn this around and join the ranks of bar passers.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

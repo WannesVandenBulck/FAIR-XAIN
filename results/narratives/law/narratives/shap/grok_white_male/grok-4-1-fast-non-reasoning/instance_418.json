@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 418,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:54:36.985141",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put in the effort to pursue law school, including committing to full-time studies, but I know receiving this rejection letter must feel disheartening. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and it estimated a 57% chance of failure for you—high enough that it tipped the decision against admitting you right now. This prediction hinges on your overall academic profile compared to thousands of past students, where the goal is to select those most likely to pass the bar and succeed in the program. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking, which placed you in the bottom tenth of your peers—far below the typical student's middle-of-the-pack standing around the 5th or 6th decile. That stood out as the most influential concern, signaling to the model a potential struggle with sustaining strong performance later in your education. Your Year 1 decile, also in the bottom tenth versus the average 6th decile, added some additional weight toward the risk, though less strongly. On a brighter note, your undergraduate GPA of 2.70, while below the dataset average of 3.21, actually nudged the prediction slightly toward passing, showing some resilience in your college record. Similarly, your LSAT score of 31 pulled meaningfully in the positive direction compared to the typical 37, highlighting a strength that the model appreciated despite it being on the lower side overall. Your middle family income bracket and full-time study plans also contributed small positive influences, aligning with patterns of students who tend to fare better. In essence, while you have redeeming qualities like your LSAT and undergrad grades that compare favorably in their directional impact, the low Year 3 performance dominated, making your profile riskier than most admitted applicants who boast higher deciles across the board. To move forward, I recommend retaking the LSAT to boost that score further, strengthening your later-year grades through additional coursework or a post-bac program, and reapplying next cycle with an updated profile—these steps have helped many students like you turn predictions around. Hang in there; your determination as a full-time committed applicant shines through, and with targeted improvements, law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

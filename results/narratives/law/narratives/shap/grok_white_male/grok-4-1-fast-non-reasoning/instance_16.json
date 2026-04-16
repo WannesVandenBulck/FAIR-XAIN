@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:43.293126",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including strong Year 1 and Year 3 decile rankings of 7 in your school, an LSAT score of 40, and plans to attend full-time. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 72% probability that you would fail the bar exam—high enough to lead to the rejection of your application. This decision hinged most heavily on your undergraduate GPA of 2.60, which falls below the typical 3.21 average and strongly pushed the prediction toward expecting failure. Your family income bracket, while upper-middle and above average, also contributed notably in the same direction, suggesting the model associates it with certain risks in bar outcomes. Your Year 1 decile ranking of 7, higher than the average of 5.71, had a moderate pull toward failure as well, despite being a positive mark. In contrast, your Year 3 decile of 7 provided the strongest counterbalance, nudging the prediction toward success since it exceeds the typical 5.53 average. Your LSAT score of 40, well above the 36.70 average, offered some helpful influence toward passing, though not enough to outweigh the top concerns, and your full-time status aligned with the vast majority of students but had minimal impact. Compared to typical applicants who pass the bar, your profile shows strengths in recent school performance and test scores but is held back by that lower undergrad GPA relative to peers. This isn't a judgment on your potential as a white male from a supportive background—it's the model's data-driven assessment of bar exam patterns. To move forward, consider retaking undergrad-level courses or targeted GPA-boosting programs to strengthen that key weakness, while leveraging your LSAT and decile advantages in appeals or other schools. You might also explore part-time options or bar prep resources early to demonstrate readiness. Keep pushing; many overcome similar hurdles and succeed in law. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 387,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:38.955331",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.60 and plans to attend law school full-time, you've put real effort into building a strong profile, but I know receiving this rejection letter must feel disappointing and confusing. The university's admission model, trained on data from thousands of past students, predicted a 48% chance that you would fail the bar exam on your first try—a risk level high enough to lead to the denial of your application, as schools aim to select those most likely to succeed and pass on the first attempt. Your standout strength was your undergraduate GPA, which is notably higher than the typical applicant's 3.21 average and strongly pulled the prediction toward expecting you to pass the bar. However, this positive influence was outweighed by other key factors, starting with your Year 3 school decile ranking of 2, well below the average of about 5.5, which significantly pushed the model toward predicting failure by signaling weaker performance relative to peers. Your LSAT score of 22.70, far under the dataset average of 36.70, was the next biggest concern, further tipping the scales against you compared to most applicants who score much higher. On a brighter note, your middle family income bracket helped nudge things positively, aligning with patterns where such backgrounds sometimes correlate with bar success, much like the overall averages. Your lower Year 1 decile of 2 also contributed somewhat negatively, though less forcefully, while your full-time enrollment plans offered a small boost since over 90% of students pursue that path successfully. Overall, while your GPA shines brighter than most, your lower deciles and especially low LSAT stood out as the dominant reasons the model saw higher risk in your profile compared to typical admitted students. This isn't a judgment on your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost that score toward the average, strengthening your academic deciles through targeted improvement, and reapplying next cycle with these enhancements to shift your predicted odds dramatically in your favor. You've already shown GPA strength that many envy; building on that could open doors. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

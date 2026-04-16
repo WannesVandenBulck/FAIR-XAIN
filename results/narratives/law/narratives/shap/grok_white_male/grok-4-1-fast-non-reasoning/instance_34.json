@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:30:54.145547",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 40, you've shown real promise in your academic journey, including ranking in the 7th decile for both your first-year and third-year school grades, alongside your upper-middle-class family background. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 43%, tipping the scales toward rejection of your application. This prediction stems from a careful analysis of how your profile stacks up against patterns from thousands of past students. The single biggest factor pushing the model toward predicting bar failure was your choice to attend part-time, which is uncommon—only about 7% of students do so, and it stood out as the most influential concern here. On a brighter note, your third-year decile rank had a strong positive pull, suggesting your later academic performance signaled real potential for success. Similarly, your undergraduate GPA and LSAT score worked in your favor, nudging the prediction toward passing, as did your first-year decile. Your family income played a minor role in the direction of higher risk, but it wasn't a dominant force. Compared to typical students, your metrics are generally above average, yet the part-time status created the heaviest drag, outweighing those strengths in the model's eyes. I know this rejection stings, especially with your strong showings in key areas, and it's okay to feel disappointed—many capable applicants face this hurdle. To move forward, consider reapplying with a full-time plan if possible, as that could dramatically shift the prediction, or bolster your profile with additional experiences that highlight bar-exam readiness. You might also explore other programs that weigh factors differently or seek feedback from advisors on strengthening your part-time rationale. Your foundation is solid, and with targeted adjustments, you're well-positioned to succeed next time—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

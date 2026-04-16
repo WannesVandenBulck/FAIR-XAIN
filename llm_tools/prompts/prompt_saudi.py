@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Protected attribute mappings for readable display in prompts
 ATTRIBUTE_VALUE_MAPPINGS = {
-    'Gender': {0: 'Female', 1: 'Male'},
+    'Gender': {0: 'female', 1: 'male'},
     'Age': {0: '21-30', 1: '31-40', 2: '41+'},
     'Academic_degree': {0: 'secondary school', 1: 'bachelor', 2: 'master', 3: 'PhD'},
     'Years_Experience': {0: '1-5 years', 1: '6-10 years', 2: '11+ years'},

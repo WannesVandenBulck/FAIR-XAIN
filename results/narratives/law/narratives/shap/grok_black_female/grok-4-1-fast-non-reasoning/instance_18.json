@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:46.888625",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in this field, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at patterns from past students—like their grades, test scores, family background, and study plans—to predict the chances of passing the bar exam on the first try, and unfortunately, it estimated your risk of failing at 65%, which is high enough to trigger a rejection to protect the school's outcomes. Your strong start in Year 1, placing you in the 6th decile among peers, was a positive sign that nudged the prediction toward success, as did your upper-middle family income and plan to study full-time, which align with traits of many who pass. However, your lower ranking in the 3rd-year decile stood out as the biggest factor pushing the model toward predicting failure—it had the strongest negative influence compared to typical students, where higher deciles are common for bar passers. Your undergraduate GPA of 3.00, slightly below the average, also worked against you by pulling the odds down, while your LSAT score of 28 was another key concern, as it's well below the usual 36.7 average and contributed notably to the failure prediction. In contrast to many admitted students who boast stronger trajectories in later years and higher entrance scores, your profile showed some dips that the model weighed heavily based on historical patterns. This isn't a judgment on your potential—it's just how your specifics stacked up against thousands of past cases. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year performance through targeted study or courses, and highlighting any additional achievements or experiences in a new application. Many students in similar situations have succeeded by addressing these areas, and with your resilience, you can too—reach out to advisors for personalized strategies, and don't hesitate to reapply stronger. You've got this; this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

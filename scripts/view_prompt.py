@@ -29,18 +29,26 @@ available = sorted(shap_df['instance_index'].unique())
 print(f"Available instances for SHAP: {available[:20]}... (showing first 20)")
 
 # Select type first
-prompt_type = input("SHAP (s) or Counterfactual (c)? ").strip().lower()
-if prompt_type not in ['s', 'c']:
-    print("Invalid type"); exit()
+print("\nPrompt types:")
+print("  s = Standard SHAP")
+print("  n = Narrative SHAP (story-focused)")
+print("  c = Counterfactual")
+prompt_choice = input("Choose prompt type (s/n/c): ").strip().lower()
 
-# Show available based on type
-if prompt_type == 's':
+if prompt_choice == 's':
+    prompt_type = 'shap'
     available_idx = sorted(shap_df['instance_index'].unique())
-else:
+elif prompt_choice == 'n':
+    prompt_type = 'narrative'
+    available_idx = sorted(shap_df['instance_index'].unique())
+elif prompt_choice == 'c':
+    prompt_type = 'counterfactual'
     cf_df = pd.read_csv(cf_path)
     available_idx = sorted(cf_df['instance_index'].unique())
+else:
+    print("Invalid type"); exit()
 
-print(f"Available instances for {('SHAP' if prompt_type == 's' else 'Counterfactual')}: {available_idx}")
+print(f"Available instances for {prompt_type}: {available_idx}")
 
 idx = int(input(f"Choose instance: "))
 
@@ -49,15 +57,22 @@ if idx not in available_idx:
 
 # Build full prompt using the module's functions
 try:
-    if prompt_type == 's':
+    if prompt_type == 'shap':
         full_prompt = prompt_module.build_shap_prompt(idx)
-    else:
+    elif prompt_type == 'narrative':
+        # Check if module has narrative variant function
+        if hasattr(prompt_module, 'build_shap_prompt_narrative'):
+            full_prompt = prompt_module.build_shap_prompt_narrative(idx)
+        else:
+            print(f"Error: Narrative SHAP prompt not available for {name} dataset"); exit()
+    else:  # counterfactual
         full_prompt = prompt_module.build_cf_prompt(idx)
 except Exception as e:
     print(f"Error: {e}"); exit()
 
 # Save to file
-filename = f"prompt_{name}_{idx}_{prompt_type}.txt"
+type_suffix = {'shap': 's', 'narrative': 'n', 'counterfactual': 'c'}[prompt_type]
+filename = f"prompt_{name}_{idx}_{type_suffix}.txt"
 with open(filename, 'w', encoding='utf-8') as f:
     f.write(full_prompt)
 

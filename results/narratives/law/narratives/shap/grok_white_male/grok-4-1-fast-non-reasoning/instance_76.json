@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 76,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:33:32.270930",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a strong family income background, you've put significant effort into your law school journey, including your undergraduate studies and LSAT preparation, while planning to pursue full-time studies. The admissions model we use predicted a 48.2% probability that you would fail the bar exam on your first try, which unfortunately crossed the threshold for rejecting your application—it's designed to favor candidates with a stronger forecasted chance of passing to ensure school outcomes. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking, which placed you in the bottom group compared to peers, signaling to the model a notable dip in later academic performance. This outweighed the positive influences from your LSAT score, which was slightly below average but still helped pull the prediction toward passing by showing solid test-taking ability. Your undergraduate GPA, also a bit under the typical 3.21 average, provided some counterbalance in a favorable direction but wasn't strong enough to shift the overall outcome. High family income and your full-time study plan offered minor boosts toward success, as they align with profiles of students who typically pass. Meanwhile, your Year 1 decile was another low ranking that nudged the prediction toward failure, though less powerfully than Year 3. Compared to typical students—who often have mid-range deciles around 5-6, higher GPAs, and LSATs near 37—your profile stood out for those early and late academic deciles, which carried the most weight here. I know this rejection stings, especially with your background, but it's not a reflection of your potential—many overcome similar hurdles. To move forward, consider retaking courses or targeted prep to boost your decile rankings if possible, aim to improve your LSAT or GPA through additional undergrad work, and explore programs with holistic reviews that might value your full-time commitment and family support more deeply. You're capable of turning this around—keep pushing, and best wishes for your next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

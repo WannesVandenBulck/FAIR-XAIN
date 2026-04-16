@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 254,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:11:37.013410",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.40—which stands above the typical 3.21 average—and your middle family income bracket. However, the admissions model, trained on data from countless students' paths to the bar exam, predicted a 56.1% chance that you would fail the bar on your first try, tipping the scales just enough to reject your application. This prediction hinges on how your overall academic trajectory stacks up against patterns seen in students who succeed. The biggest factor pulling toward failure was your Year 3 school decile ranking of 1, which is quite low compared to the average of around 5.5, signaling to the model a dip in performance that often foreshadows bar struggles. Your Year 1 decile of 1 also contributed notably in the same direction, reinforcing concerns about early inconsistencies relative to peers. On a brighter note, your undergraduate GPA pushed strongly against failure, as it exceeds the norm and highlights your college-level capability. Your LSAT score of 29.5, while below the typical 36.7, still offered some counterbalance by nudging the prediction toward passing, unlike stronger scores that carry more weight. Being a full-time student and your family background provided minor positive influences, aligning with the majority of successful applicants. Compared to typical students who pass the bar, your lower deciles stand out as the key deviations, while your GPA shines as a standout strength. To move forward, consider retaking the LSAT to boost that score, seeking targeted academic support to improve your school rankings, and perhaps connecting with mentors from similar backgrounds who've navigated this path successfully. You're resilient, and with focused steps, you can reshape this story—many have turned similar predictions around. Keep pushing; your determination as a Black woman in law will inspire others.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

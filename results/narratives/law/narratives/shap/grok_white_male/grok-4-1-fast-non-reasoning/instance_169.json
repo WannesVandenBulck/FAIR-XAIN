@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 169,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:39:20.184453",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and a middle-class family background, you've clearly put in significant effort to build a strong foundation for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 42.9%—a risk level that unfortunately led to the rejection of your application. This prediction was driven primarily by your undergraduate GPA, which stood out positively as stronger than the typical applicant's 3.21 average and pushed the model toward expecting bar exam success for you. Yet, several other factors pulled in the opposite direction, with your Year 3 school decile ranking of 3—below the average of 5.53—having the strongest negative influence, suggesting your later academic performance raised concerns about sustaining momentum through law school and the bar. Your LSAT score of 30, lower than the dataset average of 36.70, also contributed notably toward the failure prediction, as it signaled potential challenges in the rigorous reasoning demands of legal studies. Your middle family income bracket played a modest role in tipping the scales toward risk, possibly reflecting resource constraints compared to higher-income peers. On a brighter note, your full-time student status aligned with the vast majority of successful applicants (over 92%), providing a small boost toward passing. Your Year 1 decile of 4 was slightly below average but had minimal impact overall. Compared to typical students in the dataset, your standout UGPA gives you an edge many lack, but the dips in LSAT, later deciles, and income aligned you more closely with profiles that struggled on the bar. While this outcome is disappointing, it highlights clear paths forward: consider retaking the LSAT to boost that score closer to or above average, strengthen your recent academic showings through additional coursework or certifications, and explore resources that support middle-income students in law prep. Many applicants in similar positions have succeeded by addressing these key areas—your strong UGPA shows you have the potential, so use this feedback as a roadmap to reapply stronger next cycle. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

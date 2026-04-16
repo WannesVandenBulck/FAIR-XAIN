@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 191,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:40.339456",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, you've put a lot of effort into your application, including your undergraduate GPA of 3.00 and LSAT score of 29. Unfortunately, the admissions model predicted a 94.7% chance that you would fail the bar exam on your first try, which is why your application was rejected—law schools use this prediction to prioritize students likely to succeed and pass the bar right away. The model's decision was driven primarily by your academic decile rankings from school, especially your Year 3 decile of 1, which placed you in the bottom tenth of your peers and strongly pushed the prediction toward expecting bar failure. Your Year 1 decile of 1 had a similar but somewhat smaller negative impact, signaling early struggles that carried weight in the model's assessment. While your undergraduate GPA actually worked slightly in your favor by suggesting a bit more potential for passing than average, it wasn't enough to offset those low school deciles. Your middle family income and LSAT score each nudged the prediction a little toward failure compared to typical applicants, though they weren't the biggest factors. Full-time enrollment status had virtually no influence here, as it's common for most students. Compared to the average applicant—who scores around 36.7 on the LSAT, has a 3.21 undergrad GPA, and lands in the middle of their class deciles—your profile stood out for weaker early and later school performance, putting you at higher risk in the model's eyes. This doesn't define your potential, but it explains the tough call. To move forward, consider retaking the LSAT to boost your score, strengthening your academic record through additional coursework or a post-bac program, and reapplying next cycle with those improvements to better align with successful profiles. You're capable of turning this around—many do. Keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

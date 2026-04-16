@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:56:28.297930",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive strengths in your academic journey, including a solid undergraduate GPA of 3.30—which is above the typical student's 3.21—and an LSAT score of 40, higher than the average of 36.70, along with top-decile rankings in 9th place for both your first-year and third-year school grades. Your family comes from an upper-middle income background, and you're planning to attend full-time, which is the norm for most students. However, the admissions model, trained on data from countless students' paths to the bar exam, predicted a 59.6% chance that you would fail the bar on your first try, tipping the scales just over the threshold that led to your application's rejection. This prediction wasn't random; it weighed your profile against patterns seen in students who passed or failed. The biggest factor pushing toward this failure prediction was your undergraduate GPA—it stood out as a stronger influence than anything else, signaling to the model a potential risk despite your other achievements. On a brighter note, your third-year school decile ranking was the most powerful force pulling in the opposite direction, strongly suggesting you'd pass, nearly offsetting the GPA concern. Your LSAT score and family income level also nudged the prediction toward failure, though less forcefully, as they didn't align perfectly with the strongest bar-passers in the dataset. Smaller influences like your first-year decile and full-time status played minor roles in the overall push toward failure. Compared to typical students, your high deciles and scores are standout, but the model saw your GPA as the key mismatch with proven bar success stories. To move forward, consider retaking the LSAT for an even higher score, strengthening your GPA narrative with post-grad accomplishments, or targeting schools with holistic reviews that value your unique background as a Black woman—many paths lead to law success beyond one model's view. You've got real potential; use this as fuel to refine your application. Keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

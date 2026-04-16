@@ -13,9 +13,19 @@ import argparse
 from pathlib import Path
 
 
-def load_narrative(dataset, instance, prompt_type, provider="openai"):
+def load_narrative(dataset, instance, prompt_type, provider="openai", model=None):
     """Load a single narrative JSON file."""
-    filepath = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/instance_{instance}.json")
+    if model is None:
+        # Try to find the first available model for this provider
+        provider_path = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}")
+        if provider_path.exists():
+            models = [d.name for d in provider_path.iterdir() if d.is_dir()]
+            if models:
+                model = models[0]
+        if model is None:
+            return None
+    
+    filepath = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/{model}/instance_{instance}.json")
     
     if not filepath.exists():
         return None
@@ -49,19 +59,23 @@ def list_all_narratives():
                 if not provider_dir.is_dir():
                     continue
                 
-                for json_file in provider_dir.glob("instance_*.json"):
-                    with open(json_file, "r") as f:
-                        data = json.load(f)
+                for model_dir in provider_dir.iterdir():
+                    if not model_dir.is_dir():
+                        continue
                     
-                    narratives.append({
-                        "Dataset": data["dataset"],
-                        "Instance": data["instance_idx"],
-                        "Type": data["prompt_type"],
-                        "Provider": data["provider"],
-                        "Model": data["model"],
-                        "Status": data["status"],
-                        "Length": len(data.get("narrative", "")) if data["status"] == "success" else 0
-                    })
+                    for json_file in model_dir.glob("instance_*.json"):
+                        with open(json_file, "r") as f:
+                            data = json.load(f)
+                        
+                        narratives.append({
+                            "Dataset": data["dataset"],
+                            "Instance": data["instance_idx"],
+                            "Type": data["prompt_type"],
+                            "Provider": data["provider"],
+                            "Model": data["model"],
+                            "Status": data["status"],
+                            "Length": len(data.get("narrative", "")) if data["status"] == "success" else 0
+                        })
     
     if narratives:
         print(f"\nFound {len(narratives)} narratives:\n")
@@ -73,12 +87,12 @@ def list_all_narratives():
         print("No narratives found.")
 
 
-def display_narrative(dataset, instance, prompt_type, provider="openai", save_to=None):
+def display_narrative(dataset, instance, prompt_type, provider="openai", model=None, save_to=None):
     """Display a narrative in readable format and optionally save to file."""
-    data = load_narrative(dataset, instance, prompt_type, provider)
+    data = load_narrative(dataset, instance, prompt_type, provider, model)
     
     if data is None:
-        print(f"Narrative not found: {dataset}/{prompt_type}/{provider}/instance_{instance}")
+        print(f"Narrative not found: {dataset}/{prompt_type}/{provider}/{model or 'any_model'}/instance_{instance}")
         return
     
     # Build output text
@@ -132,6 +146,8 @@ def main():
                         help="View all instances for dataset/prompt-type")
     parser.add_argument("--provider", default="openai",
                         help="LLM provider (default: openai)")
+    parser.add_argument("--model", default=None,
+                        help="Model name (e.g., gpt-4o, grok-3-mini). If not specified, uses first available.")
     parser.add_argument("--list", action="store_true",
                         help="List all available narratives")
     parser.add_argument("--save", type=str, default=None,
@@ -152,13 +168,28 @@ def main():
     
     # Get instances to view
     if args.all_instances:
-        results_dir = Path(f"results/narratives/{args.dataset}/narratives/{args.prompt_type}/{args.provider}")
-        if not results_dir.exists():
-            print(f"No narratives found for {args.dataset}/{args.prompt_type}/{args.provider}")
+        if args.model:
+            model_path = Path(f"results/narratives/{args.dataset}/narratives/{args.prompt_type}/{args.provider}/{args.model}")
+        else:
+            # Find first available model under provider
+            provider_path = Path(f"results/narratives/{args.dataset}/narratives/{args.prompt_type}/{args.provider}")
+            if provider_path.exists():
+                models = [d.name for d in provider_path.iterdir() if d.is_dir()]
+                if models:
+                    model_path = provider_path / models[0]
+                else:
+                    print(f"No models found for {args.dataset}/{args.prompt_type}/{args.provider}")
+                    return
+            else:
+                print(f"No narratives found for {args.dataset}/{args.prompt_type}/{args.provider}")
+                return
+        
+        if not model_path.exists():
+            print(f"No narratives found at {model_path}")
             return
         
         instances = []
-        for json_file in sorted(results_dir.glob("instance_*.json")):
+        for json_file in sorted(model_path.glob("instance_*.json")):
             instance_num = int(json_file.stem.split("_")[1])
             instances.append(instance_num)
     elif args.instances:
@@ -177,7 +208,7 @@ def main():
     
     # Display narratives
     for instance in instances:
-        display_narrative(args.dataset, instance, args.prompt_type, args.provider, save_to=args.save)
+        display_narrative(args.dataset, instance, args.prompt_type, args.provider, args.model, save_to=args.save)
 
 
 if __name__ == "__main__":

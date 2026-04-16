@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 152,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:05:24.851258",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the strengths in your profile, like your solid undergraduate GPA of 3.20, which is right around the typical student's level, and your middle-family-income background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 40% chance that you would fail it—high enough to lead to the tough decision of rejecting your application. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the average of about 5.5, signaling to the model a significant dip in later academic performance compared to peers. On a brighter note, your Year 1 decile of 6, above the typical 5.7, strongly pulled in the opposite direction, suggesting the model saw your early success as a positive counterbalance. Your undergraduate GPA also worked in your favor, as its near-average strength nudged the prediction toward passing. Other elements, like your middle-income family and planned full-time enrollment—which is the norm for over 90% of students—provided modest support toward success, while your LSAT score of 27.3, well below the average 36.7, added a small push toward the failure side. Overall, it was that sharp drop from strong Year 1 grades to weaker Year 3 performance that stood out most to the model as the key risk factor when compared to typical students who maintain steadier progress. We know this rejection feels personal and disheartening, especially given the barriers many Black women face in higher education, but it's not a reflection of your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your later-year grades through additional coursework or tutoring, and reapplying with an updated profile that highlights any improvements. Many students in similar situations have succeeded by addressing these exact areas, and we're rooting for you to turn this into your story of resilience. Keep pushing—you've already proven your early capability.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T12:03:48.268806",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 62.7% chance you'll fail the bar exam on your first try, which is above the threshold we use for admissions decisions. This prediction draws from key details in your profile, like your bottom-decile ranking in Year 1 and Year 3 grades at school, your LSAT score of 34, undergraduate GPA of 3.0, upper-middle family income, and your status as a white male planning full-time studies. These factors paint a picture of solid but below-average academic performance compared to typical applicants, whose Year 1 and 3 deciles average around the middle of their classes, LSAT scores hit about 37, and GPAs reach 3.2. The model's decision was most heavily swayed by your low Year 1 decile rank, which stood out as the top influence pushing toward a failure prediction. Right behind it was your Year 3 decile rank, also contributing significantly in the same direction. Your LSAT score ranked third in influence, further nudging the prediction toward expecting challenges on the bar. Family income bracket came next, followed by undergraduate GPA, both adding to the risk assessment in a similar way. Other elements like racial background, full-time status, and gender had much smaller roles, still leaning slightly toward the failure side but not as pivotal. Overall, your profile compares to the broader student pool—where most are full-time, about half male, and over 80% white—as academically weaker in the areas that matter most for bar success. While demographics like gender, race, income, and study mode are tough to shift, you can realistically target improvements in academic preparation to boost future bar odds. Consider targeted tutoring or practice exams to build on your Year 1 and 3 experiences, and if possible, retake the LSAT for a stronger score that signals better readiness. Strengthening your GPA through post-undergrad courses or certifications could also help demonstrate growth. With focused effort on these academic foundations, you could tip the scales for another application down the line.",
+  "error": null
+}

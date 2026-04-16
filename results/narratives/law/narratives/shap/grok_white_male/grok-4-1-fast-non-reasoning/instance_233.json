@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 233,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:11.689316",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and plans to attend law school full-time, you've put real effort into building your profile, including your middle-income family background. However, the admissions model predicted a 54% chance that you would fail the bar exam on your first try, which tipped the scales toward rejecting your application—law schools use this prediction to prioritize students likely to succeed and pass the bar right away. The biggest factor pulling the prediction toward failure was your LSAT score of 25, which is notably below the typical applicant's score of around 37, making it the most influential concern in the model's eyes. On a brighter note, your undergraduate GPA stood out positively, as it's higher than the average of 3.21 and strongly pushed the model toward expecting you to pass the bar. Your Year 3 school decile of 4 also helped your case somewhat, performing better than what the model sees as typical and nudging the prediction in a favorable direction. Even your Year 1 decile of 4 and full-time enrollment status contributed mildly toward a passing prediction, aligning with the norm where most applicants are full-time like you. Compared to typical students, your academic deciles are a bit below the averages of 5.71 for Year 1 and 5.53 for Year 3, but nothing drastic, and your family income bracket is right in line with the middle range most applicants come from. While your profile has clear strengths, the low LSAT overshadowed them, as it's the top-ranked factor driving the failure risk in your specific case. This doesn't define your potential—many students overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score, as even a modest improvement could shift future predictions dramatically in your favor. You might also seek targeted prep for bar-like reasoning skills or connect with mentors who've succeeded with comparable starts. Keep pushing; your story is far from over, and with focus, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

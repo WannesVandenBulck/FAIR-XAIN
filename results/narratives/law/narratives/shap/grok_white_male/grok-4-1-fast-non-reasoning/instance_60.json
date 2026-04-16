@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:32:32.526224",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including scoring a 37 on your LSAT—which is right around the typical score for students in our dataset—and maintaining a full-time study commitment that most applicants share. However, your undergraduate GPA of 3.10 falls a bit below the average of 3.21, which the model noted as a minor positive factor in your favor. Unfortunately, the admissions model, trained on data from thousands of students' bar exam outcomes, predicted a 91.9% chance that you would fail the bar exam on your first try, leading to the rejection of your application to protect the school's bar passage rates. The two biggest factors pushing this prediction toward failure were your Year 1 and Year 3 school decile rankings, both at the 1st decile—far below the typical 5th or 6th decile—indicating your early academic performance placed you at the lower end compared to peers. These low deciles had the strongest influence, outweighing positives like your LSAT score, which actively pulled the prediction toward expecting you to pass. Your family income level contributed somewhat toward the failure prediction, as upper-middle brackets sometimes correlate with other pressures in this dataset, though it wasn't as dominant. In contrast, your undergraduate GPA nudged things slightly toward success, and your full-time status had a negligible positive effect, aligning with the vast majority of students. Overall, your profile stands out negatively from typical admitted students mainly due to those early low decile rankings, which signal higher bar failure risk to the model despite your other strengths. This isn't a judgment on your potential—many overcome similar starts—but the model prioritizes patterns from past bar takers. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps pursuing a post-baccalaureate to strengthen your GPA, and reapplying after demonstrating improved academic deciles. We're rooting for you to turn this around and succeed in law. Reach out to admissions advisors for personalized strategies tailored to applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

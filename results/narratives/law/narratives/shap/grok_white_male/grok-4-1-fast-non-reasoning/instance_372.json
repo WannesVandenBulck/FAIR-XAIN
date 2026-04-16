@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 372,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:39.909074",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 36 and an undergraduate GPA of 3.00, along with a middle-income family background and plans to attend full-time, you've put together a thoughtful application for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 63.5% chance that you would fail it—high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 1 was the biggest factor pushing the model toward forecasting failure, as it stands well below the typical student's rank around the middle of their class. Your Year 1 decile of 2 also contributed noticeably in the same direction, signaling to the model a pattern of underperformance relative to peers. On a brighter note, your LSAT score had the strongest positive influence, pulling the prediction toward success since it's close to the average of 36.7 seen in the dataset. Your undergraduate GPA provided a smaller but helpful boost toward passing, even though it's a bit under the typical 3.21. Being full-time and your family income level had minimal sway, neither strongly helping nor hurting the outcome. Compared to typical students, who often rank around the 5th or 6th decile in both Year 1 and Year 3, your lower rankings stood out as the key drags, overshadowing your other solid credentials. While this is disappointing, it doesn't define your potential—many overcome early hurdles to excel later. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved most critical here, and reapply once you've strengthened that area. You're capable of turning this around with focused effort. Keep pursuing your goals—we're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

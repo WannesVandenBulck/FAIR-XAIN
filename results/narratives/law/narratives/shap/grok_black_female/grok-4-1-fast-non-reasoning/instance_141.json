@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 141,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:04:41.893026",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in competitive fields like this. The admissions model evaluated your profile, including your undergraduate GPA of 2.90, LSAT score of 29, first-year school decile of 1st, third-year decile of 1st, upper-middle family income, and plan to attend full-time, against patterns from thousands of past students. It predicted a 79.3% chance that you would fail the bar exam on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar promptly. The two biggest factors pushing toward this failure prediction were your low deciles in school grades during your first and third years, as these placed you well below the typical student's standing, signaling potential struggles with rigorous legal coursework. Your third-year decile had the strongest negative pull, followed closely by your first-year performance, both far from the average around the middle of their classes. On a brighter note, your upper-middle family income helped nudge the prediction slightly toward passing, as it exceeds what's typical and often correlates with better resources for success. Similarly, your undergraduate GPA, LSAT score, and full-time enrollment status offered small positive influences compared to averages, but they weren't enough to offset the early academic concerns. Overall, your profile stands out as riskier than most applicants, whose stronger high school-like deciles predict smoother bar passage. This isn't a judgment on your potential—many overcome similar starts through targeted effort. Next, consider retaking the LSAT to boost your score, seeking academic advising to improve your standing, or exploring programs with bar passage support tailored for underrepresented students like yourself. You're capable of turning this around; persistence has carried many Black women to the bar and beyond. Keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

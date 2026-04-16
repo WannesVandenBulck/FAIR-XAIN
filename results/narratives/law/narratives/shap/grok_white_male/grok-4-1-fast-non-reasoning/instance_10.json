@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 10,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:29:20.465355",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid middle-income family background, you've put real effort into your law school journey, including your undergraduate studies and LSAT preparation, while planning to attend full-time. The admissions model we use predicted a 40% chance that you might fail the bar exam on your first try, which is unfortunately above our threshold for approval, leading to the rejection of your application. This prediction draws from patterns in data from thousands of past students, focusing on key indicators like grades, test scores, and background to forecast bar success. The most influential factor pulling against you was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of their class and signaled a higher risk of bar struggles to the model. On a more positive note, your undergraduate GPA of 2.90, just below the average of over 3.2, actually worked in your favor, suggesting stronger potential than your later school performance might indicate. Your middle family income bracket also helped nudge the prediction toward success, as it aligns with many students who pass the bar. Less impactful but still supportive were your full-time enrollment plans, which match the vast majority of successful students, and your Year 1 decile of 2, which didn't hurt much. Meanwhile, your LSAT score of 25, well below the dataset average near 37, had a minor push toward the failure prediction but wasn't a top driver. Compared to typical students who get approved, your profile shows room for improvement in those decile rankings and LSAT, where stronger showings often tip the scales. I know this is disappointing, especially after your hard work, but it's not the end of the road—many applicants in similar spots have succeeded by retaking the LSAT or bolstering their academic record elsewhere. Consider targeted prep courses to boost your test score and grades, or explore part-time options or other programs that might value your unique strengths differently. You're capable of turning this around; reach out to admissions counselors for personalized advice on reapplying stronger next cycle. Keep pushing forward—we believe in your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

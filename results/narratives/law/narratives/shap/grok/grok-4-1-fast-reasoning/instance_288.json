@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 288,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:30:07.080015",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 48% chance you'll fail the bar exam on your first attempt, which is above our threshold for approval. This prediction is based on your overall profile, including your undergraduate GPA of 3.70—which is stronger than the typical student's 3.21—alongside your Year 1 school decile ranking of 2, Year 3 decile of 1, LSAT score of 33, middle family income bracket, Black racial background, male gender, and plan to study part-time. Compared to most applicants, your Year 3 decile is notably lower than the average of about 5.5, placing you in the bottom tier academically at that stage. Your Year 1 decile of 2 is also well below the typical 5.7, signaling early struggles that carried forward. These two academic rankings in school were the most influential factors, both strongly pushing the model toward predicting bar failure rather than success. Next in importance was your LSAT score of 33, lower than the average 36.7, which further tilted the prediction against passing. Your middle family income and Black racial background—rarer in the applicant pool where White students make up over 80%—also contributed toward the failure prediction, though less powerfully. Your solid undergraduate GPA nudged things slightly in favor of passing, as did being male in a pool that's majority male. Your part-time study plan had a minor influence toward failure, given most students go full-time. Overall, while your college performance stands out positively, the model weighed your weaker high school deciles and LSAT most heavily against you. To boost your future chances, focus on rebuilding strong study habits to improve metrics like decile rankings in any further schooling, consider retaking the LSAT to aim above the typical score, and explore full-time study options if feasible. With targeted improvements in these areas, you could shift the prediction toward bar passage and strengthen your next application. Keep pushing forward—you have clear strengths to build on.",
+  "error": null
+}

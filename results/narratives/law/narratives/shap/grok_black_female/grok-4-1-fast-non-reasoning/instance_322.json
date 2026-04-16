@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 322,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:15:43.293817",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've poured your heart into this journey, and we appreciate the strength it takes to pursue your dreams in a field that needs more voices like yours. Your profile includes being in the lowest decile for grades in both your first and third years of school, a middle-income family background, an LSAT score of 36, an undergraduate GPA of 3.0, and plans to attend full-time, which is the typical path for most students. The admissions model, which predicts the chances of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 54.8%—just over the tipping point that led to your application's rejection, as the school prioritizes those predicted to succeed right away. The biggest factor pushing toward this failure prediction was your third-year school decile ranking at the bottom, which stood out strongly compared to the average student's middle-of-the-pack position and signaled potential challenges in sustaining strong academic performance. Your LSAT score, while solid and close to the dataset average of 36.7, worked in your favor by pulling the prediction toward passing, showing it as a relative strength. Similarly, your undergraduate GPA of 3.0, though below the typical 3.21 average, still contributed positively by suggesting some foundational capability. Your first-year decile at the bottom added a moderate push toward failure, reinforcing concerns about early academic hurdles that many successful students overcome. Factors like your middle family income and full-time plans had smaller influences, with income slightly tilting toward risk and full-time status offering a minor boost since it's the norm for 93% of students. Overall, your situation compares to typical applicants by having competitive test scores but lower grades that outweighed them in the model's eyes, unlike many who maintain higher decile rankings throughout. This isn't a judgment on your potential—it's one data-driven snapshot. To move forward, consider retaking courses or the LSAT to boost those deciles and scores, seek targeted academic coaching, or apply to programs with holistic reviews that value your unique background. You've got resilience; use it to strengthen these areas and reapply stronger. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

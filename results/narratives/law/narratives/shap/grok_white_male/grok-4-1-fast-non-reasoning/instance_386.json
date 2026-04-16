@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 386,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:52:35.233523",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a full-time study plan and a low family income background, we understand how disappointing it must be to receive this law school admission rejection—it's a tough moment, and we're here to help you make sense of it. The admission process relies on a predictive model that evaluates your likelihood of passing the bar exam on the first try, based on key aspects of your academic record and background. For you specifically, the model estimates an 80% probability that you would fail the bar exam, which is why your application was denied to protect the school's outcomes and your future success. The decision hinged most heavily on your LSAT score, which was significantly lower than what the model typically sees in successful candidates, strongly pushing the prediction toward failure. Next in influence were your Year 3 school grade decile and Year 1 decile, both at the bottom of the distribution compared to averages around the middle, further signaling potential struggles ahead. These three factors—your LSAT and early grade rankings—stood out as the primary drivers tilting the scales against passing. On a more positive note, your undergraduate GPA, which is close to the typical student's, nudged the prediction slightly toward success, as did your low family income bracket, which the model views favorably in some contexts. Your choice to study full-time aligns with the vast majority of students and had a minor positive lean, but it couldn't outweigh the top concerns. Compared to typical applicants, who often enter with stronger LSATs and mid-range deciles, your profile unfortunately fell short in those critical areas that best predict bar success. This isn't a judgment on your potential or character—many overcome similar hurdles with targeted effort. Moving forward, we recommend focusing on boosting your LSAT through intensive prep courses, retaking it if possible, and strengthening your academic deciles in any upcoming terms to rebuild a competitive profile. You're capable of turning this around; consider reapplying after addressing these key areas, and reach out for resources on LSAT improvement tailored for students like you. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

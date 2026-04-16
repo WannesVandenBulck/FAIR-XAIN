@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:57:39.941358",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in this field, and I want to help you understand the automated decision that led to your application's rejection in a clear way. The admissions model looks at patterns from past students—like their grades, test scores, family backgrounds, and study plans—to predict the chances of passing the bar exam on the first try, and unfortunately, it estimated an 83% probability that you would not pass, which triggered the denial to protect the school's outcomes. This prediction was driven mostly by a few key factors in your profile standing out compared to typical applicants. The biggest influence was your plan to attend part-time, which is uncommon—only about 7% of students do this—and it strongly pushed the model toward predicting bar failure, as part-time schedules have historically made it harder for students to succeed on the exam. Next, your third-year school decile ranking of 3, lower than the average of around 5.5, signaled weaker performance relative to peers and further tipped the scales toward failure. Your middle family income bracket also contributed somewhat to this direction, as it's below what's typical in the dataset. Your first-year decile of 5 was slightly below average too, adding a small push in the same way. On a brighter note, your undergraduate GPA of 3.20, right around the typical 3.21, and your LSAT score of 33 helped pull the prediction toward success, showing your solid academic foundation. Overall, compared to most students who are full-time with stronger later-year grades, your profile aligned more with those who struggled on the bar. While this is disappointing, it's not the end—consider strengthening your academic deciles through targeted prep, exploring full-time options if possible, or retaking the LSAT to boost your score above the average 36.7. You have the resilience to overcome this; many in similar situations have succeeded by addressing these exact areas and reapplying stronger. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

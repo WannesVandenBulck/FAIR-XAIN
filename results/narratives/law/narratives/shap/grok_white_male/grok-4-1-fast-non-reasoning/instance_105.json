@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 105,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:16.917704",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an undergraduate GPA of 3.10 and an LSAT score of 32, you've put significant effort into your law school application, including your full-time study plans and upper-middle-class family background. Your early academic performance placed you in the 3rd decile in Year 1 at school, improving slightly to the 4th decile by Year 3, which shows some progress but still below the typical student's standing. The admissions model, designed to predict first-time bar exam success based on profiles like yours, estimated a 40.4% chance that you would fail the bar—high enough to trigger a rejection, as the school prioritizes applicants likely to pass on their first try. While no single factor dooms an application, your LSAT score emerged as the most influential element pushing the prediction toward failure, standing well below the average of 36.7 seen in successful candidates. On a more positive note, your undergraduate GPA had the strongest pull toward predicting success, as it was close to the typical 3.21 average and helped counterbalance other concerns. Your Year 3 decile ranking also nudged things favorably compared to peers, suggesting later improvement that the model appreciated. Less impactful but still noted were your Year 1 decile, full-time commitment—which aligns with most admitted students—and family income bracket. Overall, your profile falls short of the stronger academic markers, like higher LSATs and top deciles, that define typical bar-passing students in the dataset. This rejection stings, especially given your dedication, but it's not the end of your path to law. To strengthen future applications, focus on boosting your LSAT through targeted prep, as even a modest gain could shift predictions dramatically. Consider retaking undergrad-level courses or gaining legal experience to bolster your GPA and decile equivalents. Reach out to admissions advisors for feedback, explore bridge programs, or apply to schools with holistic reviews that value your full-time resolve and background. You've got resilience—use this as fuel to redefine your story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

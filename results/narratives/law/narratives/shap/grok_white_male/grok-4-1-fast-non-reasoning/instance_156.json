@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 156,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:35.313606",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put significant effort into your undergraduate studies, earning a respectable GPA of 3.20 that's right in line with the typical student's average. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 63%, tipping the scales toward rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school—specifically, your position in the lowest decile for Year 3 grades stood out as the strongest factor pushing the model toward forecasting a bar failure, with your similarly low Year 1 decile ranking as the next biggest influence. While your LSAT score of 30.50, undergraduate GPA, family income level, and full-time enrollment status all worked in your favor by nudging the prediction slightly toward success, they weren't strong enough to overcome those early academic hurdles. Compared to typical students, who land around the middle of their class in those deciles and score higher on the LSAT around 36.70, your profile showed weaker early performance that the model weighed most heavily. We understand this is disappointing, especially given your background and dedication to full-time study, but it's a data-driven call aimed at selecting those with the highest predicted bar passage odds. To move forward, consider retaking the LSAT to boost your score closer to or above the average, and if possible, provide context or improvements on those early school deciles through additional coursework or explanations in a future application. Strengthening these areas could shift your predicted odds dramatically. Many students in similar situations have succeeded by addressing key weaknesses head-on. You're clearly capable, and with targeted improvements, law school doors can reopen. Keep pushing—your story isn't over yet.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

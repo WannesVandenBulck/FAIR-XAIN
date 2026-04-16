@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 110,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:35:38.547540",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 39—above the typical 36.7 average—along with a middle-income family background and plans to attend full-time like most students, you've put together a thoughtful law school application. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your risk of failure at 44.9%, tipping the scales toward rejection to prioritize students with lower predicted risks. This decision hinged most strongly on your Year 3 school decile ranking of 2, well below the average of 5.53, which stood out as the biggest factor pushing the prediction toward potential bar failure by signaling weaker performance in later undergrad years. Your undergraduate GPA of 2.40, lower than the typical 3.21, reinforced this concern as the second-most influential element, further elevating the failure risk in the model's eyes. On a brighter note, your strong LSAT was the top factor pulling in the opposite direction, arguing convincingly for your potential to pass the bar. Your Year 1 decile of 4, slightly below average, offered some modest support toward success, while your family income and full-time status had minimal sway either way. Compared to typical students, your LSAT shines brighter than most, but your later academic deciles and GPA lag behind the pack, which is what swayed the overall prediction against you. We understand this rejection stings, especially with your strengths in standardized testing, and it's not a reflection of your full potential as a driven individual. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your GPA and decile rankings, as these proved pivotal here. You might also seek targeted LSAT prep to maintain that edge while addressing weaker areas. Many applicants in similar spots rebound strongly—reach out to admissions counselors for personalized advice on reapplying with improved metrics. Your path to law school is still very much within reach; keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

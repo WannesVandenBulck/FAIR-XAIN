@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 387,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:19:29.904683",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown impressive dedication with your undergraduate GPA of 3.60, which stands out well above the typical student's average of 3.21, and your choice to pursue full-time studies, just like the vast majority of applicants. Your family comes from a middle-income background, which is common in the applicant pool. However, your earlier school decile rankings in Year 1 and Year 3 both sit at 2nd, lower than the averages around the 5th or 6th decile, and your LSAT score of 22.70 is notably below the typical 36.70. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing the bar at 48%, tipping the scales just enough to reject your application—meaning it sees a concerning risk that you'd struggle to pass on the first try, like some students in similar positions. The strongest factor pulling in your favor was actually your strong undergraduate GPA, which significantly boosted the model's confidence in your potential to pass. On the flip side, your Year 3 decile ranking had the biggest negative pull, strongly nudging the prediction toward failure by signaling weaker performance relative to peers. Your LSAT score followed closely as another key concern, pushing the odds higher for failure compared to higher-scoring applicants who typically succeed. Elements like your middle family income and full-time status offered some positive lift but weren't enough to outweigh those top concerns. Overall, while your GPA shines brighter than most, your decile rankings and LSAT placed you below the profiles of students who generally pass the bar on their first attempt. To strengthen future applications, consider retaking the LSAT to boost your score toward the average and reflecting on strategies to improve class rankings, perhaps through targeted tutoring or study habits. You're clearly capable—many in similar circumstances have turned things around with focused effort, and we believe in your potential to succeed. Keep pushing forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

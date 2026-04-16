@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 428,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:18.467096",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with an upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score of 36 and undergraduate GPA of 2.50, while planning to attend full-time. The admissions model we use predicted an 82% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the strongest likelihood of bar passage success. This prediction was driven primarily by your academic decile rankings from school, particularly your Year 3 decile of 1, which had the strongest influence in pushing the model toward expecting failure, as it signals lower performance relative to your peers (where averages hover around the 5th or 6th decile). Your Year 1 decile of 1 also played a notable role in the same direction, reinforcing concerns about consistent academic standing compared to typical students. On a more positive note, your LSAT score stood out as the top factor pulling the prediction toward bar passage success, performing close to the dataset average of about 36.7 and better than many applicants. Your undergraduate GPA, however, contributed toward the failure prediction, as your 2.50 is below the typical 3.21 average seen in the data. Smaller positives included your upper-middle family income and full-time enrollment plans, which slightly favored success but weren't enough to offset the key academic concerns. Overall, compared to students who typically pass the bar, your profile shows stronger standardized testing but weaker graded performance in school deciles and undergrad, which weighed heavily here. I know this is disappointing, especially given your solid LSAT and background, but it's a data-driven call to protect your future success. To move forward, consider retaking courses or programs to boost your decile rankings and GPA, perhaps through post-baccalaureate options or targeted academic improvement, then reapply with that stronger record. Many applicants in similar situations have succeeded by addressing these exact areas. We're rooting for you—feel free to reach out for advice on next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

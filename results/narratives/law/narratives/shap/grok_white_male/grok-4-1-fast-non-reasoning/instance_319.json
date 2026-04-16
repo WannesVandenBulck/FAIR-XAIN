@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 319,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:48:32.732763",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.80 and a middle-class family background, you've clearly put in significant effort to build a strong profile for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 69%, leading to the rejection of your application. This prediction was driven primarily by your academic decile rankings from school—specifically, your Year 3 decile of 1, which had the strongest negative influence by pushing the model firmly toward expecting bar failure. Your Year 1 decile of 1 also contributed notably in the same direction, reinforcing concerns about your relative performance within your school. On a brighter note, your strong undergraduate GPA worked significantly in your favor, pulling the prediction toward success and showing the model your capability in higher education. Your LSAT score of 33, family income bracket, and full-time enrollment status each provided smaller positive nudges toward passing, but they weren't enough to offset the top concerns. Compared to typical students, who average much higher deciles around 5.5 in both early years, a 36.7 LSAT, and a lower undergrad GPA of 3.21, your school performance stands out as notably below the norm that correlates with bar success, despite your other strengths. This isn't a judgment on your potential as a person or lawyer—it's the model's data-driven assessment based on patterns from past students. To move forward, consider retaking courses or programs to boost your school deciles, aiming for top-quartile performance that aligns with bar passers. You might also target LSAT improvement toward the typical 37 range while leveraging your impressive GPA. Many applicants in similar situations succeed by addressing these gaps—reach out to advisors for targeted prep, and reapply with bolstered credentials. Your determination as a white male from a middle-income background has already gotten you this far; with focused improvements, law school doors can reopen. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

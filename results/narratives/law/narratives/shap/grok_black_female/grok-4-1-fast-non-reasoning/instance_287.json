@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:13:37.061986",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream despite the challenges many face in competitive fields like this. Your background includes an upper-middle family income, which is a solid foundation, along with your undergraduate GPA of 2.40 and an LSAT score of 27—both below the typical averages seen among past applicants. In your early school years, you ranked in the 2nd decile based on Year 1 grades, and by Year 3, you were in the 3rd decile, also trailing the stronger mid-pack performance of most students. You're planning to attend part-time, which is less common as only about 7% of students choose that path compared to the vast majority who go full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 56% chance you'll face failure on that crucial test—a threshold that led to your application's rejection to protect the school's outcomes. The biggest factor pushing toward this concerning prediction was your part-time enrollment plan, as it stood out strongly against the full-time norm and signaled higher risk to the model. Your undergraduate GPA followed closely as another key influence in the same direction, given how it fell short of the average. On a brighter note, your family income level worked in your favor, nudging the prediction toward success more than most features. Your school deciles in Years 1 and 3 also pulled somewhat toward failure, though less forcefully, while your LSAT had a mild positive lean despite being low. Compared to typical students—who boast higher GPAs, LSATs around 37, top-half deciles, and full-time status—your profile highlighted these gaps as the primary drivers. To move forward, consider retaking the LSAT for a stronger score, exploring ways to boost your academic decile through additional coursework, and weighing a full-time option if feasible—these steps could reshape your prediction dramatically. You're capable of turning this around, and many in similar circumstances have succeeded with targeted improvements; we believe in your potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

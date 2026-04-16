@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 266,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:27:07.187678",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimated a 43% chance that you might not pass the bar exam on your first try, which is above our threshold for admission. This prediction is based on your profile, including your undergraduate GPA of 2.9, LSAT score of 30, Year 1 school decile of 4, Year 3 decile of 4, middle family income bracket, being a full-time student, female, and Black. Compared to typical applicants—who average a 3.21 undergraduate GPA, 36.7 LSAT score, 5.71 Year 1 decile, and 5.53 Year 3 decile—your academic metrics like grades and test scores stand out as notably lower, placing you below the middle of the pack. The model's decision was most heavily influenced by your Year 3 school decile, which pushed the prediction toward a higher risk of bar failure more than any other factor. Right behind that was your Year 1 decile, also nudging the odds toward failure compared to stronger performers. Your LSAT score ranked third in influence, similarly contributing to the concern since it's well below average. Family income came next, with your middle bracket playing a supporting role in the risk assessment, followed by race, undergraduate GPA, gender, and full-time status, all of which added slight pushes toward the failure prediction in descending order of impact. None of these factors pulled strongly in the positive direction for you, creating an overall cautious outlook. While demographics like gender, race, and family income are harder to change, you can realistically boost your future chances by focusing on academics—consider retaking the LSAT to aim for a score closer to or above 36.7, strengthening your school performance to climb those deciles through better study habits or tutoring, and building a stronger undergraduate record if you have time left. Many students in similar spots have succeeded by targeting these areas with dedicated prep courses for the bar or entrance exams. Keep pushing forward; with targeted improvements, a future application could look much brighter.",
+  "error": null
+}

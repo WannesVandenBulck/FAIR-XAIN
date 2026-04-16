@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 321,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-reasoning",
+  "timestamp": "2026-04-16T13:35:07.271426",
+  "status": "success",
+  "narrative": "I'm sorry to share that your law school application was rejected because our predictive model estimates a 42% chance you'll fail the bar exam on your first try, which is high enough to raise concerns about your readiness. As a female Asian student from a low-income family with a strong undergraduate GPA of 3.70—above the typical 3.21 average—you also plan to attend full-time, like most applicants. However, your school decile in Year 3, ranking you in the 3rd decile compared to the average 5.53, had the strongest influence on this prediction, nudging the model toward expecting a failure. Next in impact was your Year 1 decile of 5, slightly below the average 5.71, which also contributed toward that concerning outcome. Your LSAT score of 25, well below the typical 36.70, ranked third in influence and further pushed the prediction in the unfavorable direction. Family income in the low bracket played a notable role too, as did your racial background, both adding to the model's worries about bar success. Your above-average undergrad GPA had a smaller but still negative pull toward failure, while being full-time and female had minimal sway. Overall, these academic and background factors, especially your later-year school performance and low LSAT, outweighed your strengths in the model's eyes when compared to typical students who pass. To boost your future chances, prioritize retaking the LSAT to aim closer to or above the 36.70 average, as it's a key changeable factor tied to bar outcomes. Strengthening your academic deciles through better study habits or extra coursework could help demonstrate improvement over time. While family income and demographics are harder to shift, focusing on these performance indicators will make the biggest realistic difference for reapplying stronger. You're already ahead with your undergrad GPA—build on that momentum. Keep pushing; many overcome similar hurdles with targeted preparation.",
+  "error": null
+}

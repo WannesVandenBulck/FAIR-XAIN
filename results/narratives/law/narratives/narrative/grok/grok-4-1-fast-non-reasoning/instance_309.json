@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 309,
+  "prompt_type": "narrative",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T14:46:48.362953",
+  "status": "success",
+  "narrative": "Dear Alex, imagine the admissions team looking at your application like they're piecing together the story of your journey to the bar exam, drawing from patterns they've seen in thousands of students just like you. Your Year 3 decile of 2 stood out as the biggest chapter pulling the prediction toward failure—it signaled to the model that, despite your earlier undergraduate GPA of 3.6, your performance in law school ramped up more slowly than most who pass the bar on the first try. Right behind that was your LSAT score of 22.7, which the model saw as a key early hurdle, often setting a tougher path forward compared to higher scorers who tend to build momentum. Your Year 1 decile of 2 echoed this, reinforcing a picture of steady but bottom-decile grades that historically make the bar a steeper climb. Even your middle family income played a role, as the model links it to added pressures that can tip the scales toward struggle for many in your bracket. Your white background and full-time status added subtle weights toward that same challenging narrative, while your undergraduate strength nudged slightly in the positive direction—though not enough to shift the overall story. Your gender was the one bright spot, a factor that often correlates with passing. Together, these painted a vivid portrait of a 40.8% chance of not passing the bar, which is why we had to make the tough call on your application. It's not a judgment on your potential or drive, but a reflection of how these pieces have played out for others. The good news? You're targeting law school with clear intent, and focusing on boosting those deciles or LSAT-like metrics could rewrite your story entirely. You've got a solid UGPA foundation—build on it, and doors will open wider next time. We're rooting for you to prove the patterns wrong.",
+  "error": null
+}

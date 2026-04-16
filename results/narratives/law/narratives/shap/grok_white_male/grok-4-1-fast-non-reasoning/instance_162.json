@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 162,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:38:54.435914",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.70 and an LSAT score of 36, you've clearly worked hard to build a strong academic foundation, including your choice to pursue full-time studies and coming from a middle-income family background. However, the law school's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 41%, tipping the scales toward rejection to prioritize students with lower predicted risks. The primary reason for this decision was your Year 3 school decile ranking of 1, which stood out as the strongest factor pushing the prediction toward bar failure—far below the typical student's rank around the middle of their class. This was compounded somewhat by your Year 1 decile of 2, another below-average performance that added to the concern, unlike most applicants who rank higher in their early and later undergrad years. On a brighter note, your LSAT score, very close to the average of 36.7, strongly pulled the prediction toward success, showing your potential in standardized legal reasoning. Similarly, your above-average undergrad GPA of 3.70 worked in your favor, signaling consistent excellence from your prior studies and countering some of the risks. Your full-time enrollment plan and middle-income background provided minor positive influences, aligning with the majority of successful students who share those traits. Compared to typical applicants, your story highlights a dip in school rankings during key undergrad years that overshadowed your other strengths, as the model weighs recent performance heavily in forecasting bar outcomes. While this rejection stings, especially given your promising GPA and LSAT, it doesn't define your potential—many students rebound from early setbacks. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through post-baccalaureate options or targeted prep that addresses those weaker areas. You might also explore schools with more holistic reviews or appeal with evidence of improvement since Year 3. Keep pushing, as your profile shows real strengths that could shine with a bit more polish. We're rooting for you to ace the bar and build the legal career you deserve.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

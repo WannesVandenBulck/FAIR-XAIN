@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 243,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:48.687127",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate background, we understand how disappointing it must be to receive this rejection from our law school admissions process—it's a tough moment, and we're here to help you understand why it happened in clear terms. Your profile includes being in the lowest decile for grades in both your first and third years of school, a low family income bracket, an LSAT score of 22.50, an undergraduate GPA of 2.70, and plans to attend full-time, which is the typical path for most students. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated an 82% chance that you would fail it, tipping the scales toward rejection to ensure we select applicants most likely to succeed. The biggest factor pushing toward this failure prediction was your third-year school decile ranking at the bottom, as it stood out well below the average student's mid-range performance and signaled potential challenges in sustaining strong academics. Your LSAT score was the second most influential, also pulling strongly toward a failure prediction since it was notably lower than the typical 36.70 average. On a brighter note, your undergraduate GPA of 2.70 provided some counterbalance, nudging the prediction slightly toward passing compared to peers, though not enough to offset the top concerns. Your low first-year decile added further weight toward failure, while your family income level offered a modest push in the positive direction, similar to how it helps some other students from similar backgrounds. Being full-time, like over 90% of applicants, had a small favorable influence but wasn't a game-changer. Overall, your situation compares to typical students by having academics that lag behind the averages in key areas like deciles and LSAT, putting you in a riskier group for bar success despite some strengths. To move forward, we recommend retaking the LSAT to boost your score significantly, strengthening your school grades if possible, and perhaps exploring programs with targeted support for students from low-income backgrounds. You're clearly motivated—many have turned similar profiles around with focused effort. Keep pursuing your goals; law schools value resilience, and reapplying with improvements could open new doors. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

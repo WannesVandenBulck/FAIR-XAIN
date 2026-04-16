@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:34:35.978722",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid LSAT score of 36 and an undergraduate GPA of 3.0, along with a middle-income family background and plans to attend full-time, you've put together a thoughtful application for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 63.5% chance that you would fail it—high enough to lead to the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school, especially your Year 3 performance, which placed you in the bottom decile compared to the typical student's middle-of-the-pack standing. That low Year 3 decile had the strongest pull toward the failure prediction, suggesting to the model that sustaining strong performance might be challenging for you. Your Year 1 decile, also on the lower end at 2 compared to the average of around 6, added further weight in the same direction. On a brighter note, your LSAT score, very close to the dataset average of 36.7, pushed meaningfully against failure, signaling good potential in standardized testing much like successful peers. Your undergraduate GPA, slightly below the typical 3.21, offered a smaller counterbalance toward passing. Being full-time, like over 90% of students in the dataset, provided a minor positive nudge, as did your middle family income bracket, which didn't sway things much either way. Overall, your profile stands out from typical admitted students mainly due to those lower early academic deciles, which overshadowed your other solid qualifications. While this is disappointing, it's not the end of the road—consider retaking courses or building a stronger recent academic record to boost those decile rankings, perhaps through post-baccalaureate programs or targeted prep that highlights your LSAT strengths. You might also explore part-time options or schools with more holistic reviews that weigh your full-time commitment and background favorably. Keep pushing forward; many overcome similar hurdles to succeed in law. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

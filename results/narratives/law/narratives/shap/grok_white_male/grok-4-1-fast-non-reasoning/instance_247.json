@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 247,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:44:05.939929",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school application, including your LSAT score of 36 and undergraduate GPA of 3.10, while planning to attend full-time. The admissions model we use predicted a 66.8% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—our goal is to select students with the highest likelihood of bar passage success. This prediction was driven primarily by your academic performance in school, especially your lower placement in Year 3 grades compared to peers, which stood out as the strongest factor pushing the model toward expecting a failure. Your Year 1 grades, also below the typical decile for admitted students, reinforced this concern as the second-most influential element. On a brighter note, your LSAT score, slightly under the average but still competitive, worked in your favor by nudging the prediction toward success, much like your undergraduate GPA did to a lesser degree. Your family income level also mildly supported a positive outlook, though it wasn't a major driver here. Compared to typical students in our dataset, who often rank higher in school deciles around the 5th or 6th, your rankings were noticeably lower, which amplified the model's worries despite your other strengths aligning closer to averages. Full-time status had virtually no impact either way. I know this is disappointing, especially given your dedication, but it's not a reflection of your potential—it's just one data-driven snapshot. To move forward, consider retaking courses or programs to boost your school deciles, perhaps targeting a higher LSAT for even stronger leverage, and reapply once you've strengthened those key academic markers. Many students in similar positions have succeeded by addressing these exact areas, and we're rooting for your next steps. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

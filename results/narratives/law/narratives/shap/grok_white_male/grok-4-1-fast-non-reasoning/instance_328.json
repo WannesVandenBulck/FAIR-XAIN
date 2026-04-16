@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 328,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:03.079672",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an LSAT score of 34, you've clearly put in the effort to build a strong academic foundation, including your upper-middle family income background and plans to attend full-time. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 42%—a risk level that unfortunately led to the rejection of your application. The primary factor driving this prediction was your Year 3 school decile ranking of 1, which is well below the typical student's 5.53 average and strongly pushed the model toward expecting bar failure, as it signals a notable dip in performance during those crucial later years. Counterbalancing this somewhat was your undergraduate GPA, which exceeds the dataset average of 3.21 and worked in your favor by suggesting stronger potential for success. Your LSAT score, while respectable, fell short of the average 36.70 and moderately pulled the prediction toward failure compared to peers who scored higher. Your lower Year 1 decile of 3, against an average of 5.71, added a smaller but still negative nudge, whereas your upper-middle family income and full-time status provided minor boosts akin to most applicants. Overall, your profile stands out for its above-average undergrad performance but is held back by weaker school deciles relative to the typical student, who maintains higher consistent rankings across years. This combination tipped the scales just enough for the model to flag you as higher-risk. I know this news is disappointing, especially given your strengths, but it's not the end of the road—consider retaking courses or the LSAT to boost those decile and score metrics, or targeting schools with more holistic reviews. You have the grit to improve these areas and reapply stronger next time. Keep pushing forward; many have turned similar setbacks into bar-passing success stories.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

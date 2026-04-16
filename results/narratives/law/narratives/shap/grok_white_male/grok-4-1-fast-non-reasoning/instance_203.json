@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 203,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:41:24.811254",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid upper-middle-class family background, you've put significant effort into your law school journey, including earning an undergraduate GPA of 3.30 and an LSAT score of 36.50, while planning to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 52.7% probability that you would fail it—tipping just over the threshold that led to your application's rejection. This decision was driven primarily by your academic decile rankings from earlier years in school: your Year 3 decile of 2 was the biggest factor pushing the prediction toward failure, as it stands notably below the typical student's rank around the middle of their class. Your Year 1 decile of 3 also contributed substantially in the same direction, signaling to the model a pattern of underperformance relative to peers. On a more positive note, your undergraduate GPA played the strongest role in countering this, pulling the prediction toward success since it's above the average of 3.21 seen in the dataset. Your LSAT score, very close to the typical 36.70, provided a similar helpful nudge toward passing, while your family income bracket and full-time status offered modest support compared to most applicants. Overall, your profile compares unfavorably to typical students because your school deciles lag well behind the averages of about 5.5-5.7, outweighing your stronger undergrad metrics despite your demographic fitting common patterns (like 92.7% full-time enrollment). We understand this is disappointing, especially given your achievements, and it doesn't define your potential. To move forward, consider retaking courses or programs to boost your school rankings, as those were the top hurdles here—perhaps through targeted academic support or additional credentials that highlight improvement. You might also explore schools with more holistic reviews or reapply after strengthening those early deciles. Keep pushing; many overcome similar predictions through persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

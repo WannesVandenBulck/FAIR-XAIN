@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 425,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:04.254896",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.50 and an LSAT score of 38, along with your upper-middle family income background and plans to attend full-time, you've clearly put in significant effort to build a strong profile for law school. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 72.5% chance that you would fail it— a risk level that unfortunately led to the rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school, which stood out as the most influential factors pushing the model toward forecasting failure. Specifically, your Year 3 decile of 1 was the top concern, as it signaled to the model a notable dip in performance relative to your peers, far below the typical student's midpoint around the 5th or 6th decile. Your Year 1 decile of 1 reinforced this, ranking as the second strongest influence toward the failure prediction, again placing you well below the average. On a brighter note, your undergraduate GPA actually worked in your favor, countering the risk more than any other positive factor by showing stronger performance than the typical 3.21 average. Your LSAT score provided similar support, exceeding the dataset average of 36.70 and nudging the prediction toward success. Your full-time enrollment plans and family income bracket offered minor boosts as well, aligning with common successful profiles. Compared to typical students who pass the bar, your early deciles were unusually low, overshadowing your later achievements despite being in the majority as a full-time white male applicant. To move forward, we recommend retaking courses or programs to boost your decile rankings, as these appear to be the key hurdles—perhaps through targeted academic support or additional undergrad-level coursework. With your strong GPA and LSAT as foundations, addressing those early grades could dramatically shift future predictions in your favor. You're not far off, and many applicants in similar situations have succeeded by focusing on these areas—keep pushing, and consider reapplying after strengthening them. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

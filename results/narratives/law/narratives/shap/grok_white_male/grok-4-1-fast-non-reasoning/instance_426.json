@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 426,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:55:08.658353",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a middle-income family background and plans to attend law school full-time, you've put significant effort into your undergraduate studies and LSAT preparation, but we understand how disappointing it must be to receive this rejection notice. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated an 88% chance that you would fail it—far too high a risk for the program to approve your application right now. This prediction led directly to the denial, as the school prioritizes students with stronger signals of bar exam success to maintain high pass rates. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, which placed you in the bottom group compared to peers, signaling weaker academic performance in later undergraduate years than typical students who average mid-level deciles. Your LSAT score was the next biggest driver toward failure, as it fell well below the dataset average, unlike the higher scores that help others pass the bar. Similarly, your Year 1 decile in the bottom tier contributed notably to the risk assessment, standing out against the average student's mid-range performance. On a more positive note, your undergraduate GPA, while below average, actually nudged the prediction slightly toward passing success, offering a counterbalance. Your choice to study full-time also helped a bit, aligning with the vast majority of students who succeed this way. Overall, your profile compares to typical admitted students by lagging most in key academic deciles and LSAT, despite some strengths that softened the blow. To move forward, we encourage you to retake the LSAT aiming for a score closer to or above the 36.7 average, strengthen your later-year grades if possible through additional coursework, and reapply once you've bolstered these areas—many students in similar situations have succeeded on a second try. You're clearly motivated, and with targeted improvements, your chances could shift dramatically. Hang in there; this is just one step in your journey.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

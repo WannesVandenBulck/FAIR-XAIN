@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 189,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:40:33.620871",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.40 and an LSAT score of 36, you've clearly put in the effort to build a strong academic foundation, and we appreciate your interest in our law school. Your family comes from a middle-income background, and you've indicated plans to attend part-time, which is less common among applicants as most opt for full-time studies. The admission model we use predicts your likelihood of failing the bar exam on the first try, and unfortunately, it estimated a 51% probability of failure for you—meaning it saw you as more likely than not to struggle, which led to the rejection of your application to help ensure our students' long-term success. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is well below the typical student's rank around the middle of their class and signaled potential challenges in sustaining strong performance. This outweighed your strengths, like your LSAT score, which is right around the average and helped pull the prediction toward passing by showing solid reasoning skills. Similarly, your undergraduate GPA of 3.40, above the average of 3.21, contributed positively by demonstrating consistent college-level achievement. Your Year 1 decile of 1 also nudged things toward failure, though less strongly than Year 3, suggesting early academic hurdles that carried weight. Your middle-income family background had a modest influence toward the failure side compared to higher-income peers, while your part-time status slightly favored passing, perhaps reflecting maturity in balancing commitments. Overall, your profile compares to typical students by having competitive test scores and GPA but lower high school deciles that raised red flags for bar exam readiness. While this decision is disappointing, it's not the end of the road—consider retaking courses or boosting your decile rankings through additional undergrad work to strengthen future applications. You might also explore part-time programs or prep courses tailored for students like you who excel in standardized tests. We're rooting for your success, and reapplying with targeted improvements could change the outcome next time. Keep pushing forward—you've got the potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

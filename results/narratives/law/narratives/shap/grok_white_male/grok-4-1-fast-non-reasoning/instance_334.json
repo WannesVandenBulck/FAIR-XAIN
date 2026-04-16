@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 334,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:49:25.289743",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.80 and an LSAT score of 37, you've clearly put in strong effort to build a competitive profile for law school, including planning to attend full-time and coming from a middle-income family background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 61%, tipping the scales toward rejection of your application. This prediction was driven primarily by your academic decile rankings from earlier years in school—specifically, your Year 3 decile of 1, which ranks in the bottom tenth of your peers and had the strongest pull toward forecasting bar exam struggles. Your Year 1 decile of 2 also contributed notably in the same direction, signaling to the model some early challenges in keeping pace with top performers. On a brighter note, your LSAT score, slightly above the typical 36.70 average, pushed meaningfully against failure, as did your standout undergraduate GPA well above the 3.21 norm. Your middle-income background added a modest nudge toward the riskier side, while your full-time enrollment plan offered a small positive influence, aligning with the vast majority of successful students. Compared to typical applicants, your test scores and college grades shine brighter than average, but those lower school deciles stand out as bigger red flags than usual, outweighing your strengths in the model's eyes. This isn't a judgment on your potential as a white male from a middle-class family—many in similar situations succeed with targeted improvements. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps seeking tutoring to address whatever held you back in those years, and reapply after demonstrating upward trends. Law school admissions value growth stories, so documenting your steps to strengthen those early weak spots could make all the difference next time. You're already ahead in key areas—keep building on that momentum.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

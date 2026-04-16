@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 236,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:43:22.132865",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.30 and an LSAT score of 35, you've clearly put in the effort to build a strong academic foundation, coming from an upper-middle-class family and planning to attend law school full-time. The admissions model we use evaluates applicants based on patterns from past students' paths to the bar exam, predicting whether someone is likely to pass on the first try. For you, it estimated a 53.1% chance of failing the bar exam, which tipped the scales just enough to lead to the rejection of your application—it's a close call, but the threshold requires a stronger outlook for success. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 2, well below the typical student's 5.53 average, signaling to the model that your later undergraduate performance might not fully prepare you for the bar's demands. On a brighter note, your undergraduate GPA stood out positively, above the average of 3.21, helping push the odds toward passing. Your LSAT score, though solid, was a bit below the usual 36.70 and contributed moderately against you, while your family's upper-middle income level offered some favorable influence compared to the dataset norm. Your Year 1 decile of 3, lower than the average 5.71, added a smaller nudge toward the failure prediction, but your full-time enrollment plan provided a minor boost in the right direction. Overall, your profile is close to many successful applicants, but those dips in decile rankings—especially in Year 3—stood out as the most influential hurdles when stacked against typical students who pass the bar. This isn't a judgment on your potential; it's just the model's data-driven read on bar exam risks. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades if possible, or gaining targeted bar prep experience to demonstrate readiness—many students in similar spots turn things around with focused improvements. We're rooting for you, and reapplying with enhancements could change the story next time. Keep pushing; your background shows you're capable of rising to the challenge.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

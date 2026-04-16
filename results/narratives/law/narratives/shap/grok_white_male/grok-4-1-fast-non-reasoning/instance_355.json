@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 355,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:50:40.937320",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.20 and plans to attend law school full-time, you've put real effort into your application, and we appreciate your background from a lower-middle income family. The admissions model we use predicted a 73% chance that you would fail the bar exam on your first try, which is why your application for our law program was unfortunately rejected—our goal is to select students with the strongest likelihood of bar success to ensure everyone thrives. This prediction was driven primarily by your academic decile rankings from earlier years in school, where you placed in the lowest decile for both Year 1 and especially Year 3 grades, far below the typical student's mid-range performance. These early academic struggles were the biggest factors pushing the model toward forecasting a bar failure, as they stood out as the most influential elements in your profile. Your undergraduate GPA, while right around the average for applicants, offered some counterbalance by nudging the prediction slightly toward success. Other aspects, like your full-time enrollment plans—which align with most students—and your family income level, provided minor positive influences but weren't enough to shift the overall outlook. Your LSAT score of 31, below the average of about 37, had a very small dampening effect but wasn't a top driver here. Compared to typical students who get approved, your early decile rankings were notably weaker, pulling you below the threshold where the model sees a clear path to passing the bar. I know this news is disappointing, especially given your dedication, but it's a signal to focus on strengthening those foundational academic areas. Next, consider retaking courses or seeking targeted tutoring to boost your decile rankings, while prepping intensively for a higher LSAT—many students in similar situations turn things around with focused improvement. You have the potential to succeed; use this feedback as motivation to build a stronger profile for future applications. We're rooting for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}

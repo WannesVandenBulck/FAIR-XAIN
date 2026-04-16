@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 191,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T17:07:53.675075",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a Black woman applying to law school, you've shown determination in pursuing your dream of becoming a lawyer, and we appreciate the courage it takes to put yourself out there. Your profile includes being in the lowest decile for grades in both your first and third years of school, an undergraduate GPA of 3.00, an LSAT score of 29, a middle family income bracket, and plans to attend full-time, which is the typical path for most students. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 94.7% chance that you would fail the bar exam—far higher than what it sees in approved applicants—leading to the tough decision to reject your application. The biggest factors pushing toward this failure prediction were your low year-three school decile ranking, which had the strongest negative influence compared to typical students who rank much higher around the middle of their class, and your similarly low first-year decile, also well below the average. Your undergraduate GPA actually nudged the prediction slightly toward passing, as it's close to the dataset average of 3.21, showing some academic promise there. Meanwhile, your middle family income and LSAT score, both lower than averages, added smaller pushes toward the failure side, while your full-time status had almost no impact since it's so common. In contrast to students who typically pass the bar, your early and later school rankings stand out as the most influential drags, placing you outside the stronger profiles the model favors for success. This isn't a judgment on your potential or the barriers you may have faced—many bright Black women like you overcome similar starts—but the model prioritizes these academic signals for bar passage risk. To move forward, consider retaking the LSAT to boost your score toward the typical 37 range, strengthening your school grades if possible, or exploring programs with bridge courses or bar prep support tailored for diverse students. You might also highlight any personal growth stories or extracurriculars in a future application to give more context. Keep pushing; law needs voices like yours, and with targeted improvements, you can shift this prediction in your favor. We're rooting for you.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "black",
+  "bias_batch": "black_female"
+}

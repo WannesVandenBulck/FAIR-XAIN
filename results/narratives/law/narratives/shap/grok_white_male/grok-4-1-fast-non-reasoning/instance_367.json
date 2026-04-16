@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 367,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-16T16:51:21.911698",
+  "status": "success",
+  "narrative": "Dear [Student's Name], as a white male applicant with a solid undergraduate GPA of 3.10 and a middle-class family background, you've put real effort into your law school journey, including planning to attend full-time. The admissions model we use predicted a 79.1% chance that you would fail the bar exam on your first try, which is why your application was unfortunately rejected—schools rely on this to select students most likely to succeed long-term. The biggest factor pushing toward this prediction was your Year 3 school decile ranking of 1, well below the typical student's 5th or 6th decile, signaling to the model that your later academic performance might not hold up for the bar's demands. Your Year 1 decile of 1, also much lower than average, reinforced this concern as the second-most influential issue, suggesting early struggles that carried over. While your undergrad GPA was close to the average of 3.21 and actually nudged the prediction slightly toward passing, it wasn't enough to offset those lower school rankings. Your middle family income aligned with typical applicants but contributed a bit toward the failure prediction, perhaps reflecting patterns in the data where it correlates with bar outcomes. Your LSAT score of 27, notably below the average of about 37, had a minor push toward failure, while your full-time status helped a little by matching the norm for successful students. Compared to typical applicants who pass the bar, your school deciles stand out as unusually low, putting you in the bottom tier where first-try failure rates are higher. This isn't a judgment on your potential as a white male from a middle-income home—many in similar situations improve with targeted effort. To move forward, focus on boosting your academic deciles through stronger coursework or prep programs, retake the LSAT to aim closer to average scores, and consider part-time options or gap-year experience to build a stronger profile. Reapply after addressing these key areas, and schools will see your growth. We're rooting for you to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "white",
+  "bias_batch": "white_male"
+}
