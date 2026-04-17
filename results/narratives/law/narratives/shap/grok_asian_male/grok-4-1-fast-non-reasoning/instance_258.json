@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 258,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:20.539713",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 42.4% chance that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed strongly. Your profile includes a Year 1 school decile of 2, a Year 3 decile of 1—both well below the typical student's 5-6 range—along with a solid but lower-than-average LSAT score of 33 compared to the usual 37, an undergraduate GPA of 2.7 versus the average 3.2, middle family income, and plans for full-time enrollment, which is common among applicants. The most influential factor pushing the prediction toward failure was your Year 3 academic decile ranking in the bottom tier of your school, signaling to the model a significant drop or struggle in performance that strongly correlates with bar exam challenges for students like you. Counterbalancing this, your LSAT score had the second-strongest influence but worked in your favor, pulling the prediction toward passing because it shows solid reasoning ability above what some lower performers achieve. Your undergraduate GPA followed as the third key factor, also helping your case by suggesting decent foundational skills, though not enough to offset the top concern. Compared to typical admitted students, who often rank in the top half of their classes throughout and score higher on standardized tests, your later academic standing stood out as the biggest deviation, making the model cautious despite your other strengths. This isn't a judgment on your potential as an Asian male pursuing law—many in similar demographics succeed with targeted improvements—but the model weighs these patterns heavily from historical data. To move forward, focus on boosting your academic decile through stronger coursework or retakes, aim to retake the LSAT for a score closer to 37 or above, and consider part-time options if they align with building a stronger record. Gathering letters of explanation for your Year 3 dip or highlighting any upward trends could help in appeals or re-applications. With deliberate steps like tutoring or exam prep programs proven for bar success, you can shift these predictions in your favor next time. Schools value resilience, so use this as motivation to strengthen your profile.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

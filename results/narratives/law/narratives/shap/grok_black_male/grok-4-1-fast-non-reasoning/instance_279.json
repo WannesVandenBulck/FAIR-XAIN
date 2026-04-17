@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 279,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:48:33.601062",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 66.5% chance that you would not pass the bar on your first attempt—a risk threshold that led to the rejection. As a Black male student with a middle-income family background, your profile includes a solid LSAT score of 38, which is above the typical 36.7 average, alongside an undergraduate GPA of 2.9 and plans to attend full-time. The model weighed various elements of your record, but three stood out as the strongest drivers of its decision: your LSAT score, your Year 3 school decile ranking of 2, and your Year 1 school decile ranking of 2—both well below the averages of about 5.5. Among these, your LSAT was the most influential factor overall, and it worked strongly in your favor by pushing the prediction toward expecting you to pass the bar, reflecting how your above-average performance there signals real potential. However, your Year 3 decile ranking had the next biggest impact, pulling the prediction toward failure because it indicates your grades placed you in the bottom tenth of your school that year, unlike most students who rank much higher. Similarly, your Year 1 decile ranking reinforced this concern as the third-most powerful influence, again highlighting lower-than-typical early academic standing that nudged the model toward anticipating bar struggles. Compared to typical students, who often have stronger decile placements around the middle of their classes, your early and later undergraduate performance stood out as weaker relative to peers, overshadowing your LSAT strength despite your full-time commitment and solid family income bracket. This combination tipped the scales to a failure prediction high enough to deny admission, as the school prioritizes applicants with profiles showing lower bar risk. While this is disappointing, especially given your determination as a Black man pursuing law in a field where representation matters, it doesn't define your future. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate option or targeted GPA improvement, and reapply once you've strengthened those areas—many students in similar situations succeed by addressing exactly these gaps. Your LSAT already gives you a strong foundation, so building on that could shift future predictions dramatically in your favor. Keep pushing; your path to law is still very much within reach.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

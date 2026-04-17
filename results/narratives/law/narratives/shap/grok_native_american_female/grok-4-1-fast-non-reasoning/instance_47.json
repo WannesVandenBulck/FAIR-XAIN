@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 47,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:13:48.370315",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, test scores, and background details like your middle-class family income and plans to attend full-time. The most influential factor pushing toward this failure prediction was your Year 3 class rank, which fell in the second decile at your school; among students who passed the bar, the average was a much higher fifth decile, signaling to the model that later academic performance like yours often correlates with bar struggles. Next in importance was your LSAT score of 35.5, which pulled in the opposite direction—toward predicting success—since it was reasonably competitive, though still below the 37.27 average for bar passers. Your Year 1 class rank in the third decile also nudged the prediction toward failure, as it was notably lower than the sixth decile average among those who succeeded on the bar. While your undergraduate GPA of 3.20 was close to the 3.24 average for passers and your full-time status aligns with most successful students, these didn't outweigh the key concerns from your class rankings. Overall, your profile compared to typical admitted students—who tend to have stronger decile placements early and late in school—placed you in a higher-risk group for the bar. This isn't a judgment on your potential or background, but a data-driven call to protect the program's bar passage rates. To move forward, consider retaking the LSAT to boost that positive influence or strengthening your academic deciles through additional coursework or a post-bac program before reapplying. You might also seek targeted bar prep resources early, as students with similar starting points who improved these areas often succeed. We're rooting for you to address these gaps and reapply stronger.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 124,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:32:56.382362",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your background includes part-time enrollment plans, a family from the lower-middle income bracket, an undergraduate GPA of 2.30—below the typical 3.21 average—and an LSAT score of 31, which is lower than the dataset average of 36.70. Your Year 1 school decile ranking of 3 also sits notably below the average of 5.71. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 48% probability that you would fail the bar exam, tipping the scales just enough to reject your application since the school prioritizes candidates with stronger predicted odds of passing. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1, far below the typical 5.53 average, signaling to the model a significant drop in academic performance that strongly correlated with bar struggles in similar students. Counterbalancing this somewhat was your family income level, which nudged the prediction toward passing, as lower-middle backgrounds in the data often aligned with resilience and success despite challenges. Your LSAT score provided a milder positive influence too, pulling slightly away from failure compared to even lower performers in the dataset. Overall, while your part-time status is uncommon—only about 7% of students share it—it didn't outweigh the dominant signal from that low Year 3 ranking when stacked against typical full-time applicants with steadier grade trajectories. This placed you below the profile of students the model sees as reliably bar-ready, where higher deciles and scores dominate approvals. It's understandable to feel disappointed, especially given the pressures many Asian families place on academic paths like law. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your Year 3 performance through targeted study or additional coursework, and exploring programs that value part-time flexibility or offer support for students from similar income backgrounds. Gathering stronger recommendation letters highlighting your resilience could also help reframe your story in future applications. With focused improvements, you can shift these predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

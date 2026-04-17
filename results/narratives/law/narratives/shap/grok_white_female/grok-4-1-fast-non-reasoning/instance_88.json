@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 88,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:57.328380",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.50, LSAT score of 40, Year 1 and Year 3 grade deciles both at 3, middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average undergraduate GPA is 3.24, and their Year 3 deciles average around 5.91, so your profile stands out as lower in these key academic areas compared to those who succeeded. The three most influential factors in pushing your prediction toward failure were your undergraduate GPA, your Year 3 grade decile, and—working strongly in the opposite direction—your LSAT score. Your undergraduate GPA had the strongest pull toward predicting bar failure, as it falls well below the levels typical of passers. Similarly, your Year 3 decile ranking contributed notably to the failure prediction, reflecting performance in the lower third of your peers, unlike the higher averages seen in successful students. On a brighter note, your LSAT score was the top factor pulling the prediction toward success, outperforming the average of 37.27 among those who passed and helping to offset some concerns. Your middle family income aligns with about a third of bar passers, and your full-time status matches over 90% of them, so those played smaller roles here. Overall, while your LSAT shows real promise, the model weighed your GPA and later-year grades as bigger risks for bar success based on patterns from past students. To move forward, consider retaking the LSAT if possible to build on your strength there, or focus on boosting your academic deciles through targeted coursework or a post-bac program to realign with successful profiles. You might also explore bridge programs or schools with more flexible admissions that value potential like yours. With strategic steps, you can reshape this story and strengthen your path to law school.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

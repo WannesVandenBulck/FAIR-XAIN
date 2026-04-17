@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:14:42.062052",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The strongest influence pushing toward this failure prediction was your ranking in Year 3 grades at school, placing you in the bottom decile (1st out of 10), far below the typical 6th decile among those who passed the bar. This low standing signaled to the model a notable risk, as it often correlates with challenges in mastering the rigorous material needed for the exam. Next in influence, your LSAT score of 36 worked in your favor, pulling the prediction toward success since it's close to the 37.3 average for bar passers, showing solid potential there. Your Year 1 grade decile of 2 also nudged the outlook toward failure, though less strongly, as it lags behind the 6th decile average for successful students. Other aspects, like your middle family income bracket—which aligns with about a third of bar passers—and your plan for full-time study, which matches nearly all who succeed, played supporting roles but weren't the main drivers. Compared to admitted students, your undergraduate GPA of 2.8 falls short of their 3.24 average, adding to the overall concern, though it wasn't the top factor. I know this is disappointing, especially with your determination to pursue law full-time despite coming from a middle-income background. To move forward, consider retaking the LSAT to boost it further or strengthening your later grades through targeted courses or tutoring, then reapply once you've addressed these key areas—many students improve their profiles and succeed on a second try.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

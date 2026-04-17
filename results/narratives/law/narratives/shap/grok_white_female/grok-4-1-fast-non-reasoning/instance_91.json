@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 91,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:08.316545",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 45.5% chance that you would not pass—above the threshold we use for admissions decisions. This prediction stemmed primarily from your Year 3 school decile ranking of 2, which stood out as the strongest factor pushing the model toward forecasting a bar failure, especially since students who passed averaged around the 6th decile. While your undergraduate GPA of 3.50 was a significant counterbalance, strongly favoring a prediction of passing—better than the 3.24 average among successful bar takers—it wasn't quite enough to offset the concern from your later school performance. Your LSAT score of 32 also helped pull the prediction toward success, though its influence was more modest compared to those other two factors, and it fell below the 37 average for those who passed. Coming from a high family income bracket aligned you with a smaller group among passers, but it didn't sway the outcome much here. Your choice to pursue full-time studies matched the vast majority of those who succeed, yet the model weighed your decile rankings most heavily overall. In essence, the model saw your Year 3 decile as a red flag indicating potential challenges in sustaining strong performance, even with your solid undergrad record and decent LSAT. Compared to typical admitted students, who tend to have higher mid-to-late school deciles closer to 6, your profile raised more risk despite strengths like your GPA. This isn't a judgment on your potential or drive—many with similar starting points improve dramatically. To move forward, consider retaking the LSAT to boost it toward 37 or higher, and focus on building a stronger academic record in any upcoming coursework to improve your school deciles. You might also seek targeted bar prep resources early or explore programs with conditional admissions that monitor progress. With targeted steps like these, you can reshape your profile for future applications and boost your real-world bar odds. Keep pushing—you've already shown GPA strength that the model respected.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

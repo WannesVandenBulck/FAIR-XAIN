@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:07.635093",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 45.2% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.40, LSAT score of 31, Year 1 and Year 3 grade deciles of 3 and 2 respectively, middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average LSAT is 37.27 and Year 3 deciles average 5.91, giving context to how the model weighed your profile. The three most influential factors in pushing your prediction toward failure were your undergraduate GPA, Year 3 decile, and LSAT score. Your solid undergraduate GPA actually worked strongly in your favor, nudging the model toward predicting bar exam success compared to typical applicants. In contrast, your Year 3 decile had the biggest negative pull, significantly increasing the predicted risk of failure because it places you below the performance level of most who passed. Your LSAT score also leaned against you, though less forcefully, as it fell short of what the model sees in successful bar takers. Your full-time status aligns well with the 93% of passers who chose that path, and your middle income bracket is common among them too, so those didn't sway things much. Overall, while your undergrad performance stood out positively, the model saw your later decile and LSAT as stronger signals of potential bar struggles when compared to accepted students' profiles. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call to protect the program's bar passage rates. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your grades in advanced courses to improve your decile ranking, or exploring post-bac programs to build a stronger academic trajectory. Many students in similar spots have succeeded by addressing these exact areas before reapplying, and we're here to discuss options if you'd like feedback on a revised application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

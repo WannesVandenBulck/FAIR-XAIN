@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:19.384347",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 40.3% chance that you would fail it—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the three biggest influences on this outcome were your undergraduate GPA, your third-year grade decile in school, and your LSAT score. Your solid undergraduate GPA of 3.50, which is actually stronger than the 3.24 average among students who passed the bar, worked strongly in your favor, pushing the prediction toward expecting you to pass. Similarly, your LSAT score of 30 nudged things slightly toward success, though not by as much. However, your first-year decile of 2 and third-year decile of 1 stood out as the most powerful drag, signaling to the model a notable risk of bar failure since those who passed typically ranked much higher, around the 6th decile in both years. Your middle family income bracket aligns with over a third of bar passers, and opting for full-time study matches the vast majority of them too, but these didn't outweigh the concerns from your school deciles. Compared to typical accepted students, who show consistently higher class rankings alongside balanced test scores, your profile raised more red flags on sustained academic performance in law school itself. It's understandable to feel disappointed, especially with strengths like your undergrad record shining through. To move forward, consider retaking the LSAT to boost that score closer to the 37 average of passers, and if possible, strengthen your recent academic deciles through additional coursework or a post-bac program that demonstrates upward momentum. You might also explore schools with more holistic reviews or bar passage support programs tailored for full-time students from middle-income backgrounds. Gathering letters of recommendation that highlight your resilience and growth could help reframe your story in future applications. With targeted improvements, you can shift the odds in your favor for the next round.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

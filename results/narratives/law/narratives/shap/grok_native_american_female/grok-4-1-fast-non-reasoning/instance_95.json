@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 95,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:16:45.853384",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 82.9% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 academic decile ranking in your school, which placed you in the bottom group and significantly pushed the prediction toward expecting a bar exam failure, unlike the much higher mid-to-top deciles typical of students who passed. Your Year 1 decile, also in a lower bracket compared to passers' averages around the 6th decile, reinforced this concern as the second-biggest factor pulling the outlook downward. Interestingly, your undergraduate GPA stood out positively here—it was a bit below the 3.24 average for bar passers but still nudged the prediction slightly toward success, softening the overall risk assessment. While your middle family income aligns with over a third of successful students and your plan to attend full-time matches nearly all of them, other elements like your LSAT score of 27—well under the 37 average for passers—factored in but weren't the top drivers. Compared to typical accepted students, who generally ranked in stronger deciles early and late in school with higher test scores and GPAs, your profile signaled higher risk in the areas the model weighs most for bar success. This isn't a judgment on your potential or background—gender and race weren't considered at all—but a data-driven flag on academic trajectory. The good news is this prediction isn't set in stone; many students improve dramatically with targeted effort. To move forward, focus on boosting your academic deciles through stronger coursework, retaking the LSAT to aim closer to 37 or higher, and perhaps seeking mentorship or prep programs proven to lift bar passage odds. Reapplying after addressing these could shift your predicted probability favorably, opening doors to admission. You're capable of turning this around—take it as motivation to build an even stronger path ahead.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

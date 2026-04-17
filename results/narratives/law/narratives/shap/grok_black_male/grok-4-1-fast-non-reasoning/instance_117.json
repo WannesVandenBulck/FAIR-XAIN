@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 117,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:17.555404",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile, including your LSAT score of 32.50, which is below the average of 36.70, your Year 3 school decile ranking of 2 (well below the average of 5.53), middle family income bracket, and full-time student status, which is common among applicants. It predicted a 47.9% probability that you would fail the bar exam on your first attempt, tipping the scales just enough to result in your application's rejection, as the school prioritizes candidates with stronger projected odds of passing. Among all the factors considered, three stood out as the most influential in shaping this prediction: your LSAT score, Year 3 decile ranking, and undergraduate GPA. Your LSAT score had the strongest pull toward a favorable outcome, as its value worked significantly in your favor by suggesting a better-than-expected chance of passing despite being below average. On the flip side, your low Year 3 decile ranking was the top factor pushing the prediction toward failure, indicating that your relative performance in school that year raised concerns about your readiness for the bar. Your undergraduate GPA came in close behind the LSAT as a positive influence, helping to counterbalance some risks by showing consistent academic strength above the norm. Compared to typical students who pass the bar, your profile aligns well on GPA and full-time status but lags on LSAT and especially Year 3 grades, where stronger performers usually rank in higher deciles. This close 47.9% failure probability means you're not far off from a passing prediction, highlighting how small improvements could shift the outcome. To move forward, consider retaking the LSAT to boost your score closer to or above average, as it carries major weight, and reflect on strategies to improve your school rankings in later years if reapplying. Strengthening these areas, perhaps through targeted prep courses or academic advising tailored to your background, could position you much more competitively next time. Many students in similar situations have succeeded by addressing these key gaps, and with your solid GPA foundation, you have a real path ahead.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

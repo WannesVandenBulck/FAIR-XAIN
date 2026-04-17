@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:49:00.852052",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and personal circumstances to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.40 (below the typical 3.21 average), LSAT score of 27 (well under the 36.70 average), Year 1 decile of 2 and Year 3 decile of 3 (both lower than school averages around 5-6), and part-time enrollment status—and predicted a 56% chance you would fail the bar exam on your first try. This probability tipped the scales just over the threshold, leading to your application's rejection as the school prioritizes admitting students likely to succeed on the bar. The three biggest factors driving this prediction were your planned part-time status, your undergraduate GPA, and your family income bracket. Most influential was your choice to attend part-time, which only 7.3% of students do compared to 92.7% full-time; this pushed the model strongly toward predicting failure, likely because part-time students in the data often faced greater challenges balancing work and studies. Your undergraduate GPA reinforced this concern, as its lower value compared to peers further increased the predicted risk of failing the bar. On a more positive note, your upper-middle-class family income worked in your favor, nudging the prediction toward success by suggesting stronger support resources than many applicants have. Overall, your academic metrics and part-time plans stood out as weaker than typical successful students, outweighing the strengths in your background. While this decision feels tough, especially given the barriers Black men like yourself can face in competitive fields like law, it's not the end of the road. To strengthen future applications, consider retaking the LSAT for a higher score, boosting your GPA through post-bac courses if possible, or exploring full-time programs to align better with proven success patterns. You might also seek targeted bar prep resources or mentorship from alumni who share your background to build a stronger case next time. Keep pushing forward—many have turned similar setbacks into bar-passing triumphs.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

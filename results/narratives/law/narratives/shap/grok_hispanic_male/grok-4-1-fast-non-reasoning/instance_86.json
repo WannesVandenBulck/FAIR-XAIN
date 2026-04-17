@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:15.221964",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.60, an LSAT score of 31, lower-middle family income, and plans to attend full-time, along with your early academic deciles from school. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 66.8% chance that you would fail it on your first try—high enough to trigger an automatic rejection of your application, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your background that stood out as the strongest influences. Most critically, your Year 3 school decile ranking of 1—well below the typical student's 5.5-ish level—pushed the model heavily toward seeing you as higher risk for bar failure, suggesting challenges in sustaining performance later in your education. Your Year 1 decile of 1, also much lower than average, reinforced that concern, acting as the second-biggest factor tilting the prediction against you. On a brighter note, your undergraduate GPA of 3.60, which exceeds the average of 3.21, worked in your favor as the third-most influential element, nudging the model toward believing you could pass. Compared to typical students, your early deciles put you in the bottom tier, while your GPA is a strength many lack, but those low rankings overshadowed it in the model's eyes. Your LSAT of 31, below the usual 36.7, and family income played supporting roles but weren't the main drivers here. This isn't a judgment on your potential as a Hispanic man from a lower-middle background—many in similar situations succeed with targeted effort. To move forward, consider retaking the LSAT to boost it closer to average, seeking academic coaching to improve your decile rankings in future studies, and gathering strong letters highlighting your GPA resilience. Reapply after addressing these, perhaps to schools with holistic reviews that weigh your full story. You've already shown undergraduate strength; building on that could flip the script next time. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

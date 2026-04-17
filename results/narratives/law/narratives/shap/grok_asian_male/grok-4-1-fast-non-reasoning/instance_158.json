@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 158,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:01.615407",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a Year 1 school decile of 2, a Year 3 decile of 2, an undergraduate GPA of 3.10, an LSAT score of 28, lower-middle family income, and plans to attend full-time. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 63% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This prediction hinges on just a few key aspects of your background that stood out as the strongest influences. The most decisive factor pushing toward a failure prediction was your Year 3 school decile ranking of 2, well below the typical student's 5.5-ish average, signaling to the model relatively weaker performance in later undergrad years compared to peers who passed the bar. Next in influence, your undergraduate GPA of 3.10 worked in your favor somewhat, as it pulled the prediction slightly toward passing since it's close to the average of 3.21 among successful students. Your Year 1 decile of 2, also below the average of about 5.7, added another nudge toward the failure side, reinforcing concerns about early academic standing relative to others. While your LSAT score of 28 is notably lower than the typical 37 for bar passers, and your family income bracket is modest, these played smaller roles here. Overall, your deciles suggest you're starting from a tougher spot academically than most admitted students who go on to pass, even with full-time dedication ahead. To turn this around, consider retaking the LSAT to boost it toward 35 or higher, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong recommendation letters highlighting your resilience as an Asian male navigating these challenges. Many students in similar positions have improved by targeting these gaps—reapplying after targeted prep could shift your predicted odds dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

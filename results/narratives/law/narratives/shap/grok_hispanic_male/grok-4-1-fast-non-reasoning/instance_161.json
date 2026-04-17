@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 161,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:01.176766",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.60—above the typical 3.21 average—and a strong LSAT score of 39, which exceeds the usual 36.70 mark, along with full-time enrollment plans that align with most applicants. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 63.8% chance you'll fail the bar on your first try, tipping the scales toward rejection to minimize the school's risk of low pass rates. This prediction wasn't driven by your standout test scores or GPA, which actually helped your case somewhat, but by three key factors that pulled strongly in the opposite direction. The most influential was your family's middle-income bracket, which the model sees as a notable hurdle compared to higher-earning backgrounds that often correlate with bar success, pushing the prediction firmly toward failure risk. Next in impact was your Year 1 school decile ranking of 5—below the average 5.71—which signaled early academic struggles relative to peers and further elevated the failure odds. Your LSAT, while above average, had the least sway among these but still nudged slightly toward higher risk in this context. Overall, your profile stacks up well against typical students in metrics like GPA and LSAT, but these family and early-performance gaps loomed largest, outweighing your strengths in the model's eyes. It's understandable to feel frustrated, especially with your personal drive as a Hispanic applicant breaking barriers in a competitive field. To move forward, consider retaking the LSAT for an even higher score, seeking targeted tutoring to boost early-grade equivalents if possible, or exploring programs with strong bar prep support for middle-income students like yours. Building a narrative around financial aid scholarships or community leadership could also strengthen future applications, showing resilience beyond these numbers. Many students in similar spots have succeeded by addressing these exact predictors head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 411,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:56:37.505549",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on students' academic and background profiles, estimated a 42% chance that you would fail the bar exam. This threshold triggered the rejection to help the university maintain high pass rates and support incoming students' success. The model's decision hinged primarily on three key factors from your profile: your Year 3 school decile ranking, your undergraduate GPA, and your LSAT score. Most influential was your Year 3 decile of 1, which is notably lower than the typical student's rank of around the 5th or 6th decile—this stood out as the strongest signal pushing the prediction toward bar failure, suggesting challenges in sustaining strong performance later in your studies. Counterbalancing that somewhat was your solid undergraduate GPA of 3.50, which exceeds the average of 3.21 and pulled the prediction in the direction of passing, showing your capability in prior academics. Your LSAT score of 34, while respectable, fell short of the dataset average of 36.7 and also nudged the outlook slightly toward failure compared to peers who scored higher. As a Black male from an upper-middle-income family planning full-time studies—a common path for over 90% of students—these academic metrics carried the most weight over your background in this case. Overall, your profile compares to typical students by having strengths in undergrad performance and family support, but the dip in later school rankings raised red flags about bar readiness. This isn't a judgment on your potential or resilience; it's the model highlighting patterns from past students where similar trajectories correlated with bar struggles. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your Year 3 performance through targeted coursework or tutoring if possible, and exploring programs with bar prep support or alternative admissions paths like conditional acceptance. Gathering letters of recommendation that speak to your growth and determination as a Black male pursuing law could also help reframe your story in future applications. With focused improvements, you can shift these predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

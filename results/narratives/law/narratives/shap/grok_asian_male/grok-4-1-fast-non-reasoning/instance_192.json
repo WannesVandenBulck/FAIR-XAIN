@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 192,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:37:15.501944",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who went on to take the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.50 (below the typical 3.21 average), LSAT score of 29 (well under the 36.70 average), middle family income bracket, and full-time student status—and predicted a 60% chance that you would fail the bar exam on your first attempt. This high predicted failure risk led to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your Year 1 school decile ranking of 1st, which is much lower than the average 6th decile and signaled early academic struggles to the model. Next in importance was your Year 3 decile of 2nd (again below the typical 6th decile), reinforcing concerns about consistent performance throughout your studies. While your plan to attend full-time—which is the norm for over 90% of students—actually nudged the prediction slightly toward success, it wasn't enough to offset those lower grade deciles. Compared to typical admitted students, who tend to rank in higher deciles and show stronger early academic momentum, your profile stood out as higher risk for bar passage. This doesn't reflect your full potential or personal drive, but rather how these key academic signals compared to patterns in past bar-takers. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking mentorship from Asian alumni networks who've navigated similar paths to law school success. Building a clearer track record of academic improvement could shift future predictions in your favor. With targeted preparation, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

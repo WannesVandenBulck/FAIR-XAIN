@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 19,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:26.405920",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like family income and study plans. The model estimated a 46.3% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting students predicted to succeed strongly on that critical test. Your profile includes a solid LSAT score of 36, an undergraduate GPA of 2.40, Year 1 and Year 3 school deciles both at 2, middle family income, and plans to study full-time—common for most applicants, where full-time enrollment is the norm at 92.7%. The three biggest factors driving this prediction were, in order of influence: your LSAT score, your Year 3 decile ranking, and your Year 1 decile ranking. Your LSAT score was the strongest positive force, pushing the prediction toward passing since it's close to the typical 36.7 average and signals good potential. However, your Year 3 decile of 2—well below the average of 5.53—had the most significant negative pull, strongly indicating to the model that your later academic performance might not translate to bar success. Your Year 1 decile of 2, also below the 5.71 average, added further concern by reinforcing a pattern of lower rankings compared to peers. Overall, while your LSAT helped balance things, the lower deciles outweighed it, making your profile riskier than typical students who often rank higher in school deciles and show stronger upward trends. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted GPA improvement or additional test prep that aligns with bar demands. You might also explore schools with more holistic reviews or appeal with evidence of recent academic gains. Many applicants in similar situations succeed by addressing these exact gaps—your LSAT strength gives you a solid foundation to build on. Keep pushing; persistence often turns predictions around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

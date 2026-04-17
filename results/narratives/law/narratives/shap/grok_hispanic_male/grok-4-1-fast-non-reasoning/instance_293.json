@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 293,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:31.055770",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes a Year 1 school decile of 2, which is notably lower than the typical student's 5.7, a Year 3 decile of 4 compared to the average 5.5, a middle family income bracket, an LSAT score of 28.5 well below the usual 36.7, and an undergraduate GPA of 2.7 versus the average 3.2, along with plans to attend full-time like most applicants. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing at 41%, a risk high enough to lead to your application's rejection as the school prioritizes candidates likely to pass on their first try. This decision hinged on just a few key factors from your profile that most strongly shaped the prediction. The standout positive note was your Year 3 academic decile, which placed you solidly in the middle of your peers and significantly pushed the model toward seeing you as more likely to pass the bar, acting as your strongest asset in the evaluation. Your undergraduate GPA also helped in a similar way, offering a moderate boost by signaling decent prior performance compared to lower scorers. On the flip side, your lower Year 1 decile stood out as the main drag, nudging the prediction toward failure because it suggested an early struggle that the model associates with higher bar risks, even if you improved later. Overall, while your later academic gains provided some counterbalance, they weren't quite enough to offset that initial weaker standing against typical admitted students who often rank higher from the start. This isn't a judgment on your potential as a Hispanic man with a middle-income background—many in similar situations succeed with targeted effort. To move forward, consider retaking the LSAT to aim closer to 35 or above, bolstering your GPA through post-bac courses if possible, and highlighting any upward trends in a reapplication essay. Building a stronger early academic record in future endeavors could flip this script, and schools value persistence, especially from underrepresented applicants like you. With focused improvements, your Year 3 momentum shows you're capable of turning the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

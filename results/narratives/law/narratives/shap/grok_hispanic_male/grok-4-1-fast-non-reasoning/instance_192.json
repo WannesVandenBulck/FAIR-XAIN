@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 192,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:58.241722",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.50, an LSAT score of 29, middle-family income background, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 60% chance that you would fail it on your first try—above the threshold that flags higher-risk applicants, leading directly to the rejection of your application. This prediction stems from weighing factors like your early academic performance, later grades, and enrollment plans against patterns seen in past students. The most influential factor pushing toward this failure prediction was your Year 1 school decile ranking of 1, which is much lower than the typical student's rank of around the 6th decile and signaled weaker early performance compared to peers who passed the bar. Next in importance, your Year 3 decile of 2—again well below the average 6th decile—reinforced concerns about consistent academic strength, as higher deciles strongly correlate with bar success in the data. Your choice to attend full-time actually worked in your favor, pulling the prediction slightly toward passing since full-time students (over 90% of the dataset) tend to outperform part-timers on the bar exam. Overall, your profile stands out as lower than averages in key academic metrics like undergraduate GPA (yours at 2.50 vs. 3.21 typical) and LSAT (29 vs. 37 average), placing you below many admitted students who showed stronger trajectories. While your middle-income background aligns with the norm, it didn't offset the academic flags. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your undergraduate record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience as a Hispanic student overcoming early hurdles. Reapplying after addressing these could shift your predicted odds significantly, as even modest improvements in decile-like rankings have flipped outcomes for similar applicants. You're clearly determined—use this feedback to build a stronger case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

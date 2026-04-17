@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 82,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:57.760718",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 63.4% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your position in the lower deciles for grades in Year 3 and Year 1 at your school—ranking 1st in Year 3 and 2nd in Year 1, compared to averages around 6th for those who passed the bar. These early and later undergraduate performance indicators stood out as the strongest factors pushing the model toward forecasting failure, as they signal potential challenges in handling the rigorous demands of legal studies and bar preparation. In contrast, your upper-middle family income background worked in your favor, aligning well with the majority of successful bar takers and slightly nudging the prediction toward success. Your LSAT score of 28.5 and undergraduate GPA of 2.6, while below the averages of 37.27 and 3.24 for those who passed, played supporting roles but weren't the top influencers here. Full-time enrollment plans matched the norm for passers, offering no major push either way. Overall, your profile compared to typical accepted students—who often enter higher grade deciles and show stronger pre-law metrics—fell short in those key academic rankings, which carried the most weight in this decision. It's understandable to feel disappointed, especially with your full-time commitment and solid family support suggesting determination. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on strategies to improve your GPA trajectory, perhaps through targeted coursework or academic advising. Building a stronger narrative around overcoming early grade challenges in a reapplication could also highlight your resilience. Many students in similar positions have succeeded by addressing these gaps—reach out to admissions counselors for personalized feedback on bolstering your profile. With targeted improvements, you can shift the odds in your favor for future opportunities.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

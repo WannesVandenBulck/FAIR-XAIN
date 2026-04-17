@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 381,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:12.546477",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details from past students. The model estimated a 68% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. The primary reason for this decision traces back to your Year 3 school grades, where you ranked in the 2nd decile—far below the typical 5th or 6th decile for most students—which strongly signaled to the model a heightened risk of bar failure. This was the single biggest factor pushing the prediction toward failure, as weaker performance in later undergraduate years often correlates with struggles on the intense bar exam. Next in influence was your LSAT score of 40, which is actually above the average of about 37 and worked in your favor, pulling the prediction somewhat toward passing by showing solid reasoning skills. Your Year 1 grades, landing in the 5th decile (close to the average of 5.7), had a milder but still negative effect, nudging the odds slightly toward failure compared to students who started stronger. Other details like your middle family income bracket, 3.0 undergraduate GPA (a bit under the 3.2 average), and full-time student status didn't sway things as much, aligning with the norm for most applicants. Overall, your profile stacks up as solid in some areas like the LSAT but undermined by those decile rankings, especially in Year 3, putting you in a riskier category than the typical admitted student who maintains higher consistent performance. While this stings, especially with your strong LSAT showing potential, it highlights how the model prioritizes late-stage academic momentum for bar success. To move forward, consider retaking courses or targeted tutoring to boost your later grades, perhaps aiming for summer programs that rebuild your decile standing. You might also explore schools with holistic reviews that weigh your Asian background and full-time commitment more flexibly, or gather letters emphasizing your resilience. With focused improvements, you can shift this prediction and strengthen future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

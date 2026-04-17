@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:30.238409",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates whether applicants are likely to pass the bar exam on their first try, estimated a 77% chance that you would not pass. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger odds of bar success to maintain high pass rates. The model's decision hinged most heavily on your academic decile rankings from Years 1 and 3, both at the bottom of the scale, far below the top-half positions typical for students who passed the bar. These low rankings were the strongest factors pushing the prediction toward failure, signaling to the model that your early undergraduate performance didn't demonstrate the consistent academic strength seen in successful bar takers. Your LSAT score of 24 also played a major role, as it significantly pulled the prediction in the unfavorable direction compared to the much higher averages around 37 for those who passed. While other aspects, like your undergraduate GPA of 2.90 or your low family income bracket—which is uncommon among bar passers—factored in, they weren't the top drivers here. Being full-time is actually in line with most accepted students, but it couldn't offset the key concerns. Overall, your profile stood out as riskier than typical admitted students, whose stronger early grades and test scores align with bar success patterns. This isn't a judgment on your potential or background, but a data-driven assessment to help the school make responsible choices. To move forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and growth. Reapplying after addressing these areas could significantly improve your odds, as the model responds well to upward trends in academic indicators. Many students in similar situations have succeeded by targeting these exact improvements.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

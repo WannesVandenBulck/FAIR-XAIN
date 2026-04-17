@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 99,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:08.990157",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 49.7% chance that you would not pass—crossing the threshold we use for admission decisions. This prediction draws from your academic record, like your undergraduate GPA of 3.20 and LSAT score of 37, alongside factors such as your Year 1 and Year 3 grade deciles, family income level, and planned full-time enrollment. While your LSAT is very close to the average for students who passed (37.27), and your undergraduate GPA is nearly on par (3.24 average), other elements pulled the prediction toward higher risk of failure. The most influential factor was your Year 3 decile ranking of 2, which is well below the average of about 6 for those who passed, strongly signaling to the model a potential struggle on the bar exam. This pushed the prediction notably toward failure, as lower deciles in later years often correlate with challenges in sustaining performance under pressure. On a more positive note, your undergraduate GPA had a meaningful counterbalancing effect, nudging the prediction toward success because it's solidly competitive with passers' averages. Similarly, your LSAT score contributed favorably, helping offset some concerns since it's right in line with what successful students typically score. Your high family income bracket, though less common among bar passers (only about 8.5% share this), and your full-time status (typical for 93% of passers) played supportive but smaller roles compared to these top academic drivers. Overall, your profile stacks up reasonably against admitted students in some areas, like test scores and enrollment plans, but the dip in your later-year school ranking stood out as the biggest red flag when weighed against those who succeeded. To move forward, consider retaking courses or seeking targeted tutoring to boost your decile rankings, perhaps exploring part-time options if that fits your circumstances better, and reapplying after strengthening these key academic signals—the model responds well to demonstrated improvement in grades over time. Many students in similar positions have turned things around with focused effort, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

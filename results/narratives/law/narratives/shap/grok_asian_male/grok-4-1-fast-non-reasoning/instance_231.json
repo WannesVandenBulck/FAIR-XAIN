@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 231,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:44.841680",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and a competitive LSAT score of 37, slightly edging out the average of 36.70, you've built an impressive academic foundation that many law school hopefuls would envy. Your family falls into the middle income bracket, and you've indicated plans to attend part-time, which is less common as only about 7% of students choose that path compared to over 92% full-time. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 55.2% chance that you would fail the bar on your first attempt—a threshold that led to your application's rejection to protect the school's outcomes. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, far below the average of around 5.5, signaling to the model that your later undergraduate performance placed you in the lower tier relative to peers, which strongly correlates with bar struggles. Counterbalancing this somewhat was your strong undergraduate GPA, which pulled the prediction toward success by showing consistent excellence in your degree program. Your LSAT score also worked in your favor, nudging the odds toward passing due to its above-average strength, a key indicator of analytical readiness for law. Compared to typical students who pass the bar, your lower Year 3 decile stands out as the biggest deviation, while your GPA and LSAT align more closely with successful profiles. This combination tipped the scales just enough for the model to flag higher risk, even with your other strengths. To move forward, consider retaking courses or pursuing targeted prep to boost your later academic deciles, as schools value upward trends. You might also explore full-time options if feasible, given their stronger track record in the data. Reapplying after addressing that Year 3 performance could shift your prediction dramatically in your favor. Keep leveraging your GPA and LSAT advantages—they're real assets for an Asian male applicant like you breaking into this competitive field.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

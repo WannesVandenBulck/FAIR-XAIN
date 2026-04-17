@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 259,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:24.510815",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.50, Year 1 school decile of 5, Year 3 decile of 6, LSAT score of 36, middle family income bracket, and full-time student status—and predicted a 60% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing the prediction toward failure was your undergraduate GPA, which is notably lower than the typical 3.21 average and signaled to the model a weaker academic foundation compared to successful bar takers. Next in importance, your Year 3 school decile of 6 worked in your favor, performing slightly better than the average of 5.53 and suggesting some improvement in your school rankings over time. Your middle family income bracket also nudged the prediction toward failure, as it falls short of the higher brackets more common among students who pass the exam. While your LSAT score of 36 is close to the 36.7 average and your full-time status aligns with 93% of students, these didn't outweigh the top concerns. Overall, your profile stands out from typical admitted students, who tend to have stronger GPAs and higher socioeconomic supports that correlate with bar success. This isn't a judgment on your potential as an Asian male pursuing law—many in similar backgrounds overcome these odds—but the model weighs these patterns heavily. To move forward, consider retaking undergraduate-level courses or a post-baccalaureate program to boost your GPA, as even small improvements there could shift future predictions dramatically. You might also target schools with holistic reviews that value your LSAT and decile progress more, or gain relevant legal experience to strengthen your next application. With targeted steps, you can reapply stronger and turn this into a stepping stone.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

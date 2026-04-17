@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 363,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:07.010245",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at their academic records, family backgrounds, and other details to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.70, LSAT score of 44, Year 1 and Year 3 school deciles both at 2, lower-middle family income bracket, and full-time student status—and predicted a 48% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to pass the bar and succeed in their program. Among all the factors considered, three stood out as having the strongest influence on this prediction for you specifically. Your LSAT score was the most impactful, working strongly in your favor by pushing the model's assessment toward expecting you to pass, especially since your 44 is well above the typical score of around 37. However, your Year 3 decile rank of 2—meaning you placed in the lower part of your school's performance distribution, compared to the average of about 5.5—had a notable countereffect, nudging the prediction toward failure risk. Similarly, your Year 1 decile of 2, also below the average of roughly 5.7, contributed to raising that risk, highlighting early academic challenges relative to peers. While your undergraduate GPA of 2.70 is below the typical 3.21 and your family income is lower-middle, these played lesser roles here compared to your decile ranks and standout LSAT. Overall, your profile shows strengths like that impressive LSAT that align with successful Asian male applicants who've passed the bar, but the lower decile placements signal hurdles that tipped the balance for this model. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted academic support or a post-baccalaureate option, and reapply after demonstrating improved performance—many students in similar situations have turned things around by addressing these exact gaps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

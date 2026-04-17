@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 183,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:25.312445",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shown a solid undergraduate GPA of 3.60, which stands out above the typical 3.21 average among students in our dataset, along with a low family income background and plans to attend full-time. Your Year 1 school decile ranking of 2 and Year 3 ranking of 1 are on the lower side compared to averages around 5-6, while your LSAT score of 26 falls well below the usual 36.7. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 52% chance that you would fail it—tipping just over the threshold that led to your application's rejection. This prediction hinges on a few key factors from your profile that had the strongest sway in the model's thinking. The most influential was your Year 3 decile ranking, as being in the bottom decile there strongly pushed the model toward seeing a higher risk of bar failure, outweighing other positives. Close behind, your strong undergraduate GPA worked significantly in your favor, nudging the prediction toward success and passing the bar. Your low family income also helped pull things in a positive direction, suggesting resilience that the model associates with better odds. These top three elements—your later-year school performance raising concerns, balanced against your college grades and economic background—ultimately drove the close-call decision against admission. While full-time status is common and didn't sway things much, your lower early deciles and LSAT added subtle pressure toward the failure prediction. To move forward, consider retaking the LSAT to boost it closer to average levels, strengthening your later high school or undergrad performance through additional coursework or certifications, and reapplying next cycle with an updated profile that highlights any bar prep or legal internships. Many students in similar situations have succeeded by addressing these gaps, and your above-average GPA gives you a strong foundation to build on. Keep pushing—you've already overcome challenges with your background that the model recognizes as a plus.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

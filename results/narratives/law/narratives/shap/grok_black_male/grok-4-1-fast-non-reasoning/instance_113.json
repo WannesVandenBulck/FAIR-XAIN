@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 113,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:01.611811",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows some solid strengths, like your undergraduate GPA of 3.50—which is above the typical 3.21 average—and an LSAT score of 35.50, close to the usual 36.70 benchmark. However, the university's admission model, which predicts first-time bar exam success based on past student data, estimated a 57.6% chance that you would fail the bar on your first attempt, tipping the scales toward rejection to minimize risks for their program. The most influential factor pushing the prediction toward failure was your Year 3 school decile ranking of 2, well below the average of 5.53, signaling to the model that your later academic performance placed you in the lower tier compared to peers who typically pass the bar. This stood out as the top driver because it had the strongest pull toward expecting a fail. Next in importance, your LSAT score worked in your favor, pulling the prediction toward success since it was competitively close to what successful students usually score. Similarly, your above-average undergraduate GPA provided a positive boost, nudging the model toward seeing you as more likely to pass. While other elements like your full-time status—common among 92.7% of students—played a neutral role, these top three shaped the overall cautious outlook. Your situation compares to typical students by having stronger early college grades but weaker high school momentum in later years, which the model weighs heavily for bar outcomes. This isn't a judgment on your potential as a Black man from a supportive background; it's the algorithm highlighting patterns from historical data. To move forward, consider retaking the LSAT to push it higher or strengthening recent academic showings through additional coursework or a post-bac program to realign with top performers. You could also seek targeted bar prep resources early or apply to schools with holistic reviews that value your unique story. With focused improvements, reapplying next cycle could shift that probability in your favor. Keep pushing—you've already shown resilience in exceeding UGPA norms.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

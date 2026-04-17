@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:35.706807",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 40.9% chance that you would fail it. This threshold triggered the rejection to help the university select applicants most likely to succeed in their legal careers. The model's decision hinged primarily on three key aspects of your profile: your LSAT score, your Year 3 grade decile, and your Year 1 grade decile, ranked in that order of influence. Your strong LSAT score of 40—well above the average of about 37 for students who passed the bar—played the biggest role in pushing the prediction toward success, showing the model sees real potential there. However, your Year 3 decile of 2, compared to the typical 5.9 for bar passers, pulled noticeably in the opposite direction, signaling to the model a dip in later academic performance that raises concerns about bar readiness. Similarly, your Year 1 decile of 1, far below the average 6 for those who passed, contributed to the risk assessment by highlighting an early struggle with grades. While your undergraduate GPA of 3.10 is close to the 3.24 average for successful students, and your upper-middle family income aligns with many who passed, these didn't outweigh the grade decile impacts in the model's eyes. Being full-time like over 93% of bar passers was a neutral plus, but it couldn't offset the concerns. Overall, your profile stacks up competitively in some areas like LSAT and income against accepted students, but the lower grade deciles set you apart from the stronger academic trajectories that typically lead to approval. This isn't a judgment on your potential or background—it's a data-driven call focused on bar exam patterns. To move forward, consider retaking courses or building your GPA in targeted ways to improve those deciles, perhaps through post-bac programs or additional LSAT prep to amplify your strengths, then reapply with updated credentials. Many students in similar spots have turned things around by addressing early academic hurdles head-on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

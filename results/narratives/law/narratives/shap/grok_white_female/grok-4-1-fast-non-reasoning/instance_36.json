@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:53.524692",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic profile. This high predicted risk of failure automatically triggers a rejection to ensure the program's overall success rates. The model's decision hinged most strongly on your Year 3 grade decile, which ranked quite low at 2 compared to the typical 6 seen among students who go on to pass the bar— this stood out as the biggest factor pushing the prediction toward failure, suggesting challenges in maintaining strong performance later in your studies. Your LSAT score of 35 played a supportive role, nudging the outlook slightly toward passing since it was reasonably competitive, though still below the average of 37 for successful bar takers. Your upper-middle family income bracket had a modest counterbalancing effect too, aligning with the majority of passers who come from similar backgrounds, but it wasn't enough to offset the primary concern. Overall, these elements combined to paint a riskier picture than the profiles of accepted students, who generally show stronger late-stage academic deciles alongside solid test scores. While your full-time enrollment plans match what most admitted students pursue, and your undergraduate GPA of 2.8 trails the 3.24 average for passers, it was your Year 3 performance that tipped the scales most decisively. This isn't a judgment on your potential or background—it's a data-driven call focused purely on bar passage patterns. To move forward, consider retaking the LSAT to boost your score or strengthening your recent academic record through additional coursework or a post-bac program, which could reshape your profile for future applications. Many students in similar situations improve key metrics and succeed on their next try. We encourage you to seek feedback from advisors and reapply once you've addressed these standout areas. Your determination as a full-time aspiring lawyer positions you well for that path ahead.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

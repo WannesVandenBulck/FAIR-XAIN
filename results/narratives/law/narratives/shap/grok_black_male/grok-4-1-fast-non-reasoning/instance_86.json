@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:20.088169",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application stood out in some ways, but the admissions model focused on predicting your chances of passing the bar exam on the first try. The model assessed your overall profile and estimated a 66.8% probability that you would fail the bar exam, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. The primary drivers behind this prediction were your academic rankings from earlier years in school, which carried the most weight in the model's decision. Specifically, your Year 3 decile ranking placed you in the bottom 10% of your peers, far below the average around the middle of the pack, and this strongly pushed the prediction toward expecting a bar failure. Similarly, your Year 1 decile was also in the lowest 10% compared to the typical mid-range performance, reinforcing that concern as the second-biggest influence. On a brighter note, your undergraduate GPA actually worked in your favor, pulling the prediction somewhat toward success since it exceeded what the model sees in most applicants. While factors like your lower-middle family income, LSAT score of 31 (below the 36.7 average), and full-time student status played roles, they weren't the top influencers here. Compared to typical students who get approved, your early academic deciles are notably weaker, which overshadowed strengths like your GPA in this high-stakes forecast. This doesn't reflect your full potential or personal drive, especially given the unique challenges many Black students like yourself face in competitive academic environments. To move forward, consider retaking the LSAT to boost your score or enrolling in a program to improve your decile rankings through stronger performance in advanced courses. Building a narrative around your resilience and any upward trends in your record could also help in reapplying or appealing to schools with more holistic reviews. With targeted improvements, you can shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

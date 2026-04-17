@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 262,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:47:29.135952",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your Year 1 and Year 3 school decile rankings both at the bottom (1st decile, well below the typical 5th or 6th), an undergraduate GPA of 3.00 (slightly under the average 3.21), an LSAT score of 30 (compared to the usual 36.7), middle family income, and full-time student status—and predicted a 54% chance you'll fail the bar exam on your first try. This tipped the scales just over the threshold, leading to your application's rejection as the school prioritizes admitting those predicted to pass and succeed. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, as being in the lowest group signals weaker performance relative to peers, which strongly concerned the model. Next, your undergraduate GPA played a key role but in a positive way, pulling the prediction toward passing since your 3.00, though below average, still showed some solid academic foundation. Your LSAT score had a milder positive influence too, nudging things toward success despite being lower than most applicants'. Compared to typical students who get approved—often with mid-level deciles, higher GPAs around 3.2 or above, and LSATs in the mid-30s—your early and later school rankings stood out as the biggest drags, outweighing the helpful aspects of your GPA and test score. It's tough to hear, especially knowing the extra hurdles many Black men face in competitive fields like law, but this decision hinges on those patterns from past bar takers. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong recommendation letters that highlight your resilience and potential. Reapplying after addressing these could shift your predicted odds significantly, opening doors at schools that value your unique perspective. Many in similar situations have turned things around with targeted improvements— you've got the drive, now focus on these steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:18.347624",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 45.2% chance that you would fail it. This threshold triggered the rejection, as the school prioritizes admitting students with the strongest projected odds of bar success to maintain high pass rates. The model's decision hinged on a few key aspects of your academic profile, with your undergraduate GPA emerging as the most influential factor in a positive way—it stood out strongly as a sign of your capability, actually pushing the prediction toward expecting you to pass, especially since your 3.40 GPA exceeds the 3.24 average among students who went on to pass the bar. Next in influence was your Year 3 grade decile of 2, which worked against you by signaling weaker performance relative to peers and pulling the prediction toward failure, far below the 5.91 average decile for bar passers. Your LSAT score of 31 also played a notable role, offering some reassurance by nudging the outlook toward passing, though it fell short of the 37.27 average seen in successful students. While your middle family income aligns with over a third of bar passers and your choice of full-time study matches nearly all of them, these didn't sway the balance enough to offset the concerns. Compared to typical accepted students, your profile shows strengths in undergrad performance but gaps in later school rankings and standardized testing that mirrored patterns in those who struggled on the bar. This isn't a judgment on your potential or background—it's a data-driven forecast based on historical trends. To move forward, consider retaking the LSAT to boost that score closer to the passing average, as it could significantly shift future predictions in your favor. Strengthening your recent academic decile through additional coursework or a post-bac program might also help demonstrate upward momentum. Reach out to admissions advisors for personalized feedback, and explore schools with holistic reviews that weigh your full-time commitment and solid undergrad record more heavily. With targeted improvements, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

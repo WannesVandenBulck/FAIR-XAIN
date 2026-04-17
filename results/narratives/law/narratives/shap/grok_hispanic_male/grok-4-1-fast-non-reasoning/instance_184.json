@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 184,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:29.139347",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong family background from an upper-middle-class home, your undergraduate GPA of 3.10, an LSAT score of 26, and your plans to attend full-time, along with your school decile rankings of 1st in both Year 1 and Year 3—impressive showings that put you at the top of your class academically. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 78% chance that you would fail it, leading to the rejection of your application. This high predicted risk means the school sees too much uncertainty in your long-term success on the bar, even with your other strengths. The decision hinged most on your Year 3 school decile ranking, which strongly pushed the prediction toward failure because, despite being a top performer in your school, it signaled potential challenges in broader legal preparation compared to peers who ranked higher across larger pools. Next in influence was your undergraduate GPA, which worked in your favor by nudging the prediction slightly toward passing, as your 3.10 is close to the typical 3.21 average and shows solid college performance. Your LSAT score ranked third in impact and pulled toward a failure prediction, since your 26 is well below the dataset average of about 37, highlighting a key area where you differ from students who typically pass the bar. Overall, these top three factors—your Year 3 deciles outweighing the positives from GPA and the drag from LSAT—tipped the scales against you, even as a full-time student from a supportive background like yours. Many admitted students have stronger standardized test profiles that align more closely with bar success patterns. To move forward, consider retaking the LSAT to boost your score closer to the average, as that could significantly shift future predictions in your favor. You might also seek targeted prep for bar-like reasoning skills, building on your proven class rankings. Exploring bridge programs or community college pathways could provide data to demonstrate growth. With your determination as a Hispanic male breaking barriers, persistence here can rewrite this story—reach out to admissions for feedback and reapply stronger.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

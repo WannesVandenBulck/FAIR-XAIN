@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 423,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:32.186342",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background brings unique strengths and challenges that the admissions model carefully considered alongside your academic record. The model predicts there's a 48.3% chance you would fail the bar exam on your first try, which is high enough that the university decided to reject your application to prioritize students with stronger projected outcomes. This prediction stems from a close look at key parts of your profile, like your Year 3 school decile ranking of 2—well below the typical 5.5 average—which stood out as the biggest factor pushing the model toward expecting failure, as it signals lower performance relative to peers. Your LSAT score of 33, compared to the average of about 37, also played a major role but in a positive way, pulling the prediction back toward success and showing your potential despite other hurdles. Similarly, your low family income bracket worked in your favor, as the model sees students from similar backgrounds often overcoming odds to pass the bar. These three elements—your Year 3 grades being the top concern, offset somewhat by your LSAT and family circumstances—were the most influential in tipping the scales to rejection. Your undergraduate GPA of 2.2 (below the 3.2 average) and Year 1 decile of 2 contributed too, though less decisively, while planning full-time study aligned with the norm for 93% of students. Overall, your profile compares to typical applicants by having solid test-taking ability and resilience factors, but your early and mid-school rankings lag behind what the model associates with bar success. This isn't a judgment on your worth or determination—many from Hispanic communities like yours excel in law with targeted preparation. To move forward, focus on retaking the LSAT to boost it closer to or above average, seek academic advising to improve your decile rankings in any remaining coursework, and consider programs offering support for first-generation or low-income students. Building a stronger narrative around your personal story in reapplications could also highlight your unique perspective. With these steps, you can reshape how models and admissions teams see your potential next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

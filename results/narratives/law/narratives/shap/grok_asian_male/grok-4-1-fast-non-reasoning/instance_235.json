@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 235,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:58.937306",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 60.2% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed strongly. This decision hinged most heavily on your performance rankings within your school—specifically, your Year 3 grades placed you in the bottom decile (1st out of 10), far below the typical student's middle-range standing around the 5th or 6th decile. That low Year 3 decile was the strongest factor pushing the prediction toward failure, signaling to the model a potential struggle with the sustained rigor needed for law school and the bar. Your Year 1 grades, also in the bottom decile compared to the average, reinforced this concern as the second-most influential factor, suggesting early academic challenges that carried forward. On a more positive note, your undergraduate GPA of 2.60—while below the average of 3.21—actually worked in your favor, pulling the prediction slightly toward success and softening the overall risk. Other elements, like your LSAT score of 34 (below the typical 36.7), lower-middle family income bracket, and full-time student status, played supporting roles but weren't the main drivers. Compared to typical admitted students, who often rank higher in school deciles and have stronger GPAs, your profile stood out as higher-risk for bar passage, even as a full-time applicant in a category that represents over 90% of the dataset. This isn't a judgment on your potential or background—many from similar family incomes and demographic groups succeed with targeted improvements. To move forward, focus on boosting your academic deciles through stronger coursework, perhaps retaking the LSAT to hit closer to 37 or above, and building a narrative in your reapplication about steps you've taken to address early grade dips, like tutoring or advanced classes. Reapplying after demonstrating upward trends could shift the model's view in your favor next time. You're clearly motivated to pursue law, and with these adjustments, schools will see your resilience.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

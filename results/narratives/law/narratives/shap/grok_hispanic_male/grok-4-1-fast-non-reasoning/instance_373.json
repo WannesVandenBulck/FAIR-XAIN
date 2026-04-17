@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 373,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:33.762155",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.50, an LSAT score of 28, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 86.7% chance that you would fail the bar exam—far higher than what it sees in most applicants, leading directly to the rejection of your application. This high failure risk stems primarily from three key factors in your profile that strongly pulled the prediction toward failure, ranked by their influence. Most influential was your Year 3 school decile in the bottom 10%, well below the typical student's middle-of-the-pack 5th or 6th decile, signaling to the model a significant dip in later academic performance that often foreshadows bar struggles. Next, your Year 1 decile matching that low rank reinforced concerns about consistently underwhelming grades relative to peers, unlike the stronger early showings common among those who pass. Your LSAT score of 28, notably lower than the average of around 37, further tipped the scales toward failure by highlighting potential challenges with the analytical skills the bar demands. While your full-time enrollment plan aligns with the vast majority of students and your middle-income background is typical, these positives weren't enough to offset the top concerns. Compared to successful applicants, who generally rank higher in school deciles and score much stronger on the LSAT, your profile matches patterns the model associates with higher bar failure rates. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic record through additional coursework or a post-bac program, and gathering strong letters of recommendation that address these areas—many students in similar situations have improved their profiles and succeeded on later attempts.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

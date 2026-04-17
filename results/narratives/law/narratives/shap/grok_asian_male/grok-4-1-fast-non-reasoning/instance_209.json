@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 209,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:18.308861",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30 and a respectable LSAT score of 35, you've put together a strong profile that includes coming from a high family income bracket and planning to attend law school full-time. The admissions model evaluated your application by predicting your likelihood of passing the bar exam on the first try, and it estimated a 44% chance that you would fail—high enough to trigger a rejection, as the school prioritizes applicants predicted to succeed right away. This decision hinged on just a few key factors from your academic record that stood out to the model. Most influential was your Year 3 school decile ranking of 2, which is well below the typical student's rank of around the 5th or 6th decile; this low standing signaled to the model a heightened risk of bar exam struggles, strongly pushing the prediction toward failure. Next in importance was your undergraduate GPA, which, while above the average of 3.21, still worked in your favor by nudging the prediction slightly toward passing success. Your LSAT score followed closely, also above average at 35 compared to the usual 36.7 but contributing positively by suggesting you have the test-taking skills to potentially pass. Compared to typical students in the dataset, your full-time status aligns with the vast majority (over 90%), and your family background is a strength, but those early and later school deciles overshadowed them in the model's eyes. Overall, your profile is competitive in areas like GPA and LSAT, but the model saw your Year 3 performance as a red flag that outweighed those positives for this high-stakes prediction. To move forward, consider retaking courses or seeking targeted tutoring to boost your school rankings, perhaps aiming for summer programs that strengthen your academic deciles. You might also retake the LSAT to push closer to or above the average, building an even stronger case. Many applicants in similar situations reapply after addressing weak spots like this, often turning rejections into acceptances—your high family income and full-time commitment position you well for that effort. Keep pushing; with focused improvements, you can shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

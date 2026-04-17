@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 357,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:47:42.267171",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, predicting their likelihood of passing on the first try. The model assessed your profile—including your undergraduate GPA of 3.10, LSAT score of 37, full-time enrollment plans, and school decile rankings from Years 1 and 3—and calculated a 91.9% probability that you would fail the bar exam. This high predicted risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The decision hinged most heavily on your academic decile in Year 3, where you ranked in the bottom 10% of your school, strongly pushing the prediction toward failure since lower rankings signal challenges in sustaining high performance. Your Year 1 decile, also in the bottom 10%, was the second-biggest factor pulling in the same direction, reinforcing concerns about early struggles that often persist. While your LSAT score of 37—slightly above the average of 36.7—helped by nudging the prediction toward passing, it wasn't strong enough to offset those academic red flags. Compared to typical students, who average mid-level deciles around 5.5 in both early and later years, your bottom-decile positions stand out as unusually weak predictors of bar success. Your undergraduate GPA of 3.10 also sits a bit below the typical 3.21 average, adding to the overall risk profile despite your solid family income support and full-time commitment, which align with the norm for most applicants. This combination made your situation look riskier than the profiles of admitted students, who generally show stronger consistent academic rankings. To move forward, focus on improving your grades to climb those school deciles, perhaps by seeking tutoring or study strategies tailored to law school rigor. Retaking the LSAT to push your score higher could also help demonstrate growth. Consider reapplying after building a stronger academic record, or exploring part-time programs or alternative paths like paralegal work to gain experience and bolster future applications. With targeted effort, you can shift this narrative in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

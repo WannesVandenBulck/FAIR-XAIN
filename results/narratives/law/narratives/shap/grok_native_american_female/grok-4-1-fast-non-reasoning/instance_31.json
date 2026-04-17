@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:45.673984",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 83% chance that you would not pass based on your profile. This high predicted risk of failure automatically triggers a rejection to ensure the program's overall success rates. The model's decision hinged most strongly on your planned part-time enrollment status, which stood out as the biggest factor pushing toward this failure prediction—unlike the vast majority of students who passed the bar, who were full-time (over 93% of them). Your third-year grade decile of 3 was the second most influential factor, as it signaled weaker performance relative to the typical decile of nearly 6 among those who succeeded, further tilting the prediction toward failure. Your middle family income bracket played a smaller but still notable role in the same direction, since passers were far more concentrated in upper-middle and high brackets. While your undergraduate GPA of 3.20 was close to the average for bar passers at 3.24, and your LSAT of 33 was respectable, these couldn't offset the top concerns. Your first-year decile of 5 was also middling compared to the stronger 6.04 average for successes, adding to the overall picture. In essence, the model saw your combination of part-time status, later-year grades, and socioeconomic background as mismatched with profiles of admitted students who typically thrived on the bar exam. This isn't a judgment on your potential or background—it's a data-driven call to protect the school's outcomes. To move forward, consider retaking the LSAT to boost your score toward the 37+ average of passers, strengthening your later-year grades through additional coursework, or exploring full-time programs that align better with successful patterns. You might also look into schools with flexible enrollment or bar prep support tailored for part-time students like yourself. With targeted improvements, a stronger application could change the model's view next time. Keep pushing—you have the foundation to build on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

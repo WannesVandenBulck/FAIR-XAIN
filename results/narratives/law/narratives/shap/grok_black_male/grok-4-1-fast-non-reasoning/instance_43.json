@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 43,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:33:33.104192",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a high family income bracket, along with a full-time study plan that matches what most students pursue, you've put together a strong profile for law school admission. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 60.5%, tipping the decision toward rejection to prioritize students with lower predicted risks. This prediction hinged most heavily on your academic decile rankings from earlier years in school, particularly your Year 3 performance, which fell in the second decile—well below the average fifth decile—and strongly pushed the model toward forecasting bar exam struggles. Your Year 1 decile of third place, also lower than the typical fifth or sixth, reinforced this concern as the second-biggest factor, suggesting early inconsistencies in grades that the model sees as a red flag for law school rigor. On a brighter note, your undergraduate GPA actually worked in your favor, pulling the prediction toward success because it's stronger than what the model usually encounters. Compared to typical students, where LSAT scores average 36.7 and yours is 35, or where full-time enrollment is the norm at over 90%, those elements played smaller roles here. The model weighs these patterns from past students to gauge bar passage, and in your case, the lower school deciles outweighed your other strengths, even with your advantageous background. This doesn't reflect your full potential or personal drive, especially as a Black man navigating higher education where systemic hurdles can impact early metrics like deciles. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through targeted tutoring or summer sessions, and aim to push your LSAT higher toward that 37-plus range. Gathering stronger letters of recommendation highlighting your resilience could also help in appeals or reapplying. Many students in similar positions have improved these key areas and succeeded—reach out to advisors for a personalized improvement plan, and reapply stronger next cycle. Your high family support and full-time commitment position you well to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

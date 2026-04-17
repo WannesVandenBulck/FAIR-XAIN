@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 401,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:55:59.591939",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid LSAT score of 38—above the typical 36.7 average—your undergraduate GPA of 2.8 sits below the usual 3.21, and your Year 1 and Year 3 school deciles both at 1 are much lower than the averages around 5.5 to 5.7, reflecting some early academic challenges. Your family income falls in the middle bracket, and you're planning full-time studies, which is the norm for most applicants. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 45.4% chance you'll fail the bar, tipping the scales toward rejection to minimize the school's risk of low pass rates. This prediction wasn't random; it hinged on a few key factors from your profile that stood out the most. Your LSAT score was the strongest positive force, strongly pushing the model toward expecting you to pass by showing sharp analytical skills beyond most peers. On the flip side, your Year 3 decile ranking had the biggest negative pull, signaling to the model a notable dip in performance relative to classmates that raised failure concerns. Your undergraduate GPA played a supporting negative role too, reinforcing worries about consistency despite being a hurdle many overcome with targeted improvement. Compared to typical admitted students, who often have higher deciles and GPAs balancing their profiles, yours highlighted risks in those academic trends more prominently. While your background as a Black male brings unique strengths and perspectives law schools value, the model focused purely on these bar-pass predictors without adjusting for that context. To move forward, consider retaking the LSAT if possible to build on your strength there, or bolster your academic record through post-bac courses or a master's program to lift those decile concerns. Connecting with mentors from similar backgrounds who've succeeded could also help craft a stronger reapplication narrative. With focused steps, you can shift these factors in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

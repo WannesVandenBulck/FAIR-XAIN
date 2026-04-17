@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 178,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:42:08.390173",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and personal circumstances to predict first-time pass rates. The model assessed your profile— including your Year 1 school decile of 6 (slightly above average), Year 3 decile of 9 (well above average), undergraduate GPA of 3.0 (below the typical 3.21), LSAT score of 35 (a bit under the average 36.7), and plan to attend full-time like most students—and predicted a 64% chance that you would fail the bar exam on your first try. This high predicted failure risk is why your application was rejected, as the school prioritizes admitting those likely to succeed on the bar from the outset. Among all the factors considered, your Year 3 school decile ranking stood out as the single most influential positive force, strongly pushing the prediction toward expecting you to pass by showing significant improvement in your later academic performance compared to peers. Next in importance was your undergraduate GPA, which had a notable negative pull, nudging the model toward failure because it fell short of what's typically seen in successful bar takers. Your Year 1 decile also contributed against you to a lesser but still meaningful degree, as it was only modestly above average and didn't signal the early strength that often correlates with bar success. Overall, while your later grades offer a bright spot, the model weighed your earlier and undergraduate academics heavily enough to tip the scales toward concern, even with your solid LSAT and full-time commitment aligning with the norm. This isn't a judgment on your potential as a Black man from an upper-middle-income family—many in similar situations have overcome these metrics—but the prediction reflects patterns in the data where undergrad performance like yours has historically linked to bar struggles. To move forward, consider retaking the LSAT or bolstering your undergrad record through a post-bac program or additional coursework to shift future predictions in your favor. You might also target schools with holistic reviews that value your personal story of academic growth from Year 1 to Year 3. Gathering strong letters of recommendation highlighting your resilience could further personalize your next application. Keep pushing; your upward trajectory suggests you're capable of beating these odds with targeted improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

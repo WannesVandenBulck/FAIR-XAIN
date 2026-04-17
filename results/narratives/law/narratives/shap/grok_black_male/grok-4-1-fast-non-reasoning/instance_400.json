@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 400,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:55:55.087501",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—and a middle family income bracket, you've put together a thoughtful law school application, including your choice to pursue full-time studies and an LSAT score of 35. However, the admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 61.9% chance that you would fail the bar exam, tipping the scales toward rejection to minimize the risk of poor outcomes for future classes. The most influential factor pulling the prediction toward failure was your Year 1 school decile ranking of 2, which is notably lower than the average of about 5.7, signaling to the model early academic struggles that often correlate with bar challenges in similar students. Your LSAT score, while respectable, worked in your favor as the second-biggest influence, pushing the prediction toward success because it was close to the dataset average of 36.7 and showed solid reasoning potential compared to many applicants. Family income came third, with your middle bracket slightly nudging toward failure relative to higher-income peers who tend to pass more often in the data. Overall, your profile stacks up well against typical students in areas like undergraduate performance and study commitment, where 92.7% go full-time like you, but that low early decile stood out as the dominant concern, outweighing your strengths. This isn't a judgment on your potential as a Black man committed to law—many with similar backgrounds succeed—but the model prioritizes these bar-pass predictors conservatively. To move forward, consider retaking the LSAT to boost it above average or strengthening your recent academics, perhaps by explaining your Year 1 context in a personal statement for schools with holistic reviews. Targeted bar prep courses or community college refreshers could also build a stronger case next cycle. Reach out to admissions counselors at target schools for feedback, and explore bridge programs designed for underrepresented applicants like yourself. With focused improvements, you can reshape this narrative and secure a spot.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

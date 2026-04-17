@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 132,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:05.244807",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes an upper-middle-class family, full-time student status, an LSAT score of 40, an undergraduate GPA of 2.20, and school deciles of 2 in Year 1 and 1 in Year 3 based on your grades. The admissions model, which predicts first-time bar exam success using profiles like yours, estimated a 47.8% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your profile that stood out the most to the model. Your LSAT score was the strongest positive signal, as it exceeded the typical score of around 37 and significantly pushed the prediction toward expecting you to pass the bar. However, your Year 3 decile rank of 1—well below the average of about 5.5—had an even stronger counteracting effect, strongly signaling a higher risk of failure due to relatively lower performance in that critical later year. Your Year 1 decile of 2, also under the average of roughly 5.7, added further concern by nudging the prediction toward failure, though with less intensity than your Year 3 performance. Compared to typical students who pass the bar on the first try, your academic deciles are in the lower range, which overshadowed your solid LSAT despite your favorable family income and full-time commitment. These top three elements—LSAT favoring success, but Year 3 and Year 1 deciles pulling toward risk—collectively tipped the scales against admission. While your undergraduate GPA of 2.20 is below the average of 3.21, it played a smaller role here. To move forward, focus on boosting your recent academic deciles through stronger coursework or targeted improvement, perhaps retaking the LSAT if possible to solidify that strength, and consider programs that value upward trends or offer bar prep support. Gathering letters of recommendation highlighting your resilience as a Hispanic student could also help in appeals or alternative applications. With deliberate steps to address these gaps, you can reshape how models like this view your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 207,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:11:00.899323",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid undergraduate GPA of 3.60, which stands out above the typical 3.21 average among students in our dataset, along with your LSAT score of 28.50, early-year school decile ranking of 4th, later-year decile of 3rd, and a middle-class family income background, while planning to attend full-time like most applicants. The admissions model, trained on past students' data to predict bar exam success on the first try, estimated your probability of failing at 45%, tipping the scales just enough to reject your application since the school prioritizes those predicted to pass with high confidence. This prediction wasn't random—it hinged on a few key aspects of your profile, ranked by their influence on the outcome. Your undergraduate GPA emerged as the strongest positive factor, strongly pushing the model toward seeing you as likely to pass the bar, thanks to its above-average strength that signals consistent academic capability. Next in influence was your LSAT score, which pulled in the opposite direction by moderately increasing the predicted risk of failure, as it falls notably below the 36.70 average and aligns more with profiles that struggled on the exam. Rounding out the top factors, your Year 1 decile ranking also helped your case by nudging the prediction toward success, even if it was below the typical 5.71 average, showing some early promise amid school peers. Compared to typical students who passed, your GPA exceeds theirs, but the LSAT gap mirrors patterns in those who failed, creating the overall close-call risk. While your full-time status and family background played smaller roles, they didn't sway the balance enough. This isn't a judgment on your potential as a Hispanic leader in law—many with similar starts have succeeded by targeting weak spots. To move forward, consider retaking the LSAT to boost it toward or above average, as that single change could flip predictions for schools using similar models. Strengthening recent grades or gaining targeted bar prep experience might also help in reapplying. You're close; with focused steps, stronger opportunities await.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

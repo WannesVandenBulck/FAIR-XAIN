@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 126,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:52.719977",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 36 and an undergraduate GPA of 3.0. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 61.8% chance that you would fail, which crossed the threshold for rejection to protect the school's bar passage rates. This prediction hinged most strongly on your Year 3 school decile ranking of 3, which is below the typical student's 5.5 average and significantly pushed the model toward forecasting failure by signaling weaker performance in later undergraduate years. Next in influence was your LSAT score, which, while close to the average of 36.7, worked in your favor by pulling the prediction toward success and showing your potential in a key standardized test. Your Year 1 decile of 3, also under the average of 5.7, added further weight toward the failure prediction, reinforcing concerns about consistent academic standing relative to peers. Compared to typical students who pass the bar, your decile rankings are notably lower, placing you in the lower third of your classes early and late in school, while your LSAT provided a counterbalance but couldn't fully offset those gaps. These top three factors—Year 3 decile leading the pack, followed by LSAT positively and Year 1 decile negatively—dominated the model's decision for your case. It's understandable to feel frustrated, especially given your strong test score and full-time commitment, which aligns with the vast majority of successful applicants. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your decile rankings, as even small improvements there could shift future predictions dramatically. You might also seek targeted LSAT prep or bar prep simulations to build a stronger overall profile. Many students in similar situations have succeeded by addressing these academic markers head-on—your background shows resilience, and with focused effort, you can too. Reapplying after demonstrating growth could open doors at schools that value that trajectory.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

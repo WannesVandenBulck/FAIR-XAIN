@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 379,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:41.847561",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 33.50, you've shown real academic potential that stood out in your law school application. Your family comes from a middle-income bracket, and you're planning to attend part-time, which is less common as only about 7% of students do so compared to the vast majority who go full-time. The admissions model evaluated your profile to predict your chances of passing the bar exam on the first try, estimating a 55.9% probability that you would fail. Because this risk crossed the threshold, your application was rejected to prioritize candidates with stronger predicted odds of bar success. The most influential factor pushing toward this failure prediction was your choice to attend part-time, as the model sees this as a key hurdle that often correlates with lower bar passage rates in the data. On a more positive note, your LSAT score was the second-biggest influence, pulling the prediction toward success since it signals good reasoning skills even if it's below the 36.70 average. Similarly, your undergraduate GPA provided a strong counterbalance, being the third-most important factor and nudging the model toward expecting you to pass. Your earlier school deciles in Year 1 and Year 3—5th and 4th respectively, a bit below averages—played lesser roles but didn't help as much as they could have. Compared to typical students who pass the bar, your part-time status sets you apart in a way that outweighed your GPA and LSAT strengths, tipping the scales. This doesn't reflect your full potential or personal drive, especially given the unique challenges many Black students like yourself face in competitive fields. To move forward, consider retaking the LSAT to boost it closer to or above average, exploring full-time options if feasible, and strengthening your overall academic narrative with recent achievements. You could also target schools with holistic reviews that weigh your background more favorably or programs offering bar prep support for part-time students. Keep pushing—many overcome these predictions through targeted preparation.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

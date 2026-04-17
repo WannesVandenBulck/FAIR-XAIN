@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 378,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:54.278728",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes middle family income, full-time student status, an undergraduate GPA of 2.50—which is below the typical 3.21 average—and an LSAT score of 22.70, well under the usual 36.70 benchmark. Your Year 1 school decile ranking of 1 also sits notably lower than the average of about 5.7. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 64.9% chance you'll fail the bar exam. This high predicted risk led directly to the rejection of your application, as the school prioritizes candidates likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1, far below the typical 5.5 average, signaling to the model weaker late-stage academic performance compared to peers who succeed. Your LSAT score played a strong secondary role, also nudging the prediction toward failure because it's substantially lower than what successful students usually score. On a more positive note, your middle family income bracket worked in your favor, pulling the prediction somewhat toward passing success, as it aligns with many who do well despite not coming from high-income homes. Overall, your profile compares to typical admitted students by lagging in key academic deciles and standardized test performance, where stronger showings often tip predictions toward bar passage. While full-time status is common and neutral here, these gaps in grades and LSAT stood out most against the dataset of past bar takers. To move forward, focus on retaking the LSAT to boost your score closer to or above average, while strengthening your academic record through targeted coursework or a post-bac program if possible. Building a narrative around your resilience as a Hispanic male from a middle-income background could also shine in future applications, perhaps with letters highlighting community involvement. Reapplying after addressing these core areas gives you a real shot at flipping the model's outlook next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

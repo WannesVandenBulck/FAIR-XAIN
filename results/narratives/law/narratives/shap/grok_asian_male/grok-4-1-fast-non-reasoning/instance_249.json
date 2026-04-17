@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 249,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:48.092756",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes strong early academic performance in your first year, where you ranked in the top decile of your school, but your third-year grades placed you in the lowest decile, alongside a solid undergraduate GPA of 2.90 and an LSAT score of 26. Your family comes from a lower-middle income bracket, and you plan to attend full-time, which is the norm for most students. The admissions model, trained on data from thousands of past law students, predicted a 73.8% chance that you would fail the bar exam on your first try, tipping the scales toward rejection of your application to protect the school's outcomes. This prediction hinges on just a few key factors from your background that stood out as the strongest influences. The most impactful was your third-year school decile ranking, far below the typical student's midpoint around the 5th or 6th decile, which strongly signaled to the model a higher risk of bar failure by showing a significant drop-off in performance over time. Next in influence was your LSAT score of 26, well under the average of about 37 seen in the dataset, pushing the prediction further toward expecting struggles on the bar. On a more positive note, your undergraduate GPA of 2.90, slightly below the average of 3.21, actually worked in your favor, nudging the model slightly toward anticipating bar passage and softening the overall risk assessment. Compared to typical students who pass the bar, your combination of a low recent decile and LSAT score mirrors patterns in those who faced early career hurdles, even with your promising start. While other elements like your full-time status aligned with successful applicants, they weren't enough to outweigh these top concerns. To move forward, focus on retaking the LSAT to boost your score closer to or above the average, and consider programs or tutoring to rebuild momentum in your upper-level coursework, as these could dramatically shift future predictions. Many students in similar situations have succeeded by addressing these exact gaps, so targeted improvements here could open doors at other schools. Your early strengths show real potential—building on them strategically is your best path ahead.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

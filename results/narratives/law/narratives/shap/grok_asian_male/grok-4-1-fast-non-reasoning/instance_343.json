@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 343,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:47.977836",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes strong early academic performance in your first year, placing you in the top decile of your school, but your later grades in your third year also landed in the lowest decile, alongside a low family income bracket, an undergraduate GPA of 2.30—below the typical 3.21 average—and an LSAT score of 23.50, well under the usual 36.70 benchmark. You're planning to attend full-time, which is the norm for most students at 92.7%. The admissions model, trained on past students' data to predict bar exam success on the first try, estimated a 64% chance that you would fail the bar exam, tipping the scales toward rejecting your application to prioritize candidates with stronger predicted odds of passing. This prediction hinged most heavily on your third-year school decile ranking, which stood out as the biggest factor pushing the model toward forecasting failure, likely because lower performance there signals potential challenges in sustaining the rigor needed for the bar. Your LSAT score was the second most influential, also strongly nudging the prediction toward failure compared to higher-scoring peers who typically fare better. On a more positive note, your undergraduate GPA provided the third strongest counterinfluence, pulling somewhat toward a passing prediction since it's a key academic strength for many who succeed. Overall, these top three elements—your third-year deciles, LSAT, and undergrad GPA—dominated the model's thinking, outweighing your solid start in Year 1 and full-time status. Compared to typical students who pass, your later academic dip and below-average test scores aligned more closely with profiles that struggled on the bar. While this rejection stings, especially given your early promise, it's not the end of the road. Consider retaking the LSAT to boost that score closer to average, strengthening your third-year record through additional coursework or a post-bac program, and gathering strong recommendation letters highlighting your resilience. Many students in similar situations improve these metrics and gain admission elsewhere—reach out to advisors for tailored strategies to reshape your path forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:23.347942",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 52% chance that you would not pass—slightly above the threshold we use for admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.10, your LSAT score of 21, and your strong Year 1 decile ranking of 8th, along with factors like your lower-middle family income bracket and plans to attend full-time. Among students who passed the bar, the average LSAT is much higher at 37.27, undergraduate GPAs average 3.24, Year 1 deciles average around 6th, and lower-middle income makes up just 9.4% of passers compared to more common middle and upper-middle brackets. The three most influential factors in your prediction were your LSAT score, undergraduate GPA, and Year 1 decile performance. Your LSAT score had the strongest pull toward predicting bar failure, as it stands notably below what the model sees in successful students. In contrast, your undergraduate GPA nudged the prediction slightly toward success, performing close to the average of those who passed, though not enough to offset other concerns. Your high Year 1 decile also helped push toward a passing prediction, exceeding the typical rank for bar passers and showing early promise. While your full-time status aligns well with 93% of those who succeed, and your Year 3 decile of 5th is near average, they played smaller roles here. Overall, the model saw your profile as riskier than the typical admitted student, whose stronger standardized test scores and balanced academics tip predictions firmly toward passing. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, strengthening your undergraduate record through additional coursework if possible, and highlighting any upward trends like your Year 1 performance in future applications. You might also explore programs with bar passage support or preparatory resources tailored for full-time students from similar backgrounds. With targeted improvements, your solid early grades and determination could shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

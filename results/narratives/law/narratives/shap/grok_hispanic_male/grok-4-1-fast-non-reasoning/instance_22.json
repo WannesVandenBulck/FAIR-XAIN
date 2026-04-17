@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:13.812453",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.40, an LSAT score of 25, Year 1 school decile ranking of 1st (well above the typical 6th decile average), and a Year 3 decile of 4th (slightly below the average 6th decile), along with your upper-middle family income and plans to attend part-time while working. The admissions model, which predicts first-time bar exam success based on patterns from thousands of similar students, estimated a 57% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes those likely to pass on the first try. This decision hinged on just a few key factors from your profile, with your LSAT score standing out as the strongest driver pushing the prediction toward failure, since scores around 25 are notably lower than the average of nearly 37 seen in students who typically pass. Your Year 3 decile ranking played a helpful counterbalancing role, pulling the prediction toward success by showing solid mid-tier performance compared to peers. Meanwhile, your top Year 1 decile had a moderate influence in the opposite direction, nudging toward failure despite being an early strength, as the model weighs later academic momentum more heavily. Compared to typical applicants who pass—who often have higher LSATs, stronger consistent deciles, and full-time status—your LSAT gap was the biggest standout shortfall, amplified by being in the rarer part-time group (just 7% of students). It's understandable to feel frustrated, especially with your family's supportive upper-middle background and initial strong start. To move forward, consider retaking the LSAT to boost it closer to average levels, as that's the most impactful lever here, and perhaps strengthen your later-year performance through targeted prep or additional coursework. Many students in similar situations, including Hispanic applicants, have succeeded by addressing these exact areas before reapplying. Your early decile success shows real potential—building on that could shift future predictions in your favor. Keep pushing; law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 322,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:17.818118",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 36, a solid undergraduate GPA of 3.0, and your background from a middle-income family, along with your plans to attend full-time. The admissions model evaluated your profile to predict your chances of passing the bar exam on the first try, estimating a 54.8% probability that you would fail—high enough that it tipped the decision against admitting you right now. This prediction hinges on a few key aspects of your academic record, with your Year 3 school decile ranking as the top factor pushing the model toward expecting failure. Specifically, your position in the bottom decile that year—far below the typical student's middle-of-the-pack standing—signaled to the model a potential struggle to build momentum heading into law school. On a more positive note, your LSAT score was the strongest counterbalance, nearly matching the average of 36.7 and pulling the prediction back toward success more than any other element. Your undergraduate GPA, at 3.0 compared to the usual 3.21, offered some helpful push toward passing but wasn't quite enough to offset the concerns. Overall, your situation stands out because while your test scores align with many admitted students, that lower Year 3 performance deviates sharply from the stronger trajectories the model favors for bar success. Family income and full-time status played smaller roles here, as they're common among applicants. To move forward, consider retaking courses or building recent academic wins to boost your decile rankings, perhaps through post-baccalaureate programs or targeted prep that showcases upward trends. You might also connect with mentors from similar Hispanic backgrounds who've navigated this path successfully. Reapplying after strengthening those areas could flip the model's view in your favor. Keep pushing—your LSAT strength shows real potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

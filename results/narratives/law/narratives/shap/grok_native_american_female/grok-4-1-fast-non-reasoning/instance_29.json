@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:37.489781",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 51% chance that you would not pass. This prediction tips just over the threshold we use for admission decisions, prioritizing students with stronger signals of bar success to maintain our program's high pass rates. The model's judgment hinged most heavily on three key aspects of your profile: your LSAT score, undergraduate GPA, and Year 3 academic decile ranking in school.\n\nChief among them, your LSAT score stood out as the strongest driver pushing the prediction toward a higher risk of bar failure—it's a critical benchmark where lower scores like yours signal potential challenges ahead, especially compared to the much higher averages among those who passed. On a more positive note, your undergraduate GPA played a significant counterbalancing role, pulling the prediction toward success because your solid 3.30 exceeds the typical 3.24 seen in students who passed the bar. Similarly, your Year 3 decile of 4 helped in the same direction, as it reflects a respectable standing relative to the higher averages around 5.91 for bar passers, showing improvement or stability in your performance.\n\nWhile factors like your middle family income bracket and part-time enrollment status were considered—aligning with smaller shares of successful students—they weren't the top influencers here. Overall, your profile compares to admitted students as having strengths in GPA and later-year grades that offset some risks, but the LSAT gap loomed largest, placing you below the typical markers of those approved. This isn't a reflection of your potential as a Native American woman pursuing law part-time; it's a data-driven call based on patterns from past students.\n\nTo move forward, consider retaking the LSAT to boost your score toward the 37+ range common among passers, as that single change could dramatically shift future predictions. Strengthening your recent academic deciles through targeted study or additional coursework might further highlight your upward trajectory. We encourage reapplying after addressing these areas, or exploring preparatory programs designed for part-time learners—many students in similar situations have succeeded by focusing here. Your determination shines through your profile, and with these steps, you're well-positioned for another shot.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 178,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:21.063170",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid upper-middle-class family background and plans to attend law school full-time, your profile shows some promising elements, like landing in the 6th decile for your first-year school grades, which is slightly above average. However, the admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 64% chance that you would fail the bar on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction hinges on just a few key factors from your record that stood out most strongly to the model. The single biggest influence pulling in a positive direction was your 9th-decile ranking in third-year school grades, well above the typical 5.5-ish average; this strongly suggested you'd have the grit to pass the bar, countering other concerns. Weighing against you most heavily was your undergraduate GPA of 3.00, which falls short of the dataset average around 3.21 and pushed the model toward seeing higher bar failure risk. Next in influence was your first-year decile of 6, a modest edge over average that nonetheless nudged the prediction slightly toward failure rather than overwhelming success. Compared to typical students who pass, your LSAT score of 35 is a bit below the 36.7 average, but it wasn't a top driver here—your grades carried more weight in the model's eyes. While full-time status aligns with the vast majority of successful applicants, it didn't sway things much in this case. This isn't a judgment on your potential as an Asian male from a supportive background; it's the model balancing these academic signals against bar passage patterns. To move forward, consider retaking the LSAT or bolstering your GPA through post-bac courses or a master's program to realign with stronger profiles. Reach out to admissions for feedback, target schools with holistic reviews that value your unique story, or gain practical experience like paralegal work to build a standout reapplication. With targeted improvements, especially in those early grade deciles, you can shift the odds decisively in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 274,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:22.853365",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at their academic records, test scores, family backgrounds, and more to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 30, middle family income bracket, full-time student status, and notably low Year 1 and Year 3 school grade deciles of 1—and calculated a 91% probability that you would fail the bar exam on your first attempt. This high predicted risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The three biggest factors driving this decision were your Year 3 grade decile, your Year 1 grade decile, and your undergraduate GPA, ranked in that order of influence. Your Year 3 decile, which placed you in the bottom 10% of your school (far below the typical student's middle-of-the-pack average), had the strongest pull toward predicting failure, as weaker later-year performance signals ongoing academic struggles that often carry over to bar prep. Similarly, your Year 1 decile in the bottom 10% (again well below average) reinforced this concern, suggesting early challenges that didn't improve over time. On a more positive note, your undergraduate GPA of 3.10, while slightly below the average of 3.21, nudged the prediction a bit toward success, showing some resilience in your college work compared to peers. Overall, your LSAT of 30—much lower than the typical 36.7—likely compounded these issues, though it wasn't the top driver here, and your middle-income background and full-time plans aligned with most applicants. Compared to typical students who pass, your early and persistent low class rankings stand out as red flags, unlike those who climb into higher deciles. While this rejection stings, especially given your background, it's not the end—many in similar situations retake the LSAT or bolster undergrad records through post-bac programs to shift these metrics. I recommend targeting ways to demonstrate academic turnaround, like strong recent coursework or test prep, then reapplying to schools with holistic reviews that might weigh your full story. With focused effort, you can rewrite this prediction and pursue your legal goals.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

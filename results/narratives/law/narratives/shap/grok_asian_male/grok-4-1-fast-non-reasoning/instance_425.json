@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 425,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:51:57.929792",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—and a strong LSAT score of 38, which edges out the average of 36.70, you brought several promising elements to your law school application. Your family comes from an upper-middle income bracket, and you've indicated plans to attend full-time, which aligns with the vast majority of students in the dataset at 92.7%. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 72.5% probability that you would fail the bar exam, tipping the scales toward rejection of your application. This prediction hinges heavily on your early academic performance in school, particularly your rankings in Year 1 and Year 3, where you placed in the bottom decile (1st out of 10) both times—far below the averages of around 5.5 to 5.7 for others. The most influential factor pushing the model toward predicting failure was your Year 3 decile ranking, as being in the lowest group there strongly signaled potential struggles ahead, even for someone with your background. Your Year 1 decile had the next biggest impact in the same direction, reinforcing concerns about foundational performance that often correlates with bar outcomes. On a more positive note, your undergraduate GPA worked in your favor, pulling the prediction somewhat toward success since it's higher than most applicants'. Compared to typical students who pass the bar on their first try, your early low decile rankings stand out as unusually weak, while your LSAT and GPA are competitive but couldn't fully offset them in the model's view. This isn't a judgment on your potential as an Asian male from a stable family—many in similar demographics succeed—but the model prioritizes these early indicators based on historical patterns. To move forward, consider retaking courses or seeking targeted tutoring to boost your decile rankings, as improving those could dramatically shift future predictions. You might also gather letters of recommendation highlighting your resilience or explore programs with bar passage support tailored to full-time students like you. With focused effort on those early academic hurdles, reapplying next cycle could yield a very different result.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

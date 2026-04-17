@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:00:09.171037",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 65% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic indicators like grades, test scores, and background factors that have historically correlated with bar success. For you, with your undergraduate GPA of 3.20 and LSAT score of 21.30, the model highlighted three key factors that shaped this outcome, ranked by their influence on your specific profile.\n\nThe most influential was your LSAT score, which significantly pushed the prediction toward expecting a bar failure because it falls well below the average of 37.27 seen among students who passed. Next, your undergraduate GPA provided some counterbalance, nudging the prediction slightly toward success since your 3.20 is close to the 3.24 average for those who passed, showing your college performance was solidly competitive. However, your position in the second decile for Year 3 grades worked against you, strongly contributing to the failure prediction as it lags far behind the typical fifth or sixth decile rank among bar passers.\n\nCompared to students who were admitted—those the model saw as likely to pass—your LSAT stood out as a major gap, while your full-time enrollment plans aligned well with the 93% of successful students in that category, and your middle family income bracket matched a common profile among them. Your Year 1 decile of 6 was right in line with passers' averages, but that later dip in Year 3 rankings raised concerns about sustained performance. To move forward, consider retaking the LSAT to boost your score toward the mid-30s range, strengthening your academic deciles through targeted improvement, and reapplying once you've built a clearer track record of upward momentum—these steps have helped many students in similar situations turn predictions around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

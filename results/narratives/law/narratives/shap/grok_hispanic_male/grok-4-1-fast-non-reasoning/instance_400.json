@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 400,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:23:12.002484",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.50, which stands out above the typical 3.21 average, along with your LSAT score of 35, your middle family income bracket, and your plan to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 61.9% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or character, but a data-driven assessment aimed at helping schools select students likely to thrive in the demanding legal field. The most influential factor pushing toward this failure prediction was your Year 1 school decile ranking of 2, which is notably lower than the average of about 5.7, signaling to the model early academic challenges that often correlate with bar struggles. Next in importance, your LSAT score worked in your favor, pulling the prediction toward success since it's close to the solid average of 36.7 seen in students who pass. Your middle family income bracket had a moderate push toward the failure side, as the model associates it with certain hurdles compared to higher brackets more common among bar passers. Overall, your profile stacks up well in some areas like GPA and full-time commitment, which aligns with 92.7% of successful students, but the early low decile outweighed these strengths relative to typical admitted applicants. While disheartening, this highlights how first-year performance can loom large in these forecasts. To move forward, consider retaking courses or seeking targeted tutoring to boost your academic decile trajectory, perhaps while prepping intensively for a higher LSAT retake. Building a narrative around your resilience as a Hispanic male overcoming early setbacks could also strengthen future applications through essays or recommendations. Many students in similar positions have improved their profiles and succeeded—reach out to advisors for personalized strategies, and reapply with evidence of growth. Your path to law school is still very much open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

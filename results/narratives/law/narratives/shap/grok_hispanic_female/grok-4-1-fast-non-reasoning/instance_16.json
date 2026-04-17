@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:47.841267",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.60 stood out as the primary factor pushing the model's prediction toward expecting you to struggle on the bar exam, since it falls notably below the 3.24 average among students who passed on their first try. This low GPA had the strongest influence in tipping the scales against your application, signaling to the model a foundational academic challenge that often correlates with bar exam difficulties. Next in importance was your upper-middle family income bracket, which, while common among passers (making up about 45% of them), still nudged the prediction slightly toward failure in your specific profile, perhaps because the model associates it with certain performance patterns in the data. Your Year 1 grade decile of 7 also contributed toward the failure prediction, even though it's higher than the 6.04 average for successful students, suggesting the model saw it as not quite strong enough to offset other concerns. These top three factors combined to drive the model's assessment to a 72% probability that you would fail the bar exam on the first attempt, leading the university to reject your admission to prioritize applicants with lower predicted risks. In contrast, your LSAT score of 40 exceeds the 37.27 average of those who passed, which helped pull the prediction somewhat toward success, but it wasn't enough to overcome the dominant influences. Being full-time aligns well with the 93% of passers in that category, yet the model weighed your other academic markers more heavily. Overall, your profile compares to accepted students as having solid test scores and enrollment plans but weaker early undergrad performance and grades that didn't fully reassure the model of bar exam readiness. This isn't a judgment on your potential—it's the system's data-driven way of forecasting based on patterns from past students. To move forward, consider retaking undergrad courses or pursuing a post-baccalaureate program to boost your GPA, as even modest improvements there could shift future predictions dramatically. You might also gather letters from professors highlighting your growth since Year 1, or target schools with holistic reviews that value your strengths like the LSAT. With targeted steps, you can build a stronger case for admission elsewhere and prove the model wrong on the bar exam itself.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

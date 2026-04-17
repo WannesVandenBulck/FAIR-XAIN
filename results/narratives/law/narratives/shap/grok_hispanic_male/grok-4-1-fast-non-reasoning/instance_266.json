@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 266,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:14:46.692287",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.60, an LSAT score of 25, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the 1st decile based on grades. The admissions model evaluated these details to predict your likelihood of passing the bar exam on the first try, and it estimated a 97% chance that you would fail. This high predicted risk of failure is why your application was rejected—law schools use this model to prioritize students with stronger signals of bar exam success. The three biggest factors pulling the prediction toward failure were your Year 3 school decile ranking, your LSAT score, and your Year 1 school decile ranking, in that order of influence. Your Year 3 decile in the bottom 1st percentile—far below the typical student's 5th or 6th decile—stood out as the strongest signal, suggesting to the model that your later academic performance raises serious doubts about bar exam readiness. Similarly, your LSAT score of 25, well under the average of around 37, reinforced this concern by indicating potential challenges with the rigorous reasoning needed for law. Your Year 1 decile also in the bottom 1st percentile, again much lower than average, added to the picture of early struggles that the model sees as predictive of bar failure. While your undergraduate GPA of 3.60 exceeds the typical 3.21 average and might have offered some counterbalance in other cases, it wasn't enough to offset these top concerns. Compared to typical students who pass the bar, who often have mid-range deciles and LSATs in the 30s or higher, your profile aligns more closely with patterns the model associates with first-try failures. Being full-time like over 90% of students didn't sway things much here. To move forward, consider retaking the LSAT to boost your score significantly, seeking academic support to improve your decile rankings if possible through additional coursework, and targeting schools with holistic reviews that might weigh your strong GPA and background more favorably. With targeted preparation, you can reshape these signals and strengthen future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

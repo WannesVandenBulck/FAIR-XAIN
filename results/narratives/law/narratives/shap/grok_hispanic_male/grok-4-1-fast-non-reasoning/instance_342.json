@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 342,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:36.616377",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with a strong undergraduate GPA of 3.40—above the typical 3.21 average—and an impressive LSAT score of 45, well ahead of the usual 36.70 mark, along with top-decile rankings in your Year 1 and Year 3 school grades. You're planning to attend full-time, which is the norm for most students at 92.7%, and come from an upper-middle-class family background. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 60.8% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction hinges on just a few key factors from your profile, with family income standing out as the top influence, pushing the model toward forecasting failure because upper-middle income, while stable, was seen as less advantageous here compared to other backgrounds in the data. Your Year 3 decile ranking, at the top of your school, worked strongly in your favor, pulling the prediction toward expecting you to pass by showing consistent high performance. Your LSAT score was the third-biggest factor, but in this case, it nudged the outlook slightly toward failure, perhaps due to how it interacted with your other traits relative to typical students. Overall, these elements outweighed your other strengths, like your GPA and early grades, in the model's eyes, even though you're ahead of averages in several areas. It's tough to hear, especially when you've achieved so much as a first-generation or underrepresented aspirant in law. To move forward, consider retaking the LSAT for an even higher score or gathering evidence of bar prep success, like mock exams, to strengthen a reapplication. You might also explore programs with holistic reviews that value your Hispanic background and full-time commitment more explicitly. Keep pushing—many students in similar spots turn predictions around with targeted improvements. Your profile shows real potential; this is just one data point, not your destiny.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

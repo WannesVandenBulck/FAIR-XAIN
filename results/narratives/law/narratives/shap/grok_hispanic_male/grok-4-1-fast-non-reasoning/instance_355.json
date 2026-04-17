@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 355,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:23.979659",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 31, lower-middle family income, and your plan to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the 1st decile—meaning your early grades placed you at the bottom of your class compared to peers. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 73% chance that you would fail it, tipping the scales toward rejecting your application to prioritize students with stronger predicted odds of bar success. This prediction hinged most heavily on your Year 3 decile ranking, as being in the lowest group there strongly signaled to the model a higher risk of bar failure, pushing the decision firmly in that direction. Your Year 1 decile ranking, also at the bottom, reinforced this concern as the second-biggest factor, suggesting early academic struggles that carried forward. On a more positive note, your undergraduate GPA stood out as the third-most influential element, slightly countering the failure prediction since it's quite close to the typical 3.21 average for applicants. Compared to other students, where Year 1 and 3 deciles average around the 5th or 6th—solid mid-pack performance—your lower rankings made your profile stand out as riskier, even with your full-time commitment aligning with the vast majority of peers. The model weighed these academic signals over factors like your LSAT, which was below the 36.7 average, or family background. While this rejection stings, especially given the barriers Hispanic students like yourself often face in competitive fields, it doesn't define your potential. To move forward, consider retaking the LSAT to boost your score, seeking targeted tutoring or academic coaching to improve your decile rankings if you're still in school, and exploring programs with bar passage support tailored for underrepresented groups. Building a stronger academic track record now could flip the script for future applications, showing the kind of upward trajectory the model favors. You're taking a vital step by understanding this feedback—keep pushing, as many in similar situations have turned things around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

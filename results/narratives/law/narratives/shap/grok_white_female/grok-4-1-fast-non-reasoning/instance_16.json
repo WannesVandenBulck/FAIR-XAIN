@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:35.699242",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.60 stood out as the primary factor pushing the model's prediction toward expecting you to fail the bar exam on your first try, since it falls notably below the average of 3.24 seen among students who passed. This low GPA had the strongest influence in tipping the scales against your law school application, signaling to the model a potential challenge in handling the rigorous demands ahead. Next in importance was your upper-middle family income bracket, which unexpectedly nudged the prediction further toward failure—perhaps because the model associates it with patterns where students from similar backgrounds faced hurdles in bar success, even though 45% of passers came from this group. Your Year 1 grade decile of 7 also contributed toward that concerning outcome, as it ranks higher than the average decile of about 6 for those who passed, yet in this context, it reinforced doubts about sustained academic performance. Despite strengths like your solid LSAT score of 40—above the 37.27 average for passers—and your plan to attend full-time like most successful students, these weren't enough to offset the top concerns. Overall, the model estimated a 72% chance you'll fail the bar exam first time around, which is why your application was rejected: law schools use this to prioritize admits likely to pass and boost their metrics. Compared to typical accepted students, your profile shows promise in test-taking and commitment, but the gaps in GPA and early grades mirrored risks seen in many who struggled. It's tough to hear, especially with your decile improving to 7 by Year 3, hinting at upward momentum the model may have underweighted. To move forward, consider retaking undergrad courses or a post-bac program to boost your GPA, as even small gains there could dramatically shift future predictions. Targeted LSAT prep isn't urgent given your score, but pairing it with bar exam simulation courses might build a stronger case. Reach out to admissions advisors for feedback on appeals, and explore bridge programs or part-time options that value your full-time intent. With focused improvements, you'll be better positioned for the next cycle—many students turn predictions like this around through persistence.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

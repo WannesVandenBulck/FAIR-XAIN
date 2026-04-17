@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 62,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:26.508156",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.20, LSAT score of 31, Year 1 decile of 6, Year 3 decile of 5, lower-middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average undergraduate GPA is 3.24 and LSAT is 37.27, so your scores stood out as notably lower than those benchmarks. The three most influential factors in pushing your prediction toward failure were, first, your undergraduate GPA, which had the strongest pull toward expecting a bar exam struggle compared to typical successful students. Second, your LSAT score reinforced that concern by also shifting the outlook negatively, as it fell short of what the model sees in passers. On a more positive note, your Year 3 decile rank worked in your favor, nudging the prediction toward success since it aligned reasonably well with those who passed, where the average is about 5.91. Your full-time enrollment plan matches the vast majority of bar passers (over 93%), which helped balance things somewhat, though it wasn't among the top drivers here. Overall, your profile compares to accepted students by lagging most in key academic metrics like GPA and LSAT, which carry heavy weight in forecasting bar outcomes, while your family background falls into a less common but not decisive category for success. This isn't a judgment on your potential or hard work—it's just how these patterns played out in the data. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and explore ways to strengthen your GPA through post-baccalaureate courses or additional undergrad achievements. Building a stronger academic narrative could shift future predictions in your favor, and many applicants succeed on reapplication after targeted improvements. Keep pursuing your goals; with focused effort on those core areas, you'll have a clearer path ahead.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

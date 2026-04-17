@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 344,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:32.390050",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 3.00 and LSAT score of 25.50. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 90.9% chance that you would fail, which directly led to the rejection of your application since the school prioritizes candidates expected to succeed. This high failure probability means the model saw your overall academic indicators as carrying substantial risk compared to those who typically pass. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st decile, placing you at the bottom of your class that year—far below the average of around the 5th or 6th decile—and signaling weaker performance when it mattered most later in your studies. Next in importance was your LSAT score, which at 25.50 is notably lower than the typical 36.70 average, strongly contributing to the model's concern about your exam readiness. Your Year 1 decile of 1st—again well below the average—also played a key role, reinforcing a pattern of early underperformance that the model weighed heavily. While your undergraduate GPA was close to average at 3.00 versus 3.21, and full-time status aligns with most applicants, these top three academic markers dominated the decision, outweighing other positives. In comparison to typical students who pass the bar, your consistently low decile rankings set you apart as an outlier in class standing, where stronger performers usually cluster in the middle to upper deciles. This isn't a judgment on your potential or background, but a data-driven assessment focused on bar passage patterns. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your high school or undergrad record through additional coursework or post-bac programs, and targeting schools with more holistic reviews that might value your unique perspective as a Black male from an upper-middle-class family. Gathering stronger letters of recommendation highlighting your resilience could also help reframe your story in future applications. With targeted improvements, you can shift these key factors and improve your odds next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:40.321875",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on students' academic and background profiles, estimated a 51% chance that you would not pass the bar on your first attempt. This prediction draws from patterns seen in thousands of past students, where those with similar profiles faced higher risks of failure. For you, as a Black male with a middle-income family background, the model weighed your undergraduate GPA of 3.30—solidly above the typical 3.21 average—and your Year 3 school decile ranking of 4th, which is also around average, as positive signs pointing toward passing the bar. These factors helped pull the prediction in a favorable direction, suggesting your academic trajectory shows promise despite not being at the very top. However, your LSAT score of 24, well below the dataset average of about 37, emerged as the single most influential factor, strongly pushing the model toward predicting failure because lower scores like yours have historically correlated with bar struggles in similar students. Being in the part-time enrollment category, which only 7.3% of students choose compared to 92.7% full-time, played a lesser role but aligned with profiles that sometimes face added challenges. Overall, while your undergrad performance and later school rankings offered some counterbalance, the LSAT's dominant negative impact tipped the scales just over the threshold for rejection. This isn't a judgment on your potential or hard work—many students with modest starts succeed through targeted preparation. To move forward, consider retaking the LSAT to boost your score closer to or above average, as that could dramatically shift future predictions in your favor. Strengthening your Year 3 decile through standout performance or exploring full-time options might also help. We encourage reapplying after addressing these key areas, and resources like LSAT prep courses or academic advising are available to support students like you in overcoming these hurdles. Your story is far from over, and with focused effort, you can rewrite the model's outlook.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

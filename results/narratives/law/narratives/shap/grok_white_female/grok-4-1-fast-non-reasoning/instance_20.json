@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 20,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:48.553193",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 57.4% chance that you would fail the bar exam on your first try, tipping the scales just over the threshold we use for admissions decisions. This model looks at patterns from thousands of past students to forecast bar exam success based on academic and background factors, aiming to admit those most likely to pass. In your case, it zeroed in on your early undergraduate performance as the biggest red flag, since your first-year grades placed you in the bottom decile of your school—far below the top-half standing typical of students who went on to pass the bar. That low starting point strongly pushed the prediction toward expecting a failure, outweighing other strengths in the model's eyes. Your undergraduate GPA of 3.40 actually worked in your favor, as it's higher than the 3.24 average among those who passed, pulling the odds back toward success and softening the overall risk. Your third-year grades, landing in the second decile, added another nudge toward failure, though not as powerfully as your first-year performance, and still below the mid-range deciles common for bar passers. While your lower-middle family income is less common among successful students—where middle and upper-middle brackets dominate—and your LSAT score of 32 falls short of their 37.27 average, these played supporting roles rather than driving the decision. Being a full-time student aligns well with the vast majority who pass, but it couldn't overcome the early academic hurdles the model prioritized. These top three factors—your first-year decile most influential, followed by your stronger GPA and then third-year decile—collectively shaped the rejection by highlighting a risky trajectory despite some positives. It's tough to hear, especially when you've pushed through with a solid overall undergrad record, but this isn't a judgment on your potential—it's a data-driven call based on historical patterns. To move forward, consider retaking the LSAT to boost that score closer to 37 or higher, strengthening your early-grade foundation through targeted prep courses, and reapplying next cycle with updated transcripts showing upward momentum in your later years. Many students in similar spots have succeeded by addressing these exact gaps, and with your full-time commitment, you're well-positioned to shift the odds.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 114,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:06.410251",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—and a strong LSAT score of 38, which edges out the average of 36.70, you've built an impressive academic foundation that many peers would envy. Your Year 1 school decile of 8 and Year 3 decile of 7 also place you in the upper ranks compared to most students' averages around 5.7 and 5.5, respectively, showing consistent performance. Coming from a middle-income family, which is common in the dataset, and planning full-time studies aligns with the vast majority of applicants at over 92%. However, the university's admission model, trained on past students' bar exam outcomes, predicted a 45.5% chance that you would fail the bar on your first try—a risk level high enough to lead to your application's rejection, as the school prioritizes candidates likely to pass and succeed professionally. The model's decision hinged on just a few key factors from your profile, with your Year 3 decile ranking as the most influential, strongly pushing the prediction toward expecting you to pass by highlighting your solid late-stage academic standing. Next in importance was your middle family income, which unfortunately nudged the outlook slightly toward failure risk, perhaps because patterns in the data link it to other challenges some students face. Your LSAT score came third, also working in your favor by suggesting strong test-taking ability and potential for bar success. Overall, while your metrics beat averages in several spots, the balance tipped due to that income factor outweighing some strengths in the model's eyes. This doesn't reflect your full potential or personal drive—many students like you overcome similar predictions through targeted prep. To move forward, consider retaking the LSAT for an even higher score, seeking scholarships or programs that support middle-income students from underrepresented backgrounds, and building bar-specific study habits early, like practice exams. Law schools often re-evaluate stronger reapplications, so use this as motivation to refine your profile and apply again soon. Your trajectory already shows promise; with a few adjustments, you can shift that prediction in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

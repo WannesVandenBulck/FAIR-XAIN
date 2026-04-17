@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 88,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:22.982084",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements, including your middle-family-income status and decision to pursue full-time studies, were carefully considered alongside your academic record. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass, tipping the decision toward rejecting your application to prioritize students with stronger projected outcomes. This prediction hinged on just a few key factors from your profile, with your LSAT score, undergraduate GPA, and Year 3 school decile ranking standing out as the most influential. Among these, your LSAT score of 40—higher than the typical 36.7 average—played the biggest role by strongly pushing the prediction toward expecting you to pass the bar, acting as a significant positive signal in your favor. However, your undergraduate GPA of 2.5, which falls below the average of 3.21, pulled in the opposite direction, increasing the model's concern about bar exam failure. Similarly, your Year 3 decile ranking of 3, lower than the typical 5.53 average, further heightened that risk by suggesting challenges in maintaining top performance relative to peers. Compared to typical students in the dataset, where most attend full-time like you, your stronger LSAT helped offset some concerns, but the lower GPA and decile stood out as weaker than average, driving the overall lean toward failure. These top three factors outweighed others, like your Year 1 decile of 3 or family income, in shaping the final call. While this is disappointing, especially given your dedication as a full-time student from a Hispanic background where perseverance often shines through, it doesn't define your potential. To move forward, consider retaking the LSAT to build on your already solid score, bolstering your GPA through post-baccalaureate courses or targeted improvement, and seeking mentorship from bar-pass alumni who share your experiences. Reapplying after addressing these areas could shift the prediction dramatically in your favor. Your story is far from over—many overcome similar hurdles to succeed in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

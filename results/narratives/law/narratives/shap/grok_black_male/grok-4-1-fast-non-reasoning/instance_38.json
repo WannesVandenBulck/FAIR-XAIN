@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:33:14.768740",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 67.4% chance that you would not pass the bar on your first attempt. This high predicted risk of failure directly led to the rejection, as the school prioritizes admitting students with stronger projected outcomes to maintain high pass rates. For you, a Black male applicant, the model's decision hinged most on your academic decile rankings from earlier years, which stood out as the top influences pushing toward this unfavorable prediction. Specifically, your Year 3 school decile of 2—well below the typical student's 5.5—had the strongest pull toward forecasting failure, signaling to the model that your performance in that key phase lagged behind most peers. Close behind was your Year 1 decile of 2, again much lower than the average of about 5.7, reinforcing concerns about consistent early academic standing. While your undergraduate GPA of 3.7 exceeds the typical 3.2 and worked in your favor—nudging the prediction toward success—it wasn't enough to offset those lower deciles. Your LSAT score of 31, below the average 37, middle family income bracket, and full-time student status played supporting roles but weren't the main drivers here. Compared to typical students in the dataset, where full-time enrollment is the norm at over 90%, your profile aligns on that front, but the early decile gaps set you apart in a way that amplified the risk signal. This isn't a judgment on your potential or background, but a data-driven assessment focused on bar passage patterns. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your grades in subsequent years to improve those decile rankings, and perhaps seeking targeted bar prep resources early. Reapplying after addressing these areas could shift your predicted odds significantly, opening doors at this or other programs. You're clearly capable, as shown by your solid undergrad record—building on that foundation will make a real difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

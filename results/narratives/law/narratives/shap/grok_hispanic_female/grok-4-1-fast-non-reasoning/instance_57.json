@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:17.029715",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 95% chance that you would not pass based on your academic and background details. This high predicted risk of failure means the model flagged your profile as one that doesn't align with the strong bar passage rates we aim for in our incoming classes. The decision hinged primarily on your academic decile rankings from earlier years in school, which stood out as the strongest factors pushing the prediction toward failure—your Year 3 decile of 1 was especially influential, well below the typical 6th decile seen among students who passed the bar. Your Year 1 decile of 2 also contributed notably in the same direction, signaling to the model a pattern of lower performance relative to peers who succeeded. Coming from a middle-income family added a smaller but still unfavorable nudge, as successful bar takers tend to come from upper-middle or high-income backgrounds far more often. While your LSAT score of 31.5 and undergraduate GPA of 2.6 are below the averages of 37.3 and 3.24 for those who passed, and pursuing full-time studies is common among them, these played lesser roles compared to your deciles. Overall, your profile compares to accepted students by showing weaker early academic standings, which the model sees as the biggest hurdles to bar success. This isn't a judgment on your potential or background—it's just how these patterns showed up in our analysis. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on building a stronger academic record in any upcoming coursework to improve your decile rankings. You might also explore programs or prep courses targeted at first-time bar passage, especially those supporting full-time students like you. Gathering letters of recommendation that highlight your resilience and growth could help reframe your story in future applications. With targeted improvements, you can shift these predictions in your favor and strengthen your candidacy next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

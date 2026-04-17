@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 95,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:21.496054",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 82.9% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 class decile ranking, which placed you in the bottom tenth of your school that year—far below the middle-to-upper deciles typical for students who went on to pass the bar. This low standing pushed the prediction firmly toward expecting failure, as it signals challenges in sustaining strong performance over time. Next in influence was your Year 1 decile of 2, again in the lower ranks compared to the average sixth decile among bar passers, reinforcing concerns about early academic struggles that often persist. Your undergraduate GPA of 2.60 offered some counterbalance, being somewhat closer to the 3.24 average of successful students and nudging the model slightly toward predicting success, though not enough to offset the other factors. While your middle family income aligns with over a third of bar passers and your full-time enrollment matches nearly all of them, along with a solid but below-average LSAT score of 27 versus their typical 37, these played lesser roles here. Overall, your profile stands out from accepted applicants, who generally show consistently higher decile rankings throughout undergrad and law school prep, painting a picture of steady academic strength. This isn't a judgment on your potential or effort—many students face hurdles like these and still succeed with targeted improvements. To move forward, consider retaking the LSAT to boost your score into the mid-30s, strengthening your undergrad record through post-bac courses if possible, and seeking mentorship to excel in upper-year classes. Building a clearer track record of academic resilience could shift future predictions in your favor, opening doors at other programs or upon reapplication. You're capable of turning this around with focused steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

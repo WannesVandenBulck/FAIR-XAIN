@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 333,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:51:50.260043",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a strong LSAT score of 39, which exceeds the average of 36.70, you've put together an impressive profile that many would envy, especially coming from a middle-income family background. You're planning to attend full-time, just like the vast majority of students at 92.7%. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 52.4% chance that you would fail the bar exam. This tipped the prediction toward failure, leading to the rejection of your application as the school prioritizes candidates likely to pass on their first try. The model's decision hinged most heavily on your Year 3 school decile ranking of 1, which placed you in the bottom 10% of your peers that year and strongly pushed the prediction toward expecting bar failure. Your Year 1 decile of 1, also in the bottom 10% compared to the average around the middle of the pack, reinforced this concern as the next biggest factor pulling in the same direction. On a brighter note, your standout LSAT score worked firmly in your favor, countering some of that risk by suggesting strong potential for success. Compared to typical students, your early academic deciles are notably lower than the dataset averages of about 5.5 to 5.7, which likely amplified the model's worries despite your later strengths. This isn't a judgment on your overall talent or determination—many students from similar backgrounds overcome early hurdles—but the model focuses on patterns where low early deciles correlate with bar struggles. To move forward, consider retaking courses or programs to boost your school deciles, as even small improvements there could shift future predictions dramatically. You might also seek targeted bar prep resources tailored for Black students navigating these paths, and reapply after building that record. Your LSAT and GPA give you a real edge; with focused effort on those early grades, another school could see you as a strong bet for passing the bar. Keep pushing—you've already shown the grit to get this far.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

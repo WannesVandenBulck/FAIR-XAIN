@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 222,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:44:54.883111",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 45.8% chance that you would fail the bar exam. This probability crossed our threshold for rejection, as the school prioritizes admitting students predicted to pass on their first attempt. For context, you're a Black male with an upper-middle-class family background, planning to attend full-time, and your undergraduate GPA of 3.10 is close to the typical 3.21 average, while your LSAT score of 31 falls below the usual 36.7. The model's decision hinged most strongly on your performance in later undergraduate years, specifically your Year 3 grades placing you in the bottom decile of your school—far below the average fifth-decile standing—which significantly pushed the prediction toward expecting bar failure. Nearly as influential was your undergraduate GPA, which, though solid on its own, worked in your favor by nudging the odds slightly toward passing compared to lower performers. Your Year 1 grades, also in the bottom decile against a typical fifth-decile benchmark, added further weight toward the failure prediction, though less intensely than your later performance. These three academic markers—Year 3 decile, GPA, and Year 1 decile—stood out as the top drivers, outweighing factors like your family income or LSAT in shaping this outcome for you specifically. Compared to typical students who pass, your early and late undergrad deciles signal a steeper challenge in sustaining high performance, which the model links closely to bar success. While your full-time status aligns with most admitted students (over 90%), it wasn't a major factor here. This isn't a judgment on your potential or background—many from similar circumstances succeed with targeted effort—but a data-driven call to protect the program's bar passage rates. To move forward, focus on retaking the LSAT to boost your score toward or above average, strengthening your undergrad record through post-bac courses or a master's if possible, and gathering strong recommendation letters highlighting your resilience. Reapplying after addressing these could shift your predicted odds favorably, and we encourage exploring prep programs tailored for underrepresented students like yourself to build momentum.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

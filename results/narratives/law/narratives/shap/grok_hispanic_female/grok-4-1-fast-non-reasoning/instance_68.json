@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 68,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:04.580646",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimates a 69.9% chance that you would fail the bar exam on your first try, based on patterns from thousands of past students' academic records and backgrounds. This high risk of failure is what led to the rejection, as the school prioritizes admitting those likely to succeed on the bar. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom group and significantly raised the predicted risk of failing the bar—far below the mid-to-upper deciles typical of students who passed. Next in influence was your LSAT score of 37, which actually worked in your favor by nudging the prediction toward passing, as it's quite close to the average among successful bar takers. Your Year 1 decile ranking, also in the bottom group, further pushed the outlook toward failure, again contrasting with the stronger early performances seen in those who passed. While factors like your middle family income bracket and full-time study plans align reasonably well with accepted students—where full-time is the norm and middle incomes are common—your undergraduate GPA of 2.50 stands out as notably lower than the 3.24 average of bar passers, though it wasn't the top driver here. Overall, your profile shows solid potential in areas like the LSAT, but the low early and later school deciles dominated the model's concern about bar success. This isn't a judgment on your effort or potential, but a data-driven flag on historical patterns. To move forward, consider retaking the LSAT to boost it further or strengthening your academic deciles through additional coursework or a post-bac program that demonstrates improvement. You might also gather strong letters from professors highlighting your resilience, especially given your background. Many students in similar spots have succeeded by addressing these gaps—reapplying after targeted improvements could shift your prediction dramatically. Keep pushing; your full-time commitment is a great foundation for turning this around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 226,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:17.623956",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 20, rankings in the second decile for your third-year grades and first decile for your first-year grades at school, and that you're planning to attend part-time while coming from a lower-middle family income background. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 56% chance that you would fail it—crossing the threshold that led to your application's rejection, as the school prioritizes candidates with stronger predicted odds of bar success. This decision hinged on just a few key factors from your profile that stood out the most to the model. Your LSAT score had the strongest pull toward predicting failure, as it was notably lower than the typical applicant's score of around 37, signaling potential challenges in the rigorous reasoning demands of law and the bar. In contrast, your undergraduate GPA worked strongly in your favor, pushing the prediction toward passing since your 3.10 is close to the average of 3.21 and reflects solid academic foundation. Your first-year school decile ranking also nudged things toward failure, being in the lower end compared to the average fifth or sixth decile, suggesting an early struggle that the model weighed against long-term bar success. While other elements like your part-time plans or family background played roles, these three—LSAT foremost, then GPA, then first-year performance—dominated the model's thinking for your specific case. Compared to typical students who get approved, who often have higher LSATs and stronger early rankings, your profile aligned more closely with those predicted to face bar hurdles. This isn't a judgment on your potential or background, but a data-driven call to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost that score, strengthening your early academic showings through additional coursework or test prep, and reapplying once you've addressed these standouts—many applicants in similar situations have succeeded by targeting these areas. You're clearly motivated, and with focused improvements, you can shift the odds in your favor for the next round.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

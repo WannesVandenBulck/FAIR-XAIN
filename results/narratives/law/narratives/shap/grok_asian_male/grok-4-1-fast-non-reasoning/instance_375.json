@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 375,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:50.886600",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.80—well above the typical 3.21 average—your law school application stood out in some ways, but the admissions model ultimately predicted a 59.7% chance that you would fail the bar exam on your first try, tipping the decision toward rejection. This prediction draws from patterns in data on thousands of past students, focusing on factors like grades, test scores, and background that correlate with bar success. The model's call hinged most heavily on your performance rankings within your school: your Year 3 decile of 1—far below the average of about 5.5—emerged as the top influence, strongly signaling to the model a heightened risk of bar failure despite your overall potential. Close behind, your undergraduate GPA pushed firmly in the opposite direction, acting as a major positive force by suggesting you have the academic strength to succeed. Your Year 1 decile of 1, also well below the typical 5.7 average, added further weight toward the failure prediction, reinforcing concerns about consistency in your school performance. Other elements, like your LSAT score of 28 compared to the usual 36.7, middle family income bracket, and full-time student status (shared by over 90% of applicants), played supporting roles but weren't the main drivers. In essence, while your strong undergrad record compares favorably to most students and pulled the prediction toward passing, your low in-school deciles dominated, painting a picture riskier than the profiles of students who typically pass the bar. This isn't a judgment on your character or drive—many applicants with similar early hurdles go on to excel—but the model prioritizes these patterns to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost it closer to average levels, seeking ways to improve or explain your in-school rankings through additional coursework or references, and targeting schools with holistic reviews that weigh your GPA heavily. You might also explore post-bac programs or bar prep resources tailored for students like you from Asian backgrounds who've overcome similar dips. With targeted steps, you can reshape your profile for stronger future applications. Keep pushing—your above-average GPA shows you have the foundation to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

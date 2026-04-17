@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 364,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:59.555479",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 25, lower-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both at the 1st decile—meaning your early grades placed you at the bottom of your class compared to peers. The admissions model, which predicts first-time bar exam success based on patterns from thousands of similar students, estimated a 76% chance you'll fail the bar, leading to the rejection of your application to protect the school's outcomes. This high failure probability crossed the threshold for denial, as the model prioritizes applicants likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking in the lowest group, well below the typical 5th or 6th decile average, signaling to the model a trajectory of academic struggle that often correlates with bar challenges. Your LSAT score was the second strongest driver toward failure, as your 25 is significantly lower than the average of around 37, which the model sees as a key barrier for many students like you. On a more positive note, your lower-middle family income actually nudged the prediction slightly toward passing success, outperforming what the model expects from even lower brackets and providing some counterbalance. Compared to typical admitted students, who often have mid-range deciles, higher LSATs around 37, and stronger GPAs near 3.2, your profile stands out as riskier in those core academic areas despite your full-time commitment, which is common among 93% of students. This isn't a judgment on your potential or background—many from similar Hispanic communities overcome these odds with targeted effort. To move forward, consider retaking the LSAT to boost it toward 35 or higher, strengthening your undergraduate record through post-bac courses, or exploring part-time programs if that fits better while building experience. Community resources for underrepresented students, like LSAT prep scholarships, could help tailor your path. With focused improvements in these areas, reapplying next cycle could shift the model's view dramatically in your favor. Your determination as a full-time aspiring lawyer positions you well to rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

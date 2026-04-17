@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:48.241897",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 35, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the bottom decile—much lower than the typical student's mid-range performance around the 5th or 6th decile. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated an 82.1% chance that you would fail the bar exam, leading to the rejection of your application as the school prioritizes candidates likely to pass and succeed in practice. This high failure probability means the model saw your profile as carrying substantial risk compared to students who typically pass. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking at the bottom, as lower performance here strongly signals challenges in sustaining the academic rigor needed for the bar. Next in importance was your Year 1 decile, also at the bottom, which reinforced concerns about early academic struggles that often persist. Your LSAT score, while solid, pulled somewhat in the positive direction toward passing, counteracting the prediction to a degree since it's close to the average of 36.7 seen in successful students. Overall, these early and later grade deciles stood out as the top drivers, outweighing other elements like your full-time status—which is common for 93% of students—or family background. Compared to typical admitted students, your deciles are notably lower, placing you in a riskier group where bar passage rates drop off sharply. This doesn't reflect your full potential or personal drive, especially as a Hispanic male navigating these paths, but highlights how the model weighs consistent academic indicators heavily. To move forward, consider retaking the LSAT to boost it above average, strengthening your recent academic record through additional coursework or a post-bac program, and reapplying next cycle with updated transcripts that show upward trends. Schools value resilience, and targeted improvements in these areas could shift your profile into the passing zone for future reviews.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

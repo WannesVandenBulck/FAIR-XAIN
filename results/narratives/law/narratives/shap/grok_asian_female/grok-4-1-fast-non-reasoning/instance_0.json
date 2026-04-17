@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:18.096707",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold we use for admission decisions. This prediction draws from your academic record, test scores, family background, and planned study schedule, comparing them to patterns seen in thousands of past students. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, which places you in the bottom tenth of your school that year—far below the typical top-half standing of students who went on to pass the bar. This low ranking stood out as the strongest signal to the model, suggesting challenges in sustaining strong performance later in your studies. On a more positive note, your undergraduate GPA of 3.70 was a significant counterbalance, well above the 3.24 average among bar passers, and it notably pulled the prediction toward success. Your LSAT score of 34 also helped in that direction, though it fell short of the 37.27 average for those who passed, making it a moderate positive influence compared to your other Year 3 grades. Other aspects, like your lower-middle family income bracket and part-time enrollment plans—which are less common among successful bar takers—played smaller roles overall. In essence, while your strong undergrad record and LSAT showed real promise, the sharp drop to a bottom-decile finish in Year 3 outweighed them, mirroring patterns where late-stage struggles often predict bar difficulties. Compared to admitted students, who typically maintain higher deciles throughout and enroll full-time, your profile aligned more closely with those who faced bar hurdles. This isn't a judgment on your potential, but a data-driven flag based on these key academic trends. To move forward, consider retaking courses or seeking targeted tutoring to boost your later-year grades, perhaps aiming for full-time study to match successful peers, and reapply once you've strengthened that area—many students turn things around with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

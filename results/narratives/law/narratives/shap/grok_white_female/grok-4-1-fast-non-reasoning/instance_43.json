@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 43,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:17.394991",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 60.5% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the model weighed your Year 3 school decile ranking of 2nd as the strongest signal pushing toward a failure prediction, since it placed you well below the typical 6th decile among those who passed. Your Year 1 decile of 3rd added to that concern, again lower than the average 6th decile for successful bar takers, making it the second-biggest influence toward rejection. On a more positive note, your undergraduate GPA of 3.40 stood out favorably, higher than the 3.24 average for those who passed, and it was the primary factor pulling the prediction back toward success. While your LSAT score of 35 was a bit under the 37.27 average for passers, and your high family income aligns with only about 8.5% of successful students (most came from middle or upper-middle brackets), these played smaller roles compared to your deciles and GPA. Your choice of full-time study matches the overwhelming majority (over 93%) of those who passed, so it didn't sway things much either way. Overall, your profile compares to accepted students by having solid strengths like your undergrad performance, but the lower early and later school deciles created the biggest gap, tipping the model toward caution. This isn't a judgment on your potential—it's the model highlighting risks based on historical trends. To move forward, consider retaking courses or programs to boost your school deciles, perhaps aiming for summer sessions or targeted tutoring, and reapply once you've strengthened those areas. You might also explore LSAT prep to close that small gap, or seek feedback from advisors on how others with similar starts succeeded. With focused effort on your grades, you can shift these predictions in your favor for future applications.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

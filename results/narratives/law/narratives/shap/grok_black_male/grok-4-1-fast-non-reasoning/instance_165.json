@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 165,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:18.888196",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time success on the bar exam, estimated a 59.8% chance that you would not pass it right away. This prediction is based on a careful review of your academic record, test scores, family background, and other details from similar students who've gone through law school. As a Black male applicant, your profile stands out in some positive ways, but certain key factors tipped the scales toward this concerning forecast.\n\nThe most influential factor pushing the model toward predicting bar exam failure was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank of around the 5th or 6th decile—this suggests your later undergraduate performance placed you in the bottom tier compared to peers, and the model sees this as a strong signal of potential struggles ahead. On a brighter note, your LSAT score of 38 was a major counterbalance, higher than the average of 36.7, actively working in your favor by demonstrating solid reasoning skills that align with bar success for many students like you. Your upper-middle family income also helped nudge the prediction toward passing, as it's a bit above the dataset norm and often correlates with better resources for preparation.\n\nCompared to typical applicants, your undergraduate GPA of 2.90 falls short of the average 3.21, though it wasn't the top driver here, and your full-time student status matches the vast majority at 92.7%. Overall, while your LSAT and background provided some uplift, the low Year 3 decile dominated the decision, reflecting patterns where midterm slumps predict bar challenges more than early strengths. This isn't a judgment on your potential as a Black man pursuing law—many in similar circumstances have overcome these odds with targeted effort.\n\nTo move forward, focus on strengthening your academic trajectory: retake courses or seek tutoring to boost decile rankings if possible, prepare rigorously for the LSAT again to push it even higher, and consider part-time options or gap-year experiences that build proven study habits. Reapply after addressing these, perhaps with letters highlighting your resilience and any upward trends. You're capable of defying this prediction—many students do, and law schools value determination from applicants like you. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

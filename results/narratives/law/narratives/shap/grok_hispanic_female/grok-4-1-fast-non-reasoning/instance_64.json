@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 64,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:50.093953",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 51.6% chance that you would not pass the bar exam on your first try, tipping the scales just over the threshold we use for admissions decisions. This prediction draws from patterns in how past students with similar profiles performed on the bar, focusing on key academic indicators like your early college grades, LSAT score, and later performance. The most influential factor pushing toward this failure prediction was your first-year decile ranking in school, which placed you at the lower end compared to the much higher average (around the 6th decile) for those who passed the bar. Coming in second was your LSAT score of 33.5, which was below the typical 37.3 average for successful bar takers and, surprisingly, pulled the prediction somewhat in the direction of passing despite not being a standout. Rounding out the top influences, your third-year decile of 2 also nudged the model toward expecting a failure, again lagging behind the 6th decile norm for passers. Your middle family income bracket aligns with about a third of those who passed, and opting for full-time study matches the vast majority of successful students, but these played smaller roles here. Overall, your undergraduate GPA of 2.9 fell short of the 3.24 average for bar passers, reinforcing the academic concerns. Compared to typical admitted students, who tend to show stronger early and consistent grade deciles alongside higher LSATs, your profile signaled higher risk to the model. This isn't a judgment on your potential or background—it's a data-driven call based on historical outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your later academic deciles through targeted improvement, or exploring programs with bridge courses or bar prep support that could better align with your trajectory. Many students in similar situations have succeeded by addressing these exact gaps, and reapplying with updated credentials could change the outlook entirely.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

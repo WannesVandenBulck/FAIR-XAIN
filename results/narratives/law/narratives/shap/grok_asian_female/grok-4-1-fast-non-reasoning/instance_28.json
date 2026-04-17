@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:04.331490",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 52% chance that you would not pass—tipping just over the threshold that leads to rejection. This prediction draws from patterns seen in thousands of past students, focusing on key indicators like test scores, grades, and family circumstances, while setting aside demographics like gender or race. The three biggest factors shaping this outcome for you were your LSAT score, undergraduate GPA, and first-year grade decile. Most influential was your LSAT score of 21, which is notably below the average of about 37 for students who went on to pass the bar; this stood out strongly as a signal pushing the prediction toward failure, as lower scores like yours have historically correlated with tougher bar outcomes. In contrast, your undergraduate GPA of 3.10 worked in your favor, coming close to the 3.24 average among bar passers and helping pull the prediction somewhat toward success. Similarly, your strong first-year decile of 8—better than the 6 average for those who passed—provided a positive boost, showing early academic promise that tempered the overall risk. Your third-year decile of 5 was a bit lower than typical passers, and your lower-middle family income bracket is less common among them (where middle and upper-middle are far more prevalent), but these played smaller roles compared to the top three. Being full-time aligns well with the vast majority of successful students, yet it wasn't enough to offset the dominant concerns. Compared to typical accepted applicants, who tend to have much higher LSATs and slightly stronger GPAs across the board, your profile showed solid potential in grades but was held back primarily by that entrance exam score. This isn't a judgment on your abilities or background—it's a data-driven estimate to help the school maintain high bar passage rates. To move forward, consider retaking the LSAT to aim closer to 37 or above, bolstering your GPA through post-bac courses if possible, and gathering letters highlighting your first-year strengths; reapplying with those improvements could shift your predicted odds significantly in your favor. You're clearly capable, as your early grades show, and many students in similar spots have succeeded by targeting these key areas.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

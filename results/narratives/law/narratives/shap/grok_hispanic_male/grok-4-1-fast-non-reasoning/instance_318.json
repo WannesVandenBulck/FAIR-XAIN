@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 318,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:02.862702",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 28.50, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 (4th decile) and Year 3 (2nd decile). The admissions model, trained on data from thousands of past students, predicted a 49.9% chance that you would fail the bar exam on your first try—high enough to tip the decision toward rejecting your application, as the school prioritizes applicants likely to pass and succeed in their program. The key factor driving this prediction was your Year 3 school decile ranking, which placed you in the lower half of your peers and strongly signaled to the model a higher risk of bar exam struggles, pushing the outcome toward failure more than any other element in your profile. On a more positive note, your undergraduate GPA, while slightly below the typical 3.21 average, worked in your favor by suggesting solid academic potential and pulling the prediction somewhat toward passing. Your LSAT score, notably lower than the average of 36.70, also helped by nudging things toward success, though not enough to offset the top concern. Compared to typical students who pass the bar, your Year 3 performance stands out as the biggest deviation, while your full-time status aligns with the vast majority (over 92%) who succeed. This combination means the model saw your application as riskier overall than those of admitted students with stronger late-stage grades. It's understandable to feel disappointed, especially given your background and dedication to pursuing law full-time. To strengthen future applications, focus on boosting metrics like your decile rankings or LSAT through targeted prep courses or additional undergrad-level achievements that demonstrate upward trends. Consider retaking the LSAT to close that gap with averages, and gather strong recommendation letters highlighting your resilience as a Hispanic student overcoming challenges. Many applicants in similar situations reapply successfully after addressing these areas—your upper-middle background gives you resources to invest in that growth. Keep pushing forward; this is just one model's snapshot, and your path to law school is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

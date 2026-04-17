@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:32.566254",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 49.9% chance that you would not pass—crossing the threshold we use for rejections to ensure we admit students most likely to succeed. This prediction drew heavily from three key aspects of your profile: your LSAT score, your first-year grade decile, and your undergraduate GPA. Among these, your LSAT score stood out as the strongest positive signal, as it suggested a solid potential for bar success, pushing the model's assessment in a favorable direction compared to many others. However, your position in the fourth decile for first-year grades worked against you, signaling to the model a weaker early academic foundation than the typical admitted student, who lands around the sixth decile. Similarly, your undergraduate GPA of 2.60 pulled the prediction toward higher failure risk, falling notably below the 3.24 average seen in students who go on to pass the bar. These grade-related factors outweighed the encouraging LSAT influence, tipping the overall balance toward rejection. For context, students typically admitted show stronger alignments across these metrics, with higher deciles, GPAs above 3.2, and LSATs around 37—your middle family income and full-time enrollment plans aligned more closely with passers, but couldn't overcome the academic gaps. It's understandable to feel disappointed, especially as a Hispanic woman pursuing law full-time, where these paths can feel particularly demanding yet rewarding. To move forward, consider retaking the LSAT to boost that standout strength even higher, or focusing on graduate-level courses to improve your decile rankings and demonstrate upward momentum. Building a stronger narrative around your undergraduate performance through additional certifications or explanations in a reapplication could also help. Many students in similar positions reapply successfully after targeted improvements—reach out to admissions for feedback on bolstering your profile. With persistence, you can shift these predictions in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

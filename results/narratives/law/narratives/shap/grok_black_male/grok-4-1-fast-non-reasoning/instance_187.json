@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 187,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:42:44.532416",
+  "status": "success",
+  "narrative": "As a Black male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 35, upper-middle family income, part-time enrollment plans, and school deciles placing you in the 1st decile for Year 1 grades and 2nd for Year 3—details that paint a picture of your academic journey so far. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 40% chance you'll fail it on your first try, which crossed the threshold for rejection since the school prioritizes applicants likely to pass and succeed as lawyers. This isn't a judgment on your potential, but a data-driven call based on patterns from past students. The three biggest factors swaying the model toward this prediction were your LSAT score, Year 3 school decile, and family income bracket. Most notably, your LSAT score of 35—below the typical 36.7 average—strongly worked in your favor, pushing the model to see you as more likely to pass the bar, as higher scores often correlate with bar success in the data. On the flip side, your 2nd decile ranking in Year 3 grades (far below the average 5.53) pulled heavily toward a failure prediction, signaling to the model a potential struggle in later academic performance compared to peers who ranked higher. Your upper-middle family income also nudged things positively, as students from similar backgrounds in the dataset tended to outperform expectations on the bar. While your part-time plans and earlier low Year 1 decile played smaller roles, they didn't outweigh these top influences. Overall, you stack up as solid in test-taking and background support but lagged in key grading metrics against typical admits who often hit mid-decile averages and full-time tracks. This rejection stings, especially given the barriers many Black men face in competitive fields like law, but it's one model's snapshot—not your full story. To move forward, consider retaking the LSAT to boost that score further, strengthening your later-year grades through targeted courses or tutoring, and reapplying next cycle with updated transcripts that highlight your resilience and upward trajectory. Many students in your position have turned things around by focusing on these levers, and with your determination, you can too.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

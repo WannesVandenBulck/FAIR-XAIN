@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 260,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:28.475163",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 35, you brought some promising elements to your law school application, along with your middle-income family background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated an 84.1% chance that you would fail it, leading directly to the rejection of your application. This high predicted failure risk means the school views you as a student who, based on patterns from past applicants, might struggle to meet the bar despite your efforts. The decision hinged primarily on your academic performance in school, specifically your low rankings in both your first-year and third-year deciles, which placed you in the bottom 10% of your peers—far below the average deciles of around 5.5-5.7. Your third-year decile rank stood out as the single biggest factor pushing the prediction toward failure, as it signaled to the model a consistent struggle in a rigorous academic environment that often foreshadows bar exam challenges for students in similar positions. Your first-year decile rank reinforced this concern as the second-most influential factor, further tilting the scales against you by highlighting early academic hurdles that many successful bar passers avoid. On a more positive note, your undergraduate GPA provided the strongest counterbalance, nudging the prediction slightly toward passing success because it's stronger than what the model sees in most applicants. Compared to typical students who pass the bar, your profile shows weaker high school-level decile performance that outweighs your college grades and LSAT, patterns the model has learned from thousands of past cases. While your full-time status aligns with the vast majority who succeed, it wasn't enough to offset the early academic red flags. To move forward, consider retaking courses or programs to boost your decile rankings if possible, or target schools with more holistic reviews that weigh your strengths like GPA more heavily. Building bar prep experience through targeted practice or mentorship could also strengthen future applications, showing the model you've addressed these key risks head-on. With your above-average GPA as a foundation, targeted improvements here could shift your predicted odds dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

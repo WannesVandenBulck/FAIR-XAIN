@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 374,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:47.937646",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your background includes part-time enrollment plans, a middle-income family, an undergraduate GPA of 2.40—below the typical 3.21 average—and an LSAT score of 19, which is notably lower than the average of around 37. Your Year 1 school decile ranking of 1 also sits well below the average of 5.71, reflecting early academic challenges. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 64% chance that you would fail the bar on your first try, tipping the scales toward rejection of your application. This prediction hinges on just a few key factors from your profile that carried the most weight in the decision. The strongest influence came from your Year 3 decile ranking of 1, far below the typical 5.53 average, which strongly signaled to the model a higher risk of bar exam struggles based on patterns in similar students. Next in influence was your LSAT score of 19, which pushed the prediction further toward failure by deviating so sharply from what succeeds for most applicants. Your Year 1 decile of 1 reinforced this pattern, adding to the model's concern about consistent underperformance relative to peers. Compared to typical students who pass the bar, your metrics across these grades and test scores align more closely with those who face first-try failures, even accounting for your part-time plans and family background. While other elements like your middle-income bracket didn't sway things as much, these top three academic indicators dominated the model's reasoning. To move forward, consider retaking the LSAT to boost your score closer to average levels, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking targeted tutoring to improve your decile rankings in future assessments. Many students in similar situations have turned things around by addressing these core areas head-on, and law schools often value persistence and growth. Your path isn't set—focused improvements here could reshape your profile for stronger future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

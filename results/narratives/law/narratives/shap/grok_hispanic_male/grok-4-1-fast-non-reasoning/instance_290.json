@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 290,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:21.555677",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts the likelihood of passing the bar exam on the first try. Your undergraduate GPA of 2.90 sits a bit below the typical 3.21 average, your LSAT score of 23 is notably lower than the usual 36.70, and your Year 3 school decile ranking of 3 falls short of the average 5.53, reflecting solid but not standout performance in those areas. The model estimates a 44% chance that you would fail the bar exam initially, which is high enough to tip the decision toward rejecting your application—law schools use this to prioritize applicants most likely to succeed and pass the bar promptly. Among all the factors considered, your undergraduate GPA had the strongest positive influence, actually pushing the prediction toward expecting you to pass despite its below-average level. Coming in close behind, your LSAT score exerted the most significant pull in the opposite direction, strongly contributing to the concern about potential bar failure because of how low it is compared to peers. Your Year 3 decile ranking played a smaller but helpful role, nudging things slightly toward a passing prediction by showing some consistency in your school performance. Overall, while your full-time student status aligns with the vast majority of applicants and your middle family income bracket is typical, the LSAT's heavy negative impact outweighed the supportive signals from your GPA and later decile, leading to this outcome. This doesn't reflect your full potential or personal story—it's just one data-driven lens on bar passage odds. To strengthen future applications, consider retaking the LSAT to boost that score, as it carries so much weight, and perhaps pursue targeted GPA improvement through post-bac courses or additional undergrad work. Building a narrative around your unique experiences as a Hispanic male in law could also help in appeals or other schools. Many students in similar positions have succeeded by addressing these key areas head-on. Keep pushing forward; your determination will make the difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

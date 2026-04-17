@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 142,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:49.922417",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 34, upper-middle family income, and full-time student status, along with your Year 1 and Year 3 school decile rankings both at 3rd decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 62% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This prediction stemmed primarily from three key factors in your profile that pulled the odds toward failure, ranked by their influence. Most significantly, your 3rd decile ranking in Year 3 grades—well below the typical student's 5.5th decile—strongly signaled to the model a risk of struggling with the rigorous demands ahead, as lower deciles often correlate with bar exam challenges in the data. Next, your upper-middle family income level contributed to this view, as the model associates certain income brackets with varying preparation resources or pressures that haven't historically favored passing rates. Finally, your Year 1 decile of 3—again lower than the average 5.7th—added to the concern by showing an early pattern of underperformance relative to peers. Compared to typical admitted students, who often enter with higher deciles around the 5th to 6th and stronger LSAT scores near 37, your academic rankings stood out as the biggest departure, overshadowing positives like your solid GPA close to the 3.21 average. While your full-time status aligns with most students, it didn't offset these core academic flags. This isn't a judgment on your potential as a Hispanic leader in law—many from similar backgrounds succeed with targeted improvements—but the model prioritizes bar passage stats to protect program outcomes. To move forward, focus on retaking the LSAT to push toward 37 or higher, bolstering recent grades to climb those deciles, and perhaps seeking mentorship programs for underrepresented students to build a stronger narrative. Reapply after demonstrating upward trends, as schools value resilience and growth. You've got the drive; now channel it into these actionable steps for a better shot next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

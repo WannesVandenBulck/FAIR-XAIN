@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 336,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:00.540028",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 3.00 and LSAT score of 34. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on students' past academic and background details, estimated a 65.1% chance that you would fail it—high enough to trigger an automatic rejection of your application. This threshold exists because law schools aim to admit students most likely to succeed on the bar and complete their legal careers strong. The model's decision hinged primarily on your Year 3 school decile ranking of 2, which placed you in the bottom tenth of your peers and was the strongest factor pushing toward a failure prediction, as lower deciles like yours signal challenges in sustaining high performance over time. Next in influence was your LSAT score, which, while respectable, pulled slightly in the opposite direction toward predicting success because it was closer to what successful students typically achieve. Your Year 1 decile of 3 also nudged the prediction toward failure, reinforcing concerns about early academic struggles compared to the average student's stronger start around the middle of their class. Overall, these three academic markers—especially the later-year decile—outweighed positives like your full-time commitment, which is common among admitted students. Compared to typical applicants, who average higher deciles around 5-6 and LSATs near 37, your metrics fell short in the areas the model weighs most for bar passage. This doesn't reflect your full potential or personal drive, but rather patterns from thousands of past students where similar profiles correlated with bar struggles. To move forward, consider retaking the LSAT to boost your score above the average, strengthening your later-year grades through additional coursework or a post-bac program, and reapplying next cycle with updated transcripts. Many students in your position have succeeded by targeting schools with holistic reviews that value diverse backgrounds like yours. Keep pushing—you've got the foundation to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

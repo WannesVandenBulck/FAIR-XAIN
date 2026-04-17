@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 312,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:39.775979",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.30, an LSAT score of 28, upper-middle family income, and your Year 1 school decile of 5 alongside a Year 3 decile of 2, planning to attend full-time. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing at 45%, which crossed the threshold for rejection since the school prioritizes applicants likely to pass on their first try. This prediction stemmed from weighing your overall profile against patterns in thousands of similar students. The most influential factor pushing toward failure was your Year 3 school decile ranking of 2, well below the typical 5.53 average, signaling a notable dip in performance that the model strongly associates with bar struggles. Counterbalancing this, your undergraduate GPA of 3.30—slightly above the average 3.21—worked in your favor, nudging the prediction toward success by showing solid prior academic strength. Your Year 1 decile of 5, close to the average 5.71, also helped pull things positively, indicating steadier early footing. Compared to typical admitted students, your LSAT stands out as lower than the 36.7 average, though it wasn't the top driver here, and your full-time status aligns with the vast majority at 92.7%. While your upper-middle income is a plus in some contexts, it didn't sway the core academic signals enough. This mix left the model leaning toward risk, denying admission to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost it closer to average, strengthening later-year grades through targeted prep or additional coursework, and exploring programs with holistic reviews that value your background. Building a stronger narrative around your resilience as a Hispanic male could also help in appeals or reapplications—many overcome similar hurdles with focused improvement.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

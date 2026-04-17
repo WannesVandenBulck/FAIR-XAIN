@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:42.323844",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.40, LSAT score of 31, and other details like your middle family income bracket and full-time student status, along with your Year 1 and Year 3 school deciles of 3 and 2, respectively. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 45.2% chance that you would fail it—high enough to trigger a rejection of your application. This prediction stems from weighing factors like academic performance and test scores against patterns seen in thousands of past students. Among all these elements, your undergraduate GPA stood out as the strongest positive force, pushing the model toward seeing you as more likely to pass because it's above the typical 3.21 average. Next in influence was your Year 3 school decile of 2, which is well below the average of 5.53 and significantly pulled the prediction toward failure, signaling weaker performance relative to peers at that stage. Your LSAT score of 31, lower than the average of 36.70, also contributed against you, though less forcefully than your Year 3 deciles, nudging the odds toward a higher failure risk. Compared to typical students who pass, your profile shows strengths in undergraduate grades but lags in standardized testing and later school rankings, which the model views as key bar exam hurdles. While your full-time status aligns with most successful applicants (over 92% are full-time), it wasn't a major driver here. This isn't a judgment on your potential as a Hispanic man with a solid foundation—many overcome similar starting points through targeted effort. To move forward, consider retaking the LSAT to boost it closer to or above average, strengthening your later-year performance through advanced courses or tutoring, and highlighting any upward trends in your application narrative. Reapplying after addressing these could shift your predicted odds favorably, opening doors to law school. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

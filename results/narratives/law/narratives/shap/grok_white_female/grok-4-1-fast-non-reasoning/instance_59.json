@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:13.847393",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would fail it. This prediction draws from patterns in data about past students' academic records, test scores, family backgrounds, and enrollment choices, focusing on objective factors like grades and performance indicators. For you specifically, the model weighed your undergraduate GPA of 3.40, LSAT score of 31, middle family income bracket, Year 1 and Year 3 deciles both at 4, and full-time enrollment status. Among the influences, your undergraduate GPA stood out as the strongest positive factor, suggesting it pushed the prediction toward expecting you to pass, since it's above the 3.24 average for students who succeeded on the bar. In contrast, your LSAT score had a notable pull in the opposite direction, contributing toward the failure prediction because it's well below the 37.27 average seen in passers. Your middle family income also nudged the outlook toward failure, as successful bar takers were more often from upper-middle or high-income families (45% and 9%, respectively), while middle-income made up about 35%. Your solid Year 1 and Year 3 deciles of 4 were below the averages of 6 and 6 for passers, adding some drag, though not as heavily as the top factors. Full-time status aligned well with the 93% of successful students in that category. Overall, while your GPA provided a boost, the LSAT and family income tipped the balance enough to cross the threshold for rejection, unlike typical accepted applicants who combine higher test scores with stronger decile rankings. This isn't a judgment on your potential—it's just how your profile stacked up against those patterns. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, strengthening your academic deciles through additional coursework, and reapplying with an updated profile that highlights any new achievements. Many students in similar situations have succeeded by addressing these key areas, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:52.769425",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 77% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. This decision hinged primarily on three key factors from your profile: your Year 3 school grade decile, your LSAT score, and your Year 1 school grade decile, ranked in that order of influence. Your Year 3 decile of 1—well below the typical student's 5.5—stood out as the strongest driver, pushing the prediction heavily toward failure because it signals consistently low performance relative to peers. Similarly, your LSAT score of 24, compared to the average of about 37, reinforced this risk by indicating below-average readiness for legal reasoning demands. Your Year 1 decile of 1, also far under the average of around 5.7, added further weight in the same direction, highlighting early academic struggles that the model sees as persistent patterns. While aspects like your low family income bracket or full-time student status didn't sway the outcome as much, these top academic indicators dominated the model's view of your bar exam prospects. In contrast to typical admitted students, who often enter higher deciles and score much stronger on the LSAT, your metrics placed you in the lower tail of the distribution, amplifying the perceived risk. This isn't a judgment on your potential or background—many from similar circumstances succeed with targeted effort—but the model prioritizes these predictors for its bar passage forecast. To move forward, consider retaking the LSAT to boost your score toward the average, strengthening your undergraduate record through additional coursework if possible, or exploring programs with bridge support for students starting from lower deciles. Building a narrative around your resilience as an Asian male navigating these challenges could also help in reapplying or appealing to schools with holistic reviews. With focused improvements, you can shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

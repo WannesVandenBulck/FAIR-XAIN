@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:39.571876",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.00 stands out as the most influential factor in the model's decision, as it helped push the prediction toward expecting you to pass the bar exam, even though it's a bit below the 3.24 average among students who succeeded. However, your upper-middle family income bracket worked against you, nudging the prediction more toward a risk of failure compared to the mix seen among those who passed, where this level is common but not overwhelmingly protective. Similarly, landing in the 4th decile for your Year 3 school grades—lower than the 5.91 average for bar passers—added to the model's concern about potential struggles on the exam. Overall, these elements led the model to estimate a 49.1% chance that you might fail the bar on your first try, which crossed the threshold for denying your law school application to minimize the risk of investing in students unlikely to become licensed lawyers. Your LSAT score of 32.50, also below the 37.27 average of successful students, and Year 1 decile of 4 contributed to this picture, though less dominantly, while your choice to study full-time aligned well with the 93% of passers who did the same. The model focuses on patterns from past students' academic records and backgrounds to forecast bar success, ignoring demographics like gender or race. In comparison, admitted students typically had stronger GPAs, higher LSATs, and upper-year deciles that signaled more consistent performance. This rejection doesn't reflect your full potential or effort—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, strengthening your undergraduate record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and full-time commitment. Reapplying after addressing these key areas could shift the model's view in your favor, and many schools value persistence in applicants like you. Keep building on your solid family support and academic foundation—you're already showing the drive needed for law.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

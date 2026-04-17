@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 142,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:34:01.015113",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 62% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed. This decision hinged most strongly on your Year 3 school decile ranking of 3, which placed you in the lower third of your peers—well below the typical student's midpoint of around 5.5—and this was the biggest factor pushing the prediction toward failure. Next in influence was your upper-middle family income bracket, which, compared to the dataset average, nudged the model further toward expecting challenges in bar success. Your Year 1 decile of 3, also lower than the average of about 5.7, added to this concern by signaling early academic struggles relative to others. While your undergraduate GPA of 3.10 is close to the average of 3.21, and your LSAT score of 34 trails the typical 36.7 somewhat, these played smaller roles here; your full-time student status aligns with the vast majority at 92.7%, so it didn't sway things much. In contrast to many successful applicants who rank higher in school deciles and come from varied income backgrounds that better predict bar passage, your profile stood out as riskier in these key areas. This isn't a judgment on your potential or hard work—models like this look at patterns from thousands of students to flag statistical risks. To move forward, consider retaking the LSAT to boost your score above the average, seeking ways to improve your academic decile through stronger performance or additional coursework, and gathering letters of recommendation that highlight your resilience as an Asian male navigating competitive environments. You might also explore targeted bar prep programs or community college pathways that have helped similar students defy predictions. Reapplying after addressing these gaps could shift your odds significantly, and many have turned rejections into success stories. Keep pushing—your determination will make the difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

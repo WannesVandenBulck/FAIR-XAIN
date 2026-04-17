@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 276,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:30.042790",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.10—below the typical 3.21 average—your LSAT score of 26, which is notably lower than the average 36.7, and your school decile rankings from early and later years. It also considered your middle family income bracket and your plan to attend part-time, which is less common as only about 7% of students do so compared to 93% full-time. Overall, the model estimated a 78% probability that you would fail the bar exam on your first attempt, which is why your application was rejected—law schools use this to prioritize candidates with stronger predicted odds of success. The three biggest factors driving this prediction were, in order of influence, your Year 3 school decile ranking of 1 (far below the average 5.53), your LSAT score, and your undergraduate GPA. Your low Year 3 decile had the strongest pull toward predicting failure, as it signals underperformance relative to peers in that critical later stage of schooling. Similarly, your LSAT score pushed the prediction firmly in the direction of bar exam struggles, reflecting a key hurdle for many applicants. On a more positive note, your undergraduate GPA worked in your favor, nudging the odds slightly toward passing compared to what the model might expect otherwise. When stacked against typical students who pass, your profile shows weaker spots in these core academic indicators, placing you outside the stronger performers the model favors. This doesn't define your potential, but it explains the decision in straightforward terms. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through additional coursework or a post-bac program, and exploring full-time options if feasible—these steps could reshape your profile for future applications. Many students in similar situations improve their odds with targeted preparation, so reviewing your transcript and seeking advising could be a smart next move.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 37,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:33:08.946200",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like family income and study plans. The model estimated a 72% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes and resources. This decision hinged primarily on your school decile rankings from earlier years, which stood out as the strongest factors pushing the prediction toward failure. Specifically, your Year 3 decile of 2—well below the typical student's 5.5—had the biggest negative impact, signaling to the model that your performance in that key phase was weaker than most applicants who succeed on the bar. Your Year 1 decile of 3, also lower than the average around 5.7, reinforced this concern as the second-most influential factor dragging the prediction downward. On a brighter note, your LSAT score of 30.5 pulled in the opposite direction, helping to offset some risk since it's a solid indicator of potential despite being below the group average of 36.7. Your undergraduate GPA of 3.3 actually exceeds the typical 3.2, and your middle family income bracket aligns with many peers, but these played smaller roles here compared to your deciles. While planning full-time studies is the norm for 93% of students and didn't sway things much, the model fixated on those early academic deciles as red flags for bar success, unlike stronger profiles where higher rankings dominate positively. This placed your overall profile below the threshold of typical admitted students, who generally show mid-to-high deciles alongside balanced scores. It's understandable to feel frustrated, especially given the extra hurdles Black applicants like yourself often face in competitive fields. To move forward, consider retaking courses or programs to boost your decile rankings, prepping intensively for a higher LSAT retake, and seeking bar prep resources tailored for underrepresented students—many have turned similar predictions around with targeted improvements before reapplying.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

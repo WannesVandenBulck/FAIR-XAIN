@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 117,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:10.053927",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.30, LSAT score of 32.50, middle family income bracket, full-time student status, and school deciles of 2 in both Year 1 and Year 3, reflecting your academic journey so far. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 47.9% chance that you would fail it on your first try—a risk high enough to lead to the rejection of your application, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most to the model. Your LSAT score was the top factor pulling the prediction toward success, as it suggested a solid potential for passing the bar despite being below the average of 36.70. However, your Year 3 decile ranking of 2—one of the lowest in your school and well below the typical 5.53 average—emerged as the strongest push toward the failure prediction, signaling to the model a concerning dip in performance relative to peers. Close behind, your undergraduate GPA acted as another positive force, slightly favoring passage since your 3.30 exceeds the dataset average of 3.21, showing resilience in your prior college work. Compared to typical students who pass the bar, your lower school deciles put you in a tougher spot, as higher rankings there strongly correlate with first-try success, while your LSAT and GPA align more closely with those who make it through. Your full-time status matches the vast majority of students (over 92%), so it didn't sway things much, and your middle-income background is common too. This close 47.9% call means you're right on the edge—not a sure failure, but enough risk for the school to pass. To turn this around, consider retaking the LSAT to boost it further or strengthening your recent academic deciles through additional coursework or a post-bac program, which could reshape how models view your bar exam odds. Many students in similar positions, including Hispanic applicants, have succeeded by targeting these areas and reapplying—your above-average GPA gives you a strong foundation to build on. Keep pushing; law school doors can reopen with targeted improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

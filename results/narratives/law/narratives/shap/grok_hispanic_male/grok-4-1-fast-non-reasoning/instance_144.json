@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 144,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:57.343608",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 24, and your school decile rankings from Year 1 and Year 3, placing you in the 3rd and 2nd deciles respectively—both notably lower than the typical student's 5th or 6th decile averages. You've also indicated you'll be pursuing full-time studies, which is the norm for most applicants, and come from a middle-income family background. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted an 82% chance that you would fail the bar on your first try, tipping the scales against your application in a highly competitive process. This high failure probability means the school sees too much risk in admitting you, as they prioritize students likely to pass the bar and succeed in practice. The decision hinged most heavily on your LSAT score, which stood out as the strongest factor pushing the prediction toward failure—it's well below the average of 36.7, signaling to the model a foundational gap in the skills needed for bar success. Next in influence was your Year 3 decile ranking, also driving the failure prediction because it reflects weaker performance relative to peers compared to the typical 5.53 average. Your undergraduate GPA provided the only notable counterbalance, nudging slightly toward a passing prediction despite being under the 3.21 average, showing it helped but wasn't enough to offset the others. In contrast to typical admitted students, who often enter with stronger test scores and higher decile rankings, your profile aligns more closely with those who historically struggled on the bar. This isn't a judgment on your potential or background—many from similar Hispanic and middle-income families thrive with targeted preparation—but the model weighs these academic signals heavily. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic deciles through additional coursework, and gathering strong recommendation letters that highlight your resilience. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value your unique perspective. Keep pushing; your determination as a first-generation or underrepresented aspirant can redefine this path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

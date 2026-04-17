@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 78,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:03.407220",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 56.8% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed strongly. The primary reason for this decision was your Year 3 school decile ranking of 2, which placed you in the bottom 20% of your peers—far below the typical student's average of around the 5th or 6th decile—and this stood out as the strongest factor pushing the prediction toward failure. Your Year 1 decile of 2, also well below the average of about 5.7, reinforced this concern, suggesting early academic challenges that carried through. On a more positive note, your undergraduate GPA of 3.20 aligned closely with the typical 3.21 average, which helped pull the prediction somewhat toward success. Your LSAT score of 35 was slightly below the average of 36.7, your family's middle-income bracket matched common profiles, and your full-time student status was typical for over 90% of applicants, so these played smaller roles. Compared to students who typically pass, your lower decile rankings in key school years deviated most sharply from the stronger performances that predict bar success. This combination signaled higher risk to the model, even with your solid GPA. While disappointing, this doesn't define your potential—many overcome similar starts. To move forward, consider retaking courses or programs to boost your decile rankings, preparing intensively for a higher LSAT retake, and gathering strong recommendation letters highlighting your resilience. Exploring post-baccalaureate options or community college bridges could also rebuild your academic profile. With targeted improvements, you can reapply stronger next cycle. Keep pushing; your determination as a first-generation or driven Asian applicant can turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

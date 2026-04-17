@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:22.980457",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.50, an LSAT score of 30, middle-family income background, and your school deciles from Year 1 (2nd decile) and Year 3 (1st decile), along with planning to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 40.3% chance you'll fail the bar—high enough that it tipped the decision to reject your application, as the school prioritizes applicants likely to pass on their first try. This prediction wasn't random; it hinged on just a few key factors from your profile that stood out compared to typical students. Your undergraduate GPA was the strongest positive force, as it's above the average of 3.21 and significantly pulled the prediction toward expecting you to pass, showing your college performance signals real potential. However, your Year 3 school decile of 1—well below the typical 5.53 average—was the biggest drag, strongly pushing the model toward predicting failure because it suggests challenges in maintaining high rankings later in your studies. Your LSAT score of 30, lower than the average 36.70, also nudged things toward failure, though with less force than your Year 3 decile. Overall, these top three elements—your solid undergrad grades helping you, but weaker later decile and LSAT holding you back—outweighed other details like your full-time plans or family income bracket. Compared to peers who got approved, you stack up well on GPA but lag on LSAT and especially those later-year deciles, which the model sees as the strongest bar exam predictors. It's tough news, especially knowing the barriers many Hispanic students face in competitive fields like law. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your recent academic deciles through grad courses or targeted prep, and reapplying next cycle with those updates—many students in similar spots have turned it around. Schools value persistence, and refining these areas could flip the model's outlook in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:30:44.886977",
+  "status": "success",
+  "narrative": "As a Black male applying to law school, you've shared your strong undergraduate GPA of 3.70, which stands out well above the typical 3.21 average, along with your LSAT score of 34 and plans to attend part-time while managing a lower-middle family income background. Your Year 1 school decile ranking of 3 is below the average of about 5.7, but it's your Year 3 decile of 1—far below the typical 5.5—that caught the model's attention most. The admissions model, trained on past students' data to predict first-time bar exam success, calculated a 51% probability that you would fail the bar on your first try, tipping the scale just enough to reject your application as a precautionary measure for the program's outcomes. The biggest factor pushing toward this failure prediction was your low Year 3 decile ranking, which strongly signaled to the model a potential struggle in advanced coursework compared to peers who ranked higher. On a more positive note, your impressive undergraduate GPA pulled significantly in the opposite direction, suggesting the model saw real academic strength there that could help you pass. Your LSAT score also helped counterbalance the prediction, nudging it toward success, though not quite enough to overcome the Year 3 concern. Overall, these three elements—your Year 3 performance as the top influencer toward failure, followed by your undergrad GPA and LSAT favoring passage—were the key drivers in this close call, especially when viewed against students who typically rank higher in later years and still pass the bar. Being in the rare part-time track, chosen by only about 7% of applicants, may have added some uncertainty, but it wasn't the main issue here. This isn't a judgment on your potential as a Black man pursuing law—many from similar backgrounds succeed with targeted preparation. To move forward, consider retaking courses or programs to boost your later-year rankings, perhaps aiming for a higher LSAT, and seek bar prep resources early; reapplying after strengthening these could flip the model's view and open doors at schools valuing your unique resilience.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

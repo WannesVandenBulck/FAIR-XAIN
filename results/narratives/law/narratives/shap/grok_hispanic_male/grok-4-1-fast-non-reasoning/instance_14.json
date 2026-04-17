@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:46.537535",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 40, Year 1 school decile of 3, Year 3 decile of 4, upper-middle family income, and plans to attend full-time. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 67% chance that you would fail it on your first try—high enough that your application was rejected to minimize the risk of poor bar passage outcomes for the school. This prediction hinges on just a few key aspects of your profile that stood out as the strongest influences. Most critically, your undergraduate GPA was the top factor pushing the model toward forecasting failure, as it signaled lower academic readiness compared to typical applicants. Next, your Year 1 school decile ranking similarly weighed against you, suggesting early performance that the model links to bar struggles. On a brighter note, your LSAT score was the most significant positive influence, pulling the prediction back toward success since it's above the average of 36.7 and shows real potential in logical reasoning skills. Compared to other students, where undergrad GPAs average 3.21 and deciles hover around 5-6, your metrics in those areas fell short of what's usually needed to tip the scales favorably. Your full-time status aligns with the vast majority (over 90%) who succeed, and your family background is solid, but they weren't decisive here. This isn't a judgment on your character or determination—many from similar Hispanic backgrounds overcome these hurdles with targeted effort. To move forward, consider retaking the LSAT to build on your strength there, bolstering your GPA through a post-bac program or relevant coursework, and seeking mentorship from law students who've boosted their early deciles. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value your unique path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

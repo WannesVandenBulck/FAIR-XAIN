@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:36.445319",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 83% chance that you would not pass based on your profile. This high predicted risk of failure means the university uses it as a threshold to prioritize applicants more likely to succeed right away. The model's decision hinged most strongly on three key factors from your background: your planned part-time enrollment status, your Year 3 grade decile ranking of 3, and your middle family income bracket.\n\nYour choice to attend part-time stood out as the biggest influence pushing the prediction toward failure, since among those who passed the bar, over 93% were full-time students—part-time paths often correlate with added challenges in maintaining the intense focus needed. Next, your lower Year 3 decile of 3, compared to the average of nearly 6 for bar passers, signaled to the model a dip in performance that raised concerns about building the sustained academic strength required for the exam. Your middle income level played a smaller but still notable role in tipping the scales toward risk, as successful students were more often from upper-middle or high-income families, which the model links to greater resources for preparation.\n\nIn contrast, your undergraduate GPA of 3.20 was close to the 3.24 average of those who passed, and your LSAT of 33, while below the typical 37 for passers, wasn't the dominant factor here—nor were other elements like your Year 1 decile of 5. Overall, your profile fell short of the patterns seen in accepted students, who typically combined full-time commitment, stronger later-year rankings, and socioeconomic advantages that align with bar success.\n\nTo move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your later-year grades to climb into a higher decile, and exploring full-time options if feasible—these steps could significantly shift your predicted odds. You might also gather letters highlighting your resilience or any unique strengths from your background that could sway a human reviewer. Many students in similar situations reapply after targeted improvements and get accepted—keep pushing, as your solid undergrad record shows real potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 325,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:51:20.795110",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows solid strengths like an undergraduate GPA of 3.20, which is right around the typical 3.21 average for students in this dataset, and a strong Year 1 decile ranking of 8th out of 10, well above the average of about 5.7. However, your LSAT score of 26 falls notably below the dataset average of 36.7, which played a significant role in the model's assessment. The model predicts a 43% probability that you would fail the bar exam on your first try, and because this risk threshold was crossed, your application for admission was rejected—law schools use this prediction to prioritize applicants seen as more likely to pass the bar and succeed in practice. The most influential factor pushing toward this failure prediction was your LSAT score, as lower scores like yours have historically correlated with higher bar exam risks in the data from past students. Counterbalancing that, your high Year 1 decile ranking was the strongest positive influence, suggesting your early academic performance signals potential to pass, much stronger than what's typical. Your undergraduate GPA also helped pull the prediction toward success, aligning closely with averages and showing consistent capability. Compared to typical students who pass the bar, your early grades stand out positively, but the LSAT gap mirrors patterns in lower-performing groups, tipping the overall balance. This isn't a judgment on your potential as a Black man from a supportive background—many with similar demographics overcome these metrics through targeted preparation. To move forward, focus on retaking the LSAT to boost your score closer to or above the 36.7 average, as that single change could dramatically shift future predictions. Consider supplemental courses or tutoring to strengthen any weaker academic areas like your Year 3 decile of 3, which was below average. Reapply after building this evidence of bar exam readiness, and explore schools with holistic reviews that weigh your full story. Your full-time commitment is a plus, matching the norm for 93% of students, so lean into that dedication. With strategic steps, you can rewrite this prediction and secure the admission you deserve.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

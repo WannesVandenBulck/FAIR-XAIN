@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 370,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:34.239123",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.20—right around the typical 3.21 average for students in this dataset—your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try. The model estimated a 40% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting students predicted to pass with high confidence. The key factor pushing the prediction toward failure was your planned part-time enrollment status, which is uncommon—only about 7% of students opt for this compared to 93% full-time—and the model sees it as the strongest risk signal, likely due to its association with divided focus or other challenges in past cases. On a more positive note, your Year 3 school decile ranking of 6 was a significant counterbalance, pulling the prediction toward success since it shows stronger performance relative to peers and above the average decile of 5.53. Similarly, your Year 1 decile of 8 provided another helpful boost, well above the typical 5.71 average, highlighting early academic promise that the model weighed favorably. Other elements, like your middle family income bracket and LSAT score of 30—which is below the 36.7 average—played supporting roles but weren't the top drivers here. Compared to typical students who pass, your part-time choice stands out as the biggest deviation, while your decile rankings align with or exceed those of successful applicants. This isn't a judgment on your potential as an Asian male student with your background; it's the model's data-driven read on bar exam patterns. To move forward, consider reapplying with a full-time commitment, as that alone could flip the prediction—perhaps by boosting your LSAT through targeted prep or strengthening recent grades to elevate your deciles further. You might also explore schools with flexible programs that value part-time paths or gather evidence like work-study success stories to contextualize your choice. Retaking the LSAT to approach the average could help too, showing the model your upward trajectory. With these adjustments, your strong early deciles position you well for a different outcome next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

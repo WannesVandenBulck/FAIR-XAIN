@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:13.658304",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 54.9% chance that you would fail the bar exam on your first try, tipping the scales just over the threshold we use for admissions decisions. This model looks at patterns from thousands of past students to forecast bar exam success based on academic and background factors, aiming to admit those most likely to pass and thrive in practice. For you, the three biggest influences on this prediction were your Year 3 school decile ranking, your LSAT score, and your Year 1 school decile ranking—ranked in that order by their impact. Your solid Year 3 decile of 6 worked strongly in your favor, as it's right around the average for students who passed the bar (about 5.91), pulling the prediction toward success much like it does for many admitted applicants. In contrast, your LSAT score of 32.5 pushed notably toward a failure prediction, since it falls well below the 37.27 average among those who passed, making it a standout concern compared to typical accepted students. Your Year 1 decile of 4 also contributed toward failure, lower than the 6.04 average for bar passers, highlighting an early academic hurdle that the model weighed heavily against you. While your upper-middle family income aligns with nearly half of those who passed and your choice to study full-time matches over 90% of successful students, these didn't outweigh the top concerns. Your undergraduate GPA of 2.9, below the 3.24 average for passers, added to the picture but wasn't among the strongest drivers here. Overall, your profile shows promise in later performance and stability, but the model saw risks in your earlier grades and LSAT that set you apart from the stronger averages of admitted students. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as that's a key lever for shifting predictions—many students in similar spots have succeeded this way. Strengthening recent academic deciles through targeted prep or additional coursework could also help demonstrate upward momentum. We encourage reapplying after addressing these areas, as the model rewards clear improvement in its top factors.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

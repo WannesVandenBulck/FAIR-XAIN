@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 284,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:48:50.460397",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates applicants based on factors like academic records, test scores, and background to forecast first-time bar exam success, estimated a 51.3% chance that you would fail the bar exam. This prediction tips just over the threshold we use for admission decisions, prioritizing students with stronger projected outcomes to maintain high pass rates. For context, you're a Black male with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and middle family income, planning to attend full-time like most applicants. However, the model's decision hinged on a few key aspects of your record, starting with your Year 3 school decile ranking of 1st, which was the strongest signal pushing toward a failure prediction since it indicates performance in the bottom 10% compared to peers and well below the average 5.53 decile. Your Year 1 decile of 1st also contributed toward that concerning outcome, though with less force, again highlighting early struggles relative to the typical 5.71 average. On a brighter note, your undergraduate GPA played the most significant role in the opposite direction, strongly pulling the prediction toward bar exam success and offsetting some risks. While your LSAT score of 29 is notably below the 36.7 average, it wasn't among the top influences here. Compared to typical students who pass the bar on their first try, your lower high school deciles stand out as weaker than the stronger mid-range performances that often predict success, even with your respectable college grades. This combination made the model view your bar passage odds as riskier than for most admits. To move forward, consider retaking the LSAT to boost your score closer to average, seeking targeted academic support to improve decile rankings in future evaluations, or exploring post-baccalaureate programs to strengthen your record. Many students in similar situations have succeeded by addressing these gaps—your above-average GPA shows real potential, so persistence could shift the odds in your favor next time. We encourage reapplying after bolstering these areas.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

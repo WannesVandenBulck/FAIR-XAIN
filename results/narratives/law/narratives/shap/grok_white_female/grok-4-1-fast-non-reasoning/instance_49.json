@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:39.412073",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 44.5% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.40, LSAT score of 30.50, Year 1 and Year 3 grade deciles both at 2, and your middle family income bracket, among other details like being a full-time student. Among students who passed the bar, the average LSAT is much higher at 37.27, and typical Year 1 and Year 3 deciles are around 6, highlighting where your profile stands out. The three most influential factors in pushing your prediction toward failure were your Year 3 grade decile, followed by your Year 1 decile and then your undergraduate GPA. Your Year 3 decile of 2 had the strongest pull toward predicting bar failure, as it signals performance in the lower range compared to successful students' averages near 6. Similarly, your Year 1 decile of 2 contributed toward that unfavorable outcome, reinforcing a pattern of early challenges. On a brighter note, your undergraduate GPA of 3.40 worked in your favor, nudging the prediction toward bar passage since it exceeds the 3.24 average among those who succeeded. Your middle family income aligns with about 35% of bar passers, who are more often from upper-middle or high brackets, but it played a lesser role here. Full-time status matches the norm for 93% of successful students, so it didn't sway things much either. Overall, the model saw your grades in later undergrad years and early law school as the biggest risks, outweighing your solid prior GPA. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your class performance to climb those deciles, and perhaps seeking targeted bar prep resources early. Many students in similar spots have succeeded by addressing these gaps—reapplying after targeted improvements could shift your odds significantly.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

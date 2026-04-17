@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 84,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:12.347549",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.0 and plans to attend law school full-time, you've put real effort into your application, including your LSAT score of 29 and background from a lower-middle income family. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 52.6% chance that you would fail it—crossing the threshold that led to your rejection. This prediction hinges on a few key aspects of your academic record and background that stood out as the strongest influences. Most importantly, your Year 3 school decile ranking of 2—well below the typical student's 5.53—pushed the model heavily toward predicting bar failure, signaling to it that your later undergraduate performance might not translate to bar success. Your Year 1 decile of 3, also lower than the average of 5.71, reinforced this concern as the next biggest factor pulling in the same direction. On a more positive note, your lower-middle family income bracket worked in your favor, nudging the prediction toward expecting you to pass, perhaps reflecting resilience often seen in students from similar backgrounds. Compared to typical applicants, where full-time status is the norm at over 92%, your choice aligns with the majority but didn't sway the outcome much here. These top three factors—your Year 3 and Year 1 deciles outweighing the lift from family income—tipped the scales against you, even with your respectable GPA close to the 3.21 average. It's tough, especially knowing the extra hurdles many Black men face in competitive fields like law, but this model's view is narrow, based solely on patterns from past bar-takers. To move forward, consider retaking the LSAT to boost your score above the 36.7 average, or strengthening your later academic deciles through additional coursework or a post-bac program. You could also target schools with holistic reviews that weigh personal stories of perseverance from lower-income backgrounds more heavily. Gathering strong letters highlighting your potential could help too. Keep pushing—many in your position have turned rejections into bar-passing success by addressing these exact gaps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

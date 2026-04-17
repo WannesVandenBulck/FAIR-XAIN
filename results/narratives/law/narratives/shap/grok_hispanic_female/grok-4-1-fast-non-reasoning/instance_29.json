@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:29.544021",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold that leads to rejection. This prediction draws from your academic record, including your undergraduate GPA of 3.30, LSAT score of 24, Year 1 and Year 3 decile rankings, family income in the middle bracket, and your plan to attend part-time. Among the factors considered, your LSAT score had the strongest influence, pushing the model toward predicting failure because it falls well below the average of 37.27 seen in students who passed the bar. On a more positive note, your undergraduate GPA stood out as the second-most influential factor, actually working in your favor by exceeding the 3.24 average of successful bar takers and nudging the prediction toward passing. Similarly, your Year 3 decile ranking of 4 provided another helpful boost, as it was stronger than the 5.91 average for those who passed, helping to counterbalance some concerns. Your middle family income aligns with about a third of bar passers, which was neutral here, while choosing part-time status is less common among them—only about 7%—though it played a smaller role overall. Compared to typical accepted students, who often enter full-time with higher LSATs and balanced deciles closer to the top, your profile showed strengths in later-year performance and GPA that softened the model's concerns but couldn't fully offset the LSAT's heavy weight. This close call at 51% failure probability means you're not far from the profile of those approved, highlighting how pivotal standardized test scores can be in these decisions. To move forward, consider retaking the LSAT to aim closer to 37 or above, as even a modest improvement could shift your predicted odds dramatically in favor of passing the bar. Strengthening your recent academic deciles through additional coursework or highlighting part-time success stories in a reapplication might also help. Many students in similar situations have succeeded by addressing their standout challenge head-on, and with your solid GPA foundation, you're well-positioned to build a stronger case next time. We encourage reapplying after bolstering that key area.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

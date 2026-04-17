@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 236,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:54.334219",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.30, an LSAT score of 35, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 53.1% chance that you would fail the bar exam—tipping just over the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or background, but a data-driven assessment to help the school select applicants most likely to thrive and pass on their first try. The biggest factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which placed you in the lower end compared to the typical student's 5.53 average, signaling to the model a potential challenge in sustaining strong academic performance heading into law school. On a more positive note, your undergraduate GPA stood out favorably, as it's above the dataset average of 3.21 and pulled the prediction toward expecting bar passage. Similarly, your LSAT score, though slightly below the average of 36.70, still contributed helpfully by nudging the odds in favor of success rather than failure. These three elements—your Year 3 deciles, undergrad GPA, and LSAT—were the most influential in shaping the model's view of your bar exam outlook, outweighing other details like your family income or full-time status. Compared to typical students who passed, your profile shows solid strengths in GPA and LSAT but a Year 3 performance that mirrored patterns among those who struggled more on the bar. While this outcome is disappointing, especially given your determination as a Hispanic applicant navigating these paths, it doesn't define your future. To strengthen a future application, focus on boosting your academic deciles through targeted study habits or additional coursework, retake the LSAT if feasible to push closer to or above average, and gather strong letters highlighting your resilience. Many students in similar situations have improved their profiles and succeeded—consider community college courses, bar prep previews, or even part-time work experience to build a more compelling case next time. You're clearly invested in this journey, and with strategic steps, you can shift the model's perspective in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

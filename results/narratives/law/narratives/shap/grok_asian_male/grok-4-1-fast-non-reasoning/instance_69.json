@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:29.533908",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 3.50, an LSAT score of 27.50, low family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the bottom first decile—far below the typical student's mid-range performance around the fifth or sixth decile. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 69% chance you'll fail the bar exam, tipping the scales toward rejection to protect the school's outcomes. This high failure risk outweighed your strengths, leading to the denial despite your solid undergrad grades that actually exceeded the average of 3.21. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, as being in the lowest group signals weaker late-stage academic momentum compared to peers who climb higher. Next in impact was your Year 1 decile, similarly at the bottom, which reinforced concerns about early struggles that didn't improve. On a brighter note, your undergraduate GPA pulled in the opposite direction, nudging the prediction toward bar passage success because it stands above what the model sees as typical. Your LSAT score, well below the average of 36.70, and low family income played supporting roles in the overall risk assessment, though full-time status aligned with the vast majority of students. In essence, while many applicants pass with stronger high school deciles and LSATs, your profile clustered more with those who faced bar hurdles. To move forward, consider retaking the LSAT to boost it closer to average, seeking academic coaching to improve decile rankings in any remaining years, and exploring programs with bar prep support tailored for students from low-income backgrounds like yours. Building a stronger narrative around your resilience as an Asian male overcoming early challenges could also shine in appeals or reapplications. With targeted steps, you can shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

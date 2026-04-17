@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 54,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:56.664503",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 41.3% chance that you would fail it—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.40, LSAT score of 36, Year 1 and Year 3 school deciles of 5 and 4 respectively, upper-middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average LSAT is 37.27 and Year 3 deciles average 5.91, giving context to how the model weighed your profile. The three most influential factors in pushing your prediction toward failure were your undergraduate GPA, LSAT score, and Year 3 decile, in that order of impact. Interestingly, your solid undergraduate GPA actually worked in your favor, nudging the model toward predicting you'd pass by standing out above the 3.24 average among bar passers. Your LSAT score similarly helped, pulling the prediction toward success compared to typical admitted students. However, your Year 3 decile had the strongest pull in the opposite direction, significantly increasing the model's concern about bar failure since it falls below the levels seen in most who succeed. Your full-time status aligns well with the 93.2% of bar passers in that category, and your upper-middle income bracket is common among them at 45.1%, so those didn't sway things much. Overall, while your GPA and LSAT provided some positive momentum, the Year 3 performance tipped the scales enough to cross into rejection territory when compared to profiles of accepted students who typically show stronger late-stage rankings. This isn't a judgment on your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, strengthening your Year 3 record through additional coursework or achievements, and reapplying next cycle with an updated profile that addresses these key areas. Many students in similar situations have succeeded by targeting these improvements, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

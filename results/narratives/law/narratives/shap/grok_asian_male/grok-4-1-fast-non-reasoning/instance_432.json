@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 432,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:52:26.904478",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and a strong LSAT score of 41, which stands out well above the average of 36.70, you've put together an impressive profile for law school admission. Your family falls into the middle income bracket, and you're planning to attend full-time, which is the norm for over 90% of students in this dataset. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 75% probability that you would fail the bar exam, leading directly to the rejection of your application. This high failure risk outweighed your strengths, as the school uses this prediction to prioritize applicants likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 3rd, which is notably lower than the average 5.53, signaling weaker performance in later undergraduate years compared to peers. Next in importance, your Year 1 decile of 5th—below the typical 5.71—further reinforced concerns about inconsistent academic momentum from the start. While your LSAT score was a bright spot, actively working against the failure prediction by highlighting your aptitude in a way that typically favors success, it wasn't enough to offset those earlier academic signals. In contrast to many successful applicants, who maintain higher decile rankings throughout undergrad, your trajectory dipped in ways that raised red flags for long-term bar readiness. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds thrive—but a data-driven assessment based on patterns in the records. To move forward, focus on bolstering your later academic record, perhaps through a post-baccalaureate program or additional standardized tests, and reapply after demonstrating upward trends. Consider schools with holistic reviews that might weigh your LSAT and GPA more heavily, or seek feedback from admissions counselors on targeted improvements. With your strong test scores as a foundation, targeted steps could shift the model's view in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

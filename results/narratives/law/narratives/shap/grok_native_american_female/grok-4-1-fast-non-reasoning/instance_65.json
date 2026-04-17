@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 65,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:14:56.702278",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—high enough to trigger rejection as we prioritize admitting students with stronger predicted odds of bar success. This prediction drew heavily from your overall academic profile, including your undergraduate GPA of 2.60 and LSAT score of 24, which fell well below the averages of 3.24 and 37.27 seen among students who passed the bar. Among the key factors shaping this decision, your LSAT score stood out as the most influential, strongly pushing the model toward predicting failure because it signals potential challenges in the rigorous reasoning demands of law school and the bar. In contrast, your undergraduate GPA worked in your favor, pulling the prediction somewhat toward success by showing a solid foundation despite not reaching typical passers' levels. Your lower-middle family income bracket also helped nudge things positively, as the model views students from similar backgrounds as capable of succeeding when other strengths align, though this effect was moderate compared to the drag from your test scores. Your Year 1 and Year 3 deciles of 1 and 3, respectively, further highlighted early academic struggles relative to peers who passed, layering onto the overall risk picture. Your choice to pursue full-time studies aligns with the vast majority of bar passers, so it didn't sway the outcome much either way. Compared to typical accepted students, whose profiles cluster around higher test scores, GPAs, and consistent class rankings, your metrics placed you in a higher-risk group for bar failure, even with some offsetting strengths. This isn't a judgment on your potential or background—it's the model weighing patterns from thousands of past students to guide admissions fairly. To move forward, consider retaking the LSAT to boost your score, as that's the single biggest lever here, and perhaps strengthening your GPA through post-bac courses or highlighting any upward trends in your record. Building a standout personal statement that showcases resilience, especially from your unique circumstances, could also help in reapplying or appealing. Many students in similar spots have improved their profiles and succeeded—reach out to admissions for targeted advice on bolstering your next application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 357,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:30.553425",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 37, a solid undergraduate GPA of 3.10, upper-middle family income, and your plan to attend full-time, along with your early academic deciles from school. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 91.9% chance that you would fail the bar exam—far higher than what it sees in most applicants who get approved. This high predicted risk is why your application was rejected; the school uses this model to prioritize students likely to pass the bar and succeed in their program. The biggest factor pushing toward this failure prediction was your Year 3 school grade decile of 1, which is in the bottom 10% compared to the typical student's middle-of-the-pack standing around the 5th or 6th decile. Nearly as influential was your Year 1 decile, also a 1, signaling early struggles that the model strongly associates with later bar exam challenges in similar students. Your LSAT score worked in your favor, pulling the prediction somewhat toward passing since it's slightly above the average of 36.7 and shows real promise in test-taking ability. Overall, your profile stands out from typical admitted students because those early low deciles are much weaker than the averages, outweighing your other strengths and tipping the scales heavily toward predicted failure. While your background as a Hispanic male doesn't directly factor into the top influences here, the model focuses purely on these performance signals from past data. This isn't a judgment on your potential—it's just how your academics aligned with historical bar outcomes. To move forward, consider retaking courses or programs to boost those early deciles, perhaps through community college or targeted prep that addresses whatever held you back in Years 1 and 3. Strengthening that foundation could dramatically shift future predictions, and many students in your position have succeeded by focusing there before reapplying. You're clearly motivated with that LSAT under your belt—keep building on it.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

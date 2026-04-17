@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 414,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:04.074497",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select students likely to succeed on their first try. Your profile includes a Year 1 school decile of 4, a Year 3 decile of 2, middle family income, an LSAT score of 23, an undergraduate GPA of 2.90, and plans to attend full-time—solid foundations from your experiences, but areas where the model sees risks. The model estimates a 49% probability that you would fail the bar exam on your first attempt, which is high enough to tip the decision toward rejection, as the school prioritizes applicants with stronger predicted odds of passing. The key factors driving this prediction were your LSAT score, undergraduate GPA, and Year 3 school decile ranking, in that order of influence. Most critically, your LSAT score of 23—well below the average of about 37—strongly pushed the prediction toward failure, signaling to the model a potential gap in the standardized reasoning skills vital for bar success. On a more positive note, your undergraduate GPA of 2.90, close to the typical 3.21 average, worked in your favor by nudging the outlook toward passing, showing decent college-level performance. Your Year 3 decile of 2, however, lower than the average of 5.53, added further weight toward the failure prediction, highlighting a dip in relative standing among peers later in your schooling. Compared to typical students in the dataset, who often have higher test scores and grade deciles, your profile aligns more closely with those the model associates with bar struggles, despite your full-time commitment matching the norm for 93% of applicants. This close 49% probability means you're on the edge, not a clear outlier. To strengthen future applications, focus on boosting your LSAT through targeted prep—many students in similar situations see big gains there—and consider ways to improve late-stage academic rankings, perhaps via postgraduate courses or retakes. Your middle-income background and determination as a Hispanic male applicant are assets that schools value; pairing them with these improvements could shift the model's view dramatically. Keep pushing forward—you're close, and with strategic steps, law school doors will open wider.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

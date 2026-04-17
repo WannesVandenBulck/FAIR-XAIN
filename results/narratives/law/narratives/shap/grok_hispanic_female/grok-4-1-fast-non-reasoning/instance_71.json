@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:15.076150",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 56.3% chance that you would not pass—tipping just over the threshold we use to make admission decisions. This prediction draws from details like your undergraduate GPA, LSAT score, class deciles from early undergrad years, family income bracket, and enrollment plans, while setting aside demographics like gender or race. The most influential factor pushing the model toward predicting bar failure was your position in the lowest decile for Year 3 grades, as this stood out sharply compared to the much higher deciles—around the 6th on average—among students who went on to pass the bar. Your LSAT score, while solid, fell a bit below the typical 37-ish mark seen in passers, which pulled the prediction somewhat in the opposite direction, toward expecting success. Similarly, your undergraduate GPA of 3.40 exceeded the average of 3.24 for those who passed, offering another counterbalancing boost that made the model less certain about failure. These three elements—Year 3 decile ranking first in influence, followed by LSAT and GPA—together shaped the overall close-call decision against admission. Your lower-middle family income bracket aligns with a smaller but present group of bar passers (about 9% of them), and planning full-time study matches the norm for 93% of successful students, but neither shifted the scales enough here. Compared to typical admitted students, your profile shows strengths in GPA but hurdles in later-year performance and test scores that echoed patterns in past bar failures. This isn't a judgment on your potential or background—many with similar starting points have succeeded by addressing key gaps. To move forward, consider retaking the LSAT to push closer to or above 37, strengthening your later undergrad record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and full-time commitment. Reapplying after bolstering these areas could flip the model's outlook, as even small improvements in top influencers often lead to acceptance for profiles like yours. You're clearly capable, given your GPA edge, so targeted steps now can pave the way to bar success and admission.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

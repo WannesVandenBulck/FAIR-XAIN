@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 310,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:44:30.464476",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a Year 1 school decile of 4, a Year 3 decile of 3, an undergraduate GPA of 2.90, an LSAT score of 33, upper-middle family income, and plans to attend full-time. The admissions model, trained on data from thousands of past students, predicted a 65% chance that you would fail the bar exam on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction stems from how your background stacks up against patterns in students who historically passed or failed the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile of 3, which is lower than the typical student's 5.53 average and signaled weaker late-stage academic performance compared to peers who passed. Next, your upper-middle family income stood out as a moderate influence toward failure, differing from the broader dataset trends where other income levels more often aligned with bar success. Your undergraduate GPA of 2.90, below the average of 3.21, also contributed in this direction, reinforcing concerns about consistent academic strength. While your LSAT score of 33 and full-time status didn't sway things as strongly, they weren't enough to counterbalance these top concerns relative to successful applicants. In essence, your mid-range early grades slipped in later years, and these academic markers outweighed your solid family background and test scores when compared to the profiles of students who typically pass the bar. This isn't a judgment on your potential as an Asian male with clear drive—many in similar circumstances have overcome such hurdles. To move forward, consider retaking the LSAT to aim above the 36.7 average, strengthening your GPA through post-bac courses or explaining your Year 3 dip in a personal statement, and targeting schools with holistic reviews that value your full-time commitment. Building a stronger narrative around your resilience could shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

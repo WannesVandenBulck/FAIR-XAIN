@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 350,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:05.951854",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, LSAT score of 32, lower-middle family income background, and your grades from earlier years in school, where you ranked in the 3rd decile in Year 1 and the 1st decile in Year 3, along with planning to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 40.7% chance that you would fail it—high enough that your application was rejected to minimize the risk of future struggles. This prediction hinges on a few key aspects of your profile that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your Year 3 school decile ranking of 1, well below the typical student's 5.53 average, suggesting your later academic performance raised concerns about sustaining the rigor needed for law school and the bar. On a more positive note, your family income bracket worked in your favor, pulling the prediction toward success compared to higher-income peers who sometimes face different pressures. Similarly, your undergraduate GPA of 3.20, right around the dataset average of 3.21, provided a steady but not standout contribution toward passing. While your LSAT score of 32 is below the average of 36.70 and full-time status is common, they played smaller roles here. Overall, your situation compares to typical students by having solid but lower-tier high school grades and a modest LSAT, which didn't offset the Year 3 dip enough for the model. To move forward, consider retaking the LSAT to boost your score above average, strengthening your later-year grades through additional coursework or a post-bac program, and highlighting any personal achievements that demonstrate resilience from your background. Gathering stronger letters of recommendation or relevant experience could also help reframe your story for other schools with more holistic reviews. With targeted improvements, you can shift these predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

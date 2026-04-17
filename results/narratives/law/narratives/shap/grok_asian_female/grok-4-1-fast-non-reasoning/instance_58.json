@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:56.891980",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold that leads to rejection. This prediction draws from your academic record, including your undergraduate GPA of 2.60, LSAT score of 23, Year 1 decile ranking of 4th, Year 3 decile of 3rd, lower-middle family income bracket, and part-time enrollment status. Among students who passed the bar, the average LSAT is 37.27, undergraduate GPAs average 3.24, Year 1 deciles average 6.04, and Year 3 deciles average 5.91, placing your metrics notably below those benchmarks. The three biggest factors driving this outcome were your LSAT score, family income, and Year 1 decile ranking. Your LSAT score had the strongest pull toward predicting failure, as it stood out as a major concern compared to successful students. In contrast, your lower-middle family income worked in your favor, nudging the prediction toward success since it aligns with backgrounds that have still led to passing rates, unlike the heavier concentration of middle and upper-middle incomes among bar passers. Your Year 1 decile also helped somewhat, pushing against failure more than it contributed to it. Being part-time, like only 6.8% of those who passed, and other elements like your undergraduate performance added to the overall risk profile. While these insights highlight areas where you differ from typical admitted students—who often enter full-time with stronger early grades and test scores—the model focuses on bar passage potential, not quotas or protected traits. To move forward, consider retaking the LSAT to boost your score significantly, as that's the top lever here, and perhaps strengthening your academic deciles through targeted prep or additional undergrad coursework. Exploring financial aid or scholarships could also frame your background more positively in future applications. Many students in similar spots have succeeded by addressing these gaps—reapplying after improvements often changes the outcome. Keep pushing; your determination as someone balancing part-time commitments shows real resilience.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

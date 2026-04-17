@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 211,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:11:18.885846",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 30, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the 1st decile—meaning your early grades placed you at the bottom of your class compared to typical students who average around the 5th or 6th decile. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated an 83.6% chance that you would fail the bar exam, tipping the decision to reject your application to prioritize applicants with stronger predicted odds of passing. This high failure probability means the model saw your profile as carrying significant risk, even though factors like your full-time commitment aligned with the vast majority of successful students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, as being in the lowest group signaled weaker academic momentum to the model compared to peers who improved or held steady higher up. Next in importance was your Year 1 decile, also at the bottom, which reinforced concerns about foundational performance well below the dataset average. Your upper-middle family income, while a positive note, had a milder counterbalancing effect, nudging slightly toward success but not enough to offset the academic red flags. Overall, your grades in those early years stood out as the biggest drags when stacked against typical students who enter law school with stronger decile positions, higher LSATs around 37, and GPAs near 3.2. This doesn't reflect your full potential or personal drive, especially as a Hispanic student navigating what may have been challenging circumstances. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic record through additional coursework or a post-bac program, and gathering strong recommendation letters that highlight your resilience and commitment. Reapplying after addressing these core areas could shift your predicted odds dramatically, opening doors at schools that value diverse backgrounds like yours. Many students in similar positions have succeeded by targeting these improvements head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

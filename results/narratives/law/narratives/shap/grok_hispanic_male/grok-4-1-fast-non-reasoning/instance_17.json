@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 17,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:55.859777",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, an LSAT score of 34, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the bottom first decile—well below the typical student's mid-range performance around the fifth or sixth decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 69.3% chance that you would fail the bar exam, tipping the scales toward rejection to protect the school's outcomes. This high failure risk directly led to your application's denial, as the model prioritizes admitting those with stronger signals of passing the bar on the first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, since being in the lowest group signals weaker academic momentum compared to peers who climb higher by that stage. Next in impact was your Year 1 decile, also at the bottom, which reinforced concerns about early struggles that often persist. Your undergraduate GPA provided the strongest counterbalance, pulling the prediction somewhat toward success because, while below the average of 3.21, it still showed some foundational strength relative to your overall profile. These top three academic markers overshadowed other details like your LSAT or family background in shaping the decision. Compared to typical students who pass the bar, your low deciles stand out as red flags, as most successful ones rank in the middle or higher, while your GPA, though helpful, couldn't fully offset them. It's understandable to feel frustrated, especially as a first-generation or underrepresented applicant navigating these metrics. To move forward, consider retaking the LSAT to boost it above the average 36.7, strengthening your undergrad record through a post-bac program, or targeting schools with holistic reviews that weigh your Hispanic background and full-time commitment more favorably. Gathering strong recommendation letters highlighting your resilience could also help reframe your story in future applications. With targeted improvements, you can shift these predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

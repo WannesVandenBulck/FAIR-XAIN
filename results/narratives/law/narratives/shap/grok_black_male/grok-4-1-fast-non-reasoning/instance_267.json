@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 267,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:47:48.278788",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile, including your Year 1 school decile of 5 (slightly below the average 5.71), Year 3 decile of 4 (below the average 5.53), middle family income bracket, LSAT score of 28.50 (well below the average 36.70), and your plan to attend full-time like most applicants. It calculated a 52.7% probability that you would fail the bar exam on your first attempt, tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on a few key factors from your background that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your LSAT score, as its lower-than-average level signaled higher risk to the model compared to students who typically pass. On a more positive note, your undergraduate GPA pulled strongly in the opposite direction, suggesting better odds of success because it exceeds what the model sees in most applicants. Your Year 1 school decile ranking also helped your case somewhat, nudging the prediction toward passing since it was reasonably competitive, though not exceptional. Overall, while your GPA and early academic standing stood out favorably against typical students, the LSAT's dominant negative pull outweighed them, aligning your profile more closely with those predicted to struggle on the bar. Many successful applicants have LSAT scores closer to or above the 36.70 average, which might explain why the model leaned cautious here. To move forward, consider retaking the LSAT to boost your score, as even a modest improvement could shift your predicted odds dramatically in future applications. Strengthening your overall academic narrative through additional coursework or recommendations could also highlight your strengths beyond these metrics. You're clearly capable, given your GPA edge, so targeted preparation now positions you well for another strong shot at admission. Keep pushing—many students in similar situations have turned things around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

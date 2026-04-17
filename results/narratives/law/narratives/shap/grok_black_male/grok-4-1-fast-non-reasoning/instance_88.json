@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 88,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:27.555931",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.50, LSAT score of 40, Year 3 school decile ranking of 3, middle family income bracket, and full-time student status—and predicted a 60% probability that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain strong outcomes. Among all the factors considered, your LSAT score had the strongest positive influence, pushing the prediction toward expecting you to pass because it stands above the typical score of around 37. In contrast, your undergraduate GPA was the next most influential factor, driving the prediction toward failure since your 2.50 is notably below the average of 3.21 seen in the dataset. Your Year 3 decile ranking of 3 also contributed toward the failure prediction, as it reflects performance in the lower third of your school, compared to the middle-of-the-pack average. These top three elements—your solid LSAT offsetting weaker GPA and decile—together tipped the scales to that 60% failure risk, even with your full-time commitment aligning with the vast majority of students. Compared to typical applicants who pass, your academic metrics like GPA and decile rank lower, which the model weighs heavily in its bar success forecast. While your LSAT gives you a real edge over averages, the gaps in GPA and later-year performance signal higher risk to the model. To move forward, consider retaking the LSAT to build on your strength or bolstering your GPA through post-baccalaureate courses or a master's program to align closer to successful profiles. Targeted bar prep experience or stronger reference letters highlighting your resilience as a Black male in a competitive field could also help in reapplying. Many students in similar situations improve these key areas and gain admission elsewhere—your path isn't closed, just needs strategic refinement.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

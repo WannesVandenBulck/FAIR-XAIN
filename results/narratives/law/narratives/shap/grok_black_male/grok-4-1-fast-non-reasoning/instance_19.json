@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 19,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:02.864488",
+  "status": "success",
+  "narrative": "As a Black male applicant with a middle-income family background, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles like yours from past students. The model estimated a 46.3% chance that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed right away to maintain their pass rates. Your LSAT score of 36 stood out positively—it's close to the typical student's score of around 37—and was the strongest factor pulling the prediction toward success, showing your potential in that high-stakes test. However, your Year 3 school decile ranking of 2, well below the average of about 5.5, had the biggest negative impact, signaling to the model that your later academic performance placed you in the lower end compared to peers, which strongly pushed toward a failure prediction. Your Year 1 decile of 2, also below the average of roughly 5.7, added further concern, reinforcing a pattern of early underperformance relative to typical students. While your undergraduate GPA of 2.4 is lower than the dataset average of 3.21, and you're planning full-time work like most applicants, these played smaller roles here. Overall, the model saw your academic deciles as red flags outweighing your solid LSAT, especially when many successful bar takers rank higher in school deciles. This doesn't reflect your full potential or personal drive—it’s just one data-driven snapshot. To strengthen future applications, focus on boosting your academic rankings through targeted study habits or additional coursework, perhaps retaking the LSAT if feasible, or gaining practical experience like internships that highlight your resilience. Consider schools with holistic reviews that value diverse backgrounds like yours, or bridge programs designed for first-generation or underrepresented students. With persistence, you can reshape this story and pursue your legal ambitions effectively.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

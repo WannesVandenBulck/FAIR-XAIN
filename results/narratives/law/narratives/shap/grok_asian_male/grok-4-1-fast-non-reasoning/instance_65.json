@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 65,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:14.615860",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and family background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.60, LSAT score of 24, lower-middle family income bracket, first-year decile of 1st (well below the average 6th), third-year decile of 3rd (also below the typical 6th), and full-time student status—and predicted a 48% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to pass the bar and succeed in their program. The three most influential factors in this decision were your LSAT score, undergraduate GPA, and family income. Your LSAT score had the strongest pull toward the failure prediction, as it stands notably low compared to the average of 37, signaling to the model a higher risk despite your other efforts. On a more positive note, your undergraduate GPA pushed the prediction toward success, being a helpful factor even though it's below the typical 3.21 average. Similarly, your lower-middle family income contributed favorably, likely reflecting the model's recognition of resilience in that context compared to higher-income peers. While your early-year academic deciles were lower than average, they played less decisive roles here, and your full-time status aligned with the vast majority of students. Overall, your situation compares to typical applicants by having strengths in grit and GPA that partially offset challenges like the LSAT, but not enough to dip below the failure threshold. To move forward, consider retaking the LSAT to boost your score significantly, as it's the top lever for changing the model's outlook, and perhaps seek targeted GPA improvement or test prep resources tailored for Asian students navigating competitive admissions. Strengthening these could position you strongly for reapplication next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

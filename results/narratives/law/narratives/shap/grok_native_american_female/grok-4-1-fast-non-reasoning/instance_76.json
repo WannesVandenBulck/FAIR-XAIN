@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 76,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:34.244206",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 48.2% chance that you would not pass—above the threshold we use for admission decisions. This prediction stemmed primarily from your Year 3 school decile ranking of 1, which stood out as the strongest factor pushing the model toward forecasting bar exam failure, especially when compared to the average of around 6 for students who passed. Your LSAT score of 35 was the next most influential element, but in a positive way, as it pulled the prediction toward success, being close to the typical 37.27 average among those who passed. Similarly, your undergraduate GPA of 2.80 worked in your favor, nudging the outlook better than it might have otherwise, though it fell short of the 3.24 average for passers. While your high family income bracket aligns with a smaller but successful subset of bar passers, and your choice to study full-time matches the vast majority who succeed, these didn't outweigh the concerns from your Year 3 performance. In contrast, admitted students typically show much stronger decile rankings in later years, often in the upper half, alongside solid LSAT and GPA scores like yours or better. The model saw your profile as riskier overall because that low Year 3 decile signals potential challenges in sustaining the academic trajectory needed for the bar. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call to protect the program's outcomes. To move forward, focus on boosting your grades to climb those school deciles, perhaps through targeted tutoring or additional coursework, and consider retaking the LSAT to strengthen that already helpful score. Building a stronger recent academic record could shift future predictions dramatically in your favor. Many students in similar spots have succeeded by addressing these key areas before reapplying. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:14.383754",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 49.9% chance that you would fail it—right on the edge, but enough to tip the decision against admission. This model looks at patterns from thousands of past students to forecast bar success based on academic and background factors, helping the school select those most likely to thrive. In your case, three key elements stood out as the strongest influences on this prediction: your LSAT score, your first-year grade decile, and your undergraduate GPA. Your LSAT score of 35 had the biggest positive sway toward passing, as it was a solid performance that pulled the prediction in a favorable direction compared to many who struggled. However, your first-year decile of 4 pushed notably toward the failure prediction, since students who passed the bar typically ranked higher, around the 6th decile on average. Similarly, your undergraduate GPA of 2.60 contributed toward failure, falling below the 3.24 average seen among bar passers, signaling a potential challenge in sustaining strong academic performance. While your middle family income bracket aligns with over a third of successful students and your choice to attend full-time matches nearly all of them, these didn't outweigh the top concerns. Overall, your profile compares to admitted students by having a competitive LSAT but lower early academic markers that the model weighs heavily as bar success signals. This isn't a judgment on your potential—many with similar starts have improved dramatically. To move forward, consider retaking the LSAT to boost it further, strengthening your undergrad record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and growth. Reapplying after addressing these could shift your predicted odds significantly, opening doors at schools like this one. You're clearly driven, and with targeted steps, you can rewrite this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

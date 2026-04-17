@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 194,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:37:24.707360",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 36, which is close to the dataset average of 36.70, you've put together a competitive profile in many ways, including planning to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 58.7%, tipping the scales just over the threshold that led to your application's rejection. This prediction draws from patterns in data on thousands of past students' academic records, family backgrounds, and outcomes, aiming to identify those most likely to succeed in law school and beyond. The key factors pulling the prediction toward failure were your Year 3 school decile ranking of 2nd, which placed you in the lower part of your class compared to the average 5.53 decile, signaling weaker performance in later undergraduate years that strongly influenced the model's concern. Nearly as influential was your 1st-year decile of 1st, even further below the typical 5.71 average, suggesting early academic struggles that the model sees as a persistent risk for bar exam challenges. On a more positive note, your LSAT score pushed the prediction toward success, as it held up well against peers and helped offset some worries. Your lower-middle family income bracket didn't play as big a role here, but combined with those early and mid-undergrad rankings, it painted a picture riskier than most admitted students, who tend to rank higher in their classes throughout. While your background as an Asian male doesn't directly sway the model, it fits within broader trends where consistent academic deciles are crucial predictors regardless of demographics. This isn't a judgment on your potential—many students overcome similar starts—but the model prioritizes bar passage stats to protect program outcomes. To move forward, consider retaking courses or boosting post-baccalaureate grades to improve your decile rankings, perhaps through targeted LSAT prep extensions or community college refreshers that demonstrate upward trends. You might also explore part-time programs or gap-year experiences to build a stronger narrative of resilience. Finally, appealing with updated transcripts or letters highlighting your full-time commitment and personal growth could reopen doors at this or other schools. Keep pushing; your foundation is there, and targeted improvements can shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

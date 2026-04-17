@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 336,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:20.255936",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 34 and an undergraduate GPA of 3.00. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 65.1% chance that you would fail, which crossed the threshold for rejecting your application to protect the school's bar passage rates. This prediction hinged most heavily on your Year 3 school grades, which placed you in the second decile—well below the typical fifth-decile average—strongly signaling to the model a heightened risk of bar exam struggles. Next in influence was your LSAT score, which, while respectable, pushed somewhat against failure by being closer to the average of 36.7, offering a modest counterbalance toward success. Your Year 1 grades, landing in the third decile versus the usual fifth or sixth, added further weight toward the failure prediction, reinforcing concerns about consistent academic performance. Compared to typical students who pass the bar, your decile rankings in both early and later years are noticeably lower, placing you outside the stronger performers the model favors. Your full-time status aligns with the vast majority of students (over 90%), so it didn't sway the outcome much either way. While factors like your family income provided some stability, they couldn't offset the dominant role of those grade deciles. This isn't a judgment on your potential as an Asian male from a supportive background—many in similar circumstances succeed with targeted improvements. To move forward, focus on bolstering your academic record, perhaps through postgraduate courses or retaking the LSAT to hit 36 or higher, which could shift future predictions favorably. Consider schools with holistic reviews that weigh personal growth alongside metrics, and gather strong recommendation letters highlighting your resilience. With deliberate steps like these, you can reapply stronger next cycle and turn this setback into a stepping stone.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

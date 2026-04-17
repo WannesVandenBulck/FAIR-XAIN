@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:12.289429",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 75% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 class ranking, which fell in the second decile—well below the fifth-decile average among students who went on to pass the bar—pushing the prediction firmly toward failure. Your Year 1 ranking in the third decile also played a significant role in the same direction, as it similarly lagged behind the typical sixth-decile standing of successful bar takers. While your LSAT score of 38 stood out positively, slightly above the average for those who passed, it wasn't enough to offset those earlier academic signals in the model's eyes. Coming from a lower-middle income family and planning full-time studies aligns with many admitted students, but your undergraduate GPA of 2.80 trailed the 3.24 average of bar passers, adding subtle pressure though not as dominantly as your deciles. Overall, your profile compares to accepted applicants by showing solid potential in standardized testing but weaker early and later undergraduate performance, which the model weighed heavily against you. This isn't a judgment on your potential or background—it's a data-driven flag on bar exam patterns from past students. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your decile rankings, as even modest improvements there could shift future predictions dramatically. You might also target schools with more holistic reviews or bar prep support tailored to full-time students like you. Gathering letters from professors who can highlight your growth despite those deciles could strengthen reapplications. With targeted steps, you can reshape how models like this see your bar exam prospects next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

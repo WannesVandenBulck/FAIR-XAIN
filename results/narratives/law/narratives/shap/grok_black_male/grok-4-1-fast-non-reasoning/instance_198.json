@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 198,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:24.543775",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 56% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed and pass on their first attempt. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year, which strongly signaled potential challenges ahead compared to typical students who rank much higher on average. Next in influence, your Year 1 decile of 6—a solid mid-pack performance that actually pulled the prediction toward passing—helped offset some concerns but wasn't enough to counterbalance the later drop-off. Your LSAT score of 26.5, well below the average of 36.7, further nudged the model toward predicting failure by highlighting a gap in standardized test readiness relative to successful bar takers. Other aspects, like your middle family income bracket, undergraduate GPA of 2.7 (below the 3.21 average), and part-time enrollment status—which is uncommon as only 7.3% of students opt for it—played supporting roles but were less decisive. In comparison to typical admitted students, your profile showed early promise that faded, combined with test scores that didn't align with those who reliably pass the bar. This isn't a judgment on your potential or background, but a data-driven call to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost your score, strengthening your later academic performance through targeted courses or tutoring, and exploring part-time programs with proven support for diverse students like yourself. Building a stronger narrative around your resilience as a Black male in this field could also shine in appeals or reapplications. Many have turned similar profiles around with focused effort—your next steps can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

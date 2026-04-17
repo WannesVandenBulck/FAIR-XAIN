@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 275,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:21.295686",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid background, including an undergraduate GPA of 3.20 that's right around the typical 3.21 average for students in our dataset, upper-middle family income, and plans to attend full-time like most applicants. Your Year 1 school decile ranking of 8th—well above the average of about 5.7—shows you started strong academically. However, your Year 3 decile dropped to 1st, far below the average of 5.5, and your LSAT score of 28.5 is notably lower than the typical 36.7. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 43% chance you'll fail the bar—high enough that it tipped the decision to reject your application, as the school prioritizes those predicted to pass on the first try. Among all the factors considered, your Year 1 decile had the strongest positive influence, pushing the prediction toward bar passage because it highlighted your early academic promise. Coming in a close second was your Year 3 decile, which had an equally powerful but opposite effect, strongly nudging the model toward expecting failure due to that significant late decline in performance relative to peers. Your undergraduate GPA ranked third in influence, offering some helpful push toward passage since it aligns so closely with averages. Overall, the model saw your trajectory as riskier than most students', where consistent or improving deciles often signal bar success. This isn't a judgment on your potential as a Hispanic leader in law—many with similar starts rebound impressively—but the dip in later undergrad performance stood out as the key concern. To move forward, consider retaking the LSAT to boost that score, explaining your Year 3 challenges in a personal statement to show growth, or gaining relevant experience like internships to strengthen your profile. Reapplying after addressing these could shift the prediction in your favor, and schools value resilience in applicants like you. Keep pursuing your goals; this is just one data point in your story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

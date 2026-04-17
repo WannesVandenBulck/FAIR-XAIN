@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 124,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:36.935866",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select students likely to succeed on their first try. Your profile includes a Year 1 school decile of 3 (below the average of about 5.7), a Year 3 decile of 1 (well below the typical 5.5), an undergraduate GPA of 2.3 (compared to the average 3.2), an LSAT score of 31 (under the usual 36.7), lower-middle family income, and plans to attend part-time, which is less common as most students (over 92%) go full-time. The model estimates a 48% chance you'll fail the bar exam on your first attempt—a risk level that unfortunately led to your application's rejection, as the school prioritizes those predicted to pass with high confidence. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking at the bottom of your school, signaling to the model a significant drop in performance that strongly raised concerns about bar exam readiness. Next in importance, your lower-middle family income actually worked in your favor, pulling the prediction toward success by suggesting resilience and drive often seen in similar backgrounds. Your LSAT score of 31 also helped somewhat, nudging the outlook slightly better than it might have been otherwise, though still below par. Compared to typical admitted students, who boast higher deciles, GPAs, and LSATs, your Year 3 performance stood out as the biggest deviation, overshadowing the positive notes from your income and test score. This isn't a judgment on your potential as a Hispanic man with clear determination—many in similar circumstances thrive with targeted preparation. To move forward, focus on boosting your academic deciles through stronger coursework or retakes, aim to retake the LSAT for a score closer to 37 or above, and consider full-time study if feasible to align with proven success patterns. Building a narrative of upward trends in your record could make a compelling reapplication case next cycle. We're rooting for your success in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

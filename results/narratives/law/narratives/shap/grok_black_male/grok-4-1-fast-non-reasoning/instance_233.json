@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 233,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:38.683873",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile, including your Year 1 and Year 3 school decile rankings of 4th (below averages of about 5.7 and 5.5), middle family income bracket, LSAT score of 25 (well below the 36.7 average), and full-time student status, which is common among applicants. It predicted a 54% probability that you would fail the bar exam on your first attempt, tipping the scales just over the threshold that led to your application's rejection. This decision hinged on a few key factors from your background that most strongly shaped the prediction. The standout influence was your LSAT score, which significantly pushed the model toward forecasting a bar failure because it was notably lower than what the model sees in students who typically pass. On a more positive note, your undergraduate GPA had the second-strongest impact, steering the prediction toward bar passage success since it exceeds the norm for admitted students. Your Year 3 decile ranking also helped in a smaller way, nudging things toward passing as it reflects decent relative performance in your school, even if below average. Compared to typical students who pass the bar, your LSAT stands out as the biggest gap, while your GPA gives you an edge many don't have. While factors like your family income and full-time plans played lesser roles, they didn't sway the overall close call. To move forward, consider retaking the LSAT to boost that score closer to or above the average, as it's the most influential hurdle here—many students in similar situations have succeeded by targeting this. Strengthening your academic deciles through additional coursework or highlighting any upward trends could further help. Reach out to admissions advisors for feedback or explore programs with holistic reviews that might weigh your unique background more favorably. With targeted improvements, you're positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

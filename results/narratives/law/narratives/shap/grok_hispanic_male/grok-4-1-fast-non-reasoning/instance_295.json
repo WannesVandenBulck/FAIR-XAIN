@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 295,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:39.089657",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.60, which stands out above the typical 3.21 average, along with your LSAT score of 27, family from a middle-income bracket, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 84.9% chance that you would fail the bar exam, leading directly to the rejection of your application. This high failure probability means the school sees too much risk in your profile compared to students they expect to pass and succeed as lawyers. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year—far below the average decile of about 5.5—which strongly signaled potential struggles ahead on the bar. Next in importance, your Year 1 decile of 1, again at the very bottom compared to the typical 5.7 average, reinforced the model's concern about early academic challenges carrying over. On a more positive note, your above-average undergraduate GPA worked in your favor, pulling the prediction somewhat toward passing by showing you have the capability to excel in college-level work. While other details like your LSAT and full-time status played roles, these three—especially your low Year 1 and Year 3 deciles—dominated the decision, outweighing your strengths and aligning your profile more with students who historically failed the bar. To move forward, consider retaking the LSAT to boost your score closer to the 36.7 average, while also reflecting on what held back your high school performance in later years—perhaps through targeted prep courses or academic coaching. Building a stronger narrative around overcoming those early hurdles in a reapplication essay could help too. Many students in similar situations improve their profiles and get accepted elsewhere; persistence pays off in law school admissions. With your solid undergrad record as a foundation, focusing on these gaps now positions you well for another shot.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

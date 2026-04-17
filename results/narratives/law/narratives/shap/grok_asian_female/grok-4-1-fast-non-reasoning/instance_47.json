@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 47,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:12.501922",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, test scores, and background details like your middle-class family income and plans to attend full-time. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 2, which ranks you quite low compared to the average of about 6 for students who passed the bar, signaling to the model a potential struggle with sustained performance. Next in importance was your LSAT score of 35.5, below the 37.27 average of bar passers, though it actually worked in your favor by nudging the prediction slightly toward passing. Your Year 1 decile of 3 also contributed toward the failure outlook, as it was lower than the typical 6 for successful students, reinforcing concerns about early academic footing. While your undergraduate GPA of 3.20 was close to the 3.24 average for passers and your full-time status aligns with most who succeed, these weren't enough to offset the top concerns. Overall, your profile stood out as riskier than typical admitted students, whose stronger decile rankings and higher LSATs correlated with bar success. It's understandable to feel disappointed, especially with your solid undergrad record and commitment to full-time study. To strengthen future applications, focus on boosting your academic deciles through targeted improvement in later years or retaking the LSAT to push closer to or above 37. Consider gaining practical experience, like internships, to build a more competitive edge. You might also explore programs with supportive bar prep resources or retake key metrics to shift your predicted odds. With persistence, you can reshape this trajectory and find the right path forward.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

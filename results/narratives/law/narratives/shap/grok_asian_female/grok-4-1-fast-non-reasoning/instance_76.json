@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 76,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:02.974373",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48.2% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the model weighed your Year 3 school decile ranking as the strongest factor pushing toward a failure prediction; at 1st decile, this placed you well below the typical 6th decile among students who passed, signaling to the model a notable gap in later academic performance compared to successful bar takers. Your LSAT score of 35 acted as the next most influential element, but in a positive way—it pulled the prediction toward passing, as it was reasonably competitive, though still under the average of 37.3 for those who succeeded. Similarly, your undergraduate GPA of 2.8 provided some favorable influence toward passing, yet it fell short of the 3.24 average seen in passers, limiting its helpful impact. Other aspects, like your high family income—which is less common among bar passers at just 8.5%—and your full-time study plans, which align well with the 93% of successful students, played supporting roles but weren't the main drivers here. Overall, your early and mid-school deciles stood out as the biggest hurdles, overshadowing strengths in your LSAT and undergrad record when stacked against profiles of admitted students who typically show stronger grade progress. This isn't a judgment on your potential or background, but a data-driven flag that your academic trajectory so far mirrors patterns linked to bar struggles. To move forward, consider retaking the LSAT to boost it closer to or above 37, strengthening your undergrad record through additional coursework or a post-bac program, and focusing on building consistent high decile performance in any ongoing studies. Many students in similar spots have improved these metrics and succeeded—reapplying after targeted preparation could shift your prediction favorably. We encourage you to seek advising from pre-law counselors who can review your full profile and suggest personalized strategies. Your determination as a full-time aspiring lawyer with a solid family foundation positions you well to address these gaps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

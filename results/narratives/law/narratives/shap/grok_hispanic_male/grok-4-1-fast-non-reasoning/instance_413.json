@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 413,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:01.481221",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.70—well above the typical 3.21 average—and an LSAT score of 37, slightly edging out the usual 36.70 benchmark, while coming from an upper-middle-class family background. You're planning to attend full-time, which aligns with the vast majority of students at 92.7%. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 45.9%, tipping the scales toward rejection to prioritize applicants with lower predicted risks. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year—far below the average decile of about 5.5—which signaled potential challenges in sustaining performance through later undergraduate years. Counterbalancing this somewhat was your strong undergraduate GPA, which strongly pulled the prediction toward expecting you to pass the bar. Your LSAT score also worked in your favor, nudging the model toward a passing outcome due to its above-average strength. Among these top three drivers, your lower Year 3 decile carried the most weight in driving the overall concern, despite the positives from your GPA and LSAT. Compared to typical students who get approved, your profile shows promise in key metrics like GPA and LSAT but stands out negatively due to that early dip in relative class standing. This isn't a judgment on your potential as a Hispanic student from a supportive background—many in similar situations succeed with targeted improvements. To move forward, consider retaking courses or seeking academic coaching to boost your later-year rankings, perhaps retaking the LSAT for an even higher score, and gathering strong letters of recommendation that highlight your resilience. Reapplying after addressing these gaps could shift your predicted odds significantly in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

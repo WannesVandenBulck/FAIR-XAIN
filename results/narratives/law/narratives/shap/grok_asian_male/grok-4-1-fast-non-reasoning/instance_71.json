@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:36.263734",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.40, LSAT score of 35.50, lower-middle family income bracket, full-time student status, and notably lower Year 1 and Year 3 school decile rankings of 2nd and 1st respectively—and predicted a 56.3% chance that you would fail the bar exam on your first attempt. This probability tipped the scales just over the threshold, leading to the rejection of your application as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, which placed you in the bottom 10% of your school that year—far below the typical student's middle-of-the-pack 5.5 average—suggesting potential challenges in sustaining strong performance through later undergraduate years. Your LSAT score, while solid at 35.50, worked in your favor by pulling the prediction somewhat toward passing, as it was close to the dataset average of 36.70 and showed competitive testing ability. Similarly, your undergraduate GPA of 3.40 provided a positive boost toward a pass prediction, exceeding the average of 3.21 and highlighting solid overall academic strength. However, the dominant negative impact from your Year 3 performance outweighed these strengths, as the model weighs recent academic deciles heavily in forecasting bar success for students like you pursuing full-time studies. Compared to typical applicants who pass, your profile aligns well on GPA and LSAT but stands out for weaker late-stage school rankings, which often signal risks in rigorous legal training. Your lower-middle family income and full-time status, common among 92.7% of students, played lesser roles here. To move forward, consider retaking the LSAT to push closer to or above average, strengthening your recent academic record through additional coursework or a post-bac program, and reapplying next cycle with updated transcripts that demonstrate upward trends. Many students in similar situations have succeeded by addressing these exact gaps, so targeted improvements could shift your predicted odds dramatically in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

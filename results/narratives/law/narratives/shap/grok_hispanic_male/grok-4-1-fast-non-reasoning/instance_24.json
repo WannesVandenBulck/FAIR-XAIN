@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:20.898531",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid academic background, including Year 1 and Year 3 school decile rankings of 7—both above the typical student's average of around 5.5 or 6—and an undergraduate GPA of 3.20, right in line with what most applicants bring. You're planning to attend full-time, which is the norm for over 90% of students in this dataset, and your family falls into the middle income bracket. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 47%, tipping the scales just enough to reject your application since the school prioritizes those with stronger predicted odds of bar success. The biggest factor pulling the prediction toward failure was your LSAT score of 24, well below the average of about 37, as lower scores like yours have historically correlated with tougher bar outcomes in the model's analysis. On a brighter note, your Year 3 decile ranking of 7 had the second-strongest positive influence, pushing the prediction toward passing because it signals solid later academic momentum compared to peers. Your Year 1 decile of 7 also helped in the same way, though with less impact, showing early consistency that the model views favorably against typical students. Overall, while your grades stand out above average, the LSAT gap outweighed them, making your profile riskier than the stronger LSAT performers who typically get approved. This isn't a judgment on your potential as a Hispanic student or your full-time commitment—it's just how these key predictors stacked up for you specifically. To move forward, consider retaking the LSAT to boost that score closer to or above 37, as even a modest improvement could flip the model's outlook dramatically. You might also gather letters highlighting your upward grade trajectory or seek targeted bar prep resources tailored for students from middle-income backgrounds like yours. Many in similar situations reapply successfully after addressing the LSAT—your deciles already give you a strong foundation to build on. Keep pushing; law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

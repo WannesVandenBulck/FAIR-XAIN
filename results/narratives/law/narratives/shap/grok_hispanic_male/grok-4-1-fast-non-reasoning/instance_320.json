@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 320,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:10.272983",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with a strong undergraduate GPA of 3.70—well above the typical 3.21 average—and an impressive LSAT score of 41, which stands out compared to the usual 36.70. You're planning to attend full-time, just like over 90% of students in the dataset, and come from a lower-middle family income background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 68.8%. This high predicted chance of not passing led to your application's rejection, as the school uses this to prioritize candidates likely to succeed on the bar. The model's decision hinged most heavily on your Year 3 school grades, where you ranked in the 1st decile—much lower than the average 5th or 6th decile—which strongly pushed the prediction toward expecting bar failure, signaling potential challenges in sustaining performance under law school pressures. Your LSAT score had the second-strongest influence, but in a positive way, pulling the prediction toward bar passage success because of how competitively high it is. Coming in third was your Year 1 school grades, also in the low 2nd decile versus the typical mid-range, which nudged the outlook further toward failure risk. Overall, while your undergrad record and LSAT shine brighter than most applicants', your dip in school deciles during later years raised red flags compared to peers who maintain steadier upward trajectories. This pattern suggests the model sees hurdles in your path to bar success that outweigh your strengths. To move forward, consider retaking courses or programs to boost your later-year rankings, perhaps seeking tutoring tailored to your full-time schedule, and reapplying after demonstrating improved consistency—many students in similar situations turn things around with targeted preparation. Your LSAT edge gives you a great starting point, so focus there to build momentum. With persistence, you can reshape this narrative for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

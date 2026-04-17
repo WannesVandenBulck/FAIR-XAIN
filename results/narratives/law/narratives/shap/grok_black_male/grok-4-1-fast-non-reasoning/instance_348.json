@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 348,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:50.133886",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 36—close to the typical student's 36.7—and an undergraduate GPA of 2.8, which is a bit below the average of 3.21. The admissions model evaluated your chances of passing the bar exam on the first try, predicting a 73.2% probability that you would fail, which directly led to the rejection of your application since the school prioritizes candidates likely to succeed on that critical test. This prediction wasn't random; it hinged on a few key aspects of your academic record that carried the most weight in the decision. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, meaning you placed in the bottom tenth of your peers that year—far below the average decile of about 5.5—which signaled to the model a significant dip in performance at a pivotal stage. Next in influence was your LSAT score, which actually worked in your favor by nudging the prediction slightly toward passing, as it aligned well with what succeeds for most students. Your Year 1 decile of 3, while better than your later performance and below the average of 5.7, still contributed toward the failure outlook by showing early struggles relative to typical applicants. Compared to students who typically get approved, your combination of lower decile rankings outweighed the positives like your LSAT and full-time commitment, which is the norm for over 90% of applicants anyway. This model draws from patterns in real student data, where consistent high school rankings strongly predict bar success, and yours didn't match the profiles of those who pass on the first try. While this rejection stings, especially given your background and dedication, it's not the end of the road—many applicants in similar situations improve by retaking courses or boosting GPA through post-bac programs. Consider targeting schools with holistic reviews that weigh personal stories from Black male applicants like yours more heavily, or even gaining work experience to strengthen future apps. You could also audit your Year 3 coursework to address any gaps that dragged down that decile. With targeted steps, your LSAT strength and family support position you well to reapply stronger next cycle. Keep pushing; bar passage is achievable with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

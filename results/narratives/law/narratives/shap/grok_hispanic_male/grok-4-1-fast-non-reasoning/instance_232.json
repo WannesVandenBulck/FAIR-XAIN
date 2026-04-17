@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 232,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:40.312469",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes an undergraduate GPA of 2.30, which is below the typical 3.21 average, and an LSAT score of 29.50, notably lower than the usual 36.70 seen in the dataset of past bar exam takers. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, which is the norm for about 93% of students. The admissions model, trained on data from thousands of students like you, predicted an 81.8% chance that you would fail the bar exam on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged most strongly on your academic decile rankings from school years 1 and 3, both at the bottom 10th percentile compared to averages around the 5th or 6th decile for others. Your Year 3 decile rank stood out as the biggest factor pushing the model toward forecasting failure, likely because it signals challenges in sustaining performance over time, a key predictor of bar success. Your Year 1 decile rank reinforced this, adding weight to the concern about early academic struggles that often carry forward. On a more positive note, your family's upper-middle income level nudged the prediction slightly toward success, as students from similar backgrounds tend to have a bit more stability and resources. Compared to typical students who pass the bar, your low decile ranks are a stark outlier, while your other factors like full-time status align with the majority but couldn't offset the academic red flags. This isn't a judgment on your potential or your story as a Hispanic man pursuing law—many overcome similar starts—but the model focuses on patterns from past data where these rankings strongly correlate with first-try bar outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic record through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience. You might also explore bridge programs or schools with holistic reviews that weigh personal background more heavily. With targeted improvements, you can shift these patterns in your favor and reapply stronger. Keep pushing—your determination as a first-generation or underrepresented aspirant could be the edge that changes everything.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:27.790261",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.40 stood out as the strongest positive factor in the model's assessment of your law school application, as it actually exceeds the average of 3.24 among students who went on to pass the bar exam on their first try—this helped pull the prediction toward expecting you to succeed. However, your LSAT score of 31 played a significant role in the opposite direction, falling well below the typical 37.27 average for those who passed, which nudged the model to see a higher risk of bar exam struggles. Your middle family income bracket also contributed somewhat negatively, since passers tend to come more from upper-middle or high-income backgrounds, with middle-income making up only about 35% of them. Overall, these factors led the model to predict a 48% chance that you would fail the bar exam on your first attempt, which crossed the threshold for denying your application to protect the school's outcomes. Your Year 1 and Year 3 deciles of 4 were below the averages for passers at around 6, adding some concern, but they weren't the main drivers here. Being full-time aligns well with the vast majority of successful students, which was a neutral to positive note. Compared to typical admitted students, your profile shows solid academic grit from undergrad but gaps in standardized testing and early law school performance that mirrored patterns of those who later struggled on the bar. The model weighs these elements to forecast real-world success, and in your case, the LSAT and income edges tipped the scale despite your GPA strength. This isn't a judgment on your potential—it's a data-driven call based on historical patterns. To move forward, consider retaking the LSAT to boost that score closer to 37 or above, as it could dramatically shift future predictions. Strengthening your decile rankings through focused coursework or exploring resources tailored for students from middle-income backgrounds might also help. Many applicants in similar situations reapply successfully after targeted improvements, so reviewing your prep strategies and perhaps seeking mentorship could open doors next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:14.205887",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details from past students. The model estimated a 50.7% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to pass with high confidence. This decision hinged on just a few key factors from your profile that stood out the most to the model. Your LSAT score of 34 was the strongest positive signal, as it pulled the prediction toward expecting you to pass, performing better than it might for others in similar situations. However, your Year 1 grade decile of 3—well below the typical student's 6th decile—had the biggest negative impact, strongly pushing the model toward predicting failure by signaling early academic struggles. Your upper-middle family income also nudged the prediction slightly toward failure, as the model associates certain income levels with outcomes less favorable than average. Compared to typical applicants, who average higher deciles around 5-6, an LSAT near 37, and undergraduate GPAs over 3.2, your profile showed room for improvement in grades despite the solid LSAT. Your undergraduate GPA of 2.6 and full-time student status aligned more closely with averages but didn't outweigh the top concerns. To move forward, consider retaking the LSAT to boost it further or strengthening your academic record through additional coursework or a post-baccalaureate program to shift those deciles upward. Building a stronger narrative around your resilience as an Asian male applicant, perhaps highlighting any upward trends or extracurriculars, could also help in reapplying to other schools with more holistic reviews. With targeted improvements, you can reshape how models like this see your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

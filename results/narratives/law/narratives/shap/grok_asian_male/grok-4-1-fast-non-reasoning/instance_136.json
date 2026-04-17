@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 136,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:33:40.360153",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.20—below the typical 3.21 average—and an LSAT score of 22, which is notably lower than the dataset average of around 37. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 64% chance that you would fail the bar exam, tipping the scales toward rejecting your application to protect the school's outcomes. This prediction wasn't random; it hinged most heavily on your LSAT score, which strongly signaled a higher risk of bar failure compared to stronger performers. Your family income level, while upper-middle, actually nudged the prediction slightly in a positive direction, as it aligns with resources that have helped similar students succeed. Similarly, your Year 1 school decile ranking of 3—though below the average of 5.71—provided a modest counterbalance, suggesting some early academic resilience. These top three factors dominated the model's thinking, with your LSAT overwhelmingly driving the failure risk, while income and early grades offered limited offsets. Compared to typical admitted students, who often boast higher test scores and GPAs that predict bar passage, your metrics placed you in a tougher spot, even with your full-time commitment matching the norm for 93% of applicants. It's understandable to feel disappointed, especially given your background and dedication. To move forward, consider retaking the LSAT to boost that key score, strengthening your undergraduate record through additional coursework or a post-bac program, and gathering strong recommendation letters that highlight your potential. Many students in similar positions have improved their profiles and succeeded—persisting with targeted prep could open doors at other schools or in future cycles. Your path isn't defined by this one prediction; it's a chance to build an even stronger case.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

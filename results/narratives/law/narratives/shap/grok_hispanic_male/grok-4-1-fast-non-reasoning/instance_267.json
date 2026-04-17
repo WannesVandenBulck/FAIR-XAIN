@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 267,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:14:50.819038",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your solid undergraduate GPA of 3.40, which stands above the typical 3.21 average—have been carefully considered by the admissions model. However, the model predicts a 52.7% chance that you would fail the bar exam on your first attempt, tipping the scales just over the threshold that led to your application's rejection. This prediction stems from weighing various factors from your profile against patterns seen in thousands of past students. The most influential factor pushing toward this failure prediction was your LSAT score of 28.50, well below the average of 36.70, as lower scores like yours have historically correlated strongly with bar exam struggles in the data. On a more positive note, your undergraduate GPA played a significant counterbalancing role, pulling the prediction toward success because it exceeds what's typical and signals strong academic capability. Similarly, your Year 1 school decile ranking of 5—slightly below the average of 5.71—still contributed helpfully toward a passing outlook, showing respectable early performance relative to peers. Other elements, like your middle family income bracket and plans to attend full-time (the norm for over 90% of students), had less sway in this decision. Compared to typical applicants who pass the bar, your LSAT stands out as the biggest gap, while your GPA positions you competitively. This isn't a judgment on your potential as a Hispanic leader in law—many with similar starts have succeeded through targeted effort. To move forward, focus on retaking the LSAT to boost it closer to or above average, as that single change could flip the model's outlook dramatically. Consider prep courses tailored for students from underrepresented backgrounds like yours, and gather strong letters highlighting your resilience. Reapplying with these improvements, perhaps to schools with holistic reviews, could open doors—your story shows you're already ahead in key areas. Keep pushing; law needs voices like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

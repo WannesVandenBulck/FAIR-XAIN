@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 301,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:58.032887",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you've put together an impressive profile that many would envy. Your family falls into the middle income bracket, and you're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 52.4% chance that you would fail the bar on your first attempt. This tipped the scales toward rejection, as the school uses this prediction to prioritize applicants likely to pass and succeed in their legal careers. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year—far below the average decile of about 5.5—which strongly signaled potential struggles ahead. Next in influence, your LSAT score worked in your favor, pulling the prediction toward passing because it demonstrated sharp analytical skills above the norm. Rounding out the top factors, your Year 1 decile of 1—again, well below the average of 5.7—reinforced concerns about early academic performance carrying over to bar prep. Compared to typical students who pass, your low deciles stand out as red flags, even with your stronger test scores balancing things somewhat. These early rankings outweighed other positives in the model's eyes, reflecting how consistent performance often predicts bar success. While this stings, especially given your achievements, it highlights where targeted improvement could shift future outcomes. To move forward, consider retaking courses or seeking tutoring to boost your decile rankings if reapplying, or target schools with more holistic reviews that weigh your LSAT and GPA more heavily. Building a narrative around your upward trajectory as an Asian male applicant with proven test-taking prowess could also strengthen your case elsewhere. Keep pushing—you've got the raw potential to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 177,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:42:04.334792",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 36, which is close to the dataset average of 36.70, you've put together a respectable academic profile for law school admission. Your family falls into the middle income bracket, and you're planning to attend full-time, which is the norm for over 92% of students in the dataset. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing the bar at 44%, tipping the scales toward rejection to minimize the risk of poor outcomes. This prediction wasn't driven by your LSAT or GPA alone but hinged on three key factors from your record, ranked by their influence on the decision. The most influential was your Year 3 school decile ranking of 2, well below the average of 5.53, which strongly pushed the model toward predicting bar failure by signaling weaker performance in later undergraduate years compared to peers. Next, your Year 1 decile of 1—even lower relative to the average of 5.71—reinforced this concern, further elevating the failure risk as it highlighted an early struggle that stood out against typical students. Your LSAT score, on the other hand, was the top factor pulling in the opposite direction, nudging the prediction toward bar passage because it demonstrated strong potential despite those decile rankings. Overall, your early and mid-undergrad deciles painted a picture of inconsistent performance that outweighed your other strengths, setting you apart from applicants whose rankings more closely match successful bar takers. To move forward, consider retaking courses or pursuing targeted prep to boost your decile equivalents, perhaps through post-bac programs or additional certifications that showcase improvement. Strengthening those foundational metrics could recalibrate future predictions in your favor, opening doors at schools that value growth stories like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

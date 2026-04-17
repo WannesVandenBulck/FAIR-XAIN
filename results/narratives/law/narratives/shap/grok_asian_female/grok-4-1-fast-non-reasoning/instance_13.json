@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:08.356643",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.30 stood out as the most influential factor in the model's decision, pushing the prediction toward a higher risk of failing the bar exam on the first try because it signaled to the model a slightly lower foundation in academic performance compared to what it typically sees in students who pass. While your LSAT score of 40 was above the average for bar passers at 37.27, it still contributed somewhat toward the failure prediction, as the model weighed it as not quite strong enough to fully offset other concerns in your profile. On a more positive note, your Year 3 decile ranking of 9 worked strongly in your favor, pulling the prediction back toward passing since it shows you improved significantly and ranked high among peers later in school—better than the average decile of about 6 for those who succeed on the bar. Overall, these three elements—your undergrad grades having the strongest pull toward risk, followed by a milder nudge from your LSAT, and a counterbalancing boost from your later school performance—led the model to estimate a 59.6% probability that you would fail the bar exam first time around. This threshold triggered the rejection of your law school application, as the program prioritizes admitting students predicted to pass with high confidence to maintain strong bar passage rates. Your upper-middle family income aligns well with the majority of bar passers, and planning to attend full-time matches the norm for successful students, but they played smaller roles here. Compared to typical accepted applicants, who often have undergrad GPAs around 3.24 and stronger alignments across early grades and test scores, your profile showed enough mixed signals to tip into the caution zone. It's understandable to feel disappointed, especially with your clear upward trajectory in school deciles and solid LSAT. To move forward, consider retaking the LSAT to boost it further or strengthening your undergrad record through a post-bac program or relevant experience that highlights academic resilience. Gathering letters of recommendation emphasizing your Year 3 improvement could also help in appeals or re-applications. Many students in similar situations succeed by addressing these key areas—your full-time commitment and background position you well for that effort. Keep pushing; your later performance suggests real potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

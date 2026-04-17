@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 220,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:44:45.272919",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—your law school application stood out in some ways, but the admissions model focused on predicting your chances of passing the bar exam on the first try. The model estimates a 47% probability that you would fail the bar exam, which is high enough to trigger a rejection, as the school prioritizes applicants likely to succeed and avoid the challenges of retakes. The key driver pushing toward this failure prediction was your Year 3 school decile ranking of 1, far below the average of 5.53, signaling to the model that your later academic performance placed you in the bottom tier compared to peers. This stood out as the strongest negative factor, heavily influencing the decision more than anything else. On a more positive note, your undergraduate GPA worked strongly in your favor, pulling the prediction toward success by showing consistent college-level strength. Similarly, your lower-middle family income bracket contributed positively, as the model associates it with resilience in students like you who overcome such backgrounds. Your LSAT score of 28, well below the 36.70 average, and your Year 1 decile of 3 also played roles, though less decisively than these top factors. Full-time enrollment plans aligned with the vast majority of students, so it didn't sway things much either. Overall, while your profile shows promise in areas like undergrad work and background grit, the sharp drop-off in your Year 3 performance dominated the model's view, making it see higher risk compared to typical admits who maintain stronger decile rankings throughout. To move forward, consider retaking the LSAT to boost it closer to average and strengthening recent academics through additional coursework or a post-bac program to improve your decile standing. Building a narrative around your unique journey as a Black male from a lower-middle income family could also help in appeals or other schools, perhaps with letters emphasizing your upward trajectory. With targeted improvements, you can shift this prediction in your favor for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 345,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:55.074220",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your background includes a Year 1 school decile of 3, which is below the typical 5.7 average, and a Year 3 decile of 4, lower than the usual 5.5, alongside an undergraduate GPA of 2.9 compared to the average 3.2, an LSAT score of 29 well under the 36.7 norm, and coming from a low family income bracket. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 42% chance you'll fail the bar—high enough to trigger an automatic rejection to protect the school's outcomes. This decision hinged on just a few key factors from your profile that most strongly shaped the prediction. The biggest positive influence pulling toward success was your low family income, which statistically correlates with stronger bar passage rates in the dataset, giving your application a meaningful boost despite other challenges. Next, your Year 3 decile ranking also nudged the prediction toward passing, as mid-range performance there often signals improvement potential. However, your lower Year 1 decile had the strongest negative pull, pushing the model firmly toward expecting failure because early struggles like that are a top red flag in similar students. Compared to typical applicants who pass, your academic deciles and test scores sit notably below the pack, amplifying the risk signal even as your background offered some counterbalance. While full-time enrollment is the norm and didn't sway things much here, these core academic and socioeconomic elements dominated the model's view of your bar prospects. This isn't a judgment on your potential as an Asian male with drive from a modest background—many overcome similar starts—but the model prioritizes patterns from past students. To move forward, consider retaking the LSAT to hit closer to 35+, bolstering your undergraduate record through post-bac courses, or targeting schools with holistic reviews that weigh resilience from low-income upbringings more heavily. Building a narrative of upward trends from Year 1 to Year 3 in your essays could also highlight your growth story for human reviewers. With targeted improvements, you can shift these predictions in your favor next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

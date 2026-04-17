@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 92,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:03:44.269117",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 55.5% chance that you would not pass—crossing the threshold we use to make admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.90, LSAT score of 37, Year 1 and Year 3 decile rankings in your school, family income in the middle bracket, and full-time enrollment plans. The model weighed these factors against patterns from thousands of past students, focusing on those most predictive of bar success. The strongest influence pushing toward a failure prediction was your Year 3 decile ranking of 1, which stands out well below the average of about 6 for students who passed the bar, signaling to the model a notable dip in later academic performance compared to successful peers. Next in importance, your LSAT score of 37 worked in your favor, as it was close to the 37.27 average among those who passed, pulling the prediction slightly toward success despite other concerns. Your undergraduate GPA of 2.90 also helped a bit by nudging the odds toward passing, though it fell short of the 3.24 average for bar passers, limiting its positive impact. While your middle family income aligns with over a third of successful students and your full-time status matches nearly all of them, these didn't outweigh the key academic signals. Overall, your profile compares to accepted students by having solid test scores but lower decile placements and GPA that raised red flags for long-term bar readiness. This isn't a judgment on your potential or background—it's the model's data-driven read on bar passage risks. To move forward, consider retaking the LSAT to boost it further or strengthening your recent grades through additional coursework or a post-bac program, then reapply with an updated profile that addresses these gaps. Many students in similar positions have succeeded by targeting these areas, and admissions teams value demonstrated improvement. You're clearly driven to pursue law full-time, and with focused steps, you can shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

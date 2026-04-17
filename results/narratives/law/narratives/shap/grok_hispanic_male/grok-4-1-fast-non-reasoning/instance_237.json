@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 237,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:58.159332",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with your undergraduate GPA of 3.40, which stands above the typical 3.21 average, and an LSAT score of 39 that exceeds the usual 36.70 mark. Your Year 1 and Year 3 school deciles both at 7 also reflect consistent performance in the upper range compared to peers. Coming from an upper-middle-class family background positions you well in many ways, and like most applicants at 92.7%, you're planning full-time studies. However, the admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 49% chance you'll fail the bar—high enough to trigger a rejection to protect the school's pass rates. The top factor pulling in a positive direction for you was your Year 3 decile ranking, as it signaled stronger late-stage academic momentum than average, nudging the model toward expecting bar success. Yet, your family income level had the strongest counterinfluence, pushing the prediction toward failure because upper-middle brackets sometimes correlate with other unseen pressures in this dataset. Your undergraduate GPA, despite being above average, followed as the next biggest driver toward a failure prediction, likely due to how it stacked up in the model's bar success patterns. Overall, these three elements—your solid Year 3 deciles helping, but family income and undergrad grades hindering—tipped the scales just over the edge. Compared to typical students who get approved, your profile is competitive academically but edged out by these income and GPA dynamics that the model weighs heavily for bar predictions. This isn't a judgment on your potential as a Hispanic man with your drive; it's the model being cautious. To move forward, consider retaking the LSAT for an even higher score, bolstering your GPA narrative with strong recent grades, or seeking programs with holistic reviews that value your background more deeply. You could also target schools with bar prep support tailored to diverse students like yourself, turning this into a stepping stone. Keep pushing—many in similar situations succeed by addressing these key areas head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

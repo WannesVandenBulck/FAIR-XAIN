@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 91,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:33.905405",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.50, which stands out above the typical 3.21 average, along with your LSAT score of 32, your high family income bracket, and your plan to attend full-time—details that paint a picture of your dedication and background. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 45.5% chance that you would fail the bar exam, tipping the scales just enough to reject your application. This prediction hinges on a few key aspects of your academic record that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later undergraduate performance placed you in the lower end compared to peers who typically pass the bar. Right on its heels, in the opposite direction, your undergraduate GPA strongly pulled the prediction toward success, as it exceeds what's typical and shows solid overall academic strength. Your LSAT score also helped by nudging things toward passing, though less powerfully, since 32 falls short of the average 36.7 seen in stronger bar exam profiles. Overall, while your GPA and LSAT provided meaningful boosts, the lower Year 3 decile dominated as the top factor driving the failure risk higher than the model deems acceptable for admission. Compared to typical admitted students, who often have higher decile rankings across the board alongside balanced test scores, your profile showed this key gap in later-year performance that outweighed your other strengths. It's understandable to feel frustrated, especially with your advantageous family background and full-time commitment mirroring most successful applicants. To move forward, consider retaking the LSAT to push closer to or above the 36.7 average, or focus on strategies to boost any recent academic deciles through additional coursework or a post-bac program that demonstrates upward momentum. Many students in similar situations have succeeded by addressing these exact areas and reapplying stronger—your solid GPA gives you a great foundation to build on. Keep pursuing your goals; this is just one model's snapshot, and law schools value persistence from determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

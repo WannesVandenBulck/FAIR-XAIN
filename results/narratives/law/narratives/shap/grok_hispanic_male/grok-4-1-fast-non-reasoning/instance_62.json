@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 62,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:42.546735",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select students likely to succeed on their first try. Your undergraduate GPA of 2.20, notably lower than the typical 3.21 average, stood out as the strongest factor pushing the model toward predicting you'll face challenges and fail the bar exam. This low GPA signaled to the model a foundational academic hurdle that weighed heavily against your application. Next in influence was your LSAT score of 31, well below the average of 36.7, which further reinforced the model's concern about your readiness for the rigors of law school and the bar. On a more positive note, your Year 3 school decile ranking of 5—slightly better than the average 5.53—nudged the prediction toward success, showing some improvement in your performance over time. Overall, the model estimates a 60% chance you'll fail the bar on your first attempt, which is why your full-time law program application was rejected; we aim to admit those with stronger predicted odds of passing. Your lower-middle family income and solid Year 1 decile of 6 were considered but played smaller roles compared to these top factors. While your profile as a full-time student aligns with most applicants, these key academic metrics set you apart from typical admitted students who boast higher GPAs and LSATs, making the model view your risk as elevated. This isn't a reflection of your potential or determination, but a data-driven call based on patterns from thousands of past students. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through a post-baccalaureate program, or gaining relevant legal experience to build a more competitive profile. Reapplying after addressing these areas could shift the model's prediction in your favor. Many students in similar situations have succeeded by targeting these exact improvements—your path ahead is still very much open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

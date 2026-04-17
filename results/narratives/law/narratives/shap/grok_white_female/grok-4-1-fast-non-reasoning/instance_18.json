@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:42.190639",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 65% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.00, LSAT score of 28, Year 1 grade decile of 6, and Year 3 decile of 1, along with your upper-middle family income and full-time study plans. The model weighed these factors against patterns from thousands of past students, focusing on the strongest influences for your specific profile. The most decisive factor pushing toward a failure prediction was your Year 3 grade decile, which placed you quite low in your school's ranking that year—far below the typical 5.91 decile among those who passed the bar. This stood out as the biggest concern, signaling to the model a potential dip in performance that often correlates with bar struggles. Next in influence was your undergraduate GPA, which actually worked in your favor by pulling the prediction slightly toward passing, as your 3.00 is reasonably close to the 3.24 average of successful bar takers. Your LSAT score, however, nudged things toward failure, since your 28 is well below the 37.27 average for those who passed. Compared to admitted students, who often have stronger later-year grades, higher test scores, and similar full-time commitments (with 93% of passers being full-time like you), your profile showed vulnerabilities in key performance indicators. Your upper-middle family income aligns well with many who succeed, so it didn't sway the outcome much. While this is disappointing, especially with your solid start in Year 1, it highlights where the model saw risks. To strengthen future applications, consider retaking the LSAT to boost your score and focus on excelling in advanced coursework to improve your later deciles—many students turn things around this way. You might also seek targeted bar prep resources early or explore programs with supportive academic tracks. Keep pushing; your determination as a full-time aspiring lawyer positions you well for a comeback.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 302,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:49:55.793570",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows solid potential in some areas, like your LSAT score of 37, which is right around the typical student's mark of about 36.7. However, the university's admission model, which predicts first-time bar exam success based on past students' academic records, family details, and demographics, estimated a 56% chance that you would fail the bar exam—tipping the scales just enough to reject your application. This prediction hinges on a few key factors from your record that stood out as the strongest influences. The most significant was your undergraduate GPA of 2.8, which falls below the average of 3.21 for students in the dataset; this pulled strongly toward the failure prediction because lower GPAs have historically correlated with bar struggles in similar applicants. Next in influence was your LSAT score, which actually worked in your favor by pushing the model toward expecting a pass, reflecting its slight edge over typical scores. Your Year 3 school decile ranking of 5—roughly average compared to the dataset's 5.53—had a moderate pull toward failure, as it didn't stand out as exceptionally strong amid peers. While your top Year 1 decile of 10 shows early promise and your full-time status aligns with most successful students, these weren't enough to offset the top concerns. Compared to typical admitted students, who often have higher undergrad GPAs and more consistent decile performance, your profile appeared riskier for bar passage. This isn't a judgment on your potential as a Black man from an upper-middle-income family—many in similar circumstances succeed with targeted improvements. To move forward, focus on bolstering your GPA through post-bac courses or a master's program, retake the LSAT if feasible to push it higher, and gather strong letters highlighting your early academic strengths and resilience. Reapplying after addressing these could shift the model's view, and consider schools with holistic reviews that weigh your unique background more favorably. You're clearly driven, and with strategic steps, law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

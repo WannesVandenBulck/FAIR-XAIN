@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 173,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:01.128520",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.70, LSAT score of 18, Year 1 grade decile of 7, Year 3 decile of 2, middle family income bracket, and full-time student status—and predicted a 54% chance that you would fail the bar exam on your first attempt. This probability tipped just over the threshold, leading to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your LSAT score, which stood out as notably low compared to the typical applicant's average of around 37, signaling potential challenges in the rigorous legal reasoning needed for the bar. On a more positive note, your Year 1 grade decile of 7—stronger than the average of 5.71—worked in your favor, pulling the prediction toward success by showing early academic promise. Similarly, your undergraduate GPA of 2.70, though below the average of 3.21, still contributed positively, suggesting some foundational strengths despite not being top-tier. Compared to typical students, where most are full-time like you and come from varied income levels, your lower Year 3 decile of 2 dragged performance down but wasn't the top driver here. Overall, while your early grades and GPA provided a boost, the LSAT's strong negative pull outweighed them for this model. This doesn't define your potential—many students improve dramatically with targeted prep. To move forward, consider retaking the LSAT to boost your score closer to average levels, strengthening your weaker later grades through additional coursework, and reapplying with an updated profile that highlights any bar-relevant experiences. Schools value persistence, especially from determined applicants like you, so building these areas could shift your odds significantly next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

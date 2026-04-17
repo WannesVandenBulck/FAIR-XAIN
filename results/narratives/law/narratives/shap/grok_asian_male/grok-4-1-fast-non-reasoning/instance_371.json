@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 371,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:38.442715",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 75.2% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. This decision hinged primarily on your school grade deciles, with your third-year performance standing out as the strongest negative factor—it placed you in the bottom decile of your school (1 out of 10), far below the typical student's middle-range standing around the 5th or 6th decile, signaling to the model a significant risk of struggling on the bar. Your first-year deciles were also a concern, landing at the 2nd decile versus the average 6th decile, reinforcing the pattern of underperformance relative to peers. On a brighter note, your LSAT score of 41 exceeded the average of about 37, which actively worked in your favor by pushing the prediction toward success and somewhat offsetting those lower grades. Your solid undergraduate GPA of 3.50 (above the typical 3.21) and upper-middle family income likely provided some balance, though they weren't the top drivers here, nor was your plan to attend full-time, which is the norm for over 90% of students. Compared to typical applicants who pass the bar, your early and later school rankings deviated sharply downward, while your stronger test scores aligned more with successful profiles. This combination tipped the scales toward failure in the model's eyes, even with your personal strengths. To move forward, consider retaking courses or programs to boost your school deciles, as those proved most influential—perhaps through targeted tutoring or a post-baccalaureate option. Strengthening any weak areas now could dramatically shift future predictions. You might also seek schools with holistic reviews that weigh your LSAT edge more heavily. Keep pushing; many in similar situations have rebounded by addressing these exact gaps. Your profile shows real potential beneath the surface—use this feedback to refine your path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

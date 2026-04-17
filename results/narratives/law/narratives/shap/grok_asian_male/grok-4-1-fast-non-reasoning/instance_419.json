@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 419,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:51:35.013187",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your Year 1 and Year 3 school decile rankings around the middle of the pack (5th decile, compared to averages of 5.7 and 5.5), your undergraduate GPA of 2.3 (below the typical 3.2), your LSAT score of 23 (well under the average 37), upper-middle family income, and your plan to attend full-time like most students. It predicted a 54% chance that you would fail the bar exam initially, which crossed the threshold for rejection to protect the school's outcomes and reputation. The three biggest factors driving this prediction were your Year 3 decile ranking, your LSAT score, and your undergraduate GPA, in that order of influence. Your Year 3 performance in the 5th decile actually worked in your favor somewhat, nudging the model toward seeing you as more likely to pass than it otherwise would have. However, your LSAT score had the strongest push in the opposite direction, significantly raising the predicted risk of failure because it's notably lower than what the model sees in students who typically succeed. Your undergraduate GPA reinforced that concern, pulling the prediction further toward failure risk compared to higher averages. Overall, these elements made your profile look riskier than most admitted students, whose stronger test scores and grades align more closely with bar passers. While your full-time status and family background are common and neutral here, boosting those key academic signals could shift future predictions. To move forward, consider retaking the LSAT to aim for a score closer to 37 or higher, strengthening your GPA through post-baccalaureate courses or a master's program, and gathering strong letters highlighting your Year 3 improvement. Reapplying after addressing these could show the model a clearer path to bar success, opening doors at schools that value growth in applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

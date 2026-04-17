@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:24.696863",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 72.9% chance that you would not pass, tipping the scales against admission. This prediction drew heavily from your academic record in undergraduate and early law school years, alongside your LSAT performance, family background, and plans to study full-time. The most influential factor pushing toward this failure prediction was your position in the lowest decile for grades in your third year of law school, which stood out as a strong signal of struggle compared to the much higher average decile of around 6 for students who passed the bar. Nearly as important was your first-year decile also landing in the bottom rung, well below the typical 6-point average among successful bar takers, suggesting early challenges that carried forward. These low class rankings were the top two drivers, each significantly increasing the model's concern about your bar exam readiness. On a more positive note, your LSAT score of 35 worked in your favor, pulling the prediction somewhat toward passing since it was reasonably close to the 37.27 average for those who succeeded, though not enough to offset the other concerns. Your undergraduate GPA of 3.20 was solid, hovering just below the 3.24 average for passers, while your upper-middle family income aligned well with the majority of successful students, and your full-time enrollment matched the norm for over 90% of them. Overall, your profile compared unfavorably to admitted students mainly due to those early and mid-program grade deciles, which deviated sharply from the stronger performances that typically lead to bar success. While factors like your background provided some reassurance, they couldn't outweigh the academic red flags. To move forward, consider retaking courses or seeking targeted tutoring to boost your class standing, perhaps aiming for summer programs that have helped others climb deciles. You might also prepare rigorously for a retake of the LSAT to strengthen that positive influence further. With focused effort on these areas, you can reshape your profile for future applications and build real confidence for the bar.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 343,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:39.992500",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.30, an LSAT score of 23.50, low family income bracket, and your plan to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the bottom of the 1st decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 64% chance that you would fail the bar exam—high enough that your application was rejected to minimize the school's risk of low pass rates. This prediction hinged most strongly on your Year 3 school decile ranking, which was far below the typical student's 5th or 6th decile position and strongly signaled to the model a heightened risk of bar failure, pushing the decision firmly in that direction. Your LSAT score, notably lower than the average of around 37, was the second-biggest factor, further reinforcing the model's concern by deviating so much from what succeeds for most applicants. On a more positive note, your undergraduate GPA, though below the usual 3.21 average, actually worked slightly in your favor compared to what the model expected given your other details, nudging the prediction a bit toward passing. Your low family income and full-time status, common among applicants, played smaller roles and aligned with the norm, so they didn't sway things much either way. Overall, your profile stood out from typical admitted students, whose stronger Year 3 performances and higher LSATs correlate with bar success in the model's view. While this rejection stings, especially with the challenges you may have faced as a Hispanic student from a low-income background, it doesn't define your potential. To strengthen future applications, focus on boosting your academic deciles through targeted improvement in later years, retaking the LSAT for a higher score, and perhaps seeking GPA-enhancing opportunities like postgraduate courses. Consider part-time programs or bridge programs that support students with non-traditional paths, and gather strong letters of recommendation highlighting your resilience. Many students in similar situations have succeeded by addressing these key areas—your next application could tell a different story. Keep pushing forward; your determination will shine through.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 264,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:46.094482",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 30, lower-middle family income bracket, and full-time student status—and predicted a 94% probability that you would fail the bar exam on your first attempt. This high risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and strongly signaled lower academic performance relative to the typical student's mid-range standing around the 5th or 6th decile. Next in importance was your Year 1 decile also at 1, again well below the average, reinforcing concerns about consistent underperformance from early on compared to most applicants. Your undergraduate GPA of 3.10 provided a slight counterbalance, as it nudged the prediction somewhat toward passing since it's close to the dataset average of 3.21, but it wasn't strong enough to offset the other red flags. While your LSAT score of 30 is notably below the average of about 37, and your family income is lower than typical, these played lesser roles in the decision. Overall, your early and later school rankings stood out as the biggest drags compared to students who typically rank higher and get approved. This doesn't define your potential, but it highlights where the model saw the clearest risks based on patterns in past bar outcomes. To move forward, consider retaking the LSAT to boost your score toward or above average, strengthening your high school decile performance through additional coursework or explanations in reapplications, and gathering strong letters of recommendation that address your academic trajectory. Many students in similar situations improve by targeting community college or targeted prep programs to build a stronger record before reapplying. With focused effort, you can shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

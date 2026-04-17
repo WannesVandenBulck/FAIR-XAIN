@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:40.285663",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 41% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the three biggest influences on this outcome were your family income level, your third-year grade decile in school, and your LSAT score. Most notably, your low family income bracket stood out as a strong positive signal, pushing the prediction toward expecting you to pass, since students from similar backgrounds who succeeded on the bar were quite rare—only about 1.7% of passers came from low-income families. On the flip side, your position in the bottom decile for third-year grades worked strongly against you, increasing the model's concern about bar failure, especially compared to the typical passer who ranked around the sixth decile. Your LSAT score of 27 also pulled in a favorable direction, nudging the odds slightly toward passing, though it fell well below the average of 37 for those who succeeded. Overall, while your part-time enrollment plans and undergraduate GPA of 2.6 (versus 3.24 for passers) played supporting roles, it was this mix—especially the drag from third-year performance overriding some strengths—that tipped the scale to rejection. Compared to admitted students, who typically show stronger year-three rankings, higher LSATs, and mostly full-time commitments, your profile aligned more closely with those who struggled on the bar. This isn't a judgment on your potential, just a data-driven risk assessment to help the school maintain high bar passage rates. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year grades through targeted study or additional coursework, and exploring ways to shift toward full-time status if feasible. You might also gather letters highlighting your resilience from a low-income background, as that proved helpful for others. Many students in similar spots have improved their profiles and succeeded—reapplying after addressing these areas could change the outcome next time. Keep pushing; your determination will shine through.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

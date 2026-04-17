@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 427,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:52:08.434099",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 2.20, a solid LSAT score of 40, low family income bracket, and your plan to attend full-time, along with your school deciles from Year 1 and Year 3 both sitting at the bottom of the scale. The admissions model, trained on data from thousands of past students, predicted a 56% chance that you would fail the bar exam on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction isn't a judgment on your potential or hard work, but a data-driven assessment based on patterns from similar students' outcomes. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking in the lowest group, well below the typical student's mid-range position, signaling to the model a potential struggle with advanced coursework that often correlates with bar challenges. Next in importance was your LSAT score, which actually worked strongly in your favor by exceeding the average of 36.7, pulling the prediction toward a higher chance of passing despite other concerns. Your Year 1 decile, also at the bottom compared to the average around the 5th or 6th decile, contributed further toward the failure side, reinforcing a pattern of early academic hurdles. While your low family income and full-time status are common among applicants—full-time being the norm for over 90%—they played lesser roles here. Compared to typical students who pass the bar, your profile shows strengths like that standout LSAT but is weighed down by those low deciles, which stand out as bigger risks in the model's view. This isn't the end of your path; many students in similar situations improve by targeting GPA weaknesses through post-bac courses, retaking the LSAT if needed, or gaining legal experience via internships. Consider reaching out to admissions for feedback or reapplying after bolstering your transcript—your LSAT suggests real promise. With focused effort on those early-grade patterns, you can shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

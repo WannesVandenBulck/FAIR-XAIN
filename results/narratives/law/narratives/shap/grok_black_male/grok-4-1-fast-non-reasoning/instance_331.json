@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 331,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:51:44.054837",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates applicants based on their likelihood of passing the bar exam on the first try, estimated a 56.8% probability that you would fail it. This prediction draws from patterns in data about thousands of past students, including their grades, test scores, family backgrounds, and more, to help the school make informed admission decisions. For you, as a Black male with a lower-middle family income background and plans to attend full-time, the model highlighted three key factors that most strongly shaped this outcome, ranked by their influence on your specific profile.\n\nThe most influential factor pulling against failure—meaning it helped your case—was your LSAT score of 36, which is close to the average of 36.7 seen across applicants and signaled solid potential to the model. However, this was outweighed by your Year 3 school decile ranking of 2, well below the typical 5.5 average, which strongly pushed the prediction toward expecting bar exam struggles by indicating relatively lower academic performance in that stage compared to peers. Next in influence was your undergraduate GPA of 2.5, significantly under the 3.21 average, which further tipped the scales toward failure by suggesting challenges in maintaining strong grades that often correlate with bar success.\n\nOverall, while your LSAT provided a boost toward passing, your lower Year 3 decile and undergrad GPA were the dominant drivers making the model view your bar exam odds as riskier than those of typical admitted students, whose profiles usually show stronger grade deciles and GPAs. These elements stood out because they have proven to be reliable predictors of first-time bar passage in the broader dataset. To strengthen future applications, focus on boosting your academic record—perhaps through postgraduate courses, a master's program, or targeted GPA improvement strategies—while retaking the LSAT if possible to push even higher. Many students in similar situations have succeeded by addressing these gaps, and admissions teams value demonstrated growth, so consider reapplying after building that evidence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

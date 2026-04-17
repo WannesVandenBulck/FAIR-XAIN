@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:28.631483",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.80 stood out as the biggest factor pushing the model's prediction toward expecting you to struggle on the bar exam, since it falls notably below the 3.24 average among students who passed on their first try. Next in influence was your first-year decile ranking of 3, which also signaled lower early academic performance compared to the typical 6th decile for successful bar takers, further tilting the decision against you. While your LSAT score of 40 was a bright spot—actually stronger than the 37 average for those who passed—it wasn't quite enough to offset those concerns and pulled the prediction in a more positive direction. Overall, the model estimated a 67% chance you'd fail the bar exam on your first attempt, which is why your full-time law school application was rejected; the admissions team uses this to prioritize applicants likely to succeed and pass the bar promptly. Your upper-middle family income aligns well with many who pass, and your background as a white female in a full-time track matches the norm for successful students, but those didn't carry enough weight here. In contrast, accepted students typically show stronger undergrad grades and higher early decile rankings that keep their failure risk under 50%. This isn't a judgment on your potential—it's just the model highlighting patterns from past bar outcomes where lower UGPA and early deciles often led to first-try failures. To move forward, consider retaking courses or a post-bac program to boost your GPA, as even small improvements there could shift future predictions dramatically. You might also gather letters from professors emphasizing your growth since year one, since the model weighs early performance heavily. Exploring part-time options or schools with bar passage support programs could help too, given how common full-time is among passers. With targeted steps like these, you can build a stronger profile for the next application cycle. Keep pushing—you've already shown LSAT strength that sets you apart.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

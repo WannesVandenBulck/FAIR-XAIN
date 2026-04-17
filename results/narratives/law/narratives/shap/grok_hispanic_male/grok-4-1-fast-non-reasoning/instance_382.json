@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 382,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:07.508165",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 35.50, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 (top decile) and Year 3 (second decile). The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 52% chance you'll fail the bar—crossing the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or background, but a data-driven assessment comparing your profile to others who've taken the exam. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, which placed you in the second decile—lower than the typical student's fifth-decile average—suggesting a dip in performance that the model strongly associates with bar struggles. Next in influence, your LSAT score worked in your favor, as its solid level (just below the 36.70 average) pulled the prediction toward passing, nearly offsetting the Year 3 concern. Your Year 1 top-decile ranking had a milder but still notable push toward failure, indicating that even early strong performance didn't fully counter the later trend in the model's eyes. Overall, these academic deciles and LSAT stood out as the top drivers, outweighing factors like your full-time plans (common for 93% of students) or family income. Compared to typical applicants, your profile shows promise in test scores but flags in relative school rankings that mirror patterns of students who faced bar challenges. This isn't set in stone—many overcome similar hurdles through targeted prep. To move forward, consider retaking the LSAT to boost it further, strengthening later coursework for better decile rankings, or seeking bar prep programs proven for students with your background. Law schools value resilience, especially from diverse applicants like you, so reapplying with bolstered academics could shift the odds dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

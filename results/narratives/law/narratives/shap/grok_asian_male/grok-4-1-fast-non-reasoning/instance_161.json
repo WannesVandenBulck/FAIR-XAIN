@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 161,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:13.274504",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you've built an impressive academic foundation that many peers would envy. Your plan to attend full-time aligns with the vast majority of students in the dataset, about 93%, so that didn't raise any flags. However, the university's admission model, trained on past students' data to predict first-time bar exam success, estimated a 63.8% chance that you would fail the bar exam, tipping the scales toward rejection to minimize risks for their program. This prediction wasn't driven by your standout test scores or GPA, which actually pulled in a positive direction; instead, three key factors stood out as pushing the model most strongly toward forecasting failure. The biggest influence was your family's middle income bracket, which the model sees as a hurdle compared to higher-income backgrounds that often correlate with bar passage in the data. Next, your Year 1 school decile of 5—slightly below the average of 5.71—signaled early academic struggles relative to classmates, outweighing your improvement to a Year 3 decile of 6, which was around average. Even your above-average LSAT, while helpful, had a smaller counterbalancing effect here, not enough to offset those top concerns. In essence, compared to typical admitted students who tend to have stronger early grades and family resources, your profile appeared riskier to the model despite your later gains and test strengths. This doesn't reflect your full potential or effort—many students in similar situations succeed with targeted preparation. To move forward, consider retaking the LSAT to push it even higher, bolstering early-grade explanations in a reapplications essay, or seeking scholarships to highlight resourcefulness beyond family income. Building bar-specific study habits now, perhaps through prep courses, could also strengthen future apps. You're clearly capable; refining these areas positions you strongly for another shot at admission.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

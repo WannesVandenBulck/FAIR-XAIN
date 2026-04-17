@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:45:36.856397",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 99.2% chance that you would not pass—far too high a risk for admission. This prediction stems directly from your academic record, particularly your placement in the second decile for grades in both your first and third years of school, which signals lower performance compared to peers who typically succeed on the bar. The most influential factor pushing the model toward this failure prediction was your third-year decile ranking, as it stood out as a strong indicator that you're not on track with the academic trajectory of those who pass. Your first-year decile played a significant supporting role in the same direction, reinforcing concerns about consistent underperformance relative to successful students, whose averages hover around the sixth decile for both years. Even your upper-middle family income bracket, while common among passers (making up about 45% of them), nudged the prediction slightly toward failure in your case, likely because it didn't offset the academic gaps the model prioritizes. Compared to students who were admitted—those with average LSAT scores around 37 and undergraduate GPAs near 3.24—your scores of 34 and 2.90 fell short, though these were less decisive than your deciles. Your choice of full-time enrollment aligns well with the vast majority of passers (over 93%), but it couldn't counterbalance the top concerns. Overall, the model saw your profile as mismatched with the strong academic performers it favors for bar success. This isn't a judgment on your potential or background, but a data-driven call to protect the program's outcomes. To move forward, focus on boosting your grades to climb those decile rankings—perhaps through tutoring or study strategies—and retake the LSAT aiming for 37 or higher. Building a stronger undergraduate-equivalent record, if possible via post-bac courses, could also help. Reapply after addressing these core areas, and consider schools with holistic reviews that might weigh your full-time commitment more favorably.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

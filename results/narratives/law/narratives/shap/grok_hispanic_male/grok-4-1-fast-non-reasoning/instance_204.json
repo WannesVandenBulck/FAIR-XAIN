@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 204,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:49.247032",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background reflects determination amid challenges, including your lower-middle family income bracket and part-time enrollment plans, which set you apart from the majority of full-time applicants. Your undergraduate GPA of 2.80 sits below the typical 3.21 average, while your Year 1 and Year 3 school deciles of 5 and 3, respectively, indicate mid-to-lower performance compared to peers. The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 48% chance you'll fail the exam—high enough to trigger rejection, as the school prioritizes applicants likely to pass on their first try. The most influential factor pushing toward this failure prediction was your LSAT score of 22, far below the dataset average of 36.70, signaling to the model a significant hurdle in legal reasoning skills critical for the bar. Counterbalancing this somewhat was your family income level, which nudged the prediction toward passing, perhaps reflecting resilience often seen in students from similar backgrounds who succeed despite odds. Your undergraduate GPA also pulled in a favorable direction, suggesting solid foundational academics that could support bar prep. Compared to typical students—who boast higher test scores, stronger GPAs, and full-time status—your profile stood out as riskier, with the low LSAT dominating the decision despite those positives. This isn't a judgment on your potential as a Hispanic leader in law, but a data-driven call to bolster key areas. To move forward, consider retaking the LSAT to aim closer to or above the 36.70 average, as even a modest boost could flip predictions for many schools. Strengthening your academic deciles through targeted coursework or highlighting part-time work experience in appeals might also help. Reach out to admissions for feedback, and explore prep programs tailored for underrepresented students like yourself. With focused effort, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

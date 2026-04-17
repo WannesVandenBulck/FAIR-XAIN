@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:07.846174",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 65% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.20, LSAT score of 21.30, Year 1 grade decile of 6, Year 3 decile of 2, middle family income bracket, and your plan to attend full-time. Among the factors considered, your LSAT score had the strongest influence, pushing the model heavily toward predicting bar failure because it falls well below the average of 37.27 seen in students who passed. Your undergraduate GPA played a notable counterbalancing role, pulling the prediction toward success since your 3.20 is close to the 3.24 average for passers, showing solid prior performance. However, your Year 3 decile of 2 was another key driver toward failure, as it lags far behind the typical 5.91 decile for those who passed, signaling a potential downward trend in grades. Compared to admitted students, who often come from a mix of income levels but predominantly full-time like you, your profile stood out negatively due to that low Year 3 standing and especially the LSAT, which overshadowed strengths like your GPA and stable family background. While your middle-income status aligns with over a third of successful students, it didn't offset the academic red flags. This isn't a judgment on your potential or effort—many with similar starts improve dramatically. To move forward, consider retaking the LSAT to boost your score closer to the passing average, as that's the single biggest lever here. Strengthening your recent grades or seeking targeted bar prep could also help rebuild your profile. Reach out to admissions for feedback on reapplying, and explore prep resources tailored for full-time students in your situation. With focused steps, you can shift the odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

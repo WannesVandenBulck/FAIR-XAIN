@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 53,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:53.092662",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 41.3% chance that you would fail it—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the strongest influence pushing toward this failure prediction was your Year 3 school decile ranking of 1st, which placed you in the bottom tenth of your peers that year—far below the typical 6th decile among students who went on to pass the bar. This low ranking stood out as the most significant red flag, signaling to the model a potential struggle to build the consistent performance needed for the exam. On a more positive note, your high family income bracket worked strongly in your favor, aligning with a smaller but successful group of bar passers from similar backgrounds and pulling the prediction toward success. Your LSAT score of 33 also helped nudge things positively, even though it's below the 37 average for those who passed, showing the model saw some promise there despite room for improvement. Your undergraduate GPA of 3.20 was close to the 3.24 average for successful students, so it didn't sway the outcome much either way. Being a full-time student matched the norm for 93% of bar passers, which the model viewed neutrally. Overall, your profile compares unfavorably to admitted students mainly due to that Year 3 decile, overshadowing strengths like your family's resources and solid undergrad record. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on strategies to improve your upper-year grades—perhaps through tutoring or study groups—to climb those school rankings. Many students in your position have succeeded by addressing these exact areas before reapplying, so reviewing your transcript and seeking academic advising could make a real difference next time. With targeted improvements, your high family support and full-time commitment position you well for a stronger prediction.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

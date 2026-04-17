@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 93,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:12.981724",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.50, your LSAT score of 31, your Year 1 decile ranking of 1st (the lowest performance band), and your Year 3 decile of 2nd, alongside factors like your upper-middle family income and full-time study plans. Among students who passed the bar, the average LSAT is notably higher at 37.27, and their Year 1 and Year 3 deciles average around 6th, showing how your early undergraduate and school rankings stand out as less competitive in this context.\n\nThe three most influential factors in pushing your prediction toward failure were your Year 1 and Year 3 decile rankings, followed by your undergraduate GPA. Your low Year 1 decile had the strongest pull toward predicting bar failure, as it signals early academic struggles that the model links to challenges ahead, even compared to passers who typically ranked much higher. Similarly, your Year 3 decile reinforced this concern, nudging the prediction further toward failure since it didn't show the improvement seen in successful students. On a more positive note, your solid undergraduate GPA worked against failure, pulling the prediction toward success more than any other factor—it's actually above the 3.24 average for bar passers, which helped balance things out somewhat.\n\nWhile your full-time status aligns well with the 93% of passers who chose that path, and your family background falls squarely in the upper-middle range common among successful students, they weren't decisive here. Overall, your profile compares to accepted applicants by lagging in those key early rankings and LSAT, despite strengths like your GPA that kept the failure odds from being even higher. To move forward, consider retaking the LSAT to boost your score closer to the typical 37+ for passers, strengthening your academic deciles through additional coursework or programs that demonstrate growth, and reapplying next cycle with updated evidence of your potential. Many students in similar positions have succeeded by targeting these areas, and admissions teams value persistence and targeted improvement.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

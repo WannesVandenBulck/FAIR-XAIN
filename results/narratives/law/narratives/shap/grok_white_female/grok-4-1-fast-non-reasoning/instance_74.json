@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 74,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:07.842187",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 68.8% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your Year 1 school decile ranking of 4, which falls below the average of 6.04 for those who passed the bar—making it the single biggest factor pushing the model toward forecasting failure. Your LSAT score of 35, lower than the 37.27 average among bar passers, reinforced this concern as the second-most influential element, signaling potential challenges in the rigorous demands ahead. On a brighter note, your Year 3 decile of 5, close to the 5.91 average for successful students, worked in your favor as the third-key factor, nudging the prediction slightly toward success and showing your upward trajectory. Your solid undergraduate GPA of 3.30 actually exceeds the 3.24 average for bar passers, and your upper-middle family income aligns well with the majority of those who succeed, but these played smaller roles overshadowed by the top concerns. Being a full-time student also matches the profile of most who pass, placing you in the mainstream there. Compared to typical accepted applicants, who tend to enter law school with stronger early academic deciles and higher LSATs, your profile highlighted risks in those foundational areas despite your later improvements and other strengths. This isn't a judgment on your potential or hard work—it's the model weighing patterns from past students to guide admissions. To move forward, consider retaking the LSAT to boost your score closer to or above the passing average, as that could dramatically shift future predictions. Strengthening your early-grade decile equivalent through additional undergrad or post-bac coursework might also help demonstrate growth. Reach out to admissions advisors for personalized feedback, and explore programs with bridge courses or bar prep support tailored for full-time students like you. With targeted steps, you can reshape your profile for stronger odds next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

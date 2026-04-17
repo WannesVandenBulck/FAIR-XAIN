@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 63,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:16.759390",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.9% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.50, LSAT score of 33, Year 1 grade decile of 5, and Year 3 decile of 3, alongside factors like your upper-middle family income and plans to attend full-time. The model weighed these elements against patterns from thousands of past students, focusing on what best forecasts bar success without considering gender or race. The strongest influence pushing toward this failure prediction was your Year 3 grade decile, which landed lower than the average of about 6 for those who passed, signaling to the model a potential dip in performance trajectory that often correlates with bar struggles. Next in impact was your undergraduate GPA, which actually worked in your favor—it's higher than the 3.24 average among passers, pulling the prediction somewhat toward success and softening the overall risk assessment. Your LSAT score rounded out the top factors, contributing toward failure since 33 falls short of the 37.27 average for successful students, reinforcing concerns about exam readiness. Compared to typical admitted applicants, who often show stronger late-year grades and higher LSATs while matching your full-time status and income bracket, your profile appeared riskier despite the positive undergrad GPA. This isn't a judgment on your potential or background—many with similar starting points succeed through targeted effort. To move forward, consider retaking the LSAT to boost it closer to 37 or above, as that could significantly shift future predictions. Strengthening your recent academic decile through additional coursework or a post-bac program might also help demonstrate upward momentum. We recommend consulting advisors for bar prep strategies tailored to your strengths, and reapplying after addressing these key areas—many students in your position turn predictions around with focused improvements. Your upper-middle background and full-time commitment are assets that align well with successful peers, so building on them could open doors soon.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

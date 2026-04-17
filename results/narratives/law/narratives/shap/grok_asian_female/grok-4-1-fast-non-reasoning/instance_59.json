@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:00.262348",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 48% chance that you would not pass—high enough to trigger rejection as a protective measure for both you and the program. This prediction drew heavily from three key aspects of your profile: your undergraduate GPA, LSAT score, and family income bracket. Among these, your undergraduate GPA stood out as the strongest positive signal, suggesting it pulled the prediction toward expecting you to pass, likely because your 3.40 exceeds the 3.24 average among students who succeeded on the bar. In contrast, your LSAT score of 31 had a notable push toward predicting failure, as it falls well below the 37.27 average for those who passed, signaling potential challenges in the rigorous reasoning demands of law school and the bar. Your middle family income bracket also nudged the prediction toward failure, since successful bar takers were far more likely to come from upper-middle or high-income backgrounds (over 50% combined), possibly reflecting access to additional resources or preparation advantages. Your Year 1 and Year 3 deciles around the 4th rank were middling compared to the 6th decile averages for passers, adding some concern but not ranking among the top influences here. Being a full-time student aligned well with the norm, as over 93% of bar passers pursued full-time paths. Overall, while your solid undergrad performance offers hope, the LSAT and income factors tipped the scales against you compared to typical accepted students, whose profiles showed stronger standardized test results and often more financial stability. This isn't a judgment on your potential—many overcome similar hurdles with targeted effort. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, seek scholarships or support networks that level the playing field regardless of family income, and build a stronger narrative in your application highlighting your GPA strengths and full-time commitment. Reapplying after addressing these could shift your predicted odds significantly in future cycles.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

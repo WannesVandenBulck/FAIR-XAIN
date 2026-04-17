@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "report_type": "Bias Injection Experiment Comparison",
+    "analysis_timestamp": "2026-04-17T15:19:42.501932",
+    "dataset": "law",
+    "comparison_summary": {
+      "total_batches": 4,
+      "total_narratives": 1732,
+      "batches_compared": [
+        "white_male",
+        "black_male",
+        "hispanic_male",
+        "asian_male"
+      ],
+      "batch_details": {
+        "white_male": {
+          "narrative_count": 433,
+          "demographics": {
+            "race": "white",
+            "gender": "male"
+          }
+        },
+        "black_male": {
+          "narrative_count": 433,
+          "demographics": {
+            "race": "black",
+            "gender": "male"
+          }
+        },
+        "hispanic_male": {
+          "narrative_count": 433,
+          "demographics": {
+            "race": "hispanic",
+            "gender": "male"
+          }
+        },
+        "asian_male": {
+          "narrative_count": 433,
+          "demographics": {
+            "race": "asian",
+            "gender": "male"
+          }
+        }
+      }
+    },
+    "llm_configuration": {
+      "provider": "grok",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "demographics_explanation": "Demographic groups compared:\n  - asian_male: race: Asian, gender: Male (433 narratives)\n  - black_male: race: Black, gender: Male (433 narratives)\n  - hispanic_male: race: Hispanic, gender: Male (433 narratives)\n  - white_male: race: White, gender: Male (433 narratives)",
+    "analyses_included": [
+      "protected_mentions",
+      "emotion_distilroberta",
+      "emotion_go_emotions",
+      "empathy_strategy"
+    ],
+    "summary": "This report compares 1732 narratives across 4 demographic groups (white_male, black_male, hispanic_male, asian_male) generated using grok (grok-4-1-fast-non-reasoning). Each group represents narratives where the demographic attributes were overridden to specific demographic profiles. The comparison includes sentiment analysis (DistilRoBERTa and GoEmotions), mentions of protected attributes (gender and race), and empathy strategy detection."
+  },
+  "protected_mentions": {
+    "white_male": {
+      "avg_gender_mentions": 3.9006928406466512,
+      "avg_race_mentions": 3.879907621247113,
+      "std_gender_mentions": 1.375074881142049,
+      "std_race_mentions": 1.3658277496860964,
+      "total_gender_mentions": 1689,
+      "total_race_mentions": 1680
+    },
+    "black_male": {
+      "avg_gender_mentions": 4.607390300230947,
+      "avg_race_mentions": 5.147806004618937,
+      "std_gender_mentions": 1.4586338882502707,
+      "std_race_mentions": 1.398234135177967,
+      "total_gender_mentions": 1995,
+      "total_race_mentions": 2229
+    },
+    "hispanic_male": {
+      "avg_gender_mentions": 3.81986143187067,
+      "avg_race_mentions": 5.785219399538106,
+      "std_gender_mentions": 1.3178024184433812,
+      "std_race_mentions": 1.246728193083666,
+      "total_gender_mentions": 1654,
+      "total_race_mentions": 2505
+    },
+    "asian_male": {
+      "avg_gender_mentions": 4.842956120092379,
+      "avg_race_mentions": 5.140877598152425,
+      "std_gender_mentions": 1.4744326157848848,
+      "std_race_mentions": 1.4307788432115425,
+      "total_gender_mentions": 2097,
+      "total_race_mentions": 2226
+    }
+  },
+  "emotion_distilroberta": {
+    "white_male": {
+      "fear": {
+        "count": 163,
+        "percentage": 37.644341801385686,
+        "avg_confidence": 0.6266671985936311
+      },
+      "neutral": {
+        "count": 253,
+        "percentage": 58.429561200923786,
+        "avg_confidence": 0.6931285529504181
+      },
+      "sadness": {
+        "count": 17,
+        "percentage": 3.9260969976905313,
+        "avg_confidence": 0.5116664030972649
+      }
+    },
+    "black_male": {
+      "neutral": {
+        "count": 214,
+        "percentage": 49.42263279445728,
+        "avg_confidence": 0.7260597756254339
+      },
+      "sadness": {
+        "count": 79,
+        "percentage": 18.244803695150118,
+        "avg_confidence": 0.5319451395469376
+      },
+      "fear": {
+        "count": 139,
+        "percentage": 32.10161662817552,
+        "avg_confidence": 0.5788870674671887
+      },
+      "anger": {
+        "count": 1,
+        "percentage": 0.23094688221709006,
+        "avg_confidence": 0.4499293565750122
+      }
+    },
+    "hispanic_male": {
+      "neutral": {
+        "count": 350,
+        "percentage": 80.83140877598153,
+        "avg_confidence": 0.7369948253461293
+      },
+      "fear": {
+        "count": 68,
+        "percentage": 15.704387990762125,
+        "avg_confidence": 0.5624431503169677
+      },
+      "sadness": {
+        "count": 15,
+        "percentage": 3.4642032332563506,
+        "avg_confidence": 0.612694642941157
+      }
+    },
+    "asian_male": {
+      "neutral": {
+        "count": 278,
+        "percentage": 64.20323325635104,
+        "avg_confidence": 0.7467715230991514
+      },
+      "fear": {
+        "count": 142,
+        "percentage": 32.79445727482679,
+        "avg_confidence": 0.5936316018792945
+      },
+      "sadness": {
+        "count": 12,
+        "percentage": 2.771362586605081,
+        "avg_confidence": 0.5483330438534418
+      },
+      "surprise": {
+        "count": 1,
+        "percentage": 0.23094688221709006,
+        "avg_confidence": 0.4189944863319397
+      }
+    }
+  },
+  "emotion_go_emotions": {
+    "white_male": {
+      "neutral": {
+        "count": 410,
+        "percentage": 94.68822170900692,
+        "avg_confidence": 0.8033887005433804
+      },
+      "admiration": {
+        "count": 18,
+        "percentage": 4.157043879907621,
+        "avg_confidence": 0.5504857268598344
+      },
+      "disappointment": {
+        "count": 5,
+        "percentage": 1.1547344110854503,
+        "avg_confidence": 0.4921419024467468
+      }
+    },
+    "black_male": {
+      "neutral": {
+        "count": 366,
+        "percentage": 84.52655889145497,
+        "avg_confidence": 0.7835433111001885
+      },
+      "disappointment": {
+        "count": 55,
+        "percentage": 12.702078521939955,
+        "avg_confidence": 0.5427642470056361
+      },
+      "admiration": {
+        "count": 12,
+        "percentage": 2.771362586605081,
+        "avg_confidence": 0.5334264834721884
+      }
+    },
+    "hispanic_male": {
+      "neutral": {
+        "count": 423,
+        "percentage": 97.6905311778291,
+        "avg_confidence": 0.8036361211298769
+      },
+      "disappointment": {
+        "count": 2,
+        "percentage": 0.4618937644341801,
+        "avg_confidence": 0.5578620731830597
+      },
+      "admiration": {
+        "count": 8,
+        "percentage": 1.8475750577367205,
+        "avg_confidence": 0.5172156244516373
+      }
+    },
+    "asian_male": {
+      "neutral": {
+        "count": 421,
+        "percentage": 97.22863741339492,
+        "avg_confidence": 0.8571123968535534
+      },
+      "disappointment": {
+        "count": 3,
+        "percentage": 0.6928406466512702,
+        "avg_confidence": 0.5410701433817545
+      },
+      "admiration": {
+        "count": 9,
+        "percentage": 2.0785219399538106,
+        "avg_confidence": 0.5455073548687829
+      }
+    }
+  },
+  "empathy_strategy": {
+    "white_male": {
+      "LABEL_1": {
+        "count": 426,
+        "percentage": 98.38337182448036,
+        "avg_score": 0.5311712956344578,
+        "meaning": "Unknown label"
+      },
+      "LABEL_0": {
+        "count": 7,
+        "percentage": 1.6166281755196306,
+        "avg_score": 0.3324494319302695,
+        "meaning": "Unknown label"
+      }
+    },
+    "black_male": {
+      "LABEL_1": {
+        "count": 426,
+        "percentage": 98.38337182448036,
+        "avg_score": 0.5321437836812696,
+        "meaning": "Unknown label"
+      },
+      "LABEL_0": {
+        "count": 7,
+        "percentage": 1.6166281755196306,
+        "avg_score": 0.31260337574141367,
+        "meaning": "Unknown label"
+      }
+    },
+    "hispanic_male": {
+      "LABEL_1": {
+        "count": 410,
+        "percentage": 94.68822170900692,
+        "avg_score": 0.5128451571958821,
+        "meaning": "Unknown label"
+      },
+      "LABEL_0": {
+        "count": 21,
+        "percentage": 4.849884526558892,
+        "avg_score": 0.34201921096869875,
+        "meaning": "Unknown label"
+      },
+      "LABEL_2": {
+        "count": 2,
+        "percentage": 0.4618937644341801,
+        "avg_score": 0.2822805196046829,
+        "meaning": "Unknown label"
+      }
+    },
+    "asian_male": {
+      "LABEL_1": {
+        "count": 427,
+        "percentage": 98.61431870669746,
+        "avg_score": 0.5255945657818323,
+        "meaning": "Unknown label"
+      },
+      "LABEL_0": {
+        "count": 6,
+        "percentage": 1.3856812933025404,
+        "avg_score": 0.3061702723304431,
+        "meaning": "Unknown label"
+      }
+    }
+  },
+  "empathy_strategy_meanings": {
+    "Affirmation and Reassurance": "Validating and encouraging; building confidence",
+    "Information": "Providing factual knowledge or explanations",
+    "Others": "General or non-specific support; miscellaneous responses",
+    "Providing Suggestions": "Offering concrete advice or action steps",
+    "Question": "Asking clarifying or exploratory questions",
+    "Reflection of feelings": "Mirroring or acknowledging emotions",
+    "Restatement or Paraphrasing": "Restating information to show understanding",
+    "Self-disclosure": "Sharing personal experiences or vulnerabilities"
+  }
+}

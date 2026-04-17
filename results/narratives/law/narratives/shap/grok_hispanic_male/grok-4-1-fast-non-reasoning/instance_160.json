@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 160,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:07:54.790674",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 41, Year 1 and Year 3 school deciles both at 3, and a middle-class family income background, along with planning to attend full-time. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 40% chance that you would fail the bar on your first try—high enough to trigger a rejection, as the school prioritizes applicants likely to pass and succeed in their program. This prediction hinges on just a few key factors from your profile, with your LSAT score standing out as the most influential by far, strongly pushing the model toward expecting you to pass despite other concerns. Next in importance were your Year 3 grades, which fell in the lower third of your school's rankings—below the typical student's mid-range position—and this pulled the prediction noticeably toward a higher risk of bar failure. Your Year 1 grades, also in the lower third and similarly lagging behind averages, added a smaller but reinforcing nudge in the same direction. While your solid LSAT performance above the average of 36.7 was a bright spot that tempered the overall risk, those early and later academic deciles carried enough weight to tip the balance. Compared to typical students who get approved, your grade deciles are notably lower, which the model sees as the biggest red flags linking to bar struggles, even with your full-time commitment aligning with the vast majority. It's tough to hear, especially knowing the barriers many Hispanic students like yourself face in building strong academic records early on. To move forward, focus on strengthening those weaker areas—perhaps retake courses or seek targeted tutoring to boost future grade deciles, while leveraging your LSAT strength in appeals or reapplications. Many students in similar positions improve dramatically with focused effort, and reapplying after demonstrable progress could shift your prediction favorably. You're clearly capable, given that standout test score, so use this as motivation to address the gaps head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

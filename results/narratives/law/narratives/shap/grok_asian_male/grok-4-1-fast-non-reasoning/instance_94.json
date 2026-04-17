@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:01.174342",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like family income and study plans. The model estimated a 63.5% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting students predicted to succeed and contribute positively after graduation. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st decile, meaning your grades placed you in the bottom 10% of your peers that year—far below the typical 5th or 6th decile average—which signaled potential challenges in handling rigorous legal coursework. Next in importance was your LSAT score of 36, slightly under the average of 36.7, but it actually worked in your favor by nudging the prediction toward passing, showing your test-taking strength despite other concerns. Your Year 1 decile of 2nd—again in the lower ranks compared to the average around 6th—also contributed toward the failure prediction, highlighting a pattern of early underperformance relative to most applicants. Your undergraduate GPA of 3.0 (below the 3.21 average), middle family income bracket, and full-time study plans played supporting roles but weren't the top drivers. Compared to typical students, who often enter with mid-range deciles and stronger consistent academics, your profile stood out for lower early and late rankings, which the model weighed heavily as red flags for bar success. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds excel—but the model focuses on these patterns from past data. To move forward, consider retaking courses or programs to boost your decile rankings, aiming for at least average levels, and perhaps supplementing with LSAT prep to amplify that positive factor. Building a stronger academic narrative through community college upgrades or targeted tutoring could help reframe your profile for future applications. Schools value persistence, so documenting improvements in a new personal statement might sway human reviewers next time. With focused effort on those early grade weaknesses, you can shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

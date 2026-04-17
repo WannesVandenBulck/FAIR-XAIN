@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:54.116557",
+  "status": "success",
+  "narrative": "Your law school application was denied because our admission model, trained on past students' data, predicted a 65% chance that you would not pass the bar exam on your first try—a threshold that leads to rejection to ensure we select candidates likely to succeed. This prediction stems from a close look at key parts of your academic record, like your year 1 and year 3 school deciles, undergraduate GPA, LSAT score, family income bracket, and whether you'd study full-time. The most influential factor pushing the model toward predicting failure was your lower decile ranking in year 3 grades, which stood out as a strong signal compared to the much higher average decile of about 5.9 among students who passed the bar. Your undergraduate GPA of 3.00 actually worked in your favor, pulling the prediction somewhat toward success since it's close to the 3.24 average of those who passed, showing your college performance was reasonably solid. Meanwhile, your LSAT score of 28 nudged the outlook toward failure, as it falls well below the 37.27 average for bar passers, highlighting a gap in that standardized measure. Your upper-middle family income aligns well with the majority of successful students, and opting for full-time study matches what 93% of bar passers did, but these didn't outweigh the top concerns. Overall, your profile compares to accepted students by having a strong start in year 1 (decile 6, near their average) but slipping later, with test scores that didn't keep pace with typical admits. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call based on patterns from thousands of past cases. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and full-time commitment. Many students in similar spots have improved these areas and succeeded on later applications. Reach out to our admissions office for feedback on bolstering your profile, or explore bridge programs designed for determined candidates like you. With targeted steps, you can shift the odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

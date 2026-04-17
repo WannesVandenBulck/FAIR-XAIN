@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "report_type": "Bias Injection Experiment Comparison",
+    "analysis_timestamp": "2026-04-17T17:19:34.618350",
+    "dataset": "law",
+    "comparison_summary": {
+      "total_batches": 5,
+      "total_narratives": 813,
+      "batches_compared": [
+        "white_female",
+        "black_female",
+        "hispanic_female",
+        "asian_female",
+        "native_american_female"
+      ],
+      "batch_details": {
+        "white_female": {
+          "narrative_count": 409,
+          "demographics": {
+            "race": "white",
+            "gender": "female"
+          }
+        },
+        "black_female": {
+          "narrative_count": 101,
+          "demographics": {
+            "race": "black",
+            "gender": "female"
+          }
+        },
+        "hispanic_female": {
+          "narrative_count": 101,
+          "demographics": {
+            "race": "hispanic",
+            "gender": "female"
+          }
+        },
+        "asian_female": {
+          "narrative_count": 101,
+          "demographics": {
+            "race": "asian",
+            "gender": "female"
+          }
+        },
+        "native_american_female": {
+          "narrative_count": 101,
+          "demographics": {
+            "race": "native american",
+            "gender": "female"
+          }
+        }
+      }
+    },
+    "llm_configuration": {
+      "provider": "grok",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    "demographics_explanation": "Demographic groups compared:\n  - asian_female: race: Asian, gender: Female (101 narratives)\n  - black_female: race: Black, gender: Female (101 narratives)\n  - hispanic_female: race: Hispanic, gender: Female (101 narratives)\n  - native_american_female: race: Native American, gender: Female (101 narratives)\n  - white_female: race: White, gender: Female (409 narratives)",
+    "analyses_included": [
+      "protected_mentions",
+      "emotion_distilroberta",
+      "emotion_go_emotions",
+      "empathy_strategy"
+    ],
+    "summary": "This report compares 813 narratives across 5 demographic groups (white_female, black_female, hispanic_female, asian_female, native_american_female) generated using grok (grok-4-1-fast-non-reasoning). Each group represents narratives where the demographic attributes were overridden to specific demographic profiles. The comparison includes sentiment analysis (DistilRoBERTa and GoEmotions), mentions of protected attributes (gender and race), and empathy strategy detection."
+  },
+  "protected_mentions": {
+    "white_female": {
+      "avg_gender_mentions": 2.0488997555012225,
+      "avg_race_mentions": 2.0464547677261615,
+      "std_gender_mentions": 1.4390825018614304,
+      "std_race_mentions": 1.4280779904233338,
+      "total_gender_mentions": 838,
+      "total_race_mentions": 837
+    },
+    "black_female": {
+      "avg_gender_mentions": 0.0594059405940594,
+      "avg_race_mentions": 0.0594059405940594,
+      "std_gender_mentions": 0.4179578399842661,
+      "std_race_mentions": 0.4179578399842661,
+      "total_gender_mentions": 6,
+      "total_race_mentions": 6
+    },
+    "hispanic_female": {
+      "avg_gender_mentions": 0.18811881188118812,
+      "avg_race_mentions": 0.297029702970297,
+      "std_gender_mentions": 0.6995454151546808,
+      "std_race_mentions": 0.8960259284553478,
+      "total_gender_mentions": 19,
+      "total_race_mentions": 30
+    },
+    "asian_female": {
+      "avg_gender_mentions": 0.32673267326732675,
+      "avg_race_mentions": 0.3564356435643564,
+      "std_gender_mentions": 0.9345821419337985,
+      "std_race_mentions": 0.9707010676258333,
+      "total_gender_mentions": 33,
+      "total_race_mentions": 36
+    },
+    "native_american_female": {
+      "avg_gender_mentions": 0.1485148514851485,
+      "avg_race_mentions": 0.2079207920792079,
+      "std_gender_mentions": 0.6507594742635636,
+      "std_race_mentions": 0.7619260597057818,
+      "total_gender_mentions": 15,
+      "total_race_mentions": 21
+    }
+  },
+  "emotion_distilroberta": {
+    "white_female": {
+      "sadness": {
+        "count": 275,
+        "percentage": 67.23716381418093,
+        "avg_confidence": 0.5609052493355491
+      },
+      "fear": {
+        "count": 69,
+        "percentage": 16.87041564792176,
+        "avg_confidence": 0.5227755187214285
+      },
+      "anger": {
+        "count": 45,
+        "percentage": 11.00244498777506,
+        "avg_confidence": 0.4582428051365746
+      },
+      "neutral": {
+        "count": 19,
+        "percentage": 4.645476772616137,
+        "avg_confidence": 0.6195623043336367
+      },
+      "surprise": {
+        "count": 1,
+        "percentage": 0.24449877750611246,
+        "avg_confidence": 0.7414889335632324
+      }
+    },
+    "black_female": {
+      "sadness": {
+        "count": 75,
+        "percentage": 74.25742574257426,
+        "avg_confidence": 0.5783671391010284
+      },
+      "fear": {
+        "count": 15,
+        "percentage": 14.85148514851485,
+        "avg_confidence": 0.5351058820883433
+      },
+      "neutral": {
+        "count": 4,
+        "percentage": 3.9603960396039604,
+        "avg_confidence": 0.8217688351869583
+      },
+      "anger": {
+        "count": 7,
+        "percentage": 6.9306930693069315,
+        "avg_confidence": 0.4298589357307979
+      }
+    },
+    "hispanic_female": {
+      "fear": {
+        "count": 11,
+        "percentage": 10.891089108910892,
+        "avg_confidence": 0.5057569552551616
+      },
+      "sadness": {
+        "count": 77,
+        "percentage": 76.23762376237624,
+        "avg_confidence": 0.6027747005611271
+      },
+      "neutral": {
+        "count": 7,
+        "percentage": 6.9306930693069315,
+        "avg_confidence": 0.7085745632648468
+      },
+      "anger": {
+        "count": 5,
+        "percentage": 4.9504950495049505,
+        "avg_confidence": 0.4257075786590576
+      },
+      "joy": {
+        "count": 1,
+        "percentage": 0.9900990099009901,
+        "avg_confidence": 0.6009447574615479
+      }
+    },
+    "asian_female": {
+      "sadness": {
+        "count": 59,
+        "percentage": 58.415841584158414,
+        "avg_confidence": 0.595663537413387
+      },
+      "fear": {
+        "count": 20,
+        "percentage": 19.801980198019802,
+        "avg_confidence": 0.5201384782791137
+      },
+      "neutral": {
+        "count": 8,
+        "percentage": 7.920792079207921,
+        "avg_confidence": 0.7960700541734695
+      },
+      "anger": {
+        "count": 14,
+        "percentage": 13.861386138613863,
+        "avg_confidence": 0.45378140679427553
+      }
+    },
+    "native_american_female": {
+      "sadness": {
+        "count": 72,
+        "percentage": 71.28712871287128,
+        "avg_confidence": 0.6054032714002662
+      },
+      "fear": {
+        "count": 8,
+        "percentage": 7.920792079207921,
+        "avg_confidence": 0.4377981424331665
+      },
+      "anger": {
+        "count": 15,
+        "percentage": 14.85148514851485,
+        "avg_confidence": 0.427923446893692
+      },
+      "neutral": {
+        "count": 6,
+        "percentage": 5.9405940594059405,
+        "avg_confidence": 0.7705675264199575
+      }
+    }
+  },
+  "emotion_go_emotions": {
+    "white_female": {
+      "disappointment": {
+        "count": 225,
+        "percentage": 55.012224938875306,
+        "avg_confidence": 0.5581853048006693
+      },
+      "neutral": {
+        "count": 181,
+        "percentage": 44.25427872860636,
+        "avg_confidence": 0.6047037828363766
+      },
+      "remorse": {
+        "count": 2,
+        "percentage": 0.4889975550122249,
+        "avg_confidence": 0.5904099345207214
+      },
+      "surprise": {
+        "count": 1,
+        "percentage": 0.24449877750611246,
+        "avg_confidence": 0.5379587411880493
+      }
+    },
+    "black_female": {
+      "neutral": {
+        "count": 63,
+        "percentage": 62.37623762376238,
+        "avg_confidence": 0.5778912059844487
+      },
+      "disappointment": {
+        "count": 38,
+        "percentage": 37.62376237623762,
+        "avg_confidence": 0.5469144159241727
+      }
+    },
+    "hispanic_female": {
+      "disappointment": {
+        "count": 41,
+        "percentage": 40.5940594059406,
+        "avg_confidence": 0.5571941580714249
+      },
+      "neutral": {
+        "count": 60,
+        "percentage": 59.4059405940594,
+        "avg_confidence": 0.589952630798022
+      }
+    },
+    "asian_female": {
+      "disappointment": {
+        "count": 48,
+        "percentage": 47.524752475247524,
+        "avg_confidence": 0.5579894253363212
+      },
+      "neutral": {
+        "count": 53,
+        "percentage": 52.475247524752476,
+        "avg_confidence": 0.5922891891227579
+      }
+    },
+    "native_american_female": {
+      "disappointment": {
+        "count": 50,
+        "percentage": 49.504950495049506,
+        "avg_confidence": 0.5577541530132294
+      },
+      "neutral": {
+        "count": 51,
+        "percentage": 50.495049504950494,
+        "avg_confidence": 0.6029749278928719
+      }
+    }
+  },
+  "empathy_strategy": {
+    "white_female": {
+      "LABEL_1": {
+        "count": 409,
+        "percentage": 100.0,
+        "avg_score": 0.5549740684935982,
+        "meaning": "Unknown label"
+      }
+    },
+    "black_female": {
+      "LABEL_1": {
+        "count": 101,
+        "percentage": 100.0,
+        "avg_score": 0.559133251114647,
+        "meaning": "Unknown label"
+      }
+    },
+    "hispanic_female": {
+      "LABEL_1": {
+        "count": 101,
+        "percentage": 100.0,
+        "avg_score": 0.5574154408261327,
+        "meaning": "Unknown label"
+      }
+    },
+    "asian_female": {
+      "LABEL_1": {
+        "count": 101,
+        "percentage": 100.0,
+        "avg_score": 0.5578434788944697,
+        "meaning": "Unknown label"
+      }
+    },
+    "native_american_female": {
+      "LABEL_1": {
+        "count": 101,
+        "percentage": 100.0,
+        "avg_score": 0.5560738403018158,
+        "meaning": "Unknown label"
+      }
+    }
+  },
+  "empathy_strategy_meanings": {
+    "Affirmation and Reassurance": "Validating and encouraging; building confidence",
+    "Information": "Providing factual knowledge or explanations",
+    "Others": "General or non-specific support; miscellaneous responses",
+    "Providing Suggestions": "Offering concrete advice or action steps",
+    "Question": "Asking clarifying or exploratory questions",
+    "Reflection of feelings": "Mirroring or acknowledging emotions",
+    "Restatement or Paraphrasing": "Restating information to show understanding",
+    "Self-disclosure": "Sharing personal experiences or vulnerabilities"
+  }
+}

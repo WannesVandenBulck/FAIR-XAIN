@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 54,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:42.551209",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 41.3% chance that you would fail it. This threshold triggered the rejection to help the university select applicants with the strongest projected outcomes. Among the key elements from your profile—like your undergraduate GPA of 3.40, LSAT score of 36, Year 3 decile rank of 4, Year 1 decile of 5, upper-middle family income, and full-time enrollment plans—three stood out as having the strongest sway in the model's decision. Your undergraduate GPA had the single biggest positive influence, pushing the prediction toward expecting you to pass since it's higher than the 3.24 average among students who succeeded on the bar. Similarly, your LSAT score pulled strongly in the favorable direction, being close to the 37.27 average of those who passed, signaling solid potential. However, your Year 3 decile rank worked against you by nudging the prediction toward failure, as it's lower than the 5.91 average for bar passers, suggesting a dip in later performance that the model weighed heavily. While your upper-middle income aligns well with many who passed (where it represents about 45% of successful students) and full-time status matches the norm for them (over 93%), these didn't outweigh the concerns. Compared to typical accepted students, your early strengths shine, but the model flagged that Year 3 ranking as a red flag relative to their higher averages. This isn't a judgment on your overall promise—your profile shows real assets, especially in undergrad work. To move forward, consider retaking the LSAT to boost it further or strengthening recent grades through additional coursework or a post-bac program to improve metrics like your decile ranks. Many applicants in similar spots reapply successfully after targeted improvements, so reviewing your transcript for patterns and seeking advising could make a big difference next time. You're clearly capable, and with some focused steps, you can shift the odds in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

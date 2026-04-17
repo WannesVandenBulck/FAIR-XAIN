@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 106,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:37:34.120448",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 37—right above the typical 36.7 average—and an undergraduate GPA of 2.8. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on past students' academic and background data, estimated your chance of failing at 68.9%. This high predicted failure risk directly led to the rejection of your application, as the school uses these predictions to select candidates most likely to succeed on the bar. The model's decision hinged primarily on your Year 3 school grades, which placed you in the second decile—well below the average fifth decile—making this the strongest factor pushing toward a failure prediction. Your Year 1 grades, also in the third decile compared to the typical fifth, reinforced this concern as the third-most influential element. On a brighter note, your LSAT score was the second-most important factor and worked in your favor, pulling the prediction toward success because it signals strong potential. Compared to typical students who pass the bar, your lower decile rankings in those early years suggest your academic performance lagged behind the pack, which weighed heavily here despite your other strengths. These patterns from past data show that students with consistently higher school deciles tend to fare better on the bar. While full-time status is common and didn't sway things much, the model focused on those grade deciles as red flags for bar readiness. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your school deciles, as even modest improvements there could shift future predictions dramatically. You might also seek targeted LSAT prep or bar prep resources tailored for students from similar backgrounds to build on your already competitive score. Admissions teams value persistence, so reapplying after addressing these academic gaps could open doors—many students like you have turned things around with focused effort. Keep pushing; your LSAT shows you have the raw ability.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

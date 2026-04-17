@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 256,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:47:08.178276",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and family backgrounds to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.60, LSAT score of 34, middle family income bracket, solid Year 1 decile of 8 and Year 3 decile of 6, and full-time student status—and predicted a 69% chance that you would fail the bar exam on your first attempt. This high predicted failure risk led directly to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The three most influential factors in this decision were your undergraduate GPA, family income, and LSAT score, in that order of impact. Your undergraduate GPA had the strongest pull toward the failure prediction, as it stands notably below the typical 3.21 average for students in the dataset, signaling to the model a foundational academic challenge that often correlates with bar struggles. Your middle family income bracket also pushed the prediction toward failure, being a factor that the model associates with added hurdles compared to higher-income peers who tend to pass more readily. Even your LSAT score, while respectable, contributed toward the failure side here, falling short of the dataset average of 36.7 and reinforcing concerns about exam readiness. These elements outweighed your stronger early-year school rankings and full-time commitment, which make up a common profile for 92.7% of students but weren't enough to shift the overall outlook. In essence, your situation compares to many applicants with similar demographic backgrounds where lower GPAs and test scores tip the scales against admission, even with decent high school performance. To move forward, consider retaking the LSAT to aim above 36.7 or bolstering your academic record through a post-baccalaureate program to lift your GPA profile. Building a stronger narrative around overcoming these metrics—perhaps with letters highlighting your resilience as a Black male in a competitive field—could help in reapplying to other schools with more holistic reviews. With targeted improvements, you can reshape how models like this see your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

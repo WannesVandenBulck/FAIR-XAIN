@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:31.706521",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.30 stood out as the most influential factor in the model's decision, as it pushed the prediction toward expecting a bar exam failure—despite being slightly above the average of 3.24 seen among students who passed on their first try. This edged out your Year 3 school decile ranking of 9th, which had a strong counterbalancing effect by pulling the prediction toward success, since lower deciles like yours are less common among those who passed (where the average was around 6th). Your LSAT score of 40 also played a key role, nudging the outlook slightly toward failure compared to the typical 37 among passers, though its influence was smaller than the others. Overall, these factors led the model to estimate a 59.6% chance you'll fail the bar exam on the first attempt, crossing the threshold that triggered your law school application's rejection to minimize the risk of poor bar passage rates. Your upper-middle family income aligns well with many who succeed, and your full-time study plans match the norm for passers, but they weren't decisive here. While your Year 1 decile of 9 was similarly high, it didn't outweigh the top influences. Compared to admitted students, your profile shows strengths like a solid LSAT and UGPA, but the model weighed your later academic decile positively while flagging the GPA as a concern relative to bar success patterns. This isn't a judgment on your potential—it's the algorithm highlighting risks based on historical data from thousands of students. To move forward, consider retaking the LSAT to boost it further or strengthening your GPA through additional coursework or a post-bac program, as even small improvements in these areas have flipped predictions for others in similar spots. You might also gather letters from professors emphasizing your Year 3 improvement to contextualize your deciles for human reviewers. Many students in your position reapply successfully after addressing these key areas—your full-time commitment and background position you well for that effort. Keep pushing; bar success stories often come from persistence like yours.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

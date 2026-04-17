@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:42.166700",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which forecasts the likelihood of passing the bar exam on the first try, estimated a 75.2% chance that you would not pass, tipping the scales against admission. This prediction draws from patterns in thousands of past students' academic records, family backgrounds, and test scores, focusing on key indicators of bar success without considering gender or race. The strongest factor pulling toward this failure prediction was your Year 3 class rank, which fell in the second decile—much lower than the typical fifth or sixth decile among students who passed the bar. This stood out as the most influential element, signaling to the model a potential struggle with sustaining strong performance later in your studies. Next in importance was your undergraduate GPA of 3.20, which actually nudged the prediction slightly toward passing, as it's quite close to the 3.24 average for bar passers, showing some solid foundational strength. Your Year 1 class rank in the second decile also contributed toward the failure outlook, though less forcefully than Year 3, especially when compared to the sixth decile average for successful students. While your LSAT score of 34 is below the 37.27 average for passers and your upper-middle family income aligns well with many who succeed, these played supporting roles behind the top academic rank concerns. Being full-time like over 93% of bar passers was a neutral positive in the mix. Compared to typical admitted students, your early and later ranks lag notably behind their higher deciles, which often predict smoother paths to bar success. This isn't a judgment on your potential or background—it's the model highlighting where patterns suggest risk. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through targeted coursework or tutoring, and reapplying with an updated profile that addresses these key areas, as many students improve and succeed on second tries.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

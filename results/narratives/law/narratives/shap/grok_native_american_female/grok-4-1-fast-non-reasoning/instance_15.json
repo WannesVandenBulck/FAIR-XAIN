@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:38.670730",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 50.7% chance that you would fail it. This prediction is based on patterns from thousands of past students' academic records, test scores, and backgrounds, focusing on factors like grades, LSAT performance, and family circumstances that have historically shaped bar exam outcomes. The model flagged your profile as higher risk primarily due to your Year 1 grade decile of 3, which falls well below the average of around 6 for those who passed the bar— this was the strongest factor pulling the prediction toward failure, as lower early rankings often signal challenges in building the foundational skills needed for the exam. Your LSAT score of 34, while respectable, was the top factor working in your favor, countering some of that risk since it sits closer to passing students' typical range and suggests solid reasoning ability. Family income in the upper-middle bracket played a smaller but still notable role in tipping toward failure, as the model sees this group as less predictive of bar success compared to the broader mix among passers, where middle and upper-middle incomes are common but not standout predictors. Overall, these elements combined to push your risk just over the threshold for rejection, unlike accepted applicants whose stronger early grades and higher average LSATs of 37 kept their failure odds much lower. You're a full-time student with a Native American background, and while those details weren't factors in the decision, they highlight your determination to pursue this path despite any hurdles. To move forward, consider retaking the LSAT to boost your score toward 37 or above, as that single change could dramatically shift your predicted odds. Strengthening your academic decile through targeted coursework or tutoring in your early law school years would address the biggest red flag. You might also explore programs offering bar prep support tailored for full-time students like you. Many applicants in similar spots have succeeded by addressing these gaps—reapply after building that profile, and your upper-middle family support could help fund those improvements. Keep pushing; your LSAT strength shows real potential waiting to shine.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

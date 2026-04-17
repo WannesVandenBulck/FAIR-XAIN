@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 218,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:11:46.738178",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.50, which stands out above the typical 3.21 average, along with your plan to attend full-time like most applicants, a middle family income background, and your Year 1 and Year 3 school decile rankings both at the 1st decile. The admissions model, which predicts the chances of passing the bar exam on the first try based on profiles like yours, estimated an 88.8% probability that you would fail it—far too high a risk for the program to approve your application, leading to the rejection. This prediction hinged on just a few key factors from your profile, with your Year 3 school decile ranking having the strongest pull toward that failure outlook, as being in the bottom 1st decile (well below the average 5th or 6th) signaled potential challenges in sustaining academic momentum through later years. Next in influence was your LSAT score of 25, significantly lower than the average 37, which further nudged the model toward expecting bar exam struggles despite your solid undergrad record. Positively, your undergraduate GPA stood out as the third most influential factor, actively pushing the prediction in a favorable direction by showing you have the capability to excel academically. Compared to typical students who get approved, your lower Year 3 performance and LSAT placed you outside the stronger profiles that predict bar passage, even though your GPA was a bright spot above average. While family income and full-time status played smaller roles, they didn't offset the top concerns. This isn't a judgment on your potential as a Hispanic man with clear drive—it's the model highlighting patterns from past students where these elements correlated with bar outcomes. To move forward, consider retaking the LSAT to boost that score closer to average or higher, and focus on strategies to improve your upper-year grades, perhaps through tutoring or study groups tailored to law school prep. Many applicants in similar situations strengthen these areas and reapply successfully, turning early setbacks into bar-passing careers. Your above-average GPA gives you a solid foundation to build on—keep pursuing your legal ambitions with targeted improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

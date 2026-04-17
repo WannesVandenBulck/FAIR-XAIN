@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:33.348138",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application stood out in some ways, including your plan to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 66.8% chance that you would fail it, tipping the decision toward rejection to minimize the risk of poor bar passage outcomes for the school. This prediction was driven primarily by your early academic performance in school, specifically your placement in the lowest decile for grades in both Year 1 and Year 3—far below the average deciles of around 5.7 and 5.5—making these the two strongest factors pushing the model toward forecasting failure. Your Year 3 decile ranking had the single biggest negative impact, signaling to the model a troubling lack of improvement or consistency in coursework that often correlates with bar struggles. Similarly, your Year 1 decile exerted a substantial pull in the same direction, reinforcing concerns about foundational academic habits. On a more positive note, your above-average undergrad GPA worked against this trend, helping to pull the prediction somewhat toward success and softening the overall risk assessment. Compared to typical students, your LSAT score of 31 falls notably below the average of 36.7, and your lower-middle family income bracket aligns with many applicants but didn't sway the top influencers here. These early decile rankings set you apart from peers who generally show stronger mid-school performance, which the model sees as a key predictor of bar success. While your profile has strengths like that GPA, the model prioritizes patterns from past students where low deciles like yours often led to first-try failures. To move forward, consider retaking the LSAT to boost it closer to average, seeking targeted tutoring or academic coaching to improve your decile rankings if reapplying after more school years, and gathering strong letters of recommendation that highlight your resilience and full-time commitment. Exploring post-baccalaureate programs or community college bridges could also rebuild your academic trajectory before reapplying. With focused effort on those early weaknesses, you can shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

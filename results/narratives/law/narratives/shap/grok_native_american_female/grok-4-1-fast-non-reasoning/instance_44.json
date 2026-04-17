@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 44,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:13:36.712592",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 43.6% chance that you would fail it. This threshold triggered the rejection to help the university select applicants most likely to succeed. The model's decision for you hinged primarily on three key factors from your profile: your LSAT score, your third-year grade decile in school, and your family's middle income bracket. Among these, your third-year decile ranking of 3 was the strongest push toward predicting failure, as it signaled to the model a level of academic performance in law school that often correlates with bar struggles—far below the average decile of about 6 for those who pass. Your LSAT score of 32, while respectable, pulled in the opposite direction, nudging the prediction toward success since it's a solid indicator of potential, though still under the typical 37-plus seen in passers. Your middle family income also worked in your favor, aligning with a common bracket among successful bar takers and suggesting a stable support system. Compared to admitted students, who tend to have stronger undergraduate GPAs around 3.24 versus your 2.50 and higher early-year deciles near 6, your profile overall fell short in those academic benchmarks that the model weighs heavily for bar passage. Your choice to attend full-time matches the norm for passers, which helped a bit, but couldn't offset the concerns from your deciles. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call based on patterns from past students. To move forward, consider retaking the LSAT to boost that score closer to 37 or higher, as it has real sway in shifting predictions favorably. Strengthening your academic record through additional coursework or a post-bac program could lift those decile concerns too. Reach out to admissions advisors for targeted feedback, and explore bridge programs designed for students with profiles like yours to build bar readiness. With focused steps, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

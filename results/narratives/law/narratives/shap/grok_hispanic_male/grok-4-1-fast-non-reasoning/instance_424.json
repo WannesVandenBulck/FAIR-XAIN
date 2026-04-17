@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 424,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:35.467219",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background brings unique strengths and challenges that the admissions model carefully considered alongside your academic record. The model predicts a 57.2% chance that you would fail the bar exam on your first try, which is just over the threshold that led to your application's rejection—law schools use this to prioritize students likely to succeed and pass the bar promptly. This prediction stemmed from weighing your undergraduate GPA, LSAT score, and Year 3 school decile ranking as the top three most influential factors in your case. Your undergraduate GPA of 3.10, slightly below the typical 3.21 average, stood out as the strongest positive signal, pushing the model toward believing you could pass the bar despite other concerns. In contrast, your LSAT score of 25—well below the average of 36.70—had the most powerful negative pull, strongly signaling to the model a higher risk of bar failure. Your Year 3 decile ranking of 2, compared to the average of 5.53, also contributed notably against you, suggesting inconsistent performance that raised doubts about your long-term readiness. Other details like your middle family income bracket and full-time student status aligned with the norm for most applicants (over 92% are full-time), so they didn't sway the decision much. Compared to typical students who get approved, your profile shows solid potential in GPA but lags significantly in LSAT and later-year rankings, tipping the scales toward predicted failure. While your Year 1 decile of 3 is respectable, the model prioritized these top factors as the clearest predictors. This isn't a judgment on your worth or potential as a Hispanic leader in law—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your later-year grades, and applying to programs with holistic reviews that value diverse backgrounds like yours. With targeted prep, you can reshape this prediction and secure the spot you deserve.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

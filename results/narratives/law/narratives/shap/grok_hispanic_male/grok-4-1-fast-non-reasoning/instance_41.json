@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:20.522991",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shown impressive strengths in your academic record, including an undergraduate GPA of 3.90 that stands out well above the typical 3.21 average for students in our dataset. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 46%, tipping the decision toward rejection to prioritize applicants with lower predicted risks. This prediction hinges on just a few key factors from your profile, with your undergraduate GPA emerging as the most influential, strongly pushing the model toward expecting you to pass by highlighting your solid college performance. Next in importance was your Year 3 school decile ranking of 1, which is notably lower than the average of around 5.5 and pulled the prediction in the direction of potential failure, signaling weaker relative performance in that stage compared to peers. Your low family income bracket, while below the typical level, provided a modest counterbalance by nudging the model slightly toward success, perhaps reflecting resilience often seen in similar backgrounds. Overall, these elements outweighed other positives like your full-time student status, which aligns with the vast majority of applicants, leading to the tough call against admission. Your LSAT score of 26.5, lower than the 36.7 average, played a supporting role but wasn't among the top drivers here. Compared to typical students who get approved, you excel in GPA but lag in later school deciles, creating a mixed profile that raises bar passage concerns for the model. This isn't a judgment on your potential as a lawyer—many from Hispanic backgrounds with modest means have thrived by addressing key gaps. To move forward, consider retaking the LSAT to boost it closer to average levels, as that could reshape your profile significantly. Strengthening recent academic deciles through additional coursework or a post-bac program might also help demonstrate upward momentum. We encourage reapplying after these steps, or exploring bridge programs designed for diverse applicants like yourself to build that bar-ready foundation. Your strong GPA is a great starting point—keep leveraging it.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

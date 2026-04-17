@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 194,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:10.562497",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and a competitive LSAT score of 36, close to the dataset average of 36.7, you've put together a strong academic profile for law school admission. Your family comes from a lower-middle income bracket, and you're planning to attend full-time, which is the norm for over 92% of students in this dataset. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 58.7%, tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on a few key factors from your early academic record that stood out as the strongest influences. The most impactful was your Year 3 school decile ranking of 2nd, which is notably below the average 5.53; this lower performance signaled to the model a heightened risk of bar exam struggles down the line. Nearly as influential was your Year 1 decile of 1st, even further below the typical 5.71 average, reinforcing concerns about foundational academic momentum in a rigorous law program. Your LSAT score helped counterbalance this somewhat, pushing the prediction toward a higher chance of passing since it's right in line with successful students. Compared to typical applicants who pass the bar, your early deciles place you in the lower tail of the distribution, where others with stronger Year 1 and Year 3 rankings tend to succeed more reliably. While your background as a Black male from a lower-middle income family adds context to your journey, the model focused squarely on these performance indicators as the primary drivers. To move forward, consider retaking courses or pursuing targeted tutoring to boost your decile rankings, perhaps through a post-baccalaureate program, and reapply after demonstrating improved academic consistency. Many students in similar situations have turned things around by addressing early weaknesses head-on, and law schools value resilience in applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

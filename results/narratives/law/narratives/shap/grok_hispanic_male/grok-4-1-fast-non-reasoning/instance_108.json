@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 108,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:33.201146",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong family background with high income, a solid LSAT score of 38, and your undergraduate GPA of 2.80, along with your plan to attend part-time while working. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 41.1% chance that you would fail it—high enough to trigger a rejection of your application, as the school prioritizes candidates with stronger predicted odds of bar success. This decision hinged on just a few key factors from your academic record that stood out to the model. Most influential was your Year 3 school decile ranking of 1, which is in the bottom tenth compared to the typical student's middle-of-the-pack position around the 5th or 6th decile; this low performance pushed the prediction heavily toward expecting bar failure, as it signals challenges in sustaining strong grades later in your studies. Next in importance was your LSAT score, which actually worked in your favor—being above the average of about 37, it pulled the prediction toward bar passage and helped offset some concerns. Rounding out the top factors, your Year 1 decile of 1, again well below the average around the 6th decile, contributed toward the failure prediction by highlighting early academic struggles that the model sees as persistent risks. Compared to typical students, who often rank higher in these early and later school deciles and attend full-time (92.7% do), your profile showed weaker relative academic deciles despite positives like your LSAT and family support. While your part-time status is uncommon, it wasn't the main driver here. To move forward, focus on bolstering your academic record—perhaps through postgraduate courses or retaking key exams to climb those decile rankings—then reapply to demonstrate improvement. Schools value growth stories, especially from determined applicants like you from underrepresented backgrounds, so gathering strong letters of recommendation tying your experiences to resilience could make a big difference next time. With targeted steps, you can shift that prediction in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 52,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:01.992049",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score and other details from your academic journey, including your undergraduate GPA, early and later school grades, family background, and plans to study full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on patterns from thousands of past students, estimated your probability of failing at 42%—a risk level that tipped the decision toward rejecting your application to prioritize candidates with lower predicted failure odds. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers that year, far below the typical student's middle-of-the-pack average around the 5th or 6th decile. This stood out as the top driver because consistently strong later grades have been key for many students who pass the bar. Next in influence, your LSAT score of 39—higher than the average of about 37—worked strongly in your favor, pulling the prediction toward success and showing your potential in a way that helps many applicants like you. Your undergraduate GPA of 3.0, slightly below the average of 3.21, also helped by nudging things positively, though not as powerfully as your LSAT. Compared to typical students, where full-time enrollment is the norm at over 90% and family incomes often skew higher than your lower-middle bracket, these elements played smaller roles here. While your profile shows real strengths, especially that standout LSAT, the dip in your later school performance raised a flag the model couldn't overlook. To move forward, consider retaking courses or building stronger late-stage grades if possible, perhaps through post-bac programs or targeted prep that highlights your LSAT prowess. You might also seek schools with holistic reviews that weigh your Hispanic background and personal story more heavily, or bolster your app with bar prep commitments. Many students in similar spots have succeeded by addressing exactly these grade trends—your next application could tell a story of targeted growth. Keep pushing; your test scores suggest you're capable of turning this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

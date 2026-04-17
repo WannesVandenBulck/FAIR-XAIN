@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 43,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:55.307421",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a high family income bracket, you brought several strengths to your law school application, including a respectable LSAT score of 35 and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 60.5%, tipping the decision toward rejection to prioritize applicants with lower predicted risks. The primary factor driving this prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, which strongly signaled to the model a higher chance of bar exam struggles compared to peers with stronger late-stage academic performance. Reinforcing this, your Year 1 decile of 3—lower than the typical 5.7—further pushed the prediction toward failure by highlighting early inconsistencies in your grades relative to others. On a more positive note, your above-average undergraduate GPA worked in your favor, pulling the prediction somewhat toward success and showing the model your potential in a broader academic context. While your LSAT and family background played roles, these top three elements—especially your school deciles—carried the most weight in the model's assessment for someone in your position. Typical admitted students tend to rank in the middle or higher deciles throughout school, pairing that with GPAs and test scores like yours to signal bar passage confidence. This doesn't reflect your full potential as an Asian male from a supportive high-income background, but rather the model's focus on consistent school performance as a bar exam predictor. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted tutoring or summer sessions, and reapply with updated transcripts showing improvement. You might also explore post-baccalaureate options or community college transfers to rebuild that academic trajectory before tackling law school again. Many students in similar situations have succeeded by addressing these exact gaps, so persistence tailored to your strengths could turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

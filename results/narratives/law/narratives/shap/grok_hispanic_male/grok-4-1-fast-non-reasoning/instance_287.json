@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:08.816439",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background reflects determination despite coming from an upper-middle-class family, but the admissions model focused on key indicators from past students' paths to the bar exam. The model predicts a 56% chance that you would fail the bar exam on your first try, which is just over the threshold that led to your application's rejection—schools use this to prioritize applicants likely to succeed and pass the bar promptly. The biggest factor pushing toward this failure prediction was your planned part-time enrollment, as only about 7% of students choose this path, and it has historically correlated with lower bar passage rates compared to the 93% who go full-time. Next in influence was your undergraduate GPA of 2.40, which falls well below the typical 3.21 average and signaled potential challenges in handling rigorous legal studies. On a more positive note, your family income bracket pulled the prediction slightly toward success, as students from similar upper-middle backgrounds have shown stronger bar outcomes on average. Your Year 1 decile rank of 2 and Year 3 rank of 3, both under the middle of the pack around 5-6, along with your LSAT score of 27 versus the usual 37, added to the concerns but weren't the top drivers here. Compared to typical admitted students, who often have higher GPAs, stronger test scores, and full-time commitments, your profile stood out as riskier for bar success. This isn't a judgment on your potential as a Hispanic leader in law—many from similar backgrounds thrive with the right preparation. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your academic record through additional coursework or a post-bac program, and committing to full-time study if possible. Building a narrative around overcoming early decile ranks with recent improvements could also help in reapplying or appealing. Reach out to admissions counselors for feedback, and explore bridge programs designed for diverse applicants like you to demonstrate readiness. With targeted steps, you can shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

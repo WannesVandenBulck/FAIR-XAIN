@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 343,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:26.376204",
+  "status": "success",
+  "narrative": "As a Black male applicant with a low family income background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.30—below the typical 3.21 average—and an LSAT score of 23.50, well under the dataset average of 36.70. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 64% chance that you would fail the bar exam, which crossed the threshold for rejecting your application to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your academic record that carried the most weight in the decision. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers—far below the average of around the middle of the pack—which signaled to the model a concerning dip in performance trajectory compared to students who typically pass the bar. Your LSAT score was the next biggest influence in the same direction, as its low value relative to most applicants reinforced doubts about your readiness for the rigors ahead. On a more positive note, your undergraduate GPA, though not stellar, nudged the prediction slightly toward passing since it exceeded what the model often sees dragging others down even further. Overall, these top three elements—your later-year grades, LSAT, and undergrad performance—dwarfed other details like your family income or full-time status in shaping this outcome, especially when stacked against profiles of students who generally succeed. While your determination as a full-time student from a modest background is admirable, the model prioritizes these academic signals because they've historically been the best predictors of bar passage. To move forward, consider retaking the LSAT to boost your score closer to or above the average, strengthening your later-year grades through targeted coursework or tutoring, and perhaps exploring part-time options or gap-year prep programs that have helped similar applicants improve their trajectories. Many students in your position have rebounded by addressing these exact gaps, so reviewing your transcript for patterns and seeking mentorship from law school advisors could make a real difference in your next application. With focused effort, you can shift these key factors and present a stronger case ahead.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 74,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:29.944835",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.30, which stands out above the typical 3.21 average, along with an LSAT score of 35, your upper-middle family income background, and plans to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 68.8% chance that you would fail it—high enough to lead to the rejection of your application, as the school prioritizes applicants predicted to succeed. This prediction hinged mostly on your early academic performance in Year 1, where you ranked in the 4th decile at your school, well below the average 5.71 decile; that lower standing had the strongest pull toward forecasting bar exam struggles. Your LSAT score of 35, slightly under the typical 36.70, added further weight in the same direction, reinforcing the model's concerns about your readiness. On a more positive note, your Year 3 grades placed you in the 5th decile, close to the average of 5.53, which helped counterbalance the prediction by nudging it toward expecting success. While your full-time status aligns with most students and your GPA is a bright spot, these top factors—especially that early decile ranking—outweighed them in the model's eyes. Compared to typical students who pass, your profile shows solid later improvement and background support, but the dip in early performance mirrors patterns among those who face bar challenges. This isn't a judgment on your potential as a Hispanic man with clear drive; it's the model highlighting risks based on historical trends. To move forward, consider retaking the LSAT to boost it above average or strengthening early-grade equivalents through additional coursework or prep programs that demonstrate upward momentum. Many students in similar situations retake exams or build targeted experience, turning predictions around for future applications. Reach out to advisors for bar prep resources tailored to your background—they can help you outperform this forecast. With your GPA edge and family support, you're well-positioned to address these gaps and reapply stronger.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

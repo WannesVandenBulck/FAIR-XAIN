@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:19.518183",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 53.1% chance that you would not pass—crossing the threshold we use to make such decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.00 and LSAT score of 30, alongside your Year 1 and Year 3 school decile rankings of 5 and 4, respectively, your upper-middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average LSAT is notably higher at 37.27, undergraduate GPAs average 3.24, and Year 3 deciles average 5.91, placing some of your metrics below those benchmarks. The three biggest factors pushing the model toward predicting bar failure for you were, first, your Year 3 decile ranking, which stood out as a strong signal of potential struggle compared to successful students. Second, your upper-middle family income—while common among passers at 45.1%—unfortunately nudged the prediction toward failure in your specific profile, perhaps interacting with other academic signals in ways the model weighed heavily. Third, your LSAT score actually pulled in the opposite direction, helping to lower the failure odds more than these other factors raised them, showing it was a relative strength. Overall, these elements combined to tip the scales just over the line into a rejection, even though your full-time status aligns well with the 93.2% of bar passers in that category. It's tough to hear, especially when you've worked hard to reach this point with your background and determination. To move forward, consider retaking the LSAT to boost that score closer to the typical successful range, or strengthening your later-year performance through targeted academic support or additional coursework. You might also explore programs with bridge courses or bar prep emphasis that could address these predictive gaps. Many students in similar positions have succeeded by focusing on these areas—your path isn't closed, just needs some strategic adjustments. Keep pushing; your upper-middle foundation and full-time commitment give you solid ground to build on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

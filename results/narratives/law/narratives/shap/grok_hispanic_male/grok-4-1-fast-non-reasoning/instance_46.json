@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:40.825034",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes a solid LSAT score of 37.50, which is slightly above the typical student's 36.70, alongside an undergraduate GPA of 2.60 that's below the average of 3.21, and early grades placing you in the 2nd decile for both your first and third years—much lower than the usual 5th or 6th deciles. Your family falls into the middle income bracket, and you're planning to attend full-time, which is the norm for most applicants. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 40.5% chance that you would fail the bar exam, tipping the scales toward rejection of your application to protect the school's outcomes. This prediction hinges on just a few key factors from your profile, with your LSAT score standing out as the most influential by far, as it strongly pulled the prediction in a positive direction toward expecting you to pass. Next in importance were your third-year school decile ranking, which unfortunately pushed the model toward anticipating failure because it was so low compared to peers, followed by your first-year decile, which had a milder but still negative pull for the same reason. While your LSAT helped balance things out, those early academic deciles carried significant weight in signaling potential struggles on the bar. Compared to typical students who get approved, your grades rank lower than the stronger performers who usually pass, even if your test score holds up well. This isn't a judgment on your potential as a Hispanic student from a middle-income family—many in similar situations succeed with targeted effort—but the model prioritizes these patterns from past data. To move forward, consider retaking the LSAT if possible to boost it further, or strengthening your academic record through additional coursework or a post-bac program to improve those decile rankings. Reach out to admissions advisors for feedback, and explore schools with holistic reviews that might weigh your unique story more heavily. With focused preparation, you can reshape this narrative and ace the bar on your first try.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

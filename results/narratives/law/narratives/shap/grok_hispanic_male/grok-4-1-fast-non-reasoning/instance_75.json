@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:34.640617",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 24, and your position in the lowest decile for grades in both your first and third years of school, along with coming from a low family income bracket and planning to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 77% chance that you would fail the bar exam. This high predicted risk of failure is why your application was rejected—law schools use this tool to prioritize applicants likely to pass the bar and succeed in practice. The three biggest factors pushing the model toward this \"fail\" prediction, in order of influence, were your third-year school decile ranking, your LSAT score, and your first-year school decile ranking. Your third-year decile of 1—far below the typical student's midpoint of around 5.5—had the strongest pull toward failure, as it signals consistently low performance relative to peers. Similarly, your LSAT score of 24, compared to the average of nearly 37, significantly raised the risk in the model's eyes. Your first-year decile of 1, also well below the average of about 5.7, reinforced this pattern of early academic struggles. While your full-time status aligns with most students and your background as a Hispanic male from a low-income family didn't drive the decision, these low academic markers stood out starkly against typical successful applicants who rank higher in deciles and score much stronger on the LSAT. To move forward, focus on retaking the LSAT to boost your score toward the average or higher, perhaps through targeted prep courses that address your learning style. Building a stronger academic record, like excelling in any post-undergrad courses or relevant work, could also help demonstrate growth. Consider community colleges or bridge programs tailored for underrepresented students like yourself to rebuild your profile. Finally, reach out to admissions counselors at target schools for feedback—they often value persistence and can guide personalized paths to strengthen future applications. With strategic steps, you can shift this prediction in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

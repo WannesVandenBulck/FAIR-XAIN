@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 287,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:09.845994",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.40—below the typical 3.21 average—your LSAT score of 27, which is notably lower than the average 36.70, and your Year 1 and Year 3 school deciles of 2 and 3, respectively, compared to averages around 5 or 6. It also considered your upper-middle family income bracket and your plan to attend part-time, which is uncommon as most students (over 92%) go full-time. For you specifically, the model estimated a 56% probability that you would fail the bar exam on your first attempt, tipping the scales just enough to recommend rejecting your application to protect the school's outcomes. The most influential factor pushing toward this failure prediction was your part-time enrollment plan, as the model sees this rarer path as a stronger risk for bar struggles compared to the full-time majority. Next in impact was your undergraduate GPA, which the model weighed heavily as signaling potential challenges in handling rigorous legal coursework and exam prep. On a more positive note, your upper-middle family income provided some counterbalance, nudging the prediction slightly toward success since students from similar backgrounds often fare better. Overall, your profile stood out as riskier than typical applicants because your lower test scores, grades, and part-time status deviated from the stronger averages that predict bar passage. While these factors drove the decision, they're not destiny—many students in similar situations have improved through targeted prep. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your GPA with post-bac courses if possible, or exploring full-time options to align with proven paths. You might also seek bar prep programs tailored for part-time students or connect with Asian legal associations for mentorship from those who've succeeded against odds. With focused effort on these areas, you can reshape your profile for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 367,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:21.525993",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 27, middle-family income background, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the bottom first decile—well below the typical student's mid-range performance around the fifth or sixth decile. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 79.1% chance that you would fail the bar on your first try, which directly led to the rejection of your application since the school prioritizes candidates likely to succeed and pass. This high failure probability means the model saw your profile as carrying substantial risk compared to applicants who typically show stronger predictors of bar passage. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking in the lowest group, as lower performance there strongly signals challenges in handling the rigorous demands ahead, unlike the average applicant who ranks much higher. Next in influence was your Year 1 decile, also at the bottom, which reinforced concerns about early academic struggles that often persist and hinder bar success. Positively, your undergraduate GPA of 3.10—slightly below the average of 3.21—worked in your favor, nudging the prediction a bit toward passing by showing some resilience in college-level work. While your LSAT score of 27 is notably lower than the typical 36.7, and your middle-income bracket aligns with averages, those played lesser roles here compared to your deciles. Overall, your situation stands out from typical admitted students, who boast higher deciles and stronger test scores that align with bar passers. This rejection stings, especially given your full-time commitment and background, but it's a data-driven call highlighting where your profile diverges from proven success patterns. To move forward, focus on retaking the LSAT to boost that score significantly, perhaps through targeted prep courses, and consider programs or experiences that demonstrate academic turnaround, like postgraduate courses or internships showcasing legal aptitude. Building a stronger narrative around overcoming those early decile lows could also help in reapplying or appealing to schools with holistic reviews. With deliberate steps, you can shift your profile toward the successful archetypes the model favors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

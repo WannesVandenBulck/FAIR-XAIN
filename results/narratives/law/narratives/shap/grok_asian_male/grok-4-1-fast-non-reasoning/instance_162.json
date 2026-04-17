@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 162,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:16.885152",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and a competitive LSAT score of 36, close to the dataset average of 36.70, you brought some strong academic credentials to your law school application. Your family falls into the middle income bracket, and you're planning to attend full-time, which is the norm for over 92% of students in the dataset. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 41% probability that you would fail the bar on your first attempt—a risk level high enough to lead to your application's rejection. The model's decision hinged primarily on three key factors from your profile, ranked by their influence on this specific prediction. The most influential was your Year 3 school decile ranking of 1, which is notably low compared to the average of 5.53; this strongly pushed the model toward predicting bar failure, as it signals weaker performance in later undergraduate years relative to peers. Next, your LSAT score worked in your favor, pulling the prediction toward bar passage success by showing solid standardized reasoning ability aligned with typical admits. Similarly, your above-average undergraduate GPA provided a positive counterbalance, nudging the outlook toward passing by demonstrating consistent academic strength overall. While your early Year 1 decile of 2 was below average and your middle-income background sat in the middle of the pack, they played lesser roles here. In comparison to typical students who pass the bar, your later-year grades stand out as the biggest deviation, dragging down what could otherwise be a favorable profile. To move forward, consider retaking courses or pursuing targeted prep to boost your later academic deciles, perhaps through post-baccalaureate programs or additional certifications that highlight improvement. Strengthening that area could tip future models toward seeing you as a lower-risk candidate for bar success. Many students in similar situations have succeeded by addressing such gaps head-on, and with your existing GPA and LSAT strengths, you're well-positioned to do the same.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

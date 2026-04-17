@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 265,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:14:43.322487",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.20, an LSAT score of 35, middle-family income background, and plans to attend full-time, along with your early academic deciles from school. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 82% chance that you would fail the bar exam— a high-risk threshold that led to your application's rejection to protect the school's outcomes. This prediction wasn't about your potential or character, but a data-driven assessment weighing how similar profiles have fared historically. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of their class and signaled potential challenges in sustaining performance. Next, your Year 1 decile of 1 had a similar strong pull toward the failure side, again standing out as below average compared to peers who ranked higher early on. While your undergraduate GPA of 3.20 was close to the dataset average of 3.21 and actually nudged the prediction slightly toward passing success, it wasn't enough to offset those early academic indicators. In contrast to many admitted students who enter with higher decile rankings and stronger momentum, your profile aligned more closely with those who struggled on the bar despite solid GPAs and LSATs. Full-time status, like 93% of students, was neutral here, and factors like family income didn't sway the outcome much. This rejection stings, especially when you've worked hard to get this far, but it highlights where the model saw the biggest gaps relative to bar-passing patterns. To move forward, consider retaking courses or programs to boost your later academic deciles, perhaps targeting LSAT improvement or additional undergrad-level achievements to realign your profile. Many students in similar situations have succeeded by addressing these exact areas before reapplying—your close GPA shows you have the foundation to build on. With targeted steps, you can shift future predictions in your favor and pursue your legal goals.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 339,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:31.850917",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.90, LSAT score of 21.50, strong Year 1 school decile ranking of 8th (well above the typical 5.71 average), more modest Year 3 decile of 4th (around average at 5.53), middle-family income bracket, and full-time student status—and predicted a 45% probability that you would fail the bar exam on your first attempt. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students likely to pass and succeed in their legal careers. The three most influential factors in this decision were your LSAT score, Year 1 decile, and undergraduate GPA, ranked by their impact on pushing the prediction one way or the other. Chief among them, your LSAT score stood out as the strongest driver toward the failure prediction, as it is notably lower than the dataset average of 36.70, signaling to the model a potential challenge in handling the rigorous bar exam demands. In contrast, your high Year 1 decile ranking worked strongly in your favor, pulling the prediction toward success by demonstrating early academic strength that exceeds what most students achieve. Your undergraduate GPA also helped your case, nudging the outlook positively despite being slightly below the 3.21 average, showing solid but not exceptional college performance. Compared to typical students in the dataset, where full-time enrollment is the norm at over 92%, your status there didn't sway things much, but the LSAT gap overshadowed your other strengths. While your middle-income background aligns with many applicants, it wasn't a top factor here. To move forward, consider retaking the LSAT to boost your score closer to or above average, as that single change could dramatically shift future predictions in your favor—many students in similar positions have succeeded by focusing on test prep and highlighting their early academic wins in reapplications. Strengthening your overall narrative with any additional bar-relevant experiences could also help when you reapply to other programs.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

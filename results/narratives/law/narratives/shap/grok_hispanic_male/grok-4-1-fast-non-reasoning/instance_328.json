@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 328,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:42.035555",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid profile with an undergraduate GPA of 3.50—above the typical 3.21 average—and an LSAT score of 34, along with your plan to attend full-time, which is the norm for most students. Your family comes from an upper-middle income bracket, reflecting a stable background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 42%, tipping the scales toward rejection to prioritize applicants with lower predicted risks. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1, well below the average of about 5.5, signaling to the model that your later academic performance in school lagged significantly behind peers who typically pass the bar. This outweighed your stronger undergraduate record, which had the most counterbalancing positive influence by showing solid college-level achievement above the norm. Your LSAT score also nudged things positively, though less strongly, as it was respectable but still under the average of 36.7 seen in bar passers. Compared to typical students who get approved, your early Year 1 decile of 3 was decent but couldn't offset the sharp drop-off in Year 3 performance, which the model sees as a key warning sign for bar success. While your background as a Hispanic male doesn't directly factor into the top influences here, the model focuses purely on these academic signals to make fair, data-driven calls. This rejection stings, especially with your strengths in undergrad and test scores, but it highlights how much emphasis schools place on consistent performance through the years. To move forward, consider retaking courses or programs to boost your later decile rankings, perhaps through post-baccalaureate options or targeted prep that addresses any Year 3 dips. You could also aim to retake the LSAT for a higher score to strengthen future applications. Many students in similar situations rebound by focusing on these areas—your foundation is there, and with targeted improvements, you'll be better positioned for the next round.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

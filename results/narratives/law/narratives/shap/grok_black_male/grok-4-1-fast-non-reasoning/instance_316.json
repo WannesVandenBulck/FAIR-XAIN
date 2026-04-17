@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 316,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:50:48.916710",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.10 and an LSAT score of 32, you've put in the effort to build a strong academic foundation, coming from a lower-middle income family and planning to attend law school full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated an 88.3% chance that you would fail it— a threshold that led to your application's rejection to protect the school's bar passage rates. The decision hinged primarily on your early academic performance in school, specifically your placement in the lowest decile for grades in both Year 1 and Year 3, far below the typical student's middle-range standing around the 5th or 6th decile. These two factors stood out as the strongest influences pushing the prediction toward failure, as low early rankings signal to the model a higher risk of struggling with the intense demands of law school and the bar. Your LSAT score played a smaller but still notable role in the same direction, being below the average of about 37 that the model associates with stronger bar success. While your GPA was close to average and your full-time status aligns with the vast majority of students, it wasn't enough to offset those key early performance indicators. In comparison to typical admitted students, who often enter with higher decile rankings and LSATs in the upper range, your profile appeared riskier for bar passage despite your determination. This isn't a judgment on your potential or background—many from similar circumstances succeed with targeted improvements— but rather the model's data-driven focus on these predictors. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your grades in any ongoing programs to climb those deciles, and seeking mentorship or prep courses tailored for bar success, especially as a full-time student. Law schools often value persistence, so reapplying after addressing these areas could shift your prediction dramatically. Your story is far from over; with strategic steps, you can rewrite the narrative.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

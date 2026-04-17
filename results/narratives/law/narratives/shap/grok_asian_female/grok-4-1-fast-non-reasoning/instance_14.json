@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:11.785105",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 67% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic indicators like grades, test scores, and background factors, while setting aside demographics like gender or race. In your case, the three biggest influences were your undergraduate GPA, your first-year grade decile in school, and your LSAT score. Your undergraduate GPA stood out as the strongest factor pushing the prediction toward failure; at 2.80, it's notably lower than the 3.24 average among students who passed the bar, signaling to the model a potential challenge in sustaining the high performance needed for the exam. Similarly, your first-year decile of 3—compared to the typical 6 for passers—reinforced this concern, as it placed you in a lower performance band early on, which the model sees as a key predictor of later struggles. On a brighter note, your LSAT score of 40, above the 3.27 average for those who passed, worked in your favor, pulling the prediction somewhat toward success and showing your strong aptitude in that area. Other aspects, like your upper-middle family income bracket—which aligns closely with many who pass—and your plan to attend full-time, which is the norm for successful students, played supportive but less decisive roles. Overall, your profile compares to accepted applicants by having a solid LSAT and typical enrollment status, but the lower undergrad GPA and early-year ranking tipped the scales against you, unlike the stronger early academic showings of those typically approved. This isn't a judgment on your potential or background—it's the model highlighting risks based on historical outcomes. To move forward, consider retaking the LSAT if possible to build on your strength there, or strengthening your GPA through post-baccalaureate courses or a master's program to shift those key academic signals. You might also gather letters from professors emphasizing your growth since first year, and reapply after addressing these areas, as many students improve their profiles and succeed on later attempts. With targeted steps, you can reshape how models like this see your bar exam odds.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 312,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:44:38.358808",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid upper-middle-class family background and plans to attend law school full-time, your profile shows some promising elements, like your undergraduate GPA of 3.30, which is a bit above the typical 3.21 average for students in this dataset. However, the admissions model, trained on past students' academic records, family details, and demographics to predict first-time bar exam success, estimated a 45% probability that you would fail the bar exam—high enough to trigger a rejection of your application. The decision hinged on just a few key factors from your record, with your Year 3 school decile ranking of 2nd (well below the average 5.53) standing out as the strongest driver, as it signaled to the model a notable dip in performance compared to peers, pushing heavily toward a failure prediction. In contrast, your undergraduate GPA played a helpful counterbalancing role, pulling the prediction toward success because it demonstrated stronger prior academic strength than most applicants. Your Year 1 decile of 5th (close to the average 5.71) also provided some positive lift, suggesting early consistency that tempered the overall risk slightly. While your LSAT score of 28 is lower than the typical 36.7, it wasn't the top influence here—the model weighed your later academic trajectory more heavily. This combination meant the risks outweighed the strengths, unlike many admitted students who maintain higher deciles throughout. It's tough to hear, especially when you've built a strong foundation in other areas, but these patterns from past data guide the process to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost that score or strengthening your recent grades through additional coursework or a post-bac program, which could reshape your profile for future applications. Many students in similar situations have succeeded by targeting these weak spots—reach out to advisors for tailored prep strategies. With your full-time commitment and background, you're well-positioned to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

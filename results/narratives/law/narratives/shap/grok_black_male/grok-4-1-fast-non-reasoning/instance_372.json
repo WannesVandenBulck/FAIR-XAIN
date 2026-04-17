@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 372,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:17.361572",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid LSAT score of 36 and an undergraduate GPA of 3.0, you've shown real determination in pursuing law school, coming from a middle-income family and planning to attend full-time like most students. However, the admissions model predicted a 63.5% chance that you would fail the bar exam on your first try, which is high enough to tip the decision toward rejecting your application—law schools use this prediction to prioritize applicants likely to succeed and pass the bar promptly. The model's judgment hinged mostly on your academic decile rankings from earlier years in school, with your Year 3 performance standing out as the biggest factor pushing toward this failure prediction. Specifically, landing in the 1st decile for Year 3 grades—well below the typical 5th or 6th decile—signaled to the model a notable dip in performance that strongly influenced its concern about bar exam readiness. Your Year 1 decile of 2nd, also lower than the average around the 6th, added further weight in the same direction, reinforcing doubts about consistent academic strength. On a brighter note, your LSAT score was the top factor pulling the prediction toward success, as it was close to the dataset average of 36.7 and demonstrated strong test-taking ability compared to many peers. While other elements like your full-time status aligned with the vast majority of students, they didn't outweigh the early-grade concerns. In essence, your profile stood out from typical admitted students mainly because of those lower deciles, which overshadowed your otherwise competitive LSAT and GPA. This doesn't define your potential—many overcome similar hurdles through targeted improvement. To move forward, consider retaking courses or seeking tutoring to boost your decile rankings, perhaps in a post-bac program, and reapply with updated transcripts showing upward trends. Building a stronger narrative around your resilience as a Black male from a middle-income background could also help in appeals or alternative schools. With focused effort, you can shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

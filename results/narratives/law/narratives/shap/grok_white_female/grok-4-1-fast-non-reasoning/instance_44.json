@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 44,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:21.451881",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 43.6% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. For you specifically, your undergraduate GPA of 2.50 and LSAT score of 32 played into this, alongside your Year 1 and Year 3 decile rankings both at 3, your middle family income bracket, and your plan to attend full-time. The three biggest factors shaping this outcome were your LSAT score, your Year 3 decile ranking, and your family income level, in that order of influence. Most notably, your Year 3 decile of 3—lower than the average of about 6 for those who passed—strongly pushed the prediction toward expecting a bar failure, as it signals challenges in sustaining higher performance later in school. On a brighter note, your LSAT score pulled in the opposite direction, making the model somewhat more optimistic about your bar success than it otherwise would have been. Similarly, your middle family income bracket nudged things toward a passing prediction, since it's a common profile among successful bar takers, though not as prevalent as upper-middle incomes. Compared to typically admitted students, who often have LSATs around 37 and undergraduate GPAs near 3.24, your metrics fell short in key areas, and your deciles were below the 6-ish averages for passers, putting you outside the stronger profiles we see approved. Full-time status aligned well with the 93% of passers, but it wasn't a top driver here. While this is disappointing, especially given your dedication to full-time study, it highlights where targeted improvements could shift future outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your academic deciles through additional coursework or grad school, and exploring resources that support students from middle-income backgrounds in law prep. Many students in similar spots have succeeded by addressing these gaps—reapplying after building a stronger profile could make all the difference next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

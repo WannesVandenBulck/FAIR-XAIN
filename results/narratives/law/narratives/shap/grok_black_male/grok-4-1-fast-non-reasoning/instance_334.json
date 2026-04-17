@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 334,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:51:53.588795",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.80—well above the typical 3.21 average—and a competitive LSAT score of 37, slightly edging out the average of 36.70, you've shown real academic promise that stands out. Your family comes from a middle-income bracket, and you're planning to attend full-time, which is the norm for most students. However, the university's admission model, trained on past students' data to predict first-time bar exam success, estimated a 61% chance you'll fail the bar—high enough to trigger an automatic rejection of your application. This prediction hinged most strongly on your school decile rankings from earlier years: your Year 3 decile of 1 was the biggest factor pushing the model toward forecasting failure, as it signals performance in the bottom tenth compared to the average student's mid-level standing around the 5th or 6th decile. Your Year 1 decile of 2 added to that concern, though less forcefully, placing you again below the typical 5th or 6th decile average and reinforcing a pattern of early struggles. On a brighter note, your LSAT score worked strongly in your favor, pulling the prediction toward success and offsetting some of those concerns. Compared to typical students who pass the bar on their first try, your undergraduate strengths align well, but those lower deciles in high school years deviated sharply from the stronger early performances that often predict bar success. The model weighs these school deciles heavily because they've proven reliable indicators in past data. While your background as a Black male doesn't directly factor into the top influences here, it underscores how vital it is to address any early academic hurdles that can disproportionately impact paths like yours in law. To move forward, focus on bolstering your high school or early academic record—perhaps through additional coursework, test prep, or a post-bac program to demonstrate upward momentum. Retaking or contextualizing those deciles could shift future predictions dramatically. Many students in similar spots have succeeded by targeting these exact areas, so you're far from out of options—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

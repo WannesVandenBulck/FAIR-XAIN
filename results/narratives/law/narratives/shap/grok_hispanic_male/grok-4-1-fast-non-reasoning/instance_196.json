@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 196,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:14.757015",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 36, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3. The admissions model, which predicts whether students like you will pass the bar exam on the first try, estimated a 49.4% chance that you would fail it—high enough to trigger a rejection of your application, as the school prioritizes applicants likely to succeed on that critical test. This prediction wasn't random; it hinged on a few key aspects of your background that stood out the most to the model. The strongest influence pushing toward a failure prediction was your Year 3 school decile of 2, which is notably lower than the typical student's 5.53 average—this suggested to the model a dip in performance that often correlates with bar exam struggles. On a more positive note, your undergraduate GPA of 3.20, very close to the average of 3.21, pulled the prediction back toward passing by showing solid academic foundation. Similarly, your LSAT score of 36, just shy of the 36.70 average, also worked in your favor, signaling good test-taking ability under pressure. While factors like your full-time status (common for 93% of students) and family income played roles, these top three—your Year 3 deciles, GPA, and LSAT—carried the most weight in tipping the scales. Compared to typical students who get approved, your profile is strong in standardized metrics but held back by that later decile rank, which the model sees as a red flag for bar success among diverse applicants like yourself. This doesn't define your potential; many overcome similar hurdles. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted courses or tutoring, and highlighting any bar prep experience or mentorship in a reapplication. You might also explore schools with holistic reviews that weigh personal stories from Hispanic students more deeply. With focused improvements, a stronger profile could flip this prediction next time. Keep pushing—you've got the foundation to succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

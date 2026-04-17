@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 365,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:03.204885",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes a Year 1 school decile of 3, a Year 3 decile of 2, middle family income, an LSAT score of 34, an undergraduate GPA of 2.3, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 40.5% chance that you would fail the bar exam. This probability crossed the threshold that led to your application's rejection, as the school prioritizes candidates with stronger predicted odds of passing on the first try to ensure high bar passage rates. Among all the factors considered, your LSAT score had the strongest positive influence, pushing the prediction toward expecting you to pass despite being below the average of 36.7—it's a solid score that carried significant weight in your favor. Next in importance was your Year 3 school decile of 2, well below the typical 5.53 average, which notably pulled the prediction toward failure by signaling lower relative performance in later undergraduate years. Your middle family income bracket, compared to higher averages in the dataset, also helped by nudging the odds slightly toward passing, as it aligns with many successful students' profiles. Overall, while your LSAT provided a boost, the lower Year 3 decile outweighed it as the key drag on your prediction, tipping the balance against admission. Typical admitted students have higher deciles across the board, often in the mid-5s or above, paired with LSATs closer to or exceeding 37, making your academic rankings stand out as comparatively weaker. This doesn't reflect your full potential or personal story, but rather how these metrics stacked up statistically. To strengthen future applications, focus on boosting metrics like your decile rankings through targeted academic improvement or retaking the LSAT for a higher score, perhaps while gaining relevant experience like internships. Consider schools with holistic reviews that value diverse backgrounds like yours, or explore post-baccalaureate programs to raise your GPA. With persistence, you can reshape this profile—many students in similar situations have succeeded by addressing these exact gaps. Keep pushing forward; your determination as a Hispanic male in law will shine through with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

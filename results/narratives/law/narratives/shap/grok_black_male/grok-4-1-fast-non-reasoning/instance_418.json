@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 418,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:57:03.584035",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses whether applicants are likely to pass the bar exam on their first try, estimated a 57% probability that you would fail it. This prediction is based on patterns from thousands of past students' academic records, family backgrounds, and test scores, and schools use it to make admission decisions—anything over 50% failure risk typically leads to rejection. For you, as a Black male with a middle-income family background, the model zeroed in on a few key aspects of your profile that stood out compared to others.\n\nThe most influential factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, which is much lower than the typical student's rank around the middle of the pack (about 5.5). This low standing in your later undergraduate years signaled to the model a potential challenge in sustaining strong performance through law school and the bar, overriding other positives in your record. Next in importance was your LSAT score of 31, well below the average of nearly 37, but this actually worked in your favor by slightly pulling the prediction toward passing, as the model saw it as a hurdle you've already cleared relative to your other metrics.\n\nYour undergraduate GPA of 2.7, compared to the usual 3.2, also nudged things positively toward a pass prediction, though not enough to counterbalance the Year 3 decile issue. Being in the full-time student category, like over 90% of applicants, didn't sway the outcome much either way. Overall, your situation compares to typical students by having solid but below-average test scores and GPA that offered some optimism, yet the sharp drop-off in your later-year school performance was the standout red flag that tipped the scales.\n\nWhile this is disappointing, especially given the barriers many Black students like yourself face in competitive academic pipelines, it's not the end of the road. To strengthen future applications, focus on boosting your academic decile through targeted coursework or post-bac programs, retake the LSAT for a higher score, and build a narrative in your personal statement about overcoming your Year 3 challenges. Consider part-time programs or schools with holistic reviews that weigh resilience alongside metrics, and seek mentorship from bar-pass alumni in similar circumstances to chart your path forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

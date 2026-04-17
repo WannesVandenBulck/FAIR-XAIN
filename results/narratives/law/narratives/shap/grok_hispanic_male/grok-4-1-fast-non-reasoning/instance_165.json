@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 165,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:15.211376",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your profile includes an undergraduate GPA of 2.90, an LSAT score of 38, upper-middle family income, and plans to attend full-time, along with your Year 1 school decile of 2 and Year 3 decile of 1 based on grades. The admissions model, which predicts first-time bar exam success using past student data on academics, background, and demographics, estimated a 59.8% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction means the school views you as higher risk for not passing on the first try, a key benchmark they use to ensure strong outcomes for their students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is well below the typical student's average of around 5.5, signaling to the model weaker late-stage academic performance compared to peers. Next in importance, your LSAT score of 38 worked strongly in your favor, as it's above the dataset average of 36.7 and pulled the prediction toward expecting bar exam success. Your upper-middle family income also helped somewhat, nudging the outlook positively since it aligns with brackets that correlate with better preparation resources in the data. Overall, your lower Year 3 decile outweighed these strengths, especially when stacked against typical students who maintain mid-range deciles throughout and pair them with solid test scores. While your full-time status matches the vast majority of students (over 90%), it didn't sway the decision much here. This isn't a judgment on your potential as a Hispanic man with clear drive—many in similar backgrounds succeed with targeted improvements. To move forward, focus on boosting your academic decile through stronger coursework or retakes, perhaps retaking the LSAT to solidify that edge, and consider programs offering bar prep support for students like you. Gathering letters highlighting your resilience or extracurriculars could also strengthen future apps. With these steps, you can shift the odds and reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

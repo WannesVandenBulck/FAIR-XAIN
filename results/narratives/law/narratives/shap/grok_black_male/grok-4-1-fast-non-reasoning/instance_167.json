@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 167,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:27.754872",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.80—well above the typical 3.21 average—and an LSAT score of 37, which is right around the norm of 36.70, you've put together a competitive profile in many ways, including your upper-middle family income background and plans to attend full-time. However, the university's admission model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 54.7% chance that you would fail the bar exam, tipping the scales just over the threshold for rejection. This prediction led to your application's denial, as the school prioritizes admitting those predicted to pass on the first try to maintain strong bar passage rates. The model's decision hinged most heavily on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and strongly pushed the prediction toward expecting bar failure, unlike the average student's mid-range fifth-decile standing. Your Year 1 decile of 1 also contributed notably in the same direction, signaling early academic struggles relative to the typical fifth-decile performance and reinforcing concerns about long-term readiness. On a more positive note, your strong undergraduate GPA worked significantly in your favor, pulling the prediction toward bar passage success compared to peers and highlighting your college-level potential. While factors like your LSAT and family background played supporting roles, these top three—Year 3 decile, Year 1 decile, and undergrad GPA—were the key drivers shaping the outcome for you specifically. Compared to typical admitted students, who often rank higher in school deciles, your lower early rankings stood out as the biggest red flags despite your other strengths. This isn't a judgment on your character or potential as a Black man pursuing law—many overcome similar starts—but a data-driven call based on historical patterns. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through community college refreshers or targeted tutoring, and reapply with that evidence of improvement. You might also seek bar prep endorsements from mentors or explore schools with holistic reviews that weigh your full story. With your GPA as a foundation, targeted steps on grades could flip this prediction next time. Keep pushing; your path to law is still very much within reach.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

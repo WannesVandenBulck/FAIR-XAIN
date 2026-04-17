@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 418,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:17.057541",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 31, and your strong ambition to pursue a full-time legal career, along with your middle-income family background. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 57% chance that you would fail the bar on your first attempt—high enough to trigger an automatic rejection of your application. This threshold exists because law schools aim to admit students likely to pass the bar and succeed in practice, avoiding the risks of higher failure rates. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom 10% of your peers—far below the typical student's middle-of-the-pack standing around the 5th or 6th decile—and this stood out as the strongest signal pushing the prediction toward failure, as lower late-stage grades often correlate with bar struggles. Your LSAT score, while not elite, provided some counterbalance by nudging the odds slightly toward passing, performing better than it might have otherwise due to its relevance in forecasting exam readiness. Similarly, your undergraduate GPA offered a modest positive influence, helping offset concerns despite being below the average of 3.21 seen in successful applicants. Compared to typical students who pass the bar—those with stronger mid-to-late academic deciles, higher LSATs around 37, and GPAs over 3.2—your profile showed vulnerabilities in consistent performance that outweighed these mitigating factors. Full-time enrollment plans and your family income aligned with the norm, so they didn't sway the outcome much. This rejection doesn't define your potential; it simply reflects data-driven caution. To move forward, consider retaking the LSAT to boost your score, strengthening your academic record through additional coursework or a post-bac program, and reapplying next cycle with updated credentials that better match successful profiles. Many students in similar situations have succeeded by addressing these key areas head-on. Your determination as a first-generation Hispanic applicant could shine through with targeted improvements. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

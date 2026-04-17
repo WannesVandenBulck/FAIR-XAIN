@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:12.897368",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 46% chance that you would fail it—above the threshold we use for admission decisions. This prediction draws from patterns in academic records of past students, focusing on key indicators like grades, test scores, and background factors, without considering gender or race. In your case, the strongest influence pushing toward this failure prediction was your Year 3 grade decile of 1, which ranks you at the lower end of your school's performance distribution that year; among students who passed the bar, the average was a much higher decile of about 6, signaling to the model a notable risk in later academic momentum. Counterbalancing that somewhat was your undergraduate GPA of 3.60, well above the 3.24 average for bar passers, which pulled the prediction toward success by highlighting your strong prior college performance. Your LSAT score of 33 also nudged things positively, though it fell short of the 37.27 average among those who passed, offering some reassurance of your testing ability but not enough to offset other concerns. Your middle family income bracket aligns with over a third of bar passers, and your choice of full-time enrollment matches the vast majority of them, so those didn't sway the outcome much. Overall, your low Year 3 decile carried the most weight in tipping the scales toward failure, despite the boosts from your undergrad grades and LSAT. Compared to typical admitted students, who tend to show steadier grade progress and higher standardized scores, your profile suggested a higher-than-average bar passage risk to the model. This isn't a judgment on your potential—it's just one data-driven snapshot. To strengthen future applications, consider retaking the LSAT to aim closer to 37 or above, and focus on building a stronger late-stage academic record, perhaps through postgraduate courses or detailed explanations of your Year 3 performance in a new personal statement. You might also gather letters from professors who can speak to your resilience and growth. Many students in similar positions have succeeded by addressing these areas head-on, and we're here if you reapply with updates. Keep pushing forward—your solid undergrad foundation shows you have what it takes.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

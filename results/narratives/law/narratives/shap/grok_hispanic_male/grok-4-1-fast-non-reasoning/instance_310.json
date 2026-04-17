@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 310,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:33.955096",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.90, LSAT score of 33, Year 1 school decile of 4, Year 3 decile of 3, upper-middle family income, and plans to attend full-time. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 65% chance that you would fail it on your first try—high enough to trigger an automatic rejection of your application, as the school prioritizes candidates likely to pass and succeed in practice. This decision hinged on just a few key factors from your profile that stood out as the strongest influences pushing the prediction toward failure. The most impactful was your Year 3 academic decile of 3, well below the typical student's 5.53 average, which signaled to the model a notable dip in performance that often correlates with bar exam struggles. Next, your upper-middle family income level contributed by suggesting fewer external pressures or unique motivations that sometimes help others overcome academic hurdles. Your undergraduate GPA of 2.90, lower than the average 3.21, further reinforced this risk by indicating a pattern of grades that the model links to higher failure odds. While your LSAT and full-time status leaned somewhat positively, they weren't enough to offset these top concerns, especially compared to peers who typically rank higher in later-year deciles and maintain stronger GPAs. It's tough to hear, particularly when you've pushed through as a Hispanic student in a field that values diverse voices, but this model focuses narrowly on bar passage stats. To move forward, consider retaking the LSAT to boost your score above the 36.7 average, strengthening your later-year grades through targeted coursework or tutoring, and perhaps highlighting any personal story of resilience in a new application. Reapplying after addressing these gaps could shift your predicted odds dramatically, opening doors at schools that see your full potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

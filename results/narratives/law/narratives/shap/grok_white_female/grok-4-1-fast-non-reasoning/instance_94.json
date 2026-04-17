@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:17.997253",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 63.5% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.00, LSAT score of 36, Year 1 and Year 3 decile rankings of 2 and 1 respectively, middle family income bracket, and full-time enrollment plans. The model focused most heavily on your Year 3 decile ranking, as being in the bottom decile there strongly signaled a higher risk of bar exam struggles compared to the typical admitted student, who ranks around the 6th decile. This factor had the single biggest pull toward predicting failure in your case. Next in influence was your LSAT score, which, while solid, fell a bit short of the 37.27 average among those who passed, yet it worked in your favor by nudging the prediction slightly toward success. Your Year 1 decile of 2 also contributed toward the failure prediction, though less forcefully than Year 3, standing well below the 6th decile average for passers. Overall, these early and later undergraduate performance indicators outweighed positives like your full-time status, which aligns with 93% of successful students. Your middle income bracket is common among bar passers at 35%, so it didn't sway things much either. In contrast, typical admitted students show stronger decile rankings and slightly higher LSATs, tipping their predicted pass rates well above 50%. I know this is disappointing, especially with your dedication to full-time study ahead. To strengthen a future application, focus on boosting your academic deciles through targeted improvement in later years or retaking the LSAT to align closer to top performers. Consider supplemental programs or tutoring proven to lift bar passage odds for students starting from similar positions. Reapplying after demonstrating upward trends could shift the model's view in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:40.229910",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—your law school application stood out in some academic areas, but the admissions model ultimately predicted a 40.3% chance of failing the bar exam on your first try, tipping the decision toward rejection. This probability reflects the model's assessment that, despite your strengths, key factors make it riskier for you to pass compared to students who get approved. The three biggest influences on this prediction were your undergraduate GPA, your Year 3 school decile ranking of 1 (well below the average of 5.53), and your LSAT score of 30 (lower than the typical 36.70). Among these, your low Year 3 decile had the strongest push toward the failure prediction, signaling to the model that your later academic performance in school lagged significantly behind most peers, raising concerns about your readiness for the bar's demands. On a brighter note, your undergraduate GPA provided the most substantial counterbalance, strongly favoring a pass prediction because it shows you can excel in college-level work better than average. Your LSAT score offered some positive influence too, nudging the model slightly toward expecting success, even if it wasn't your strongest suit. Overall, while your full-time student status aligns with the vast majority of applicants and your middle family income bracket is common, the imbalance—driven most by that low Year 3 decile—pushed your profile into rejection territory when compared to typical approved students who boast higher deciles and balanced metrics across the board. This isn't a judgment on your potential as an Asian male pursuing law; it's the model weighing patterns from past bar-takers. To move forward, consider retaking the LSAT to boost it closer to or above average, strengthening your Year 3 performance through additional coursework or explanations in a new application, and highlighting any bar prep or legal experience that addresses these gaps. Many students in similar situations reapply successfully after targeted improvements, so use this feedback to refine your path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

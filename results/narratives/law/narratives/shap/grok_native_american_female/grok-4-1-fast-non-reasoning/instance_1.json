@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:46.331989",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 99.2% chance that you would not pass, tipping the scales heavily against admission. This prediction stems from a close look at key aspects of your academic record and background, compared to patterns seen in students who successfully passed the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the average of about 6 for those who passed, signaling to the model weaker performance in later undergraduate years relative to peers. Next in importance was your Year 1 decile of 2, again well below the typical 6 for bar passers, suggesting early academic challenges that carried weight in the model's assessment. Your upper-middle family income bracket also contributed toward the failure prediction, as while it's common among passers (about 45% share this level), in your specific profile it aligned with other risks in a way that nudged the odds downward. These three elements stood out as the strongest drivers, far outweighing positives like your full-time study plans, which are typical for 93% of successful students. Your LSAT score of 34 and undergraduate GPA of 2.90, both below the averages of 37 and 3.24 for bar passers, played supporting roles but weren't the top influencers. In contrast, admitted students generally show stronger decile rankings early and late in their degrees, helping push their predicted pass rates much higher. This isn't a judgment on your potential or background—it's the model highlighting where your profile statistically diverges from proven bar success patterns. To move forward, consider retaking the LSAT to aim closer to 37 or higher, bolstering your GPA through additional coursework or a post-bac program, and gathering strong letters emphasizing your resilience and growth since Year 3. You might also explore targeted bar prep resources or community programs tailored for students like you pursuing full-time law paths. With focused improvements in these academic markers, a future application could look much stronger to the model and admissions team. Keep pushing—you've got the determination to rewrite this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

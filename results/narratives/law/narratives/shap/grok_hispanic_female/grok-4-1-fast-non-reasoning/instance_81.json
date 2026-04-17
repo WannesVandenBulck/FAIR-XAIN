@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:57.305715",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.9% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The model's decision hinged most strongly on your Year 3 class ranking, where you placed in the bottom decile (1st out of 10), far below the typical 6th decile among students who went on to pass the bar. This low standing was the biggest factor pushing the prediction toward failure, as it signals potential challenges in sustaining strong performance through later years of study. Next in influence was your LSAT score of 41, which is actually stronger than the average of 37 for bar passers and worked in your favor, pulling the prediction toward success. Your Year 1 ranking in the 2nd decile, while not ideal compared to the 6th decile average for passers, had a milder negative impact but still contributed to concerns about early academic momentum. Other aspects, like your middle-family-income background—which aligns with over a third of successful students—and your plan for full-time enrollment, matching nearly all passers, played supporting roles but weren't decisive here. Compared to admitted students, your undergraduate GPA of 2.4 lags behind their average of 3.24, reinforcing the overall risk profile the model saw. While this is disappointing, especially with strengths like your LSAT shining through, it highlights how crucial consistent class rankings are in these predictions. To move forward, consider retaking the LSAT if possible to build an even stronger case, or focus on boosting your GPA and rankings in any ongoing studies to demonstrate upward trends. You might also explore programs with bridge courses or bar prep support tailored for students from similar backgrounds. Gathering letters from professors who can speak to your potential, or applying to schools with holistic reviews, could help reframe your story. Keep pushing—you've already shown capability in key areas, and targeted improvements can shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

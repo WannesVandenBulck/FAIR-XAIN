@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 193,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:07.637102",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses whether applicants are likely to pass the bar exam on their first try, estimated a 61.7% probability that you would not pass it. This prediction is based on a careful analysis of key aspects of your academic record, background, and other factors from data on thousands of past students. As a Black male applicant, your profile stood out in certain ways, but the model focused primarily on performance indicators that signal challenges in bar success. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank of around the 5th or 6th decile, suggesting your later undergraduate grades placed you in the bottom group compared to peers. Next in importance was your Year 1 decile of 3, again below the average of about 6th decile, reinforcing a pattern of early academic standing that the model sees as a hurdle for bar passers. Somewhat counterbalancing this was your upper-middle family income, which is a stronger position than many applicants face and nudged the prediction slightly toward success, as students from similar backgrounds often have more resources supporting their studies. Other elements, like your LSAT score of 31—well below the average of 37—and undergraduate GPA of 2.1 versus the typical 3.2, contributed to the overall concern, though they weren't the top drivers here. Your plan to attend full-time, like over 90% of students, didn't sway things much either way. In essence, the model weighed your lower decile rankings as the strongest signals of risk, based on how they've correlated with bar outcomes for others. This isn't a judgment on your potential or resilience—many students overcome similar starts—but the school uses these predictions to ensure high bar passage rates. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters highlighting your unique strengths as a Black male leader in your community. Reapplying after addressing these could shift your profile significantly, and we're here to guide you on building that case.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

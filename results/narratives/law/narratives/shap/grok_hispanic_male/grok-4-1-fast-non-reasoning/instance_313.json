@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 313,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:42.591859",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 18, low family income bracket, and your placement in the lowest decile for grades in both your first and third years of school, along with your plan to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 95% chance that you would fail it. This high predicted risk of failure is why your application was rejected—law schools use this model to prioritize applicants who show stronger signals of bar exam success. The three biggest factors pushing the prediction toward failure were, in order of influence, your LSAT score, your third-year school decile ranking, and your first-year school decile ranking. Your LSAT score had the strongest negative pull, as it was well below the typical score of around 37, signaling to the model a major hurdle in bar exam preparation. Similarly, landing in the bottom decile for third-year grades—far lower than the average fifth decile—strongly reinforced the risk of struggling on the exam. Your first-year decile of 1, also much lower than the average, added further weight toward the failure prediction, though it had a bit less sway than the others. Compared to typical students who pass the bar, where these metrics cluster higher and predict success, your profile stood out as unusually challenging in these core academic areas. While factors like your low family income and full-time status didn't dominate the decision—full-time is the norm for over 90% of students—they didn't offset these key weaknesses. This isn't a judgment on your potential or background, but a data-driven assessment based on patterns from past bar takers. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your early and later school grades through additional coursework or programs, and exploring scholarships or prep resources tailored for students from similar income levels. With targeted improvements in these areas, you could reshape your profile for stronger future applications. Keep pushing—many have turned around similar starts to succeed in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

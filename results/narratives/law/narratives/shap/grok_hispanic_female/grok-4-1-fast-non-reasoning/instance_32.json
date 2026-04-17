@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:39.869571",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 82.1% chance that you would not pass, based on patterns from thousands of past students. This high predicted risk of failure triggered the rejection to help the school maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your academic decile from Year 3 of school, which ranked quite low at the bottom decile—far below the typical 6th decile seen among students who passed the bar—pushing the prediction heavily toward failure. Your Year 1 decile, also at the bottom, played a significant supporting role in the same direction, signaling early struggles that the model associates with later bar challenges. On a more positive note, your LSAT score of 35 helped pull the prediction somewhat toward passing, though not enough to offset the other factors, especially since successful students averaged around 37. While your middle family income and full-time study plans align reasonably well with passers—where full-time is the norm and middle income is common—your undergraduate GPA of 2.90, below the 3.24 average for those who passed, added to the overall concern. Compared to admitted students, your profile shows stronger alignment in study commitment but lags notably in early and mid-school performance metrics that the model weighs heavily. This isn't a judgment on your potential or background, but a data-driven flag on bar success odds. To move forward, consider retaking the LSAT to boost that score, strengthening your undergrad record through additional coursework or a post-bac program, and focusing on building a higher decile trajectory in any ongoing studies. You might also seek targeted bar prep resources early or explore schools with more flexible admission criteria. With targeted improvements, you can shift these predictions in your favor for future applications. Keep pushing—many students overcome similar hurdles and succeed.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

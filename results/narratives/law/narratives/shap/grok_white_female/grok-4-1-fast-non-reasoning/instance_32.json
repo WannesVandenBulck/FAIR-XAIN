@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:38.227809",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated an 82.1% chance that you would not pass. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students likely to succeed on the bar from the outset. The model's decision hinged most strongly on your Year 3 grade decile, which ranked in the bottom tier and significantly pushed the prediction toward failure—far below the mid-to-upper deciles typical of students who passed. Your Year 1 grade decile, also at the lowest level, reinforced this concern as the second-biggest influence, standing out against the stronger early performances seen in successful bar takers. Meanwhile, your LSAT score provided some counterbalance, nudging the prediction slightly toward passing since it was reasonably competitive, though not enough to offset the other factors. Compared to students who passed the bar, whose average LSAT was about 37.3 while yours was 35, and whose undergraduate GPAs averaged 3.24 against your 2.90, these academic markers painted a picture of underperformance relative to admitted peers. Your middle family income bracket aligns with over a third of those who passed, and your choice of full-time enrollment matches the vast majority of successful students, so those didn't weigh heavily against you. Overall, the model saw your consistently low class rankings in the early and later undergraduate years as the dominant signals of bar exam risk, eclipsing your other strengths. This isn't a judgment on your potential or drive—many students face early hurdles—but it explains the data-driven call. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and gathering strong letters highlighting your growth since those low-decile years. Reapplying after addressing these core academic flags could shift the model's view in your favor, opening doors to programs that value resilience like yours. Keep pushing; targeted improvements have turned similar profiles around for others.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

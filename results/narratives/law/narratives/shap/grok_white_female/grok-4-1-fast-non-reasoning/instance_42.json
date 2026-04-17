@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:13.997752",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.10 stood out as the strongest positive factor in the model's assessment of your law school application, as it suggested a solid foundation that nudged the prediction toward expecting you to pass the bar exam on your first try—it's close to the 3.24 average among students who succeeded, showing your academic potential from undergrad. However, your position in the second decile for Year 3 grades worked against you, pulling the prediction more toward a risk of failure since successful bar takers typically rank much higher, around the sixth decile on average. Your LSAT score of 25.50 also contributed to that concern, as it fell well below the 37.27 average for those who passed, making the model wary of your readiness for the rigors ahead. Overall, these factors led the model to estimate a 43.2% chance that you might fail the bar exam on the first attempt, which crossed the threshold for denying your application—law schools use this prediction to prioritize applicants likely to succeed and pass the bar right away. While your middle family income bracket aligns with over a third of successful students and your choice to study full-time matches nearly all of them, those didn't outweigh the key concerns from your Year 3 performance and LSAT. Compared to typical accepted students, your profile showed promise in undergrad but lagged in these critical later indicators of bar exam success. This isn't a judgment on your effort or potential—it's the model highlighting patterns from past students where similar profiles faced higher hurdles. To move forward, consider retaking the LSAT to boost that score closer to the typical range, as it could significantly shift future predictions in your favor. Strengthening your recent academic decile through targeted improvement or additional coursework might also help demonstrate growth. You could explore programs with conditional admissions or bar prep support that value your full-time commitment and balanced background. Many students in situations like yours have succeeded by addressing these exact gaps—reach out to admissions advisors for personalized strategies, and keep pursuing your goals with the resilience that's already evident in your story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

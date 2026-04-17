@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 404,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:56:12.513696",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a middle-income family background, you've shown real determination in pursuing law school while planning to attend full-time, like most students in the applicant pool. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 67.5% chance that you would fail it, tipping the scales toward rejection of your application. This prediction hinges on a few key aspects of your academic record that stood out as the strongest influences. The most significant factor pushing toward a failure prediction was your first-year school decile ranking of 1st, which is notably lower than the average of around 6th place, signaling early struggles that the model sees as a major red flag for bar success. Next in influence, your undergraduate GPA actually worked in your favor, pulling the prediction toward passing because it's stronger than what most applicants bring. Rounding out the top factors, your third-year decile of 2nd—again well below the typical 6th-place average—further nudged the model toward expecting bar challenges, though less strongly than your first-year performance. Compared to typical students who pass the bar, your early and later deciles are in the bottom ranks, while your LSAT score of 32 falls short of the 37 average, compounding the concerns despite your GPA strength. These patterns suggest the model prioritizes consistent high school rankings as the best harbingers of bar passage for applicants like you. While this outcome stings, especially given your background and full-time commitment, it's not a final verdict on your potential. To strengthen future applications, focus on boosting your academic deciles through targeted study habits or retaking the LSAT to align closer to averages, and consider programs offering bar prep support for students from similar circumstances. Gathering letters from mentors who can highlight your resilience could also help reframe your story for holistic reviews. Keep pushing forward—many overcome early hurdles to succeed in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

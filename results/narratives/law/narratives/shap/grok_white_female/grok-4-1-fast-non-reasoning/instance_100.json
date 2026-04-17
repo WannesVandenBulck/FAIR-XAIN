@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:40.448344",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, three key elements stood out as having the strongest sway on this outcome. First, your middle family income level actually worked in your favor, nudging the model toward seeing you as more likely to pass, much like the majority of successful bar takers from similar backgrounds—around 35% of them came from middle-income homes. However, your position in the second decile for Year 3 grades pushed strongly against you, signaling to the model a performance level below what it typically sees in students who pass, where the average is closer to the sixth decile. Similarly, your LSAT score of 25 had a notable negative pull, as it's well below the average of about 37 for those who succeed on the bar exam first time around. These factors outweighed others, like your undergraduate GPA of 2.40 or first-year decile ranking, leading the model to flag a higher risk of failure compared to typical admitted students, who generally show stronger profiles across grades and test scores. Your choice to pursue full-time studies aligns with most who pass, but it wasn't enough to tip the balance here. While this is disappointing, especially given your undergraduate background and family situation, it doesn't define your potential—many students improve dramatically with targeted effort. To move forward, consider retaking the LSAT to boost that score, seeking academic advising to climb those grade deciles in future coursework, and exploring programs with preparatory bar support or bridge courses. You might also gather letters from mentors highlighting your resilience and full-time commitment, then reapply to schools with more flexible thresholds. Keep pushing; with focused steps on these academic markers, you can reshape how models like this one see your bar exam prospects.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

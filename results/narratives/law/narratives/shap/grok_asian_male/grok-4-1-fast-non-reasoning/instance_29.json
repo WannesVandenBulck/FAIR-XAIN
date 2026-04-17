@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:01.861238",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a solid undergraduate GPA of 3.30, which is slightly above the typical 3.21 average, along with Year 1 grades placing you in the top decile of your school and Year 3 grades in the 4th decile—respectable but not at the very top. Your LSAT score of 24 is notably lower than the average of around 37, your family falls into the middle income bracket, and you've indicated plans to attend part-time, which is less common as only about 7% of students do so. The admissions model, trained on data from thousands of past law students, predicted a 51% chance that you would fail the bar exam on your first try—a razor-thin but decisive threshold that led to your application's rejection, as the school prioritizes applicants likely to pass and succeed professionally. The three biggest factors driving this prediction were your LSAT score, undergraduate GPA, and Year 3 school decile ranking. Most critically, your LSAT score stood out as the strongest push toward the failure prediction, as it signaled to the model a higher risk compared to the much higher scores typical among bar passers. On a more positive note, your undergraduate GPA pulled strongly in the opposite direction, suggesting a solid academic foundation that lowers failure risk relative to peers. Similarly, your Year 3 decile ranking contributed favorably, indicating consistent performance within your school that the model views as protective against failing the bar. While other elements like your part-time plans and family background played smaller roles, these top three tipped the scales just enough against you. This outcome reflects how the model weighs standardized tests heavily for Asian applicants like yourself, where even strong GPAs can be overshadowed by lower entrance exam results seen in historical data. To move forward, consider retaking the LSAT to boost your score closer to the average, perhaps supplementing with targeted prep courses that have helped many in similar situations. Strengthening your Year 3 performance or exploring full-time options could also help on a reapplication. Finally, gathering letters of recommendation highlighting your resilience and part-time work ethic might provide a narrative edge in future reviews. With focused improvements, your profile has real potential to flip this prediction.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

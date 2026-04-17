@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 257,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:16.584458",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've built a solid foundation with your undergraduate GPA of 3.70, which stands out well above the typical 3.21 average among past students, and your upper-middle family income provides a supportive backdrop many aspire to. However, the admissions model, trained on data from countless students' paths to the bar exam, predicted a 49.6% chance that you would fail it on your first try—a risk level high enough to lead to the rejection of your application, as the school prioritizes those likely to pass and succeed in practice. This prediction wasn't a judgment on your potential as a person, but a data-driven assessment based on patterns from real student outcomes. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year, far below the average decile of about 5.5—something the model sees as a strong signal of challenges ahead in rigorous legal training. Next in importance was your undergraduate GPA, which actually worked strongly in your favor by pulling the prediction toward bar exam success, reflecting how your above-average performance there typically correlates with passing. Your Year 1 decile of 1 also nudged the odds toward failure, again highlighting an early low ranking compared to the typical mid-range decile of around 5.7, even though you're planning full-time study like over 90% of students. Compared to typical applicants who pass the bar, your LSAT score of 29.5 falls notably short of the 36.7 average, but it wasn't the top driver here—the model weighed your decile struggles more heavily. This combination painted a picture riskier than the profiles of admitted students, who generally show steadier academic deciles alongside strong test scores. While disappointing, this rejection doesn't define your capabilities, especially with strengths like your GPA shining through. To move forward, consider retaking the LSAT to boost it closer to average levels, seeking targeted help to improve your school rankings in future terms, and exploring programs with bridge courses or bar prep support tailored for students like you. Many have turned similar profiles around by addressing these gaps head-on, and reapplying with bolstered credentials could shift the model's view dramatically. Your path to law is still very much within reach—persistence pays off.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

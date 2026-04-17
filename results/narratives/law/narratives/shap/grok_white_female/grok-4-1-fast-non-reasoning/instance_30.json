@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:31.563537",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 75% chance that you would not pass— a threshold that leads to rejection to ensure we admit students with the strongest projected outcomes. This prediction drew heavily from your academic record, particularly your class standings from earlier and later undergraduate years, alongside your solid LSAT performance. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 2, which falls well below the average of around 6 for students who went on to pass the bar, signaling to the model a potential struggle with sustained high-level performance. Nearly as important was your Year 1 decile of 3, again lower than the typical 6 for successful bar takers, reinforcing concerns about your foundational academic strength compared to those admitted. On a brighter note, your LSAT score of 38 actually worked in your favor, exceeding the average of 37 for passers and pulling the prediction somewhat toward success, though not enough to offset the other signals. Your undergraduate GPA of 2.8, while respectable, sat below the 3.24 average for bar passers, and your lower-middle family income bracket—less common among successful students, where middle and upper-middle incomes dominate—added subtle context that the model weighed alongside your full-time study plans. Overall, your profile stood out as riskier than typical admitted students, whose stronger decile rankings and GPAs align more closely with bar success patterns. This isn't a judgment on your potential or background, but a data-driven call to protect the program's outcomes. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your deciles and GPA, as even modest improvements there could dramatically shift future predictions. Targeted LSAT prep isn't urgent given your strong score, but building a narrative of academic upward trajectory through additional credentials or recommendations will help. Many students in similar positions reapply successfully after addressing these core areas—your full-time commitment positions you well for that effort. With focused steps, you can reshape how models like this see your bar exam prospects.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

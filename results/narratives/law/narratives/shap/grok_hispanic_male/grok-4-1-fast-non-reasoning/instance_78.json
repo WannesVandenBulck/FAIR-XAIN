@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 78,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:46.202104",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 35, middle-family income background, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both sitting at the 2nd decile—meaning your early grades placed you in the lower end compared to your peers, where averages hover around the 5th or 6th decile. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 56.8% chance that you would fail the bar on your first try, tipping the scales just over the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or character, but a data-driven assessment aimed at selecting applicants most likely to succeed on that critical exam right away. The biggest factor pushing toward this failure prediction was your Year 3 school decile, as being in the lower ranks there strongly signaled a higher risk compared to students who climbed higher in their classes. Next in influence, your undergraduate GPA pulled in the opposite direction—it was solidly average at 3.20, close to the typical 3.21, and helped argue against failure by showing consistent performance. Your Year 1 decile also nudged the prediction toward failure, though less forcefully, since starting low in your school's rankings early on correlates with tougher bar outcomes in the model's view. Overall, these academic rankings outweighed your other solid attributes like your LSAT and full-time commitment, which are common among admitted students (over 90% go full-time). You're not far off from typical profiles in areas like GPA and income, but those lower deciles set you apart from the stronger academic climbers who typically pass the bar first time. To move forward, consider retaking courses or programs to boost your school rankings, perhaps prepping more intensively for the LSAT to exceed the average 36.7, or seeking targeted bar prep resources tailored for Hispanic students navigating similar paths. Many in your position have succeeded by addressing these gaps—reach out to advisors for personalized strategies, and reapply once you've strengthened those key areas. Your determination as a full-time aspiring lawyer from a middle-income background positions you well for a comeback.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

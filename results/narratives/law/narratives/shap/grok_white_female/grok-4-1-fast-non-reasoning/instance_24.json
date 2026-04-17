@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:06.216517",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 47% chance that you would fail the bar exam on your first try, which is above the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data about past students' academic records, test scores, family backgrounds, and study commitments, focusing on who passed the bar without needing a retake. For you, as a full-time student from a middle-income family with a solid undergraduate GPA of 3.20—right around the average for those who passed—the biggest factor pushing toward this failure prediction was your LSAT score of 24, which stands well below the typical 37 seen among successful bar takers and had the strongest influence on the model's decision. On a more positive note, your Year 3 school decile ranking of 7 outperformed the average of about 6 for those who passed, which notably pulled the prediction back toward success and was the second-most influential factor. Similarly, your Year 1 decile of 7, also stronger than the passers' average of around 6, provided some helpful counterbalance but carried less weight in the overall assessment. These academic deciles show your consistent performance within your school, yet they couldn't fully offset the concern from your entrance exam score. Compared to admitted students, where full-time enrollment is the norm at over 93%, your choice aligns well, but it didn't sway the outcome much here. The model weighs these elements to flag risks, and in your case, the low LSAT signal dominated despite your other strengths. This isn't a judgment on your potential or hard work—many with similar profiles have succeeded by addressing key gaps. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as that single change could dramatically shift future predictions in your favor. You might also seek targeted prep for the bar or explore programs with flexible admissions that value your GPA and school rankings more heavily. With your solid foundation, refining that test score could open doors—keep pushing, as your story is far from over.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

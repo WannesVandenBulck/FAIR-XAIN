@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 101,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:27.712922",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your background includes a middle-income family, full-time student status, an undergraduate GPA of 2.10—below the typical 3.21 average—and an LSAT score of 30, which is lower than the average of about 37. You've also ranked in the first decile for grades in both your first and third years of school, placing you at the bottom compared to peers, where averages hover around the fifth or sixth decile. The admissions model evaluated these details to predict your chances of passing the bar exam on the first try, estimating a 77% probability that you would fail. Because of this high predicted risk, your application was rejected to prioritize candidates with stronger signals of bar exam success. The model's decision hinged most heavily on your third-year school decile ranking, which strongly signaled a higher likelihood of bar failure compared to typical students who rank higher. Your first-year decile ranking played a significant supporting role in the same direction, reinforcing concerns about consistent underperformance relative to the average student's standing. On a more positive note, your undergraduate GPA pushed the prediction somewhat toward bar exam success, as it provided a counterbalance despite being below average. Overall, these academic performance indicators outweighed other factors like your family income or LSAT in driving the rejection. While this outcome is disappointing, especially given your full-time commitment, it highlights areas where your profile diverged from stronger applicants. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking targeted academic advising to improve your school rankings. Building these credentials could significantly shift future predictions in your favor and open new doors. Many students in similar situations have succeeded by focusing on these steps, and with your determination, you can too.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

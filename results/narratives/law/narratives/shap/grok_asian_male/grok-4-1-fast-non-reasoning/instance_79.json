@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:06.239073",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.20 and an LSAT score of 35, your profile also includes upper-middle family income and plans to attend full-time, which are common among applicants. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 72.9% chance that you would fail—high enough to lead to the rejection of your law school application, as the school prioritizes candidates with stronger projected bar success. This prediction hinged most heavily on your academic decile rankings from school years 1 and 3, both at the 1st decile, far below the typical 5th or 6th decile for most students in the dataset. Your 3rd-year decile had the strongest negative pull, significantly pushing the model toward forecasting bar failure because it signals consistently low performance relative to peers. Your 1st-year decile reinforced this concern as the second-biggest factor, further tilting the prediction against you by highlighting early academic struggles that often persist. On a brighter note, your LSAT score, though slightly below the average of 36.7, worked in your favor as the third-most influential factor, nudging the model toward expecting bar passage despite the other red flags. Compared to typical students who pass the bar, your low deciles stand out as unusually weak, while your LSAT offers some offset but not enough to counterbalance them. These top three elements—your year 3 and year 1 deciles driving the risk upward, tempered somewhat by your LSAT—directly explain why the model saw your bar success as unlikely. Your full-time status aligns with the vast majority of students (over 92%), so it didn't sway the outcome much. To move forward, focus on bolstering your academic record—perhaps through a post-baccalaureate program, additional coursework, or retaking the LSAT to push closer to or above average. Building a stronger narrative around overcoming those early deciles with recent achievements could also help in reapplying or appealing to schools with more holistic reviews. With targeted improvements, you can shift future predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

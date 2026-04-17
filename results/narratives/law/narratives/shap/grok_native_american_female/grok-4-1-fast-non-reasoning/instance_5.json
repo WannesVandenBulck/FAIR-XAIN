@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:01.907672",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 41% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The three biggest influences on your specific prediction were your family income level, your third-year grade decile in school, and your LSAT score. Most notably, your low family income bracket stood out as a strong positive factor, pushing the model's view toward expecting you to pass, since students from similar backgrounds who succeeded often share that profile and overcome challenges effectively. In contrast, your position in the bottom decile for third-year grades worked against you, signaling to the model a heightened risk of bar exam struggles compared to the much higher deciles typical of those who passed. Your LSAT score of 27 also pulled somewhat in the direction of failure risk, falling well below the average of around 37 for students who went on to pass the bar. For context, students who typically get admitted have stronger undergraduate GPAs around 3.24 versus your 2.60, higher year-one deciles near 6, and are overwhelmingly full-time enrollees rather than part-time like you. These elements together tipped the scales toward rejection, even as your family background offered some counterbalance. It's understandable to feel disappointed, especially given the dedication it takes to pursue law as a part-time student from a low-income home. To strengthen a future application, consider retaking the LSAT to aim closer to 37 or above, focusing on boosting your grades to reach at least middle deciles, and perhaps exploring full-time options if feasible. Building a stronger undergraduate record through additional coursework or highlighting any upward trends in your academics could also help demonstrate growth. Many students in similar situations have succeeded by addressing these key areas—reapplying after targeted improvements often leads to better outcomes.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

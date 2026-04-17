@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 99,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:33.911282",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 49.7% chance that you would not pass—crossing the threshold we use to make admission decisions. This prediction draws from your academic record, test scores, and background details like your high family income and plans to attend full-time. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 2, which ranks you quite low compared to the average of about 6 for students who passed the bar, signaling to the model a potential struggle with sustained performance. In contrast, your undergraduate GPA of 3.20 played a helpful role, pulling the prediction toward success since it's close to the 3.24 average among bar passers, showing solid foundational strength. Similarly, your LSAT score of 37 offered a boost, nearly matching the 37.27 average for successful students and demonstrating good analytical potential. While your high family income is less common among bar passers (only about 8.5% in that group), and full-time status aligns well with most who succeed (over 93%), these didn't outweigh the Year 3 grades in the model's eyes. Overall, your profile stacks up reasonably against admitted students in scores and commitment, but that lower Year 3 ranking stood out as the biggest red flag, tipping the balance. It's understandable to feel disappointed, especially with your strong LSAT and near-average undergrad performance painting a picture of capability. To move forward, consider retaking courses or seeking targeted tutoring to boost your later-year grades, as improving that decile could dramatically shift future predictions. You might also explore post-bac programs or additional LSAT prep to further strengthen your profile. Many students in similar spots have succeeded by addressing weak academic stretches head-on. Reapplying after building that evidence of improvement could open doors—your full-time dedication and supportive background position you well for it. Keep pushing; this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

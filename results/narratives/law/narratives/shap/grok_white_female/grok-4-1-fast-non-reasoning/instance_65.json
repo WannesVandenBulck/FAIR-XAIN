@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 65,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:35.657569",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.60 and LSAT score of 24, alongside factors like your lower-middle family income bracket and your Year 1 and Year 3 decile rankings of 1st and 3rd, respectively, while planning full-time studies. The model weighed these elements against patterns from thousands of past students to forecast bar exam success. The most influential factor pushing toward a failure prediction was your LSAT score, which fell well below the average of about 37 for those who passed, signaling to the model a notable gap in the standardized reasoning skills often linked to bar success. Counterbalancing that, your undergraduate GPA had a strong positive pull toward predicting passage, as your 2.60 exceeded what might be expected to drag the odds down as much as it could have. Your family income bracket also nudged the prediction favorably, since lower-middle backgrounds like yours appear more often among passers than the very lowest ones, fitting patterns where moderate resources support steady performance. Overall, the LSAT's dominant negative sway outweighed these offsets, tipping the model to a borderline failure risk that led to rejection. Compared to typical admitted students—who boast LSATs around 37, GPAs near 3.24, and often middle or upper-middle family incomes—your profile showed strengths in grit implied by your full-time commitment but hurdles in those key entry metrics. Your early-year deciles, far below the 6th or higher averages for passers, added underlying concern about upward trajectory. This isn't a judgment on your potential, just the model's data-driven read on bar outcomes. To move forward, consider retaking the LSAT to boost that score closer to 35 or above, as even a 5-10 point jump could flip similar predictions; strengthening your GPA narrative through post-bac courses or detailed recommendations might also help. Reapply after targeting these, perhaps with essays highlighting your resilience from a lower-middle background, and explore programs with holistic reviews that value full-time dedication like yours. Many students in your position succeed by addressing these exact levers— you've got the foundation to build on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

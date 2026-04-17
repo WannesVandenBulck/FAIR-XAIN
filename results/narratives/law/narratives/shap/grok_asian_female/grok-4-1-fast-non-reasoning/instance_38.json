@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:42.361539",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 67.4% chance that you would not pass, tipping the scales against admission. This prediction draws from your academic record, including your undergraduate GPA of 3.70—which is actually stronger than the 3.24 average among students who passed the bar—and other factors like your LSAT score of 31, your position in the second decile for both first-year and third-year grades at your school, your middle family income bracket, and your plan to attend full-time. Among those who passed, full-time students make up 93% and middle-income backgrounds are common at 35%, so those align reasonably well with successful profiles. However, the model's decision hinged most heavily on your third-year grade decile, where your second-decile standing strongly pushed the prediction toward expecting a bar failure, as it signals performance below what typically leads to passing. Nearly as influential was your first-year decile in the second position, which similarly pulled the outlook toward failure compared to the much higher averages around the sixth decile for bar passers. Counterbalancing this somewhat was your undergraduate GPA, which worked in your favor by nudging the prediction toward passing, given its above-average strength relative to successful students. Overall, these grade deciles carried the most weight, overshadowing your solid undergrad record and placing you outside the typical profile of admitted students who generally ranked in higher deciles early on. Your LSAT score of 31, well below the 37.27 average for passers, added to the concern but wasn't the top driver here. While your background as an Asian female from a middle-income family pursuing full-time study doesn't raise red flags—since protected traits like gender and race weren't factored in—the model focused purely on these performance indicators. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and if possible, strengthen your recent academic decile through additional coursework or a post-bac program that demonstrates upward momentum. You might also seek targeted bar prep resources early, as many students in similar positions have turned things around by addressing these key gaps. This isn't the end—your strong undergrad GPA shows real potential, and refining these areas could position you strongly for the next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

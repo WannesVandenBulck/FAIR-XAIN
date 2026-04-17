@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 130,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:33:18.132156",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes strong full-time student status, but also a lower-middle family income background, an undergraduate GPA of 2.10—well below the typical 3.21 average—and an LSAT score of 23.50, compared to the usual 36.70. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 97% chance you would fail the bar exam, leading directly to the rejection of your application. This high failure probability means the school sees too much risk in admitting you, as they prioritize students likely to pass the bar and succeed in practice. The decision hinged most heavily on your Year 3 school decile ranking of 1, which placed you in the bottom 10% of your peers and strongly pushed the prediction toward failure, unlike the average student's mid-range standing around the 5th or 6th decile. Next in influence was your LSAT score, which is unusually low and further tilted the model toward expecting bar struggles, as higher scores typically signal stronger analytical readiness. Your Year 1 decile of 1 also contributed notably in the same direction, reinforcing early academic concerns by showing consistent bottom-tier performance relative to the dataset's average around the 6th decile. None of these top factors pulled in a positive direction for you; they all amplified the risk signal. Compared to typical admitted students, who often have mid-to-high deciles and LSATs above 35, your metrics stood out as significant outliers dragging down the overall outlook. While your full-time commitment aligns with most successful applicants (over 90% in the data), it wasn't enough to offset these core academic red flags. To move forward, focus on retaking the LSAT to boost it toward 35 or higher, strengthening your undergraduate record through post-bac courses if possible, and gathering strong letters highlighting your resilience as an Asian male from a modest background. Reapply after demonstrably improving these areas, perhaps targeting schools with holistic reviews that value your unique story. With targeted effort, you can shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

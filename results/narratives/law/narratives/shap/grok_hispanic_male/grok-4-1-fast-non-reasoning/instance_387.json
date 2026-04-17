@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 387,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:23.381501",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid undergraduate GPA of 3.60, which stands out above the typical 3.21 average among past students, along with plans to attend full-time and a middle family income background. However, your earlier school deciles—ranking in the 2nd out of 10 for both Year 1 and Year 3 grades—along with an LSAT score of 22.70, well below the usual 36.70, painted a mixed picture for the admissions model. This AI system, trained on data from thousands of students' paths to the bar exam, predicted a 48% chance you'll fail it on your first try, tipping the scales just enough to reject your application as a precaution against that risk. The three biggest factors driving this decision were your undergraduate GPA, Year 3 decile, and LSAT score, in that order of influence. Your strong GPA was the most powerful positive force, strongly pushing the prediction toward expecting you to pass the bar, showing how your college success signals real potential. On the flip side, your lower Year 3 decile ranking had a notable pull in the opposite direction, nudging the model toward seeing a higher failure risk compared to students who ranked higher in their classes. Similarly, your LSAT score contributed toward that failure prediction, as it falls short of what typically helps students succeed on the bar. Overall, these elements outweighed other details like your full-time plans, which align with the vast majority of students. While disheartening, especially given your background and achievements, this isn't a judgment on your worth—it's the model weighing patterns from past Hispanic and other students who've faced similar hurdles. To move forward, consider retaking the LSAT to boost that score closer to average, perhaps supplementing with targeted prep that builds on your GPA strengths, and reapply once you've strengthened those early decile areas through additional coursework or recommendations. Many in your position have turned predictions around with focused effort, and law schools often value persistence from determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

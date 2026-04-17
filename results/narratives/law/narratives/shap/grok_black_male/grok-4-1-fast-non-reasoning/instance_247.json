@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 247,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:46:32.045510",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile includes a solid LSAT score of 36—close to the typical student's 36.7—and an undergraduate GPA of 3.10, which is just below the average of 3.21. The university's admission model, which predicts first-time bar exam success based on past students' academic records, family details, and demographics, estimated a 66.8% chance that you would fail the bar exam. This high predicted risk of failure is why your application was rejected, as the school prioritizes admitting those likely to pass on their first try. The model's decision hinged most strongly on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers that year—far below the average decile of about 5.5—and this low performance strongly pushed the prediction toward expecting bar failure. Next in influence was your Year 1 decile of 4, again below the typical 5.7, reinforcing concerns about your early academic standing relative to others. Your LSAT score, while respectable, worked in your favor by nudging the prediction slightly toward passing success, countering some of the academic red flags. Compared to typical students who pass the bar, your later-year grades stand out as weaker, suggesting the model sees a pattern that might carry over to the high-stakes exam. This isn't a judgment on your potential or background—many from similar circumstances succeed with targeted effort—but the model focuses on these measurable academic signals. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or master's in legal studies to demonstrate improvement. Strengthening your LSAT further could amplify its positive impact, and gathering letters highlighting your resilience as a Black man navigating these challenges might help in reapplying. With focused steps like these, you can reshape your profile for stronger predictions next time. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

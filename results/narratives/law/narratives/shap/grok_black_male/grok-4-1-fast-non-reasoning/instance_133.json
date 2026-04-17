@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 133,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:39:18.352354",
+  "status": "success",
+  "narrative": "As a Black male applicant with a middle-income family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and academic history to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.00, LSAT score of 33, full-time student status, and notably low Year 1 and Year 3 school decile rankings of 1—and predicted a 59.7% probability that you would fail the bar exam on your first attempt. This high risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, which placed you in the bottom tenth of your school—far below the typical student's middle-of-the-pack standing—and signaled to the model a significant drop or stagnation in performance that often correlates with bar struggles. Next in importance was your LSAT score of 33, which actually worked in your favor by pulling the prediction somewhat toward passing, as it's closer to average than your other metrics, though still below the dataset's typical 36.7. Your Year 1 decile ranking of 1 also contributed toward failure, reinforcing early academic challenges that the model sees as persistent hurdles, unlike the average student's stronger start around the sixth decile. Compared to typical students who pass, your consistently bottom-decile grades stand out as the biggest red flags, overshadowing positives like planning full-time study, which is the norm for 93% of applicants. While your background as a Black male from a middle-income family didn't directly drive the decision, the model weighs academic indicators heavily for everyone. To move forward, focus on retaking the LSAT to boost it above average and addressing whatever held back your school grades—perhaps through targeted tutoring or additional undergrad coursework—to rebuild a stronger profile. Many students in similar situations improve by documenting clear improvement plans in reapplications, showing schools you've tackled these weaknesses head-on. With persistence, you can shift future predictions in your favor and pursue your legal goals.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

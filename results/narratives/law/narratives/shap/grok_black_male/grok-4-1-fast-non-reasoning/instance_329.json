@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 329,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:51:36.130195",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—your law school application stood out in some ways, but the admissions model ultimately predicted a 62.9% chance that you would fail the bar exam on your first try, leading to the rejection. This prediction is based on patterns from thousands of past students, focusing on factors like academic rankings, test scores, and background that best predict bar success. The model's decision hinged on just a few key elements from your profile, with your undergraduate GPA being the strongest positive force, as it suggested you have the academic strength to likely pass the bar. However, this was outweighed by your lower school decile rankings in Year 1 and Year 3—both at the 1st decile, far below the average 5th or 6th deciles—which signaled to the model potential struggles in competitive law school coursework ahead. Your Year 3 decile had the next biggest negative pull, reinforcing concerns about sustaining performance in advanced classes, while your Year 1 decile added further doubt about early momentum. Compared to typical students, your LSAT score of 22 is notably below the 36.7 average, though it wasn't the top driver here, and your low family income bracket aligns with many applicants but didn't sway the outcome much. Planning to attend full-time, like over 90% of students, also kept things neutral. These rankings pushed the prediction toward failure more than your strong GPA pulled it toward success, tipping the scales against admission. It's tough, especially knowing systemic barriers can impact rankings and test scores for students like you from lower-income backgrounds. To move forward, consider retaking the LSAT to boost it closer to average, seeking programs that strengthen your class rankings through targeted study or community college bridges, and applying to schools with holistic reviews that value your unique story. Building a narrative around your resilience could also help in appeals or alternative paths like paralegal work to gain experience. With your GPA as a foundation, targeted improvements can shift future predictions in your favor. Keep pushing—you've already shown capability where it counts most.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

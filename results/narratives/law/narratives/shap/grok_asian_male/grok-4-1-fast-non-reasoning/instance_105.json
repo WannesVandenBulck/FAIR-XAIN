@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 105,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:41.556366",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.10 and an LSAT score of 32, your law school application stood out in some positive ways, like your upper-middle family income background and plans to attend full-time, which is the norm for most students. However, the admissions model, trained on data from thousands of past students' academic records, family details, and bar exam outcomes, predicted a 40.4% chance that you would fail the bar exam on your first try—high enough to trigger a rejection, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction wasn't random; it hinged on a few key factors from your profile that carried the most weight in the model's decision. The top influence pulling against failure was your undergraduate GPA, which, while slightly below the average of 3.21, still signaled solid academic potential and nudged the model toward expecting you to pass. Your Year 3 school decile ranking of 4—again a bit under the typical 5.53—played a similar supportive role, showing steady performance that helped counterbalance concerns. On the flip side, your LSAT score emerged as the strongest force pushing the prediction toward failure risk, as it fell notably below the dataset average of 36.70, making the model worry about your readiness for the rigors ahead compared to peers who scored higher. Overall, these three elements—your undergrad grades helping your case, later school rankings adding some reassurance, and LSAT standing out as the biggest red flag—tipped the scales just enough for rejection, even though your profile aligns closely with many full-time applicants. You're not far off from typical students in areas like family income and enrollment status, but boosting that LSAT equivalent could shift future predictions dramatically. To move forward, consider retaking the LSAT to aim closer to or above 36-37, strengthening your Year 3 decile through targeted coursework, or gathering letters highlighting your resilience as an Asian male navigating competitive academics. Many students in similar spots reapply successfully after addressing one key gap—your path isn't closed, just needs a strategic pivot.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

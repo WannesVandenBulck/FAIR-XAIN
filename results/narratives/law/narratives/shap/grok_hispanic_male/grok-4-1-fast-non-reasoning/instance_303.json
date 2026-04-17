@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 303,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:08.220265",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.00, LSAT score of 34, upper-middle family income background, and your Year 1 and Year 3 school decile rankings of 4th and 2nd respectively, along with your plan to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 71.8% chance that you would fail the bar exam— a risk level that led to your application's rejection to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out compared to typical applicants. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking of 2nd, which is notably lower than the average of around 5.5th—suggesting your later academic performance placed you in the lower ranks among peers, a pattern the model strongly associates with bar struggles. Next, your undergraduate GPA of 3.00, below the typical 3.21 average, worked against you by pulling the prediction further toward failure, as stronger GPAs often signal the grit needed for bar success. Your upper-middle family income, while solid, nudged the odds slightly toward failure in this model's view, perhaps reflecting how it correlates with certain preparation challenges seen in past data. On a brighter note, no other factors like your LSAT or full-time status dominated enough to override these. Compared to students who typically pass, your lower Year 3 deciles and GPA mirror profiles that historically falter, even with your respectable LSAT and background. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar starts— but the model prioritizes these predictors to forecast bar passage reliably. To move forward, consider retaking the LSAT to boost it above the 36.7 average, strengthening your later-year grades through targeted courses or tutoring, and gathering letters highlighting your resilience. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value your unique story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

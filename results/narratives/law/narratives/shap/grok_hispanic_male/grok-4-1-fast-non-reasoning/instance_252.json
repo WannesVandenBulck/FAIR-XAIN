@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 252,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:55.359404",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.10, LSAT score of 35, lower family income bracket, and your grades placing you in the 3rd decile for Year 1 and 2nd decile for Year 3 at your school—both below the typical student's 5th or 6th decile rankings. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 63% chance you'll face failure on that critical test, tipping the scale toward rejecting your application to prioritize those with stronger projected outcomes. This prediction wasn't a judgment on your potential or background, but a data-driven assessment to help the school maintain high bar passage rates. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, as being in the lower ranks like yours signaled a notable risk compared to peers who ranked higher. Your Year 1 decile also contributed in the same direction, reinforcing concerns about consistent academic standing relative to the average student. On a brighter note, your LSAT score worked in your favor, pulling the prediction toward success since 35 is close to the dataset average of 36.7 and showed solid reasoning ability. Overall, these top three elements—your Year 3 and Year 1 deciles outweighing the positive LSAT—dominated the model's thinking for your profile. While full-time status and other details like your GPA of 3.10 (just shy of the 3.21 average) played supporting roles, they didn't shift the balance enough. Many students in similar lower deciles and income brackets have improved with targeted effort, so you're not alone in this challenge. To move forward, consider retaking the LSAT to boost it above average, seeking academic coaching to climb those school rankings in future terms, or exploring programs with bar prep support tailored for diverse backgrounds like yours. Building a stronger narrative around resilience—perhaps through additional certifications or work experience—could also help in reapplying. You've got the drive; now focus on these actionable steps to rewrite your story for the next opportunity.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

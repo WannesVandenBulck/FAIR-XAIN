@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:23.314565",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—high enough to trigger rejection as we prioritize admitting students with stronger projected outcomes. This prediction draws from your academic record, test scores, and background details like your high family income and plans to attend full-time. The model's decision hinged most on three key factors from your profile, ranked by their influence. The strongest push toward predicting failure came from your Year 3 school decile ranking of 2nd, which is notably lower than the 6th decile average among students who passed the bar, signaling to the model a potential dip in later academic momentum. Counterbalancing that, your undergraduate GPA of 3.10 played a major supportive role, pulling the prediction toward success since it's close to the 3.24 average for bar passers, showing solid prior performance. Your LSAT score of 37 also helped in the same way, nearly matching the 37.27 average of successful students and demonstrating competitive testing ability. While your high family income is uncommon among bar passers (only 8.5% share that bracket), and being full-time aligns well with the vast majority who succeed, these didn't outweigh the Year 3 decile concern in the model's eyes. Compared to typical accepted applicants, who tend to maintain higher decile rankings throughout, your profile showed promise in GPA and LSAT but faltered in that later-year standing. To move forward, focus on strengthening your recent academic decile—perhaps by retaking courses or pursuing targeted improvement programs—then reapply with updated transcripts, as even small gains there could shift your predicted odds significantly. Many students in similar positions have succeeded by addressing exactly this kind of late-stage performance gap.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

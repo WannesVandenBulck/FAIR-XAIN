@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 190,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:50.787706",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your profile includes solid undergraduate grades with a GPA of 3.30—slightly above the typical 3.21 average—alongside an LSAT score of 33.50, Year 1 school decile ranking of 5th out of 10, a 4th decile ranking in Year 3, and a middle-class family income background, with plans to attend full-time like most applicants. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 49.3% chance that you would fail the bar on your first attempt—a risk level high enough to lead to the rejection of your application, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your academic record and background that stood out as the strongest influences. Most critically, your Year 3 decile ranking in the lower half of your school pushed the model's assessment toward expecting a bar failure, as it signals a dip in performance compared to peers who typically rank higher. Nearly as influential was your middle-class family income bracket, which the model associates with added challenges in bar preparation for students in similar situations. On a more positive note, your LSAT score had the strongest pull in the opposite direction, nudging the prediction toward bar passage because it's competitively close to the average of 36.70, showing real potential there. Compared to typical students who pass the bar, your Year 3 grades and family background align more with those who struggle, while your LSAT keeps you in contention. This close call—nearly 50/50—means small improvements could shift the odds dramatically. To move forward, focus on boosting your academic decile through targeted study habits or retaking the LSAT to exceed the average, and consider resources like bar prep scholarships tailored for Hispanic students from middle-income families. Retake the LSAT soon if possible, and gather strong recommendation letters highlighting your resilience. Many in your position reapply successfully after addressing these gaps—your full-time commitment and above-average undergrad GPA give you a strong foundation to build on. With persistence, you can turn this into an opportunity for an even stronger application next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

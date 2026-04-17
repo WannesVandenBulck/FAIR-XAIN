@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 165,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:29.678602",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.90 (below the typical 3.21 average), LSAT score of 38 (slightly above the 36.70 average), upper-middle family income, full-time student status, and notably low Year 1 and Year 3 school grade deciles of 2 and 1 respectively (far below averages around 5.5-5.7)—and calculated a 59.8% probability that you would fail the bar exam on your first attempt. This high risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing the prediction toward failure was your Year 3 grade decile, which ranked you in the bottom tier of your school and signaled to the model a significant drop or struggle in performance compared to peers who typically rank much higher. Countering that, your LSAT score had the second-strongest influence, pulling the prediction toward success because it exceeded the average and showed strong analytical potential. Your upper-middle family income also nudged things positively, as students from similar backgrounds tend to have better bar outcomes than those from lower brackets. Overall, while your test score and income provided some reassurance, they weren't enough to offset the heavy weight of your low Year 3 decile, which stood out as the dominant concern relative to typical admitted students who maintain mid-to-high deciles throughout. This isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds excel—but rather a data-driven flag on that specific academic trend. To move forward, consider retaking courses or programs to boost your deciles, perhaps through a post-baccalaureate or targeted GPA improvement initiative, and reapply after demonstrating stronger late-stage performance. You might also seek feedback from advisors on bolstering your Year 3 record or exploring schools with more holistic reviews. With focused effort on those grades, your solid LSAT could shine even brighter next time. Keep pushing; many students turn around similar profiles and pass the bar successfully.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

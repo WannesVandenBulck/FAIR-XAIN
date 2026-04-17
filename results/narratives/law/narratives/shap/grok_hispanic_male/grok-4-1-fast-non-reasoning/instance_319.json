@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 319,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:06.712598",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid foundation with your undergraduate GPA of 3.80, which stands out well above the typical 3.21 average among students in our dataset, and a respectable LSAT score of 33. Your family comes from a middle-income background, and you're planning to attend full-time, which is the norm for over 90% of applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 69% chance that you would fail it—high enough to lead to the rejection of your application, as the school prioritizes candidates with stronger projected odds of bar success. The model's decision hinged most heavily on your performance rankings within your school: specifically, your Year 3 grades placed you in the bottom decile (1st out of 10), far below the average 5th or 6th decile, and this was the strongest factor pushing the prediction toward failure. Your Year 1 grades, also in the bottom decile compared to the typical mid-range performance, reinforced that concern as the third-most influential element. On a brighter note, your strong undergraduate GPA worked significantly in your favor, pulling the prediction toward a higher chance of passing and softening the overall risk assessment. Compared to typical students who pass the bar, who often rank in the middle or top half of their classes throughout school, your early and later academic struggles in this context stood out as red flags, even with your other strengths. This doesn't reflect your potential as a whole—many from similar backgrounds overcome these hurdles—but the model weighs consistent school performance as a key bar exam signal. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through community college or targeted prep that addresses whatever held you back in Years 1 and 3. You might also retake the LSAT to push closer to or above the 36.7 average, building a profile that aligns better with bar passers. Reach out to advisors for personalized strategies, and reapply once you've strengthened these areas—your UGPA already gives you a great starting point. Persistence pays off, especially for determined students like you from underrepresented backgrounds.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 281,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:46.181491",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at their academic records, family backgrounds, and other factors to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.60 (below the typical 3.21 average), LSAT score of 38 (slightly above the 36.70 average), Year 1 school decile of 3 (well below the 5.71 average), Year 3 decile of 1 (far under the 5.53 average), lower-middle family income bracket, and full-time student status—and predicted a 58.9% chance that you would fail the bar exam on your first attempt. This probability crossed the threshold that led to your application's rejection, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking of 1st, which signals consistently lower performance relative to peers in your later undergraduate years and strongly raised concerns about bar exam readiness. Next in influence was your LSAT score, which actually worked in your favor by nudging the prediction toward passing, as it shows solid reasoning ability above the student average. Your Year 1 decile of 3rd had a smaller but still notable negative pull, reinforcing worries about early academic struggles compared to typical students who rank much higher. Overall, while your LSAT and full-time commitment stood out positively, the low decile rankings dominated, placing you below the profile of students who typically pass the bar on their first try. These patterns reflect how the model weighs sustained academic performance as a key bar exam indicator, especially for applicants from similar backgrounds. To move forward, consider retaking the LSAT to boost it further or strengthening your academic record through postgraduate courses or a master's program to improve those decile equivalents. You might also seek targeted bar prep resources early, as many students in your income bracket succeed with focused support. Reapplying after addressing these gaps could shift your predicted odds significantly, and schools value persistence in applicants like you. Keep building on your strengths—we've seen students with comparable starts turn things around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

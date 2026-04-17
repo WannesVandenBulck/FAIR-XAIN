@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 336,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:09.876212",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.00, LSAT score of 34, upper-middle family income, and full-time student status, along with your Year 1 and Year 3 decile rankings in school. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 65.1% chance that you would fail it on your first try—above the threshold that flags higher-risk applicants, leading to the rejection of your application. This prediction stems from weighing factors like grades, test scores, and background against patterns seen in past students. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 2, well below the typical student's 5.53 average, signaling to the model a notable dip in performance that often correlates with bar struggles. Next in influence, your LSAT score of 34—lower than the average 36.7—worked in your favor, pulling the prediction slightly toward passing by showing solid reasoning ability compared to many. Your Year 1 decile of 3, also below the 5.71 average, added a smaller push toward failure, as early academic standing helps predict later success. Overall, these top three elements—especially that Year 3 performance—stood out as the strongest drivers, outweighing positives like your full-time commitment, which is common among 93% of students. Compared to typical applicants who pass the bar, your profile shows room for growth in consistent high-decile rankings, even with your supportive family background. While this stings, especially as someone from a Hispanic background navigating these paths, it's not a final verdict on your potential. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted prep or additional coursework, and seeking bar passage mentorship programs tailored for underrepresented students. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value resilience like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

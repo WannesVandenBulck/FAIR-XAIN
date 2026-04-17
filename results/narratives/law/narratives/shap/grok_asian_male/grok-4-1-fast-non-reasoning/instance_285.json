@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 285,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:58.840547",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.30 (below the typical 3.21 average), LSAT score of 36.50 (close to the 36.70 average), Year 1 and Year 3 school decile rankings both at 2 (well below averages of about 5.7 and 5.5), upper-middle family income, and full-time student status—and predicted a 51.6% chance you'll fail the bar exam on your first try. This tipped the scales just over the threshold, leading to your application's rejection as the school prioritizes admitting those predicted to pass and succeed. The three biggest factors driving this prediction were, in order of influence: your LSAT score, your Year 3 decile ranking, and your Year 1 decile ranking. Your LSAT score was the strongest positive force, pulling the prediction toward expecting you to pass since it's solid and aligns closely with what successful students typically score. However, your Year 3 decile ranking had a notable push in the opposite direction, signaling to the model a higher risk of bar failure because it's in the lower ranks compared to peers who passed. Similarly, your Year 1 decile ranking reinforced that concern, as early low performance like yours often correlates with struggles on the bar exam in the model's view. Compared to typical admitted students, who tend to have higher deciles and stronger early grades, your academic rankings stand out as the key drags, even with your respectable LSAT and stable background. This isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds thrive—but a data-driven flag on these specific patterns. To move forward, consider retaking the LSAT to boost it further or strengthening your recent academic record through additional coursework or a post-bac program to shift those decile perceptions. You could also gather stronger letters of recommendation highlighting your resilience or seek feedback from pre-law advisors on targeted improvements. With focused effort on these areas, reapplying next cycle could present a much stronger case to the model and admissions team. Keep pushing; your upper-middle background and full-time commitment show you're positioned to overcome this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

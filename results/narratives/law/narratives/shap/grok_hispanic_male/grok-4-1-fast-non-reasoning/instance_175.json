@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 175,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:54.267182",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 38, which is above the typical 36.7 average, along with a solid undergraduate GPA of 3.4 compared to the usual 3.21, and plans to attend full-time like most applicants. Your family comes from a middle-income background, which is common in the applicant pool. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 68.7% chance that you would fail the bar exam—high enough to lead to the rejection of your application, as the school prioritizes candidates likely to pass on their first try. The decision hinged on just a few key factors from your profile, with your Year 3 school decile ranking as the top influence, pushing strongly toward a failure prediction because your 1st decile placement there is much lower than the average 5th or 6th decile. Your Year 1 decile of 1, also well below the typical 5.7 average, was the second-biggest factor dragging the prediction downward in a similar way, signaling early academic struggles relative to peers. On a brighter note, your LSAT score was the third-most influential element, actively working against failure by pulling the prediction toward success, thanks to its above-average strength. Compared to typical students who pass the bar, your lower early and later high school deciles stand out as weaker than the mid-range performances that often correlate with passing, despite your other positives. This model doesn't capture everything—like your determination or personal growth as a Hispanic man navigating these challenges—but it flags patterns from thousands of past cases. To move forward, consider retaking courses or programs to boost your school rankings into higher deciles, as those have proven pivotal for similar applicants. You might also seek targeted LSAT or bar prep resources to amplify your already strong score. Many in your position have succeeded by addressing these academic flags head-on—reapplying after improvements could shift the odds significantly in your favor. Keep pushing; your background shows resilience that numbers alone can't measure.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

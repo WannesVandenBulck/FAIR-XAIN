@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 278,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:37.175698",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a strong undergraduate GPA of 3.90—well above the typical 3.21 average—your law school application stood out in several ways, including your plan to attend full-time like most students and your lower-middle family income background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 45% chance that you would fail it, tipping the decision toward rejection to minimize the school's risk of low bar passage rates. This prediction was driven primarily by three key factors from your profile, ranked by their influence on the outcome. Your outstanding undergraduate GPA was the strongest positive force, strongly pushing the model toward expecting you to pass the bar, as it signals exceptional academic ability compared to peers. In contrast, your Year 3 school decile ranking of 1—much lower than the average 5.53—was the most significant drag, heavily pulling the prediction toward failure by highlighting relatively weaker performance in that later stage of your education. Your LSAT score of 21, far below the typical 36.70, added further concern as the third-biggest influence, nudging the model toward anticipating bar struggles despite your other strengths. Overall, while your college grades suggested real potential, the model weighed your dip in later school rankings and low LSAT more heavily against you than typical applicants, where stronger alignments across these metrics often lead to pass predictions. This isn't a judgment on your worth or effort—many successful lawyers face similar hurdles—but a data-driven call to protect the program's reputation. To move forward, consider retaking the LSAT to boost that score closer to average, reflecting on what impacted your Year 3 performance and addressing it through targeted prep or coursework, and exploring schools with holistic reviews that value your high undergrad GPA more prominently. With focused improvements, you can reshape this story and strengthen your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

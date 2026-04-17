@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:14:23.932391",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 95% chance that you would not pass based on patterns from thousands of past students. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting those with stronger signals of bar success to maintain high pass rates. The model's decision hinged most heavily on your academic decile from Year 3 of school, where your lower ranking stood out as the strongest push toward predicting failure—far below the typical top-third placement seen among students who passed the bar. Next in influence was your family's middle income bracket, which the model associated with elevated risk compared to the upper-middle and high-income backgrounds that dominate among bar passers. Your Year 1 decile also contributed toward the failure prediction, again reflecting a position lower than what successful students usually achieve. These three factors together painted a picture of academic performance that didn't align with the profiles of those who typically succeed on the bar, outweighing other elements like your LSAT score of 31.5 or undergraduate GPA of 2.6, both of which trailed the averages of 37.27 and 3.24 for passers. While being a full-time student is common among those who pass, it wasn't enough to offset these key concerns. None of these top influences pulled in a positive direction for you; they all nudged the prediction toward failure by highlighting gaps relative to proven successes. It's understandable to feel disappointed, especially given your dedication to pursuing law full-time. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your undergraduate record through additional coursework, or seeking ways to improve your class rankings in subsequent years. Building a stronger academic foundation now could dramatically shift how models like this view your potential in future applications. Many students in similar positions have rebounded by focusing on these areas—your next steps could rewrite this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

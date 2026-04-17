@@ -1,0 +1,14 @@
+================================================================================
+NARRATIVE: LAW | Instance 1 | SHAP
+================================================================================
+Provider: grok
+Model: grok-4-1-fast-non-reasoning
+Status: success
+Timestamp: 2026-04-17T14:05:28.821296
+
+--------------------------------------------------------------------------------
+NARRATIVE:
+--------------------------------------------------------------------------------
+Your law school application was denied because our predictive model, which evaluates whether applicants are likely to pass the bar exam on their first try, estimated a 99.2% probability that you would not pass. This high risk of failure triggered the automatic rejection, as the school prioritizes admitting students with strong predicted odds of bar success to maintain high pass rates. The model's decision for you hinged most heavily on your academic decile rankings from school, particularly your position in Year 3 grades, which stood out as the strongest factor pushing the prediction toward failure. Your Year 3 decile of 2 is well below the typical student's rank around the middle of their class, signaling to the model a performance level that correlates strongly with bar struggles. Next in influence was your Year 1 decile, also at 2 compared to the average near 6, which further reinforced the model's concern about your early academic trajectory. Your family's upper-middle income level played a smaller but still notable role, as it nudged the prediction slightly toward higher failure risk in this model's assessment of backgrounds. Meanwhile, factors like your LSAT score of 34—below the average of about 37—and undergraduate GPA of 2.90 versus the typical 3.21 added to the overall picture, though they weren't the top drivers. As a full-time student, which is the norm for over 90% of applicants, that aspect didn't sway things much either way. In comparison to typical students who get approved, your grades placed you in the lower deciles where far fewer succeed on the bar, unlike those in higher ranks who dominate the pass group. This isn't about your potential or background as a Black woman—many with similar profiles overcome odds—but the model focuses strictly on these statistical patterns from past bar takers. To move forward, consider retaking courses or programs to boost your decile rankings, aiming for at least mid-class standing, and retaking the LSAT to hit 37 or higher. Building a stronger academic record now could flip the prediction in your favor for future applications, opening doors to law school and bar success.
+
+================================================================================

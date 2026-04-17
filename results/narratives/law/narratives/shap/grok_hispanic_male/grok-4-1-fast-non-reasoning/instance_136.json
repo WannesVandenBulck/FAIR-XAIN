@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 136,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:22.072086",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully reviewed by our admissions model, which predicts performance on the bar exam to help ensure students succeed. The model estimates a 64% chance that you would fail the bar exam on your first try, which is why your application was rejected—law schools use this to prioritize applicants likely to pass and thrive in their legal careers. The most influential factor pushing toward this failure prediction was your LSAT score of 22, well below the typical applicant's 36.7, as lower scores like yours strongly signal challenges in the rigorous reasoning needed for the bar. Next in importance, your upper-middle family income actually worked in your favor, pulling the prediction slightly toward passing since students from similar brackets often have more resources and support for success. Your Year 1 grade decile of 3—lower than the average of 5.71—also helped a bit by nudging things toward passing compared to even weaker performers, though it wasn't enough to offset the top concern. Your undergraduate GPA of 2.2 (below the 3.21 average), Year 3 decile of 4, and full-time student status were noted but had less sway in this decision. Overall, your profile stands out as riskier than typical applicants because of that standout LSAT gap, even with some positive family and early academic factors. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your undergrad record through additional coursework, and gathering strong recommendation letters highlighting your resilience. Reapplying after addressing the LSAT could shift the model's view dramatically. You're capable of this—keep pushing, and law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

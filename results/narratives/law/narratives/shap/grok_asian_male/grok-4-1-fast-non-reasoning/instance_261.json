@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 261,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:32.935228",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your strong start with Year 1 grades placing you in the 9th decile—well above the typical student's 6th decile position—as well as your undergraduate GPA of 3.00, LSAT score of 27, upper-middle family income, and plan to attend full-time like most applicants. It predicted a 45% chance that you would fail the bar exam on your first attempt, which crossed the threshold for rejection since the school prioritizes admitting those with a stronger projected likelihood of success. The decision hinged on just a few key factors from your profile, with your Year 3 grades emerging as the single most influential one, as they placed you in the 2nd decile—much lower than the average 6th decile—and strongly pushed the prediction toward failure by signaling a significant drop-off in performance. In contrast, your excellent Year 1 grades had the second-strongest influence, working firmly in your favor by pulling the prediction toward passing and highlighting your early potential. Your undergraduate GPA came in third, also supporting a pass prediction to some degree, though it sits a bit below the typical 3.21 average. Compared to typical students, your trajectory stands out: while many maintain steadier progress across years, your sharp decline from Year 1 to Year 3 outweighed other solid aspects like your full-time status, which aligns with 93% of peers. This isn't a judgment on your overall abilities or background—your upper-middle income and LSAT, though below averages, weren't the main drivers here. The model simply saw the late academic dip as the biggest risk factor for bar success. To move forward, focus on strengthening your recent grades through targeted tutoring or additional coursework, retake the LSAT to boost your score closer to the 37 average, and consider part-time options if they better suit your study needs. Gathering letters of explanation for your Year 3 performance could also help in reapplying or appealing to schools with more holistic reviews. With deliberate steps to address that key dip, you can reshape your profile for a stronger prediction next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

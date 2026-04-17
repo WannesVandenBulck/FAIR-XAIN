@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 35,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:52.084825",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 95.8% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your class rank in your third year of undergrad, where you placed in the lowest decile—far below the typical top-half standing of students who went on to pass the bar. This stood out as the biggest factor pushing the prediction toward failure, signaling to the model a potential struggle with sustaining high performance over time. Next in influence was your first-year class rank, also in a low decile compared to the much higher averages among bar passers, reinforcing concerns about early academic momentum. Your LSAT score of 28 further tipped the scales toward this outcome, as it fell well short of the near-37 average seen in successful students, highlighting a key area where the model saw elevated risk. While your middle family income aligns with over a third of those who passed and your plan to study full-time matches the vast majority of them, these didn't outweigh the dominant signals from your academic rankings and test score. Your undergraduate GPA of 2.70, though solid, also trailed the 3.24 average of bar passers, adding to the overall picture but not as decisively as the top factors. In essence, compared to accepted students—who typically rank much higher in their classes and score stronger on the LSAT—your profile clustered more closely with those who faced bar challenges. This isn't a judgment on your potential or background, but a data-driven flag from features like these that have historically predicted outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your later undergrad performance through targeted courses or tutoring, and exploring programs with bridge support for bar prep. Gathering stronger letters of recommendation or relevant experience could also help reframe your story in future applications, showing growth beyond these metrics. With focused steps, you can shift your profile toward the successful patterns the model favors.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

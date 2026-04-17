@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:32.266022",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 50.7% chance that you would not pass—crossing the threshold we use to make admission decisions. This prediction draws from key aspects of your academic record and background, like your undergraduate GPA of 2.60, LSAT score of 34, Year 1 and Year 3 decile rankings both at 3, upper-middle family income bracket, and your plan to attend full-time. Among students who successfully passed the bar, the average LSAT is 37.27, undergraduate GPA is 3.24, and Year 1 and Year 3 deciles are around 6 and 5.91, respectively—placing your metrics noticeably below those benchmarks. The three factors that most shaped this prediction were your LSAT score, your Year 1 decile ranking, and your family income bracket. Your LSAT score was the strongest positive influence, as it suggested a solid potential that nudged the model toward expecting you to pass, even if below the typical admitted student's level. In contrast, your Year 1 decile ranking of 3 had the most significant negative pull, signaling to the model a higher risk of bar failure compared to peers who ranked higher in their early school performance. Your upper-middle family income also contributed toward the failure prediction, since while it's common among bar passers (about 45% share that bracket), it didn't outweigh the academic concerns in your case. Overall, these elements combined to tip the scales against admission, as the model prioritizes profiles with stronger early indicators of bar success. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as that could dramatically shift future predictions in your favor. Strengthening your academic decile through targeted coursework or a post-bac program might also help demonstrate upward momentum. We encourage reapplying after addressing these areas, and many students in similar positions have succeeded by focusing on these steps. Your full-time commitment is a plus, aligning with 93% of bar passers, so building on that foundation could make all the difference next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

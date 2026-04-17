@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 111,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:32:06.519101",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.20 and an LSAT score of 35, your profile also includes being in the second decile for your first-year school grades, the first decile for your third-year grades, and coming from an upper-middle-class family background, with plans to attend law school full-time. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 61.2% chance that you would fail, which crossed the threshold for rejecting your application to protect the school's bar passage rates. This prediction hinged on just a few key aspects of your academic record, with your third-year school grades standing out as the most influential factor, strongly pushing the model toward expecting a bar failure because your first-decile ranking there is notably lower than the typical student's fifth-decile average. Next in importance was your LSAT score, which helped pull the prediction somewhat toward passing since your 35 is reasonably close to the average of 36.7 seen across applicants. Your first-year grades, in the second decile versus the usual fifth or sixth, added a moderate push toward the failure prediction, reinforcing concerns about early academic momentum. Compared to typical students who get approved, your lower decile rankings in both early and later school years signal a trajectory that the model associates more with bar struggles, even with your solid GPA and family support. While full-time status aligns with most accepted applicants at 92.7%, it wasn't a major driver here. Your situation isn't uncommon for applicants with inconsistent decile performance, but it deviated enough from stronger profiles to tip the scales. To move forward, consider retaking the LSAT to boost it above the average or strengthening your recent grades through additional coursework or a post-bac program to climb those deciles. Building a narrative around targeted improvements, perhaps with tutoring focused on bar-relevant skills, could make your next application more competitive. Many students in similar positions succeed by addressing these exact gaps, so view this as actionable feedback rather than a final verdict. With persistence, you can reshape how models like this see your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

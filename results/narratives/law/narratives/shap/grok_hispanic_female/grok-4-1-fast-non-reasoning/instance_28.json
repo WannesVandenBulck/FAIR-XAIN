@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:26.332516",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 52% chance that you would not pass—slightly above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic indicators like test scores, grades, and background factors, while setting aside demographics like gender or race. The three biggest factors shaping this outcome for you were your LSAT score, undergraduate GPA, and first-year grade decile in school. Most influential was your LSAT score of 21, which is notably below the average of about 37 for students who passed the bar; this strongly pushed the prediction toward expecting a failure, as lower scores like yours have historically correlated with tougher bar outcomes. In contrast, your undergraduate GPA of 3.10 worked in your favor, coming close to the 3.24 average among bar passers and nudging the model toward seeing you as more likely to succeed. Similarly, your strong first-year decile of 8—better than the 6 average for passers—also helped pull the prediction in a positive direction, signaling solid early academic performance. Other elements, like your lower-middle family income bracket (less common among bar passers, who are more often from middle or upper-middle backgrounds) and full-time study plans (which align well with most successful students), played smaller roles overall. Compared to typical admitted students, who tend to have higher LSATs and slightly stronger GPAs across the board, your profile stood out as riskier mainly due to that test score gap, even with your other strengths. This isn't a judgment on your potential or background—it's the model highlighting where historical data shows the biggest hurdles to bar success. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as that single change could dramatically shift future predictions in your favor. Strengthening your GPA through additional coursework or highlighting upward trends in later deciles, like your Year 3 position, would also help. We encourage reapplying after addressing these areas, and many students in similar situations have succeeded by targeting their standout weaknesses head-on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

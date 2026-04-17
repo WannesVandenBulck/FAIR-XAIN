@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 238,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:09.383802",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on their academic records, family backgrounds, and other factors to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.90, LSAT score of 22.50, middle family income bracket, Year 1 and Year 3 school deciles both at 4th (below averages of about 5.5-6), and full-time enrollment plans—and predicted a 58.9% chance that you would fail the bar exam on your first attempt. This probability crossed the threshold that led to your application's rejection, as the school prioritizes admitting students likely to succeed on the bar to maintain strong outcomes. The most influential factor pushing the prediction toward failure was your LSAT score, which is notably lower than the typical applicant's average of 36.70, signaling to the model a potential challenge in handling the rigorous reasoning demands of law school and the bar. On a more positive note, your undergraduate GPA of 2.90, while below the average of 3.21, worked in your favor by somewhat countering that risk and nudging the prediction toward success. Your middle family income bracket also helped slightly, as it aligns with many students who still perform well, providing a modest boost toward a passing prediction. Compared to typical students in the dataset, where full-time enrollment is the norm at over 90%, your status there didn't stand out but fit the successful profile. Overall, your below-average early academic deciles and especially the LSAT gap outweighed these positives, placing you in a higher-risk category for bar failure relative to peers who got through. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds excel with targeted improvements— but a data-driven call based on patterns in past outcomes. To move forward, consider retaking the LSAT to aim closer to or above the 36.70 average, bolstering your GPA through post-bac courses or explaining any context in a new application, and exploring schools with holistic reviews that weigh your unique story. Building stronger quantitative skills via prep programs could directly address the model's main concern. With focused effort, you can reshape your profile for better odds next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

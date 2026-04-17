@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 406,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:23:33.864498",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.70—well above the typical 3.21 average—and an LSAT score of 36, which is close to the standard 36.70 benchmark for students in this dataset. Your Year 1 school decile ranking placed you in the top tier at 1st out of 10, showing early promise, though your Year 3 decile slipped to 2nd, still strong but indicating some later challenges relative to peers. Coming from a middle-income family and planning full-time studies aligns with the majority of applicants, who are overwhelmingly full-time like you. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your personal risk of failing at 40.9%—a threshold high enough to lead to your application's rejection, as the school prioritizes candidates likely to pass on the first try. Among all the factors considered, three stood out as having the strongest sway in this decision: your LSAT score, Year 3 decile ranking, and undergraduate GPA. Your LSAT, as the top influencer, worked strongly in your favor, pushing the prediction toward expecting you to pass by signaling solid analytical skills comparable to successful bar takers. Similarly, your undergraduate GPA provided a meaningful boost toward success, reflecting sustained college-level performance above the norm. However, your Year 3 decile ranking had the second-strongest pull in the opposite direction, nudging the model toward failure concerns because it was below the average 5.53 decile, hinting at potential hurdles in maintaining momentum through later undergrad years. These influences combined to tip the scales just enough against you, even with your other strengths. To move forward, consider retaking the LSAT if feasible to push it even higher, or bolstering your Year 3 record through additional coursework or explanations in a reapplications essay highlighting your Hispanic background's role in your resilience. Many students in similar positions improve their profiles and succeed on reapplication—focusing on consistent high performance could shift your predicted odds dramatically next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

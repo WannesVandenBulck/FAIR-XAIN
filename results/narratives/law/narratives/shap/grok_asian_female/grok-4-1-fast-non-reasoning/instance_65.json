@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 65,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:24.419781",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—high enough to trigger rejection as a protective measure for both you and the program. This prediction drew heavily from your academic profile, including your undergraduate GPA of 2.60 and LSAT score of 24, alongside your Year 1 decile of 1 and Year 3 decile of 3, your lower-middle family income bracket, and your plan to attend full-time. Among the factors considered, your LSAT score stood out as the most influential, pushing the model's assessment strongly toward predicting bar exam failure since it falls well below the average of about 37 for students who passed. Your undergraduate GPA, while on the lower side compared to the 3.24 average for successful bar takers, worked in your favor by pulling the prediction somewhat toward success. Similarly, your lower-middle family income bracket nudged things positively, as it's less common but not absent among those who passed, where middle and upper-middle incomes dominate. Overall, these top three elements—your LSAT having the strongest pull toward failure, tempered by your GPA and income—tipped the balance to that concerning 48% failure risk. Your full-time enrollment plan aligns well with the vast majority of passers, but it wasn't a top driver here. Compared to typical accepted students, who tend to have much stronger early academic deciles around 6, your lower rankings in Years 1 and 3 also factored in, painting a picture of challenges in sustaining high performance. This isn't a judgment on your potential or background—gender and race weren't considered at all—but a data-driven signal based on patterns from past students. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, as that's the single biggest lever you can pull right now. Strengthening your academic record through additional coursework or a post-bac program could also help lift your profile for future applications. Many students in similar spots have succeeded by targeting these areas, so use this feedback as a roadmap to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 172,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:45.856678",
+  "status": "success",
+  "narrative": "As a Black male applicant with a middle-income family background, your law school application was evaluated using a model trained on data from thousands of students who went on to take the bar exam, predicting whether they'd pass on their first try. The model assessed your profile— including your undergraduate GPA of 2.60, LSAT score of 24, Year 1 school decile of 5, Year 3 decile of 4, and plans to attend full-time—and calculated an 83% probability that you would fail the bar exam. This high predicted risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar from the start. The most influential factor by far was your LSAT score, which fell well below the typical 36.7 average and strongly pushed the prediction toward failure, signaling to the model a lower readiness for the rigors ahead. Your Year 1 decile ranking of 5, slightly under the average of 5.71, also contributed toward that failure prediction, suggesting early academic performance that didn't stand out among peers. Similarly, your Year 3 decile of 4, compared to the usual 5.53, reinforced this concern by indicating grades that lagged behind typical admitted students. While your full-time status aligns with most applicants and your middle-income bracket is common, these didn't outweigh the top concerns. In contrast to students who typically pass, who boast stronger test scores and higher decile rankings, your profile mirrored patterns seen in those who struggle on the bar. This isn't a judgment on your potential or background, but a data-driven flag on key academic signals. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your high school decile performance through additional coursework or test prep, and gathering strong recommendation letters highlighting your resilience. Reapplying after addressing these could shift the model's view in your favor, opening doors at schools that value determined applicants like you. Many in similar situations have succeeded by targeting these areas—your next steps can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

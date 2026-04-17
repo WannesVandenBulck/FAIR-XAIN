@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 363,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:55.331528",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 44, which stands out well above the typical 37, along with your undergraduate GPA of 2.7, family background in the lower-middle income bracket, and plans to attend full-time. The admissions model, which predicts the chances of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 48%—a risk level that unfortunately tipped the decision toward rejecting your application to prioritize students with lower predicted failure odds. This prediction wasn't random; it hinged on just a few key aspects of your academic record that carried the most weight. Your standout LSAT score was the strongest positive force, strongly pushing the model toward expecting you to pass the bar, as it signals excellent test-taking ability compared to most applicants. However, your Year 3 school decile ranking of 2—meaning you placed in the lower part of your class, well below the average decile of about 5.5—had the biggest negative pull, significantly raising the model's concern about bar exam struggles. Similarly, your Year 1 decile of 2, also lower than the typical 5.7, added to that worry by highlighting early academic challenges in a competitive school environment. These decile rankings outweighed even your impressive LSAT because they reflect sustained performance patterns the model links most closely to bar outcomes. Compared to typical students who get approved, your LSAT shines brighter, but your lower class standings pull you into a riskier group where first-time bar passage rates drop. It's a tough outcome, especially knowing the barriers many Hispanic students like yourself face in building those early rankings. To move forward, consider retaking courses or programs to boost your deciles, perhaps through community college transfers or targeted GPA improvement initiatives that have helped others in similar spots. You could also seek bar prep endorsements or admissions appeals highlighting your LSAT strength and any extenuating circumstances from your background. With your evident potential, refining those class performance signals could open doors at other schools soon. Keep pushing—many in your position turn this around and succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

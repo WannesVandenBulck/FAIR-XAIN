@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 429,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:57.151663",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.30—which is actually a bit above the typical 3.21 average—along with your LSAT score of 34, Year 1 decile of 5, Year 3 decile of 4, middle family income bracket, and plans to attend part-time while working. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 52.9% chance that you would fail the bar on your first attempt, tipping the scales just over the threshold for rejection. This prediction led to your application's denial, as the school prioritizes candidates with the strongest projected odds of passing the bar right away. The most influential factor pushing toward this failure prediction was your part-time enrollment status, which stands out because only about 7% of students choose this path compared to over 92% who go full-time; the model sees it as a significant hurdle linked to divided focus and lower bar passage rates in similar cases. Counterbalancing that, your LSAT score had the second-strongest influence, working in your favor by suggesting solid reasoning skills that align with bar success for many students. Your undergraduate GPA followed closely as the third key driver, also pulling positively toward passing since it's above average and reflects consistent performance. Compared to typical students, your grades place you solidly in the middle of your school's deciles, while your LSAT is below the 36.7 average, but these were outranked by the part-time choice in swaying the outcome. While your background as a Hispanic male brings valuable perspectives to law, the model focused purely on these predictors without weighing demographics directly. This isn't a judgment on your potential—it's a data-driven call based on historical trends. To move forward, consider retaking the LSAT to boost it closer to or above average, exploring full-time options if feasible, or strengthening your profile with internships or recommendations that highlight bar-relevant skills. Many students in similar spots reapply successfully after addressing top concerns like these, so use this feedback to refine your path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

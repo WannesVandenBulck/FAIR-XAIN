@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 326,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:45:35.919297",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application stood out in some ways, but the admissions model focused on predicting your chances of passing the bar exam on the first try. The model assessed your overall profile and estimated a 59% probability that you would fail the bar exam, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. The primary driver pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later academic performance in school placed you in the lower tier compared to peers who typically succeed on the bar. This factor had the strongest influence, outweighing others and tipping the scales toward concern about your bar readiness. Next in importance was your undergraduate GPA, which actually worked in your favor by pulling the prediction toward a higher chance of passing, as it's stronger than most applicants'. Your LSAT score of 27, however, much lower than the average 36.7, contributed toward the failure prediction, reinforcing doubts about standardized test performance under pressure. While your middle family income bracket and full-time student status align with the vast majority of applicants, they didn't sway the outcome much here. Compared to typical students who get approved, your lower Year 3 deciles and LSAT stood out as bigger hurdles than your strengths in GPA could offset. This isn't a judgment on your potential as an Asian male applicant—many in similar demographics succeed with targeted improvements—but the model prioritizes bar passage patterns from past data. To move forward, consider retaking the LSAT to boost it closer to average levels, strengthening your later-year grades through additional coursework or explanations in a reapplications essay, and gathering strong recommendation letters highlighting your resilience. Reapplying after addressing these key areas could shift your predicted odds significantly, opening doors at schools that value your unique background. Keep pushing; your above-average GPA shows you have the foundation to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

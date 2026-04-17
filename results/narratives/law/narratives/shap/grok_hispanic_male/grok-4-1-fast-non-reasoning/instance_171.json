@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 171,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:38.856260",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your profile includes an undergraduate GPA of 3.30, which is slightly above the typical 3.21 average, an LSAT score of 36, close to the usual 36.70, upper-middle family income, and plans to attend full-time like most applicants. However, your Year 1 school decile ranking of 3 and Year 3 ranking of 2 are notably lower than the averages of about 5.7 and 5.5, reflecting grades that placed you in the lower third of your class during those years. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 51.1%—just over the tipping point that led to your application's rejection, as the school prioritizes candidates with stronger predicted odds of bar success. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, as being in the lower part of your class at that stage strongly signaled potential challenges ahead on the bar exam. Next in importance, your undergraduate GPA worked in your favor, pulling the prediction toward passing because it exceeded the typical level and suggested solid academic foundation. Similarly, your LSAT score helped your case by nudging the outlook toward success, performing near the average expected for bar passers. Compared to typical students who get approved, your lower Year 3 performance stands out as the biggest deviation, outweighing your strengths in GPA and LSAT that align more closely with successful profiles. This combination tipped the model's overall assessment against you, even though no single factor was overwhelmingly negative. While this decision stings, especially given your background and full-time commitment, it doesn't define your potential—many overcome early setbacks to excel. To move forward, consider retaking courses or targeted prep to boost your decile rankings if possible, or seek programs with bar passage support tailored for diverse students like yourself. Building a stronger narrative around your resilience as a Hispanic applicant through letters or experiences could also help in reapplying elsewhere. With focused effort on those early-grade weaknesses, you can shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

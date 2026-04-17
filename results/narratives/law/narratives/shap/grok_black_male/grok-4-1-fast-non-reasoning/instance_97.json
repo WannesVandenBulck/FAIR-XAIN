@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 97,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:58.965485",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.90—which is below the typical 3.21 average—and an LSAT score of 32, lower than the usual 36.70 seen in the dataset of past bar exam takers. The admissions model, trained on thousands of similar students' academic records, family details, and outcomes, predicted a 68% chance that you would fail the bar exam on your first try, tipping the scales toward rejection to minimize the risk of poor bar passage rates at the school. This prediction hinged most strongly on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and was the biggest factor pushing the model toward forecasting failure, as stronger rankings in later years often signal the endurance needed for the bar. Next in influence was your Year 1 decile of 1, again at the lowest level compared to the average around 5-6, reinforcing concerns about early academic struggles that tend to persist. Interestingly, your upper-middle family income provided a counterbalance, nudging the prediction slightly toward success since students from similar brackets often have more resources to support their studies. Compared to typical applicants who pass the bar, your low deciles in both early and later years deviated sharply from the middle-of-the-pack performance that usually predicts first-try success, while your full-time status aligned with the vast majority but didn't outweigh those academic red flags. This combination made the model view your bar passage odds as riskier than average. To move forward, consider retaking the LSAT to boost your score closer to or above 36-37, as that could dramatically shift future predictions. Strengthening your academic deciles through additional coursework or a post-bac program might also help demonstrate upward momentum. Reaching out to admissions for feedback or exploring schools with holistic reviews that weigh your unique background more favorably could open doors. Finally, targeted bar prep resources tailored for underrepresented students like yourself have helped many in similar positions succeed on retakes. With focused effort, you can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

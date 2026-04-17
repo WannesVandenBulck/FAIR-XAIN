@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 83,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:16:00.802204",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 40% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in academic records, test scores, and background details of thousands of past students, focusing on factors that reliably signal bar exam success without considering gender or race. Among the key elements in your profile, your LSAT score stood out as the strongest positive force, performing well above the average for students who passed the bar, which significantly pulled the prediction toward expecting you to succeed. However, your third-year grade decile had the opposite effect, ranking quite low compared to the typical 5.91 decile among those who passed, making the model worry it signals potential struggles ahead. Your upper-middle family income bracket also nudged things positively, aligning closely with the majority of successful bar takers and suggesting a supportive environment. These three factors—your LSAT as the top influencer for the better, followed by your third-year decile raising red flags, and income providing a modest boost—together tipped the scales toward this concerning probability. While your undergraduate GPA of 2.60 falls below the 3.24 average for passers, and your first-year decile of 2 is lower than their typical 6.04, they played lesser roles here. Full-time enrollment plans match what most admitted students pursue, which is encouraging but not decisive. Overall, your profile compares unfavorably to accepted students mainly due to those early and later grade deciles, despite strengths in LSAT and background. To move forward, consider retaking the LSAT if possible to build on your strength there, or focus on boosting your grades through targeted tutoring or additional coursework to climb those deciles. You might also explore bridge programs or community college pathways that have helped students in similar positions strengthen their records before reapplying. With persistence, many applicants turn predictions like this around—your solid LSAT shows real potential waiting to shine.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

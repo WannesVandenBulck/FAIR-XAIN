@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 62,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:02.953951",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.20, LSAT score of 31, Year 3 school decile of 5, Year 1 decile of 6, lower-middle family income bracket, and full-time student status—and predicted a 60% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain strong outcomes. The three most influential factors in this decision were your undergraduate GPA, LSAT score, and Year 3 academic decile, ranked by their impact on pushing the prediction one way or the other. Your undergraduate GPA had the strongest pull toward predicting bar failure, as it stands notably below the typical 3.21 average, signaling to the model a foundational academic challenge that often correlates with bar struggles. Your LSAT score reinforced this concern, being well under the dataset average of 36.7, further tipping the scales toward a failure prediction despite your solid full-time commitment, which is the norm for over 92% of students. On a more positive note, your Year 3 school decile of 5—slightly better than the average 5.53—worked against failure, nudging the model toward seeing potential for passing based on your relative performance among peers. Compared to typical students who pass the bar, your metrics in these key areas lag behind, which amplified the overall risk in the model's eyes. This isn't a judgment on your potential or background, but a data-driven flag on patterns seen in past bar takers. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your undergraduate record through additional coursework or a post-bac program, and highlighting any upward trends like your Year 3 decile in future applications. Many students in similar situations improve these metrics and succeed—reach out to admissions advisors for targeted advice, and explore bridge programs or retake strategies tailored for applicants like you. With focused effort, you can shift the odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

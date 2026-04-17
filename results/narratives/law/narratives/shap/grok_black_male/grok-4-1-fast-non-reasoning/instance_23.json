@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 23,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:17.142344",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.40—which is below the typical 3.21 average—and an LSAT score of 27, well under the dataset average of about 37. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 63.9% chance that you would fail the bar exam, tipping the scales toward rejection of your application to protect the school's outcomes. This prediction hinged most strongly on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and powerfully pushed the model toward forecasting failure, as stronger late-stage academic performance is a key signal of bar readiness. Your Year 1 decile of 2, also in the lower ranks compared to the average around 6, reinforced this concern by adding further weight toward the failure prediction. On a more positive note, your undergraduate GPA worked in your favor, nudging the model's assessment slightly toward expecting you to pass despite the other hurdles. Compared to typical students in the dataset—who often enter with mid-range deciles around 5-6 and higher test scores—your early and persistent lower academic deciles set you apart as higher risk, even with your full-time commitment aligning with the vast majority of successful candidates. While factors like your family income bracket didn't sway the decision much, the model prioritized these academic standings as the biggest drivers. This isn't a judgment on your potential or background, but a data-driven call based on patterns from thousands of similar students. To move forward, consider retaking the LSAT to boost your score closer to average levels, strengthening your upper-year grades through targeted study or additional coursework, and perhaps seeking mentorship programs tailored for Black law aspirants to build a more competitive profile. Reapplying after addressing these core areas could shift the odds significantly in your favor. Many students in your position have turned things around with focused effort—your full-time dedication positions you well for that. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:54.603361",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 75.2% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger signals of bar success to maintain high pass rates. The model's decision hinged most heavily on your Year 3 school decile ranking, which fell in the second decile—well below the fifth or sixth decile typical for students who passed the bar—pushing the prediction strongly toward failure by signaling weaker performance in later undergraduate years. Your Year 1 decile, also in the second position compared to the sixth decile average for passers, added further concern by reinforcing a pattern of below-average class standing from the start. In contrast, your undergraduate GPA of 3.20 stood out positively, as it was quite close to the 3.24 average among those who passed, helping to pull the prediction somewhat toward success and softening the overall risk assessment. While factors like your solid LSAT score of 34, upper-middle family income—which aligns with nearly half of bar passers—and full-time enrollment plans were considered, they weren't enough to offset the dominant influence of your decile rankings. Compared to typical accepted students, who often rank in the top half of their classes early and late, your profile showed lower relative standing that raised red flags for long-term exam readiness. This isn't a judgment on your potential or background, but a data-driven focus on patterns from past students. To move forward, consider retaking the LSAT to aim for 37 or higher, bolstering your GPA through post-bac courses or a master's program, and seeking targeted academic advising to improve class rankings in future endeavors. Reapplying after addressing these areas could significantly shift your predicted odds, and many students in similar positions have succeeded by doing just that. You're clearly driven, given your full-time commitment and strong foundational GPA—building on those strengths will make a real difference. Keep pushing; law school doors reopen for prepared applicants.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

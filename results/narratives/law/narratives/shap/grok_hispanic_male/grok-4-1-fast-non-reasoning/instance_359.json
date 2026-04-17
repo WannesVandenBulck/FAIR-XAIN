@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 359,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:40.415196",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong family background with high income, your undergraduate GPA of 3.00, an LSAT score of 29, and your plan to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 40.6% chance that you would fail it—high enough that your application was rejected to minimize the school's risk of low bar passage rates. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most to the model. The biggest influence pushing toward a failure prediction was your Year 3 school decile ranking in the bottom 10%, far below the typical student's midpoint around the 5th or 6th decile, signaling to the model a significant dip in later academic performance that often correlates with bar struggles. Countering that, your high family income was the strongest factor pulling in the opposite direction, suggesting better resources and support that usually help students succeed, much stronger than the average applicant's more modest bracket. Your undergraduate GPA of 3.00, slightly below the typical 3.21, also nudged things toward passing but with less force, as it showed solid but not standout college work. Overall, while your background offered some advantages shared by many successful applicants, the model weighed your lower Year 3 performance as the dominant concern, tipping the scales against admission compared to peers with steadier grade trajectories. This doesn't define your potential—many students overcome similar hurdles. To move forward, consider retaking the LSAT to boost your score well above the average 36.7, strengthening your later-year grades through additional coursework or tutoring, and highlighting any bar prep experience or mentorship in a reapplication. You could also target schools with holistic reviews that value your Hispanic heritage and family strengths more flexibly. With targeted improvements, a stronger profile could flip this prediction in your favor next time. Keep pushing; your determination as a full-time aspiring lawyer will shine through.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

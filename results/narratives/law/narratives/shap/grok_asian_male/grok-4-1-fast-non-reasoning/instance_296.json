@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 296,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:40.344377",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like yours. The model estimated a 45% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting students predicted to pass with high confidence. This decision hinged on just a few key factors from your profile that stood out the most to the model. The strongest influence pulling against failure was your Year 3 school decile ranking of 5, right around the typical student's level of 5.53, which signaled solid mid-tier performance and nudged the prediction toward success. However, your LSAT score of 22—well below the average of 36.7—had the most powerful counter-effect, strongly pushing the model toward predicting failure because it indicates a significant gap compared to students who typically pass. Your middle family income bracket also helped a bit, leaning slightly toward a passing prediction in line with many admitted students' backgrounds. While being a full-time student aligns with the vast majority (over 92%) who succeed, it wasn't a top driver here, nor were your lower Year 1 decile of 2 or undergraduate GPA of 2.4, both below averages. Overall, your LSAT stood out as the dominant reason for the rejection, overshadowing your more average later academic standing and family circumstances. This doesn't reflect your full potential as an Asian male applicant with strengths in persistence—many in similar positions improve with targeted prep. To move forward, focus on retaking the LSAT to boost it closer to 35 or higher, as that's the clearest path to shifting future predictions. Strengthening your recent grades or gaining relevant experience could also help balance your profile. Consider reapplying after addressing these, perhaps with a prep course tailored to LSAT challenges many face. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

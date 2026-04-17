@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 272,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:09.558355",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 37, early-year grades placing you in the second decile at your school, later-year grades in the first decile, and a high family income background, along with planning to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 82% chance that you would fail the bar exam— a risk level that led to your application's rejection to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, well below the typical student's midpoint of around 5.5, signaling to the model a significant dip in later academic performance compared to peers who passed the bar. Next in influence was your LSAT score of 37, which is only slightly above average and actually worked in your favor by nudging the prediction toward passing, as higher scores like yours often correlate with bar success. Your Year 1 decile of 2 also contributed toward failure, again lower than the average of about 5.7, reinforcing concerns about consistent academic strength from the start. Overall, your grades in school deciles were the dominant drivers here, outweighing positives like your LSAT and high family income, especially when stacked against typical admitted students who maintain mid-to-high deciles throughout. Many successful bar takers have stronger grade trajectories, even with similar LSATs or backgrounds. While your full-time status aligns with 93% of students and isn't a concern, the model saw your profile as riskier than average for Hispanic males in similar brackets. To move forward, consider retaking the LSAT to boost it further or strengthening recent academics through post-bac courses or a master's program to improve those decile rankings. Gathering stronger letters of recommendation or relevant legal experience could also help reframe your story in a future application. With targeted improvements, you can shift this prediction and pursue your law goals effectively.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

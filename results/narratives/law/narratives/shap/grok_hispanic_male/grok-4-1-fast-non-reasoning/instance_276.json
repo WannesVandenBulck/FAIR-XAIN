@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 276,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:24.496619",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.10, LSAT score of 26, part-time enrollment plans, middle family income bracket, and school deciles of 2nd in Year 1 and 1st in Year 3 based on your grades. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 78% chance that you would fail it on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar promptly. This prediction hinges on just a few key aspects of your profile that stood out most strongly to the model. The biggest influence came from your Year 3 school decile ranking in the bottom 1st percentile compared to the typical student's middle-of-the-pack 5.53 average, which heavily pushed the model toward seeing you as higher risk for bar failure since stronger late-stage grades often signal better exam readiness. Your LSAT score of 26, well below the dataset average of 36.70, was the second strongest factor pulling in the same direction, as lower scores like yours frequently correlate with bar struggles in the model's view of past students. On a more positive note, your undergraduate GPA of 2.10, though below the 3.21 average, actually worked in your favor here, nudging the prediction slightly toward bar passage success compared to even weaker GPAs. Your part-time status, chosen by only 7.3% of students versus the full-time norm, and middle income played smaller roles overall. Compared to typical admitted students, who often have higher deciles, LSATs around 37, and full-time plans, your profile aligns more with those who faced bar challenges, tipping the scales against you. This isn't a judgment on your potential as a Hispanic man with clear drive—it's the model weighing patterns from real bar outcomes. To move forward, focus on retaking the LSAT to boost it toward 35 or higher, strengthening your recent grades to climb those school deciles, and consider full-time study if feasible, then reapply with those improvements to shift your predicted odds dramatically. Many students in similar situations have succeeded by targeting these areas, and you can too.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

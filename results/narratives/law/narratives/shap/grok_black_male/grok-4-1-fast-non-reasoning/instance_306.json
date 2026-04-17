@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 306,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:50:10.273327",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 69% chance that you would not pass the bar on your first attempt. This high predicted risk of failure directly led to the rejection, as the school prioritizes admitting students with stronger projected outcomes. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your peers—far below the typical student's middle-of-the-pack standing around the fifth or sixth decile—and this stood out as the strongest factor pushing the prediction toward failure. Your LSAT score of 35, while respectable, fell short of the average 36.7 seen in successful applicants, making it the second-most influential element by nudging the odds slightly away from passing. Similarly, your undergraduate GPA of 2.7 trailed the dataset average of 3.21, reinforcing concerns about your academic trajectory in a notable but less dominant way. As a Black male from a middle-income family planning full-time studies—a common path for over 90% of students—these academic metrics overshadowed other typical profiles that align more closely with bar passers. In comparison, students who succeed often show consistently higher decile rankings throughout school, paired with LSATs and GPAs above these benchmarks, which helps tip predictions favorably. Your Year 1 decile of 4 was somewhat closer to average, but it couldn't offset the sharper drop-off later on. While family income and full-time status played minor roles here, the model zeroed in on these core academic signals as the key drivers. This isn't a judgment on your potential or resilience—many in similar circumstances have overcome early hurdles. To move forward, consider retaking the LSAT to boost your score, strengthening your upper-year performance through targeted tutoring or additional coursework, and reapplying with bolstered credentials that better match successful profiles. With focused improvements, you can shift the odds in your favor for future opportunities.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

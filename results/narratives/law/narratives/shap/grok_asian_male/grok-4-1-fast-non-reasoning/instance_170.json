@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 170,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:50.776880",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.70 and LSAT score of 31. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on students' academic and background details, estimated a 73% chance that you would fail it—high enough to lead to the rejection of your application. This prediction hinges on how your achievements stack up against patterns seen in thousands of past students, where stronger early and later academic performance often signals bar success. The most influential factor pushing the model toward this failure prediction was your Year 3 school decile ranking of 3, well below the typical student's 5.53 average, suggesting your later grades placed you in the lower third of your peers and raised concerns about sustaining the performance needed for the bar. Next in importance was your LSAT score of 31, significantly lower than the dataset average of 36.70, which the model saw as a strong signal of potential struggles with the intense reasoning demands of law exams. Your undergraduate GPA of 2.70, also below the average of 3.21, added further weight toward the failure prediction, as it indicated a foundational academic record that didn't match those of students who typically pass. While these top three factors—your Year 3 deciles, LSAT, and undergrad GPA—overwhelmingly drove the decision by highlighting gaps compared to successful peers, other elements like your full-time status aligned with the norm for 93% of students. To move forward, consider retaking the LSAT to boost your score closer to or above the average, strengthening your later-year grades through targeted coursework or tutoring, and perhaps gaining practical experience like internships to build a more competitive profile. Reapplying after addressing these core areas could shift the model's view in your favor, as many students improve dramatically with focused effort. You're clearly motivated to pursue law, and with strategic steps, you can rewrite this prediction for yourself.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

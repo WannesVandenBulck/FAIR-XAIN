@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 306,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:19.109163",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 35, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 (4th decile) and Year 3 (1st decile). The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 69% chance that you would fail the bar exam—high enough to lead to the rejection of your application, as the school prioritizes applicants likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, which placed you in the bottom 10% of your peers that year—far below the typical 5th or 6th decile average—suggesting a significant dip in performance that strongly signaled risk to the model. Your LSAT score, while solid, worked slightly in your favor by nudging the prediction toward passing, as it was close to the average of 36.7 seen in successful students. Similarly, your undergraduate GPA offered some positive pull toward success, though at 2.70 it fell short of the 3.21 average for those who typically pass the bar. Compared to typical admitted students, your profile stands out for that sharp Year 3 decline, which overshadowed your other decent metrics and mirrored patterns in students who struggled on the bar. Family income and full-time status played lesser roles here, aligning with common profiles. This isn't a judgment on your potential as a Hispanic leader in law—many from similar backgrounds overcome early hurdles—but the model flagged this specific trajectory as a red flag. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted coursework or tutoring, and reapplying next cycle with a narrative highlighting your resilience and any upward trends. Building bar prep experience, like a targeted course, could also demonstrate readiness. You're capable of turning this around—focus on those key academic lifts, and doors will open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

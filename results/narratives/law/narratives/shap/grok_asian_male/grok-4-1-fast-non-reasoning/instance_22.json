@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:36.978485",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 2.40, an LSAT score of 25, Year 1 school decile ranking of 1st (well below the typical 6th decile average), and Year 3 decile of 4th (slightly under the average 6th decile), along with your upper-middle family income and plans to attend part-time while working. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 57% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as schools prioritize applicants likely to pass and graduate successfully. The most influential factor pushing toward this failure prediction was your LSAT score, which stands out as notably low compared to the average of 37, signaling to the model a weaker foundation in the analytical skills key to bar success. Next in importance, your Year 3 decile ranking helped pull the prediction toward passing, as your 4th-place standing was reasonably solid relative to peers and showed some academic recovery. Your Year 1 decile of 1st, however, contributed toward the failure side by highlighting an early struggle that averaged students don't face. Being in the rare part-time track (only 7% of students) and your upper-middle background played smaller roles overall. Compared to typical students who pass the bar, your profile shows room for growth, especially in standardized testing and early grades, where stronger performers cluster higher. This isn't a judgment on your potential as an Asian male with solid family support—many in similar demographics succeed with targeted improvements. To move forward, consider retaking the LSAT to boost it toward 35 or above, strengthening recent grades to climb deciles, and exploring full-time options if feasible. Building a narrative of upward momentum through additional test prep or post-bac courses could reshape how models like this view your bar readiness. Reach out to admissions advisors for feedback, and remember, one model's call doesn't define your path to law. With focused effort, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

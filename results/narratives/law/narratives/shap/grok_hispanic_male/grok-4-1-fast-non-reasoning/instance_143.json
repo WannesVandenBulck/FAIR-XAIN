@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 143,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:53.604995",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared strong aspects of your background, including a high family income bracket, a solid LSAT score of 38—which is above the typical 36.7 average—and plans to attend full-time, just like over 90% of students in the dataset. However, your undergraduate GPA sits at 2.90, below the average of 3.21, and your Year 1 school decile ranking is in the bottom 10th percentile, with your Year 3 ranking similarly low at the 1st decile compared to typical mid-range positions around the 5th or 6th. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 41.6% probability that you would fail the bar on your first attempt—high enough to trigger an automatic rejection of your application, as the school prioritizes candidates with stronger signals of passing. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking; being in the lowest group signaled to the model a notable risk of struggling on the bar, more so than any other element in your profile. Next in importance, your LSAT score worked strongly in your favor, pulling the prediction toward success because it exceeded what most students achieve and correlates with bar performance. Your high family income also helped, nudging the model toward expecting a pass by suggesting resources that often support better outcomes. Compared to typical students who pass, your low Year 3 ranking stands out as a bigger drag than average, while your LSAT gives you an edge many lack. This combination tipped the scales just enough for rejection, even with those positives. To move forward, consider retaking the LSAT if possible to boost it further or strengthening your academic record through a post-bac program or additional coursework to improve those decile rankings. Building bar-specific prep experience, like targeted tutoring, could also address the model's concerns directly. Many students in similar situations have succeeded by focusing on these areas and reapplying—your full-time commitment and background position you well for that effort. Keep pushing; law school doors reopen with targeted improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

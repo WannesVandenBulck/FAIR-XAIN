@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 158,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:40:52.344896",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.10 and plans to attend law school full-time, you've put significant effort into your application, including your LSAT score of 28 and coming from a lower-middle income family background. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 63% chance that you would fail it—above the threshold that led to your rejection. This prediction hinges on a few key aspects of your academic record that stood out as the strongest influences. Most importantly, your Year 3 school decile ranking of 2—well below the typical student's 5.5—pushed the model strongly toward predicting bar failure, as it signals challenges in sustaining higher performance later in your studies. Your undergraduate GPA, while close to the average of 3.21, worked in your favor by pulling the prediction somewhat toward success, showing you have the capability to perform solidly. Your Year 1 decile of 2, also lower than the average around 5.7, added further weight toward the failure prediction, reinforcing concerns about early academic momentum. Compared to typical students who pass the bar, your decile rankings are in the lower range, which amplified the model's caution despite your full-time commitment aligning with the vast majority of successful applicants. These top three factors—your Year 3 decile leading the way, followed by your GPA's positive offset and Year 1 decile—collectively tipped the scales against admission. It's understandable to feel disappointed, especially given the barriers many Black students like yourself face in competitive academic pipelines. To move forward, consider retaking the LSAT to boost your score toward the average of 36.7, seeking targeted tutoring to improve your decile rankings in any ongoing studies, and exploring programs that offer bar prep support for underrepresented applicants. Building a stronger narrative around your resilience and any upward trends in your record could also help in reapplying or appealing to schools with holistic reviews. With focused steps, you can shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 284,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:58.484275",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.40, an LSAT score of 29, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on patterns from thousands of past students, estimated your probability of failing at 51.3%—just over the tipping point that led to your application's rejection. This threshold reflects the school's cautious approach to ensuring incoming students are positioned for bar success, as failing it can impact careers in law. The most influential factor pushing the prediction toward failure was your Year 3 school decile ranking in the bottom 10%, well below the typical student's mid-range position around the 5th or 6th decile, signaling to the model a potential late-stage struggle in coursework that often correlates with bar challenges. Countering that strongly was your undergraduate GPA of 3.40, which is above the average of 3.21 and pulled the prediction meaningfully toward expecting you to pass, highlighting your solid college performance as a bright spot. Your Year 1 decile in the bottom 10%—again lower than the average around the 6th decile—had a moderate influence in the failure direction, suggesting an early academic hurdle that the model weighed but not as heavily as later performance. While your LSAT score of 29 is below the typical 37, and full-time status aligns with most applicants, these played smaller roles compared to your deciles and GPA. Overall, your profile shows strengths in prior GPA that many students lack, but the low deciles, especially in Year 3, stood out as bigger risks relative to peers who passed the bar. To move forward, consider retaking the LSAT to boost it closer to average, strengthening recent grades if possible through post-bac courses or explaining your decile context in a personal statement, and reapplying next cycle with updated credentials—many in similar situations have succeeded by addressing these key areas head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

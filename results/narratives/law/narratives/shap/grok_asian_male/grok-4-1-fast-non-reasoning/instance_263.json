@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 263,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:41.616445",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—and an impressive LSAT score of 46, well ahead of the usual 36.70, you've built a strong academic foundation that many peers would envy. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, which aligns with the vast majority of students at 92.7%. However, the university's admission model, trained on past students' data to predict first-time bar exam success, estimated a 60.5% chance that you would fail the bar exam, tipping the scales toward rejection to minimize risks for their program. This prediction wasn't driven by your standout test scores or GPA, but primarily by your school decile rankings from Years 1 and 3, both at 3—below the averages of about 5.7 and 5.5—indicating your class standing lagged behind most others. Among the key factors influencing this decision, your LSAT score stood out as the strongest positive force, strongly pushing the model toward predicting bar passage success rather than failure. In contrast, your Year 3 decile ranking was the top negative influence, significantly nudging the prediction toward failure by highlighting relatively weaker performance compared to classmates that year. Your Year 1 decile followed closely as another key drag, reinforcing concerns about consistent academic standing in a competitive law environment. While your profile shines in raw metrics like LSAT and GPA, these decile positions—essentially how you ranked among your school peers—carried more weight here, placing you below typical admitted students who often hit mid-to-upper deciles. This reflects how the model prioritizes sustained class performance as a bar exam predictor for applicants like you. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your decile rankings, gather stronger recommendation letters emphasizing your potential, or target schools with more holistic reviews that value your LSAT edge. With targeted improvements, your strengths could easily shift the odds in your favor next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

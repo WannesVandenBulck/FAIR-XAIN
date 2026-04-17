@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 203,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:37:57.112176",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and a competitive LSAT score of 36.50, nearly matching the dataset average of 36.70, you presented a profile with clear strengths when applying to this law school. Your family comes from an upper-middle income bracket, and you've indicated plans to attend full-time, which aligns with the vast majority of students at 92.7%. However, the admissions model, trained on data from thousands of past students' academic records, family backgrounds, and bar exam outcomes, predicted a 52.7% probability that you would fail the bar exam on your first try. This tipped the scales just over the threshold, leading to the rejection of your application, as the school prioritizes candidates predicted to pass and succeed in practice.\n\nThe model's decision hinged most strongly on your Year 3 school decile ranking of 2, which placed you in the lower part of your class compared to the average of 5.53; this was the biggest factor pushing the prediction toward failure, as weaker late-stage grades often signal challenges in mastering the rigorous material needed for the bar. Next in influence was your undergraduate GPA, which actually worked in your favor by pulling the prediction toward passing, thanks to its above-average strength that demonstrates foundational academic capability. Rounding out the top influences, your Year 1 decile of 3—below the average of 5.71—further nudged the outlook toward failure, highlighting an early pattern of underperformance relative to peers.\n\nIn comparison to typical students in the dataset, your early and later deciles stand out as notably lower, which outweighed your GPA and LSAT advantages in the model's eyes, even as an Asian male applicant where academic metrics like these carry significant weight. While your full-time status and family income didn't sway things much here, they fit the norm and didn't raise red flags. To move forward, focus on bolstering your academic deciles by excelling in advanced coursework or retaking challenging classes if possible, perhaps through a post-baccalaureate program or targeted tutoring to build a stronger upward trajectory. Consider reapplying after gaining real-world experience, like paralegal work, that showcases bar-relevant skills, and aim to push your overall profile into the top deciles to flip the prediction. With your existing GPA and LSAT as anchors, targeted improvements could make you a standout candidate next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

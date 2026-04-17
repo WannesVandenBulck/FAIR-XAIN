@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 392,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:41.017634",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, LSAT score of 36, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 62.5% chance that you would fail it on your first try—high enough that your application was rejected to minimize the risk of poor bar passage outcomes for the program. This prediction hinges on just a few key aspects of your profile that stood out as the strongest influences. Most critically, your Year 3 school decile of 3—meaning you ranked in the lower third of your classmates that year—pushed the model strongly toward expecting bar failure, as lower deciles often signal challenges in sustaining high performance. Similarly, your Year 1 decile of 2, also well below the typical student's mid-range ranking around the 5th or 6th decile, reinforced this concern by highlighting early academic struggles. On a brighter note, your LSAT score of 36, close to the average of 36.7, worked in your favor and pulled the prediction toward expecting success, showing your potential in standardized testing. Compared to typical students who pass the bar, your deciles are noticeably lower, while your LSAT holds up well, but those early and later rankings outweighed it here. Your full-time status, shared by over 90% of students, and upper-middle income didn't sway things much either way. This isn't a judgment on your character or background—many from similar Hispanic communities overcome these hurdles—but the model prioritizes patterns from past bar takers. To move forward, consider retaking courses or programs to boost your deciles, perhaps through a post-baccalaureate or targeted GPA improvement, and reapply once you've strengthened those areas. You could also seek mentorship from successful Hispanic lawyers who navigated similar paths. With focused effort on grades, your solid LSAT gives you a real shot at flipping this prediction next time. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

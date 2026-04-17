@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:23.757776",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.9% chance that you would not pass, tipping the scales against admission. This prediction drew heavily from your academic record, particularly your class rankings from earlier and later years in school, alongside your strong LSAT performance. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1, which placed you in the bottom tenth of your peers—a stark contrast to the top-half averages around the 6th decile seen among students who typically pass the bar. This low standing signaled to the model a potential struggle with sustaining high performance over time, overriding other positives in your profile. Next in influence was your LSAT score of 41, which actually worked strongly in your favor by pulling the prediction toward success, as it's well above the average of about 37 for bar passers and highlights your aptitude for legal reasoning. Rounding out the top factors, your Year 1 decile of 2 also nudged the prediction toward failure, again reflecting a lower starting rank compared to the mid-6th decile norm for successful students, suggesting early challenges that carried weight. While your undergraduate GPA of 2.4 falls below the 3.24 average for passers, and your middle family income aligns with over a third of them, these played lesser roles here. Being a full-time student matches the vast majority of bar passers, so that didn't sway things much either. Overall, your situation compares to accepted applicants by having a standout LSAT that many would envy, but your decile rankings lag behind the stronger academic trajectories that define most who succeed on the bar. This isn't a judgment on your potential—models like this focus on patterns from past students to minimize risks for everyone involved. To move forward, consider retaking courses or pursuing targeted academic improvement to boost your class rankings, perhaps through tutoring or additional undergrad-level work to lift that GPA. You might also explore post-baccalaureate programs designed for law school prep, or apply to schools with more holistic reviews that weigh your LSAT strength heavily. With your proven test-taking ability, building a more consistent academic story could shift future predictions in your favor. Keep pushing; many have turned similar profiles around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

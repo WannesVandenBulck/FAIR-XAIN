@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 384,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:59.306483",
+  "status": "success",
+  "narrative": "As a Black male applicant with a strong undergraduate GPA of 3.90—well above the typical 3.21 average—and a solid LSAT score of 37, you brought impressive academic credentials to your law school application, along with your upper-middle-class family background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 45.1%, tipping the scales toward rejection to prioritize candidates with lower predicted risks. The primary factor driving this decision was your Year 3 school decile ranking of 2nd, which is below the average 5.53 and strongly signaled to the model a higher chance of bar exam struggles, outweighing your other strengths. Your outstanding undergraduate GPA played a significant counterbalancing role, pushing the prediction toward success and showing how your college performance stands out positively compared to peers. Your family income bracket also helped in a similar way, nudging the model toward viewing you as more likely to pass by reflecting stable support that many applicants benefit from. While your Year 1 decile was a perfect 10th—far exceeding the average of 5.71—and your LSAT was right around the norm, it was the dip in later-year performance that carried the most weight in the model's eyes. This pattern suggests the model prioritizes consistent high school rankings, especially later on, as the strongest indicator of bar exam outcomes for students in situations like yours. Compared to typical applicants who pass, your profile aligns well in GPA and test scores but falls short in that key later decile, which often separates successes from those who face first-try failures. It's understandable to feel frustrated, especially given your personal achievements as a Black man navigating these paths, but this prediction highlights where targeted improvements could shift future outcomes. To move forward, consider retaking courses or programs to boost your later-year deciles, perhaps through community college refreshers or targeted test prep that emphasizes endurance for exams like the bar. You might also seek letters from professors who can contextualize your Year 3 dip, or apply to schools with holistic reviews that weigh your full story more deeply. With your GPA as a foundation, refining those high school metrics could make a real difference next time—keep pushing, as many in similar positions turn predictions around through persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

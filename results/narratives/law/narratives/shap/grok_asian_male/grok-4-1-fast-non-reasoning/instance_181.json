@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 181,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:32.984130",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.20—right in line with the typical student's 3.21—and an LSAT score of 35, you brought a strong academic foundation to your law school application, along with your upper-middle-class family background and plans to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 41.9%, tipping the scales toward rejection to prioritize students with lower predicted risks. This prediction stemmed from a careful weighing of your profile against patterns seen in thousands of past students, focusing on key indicators of bar success. The most influential factor in your case was actually your LSAT score, which worked strongly in your favor by signaling a solid potential for passing the bar, much like it does for many high-achieving applicants. Your undergraduate GPA came in second as a positive influence, reinforcing the model's confidence in your academic stamina since it matches the average closely. Yet, your position in the third-year decile at school—ranking in the third decile, below the typical fifth—emerged as the third-most important factor and the only one pushing against you, suggesting to the model a potential dip in sustained performance that correlates with higher bar failure rates in similar students. Compared to typical applicants, where year-three rankings average higher, this relative dip stood out as a red flag despite your other strengths. While your full-time status and family income aligned with the norm and didn't sway the decision much, they couldn't offset that key concern. The model saw your overall profile as riskier than the average student it approves, who tends to show steadier upward grade trajectories. To move forward, consider retaking the LSAT to boost it closer to or above the 36.7 average, strengthening your top asset even further. You might also reflect on what led to that third-year decile—perhaps targeted study habits or coursework choices could address it in future applications. Many students in your position improve outcomes by gathering letters of recommendation that highlight resilience or seeking feedback from pre-law advisors on bolstering late-stage academic records. With your existing strengths, targeted improvements could shift the model's view dramatically on your next try.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

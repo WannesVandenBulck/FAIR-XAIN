@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 222,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:00.781443",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong family background from an upper-middle-income household and your plan to attend full-time, along with your undergraduate GPA of 3.10 and LSAT score of 31. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 45.8% chance that you would fail it—high enough to trigger a rejection of your application. This prediction stemmed primarily from your academic performance in school, particularly your grades in later years. The most influential factor pushing toward a failure prediction was your position in the lowest decile for Year 3 grades, which is well below the typical student's middle-of-the-pack standing and signaled potential challenges in sustaining strong performance. Next, your undergraduate GPA played a key role but in a positive way, pulling the prediction toward success since your 3.10 is close to the average of 3.21 seen in students who typically pass the bar. Rounding out the top influences, your Year 1 grades also landed you in the lowest decile—lower than the average—adding some weight toward the failure risk, though less strongly than your later-year performance. Compared to typical students who get approved, your LSAT score of 31 falls notably short of the average 36.7, which likely amplified concerns overall, even if it wasn't the top driver here. While your full-time status aligns with the vast majority of successful applicants, these academic metrics dominated the model's view of your bar exam odds. This isn't a judgment on your potential as a lawyer or your Hispanic heritage—it's just the model highlighting patterns from past students. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters of recommendation that speak to your resilience and growth. Reapplying after addressing these could shift the prediction in your favor, opening doors to law school. You're clearly driven, and with targeted improvements, you can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

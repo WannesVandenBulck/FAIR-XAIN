@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 51,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:28:21.004481",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes an undergraduate GPA of 2.60, which is below the typical 3.21 average, an LSAT score of 24—well under the usual 36.70 mark—and rankings in the lowest decile for both your first-year and third-year school grades, compared to average deciles around 5.5-5.7. Your family falls into the middle income bracket, and you plan to attend full-time, which is the norm for over 90% of students in the dataset. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 96% chance that you would fail the bar exam, leading directly to the rejection of your application since the school prioritizes applicants likely to pass on their first try. The three biggest factors pushing this prediction toward failure were, first and foremost, your third-year grade decile being in the bottom tier, which strongly signaled to the model a higher risk of bar struggles compared to peers with mid-range rankings. Second, your LSAT score had a notable negative pull, as its low value deviated sharply from what typically supports passing the bar. Third, your first-year decile in the lowest group added further weight toward the failure prediction, reinforcing concerns about consistent academic performance. These elements stood out as the most influential because they represent core indicators of bar readiness in the model's view of historical student outcomes. While your full-time status and middle-income background were neutral or typical, they couldn't offset the drag from your grades and test score. In contrast to average applicants who pass, your metrics across these key areas fell short, placing you in a riskier category. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking targeted academic advising to improve your standing before reapplying. Many students in similar situations have succeeded by addressing these gaps head-on, so persistence with focused improvements could change your trajectory next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

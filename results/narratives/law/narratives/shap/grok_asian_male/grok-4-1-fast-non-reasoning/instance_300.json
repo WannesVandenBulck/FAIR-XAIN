@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 300,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:54.139474",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.80, LSAT score of 25.50, Year 1 school decile of 5, Year 3 decile of 3, upper-middle family income, and plan to attend full-time—and predicted a 54% chance that you would fail the bar exam on your first attempt. This probability tipped just over the threshold, leading to the rejection of your application as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing toward this failure prediction was your LSAT score, which is notably lower than the typical applicant's average of around 37, signaling to the model a weaker foundation in the skills needed for bar success. Next in importance, your undergraduate GPA of 2.80 worked in your favor compared to the average of 3.21, pulling the prediction somewhat toward passing by showing solid college performance. Your Year 3 school decile of 3, however, also nudged the prediction toward failure, as it reflects grades below the typical mid-range standing of about 5.5 among past students. While your upper-middle income and full-time status align with most applicants and didn't sway things much, these top three academic markers dominated the decision. Compared to typical students who pass, your LSAT stands out as the biggest gap, often a key hurdle for applicants from similar backgrounds. This isn't a judgment on your potential as an Asian male pursuing law—many with comparable profiles improve with targeted effort. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your transcript in advanced years, and gathering stronger recommendation letters highlighting your resilience. Reapplying after addressing these could shift your predicted odds significantly, opening doors at this or other programs. You're clearly driven; channeling that into these steps will make a real difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

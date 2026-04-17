@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 371,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:14.213215",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application stood out in some ways, like your solid undergraduate GPA of 3.50—which is above the typical 3.21 average—and a strong LSAT score of 41, higher than the usual 36.70. You're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated a 75.2% probability that you would fail it, leading directly to the rejection of your application. This prediction hinges on a few key factors from your academic record that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 1, which is well below the average of about 5.5 and signaled to the model a notable dip in performance relative to peers. Next in importance was your Year 1 decile of 2—again, lower than the typical 5.7—which reinforced concerns about early academic struggles compared to other students. Your LSAT score worked in your favor, pulling the prediction toward success and offsetting some of those concerns, much like it does for high performers in the dataset. Overall, these early and later grade deciles stood out as the top drivers because they deviated more sharply from what the model sees in students who typically pass the bar, outweighing your strengths in test scores and GPA. While your background as a Black male wasn't a direct factor highlighted here, the model focuses purely on these performance indicators drawn from past bar-takers. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted tutoring or a post-baccalaureate option, and reapply once you've strengthened those areas—many students in similar positions have turned things around. Your LSAT and GPA give you a solid foundation to build on, so persistence could shift the odds significantly next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

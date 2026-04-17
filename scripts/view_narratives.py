@@ -1,16 +1,43 @@
 """
-View generated narratives in a readable format.
+Generate and display narratives in a readable format.
 
-Usage:
-    python scripts/view_narratives.py --dataset credit --prompt-type shap --instances 67
-    python scripts/view_narratives.py --dataset credit --prompt-type cf --instances 67 --save narratives.txt
-    python scripts/view_narratives.py --dataset saudi --prompt-type shap --all-instances --save all_narratives.txt
-    python scripts/view_narratives.py --list  # Show all available narratives
+Quick generation mode: Edit the QUICK_GENERATE_CONFIG section below, set QUICK_GENERATE_ENABLED = True, and run:
+    python scripts/view_narratives.py
 """
 
 import json
-import argparse
+import sys
 from pathlib import Path
+from datetime import datetime
+
+# Add parent directory to path
+ROOT = Path(__file__).parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+# ============================================================================
+# QUICK GENERATE CONFIGURATION
+# ============================================================================
+# Edit these settings and run the script to quickly generate a single narrative
+
+QUICK_GENERATE_ENABLED = True  # Set to True to generate a narrative
+
+QUICK_GENERATE_CONFIG = {
+    "dataset": "law",                    # Dataset: "law", "credit", "student", "saudi"
+    "instance": 1,                       # Instance index to generate narrative for
+    "prompt_type": "shap",               # "shap" or "cf"
+    "provider": "grok",                  # LLM provider for generation: "openai", "grok", etc.
+    "model": "grok-4-1-fast-non-reasoning",  # Model name
+    "display": True,                     # Display narrative after generation
+    "save_to_file": "to_check_3",                # Save to file: None or path like "temp_narrative.txt"
+    # Optional bias injection settings (only used if model supports it)
+    "gender_override": "female",             # "male", "female", or None for no override
+    "race_override": "black",               # "white", "black", "hispanic", etc., or None
+}
+
+# ============================================================================
+# END CONFIGURATION
+# ============================================================================
 
 
 def load_narrative(dataset, instance, prompt_type, provider="openai", model=None):
@@ -34,57 +61,62 @@ def load_narrative(dataset, instance, prompt_type, provider="openai", model=None
         return json.load(f)
 
 
-def list_all_narratives():
-    """List all available narratives."""
-    results_dir = Path("results/narratives")
+def generate_narrative_quick(dataset, instance, prompt_type, provider, model, 
+                            gender_override=None, race_override=None):
+    """Quick generation of a single narrative using LLM."""
+    try:
+        from llm_tools.llm_client import generate_text
+        if prompt_type == "shap":
+            from llm_tools.prompts.prompt_law import build_shap_prompt
+        elif prompt_type == "cf":
+            from llm_tools.prompts.prompt_law import build_cf_prompt
+        else:
+            print(f"ERROR: Unknown prompt type: {prompt_type}")
+            return None
+    except ImportError as e:
+        print(f"ERROR: Could not import required modules: {e}")
+        return None
     
-    if not results_dir.exists():
-        print("No narratives found. Run make_narratives_new.py first.")
-        return
+    print(f"Generating narrative for {dataset} instance {instance} ({prompt_type})...")
     
-    narratives = []
-    for dataset_dir in results_dir.iterdir():
-        if not dataset_dir.is_dir():
-            continue
+    try:
+        # Build prompt
+        if prompt_type == "shap":
+            prompt = build_shap_prompt(instance, gender_override=gender_override, race_override=race_override)
+        else:  # cf
+            prompt = build_cf_prompt(instance)
         
-        narratives_dir = dataset_dir / "narratives"
-        if not narratives_dir.exists():
-            continue
+        # Generate narrative using generate_text function
+        messages = [{"role": "user", "content": prompt}]
+        narrative = generate_text(messages, provider=provider, model=model)
         
-        for prompt_type_dir in narratives_dir.iterdir():
-            if not prompt_type_dir.is_dir():
-                continue
-            
-            for provider_dir in prompt_type_dir.iterdir():
-                if not provider_dir.is_dir():
-                    continue
-                
-                for model_dir in provider_dir.iterdir():
-                    if not model_dir.is_dir():
-                        continue
-                    
-                    for json_file in model_dir.glob("instance_*.json"):
-                        with open(json_file, "r") as f:
-                            data = json.load(f)
-                        
-                        narratives.append({
-                            "Dataset": data["dataset"],
-                            "Instance": data["instance_idx"],
-                            "Type": data["prompt_type"],
-                            "Provider": data["provider"],
-                            "Model": data["model"],
-                            "Status": data["status"],
-                            "Length": len(data.get("narrative", "")) if data["status"] == "success" else 0
-                        })
+        # Save to JSON file structure
+        output_dir = Path(f"results/narratives/{dataset}/narratives/{prompt_type}/{provider}/{model}")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        
+        output_file = output_dir / f"instance_{instance}.json"
+        
+        data = {
+            "dataset": dataset,
+            "instance_idx": instance,
+            "prompt_type": prompt_type,
+            "provider": provider,
+            "model": model,
+            "status": "success",
+            "narrative": narrative,
+            "timestamp": datetime.now().isoformat(),
+            "error": None
+        }
+        
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        
+        print(f"✓ Saved to: {output_file}")
+        return data
     
-    if narratives:
-        print(f"\nFound {len(narratives)} narratives:\n")
-        print(f"{'Dataset':<12} {'Instance':<10} {'Type':<6} {'Provider':<12} {'Model':<20} {'Status':<10} {'Length':<8}")
-        print("-" * 90)
-        for n in narratives:
-            print(f"{n['Dataset']:<12} {n['Instance']:<10} {n['Type']:<6} {n['Provider']:<12} {n['Model']:<20} {n['Status']:<10} {n['Length']:<8}")
-    else:
-        print("No narratives found.")
+    except Exception as e:
+        print(f"ERROR: Failed to generate narrative: {e}")
+        return None
 
 
 def display_narrative(dataset, instance, prompt_type, provider="openai", model=None, save_to=None):
@@ -134,81 +166,58 @@ def display_narrative(dataset, instance, prompt_type, provider="openai", model=N
 
 
 def main():
-    parser = argparse.ArgumentParser(description="View generated narratives")
-    
-    parser.add_argument("--dataset", choices=["saudi", "credit", "law", "student"],
-                        help="Dataset name")
-    parser.add_argument("--prompt-type", choices=["shap", "cf"],
-                        help="Prompt type")
-    parser.add_argument("--instances", nargs="+", type=int,
-                        help="Instance indices to view")
-    parser.add_argument("--all-instances", action="store_true",
-                        help="View all instances for dataset/prompt-type")
-    parser.add_argument("--provider", default="openai",
-                        help="LLM provider (default: openai)")
-    parser.add_argument("--model", default=None,
-                        help="Model name (e.g., gpt-4o, grok-3-mini). If not specified, uses first available.")
-    parser.add_argument("--list", action="store_true",
-                        help="List all available narratives")
-    parser.add_argument("--save", type=str, default=None,
-                        help="Save narratives to text file (e.g., 'narratives_credit_67.txt')")
-    
-    args = parser.parse_args()
-    
-    # List all narratives
-    if args.list:
-        list_all_narratives()
+    """Main function - runs quick generation mode."""
+    if not QUICK_GENERATE_ENABLED:
+        print("Quick generation is disabled. Set QUICK_GENERATE_ENABLED = True in the script to generate narratives.")
         return
     
-    # Validate arguments
-    if not args.dataset or not args.prompt_type:
-        if not args.list:
-            parser.error("Must specify --dataset and --prompt-type, or use --list")
-            return
+    print("\n" + "="*80)
+    print("NARRATIVE GENERATION")
+    print("="*80)
+    print(f"Dataset: {QUICK_GENERATE_CONFIG['dataset']}")
+    print(f"Instance: {QUICK_GENERATE_CONFIG['instance']}")
+    print(f"Prompt Type: {QUICK_GENERATE_CONFIG['prompt_type']}")
+    print(f"Provider: {QUICK_GENERATE_CONFIG['provider']}")
+    print(f"Model: {QUICK_GENERATE_CONFIG['model']}")
+    print("="*80 + "\n")
     
-    # Get instances to view
-    if args.all_instances:
-        if args.model:
-            model_path = Path(f"results/narratives/{args.dataset}/narratives/{args.prompt_type}/{args.provider}/{args.model}")
-        else:
-            # Find first available model under provider
-            provider_path = Path(f"results/narratives/{args.dataset}/narratives/{args.prompt_type}/{args.provider}")
-            if provider_path.exists():
-                models = [d.name for d in provider_path.iterdir() if d.is_dir()]
-                if models:
-                    model_path = provider_path / models[0]
-                else:
-                    print(f"No models found for {args.dataset}/{args.prompt_type}/{args.provider}")
-                    return
-            else:
-                print(f"No narratives found for {args.dataset}/{args.prompt_type}/{args.provider}")
-                return
-        
-        if not model_path.exists():
-            print(f"No narratives found at {model_path}")
-            return
-        
-        instances = []
-        for json_file in sorted(model_path.glob("instance_*.json")):
-            instance_num = int(json_file.stem.split("_")[1])
-            instances.append(instance_num)
-    elif args.instances:
-        instances = args.instances
-    else:
-        parser.error("Must specify --instances or --all-instances")
+    # Generate narrative
+    data = generate_narrative_quick(
+        dataset=QUICK_GENERATE_CONFIG["dataset"],
+        instance=QUICK_GENERATE_CONFIG["instance"],
+        prompt_type=QUICK_GENERATE_CONFIG["prompt_type"],
+        provider=QUICK_GENERATE_CONFIG["provider"],
+        model=QUICK_GENERATE_CONFIG["model"],
+        gender_override=QUICK_GENERATE_CONFIG.get("gender_override"),
+        race_override=QUICK_GENERATE_CONFIG.get("race_override"),
+    )
+    
+    if data is None:
+        print("ERROR: Failed to generate narrative")
         return
     
-    # Create output file if saving
-    if args.save:
-        save_path = Path(args.save)
-        save_path.parent.mkdir(parents=True, exist_ok=True)
-        # Clear file if it exists
-        with open(save_path, "w", encoding="utf-8") as f:
-            f.write("")
+    # Display if requested
+    if QUICK_GENERATE_CONFIG["display"]:
+        display_narrative(
+            dataset=data["dataset"],
+            instance=data["instance_idx"],
+            prompt_type=data["prompt_type"],
+            provider=data["provider"],
+            model=data["model"],
+            save_to=QUICK_GENERATE_CONFIG.get("save_to_file")
+        )
+    elif QUICK_GENERATE_CONFIG.get("save_to_file"):
+        # Save without displaying
+        display_narrative(
+            dataset=data["dataset"],
+            instance=data["instance_idx"],
+            prompt_type=data["prompt_type"],
+            provider=data["provider"],
+            model=data["model"],
+            save_to=QUICK_GENERATE_CONFIG.get("save_to_file")
+        )
     
-    # Display narratives
-    for instance in instances:
-        display_narrative(args.dataset, instance, args.prompt_type, args.provider, args.model, save_to=args.save)
+    print("\n✓ Done!\n")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 217,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:44:34.237357",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—and a strong LSAT score of 38.50, which beats the dataset average of 36.70, you've shown real academic promise in your background. You're planning to attend full-time, just like the vast majority of students at 92.7%, and come from an upper-middle income family, which is a positive indicator in many cases. However, the university's admission model, trained on past students' data to predict first-time bar exam success, estimated a 64% chance that you would fail the bar exam. This high predicted risk of failure is why your application was rejected—the school uses this model to prioritize applicants likely to pass the bar on their first try and succeed in their program. The model's decision hinged most strongly on your Year 3 school decile ranking of 4th, which was the top factor pushing toward a failure prediction, as it signals a dip in performance relative to peers compared to the average 5.53 decile. Your LSAT score was the second-biggest influence, but in a positive way, pulling the prediction toward success and helping offset some concerns. Rounding out the top three was your Year 1 decile of 6th—slightly above the 5.71 average—which still nudged the outlook toward failure, though less forcefully than your later performance. Overall, while your early grades and test scores stood out favorably against typical students, the model weighed your Year 3 ranking as the dominant signal of potential bar struggles, tipping the balance despite your strengths. This doesn't reflect your full potential or efforts, especially given the unique challenges many Black male students like yourself face in competitive academic tracks. To move forward, consider retaking courses or programs to boost your later-year decile rankings, as that's the clearest lever here, and perhaps seek targeted bar prep resources tailored to high-achievers with similar profiles. You could also apply to schools with more holistic reviews or reapply after building even stronger evidence of sustained performance. Your UGPA and LSAT already set you apart—focusing on consistency could flip this prediction next time. Keep pushing; many in your position have turned similar setbacks into bar-passing success stories.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

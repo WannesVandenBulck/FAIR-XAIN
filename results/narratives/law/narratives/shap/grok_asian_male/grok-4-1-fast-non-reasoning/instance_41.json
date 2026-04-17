@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:47.220092",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a strong undergraduate GPA of 3.90—well above the typical 3.21 average—your law school application stood out in several ways, including your full-time study plans and low family income background, which often reflect determination and focus. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 46% probability that you would fail the bar on your first attempt, tipping the decision toward rejection to prioritize applicants with lower predicted risks. This prediction wasn't driven by your impressive college grades, which actually worked strongly in your favor by signaling the academic strength needed to pass the bar. Instead, your relatively low standing in Year 3 school decile—ranking in the bottom 10% compared to the average mid-level position—emerged as the most influential factor pushing the model toward forecasting failure, as it suggested potential challenges in sustaining performance through law school coursework. Your family income level, while low and below average, provided a modest counterbalance, nudging the prediction slightly toward success since students from similar backgrounds have sometimes overcome odds to pass. Overall, these elements combined to outweigh your undergraduate strengths, placing your profile among those the model sees as higher-risk compared to typical admitted students who balance stronger high school deciles with solid test scores. Your LSAT score of 26.5, notably below the 36.7 average, likely played a supporting role in this assessment, though it wasn't the top driver here. While disappointing, this rejection highlights areas like later-year grades where targeted improvement could shift future outcomes. To move forward, consider retaking the LSAT to boost your score closer to average, seeking academic advising to strengthen your school performance trajectory, and gathering letters of recommendation that emphasize your resilience as an Asian male from a low-income background. Exploring post-baccalaureate programs or community college bridges could also rebuild your decile standing. Many students in similar situations reapply successfully after addressing these gaps—your high UGPA gives you a solid foundation to build on. With persistence, you can reshape how models like this one view your potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

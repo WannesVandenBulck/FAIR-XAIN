@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 361,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:47.243102",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes full-time student status, a family from the lower-middle income bracket, an undergraduate GPA of 2.40—which is below the typical 3.21 average—and an LSAT score of 34, lower than the usual 36.7. The admissions model evaluated your profile to predict your chances of passing the bar exam on the first try, estimating a 68.4% probability that you would fail. This high risk of failure is why your application was rejected, as the school uses this prediction to prioritize applicants likely to succeed on the bar. The model's decision hinged most on your performance in later undergraduate years, specifically your Year 3 grades placing you in the bottom decile of your school—far below the average fifth decile—which strongly pushed the prediction toward expecting bar failure. Your Year 1 grades, also in the bottom decile compared to the typical mid-range, reinforced this concern as the third-most influential factor. On a more positive note, your LSAT score was the second-biggest influence, pulling the prediction somewhat toward success despite being below average, showing it helped offset other weaknesses. Compared to typical students who pass the bar, your early and late undergrad deciles stand out as unusually low, signaling potential challenges in sustaining strong academic performance, which the model sees as critical for bar success. While your full-time status aligns with most applicants and your family background is common, these grades tipped the scales against you. This doesn't define your potential, especially as a determined Hispanic student navigating these circumstances. To move forward, consider retaking the LSAT to boost your score further, strengthening your undergrad record through additional coursework or a post-bac program, and targeting schools with holistic reviews that value your unique background. Gathering strong letters of recommendation highlighting your resilience could also help reframe your story in future applications. With targeted improvements, you can shift this prediction in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

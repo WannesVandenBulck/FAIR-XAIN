@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:00:50.132497",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 44.5% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.40, LSAT score of 30.50, Year 1 and Year 3 grade deciles both at 2, and your middle family income bracket, among other details like your full-time study plans. While your undergraduate GPA stands out positively compared to the average of 3.24 among students who passed the bar, it was the strongest factor pulling the prediction toward success, helping to offset other concerns. In contrast, your Year 3 grade decile of 2 was the most influential factor pushing toward a failure prediction, as it signals performance well below the typical decile of about 6 for those who passed. Your Year 1 decile of 2 also contributed in that direction, though with less force, placing you similarly low relative to successful students' average of around 6. These early and later undergraduate deciles carried more weight in the model's eyes than your LSAT or family background, which fell within common ranges for passers—like middle income seen in over a third of them, or full-time status in over 90%. Overall, your profile showed strengths in prior GPA but was held back by consistently lower class rankings that echoed patterns in students who struggled on the bar. Compared to typical admitted students, who tend to have higher deciles and LSATs closer to 37, your metrics aligned more with those predicted to face challenges. This isn't a judgment on your potential or background—it's a data-driven estimate to help the school maintain strong bar passage rates. To move forward, consider retaking the LSAT to boost your score toward the 37 average, seeking ways to improve your class standing through targeted study habits or additional coursework, and gathering strong letters of recommendation that highlight your undergraduate GPA strength. You might also explore post-baccalaureate programs or other law schools with more flexible criteria while building a standout personal statement around your resilience. With focused improvements, you can reshape this prediction and strengthen your next application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

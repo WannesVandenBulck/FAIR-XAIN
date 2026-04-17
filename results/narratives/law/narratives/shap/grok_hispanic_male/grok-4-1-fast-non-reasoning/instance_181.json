@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 181,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:18.729850",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic record show a mix of strengths and areas where the admissions model saw potential challenges in predicting your success on the bar exam. Your undergraduate GPA of 3.20 is right around the typical 3.21 average for students in the dataset, your LSAT score of 35 is slightly below the average of 36.70, and your Year 3 school decile ranking of 3 is lower than the average of 5.53, while your upper-middle family income aligns well with many applicants. The model, which looks at patterns from past students to forecast bar exam outcomes, calculated a 41.9% probability that you would fail on your first try—high enough that it tipped the decision to reject your application, as the school prioritizes those predicted to pass with confidence. Among all the factors considered, your LSAT score had the strongest influence, working strongly in your favor by pushing the prediction toward passing the bar, much like it does for many successful students. Your undergraduate GPA came in second as a positive force, helping to offset concerns by signaling solid prior performance comparable to peers who passed. However, your Year 3 decile ranking pulled most significantly in the opposite direction, raising a red flag because lower rankings like yours have historically correlated with higher bar failure rates compared to the typical student's stronger standing. Full-time enrollment plans and your family background played smaller roles overall. This combination meant the model saw more risk than reward for you relative to applicants whose profiles predict easier bar success. While disappointing, this isn't a judgment on your potential as a Hispanic leader in law—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost that key score above average, strengthening your Year 3 performance through targeted academics or extracurriculars, and reapplying with updated credentials that align closer to top passers. Schools value persistence, and gathering stronger references or bar prep experience could reshape your story for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

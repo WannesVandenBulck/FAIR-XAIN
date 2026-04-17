@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 372,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:41.763877",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 63.5% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed strongly. The primary reason for this decision centered on your academic performance in later undergraduate years, particularly your Year 3 grades placing you in the bottom decile of your school—far below the typical middle-range standing of most students. This stood out as the strongest factor pushing the prediction toward failure, signaling to the model a potential struggle with the rigorous demands ahead. Your Year 1 grades, also in a low decile compared to averages, reinforced this concern as the second-most influential factor, suggesting an early pattern that worried the model. On a more positive note, your LSAT score of 36 was a key strength, nearly matching the dataset average of 36.7 and pulling the prediction somewhat toward success, showing your aptitude for legal reasoning. Other details, like your middle family income bracket and full-time student status—which aligns with over 90% of applicants—played lesser roles and didn't shift the balance enough. Overall, your profile compares to typical students by having a solid LSAT but grades that lag significantly behind the average undergraduate GPA of 3.21 and expected decile rankings around the middle of the pack. This combination made the model view your bar exam odds as riskier than most. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your GPA and decile rankings, as these have proven pivotal for similar applicants. Targeted LSAT prep could further solidify that strength, and gathering strong recommendation letters highlighting your resilience as an Asian male navigating competitive academics might help in reapplying. With focused improvements, you can reshape how models like this see your potential next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

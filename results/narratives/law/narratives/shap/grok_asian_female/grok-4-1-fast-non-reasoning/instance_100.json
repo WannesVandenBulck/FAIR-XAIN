@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:37.874618",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—high enough to trigger a rejection to protect the school's outcomes. This prediction draws from your academic record, test scores, and background details like your middle-class family income and plans to attend full-time. The three biggest factors shaping this decision were your family income level, your third-year grade decile in school, and your LSAT score, in that order of influence.\n\nInterestingly, your middle family income actually worked in your favor, nudging the model toward predicting you'd pass, as it's a common background among successful bar takers—about a third of those who passed came from similar circumstances. However, your position in the second decile for third-year grades pushed strongly against you, signaling to the model a performance level below the typical fifth-decile average among students who passed, raising concerns about your readiness for the bar's demands. Similarly, your LSAT score of 25 had a notable negative pull, falling well short of the 37 average seen in passers, which amplified doubts about your foundational skills.\n\nCompared to admitted students, who often boast undergraduate GPAs around 3.24 and stronger early deciles like the sixth for first-year grades, your profile— including a 2.4 undergrad GPA and second-decile marks—stands out as riskier, tipping the scales toward failure in the model's eyes. Full-time status aligns well with most passers, who are 93% in that category, so it didn't hurt you here. To move forward, consider retaking the LSAT to boost that score significantly, strengthening your grades in any ongoing studies to climb those deciles, and gathering letters highlighting your resilience from a middle-income background that positions you for success. With targeted improvements, you could reapply stronger, as many students turn predictions like this around through focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:18.033833",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.10 and an LSAT score of 37—both right around or slightly above typical levels for students in this dataset—your profile shows strengths in several areas, including coming from a high family income bracket and planning to attend full-time. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 48%, tipping the scales just enough to result in a rejection of your law school application. This prediction hinges on a few key factors from your academic record that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the average of about 5.5, signaling to the model a dip in performance relative to peers that often correlates with bar exam struggles. Counterbalancing that, your undergraduate GPA had the strongest positive pull, nudging the prediction toward success because it's competitive and close to the typical 3.21 average. Your LSAT score provided the next most significant boost in the same direction, as its solid performance above the 36.7 average suggested good potential for legal reasoning under pressure. Overall, while your later-year grades were the top concern dragging the odds down compared to most applicants, your earlier academic metrics kept the failure probability from being overwhelmingly high. Many typical students who get approved have consistently higher decile rankings across years, placing them in the middle or top of their classes without such a noticeable drop-off. This close call means your application was strong in foundational metrics but flagged by that Year 3 performance in a way the model weighs heavily for bar passage risk. To move forward, consider retaking courses or seeking targeted tutoring to boost your upper-year deciles, perhaps through summer programs or academic coaching tailored for Black students aiming for law. You could also retake the LSAT to push that score even higher or gather strong letters highlighting your resilience and family support. With focused improvements on those later rankings, reapplying next cycle could flip this prediction in your favor—many students in similar situations have turned it around. Keep pursuing your goal; your background and drive position you well for success with a bit more polish.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

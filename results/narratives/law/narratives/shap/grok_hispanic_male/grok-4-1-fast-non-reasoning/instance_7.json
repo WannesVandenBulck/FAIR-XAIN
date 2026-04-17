@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:22.903070",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, LSAT score of 30, middle family income bracket, full-time student status, and school deciles of 3rd in both Year 1 and Year 3 based on your grades. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 41.6% chance that you would fail it on your first try—high enough that it tipped the decision against admitting you, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction wasn't random; it zeroed in on a few key aspects of your profile that carried the most weight. Your undergraduate GPA stood out as the strongest positive factor, suggesting it helped pull the odds in your favor toward passing the bar, performing right around the typical student's level of 3.21. Similarly, your middle family income bracket nudged things positively too, aligning with patterns where students from similar backgrounds often fare well. However, your Year 3 school decile of 3—below the average of about 5.5—emerged as the top concern, pushing the prediction more toward failure risk compared to peers who ranked higher in their classes. These three elements—your GPA helping, income helping, but Year 3 decile hurting—dominated the model's thinking for you specifically. While your LSAT of 30 is below the group average of 36.7 and your lower deciles signal room for academic growth, it's not all bleak; full-time status matches what 93% of students have, keeping you in the mainstream there. Compared to typical admitted students, your profile shows solid but not standout academics, especially with that Year 3 dip standing out against stronger performers. To turn this around, focus on retaking the LSAT to boost it toward or above 37, strengthen your recent grades to climb those school deciles, and gather strong recommendation letters highlighting your resilience as a Hispanic male pursuing law. Consider community college or targeted prep courses to build a sharper academic record, then reapply—many students in similar spots have succeeded by addressing these gaps head-on. Your determination can shift that 41.6% probability dramatically in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

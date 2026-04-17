@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 51,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:00:56.146183",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 96% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom tier and significantly pushed the prediction toward expecting a bar exam failure—far below the mid-to-upper deciles typical of students who passed. Next in influence was your LSAT score of 24, well under the average of about 37 for those who succeeded on the bar, further tilting the odds against passing in the model's view. Your Year 1 decile ranking, also at the lowest level compared to the much higher averages for passers, added to this concern by reinforcing a pattern of early underperformance. While factors like your middle family income bracket align with over a third of successful students and your choice to study full-time matches nearly all who passed, they weren't enough to offset the dominant weight of your grades and test score. In contrast, admitted students typically show stronger early and later academic deciles alongside higher LSATs, forming a profile the model associates with bar success. This isn't a judgment on your potential or background—it's a data-driven flag on these key predictors. To move forward, consider retaking the LSAT to boost your score toward the 37+ range seen in passers, and focus on improving your academic standing in any ongoing studies to climb those deciles. Building a stronger undergraduate record through additional coursework could also help if you reapply. Many students in similar situations have succeeded by targeting these areas and gaining practical experience, like internships, to round out their profile. With targeted improvements, you can shift the model's outlook in your favor for future applications.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

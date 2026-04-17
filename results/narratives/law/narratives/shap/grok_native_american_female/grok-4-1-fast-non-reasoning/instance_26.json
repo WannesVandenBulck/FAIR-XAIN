@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:24.868960",
+  "status": "success",
+  "narrative": "Your law school application was reviewed by an admissions model designed to predict the likelihood of passing the bar exam on the first try, based on factors like academic performance, test scores, and background details—without considering gender or race. For you, the model estimated a 53.1% chance of failing the bar exam, which crossed the threshold that led to your rejection, as the school prioritizes applicants predicted to succeed right away. The decision hinged most strongly on your Year 3 school decile ranking of 4th, which stood out as the top factor pushing the prediction toward failure—it's notably lower than the 6th decile average among those who passed, signaling to the model a potential struggle in later academic stages critical for bar prep. Next in influence was your upper-middle family income bracket, which unexpectedly nudged the prediction toward failure too, perhaps because the model associates it with patterns where similar students faced other hurdles despite that stability—though it's common among passers at 45%. Your LSAT score of 30 was the key counterbalance, the strongest factor pulling toward a passing prediction since it showed solid potential, even if below the 37 average for successful bar takers. Compared to typical accepted students—who often have higher decile rankings around Year 3, stronger LSATs, and a mix of income backgrounds—your profile aligned more closely with those the model sees as higher-risk for first-try failure. Your undergraduate GPA of 3.0 and full-time study plans were in line with many passers, but couldn't outweigh the top concerns. This isn't a judgment on your capabilities or background as a Native American woman pursuing law full-time; it's the model's data-driven read on bar success patterns. To move forward, consider retaking the LSAT to boost that positive influence, strengthening your later-year grades if possible through additional coursework, and gathering letters highlighting your resilience and prep strategies. Many students in similar spots improve these areas and succeed on appeals or re-applications—reach out to admissions for feedback and target schools with holistic reviews. With targeted steps, you can shift your profile toward the stronger predictors of bar passage.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

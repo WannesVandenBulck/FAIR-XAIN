@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:52.916766",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid profile with your undergraduate GPA of 2.60, LSAT score of 40—which is above the typical 36.70 average—decent Year 1 and Year 3 school deciles both at 7, and an upper-middle family income background, along with planning to attend full-time like most applicants. The admissions model, which predicts the chances of passing the bar exam on the first try, estimated your probability of failing at 72%, a high enough risk that it led to your application's rejection to protect the school's bar passage rates. This prediction isn't a judgment on your potential or background, but a data-driven assessment based on patterns from thousands of past students. The most influential factor pushing toward this failure prediction was your undergraduate GPA, which is below the average of 3.21 and stood out as the strongest signal suggesting challenges ahead on the bar exam. Next in importance was your family income bracket; while upper-middle is a positive indicator for many, in this case it contributed toward the failure prediction, possibly reflecting how students from similar backgrounds have fared in past data. Your Year 1 school decile of 7, though above the average of 5.71, also nudged the prediction slightly toward failure rather than overriding the other concerns. Positively, your stronger-than-average LSAT and full-time status helped pull in the opposite direction, but they weren't enough to counterbalance the top concerns. Compared to typical students who get approved, your profile aligns well on LSAT and deciles but falls short on GPA, where successful applicants often exceed 3.0 to show sustained academic strength. This isn't about your ethnicity or gender—those weren't key drivers here—but about how these academic markers stack up against historical bar success patterns. To move forward, consider retaking undergrad-level courses or a post-bac program to boost your GPA, as even small improvements there could shift future predictions dramatically. You might also seek targeted LSAT prep or bar prep simulations to build evidence of readiness, and reapply after demonstrating upward trends in grades. Many students in similar situations have succeeded by addressing GPA head-on, so view this as a clear roadmap rather than a dead end. With your above-average LSAT as a foundation, you're already ahead in one key area—keep building on that.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

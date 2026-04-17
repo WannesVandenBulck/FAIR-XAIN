@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 65,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:56.039868",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 24, lower-middle family income, full-time student status, and school deciles of 1st in Year 1 and 3rd in Year 3, reflecting a mixed academic path with early challenges that improved somewhat later. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 48% chance you'll fail the bar—high enough that it tipped the decision toward rejecting your application to prioritize spots for those predicted to pass more reliably. The three biggest factors driving this prediction were your LSAT score, undergraduate GPA, and family income background. Most critically, your LSAT score stood out as the strongest push toward the failure prediction, as it's well below the typical 36.7 average seen in students who pass, signaling to the model a key hurdle in legal reasoning skills needed for the bar. On a more positive note, your undergraduate GPA pulled strongly in the opposite direction toward passing, even though your 2.60 is under the 3.21 average, because it showed enough promise to offset some concerns. Similarly, your lower-middle family income worked in your favor compared to higher brackets that sometimes correlate with bar struggles in the data, nudging the prediction toward success. While your full-time status aligns with most admitted students and your later decile improvement is encouraging, these didn't outweigh the dominant LSAT influence in the model's eyes. This close 48% call means you're right on the edge—many students with similar profiles have succeeded by targeting weak spots. To move forward, focus on retaking the LSAT to boost it closer to average, as that's the top lever here; consider GPA-boosting post-bac courses or targeted bar prep programs proven for Hispanic students facing similar barriers. Building a stronger narrative around your resilience from early deciles could also help in reapplying or appealing. With targeted effort, you can shift that probability and open doors—many in your position have turned it around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

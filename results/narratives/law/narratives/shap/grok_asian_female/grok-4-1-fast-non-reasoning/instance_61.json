@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:07.014668",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 60% chance that you would not pass. This threshold triggered the rejection to help the university maintain high bar passage rates among its graduates. The model's decision hinged most strongly on your Year 3 grade decile, which ranked quite low at 1 compared to the average of about 6 for students who passed the bar— this was the biggest factor pushing the prediction toward failure, as it signals potential challenges in sustaining strong performance later in your studies. Next in influence was your LSAT score of 36, slightly below the 37.27 average for bar passers, but this actually worked in your favor by nudging the prediction toward success. Your Year 1 grade decile of 2, also well below the typical 6 for successful students, added further weight toward the failure prediction, though less than your later performance. While your middle family income aligns with over a third of bar passers and your choice to study full-time matches nearly all of them, these didn't outweigh the academic concerns. Compared to admitted students, who generally show higher deciles early and late in school along with stronger test scores and GPAs—like the average 3.24 undergrad GPA versus your 2.80—your profile fell short in the key areas the model prioritizes for bar success. This isn't a judgment on your potential or background, but a data-driven flag on patterns linked to first-time bar outcomes. To move forward, focus on boosting your academic standing—perhaps retake the LSAT to aim above 37 or strengthen your GPA through additional coursework or post-bac programs. Many students in similar positions improve by targeting targeted tutoring in weak subjects or gaining relevant legal experience. Consider reapplying after addressing these gaps, as models like this update with new evidence of growth. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

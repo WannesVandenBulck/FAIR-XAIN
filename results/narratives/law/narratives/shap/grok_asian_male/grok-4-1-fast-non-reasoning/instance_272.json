@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 272,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:16.031595",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated an 82% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's bar passage rates. This decision hinged primarily on your academic performance in school, particularly your grades in later years, which stood out as the strongest factor pushing the prediction toward failure. Specifically, your Year 3 grades placed you in the bottom decile of your school—much lower than the typical student's middle-of-the-pack standing—which signaled to the model a significant risk of struggling with the bar's demands. Your Year 1 grades, also in a low decile compared to averages, reinforced this concern as the third-most influential factor, suggesting early academic challenges that carried forward. On a brighter note, your LSAT score of 37 was a key positive influence, slightly above the average of 36.7, and it pulled the prediction somewhat toward success, showing your potential in standardized testing. Other aspects, like your high family income bracket and full-time student status (common among 93% of applicants), played lesser roles and didn't outweigh the academic red flags. Compared to typical students who pass the bar, your undergraduate GPA of 2.9 falls below the average 3.21, aligning with patterns the model associates with higher failure risk. While your profile shows strengths like a solid LSAT, the model weighed your consistently low school deciles as the dominant signals of bar exam vulnerability. This isn't a judgment on your character or effort—many strong candidates face similar hurdles—but a data-driven call to address these gaps. To move forward, consider retaking courses or programs to boost your school rankings, perhaps targeting a higher undergraduate GPA equivalent through post-bac work, and reapplying after building a stronger academic track record. With targeted improvements, especially in coursework performance, you could shift future predictions in your favor and pursue your legal ambitions successfully.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

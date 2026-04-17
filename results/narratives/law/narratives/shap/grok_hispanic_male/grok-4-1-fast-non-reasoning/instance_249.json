@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 249,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:44.089641",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 26, and your strong intention to pursue full-time studies, along with your lower-middle family income background. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 73.8% chance that you would fail the bar exam. This high predicted risk led to the rejection of your application, as the school prioritizes candidates likely to pass on their first try. The model's decision hinged most heavily on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers—far below the typical student's middle-of-the-pack average—and strongly signaled a higher bar failure risk. Your LSAT score of 26, notably lower than the dataset average of about 37, was the second-biggest factor pushing the prediction toward failure, as lower scores like yours have historically correlated with tougher bar outcomes. On a more positive note, your undergraduate GPA of 2.90, while below the average of 3.21, actually worked in your favor compared to what the model expected, nudging the odds slightly toward passing. These top three elements—your later-year grades, LSAT performance, and undergrad record—overrode other details like your full-time commitment or family background in shaping this outcome. Compared to typical admitted students, who often enter with stronger mid-decile high school rankings and LSATs in the mid-30s range, your profile stood out as riskier despite your dedication. This doesn't reflect your full potential or personal story, but rather patterns from thousands of past bar-takers. To move forward, consider retaking the LSAT to boost your score closer to average levels, strengthening your later academic deciles through additional coursework or a post-bac program, and reapplying next cycle with an updated profile. Many students in similar situations have succeeded by targeting these areas, and schools value persistence from determined applicants like you. Your path to law school is still very much open with focused improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

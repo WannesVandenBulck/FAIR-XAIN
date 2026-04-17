@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 97,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:55.136748",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 32, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the 1st decile—meaning your early grades placed you at the bottom of your class compared to peers. The admissions model, which predicts first-time bar exam success based on patterns from thousands of similar students, estimated a 68% chance you'll fail the bar exam. This high predicted risk is why your application was rejected, as the school prioritizes applicants likely to pass and succeed professionally. The model's decision hinged most on your Year 3 decile ranking, which strongly signaled a higher bar failure risk because it was much lower than the typical 5th or 6th decile for admitted students. Next in influence was your Year 1 decile, also in the bottom 1st percentile versus the average around the 6th, reinforcing concerns about consistent academic performance early on. Your upper-middle family income, while solid, actually nudged the prediction slightly toward bar passage success compared to lower-income peers, offering a small counterbalance but not enough to offset the academic flags. Overall, your profile stands out as riskier than typical applicants, whose stronger early deciles and higher LSATs (averaging 37) align with bar passers. These academic indicators outweighed positives like your full-time commitment, which is common among 93% of students and didn't sway the outcome much. It's understandable to feel discouraged, especially as a first-generation or underrepresented Hispanic applicant navigating these metrics. To move forward, consider retaking the LSAT to aim above 35, bolstering your GPA through a post-bac program or targeted courses, and applying to schools with holistic reviews that value your background. Building a narrative of resilience—perhaps through internships or mentorship from Hispanic lawyers—can strengthen future apps. Many in similar positions rebound by addressing these exact gaps, and with focused effort, you can shift your predicted trajectory. Keep pushing; your determination is a strength the model can't fully capture.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

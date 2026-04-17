@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:20.306546",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 40.3% chance that you would fail—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.50, LSAT score of 30, Year 1 and Year 3 decile rankings of 2 and 1 respectively, middle family income bracket, and full-time enrollment status. Among students who passed the bar, the average LSAT is much higher at 37.27, and typical Year 3 deciles reach 5.91, which highlights where your profile stands out. The three most influential factors in this decision were your undergraduate GPA, your Year 3 decile ranking, and your LSAT score. Your solid undergraduate GPA was the strongest positive force, strongly pushing the prediction toward expecting you to pass the bar, as it exceeds the 3.24 average among successful students. In contrast, your low Year 3 decile ranking had the biggest negative pull, significantly increasing the model's concern about bar failure since it places you below typical passers. Your LSAT score also leaned against you, moderately raising the failure risk compared to the higher scores common among those who succeed. While your middle income and full-time status align reasonably with admitted students—where full-time is the norm at 93% and middle income is common—they played smaller roles here. This combination tipped the scales toward rejection, even though your GPA showed real promise. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on improving your later-year performance to climb those decile rankings. Building a stronger narrative around your academic trajectory, perhaps through additional coursework or recommendations, could also help in reapplying. Many students in similar positions have succeeded by targeting these areas, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 251,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:52.430992",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 26, and your strong family background in the upper-middle income bracket, along with your plan to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 95.9% chance that you would fail it—far higher than what it sees in most applicants. This high predicted risk of failure is why your application was rejected; the school uses this model to prioritize students with the strongest chances of bar success. The three biggest factors pushing the prediction toward failure were your Year 3 school decile ranking, your LSAT score, and your Year 1 school decile ranking, in that order of influence. Your Year 3 decile of 1—well below the typical student's 5.5—stood out as the strongest signal, suggesting your later academic performance placed you in the bottom tenth of your peers, which heavily weighed against passing the bar. Similarly, your LSAT score of 26, compared to the average of nearly 37, pulled the prediction further toward failure by indicating challenges with the skills tested there. Your Year 1 decile of 1, also much lower than the average around 5.7, reinforced this pattern of early underperformance relative to others. While your full-time status aligns with most students and your family income is solid, these academic indicators overshadowed them in the model's eyes. Compared to typical applicants who pass the bar, your rankings and LSAT are in the lowest ranges, making your profile riskier overall. To move forward, consider retaking the LSAT to boost your score significantly, strengthening your grades in any further coursework to improve your decile rankings, and perhaps seeking targeted bar prep resources tailored for Hispanic students navigating similar paths. Many have turned predictions like this around with focused effort—your determination as a first-generation or underrepresented aspirant could be your edge. Reapplying after addressing these gaps could shift the model's view in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

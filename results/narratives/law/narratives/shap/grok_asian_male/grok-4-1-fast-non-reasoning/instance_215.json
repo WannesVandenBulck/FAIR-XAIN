@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 215,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:41.858744",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.80—well above the typical 3.21 average—your law school application stood out in several ways, including your middle-family-income background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 55.6% chance that you would fail it, tipping the scales just over the threshold for rejection. This prediction hinges on a few key aspects of your profile, with your LSAT score emerging as the most influential factor, strongly pushing the model toward forecasting a bar failure because your score of 27 is notably below the average of 36.7 seen in the dataset. Next in importance was your undergraduate GPA, which worked in your favor by pulling the prediction toward success, reflecting how your strong performance there signals potential despite other hurdles. Rounding out the top influences, your Year 3 school decile ranking of 4—lower than the average 5.53—nudged the outlook slightly toward failure, suggesting your later academic standing in school played a supporting role in the decision. Compared to typical students who pass the bar, your LSAT stands out as the biggest gap, while your GPA exceeds what's common and could have carried more weight in a different scenario. These elements combined to create a risk profile that the model deemed too high for admission. It's understandable to feel frustrated, especially with your impressive undergrad record as an Asian male navigating these competitive paths. To move forward, consider retaking the LSAT to boost it closer to or above the average, as that single change could dramatically shift future predictions in your favor. Strengthening your later-year grades through targeted prep or additional coursework might also help elevate your decile rankings. Many students in similar situations succeed by addressing their weakest area head-on, so exploring LSAT tutoring or practice resources tailored to your style could be a smart next step. With persistence, you can reshape this narrative for upcoming applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

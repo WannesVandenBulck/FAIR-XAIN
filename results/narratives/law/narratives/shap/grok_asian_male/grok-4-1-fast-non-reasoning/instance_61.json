@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:28:59.307505",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, middle family income, an LSAT score of 36, an undergraduate GPA of 2.8, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 60% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your background that stood out as the strongest influences. Most critically, your low Year 3 decile ranking—placing you in the bottom tenth of your school—pushed the prediction heavily toward failure, as it signals weaker performance in later undergraduate years compared to typical students who average around the middle of their class. Your Year 1 decile of 2 also contributed toward that risk, though less strongly, showing early grades below the dataset average of about 5.7. On a brighter note, your LSAT score of 36, close to the typical 36.7 average, worked in your favor by nudging the prediction toward passing. These three elements—your Year 3 and Year 1 deciles as top concerns, offset somewhat by your solid LSAT—overrode other details like your GPA, income, or full-time status in shaping the outcome. Compared to students who typically pass the bar, your later-year rankings are notably lower, which the model sees as a red flag despite your strengths elsewhere. While this rejection stings, it's not the end of the road—many applicants in similar positions improve by retaking the LSAT for a higher score, bolstering undergraduate records through post-bac courses, or targeting schools with more holistic reviews. Consider gathering letters from professors who can highlight your potential beyond numbers, and explore programs that value diverse backgrounds like yours. With targeted preparation, you can strengthen these weak spots and reapply stronger next cycle. Your determination as an Asian male navigating competitive fields positions you well to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

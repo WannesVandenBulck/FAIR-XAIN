@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 122,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:32:45.646056",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application stood out in some academic areas, but the admissions model ultimately predicted a 44.3% chance of failing the bar exam on your first try, tipping the decision toward rejection to prioritize students with stronger overall odds of success. This prediction draws from patterns in data on thousands of past students, focusing on factors like grades, test scores, and background that best forecast bar exam outcomes. The three biggest influences on your specific prediction were your undergraduate GPA, your Year 3 school decile ranking of 1 (well below the average of about 5.5), and your LSAT score of 29.5 (lower than the typical 36.7). Your strong GPA was the most powerful positive factor, significantly pushing the model toward expecting you to pass the bar by signaling solid college-level academic ability. In contrast, your low Year 3 decile had the strongest negative pull, raising concerns because it suggests your performance ranked near the bottom of your peers that year, a red flag in historical data linking later high school struggles to bar exam challenges. Your LSAT score also helped counterbalance the risk, nudging the prediction toward passing despite being below average, as it still shows some aptitude for the kind of reasoning tested on the bar. Compared to typical students who pass, your profile aligns well on GPA but lags notably on high school deciles and LSAT, where stronger showings often secure approvals. Your middle family income and full-time student status—common among 93% of applicants—didn't sway things much either way. While this rejection stings, especially with your GPA strength, it highlights where targeted improvements could shift future outcomes. To move forward, consider retaking the LSAT to boost your score closer to or above average, and if possible, explain or contextualize your Year 3 deciles in a personal statement for other schools that review holistically. Building bar exam prep experience through targeted practice or courses could also demonstrate resilience. Many students in similar situations rebound by addressing these key gaps, so view this as a roadmap rather than a roadblock.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

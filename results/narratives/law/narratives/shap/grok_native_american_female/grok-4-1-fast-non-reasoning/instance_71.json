@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:17.189428",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 56.3% chance that you would not pass—crossing the threshold we use to make admission decisions. This prediction draws from your academic record, test scores, and background details like your lower-middle family income and plans to attend full-time, without considering gender or racial background. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st, which is notably lower than the 6th decile average among students who passed the bar, signaling to the model weaker performance in later undergraduate years compared to successful peers. Next in importance, your LSAT score of 35.5 worked in your favor, as it pulled the prediction toward passing since it's closer to the 37.3 average of bar passers, showing solid potential there. Similarly, your undergraduate GPA of 3.4 helped your case by exceeding the 3.24 average for those who passed, nudging the model toward expecting success. While your stronger early Year 1 decile of 2nd and full-time status aligned well with admitted students (where 93% go full-time), they weren't as decisive as these top factors. Overall, your profile stacks up reasonably against accepted students in areas like GPA and LSAT, but the low Year 3 decile stood out as the biggest drag, outweighing the positives. This isn't a judgment on your potential—many with similar starting points improve dramatically. To move forward, consider retaking the LSAT to boost it further or strengthening late-stage academics through targeted courses or a post-bac program, which could shift future predictions. Gathering letters from professors who saw your later growth might also highlight your trajectory. Reapplying after addressing that key Year 3 area could make a real difference, as models like this respond strongly to upward trends. You're clearly capable, given those GPA and LSAT strengths—keep pushing.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

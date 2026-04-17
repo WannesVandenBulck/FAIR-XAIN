@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 19,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:03.060123",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.40, an LSAT score of 36, middle-family income background, and your Year 1 and Year 3 school decile rankings both at the 2nd decile—meaning your grades placed you in the lower end compared to typical students, whose averages hover around the 5th or 6th decile. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 46.3% chance that you would fail the bar on your first try, tipping the scales just enough to reject your full-time law program application. This prediction hinges on a few key aspects of your profile that stood out most strongly to the model. Your LSAT score was the biggest positive factor, pushing the prediction toward expecting you to pass since it's close to the average of 36.7 seen in successful students. However, your Year 3 decile ranking had the strongest negative pull, signaling to the model a heightened risk of bar failure because it was well below average, outweighing other strengths. Your Year 1 decile ranking added further concern in the same direction, though with less intensity, as it similarly lagged behind the typical student's performance. Compared to peers who typically pass the bar, your academic deciles are notably lower, while your LSAT holds up well, and your plan to attend full-time aligns with the vast majority (over 90%) who do so. This combination made the model lean toward caution, prioritizing bar passage risk over other factors like family income. While disappointing, this isn't a judgment on your potential as a Hispanic leader in law—many overcome similar starts through targeted growth. To move forward, consider retaking the LSAT to boost it further or strengthening your recent academic record through post-bac courses or a master's program to lift those decile perceptions. Building a standout personal statement highlighting your unique background and resilience could also sway human reviewers in appeals or re-applications. Reach out to admissions advisors for feedback, and explore bridge programs designed for diverse candidates like yourself to demonstrate bar readiness. With focused steps, you can reshape this narrative for future success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:06.816907",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30 and an impressive LSAT score of 40—both above the typical student's marks of 3.21 and 36.70 respectively—your academic profile stood out in many ways when the university reviewed your law school application. However, the model's assessment focused on predicting your likelihood of passing the bar exam on the first try, and it estimated a 59.6% probability that you would fail, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. This prediction wasn't driven by your strong test performance or your upper-middle-class family background, but rather by a close interplay of key factors from your record. The most influential factor pushing toward a failure prediction was your undergraduate GPA; even though it's slightly above average, in this model's evaluation, it signaled a moderate risk compared to profiles of proven first-time bar passers. Counterbalancing that strongly was your Year 3 school decile ranking of 9, which is well above the average of 5.53 and pulled the prediction meaningfully toward expecting you to pass, highlighting your late-stage academic strength. Your LSAT score, while excellent, had a smaller but still notable influence tilting toward failure risk, perhaps because the model weighs it alongside other performance indicators in a nuanced way. Overall, these top three elements—your GPA as the biggest concern, your high Year 3 decile as a major positive, and your LSAT adding some caution—were the primary drivers, outweighing strengths like your full-time student status, which aligns with the vast majority of applicants. Compared to typical students, your profile is stronger in later grades and standardized testing, but the model saw your GPA as a potential vulnerability that tipped the scales. This rejection stings, especially given your upward trajectory, but it's not a judgment on your potential as an Asian male applicant with clear drive. To move forward, consider retaking courses or pursuing a post-baccalaureate program to bolster your GPA, gathering strong recommendation letters emphasizing your Year 3 turnaround, or targeting schools with more holistic reviews that value your LSAT edge. You might also audit bar prep resources to demonstrate readiness. With targeted improvements, reapplying next cycle could flip this prediction in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

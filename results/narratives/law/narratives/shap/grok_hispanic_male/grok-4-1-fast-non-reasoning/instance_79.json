@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 79,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:49.542907",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.20, an LSAT score of 35, upper-middle family income, and your plan to attend full-time, along with your school decile rankings from Year 1 and Year 3 both at the 1st decile. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 72.9% chance that you would fail it on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar promptly. The two biggest factors pushing the prediction toward failure were your low Year 3 school decile ranking, which was in the bottom 10% compared to the typical student's middle-of-the-pack 5th or 6th decile, signaling weaker performance in later undergrad years that strongly correlates with bar struggles for students like you. Your Year 1 decile, also at the bottom 10% versus the average around the 6th decile, reinforced this concern as the second-most influential factor, suggesting early academic challenges that carried over. On a brighter note, your LSAT score pulled things in the opposite direction as the third-most important factor, since 35 is close to the dataset average of 36.7 and showed solid potential that nudged the odds toward passing. Overall, these academic deciles outweighed your other strengths, like your near-average GPA and full-time commitment, which is common for 93% of students and didn't sway the outcome much here. Compared to typical admitted students, who often have higher decile rankings in both early and later years, your profile stood out as riskier despite your personal background and solid test scores. This doesn't define your potential—many in similar situations, including Hispanic students, have improved through targeted prep. To move forward, consider retaking courses or boosting your academic deciles if possible, perhaps through a post-bac program, and aim to push your LSAT higher to counterbalance those early indicators. Community resources for underrepresented law applicants, like those from Latino lawyers' associations, could offer mentorship and strategies tailored to your experience. Retake the LSAT if feasible, as even a small gain there had a meaningful positive impact in your analysis. With focused effort on these areas, you can strengthen your profile for the next application cycle and show the growth that models like this value most.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

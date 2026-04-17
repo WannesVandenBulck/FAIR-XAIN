@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 89,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:43.214497",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 2.80 and an LSAT score of 32, your early academic deciles of 3rd in both Year 1 and Year 3, along with your upper-middle family income background and plans to attend full-time, formed the basis of the law school's automated review of your application. The model assessed your profile and predicted a 48.2% probability that you would fail the bar exam on your first attempt—a risk level high enough to trigger the rejection, as the school prioritizes candidates likely to pass and succeed in their legal careers. Among all the factors considered, your undergraduate GPA stood out as the most influential, actually working in your favor by suggesting a stronger chance of passing than the model might expect from similar profiles. However, your Year 3 decile rank pushed the prediction toward failure more than any other factor, as being in the lower third of your class indicated potential challenges in sustaining high performance. Your LSAT score followed closely as a key driver toward the failure prediction, given that your 32 is notably below the typical 36.7 average, signaling to the model a hurdle in the rigorous reasoning demands of law school and the bar. Compared to typical students who pass, where GPAs average around 3.21 and LSATs are higher, your metrics placed you below the norm in critical academic areas, tipping the balance despite the positive pull from your GPA. This isn't a judgment on your potential as an Asian male from an upper-middle income family—many in similar demographics succeed—but the model weighs these predictors heavily based on historical patterns. The full-time status you selected aligns with the vast majority of students (over 92%), so it didn't sway things much either way. To move forward, consider retaking the LSAT to boost your score closer to or above the average, as that could significantly shift future predictions in your favor. Strengthening your recent academic decile through targeted coursework or graduate-level performance might also help counterbalance that concern. Building a narrative around your unique strengths, like any leadership or relevant experiences not captured here, could shine in appeals or re-applications to schools with more holistic reviews. With focused improvements, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

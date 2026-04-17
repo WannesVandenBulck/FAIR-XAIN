@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 160,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:00.228647",
+  "status": "success",
+  "narrative": "As a Black male applicant with a middle-income family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic performance, test scores, and personal circumstances to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.60 (below the typical 3.21 average), LSAT score of 41 (above the average 36.70), Year 1 school decile of 3 (lower than the average 5.71), and Year 3 decile of 3 (below the average 5.53), along with your full-time student status—and predicted a 40% chance that you would fail the bar exam on your first attempt. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar to maintain strong outcomes. Among all the factors considered, your LSAT score had the strongest positive influence, pushing the prediction toward expecting you to pass by standing out well above what's typical for students in the dataset. However, your Year 3 academic decile ranking was the next most influential factor, pulling the prediction toward failure because it reflects performance in the lower third of your school, which correlates with bar struggles for many similar students. Your Year 1 decile ranking also contributed toward the failure prediction to a notable degree, as its below-average standing signaled early academic challenges that the model weighs heavily. While your LSAT is a bright spot that helped offset some concerns, the combination of these lower deciles created enough doubt about your bar readiness compared to peers who typically rank higher in school performance. Full-time status, shared by over 90% of students, didn't sway things much either way. This isn't a judgment on your potential as a Black man from a middle-income background—many in similar situations succeed with targeted improvements—but the model saw your academics as riskier than the stronger profiles it favors. To move forward, consider retaking the LSAT to solidify that strength, boosting your undergraduate record through post-bac courses or a master's program, and seeking mentorship from bar-passed attorneys who share your background to build a more competitive reapplication. With focused effort on those early-grade weaknesses, you could shift future predictions in your favor and open doors to law school.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

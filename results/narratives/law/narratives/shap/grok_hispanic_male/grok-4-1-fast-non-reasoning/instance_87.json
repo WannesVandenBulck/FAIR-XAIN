@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 87,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:18.933174",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your undergraduate GPA of 2.80 and LSAT score of 34—were carefully evaluated by the admissions model, which draws from data on thousands of students' paths to the bar exam. The model predicts there's a 55.5% chance you would fail the bar exam on your first try, a threshold that led to your application's rejection to protect the school's outcomes and resources. This prediction hinges on just a few key factors from your profile that stood out the most in pushing the decision toward failure. Your LSAT score was the single biggest positive signal, as it suggested a stronger likelihood of passing compared to what the model typically sees, even though it's a bit below the average of 36.7. However, your Year 3 school decile ranking of 3—which is lower than the typical 5.53 average—played a major role in tipping the scales toward failure, indicating your later academic performance ranked in the lower third of your peers. Similarly, your Year 1 decile of 3, also below the usual 5.71 average, reinforced this concern by showing early struggles that the model links to bar exam risks. Other details, like your middle family income bracket and full-time student status (common among 93% of applicants), had less sway here. Compared to typical students who pass the bar, your decile rankings are notably lower, which amplified their influence despite your solid LSAT effort. While these academic deciles were the top drivers pulling the prediction downward, your LSAT shows real potential that could shift things with improvement. To move forward, focus on boosting your grades to climb those school rankings—perhaps through targeted tutoring or retaking courses—and consider retaking the LSAT to push past that average mark. Many students in similar situations, including Hispanic applicants who've faced early hurdles, have succeeded by addressing these exact gaps before reapplying. Your full-time commitment is a strength; build on it with a clear plan to demonstrate upward momentum in your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

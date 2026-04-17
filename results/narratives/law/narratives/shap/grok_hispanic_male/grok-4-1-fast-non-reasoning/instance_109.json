@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 109,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:36.898724",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 29, lower-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the bottom first decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 70.6% chance that you would fail the bar exam—high enough to lead to your application's rejection, as the school prioritizes candidates likely to pass on their first try. This decision hinged most strongly on your Year 3 school decile ranking, which placed you in the lowest group compared to the typical student's middle-of-the-pack standing around the 5th or 6th decile; it significantly pushed the prediction toward expecting bar failure by signaling weaker late-stage academic performance. Next in influence was your Year 1 decile, also at the bottom first decile well below the average of about the 6th, reinforcing concerns about consistently low class standing from early on. Your undergraduate GPA offered some counterbalance, as its solid 3.10—close to the dataset average of 3.21—nudged the prediction slightly toward passing success, showing you have baseline college-level capability. While factors like your LSAT score, which is notably below the typical 37, and family background played roles, these top three academic markers carried the heaviest weight in tipping the scales against you. Compared to students who typically get approved, who often rank in higher deciles and score stronger on entrance exams, your profile aligns more closely with those who've struggled on the bar. This isn't a judgment on your potential or background—many from similar Hispanic and lower-middle-income circumstances succeed with targeted improvements. To move forward, consider retaking the LSAT to boost your score toward 35 or above, strengthening your later-year grades through additional coursework or tutoring to climb those deciles, and gathering strong recommendation letters highlighting your resilience. Reapplying after these steps could shift your predicted odds dramatically, and exploring bridge programs or community college pathways might build an even stronger case tailored to your full-time plans. You're taking a vital step by understanding this feedback—keep pushing, as law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:34.630277",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 83% chance that you would not pass based on your profile. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger odds of bar success to maintain high pass rates. The model's decision hinged most heavily on three key factors from your background: your planned part-time enrollment status, your third-year grade decile, and your family's middle income bracket.\n\nYour choice to attend part-time stood out as the strongest driver pushing the prediction toward failure—unlike the vast majority of students who passed the bar (over 93% of whom were full-time), this enrollment path has historically correlated with lower first-try success rates in our data. Next in influence was your third-year decile ranking of 3, which is notably below the average of about 6 for those who passed, signaling to the model a potential challenge in sustaining strong performance through later undergraduate years. Your middle family income also nudged the prediction slightly toward higher risk, as passers tend to come more from upper-middle or high-income homes (nearly 54% combined), possibly reflecting access to additional resources or support.\n\nIn comparison, your LSAT score of 33 and undergraduate GPA of 3.20 were close to averages for passers (37 and 3.24, respectively), and your first-year decile of 5 was reasonably solid, but these couldn't offset the top concerns. Overall, your profile diverged from typical accepted students, who generally combined full-time commitment, higher later-year rankings, and stronger socioeconomic advantages. While this outcome is disappointing, especially given your solid early academic foundation, it reflects patterns in bar outcomes rather than a judgment on your potential.\n\nTo move forward, consider retaking the LSAT to boost your score above 37, exploring full-time options if feasible, and strengthening your later-year performance through targeted study habits or tutoring. You might also seek scholarships or support programs aimed at middle-income students to build a more competitive profile. Reapplying after addressing these areas could significantly shift the model's outlook in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:33.101849",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger signals of bar exam success. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your class—far below the typical fifth-decile average among students who passed the bar—strongly signaling potential struggles ahead. Your Year 1 decile, also at the lowest level compared to the sixth-decile norm for passers, reinforced this concern as the second-biggest factor pushing the prediction toward failure. On a brighter note, your LSAT score of 42 stood out positively, above the 37 average for those who passed, and it worked in your favor to pull the prediction somewhat toward success. While your undergraduate GPA of 3.00 was a bit below the 3.24 average for bar passers and your upper-middle family income aligned with many successful students, these played smaller roles compared to your deciles. Being full-time is common among those who pass, so that fit the typical profile without much sway. Overall, your early and later undergraduate performance stood out as the dominant red flags when stacked against patterns from thousands of past students, overshadowing your solid LSAT. This doesn't reflect your full potential or personal qualities, but rather statistical patterns in bar outcomes. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your decile rankings, as improving undergraduate performance has helped many in similar situations get accepted elsewhere. You might also seek targeted LSAT-level prep for the bar or connect with advisors who specialize in turnaround stories for applicants like you. With focused effort on those early academic markers, your path to law school remains very much open.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

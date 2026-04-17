@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 28,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:58.340655",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 52% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed strongly. The most influential factor pushing toward this failure prediction was your LSAT score of 21, well below the typical 36.7 average, signaling to the model a significant hurdle in legal reasoning skills compared to successful bar takers. Counterbalancing that somewhat was your undergraduate GPA of 3.10, close to the average of 3.21, which nudged the prediction slightly toward passing by showing solid overall academic ability. Your strong Year 1 school decile ranking of 8—higher than the average 5.71—also helped pull the odds in your favor, reflecting early promise that the model viewed positively. Other elements, like your lower-middle family income bracket and full-time student status (common among 92.7% of applicants), played lesser roles here. In contrast to typical admitted students, who often have higher LSATs driving their success predictions, your score stood out as the dominant drag, outweighing your GPA and early grades. This isn't a judgment on your potential as an Asian male pursuing law—many from similar backgrounds excel with targeted improvements—but the model weighs these metrics heavily for bar passage risk. To move forward, consider retaking the LSAT to boost it toward or above average, as that single change could flip predictions for many schools. Strengthening your application with recent achievements or bar prep evidence might also help in appeals or re-applications. You're clearly capable, given your early decile strength, so focusing on that LSAT gap positions you well for future success. Keep pushing; law schools value persistence in applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

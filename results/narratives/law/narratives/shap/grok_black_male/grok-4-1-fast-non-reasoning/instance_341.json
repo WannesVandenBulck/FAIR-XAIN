@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 341,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:18.820278",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your profile includes an undergraduate GPA of 2.70, an LSAT score of 30, middle family income, and part-time enrollment plans, along with your Year 1 school decile ranking of 3 and Year 3 decile of 1. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 87% chance that you would fail the bar exam—far higher than the typical student's risk, leading directly to the rejection of your application. This high failure probability means the model saw your combination of factors as a strong mismatch for the demands of law school and passing the bar on the first try. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1, which is much lower than the average of about 5.5 and signaled to the model a significant drop in academic performance compared to most students who succeed. Next in importance was your plan to attend part-time, a choice made by only about 7% of students; while not uncommon, it stood out as a hurdle here because the model associates it with higher bar failure rates in similar profiles. Your Year 1 decile of 3, below the average of around 5.7, also contributed toward the failure prediction, reinforcing concerns about early academic standing relative to peers. These top three elements together outweighed other aspects like your LSAT or GPA in driving the decision, painting a picture riskier than for typical admitted students who tend to have stronger, more consistent rankings and full-time commitments. While factors like your family background played a smaller role, the model focused on these performance indicators as the biggest red flags. This isn't a judgment on your potential or background—many students from similar circumstances succeed with targeted improvements. To move forward, consider retaking the LSAT to aim above the average 37, boosting your later-year grades to climb those decile rankings, and exploring full-time options if feasible. Building a stronger academic track record now could shift future predictions in your favor, and reaching out to admissions advisors for personalized advice might uncover pathways like conditional acceptance programs. With persistence, you can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

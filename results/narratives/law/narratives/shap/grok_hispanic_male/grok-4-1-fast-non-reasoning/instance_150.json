@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 150,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:07:18.908432",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, LSAT score of 36, upper-middle family income background, and your Year 1 and Year 3 school decile rankings of 2nd and 1st respectively, along with your plan to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 47.9% chance that you would fail it—high enough to trigger a rejection of your application. This prediction stems from weighing various aspects of your academic record and background against patterns seen in thousands of past students. The most influential factor pushing toward this failure prediction was your low Year 3 decile ranking, placing you in the bottom tenth of your school that year, which stood out as a strong signal of potential struggles ahead compared to typical students who rank much higher around the middle of their classes. Next, your LSAT score of 36, while solid and close to the average of 36.7, worked in your favor by nudging the prediction toward passing, showing the model recognized it as a relative strength. Your upper-middle family income also helped slightly, pulling the odds toward success since students from similar brackets often fare better than average. Overall, your Year 3 performance outweighed these positives, especially when your undergraduate GPA of 2.80 falls below the typical 3.21, creating a profile that didn't align with those predicted to pass reliably. Many admitted students have stronger consistent rankings and GPAs that keep their failure risk under 30-40%. While full-time status is common and didn't sway things much, the model focused on these core academic signals. To move forward, consider retaking the LSAT to push it higher or bolstering your recent grades through post-bac courses or targeted prep to improve your decile standing. Building a narrative around any upward trends or extenuating circumstances in your Year 3 could also help in reapplying or appealing to schools with holistic reviews. With focused effort, you can shift these predictors in your favor for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:22.641596",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 63.2% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your position in the lower decile based on Year 3 grades, which stood out as the most influential factor pushing the model toward forecasting failure—far below the typical top-half placement seen among students who passed the bar. In contrast, your undergraduate GPA played a supportive role, nudging the prediction slightly toward success since your 3.00 is reasonably close to the 3.24 average for those who passed, offering some reassurance amid the concerns. Your LSAT score of 25.50 also factored in, though less powerfully, contributing toward the failure prediction as it falls well short of the 37.27 average among successful bar takers. Coming from a middle-income family and planning full-time studies aligns with many who pass—about a third from similar backgrounds and over 90% full-time—so those elements didn't raise red flags. Your Year 1 decile of 2 similarly lagged behind the stronger 6th decile average for passers, reinforcing the overall pattern of early and later academic challenges that the model weighed heavily. While your background as a Hispanic woman pursuing law full-time shows determination that many successful students share, the model focused squarely on these performance indicators, which didn't stack up favorably against admitted applicants who typically boast higher deciles, LSATs around 37, and GPAs above 3.2. This isn't a judgment on your potential or effort—it's a data-driven call based on patterns from past students. To move forward, consider retaking the LSAT to boost your score significantly, as even modest gains there could shift future predictions, and reflect on strategies to elevate your class standing in advanced coursework. Strengthening your GPA through targeted academic support or additional undergrad-level prep might also help. Reach out to admissions advisors for personalized feedback, and explore bridge programs or retake options that address these key areas. With focused improvements, you can reshape your profile for stronger odds next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

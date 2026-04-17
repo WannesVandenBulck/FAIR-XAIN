@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 209,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:11:08.378325",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared strong aspects of your background, including a high family income bracket and an undergraduate GPA of 3.30, which sits above the typical 3.21 average for students in this evaluation process. Your LSAT score of 35 is close to the average of 36.70, and you're planning to attend full-time, just like the vast majority—over 92%—of similar applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 44%, tipping the scales toward rejection to minimize the risk of investing in a student who might struggle later. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later academic performance placed you in the lower tier compared to peers. This stood out as the top driver, as lower deciles like yours strongly correlate with bar exam challenges in the model's view. Next in importance, your undergraduate GPA actually worked in your favor, pulling the prediction toward success because it's higher than average and suggests solid foundational skills. Similarly, your LSAT score provided a moderate positive nudge toward passing, as it's competitively near the norm and indicates good reasoning ability. Overall, while your GPA and LSAT helped balance things, the low Year 3 decile outweighed them, making the model cautious about your bar exam readiness compared to typical admitted students who rank higher across the board. This doesn't reflect your full potential or personal drive—many from similar backgrounds overcome early hurdles. To strengthen future applications, focus on boosting your academic decile through targeted study habits or additional coursework that demonstrates upward momentum. Consider retaking the LSAT for a slight edge or gathering letters highlighting your resilience as a Hispanic male navigating these paths. With these steps, you can reapply stronger, showing the model—and schools—that you're primed for bar success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

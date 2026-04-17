@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 189,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:47.008370",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.40, an LSAT score of 36, middle-family income background, and plans to attend part-time while working, along with your Year 1 and Year 3 school decile rankings both at the 1st decile—meaning your grades placed you at the bottom of your class those years. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 51% chance you'll fail the bar exam, tipping just over the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or background, but a data-driven assessment to help the school select applicants most likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, as being in the bottom 10%—far below the typical student's middle-of-the-pack 5th or 6th decile—strongly signaled challenges in sustaining strong academic performance. Next, your LSAT score of 36 worked in your favor, pulling the prediction toward passing since it's close to the average of 36.7 and shows solid reasoning ability compared to many applicants. Your undergraduate GPA of 3.40 also helped, exceeding the dataset average of 3.21 and suggesting you can handle rigorous coursework better than typical students. While your part-time status is uncommon—only about 7% of students share it—and your middle-income bracket aligns with many others, these played smaller roles here. Overall, your profile compares to typical students by having above-average undergrad grades and a competitive LSAT, but the low Year 3 decile stood out as the biggest red flag against a sea of middling performers who passed the bar. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps exploring full-time options if feasible, and gathering letters highlighting your resilience as a Hispanic student balancing work and studies. Strengthening that late-stage academic record could flip future predictions in your favor. Many students in similar situations have succeeded by addressing weak spots head-on—your story isn't over yet.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 389,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:30.365486",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.50, which stands out above the typical 3.21 average, along with your Year 1 school decile ranking in the top tier at 1st place and a middle family income background, while planning to attend full-time like most applicants. The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 67% chance that you would fail the bar exam—high enough to lead to the rejection of your application, as the school prioritizes candidates likely to pass on their first try. This decision hinged on just a few key factors from your profile that carried the most weight in the prediction. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2nd, which signaled a dip in performance relative to peers and stood out as the top concern. Close behind, your LSAT score of 26—well below the average of about 37—further nudged the model toward expecting bar struggles, as it's a major indicator of law school readiness. On a more positive note, your above-average undergraduate GPA worked against that trend, pulling the prediction somewhat toward success and softening the overall risk assessment. Compared to typical students, your early strong start in Year 1 aligns with high performers, but the later Year 3 drop and low LSAT set you apart from those who usually pass the bar. While your full-time status matches the norm for 93% of applicants, it didn't sway things much here. This isn't a judgment on your potential as a Hispanic man with a solid academic foundation—it's the model highlighting patterns where similar profiles faced bar challenges. To move forward, consider retaking the LSAT to boost that score closer to average, strengthening your Year 3 performance through targeted study or extracurriculars, and reapplying with updated credentials that address these gaps. Many students in your position have succeeded by focusing on these areas, and law schools often value persistence from diverse backgrounds like yours. Your path to law isn't closed—it's just asking for a strategic next step.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

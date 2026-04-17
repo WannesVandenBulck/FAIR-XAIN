@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:34.034167",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 64% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in academic records, test scores, family backgrounds, and enrollment choices among past students, focusing on objective factors like your undergraduate GPA of 3.20, LSAT score of 37, and Year 1 decile ranking of 4th. While your middle family income aligns with a substantial portion of those who succeeded and your Year 3 decile of 7th shows solid improvement, other elements tipped the scales toward concern. The most influential factor pushing the model toward predicting failure was your choice of part-time enrollment, as this path is far less common among bar passers—only about 7% of them opted for it compared to over 90% full-time—suggesting potential challenges in balancing commitments. Your Year 1 decile ranking had a notable but counteracting effect, pulling the prediction somewhat toward success despite being below the average 6th decile of those who passed. Meanwhile, your stronger Year 3 decile worked strongly in your favor, nudging the outlook positively by demonstrating later academic growth. Overall, these top three elements—enrollment status, early-year performance, and later-year improvement—dominated the decision, outweighing your near-average LSAT and GPA. Compared to typical accepted students, who often enter full-time with consistently higher early rankings, your profile showed promise in recovery but raised flags on pacing and workload feasibility. This isn't a judgment on your potential, just a data-driven risk assessment to ensure we admit those with the highest projected bar success. To move forward, consider retaking the LSAT for a boost, pursuing full-time options if possible, or strengthening early academic showings through additional coursework or a post-bac program. You might also explore schools with more flexible part-time tracks or appeal with evidence of your study strategies. Keep building on that Year 3 momentum—many students in similar spots have succeeded by addressing these exact hurdles. Your path to law isn't closed; it's just asking for a strategic pivot.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

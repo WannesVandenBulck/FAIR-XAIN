@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 68,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:07.199708",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.50 stands out as notably lower than the 3.24 average among students who went on to pass the bar exam on their first try, which likely played a role in the overall assessment of your academic foundation. Coming from a middle-income family, while common among successful bar passers—where about a third share that background—didn't provide a strong boost in this evaluation. Your LSAT score of 37 is quite close to the 37.27 average for those who passed, showing solid potential there, and opting for full-time study aligns well with the vast majority of successful students. However, your placement in the bottom decile for both first-year and third-year grades in school raised significant concerns, as these are far below the middle-upper deciles typical of bar passers. The model predicted a 69.9% chance that you would fail the bar exam on your first attempt, which crossed the threshold for denying your law school application to protect the program's outcomes. The most influential factor pushing toward this failure prediction was your third-year grade decile, as being in the lowest group strongly signaled potential struggles ahead compared to peers who succeeded. Next in importance was your LSAT score, which actually worked in your favor by nudging the prediction toward passing, given how competitive it is. Your first-year grade decile also contributed toward the failure outlook, reinforcing worries about early academic performance relative to admitted students. Overall, these grade deciles outweighed your strengths, setting you apart from typical accepted applicants who cluster in higher deciles with stronger GPAs. To move forward, consider retaking the LSAT if possible to push it even higher, or focus on targeted coursework to boost your decile rankings in any ongoing studies—these improvements have turned predictions around for many in similar situations. Building a stronger narrative around your undergraduate record through additional certifications or explanations could also help in reapplying. With dedication, you can address these gaps and strengthen your profile for future opportunities.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:51.883530",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 46% chance that you would fail the bar exam on your first try, which is above the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data about thousands of past students' academic records, test scores, family backgrounds, and enrollment choices, focusing on who passed the bar without needing a retake. For you, with your strong undergraduate GPA of 3.90—well above the 3.24 average among those who passed—and your low family income bracket, the model weighed several key factors to reach this outcome.\n\nThe most influential factor pulling against you was your Year 3 decile ranking of 1, which stood out as a major push toward predicting bar failure, unlike the much higher average of about 6 for successful students. While your undergraduate performance was a powerful counterbalance, strongly favoring a prediction of passing the bar, it wasn't quite enough to offset that lower Year 3 standing. Your family income also nudged things slightly in a positive direction, as the model sees resilience in students from similar low-income backgrounds who still succeed, even though they're rarer among bar passers.\n\nCompared to typical admitted students—who often have LSAT scores around 37 and Year 1 deciles near 6—your LSAT of 26.5 and low early deciles made your profile riskier overall, despite your impressive undergrad record and full-time enrollment plans that align with most successful applicants. The model doesn't consider gender or race in its decisions, so those aspects of your background played no role here. This close 46% call means you're not far off, and with targeted improvements, you could shift the odds.\n\nTo move forward, focus on boosting your performance in later undergrad years to climb those deciles, and consider LSAT prep to close the gap with averages—many students in your position have succeeded by doing just that. Retaking the LSAT or gaining stronger recent grades could make a big difference in a future application. We're rooting for you to build on your undergrad strengths and reapply stronger.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

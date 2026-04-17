@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 408,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:56:26.704559",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out with a solid undergraduate GPA of 3.50—higher than the typical 3.21 average—and an LSAT score of 31, alongside Year 1 and Year 3 school decile rankings both at 3. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on patterns from thousands of past students, estimated your probability of failing at 44.9%. This tipped the scales just enough for your application to be rejected, as the school uses this prediction to prioritize candidates seen as strong bets for bar success. The most influential factor working in your favor was your undergraduate GPA; it strongly suggested you'd be more likely to pass the bar, pulling the prediction toward success compared to many applicants. However, your Year 3 decile ranking of 3—below the average of about 5.5—had the next biggest impact, pushing the model toward predicting failure because lower deciles often correlate with bar struggles in similar students. Your Year 1 decile of 3, also under the typical 5.7 average, reinforced that concern, nudging the outlook further toward risk despite your other strengths. Overall, while your GPA gave you an edge over averages, these early and later school performance deciles carried more weight in the model's eyes, outweighing factors like your LSAT or family income. This isn't a judgment on your potential as a Black man pursuing law—many from similar backgrounds succeed—but the model spotted patterns where these deciles signal higher bar failure odds. To move forward, consider retaking the LSAT to boost it closer to the 36.7 average, or strengthening recent academic deciles through additional coursework or a post-bac program. You could also seek targeted bar prep resources tailored for underrepresented students, and reapply next cycle with updated credentials to shift that prediction. Admissions teams value persistence, and addressing these key areas could flip the script for you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

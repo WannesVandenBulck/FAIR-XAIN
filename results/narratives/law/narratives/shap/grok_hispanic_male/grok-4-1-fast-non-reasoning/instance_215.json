@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 215,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:11:37.186760",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.80, which stands out well above the typical 3.21 average among students in our dataset, alongside middle-family-income background and plans to attend full-time like most applicants. Your Year 1 school decile of 5 is close to average, but your Year 3 decile of 4 sits a bit below the norm of 5.53. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 55.6% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes those predicted to pass confidently. This decision hinged on just a few key factors from your profile, ranked by their influence on the prediction. The biggest driver pushing toward a failure prediction was your LSAT score of 27, far below the 36.7 average, which signaled higher risk to the model despite your other strengths. Counterbalancing that strongly in your favor was your impressive undergraduate GPA, which pulled the prediction toward expecting bar exam success. A smaller factor nudging it toward failure was your Year 3 decile ranking, reflecting relatively softer performance there compared to peers. Overall, your LSAT pulled hardest against you, outweighing even your standout GPA in the model's eyes, though you're not far off from typical full-time students in most other areas. This isn't a judgment on your potential as a Hispanic man with clear drive—many in similar positions have succeeded by targeting weak spots. Next, consider retaking the LSAT to boost it closer to average, as that single change could flip predictions for schools using similar models. Strengthening late-year grades through targeted prep might help too. Reach out to advisors for bar passage resources tailored to first-generation or underrepresented applicants like yourself, and reapply stronger—you've got the GPA foundation to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

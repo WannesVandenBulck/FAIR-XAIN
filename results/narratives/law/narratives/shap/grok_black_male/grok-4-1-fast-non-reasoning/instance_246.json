@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 246,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:46:28.800763",
+  "status": "success",
+  "narrative": "As a Black male applicant with a high family income bracket and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.60—which is below the typical 3.21 average—and an LSAT score of 32, lower than the usual 36.70. Your Year 1 school decile ranking of 3 and Year 3 ranking of 2 also trail the averages of about 5.7 and 5.5, respectively, reflecting grades that placed you in the lower third of your peers. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 54.6%, tipping just over the threshold that led to your application's rejection. This prediction hinges on a few key factors from your background that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your Year 3 decile ranking, as being in the lower decile there signaled to the model a notable risk compared to students who ranked higher. On a more positive note, your undergraduate GPA worked in your favor, pulling the prediction toward success because, despite being below average, it still showed some resilience in your academic record. Similarly, your high family income bracket contributed positively, likely reflecting advantages like better resources that often correlate with bar exam success for students in similar situations. Overall, these top three elements—your Year 3 performance as the biggest concern, tempered by your GPA and family support—outweighed other details like your LSAT or full-time status in shaping the model's cautious outlook. While your circumstances as a Black male applicant highlight important diversity perspectives that schools value, the model focused squarely on these bar passage indicators. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your upper-year grades through targeted study or additional coursework, and gathering strong letters of recommendation that speak to your potential. Many students in your position have succeeded by addressing these gaps—reapplying after building a clearer track record of academic improvement could shift the odds significantly in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

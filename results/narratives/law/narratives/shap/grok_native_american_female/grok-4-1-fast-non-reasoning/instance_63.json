@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 63,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:14:49.033422",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.9% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, test scores, and background details like your upper-middle family income and plans to attend full-time. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 3, which ranks lower than the average of about 6 seen among students who passed the bar, signaling to the model a potential dip in performance trajectory. Counterbalancing that somewhat was your undergraduate GPA of 3.50, which stands above the typical 3.24 average for bar passers and pulled the prediction in a more favorable direction. Your LSAT score of 33 also played a key role, as it fell short of the 37.27 average among successful students, nudging the model toward expecting challenges on the bar. These three elements—your Year 3 deciles, undergrad GPA, and LSAT—were the strongest drivers in shaping this outcome, with Year 3 grades carrying the most weight. Compared to admitted students, who often show stronger consistency in later-year performance and higher entrance exam scores, your profile highlighted areas where the model saw elevated risk despite positives like your solid undergrad record and full-time commitment. Your upper-middle income aligns well with many who pass, so it didn't raise concerns there. While this is disappointing, especially given your strengths, the model prioritizes bar passage as a core indicator of long-term success in law. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on strategies to improve your upper-year grades, perhaps through targeted tutoring or study habits that build on your undergrad momentum. Gathering letters of recommendation that highlight your resilience and full-time dedication could also strengthen a future application. Many students in similar positions have succeeded by addressing these key areas—reapplying after targeted improvements often leads to better outcomes.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

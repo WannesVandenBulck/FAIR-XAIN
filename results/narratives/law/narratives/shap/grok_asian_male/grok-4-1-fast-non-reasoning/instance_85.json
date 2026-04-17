@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:29.538791",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and family backgrounds to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.00, LSAT score of 32.50, Year 1 and Year 3 school deciles both at 4th (below averages of about 5.7 and 5.5), upper-middle family income, and full-time student status—and predicted a 49.1% chance that you would fail the bar exam on your first attempt. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students likely to pass the bar and succeed in their legal careers. Among all the factors considered, your undergraduate GPA emerged as the single most influential element, actually working in your favor by suggesting a stronger potential for passing than the model might expect from similar profiles. Next in importance was your family income bracket, which nudged the prediction slightly toward a higher failure risk, possibly because the model associates upper-middle incomes with certain performance patterns seen in past data. Your Year 3 school decile ranking followed closely, also pushing the outlook a bit toward failure, as being in the 4th decile indicated grades lagging behind many peers at that stage. Compared to typical students, your LSAT and deciles are notably below the dataset averages, which likely amplified the overall concern despite the positive pull from your GPA. While full-time status aligns with the vast majority of students (over 92%), it didn't sway the decision much here. This prediction isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds thrive with targeted improvements—but it reflects how these key academic markers stacked up against historical bar passage trends. To move forward, consider retaking the LSAT to boost it closer to the average of 36.7, strengthening your upper-level grades to climb those deciles, and gathering letters of recommendation that highlight your resilience and non-academic strengths. You might also explore post-baccalaureate programs or community college pathways to rebuild your GPA trajectory before reapplying. With focused effort on these areas, you can shift future predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

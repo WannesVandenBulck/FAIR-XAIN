@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 166,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:18.391889",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 33.50, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the lowest 10th percentile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 60.5% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or character, but a data-driven assessment comparing your profile to others who have taken the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking in the bottom 10%, well below the typical student's mid-range position around the 5th or 6th decile, signaling to the model a notable dip in later academic performance relative to peers. Next, your LSAT score stood out as the strongest factor pulling in the opposite direction, toward predicting bar passage, since 33.50 is reasonably competitive even if slightly under the average of 36.70—essentially moderating the overall risk. Your Year 1 decile, also in the bottom 10% compared to the average around the 6th decile, further nudged the prediction toward failure, reinforcing concerns about early academic standing. Compared to typical students who pass the bar, your combination of lower deciles outweighed the positive lift from your LSAT, especially since most successful applicants cluster in higher decile bands. While your full-time status aligns with the vast majority (over 90%) of students and your family background is solid, they played smaller roles here. This isn't the end of your path to law—many applicants strengthen their cases by retaking the LSAT for a higher score, pursuing post-baccalaureate courses to boost GPA equivalents, or gaining targeted academic experience to improve decile-like metrics. Consider reaching out to admissions counselors for feedback or exploring bridge programs designed for diverse candidates like yourself. With focused effort on these areas, you can reapply stronger and shift the model's view in your favor. Your determination as a Hispanic male in this field is already a strength—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

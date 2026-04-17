@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:00.297136",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51.8% chance that you would not pass—tipping just over the threshold we use for admissions decisions. This prediction draws from your academic record, LSAT score, undergraduate performance, family background, and study plans, while setting aside factors like gender or racial background. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, which places you in the bottom tenth of your school that year—far below the typical top-half standing seen among students who go on to pass the bar. This low ranking stood out as the strongest signal to the model, suggesting challenges in sustaining strong performance later in your studies. In contrast, your LSAT score of 36 worked in your favor, pulling the prediction toward success since it's close to the average of 37.27 for bar passers, showing solid reasoning skills. Similarly, your undergraduate GPA of 3.40 helped your case, exceeding the 3.24 average for those who passed and highlighting a strong foundation from your prior degree. Your lower-middle family income bracket, while more common among those who struggle on the bar compared to higher-income peers, played a lesser role here, as did your full-time study plans, which align with most successful students. Overall, your profile compares unfavorably to admitted applicants mainly due to that Year 3 decile dragging down an otherwise competitive set of qualifications. To strengthen future applications, focus on boosting later-year grades through targeted study habits or tutoring, perhaps retaking the LSAT for a higher edge, and gathering letters that speak to your resilience from your undergraduate success. Consider bridge programs or post-bac courses to demonstrate upward trends in performance. With your solid UGPA and near-average LSAT, targeted improvements could shift your predicted odds dramatically in your favor. Keep pursuing this path—you've already shown strengths that many lack.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

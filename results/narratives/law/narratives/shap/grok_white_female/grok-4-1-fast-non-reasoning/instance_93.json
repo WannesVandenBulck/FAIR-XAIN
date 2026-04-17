@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 93,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:15.230660",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.50, your LSAT score of 31, your first-year decile ranking of 1st, your third-year decile of 2nd, and your upper-middle family income background, along with your plan to attend full-time. Among students who passed the bar, the average LSAT is notably higher at 37.27, while your undergrad GPA actually exceeds their average of 3.24, and upper-middle income is common among them at 45.1%. The three biggest factors driving this prediction were your undergraduate GPA, first-year decile, and third-year decile. Your solid undergraduate GPA worked strongly in your favor, pushing the model's assessment toward expecting you to pass the bar. In contrast, your low first-year decile ranking pulled significantly in the opposite direction, increasing the predicted risk of failure compared to the typical 6th decile among those who passed. Similarly, your second-decile ranking in your third year contributed substantially toward the failure prediction, far below the near-6th decile average for successful bar takers. These early and later academic struggles in law school rankings outweighed the positives from your undergrad performance, tipping the balance. Full-time status aligns well with passers, who are 93% full-time, so it didn't hurt you here. To move forward, consider retaking the LSAT to boost your score closer to the 37+ range that successful students typically have, and focus on strategies to improve your class rankings in future coursework—perhaps through tutoring or study groups. Building a stronger academic trajectory now could shift future predictions in your favor for other programs. You're already ahead on undergrad GPA, so lean into that strength while addressing the areas that concerned the model most. With targeted improvements, you can rewrite this story for your next application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

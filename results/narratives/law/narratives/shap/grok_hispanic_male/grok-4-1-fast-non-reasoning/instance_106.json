@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 106,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:26.757595",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 37, and your Year 1 and Year 3 school deciles of 3 and 2 respectively, along with your upper-middle family income and plans to attend full-time. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 68.9% chance that you would fail it on your first try—high enough that your application was rejected to minimize the school's risk of low bar passage rates. This prediction hinges on just a few key aspects of your profile, with your Year 3 grades standing out as the biggest driver, as your lower decile ranking there strongly signaled a higher risk of bar failure compared to most applicants. Your Year 1 grades also pulled in the same concerning direction, reinforcing that early academic struggles carried significant weight in the model's eyes. On a brighter note, your LSAT score, which is slightly above the typical 36.7 average, worked in your favor by pushing the prediction toward expecting you to pass. These three factors—your Year 3 decile as the top influence, followed by LSAT positively and Year 1 decile negatively—together tipped the scales toward failure more than anything else in your background, like your family income or full-time status. Compared to typical students, who often land in the mid-5s for those early deciles, yours were notably lower, which amplified their impact. While your LSAT helped offset some risk, it wasn't enough to counterbalance the grades in the model's assessment. This isn't a judgment on your potential as a Hispanic leader in law or your personal drive—it's a data-driven call based on patterns from past bar takers. To move forward, consider retaking the LSAT to boost it further or enrolling in a post-bac program to strengthen your GPA and decile rankings before reapplying. Many students in similar situations have succeeded by targeting these areas, and schools often value that persistence. You could also seek feedback from admissions counselors on targeted improvements or explore bridge programs designed for diverse applicants like yourself. With focused effort, your next application can tell a stronger story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

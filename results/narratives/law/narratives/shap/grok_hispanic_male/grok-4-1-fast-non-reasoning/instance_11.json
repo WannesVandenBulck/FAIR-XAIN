@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:37.299926",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your middle-income family situation and decision to pursue full-time studies—paint a picture of determination against real-life challenges. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 49.9% chance that you would fail the bar exam. This close but unfavorable odds tipped the decision to reject your application, as the school prioritizes applicants likely to pass on their first try. The three biggest factors driving this prediction were your LSAT score, your first-year school decile ranking, and your undergraduate GPA. Most notably, your LSAT score of 35—below the typical 36.7 average—stood out as the strongest positive force, actually working in your favor by suggesting a solid shot at passing. However, your first-year decile of 4, lower than the average of about 5.7, pushed the prediction toward failure more than any other factor, signaling to the model that early academic performance might carry risks into law school and the bar. Your undergraduate GPA of 2.6, compared to the usual 3.21, reinforced this concern as the third-most influential element, pulling the odds further from success. While your third-year decile of 4 was also below average, it played a smaller role here. Overall, your profile stacks up as promising in some areas like the LSAT but falls short of typical admitted students in key early academic metrics, where stronger showings often secure approval. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar hurdles. To move forward, consider retaking the LSAT to boost that standout strength, strengthening your undergrad record through post-bac courses or highlighting upward trends in later years, and reapplying with a narrative of your resilience. Schools value growth stories like yours, so gathering strong recommendation letters emphasizing your full-time commitment could make the difference next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

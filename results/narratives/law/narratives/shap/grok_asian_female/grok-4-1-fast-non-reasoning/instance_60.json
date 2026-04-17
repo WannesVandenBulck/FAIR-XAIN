@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:04.335014",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 91.9% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the school maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom tenth of your class—far below the typical fifth-decile average among students who went on to pass the bar. This low standing was the biggest factor pushing the prediction toward failure, as it signals challenges in sustaining strong performance over time. Next in influence was your Year 1 decile, also at the bottom tenth compared to the average sixth-decile mark for bar passers, reinforcing concerns about early academic struggles that often persist. Your LSAT score of 37 provided some counterbalance, slightly favoring a passing prediction since it's close to the 37.27 average of successful students, but it wasn't enough to offset the other red flags. While your upper-middle family income aligns well with the majority of bar passers and your full-time enrollment status is typical for them, these didn't carry enough weight to shift the outcome. Your undergraduate GPA of 3.10, just below the 3.24 average for passers, played a supporting role but wasn't among the top drivers here. Compared to admitted students, who generally show higher decile rankings in both early and later years, your profile stands out as riskier in those core academic indicators that best predict bar success. This isn't a judgment on your potential or background—it's a data-driven call to protect the program's outcomes. To move forward, focus on boosting your grades to climb those school deciles, perhaps through tutoring or study strategies, and consider retaking the LSAT for a stronger edge. Strengthening these areas could dramatically improve your odds in a future application, opening doors to programs that value your full-time commitment and solid foundational scores.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

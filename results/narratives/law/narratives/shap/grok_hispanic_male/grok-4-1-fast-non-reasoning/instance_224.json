@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 224,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:07.648465",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong Year 1 and Year 3 school decile rankings of 10—placing you at the top of your class in both—alongside your undergraduate GPA of 2.80, an LSAT score of 32, middle family income, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 40.9% chance you'll fail the bar exam. Because this probability crossed the threshold signaling higher risk, your application was rejected to prioritize candidates with stronger predicted odds of passing. The model's decision hinged most on your Year 3 decile ranking, which stood out as your biggest strength by strongly pushing the prediction toward expecting you to pass the bar. Your Year 1 decile ranking came next, also working in your favor and nudging the outlook positively, reflecting your consistent high performance early on. However, your undergraduate GPA had the third-strongest pull, unfortunately tipping the scales toward a higher failure risk since it's below the typical 3.21 average for students in the dataset. Compared to peers, your top deciles are exceptional—far above the around-5.5 averages—yet they weren't quite enough to offset the GPA concern in the model's eyes. Your LSAT of 32, also under the 36.7 average, played a supporting role but wasn't among the top influencers here. This isn't a judgment on your potential as a full-time student from a middle-income background; it's the model balancing these academic signals against historical patterns where similar profiles faced bar challenges. To move forward, consider retaking the LSAT or strengthening your GPA through post-baccalaureate courses to realign with stronger predictors. You might also seek targeted bar prep resources tailored for Hispanic students, building on your proven class-topping grit. Many in your position have rebounded by addressing these gaps—your decile strengths show you're capable. Reapply after bolstering those key areas, and you'll likely shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

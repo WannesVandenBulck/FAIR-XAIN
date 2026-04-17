@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 334,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:03.482809",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a strong academic foundation with an impressive undergraduate GPA of 3.80—well above the typical 3.21 average—and a solid LSAT score of 37, right around the norm of 36.70. You're planning to attend full-time, like the vast majority of students at 92.7%, and come from a middle-income family background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 61%, tipping the scales toward rejection to prioritize applicants with lower predicted risks. The biggest factor pulling the prediction toward failure was your Year 3 school decile ranking of 1, which is in the bottom tier compared to the average of about 5.5; this stood out as the most influential concern, suggesting the model sees early struggles in later undergrad years as a strong signal for bar exam challenges. Next, your LSAT score worked in your favor, pushing the prediction toward passing because it aligns well with successful students, helping to offset some concerns. Your Year 1 decile of 2, also below the average of 5.7, added a moderate push toward the failure prediction, reinforcing worries about consistent performance from the start. Overall, while your GPA shines brighter than most, the model weighed your lower decile rankings—especially in Year 3—more heavily than those strengths for this high-stakes forecast. Compared to typical students who get approved, your profile shows promise in test scores and college grades but lags in school-relative performance metrics that the model prioritizes for bar success. This isn't a judgment on your potential as a Hispanic leader in law; it's the model's data-driven caution. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through post-baccalaureate options or targeted tutoring, and reapply with updated transcripts showing upward trends. You might also seek feedback from admissions counselors on strengthening those early performance areas. With your strong GPA as a foundation, targeted improvements could shift future predictions in your favor. Keep pushing—many overcome similar hurdles to excel in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

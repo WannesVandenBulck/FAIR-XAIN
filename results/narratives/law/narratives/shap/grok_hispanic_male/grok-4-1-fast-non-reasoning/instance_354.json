@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 354,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:19.551053",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 36, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 (4th decile) and Year 3 (1st decile). The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 48% chance that you would fail it—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your background that stood out the most to the model. The biggest influence was your Year 3 school decile ranking, which placed you in the bottom 10% of your peers; this strongly signaled a higher risk of bar exam struggles, pushing the prediction firmly toward failure more than any other aspect. Your LSAT score of 36, while close to the average of 36.7, provided some counterbalance by nudging the odds slightly in favor of passing, showing the model saw potential there. Similarly, your undergraduate GPA of 2.60, below the typical 3.21 average, offered a modest positive pull toward success but wasn't strong enough to offset the top concern. Compared to other students, your Year 3 performance was a notable outlier dragging the prediction down, while your other metrics aligned more closely with the middle of the pack. It's tough to hear, especially when you're motivated and coming from a supportive upper-middle background, but the model prioritizes patterns from past students who succeeded or faltered on the bar. To move forward, focus on bolstering your academic record—perhaps through a post-baccalaureate program or targeted LSAT retakes to climb those decile rankings and GPA perceptions. Retake the LSAT if feasible, as even small gains there made a difference in your favor this time. Building a stronger narrative around your Year 3 recovery could also help in appeals or reapplying to schools with more holistic reviews. You're clearly driven; use this as fuel to address the gaps the model flagged. With targeted improvements, future predictions could shift dramatically in your favor. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

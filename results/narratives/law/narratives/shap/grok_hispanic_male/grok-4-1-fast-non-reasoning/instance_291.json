@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 291,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:24.506100",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select students likely to succeed on their first try. Your profile includes a Year 1 school decile of 4, a Year 3 decile of 2, lower-middle family income, an LSAT score of 24, an undergraduate GPA of 2.40, and plans to attend full-time—solid foundations from which you've built your path forward. The model estimates a 50.9% probability that you would fail the bar exam on the first attempt, tipping the scales just over the threshold that led to your application's rejection, as the school prioritizes those predicted to pass with high confidence. Among all the factors considered, your family income stood out as the most influential, actually working in your favor by suggesting a stronger likelihood of passing the bar compared to what the model typically sees. Next in importance was your LSAT score, which unfortunately pushed the prediction toward failure because your 24 is well below the average of 36.7, signaling a potential challenge in the rigorous reasoning demands of law school and the bar. Your Year 3 decile of 2—lower than the typical 5.53—also contributed toward the failure prediction, as it reflects performance in the upper years of school that the model associates with bar struggles. These top three elements overshadowed other aspects like your undergraduate GPA of 2.40 (below the 3.21 average) or your full-time status, which is common among admitted students. In comparison to typical applicants who pass, your metrics in these key areas fall short of the stronger profiles the model favors, though your family background provides a positive counterbalance many others lack. This isn't a judgment on your potential or resilience—many from similar Hispanic backgrounds overcome these odds through targeted preparation. To move forward, focus on retaking the LSAT to boost your score toward or above the average, while strengthening your upper-year academic decile through additional coursework or post-bac programs. Consider part-time options if they allow more study focus, and gather strong letters highlighting your determination. Reapply after these improvements, as even small shifts in these top factors could flip the model's prediction in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 223,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:03.884172",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.00, LSAT score of 38, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 76% chance that you would fail the bar exam— a risk level that led to your application's rejection to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, well below the typical student's 5.53 average, signaling to the model a notable dip in performance that often correlates with bar struggles. Next in influence was your Year 1 decile of 3, again lower than the average of 5.71, reinforcing concerns about early academic momentum compared to peers who passed the bar. On a brighter note, your LSAT score of 38—higher than the 36.70 average—worked strongly in your favor, pulling the prediction toward success and showing your potential in that area. While factors like your full-time status (common among 93% of students) and family background played roles, these top three shaped the overall decision most decisively. You're not alone in this; many applicants with similar early decile challenges face the same hurdle, but those who boost later performance often succeed. To move forward, consider retaking courses or targeted prep to improve your decile rankings, perhaps through community college or additional undergrad work, and reapply once you've strengthened those areas. Law schools value persistence, especially from determined Hispanic men like you who've already scored above average on the LSAT. With focused effort, you can shift your profile to align with bar passers and turn this into a temporary setback.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

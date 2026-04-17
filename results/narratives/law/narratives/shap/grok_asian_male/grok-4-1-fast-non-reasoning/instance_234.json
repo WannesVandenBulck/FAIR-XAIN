@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 234,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:55.093239",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.80, LSAT score of 39, middle family income bracket, full-time student status, and school deciles of 4th in Year 1 and Year 3—and predicted a 57.5% chance that you would fail the bar exam on your first attempt. This probability crossed the threshold that led to your application's rejection, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The three most influential factors in this decision were your LSAT score, undergraduate GPA, and Year 3 school decile ranking. Your LSAT score of 39, which is above the average of 36.7, was the strongest positive signal, strongly pushing the prediction toward you passing the bar rather than failing. In contrast, your undergraduate GPA of 2.80, below the typical 3.21 average, significantly pulled the prediction toward failure by signaling potentially weaker academic preparation compared to most applicants. Similarly, your 4th decile ranking in Year 3 grades—lower than the average 5.53 decile—reinforced concerns about consistency in performance relative to peers. Overall, while your LSAT stood out favorably against typical students, the gaps in GPA and later school rankings outweighed it, tipping the model toward expecting a bar failure. This placed your profile below the bar for admission, where most accepted students show stronger balances across these metrics. To move forward, consider retaking the LSAT to build on your strength there, bolstering your undergraduate record through a post-baccalaureate program or additional coursework, and aiming for higher decile rankings in any ongoing studies. Gathering stronger letters of recommendation highlighting your resilience as an Asian male navigating competitive academics could also help reframe your story. With targeted improvements, you can strengthen your profile for future applications and boost your real bar exam odds.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

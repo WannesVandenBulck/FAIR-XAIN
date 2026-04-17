@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 53,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:06.198862",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid undergraduate GPA of 3.20, which is right in line with the typical student's 3.21, along with an LSAT score of 33 and plans to attend full-time like most applicants. Your family comes from a high-income bracket, which is a positive aspect in many eyes. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 41.3% chance that you would fail the bar—high enough to trigger a rejection, as the school prioritizes applicants likely to pass on their first try. The key factor driving this prediction was your Year 3 school decile ranking of 1, meaning you placed in the bottom tenth of your peers that year, far below the average of around the middle of the pack; this stood out as the strongest signal pushing the model toward expecting bar failure, likely because weaker later-year performance has historically correlated with bar struggles. Next in influence, your high family income actually worked in your favor, nudging the prediction toward bar passage by suggesting stronger resources and support compared to lower-income peers. Your LSAT score of 33, while respectable, also pulled slightly toward passing but wasn't enough to offset the Year 3 concern, especially since it falls below the dataset average of 36.7. In contrast to typical admitted students, who often show steadier or higher decile rankings throughout undergrad, your dip in Year 3 grades relative to your earlier Year 1 decile of 3 made your profile riskier in the model's eyes. This isn't a judgment on your potential as a Hispanic leader in law or your full-time commitment—it's just how these patterns played out for past students. To move forward, consider retaking the LSAT to boost it above average or strengthening recent academic showings through a post-bac program or additional coursework that highlights improvement. Building a narrative around your resilience, perhaps with letters emphasizing your background and upward trajectory, could help in reapplying or appealing. Many students in similar situations have succeeded by addressing these exact gaps—your high family support gives you a great foundation to do the same. Keep pushing; law schools value determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

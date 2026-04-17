@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 299,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:49:44.698091",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40 and an impressive LSAT score of 42—both above the typical student's marks of 3.21 and 36.70, respectively—your law school application stood out in several ways, including your upper-middle family income background and plans to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 62.6% chance that you would fail it, tipping the scales toward rejection to minimize the school's risk of low bar passage rates. This prediction wasn't driven by your race or gender, but by a careful weighing of your academic trajectory and other factors against patterns seen in past students. The most influential factor pushing toward a failure prediction was your undergraduate GPA; even though it's above average, it wasn't quite strong enough in the model's eyes to signal bar exam success on its own for someone with your profile. Next in importance, your Year 3 school decile ranking of 9—which is higher than the average of 5.53—worked strongly in your favor, pulling the prediction toward expecting you to pass by showing recent academic improvement. Your family's upper-middle income level followed as the third key factor, contributing somewhat toward the failure prediction, perhaps because the model associates it with certain performance patterns in the dataset that didn't align perfectly with bar success. Compared to typical students, your stronger LSAT and Year 1 decile of 8 (versus the average 5.71) were positive but not enough to outweigh these top influences. Overall, your profile is competitive in spots, but the model saw a riskier path to the bar based on how these elements balanced out. To move forward, consider retaking the LSAT to push it even higher or bolstering your recent grades further to improve that Year 3 decile, as those could shift future predictions dramatically. You might also seek targeted bar prep resources early, drawing on programs tailored for Black students to build confidence and skills. Reapplying after addressing these gaps could turn this into an approval next time—many students in similar situations have succeeded by focusing here. Keep pursuing your goals; your foundation is strong, and this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

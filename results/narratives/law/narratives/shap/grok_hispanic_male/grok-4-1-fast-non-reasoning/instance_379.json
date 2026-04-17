@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 379,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:58.062603",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.30—which is actually a bit above the typical 3.21 average—along with your LSAT score of 33.50, Year 1 and Year 3 school deciles in the mid-to-lower range, middle family income, and plans to attend part-time while working. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 55.9% chance that you would fail the bar on your first try, tipping the scales just enough to reject your application. This prediction hinges on a few key factors from your profile that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your choice to attend part-time, which is uncommon—only about 7% of students do this—and the model sees it as a hurdle, as part-time students historically struggle more with the intense bar prep demands compared to the vast majority who go full-time. On a brighter note, your undergraduate GPA played a strong positive role, pulling the prediction toward success because it's solidly above average and signals reliable performance. Similarly, your LSAT score, though below the typical 36.70 average, still contributed positively by showing enough potential to offset some concerns. Overall, your part-time status outweighed these strengths, especially when viewed against typical full-time applicants with stronger test scores who tend to pass at higher rates. While your middle-income background and decile rankings factored in, they weren't the main drivers here. This isn't a judgment on your abilities or background—many students like you succeed with extra effort. To move forward, consider reapplying after boosting your LSAT through targeted prep, exploring full-time options if feasible, or gaining more academic momentum to shift future predictions in your favor. Law schools value persistence, and with adjustments, your above-average GPA could shine even brighter next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

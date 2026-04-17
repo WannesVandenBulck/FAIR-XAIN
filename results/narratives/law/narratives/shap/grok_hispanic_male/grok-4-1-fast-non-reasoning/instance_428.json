@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 428,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:50.604505",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.50, an LSAT score of 36, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both sitting at the lowest level of 1—well below the typical student's deciles around 5 or 6. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated an 82% chance you'll fail the bar exam, tipping the scales against your application and leading to this rejection. This high failure risk means the school sees too much uncertainty in your path to becoming a practicing attorney, even with your solid LSAT close to the average of 36.7. The decision hinged most heavily on your Year 3 school decile, as being in the bottom group strongly signaled to the model a higher likelihood of bar struggles, pushing the prediction firmly toward failure. Your Year 1 decile played a close second role, similarly highlighting early academic challenges in your school rankings that reinforced concerns about sustained performance. On a brighter note, your LSAT score pulled in the opposite direction, nudging the prediction toward success because it's competitive with what most admitted students achieve. Compared to typical students who pass the bar, your low deciles stand out as red flags, while stronger early and later grades often correlate with better outcomes in this dataset. These top three factors—your Year 3 decile most of all—overpowered other elements like your family background or full-time plans, which align with the norm. It's tough news, especially when you're motivated to build on your strengths as a Hispanic man pursuing law. To move forward, consider retaking the LSAT to boost it further or enrolling in a post-baccalaureate program to improve your GPA and decile rankings, proving your academic trajectory. Gathering stronger letters of recommendation or relevant experience could also help reframe your profile for other schools. Many students in similar spots have succeeded by addressing these gaps head-on—your next application can tell a story of growth. Keep pushing; law needs diverse voices like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

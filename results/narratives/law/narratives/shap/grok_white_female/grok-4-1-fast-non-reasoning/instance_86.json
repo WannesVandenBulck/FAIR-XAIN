@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:48.543608",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 66.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the model zeroed in on a few key aspects of your profile that shaped this outcome. Most influential was your Year 3 grade decile, which ranked in the bottom tier of your school; this stood out strongly as a signal pushing the prediction toward bar failure, unlike the mid-to-upper deciles typical among students who passed. Next, your Year 1 grade decile, also at the lowest level, reinforced that concern, further tipping the scales against passing compared to the much higher averages for successful bar takers. On a brighter note, your undergraduate GPA of 3.60 exceeded the average for those who passed (around 3.24), which helped pull the prediction somewhat toward success and softened the overall risk assessment. Other elements, like your LSAT score of 31—below the 37.27 average for passers—and your lower-middle family income bracket, which is less common among bar passers (where middle and upper-middle incomes dominate), played supporting roles but weren't the top drivers. Being a full-time student aligned well with the vast majority (over 93%) who passed, offering a small positive nudge. Overall, your early and later undergrad deciles were the biggest hurdles, placing you below the profiles of accepted students who typically showed stronger year-by-year school rankings. This isn't a judgment on your potential, but a data-driven flag based on historical trends. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your grade deciles through additional coursework or explanations in a new application, and gathering letters highlighting your undergraduate strengths and full-time commitment. Many students in similar spots have improved their profiles and succeeded on reapplication—persistence pays off here.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

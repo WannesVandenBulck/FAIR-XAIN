@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 247,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:36.726256",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 36, upper-middle family income, and your plan to attend full-time, along with your school decile rankings from Year 1 (4th decile) and Year 3 (1st decile). The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 66.8% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your profile that stood out as the strongest influences. Most critically, your low Year 3 decile ranking—placing you in the bottom tenth of your school—pushed the prediction heavily toward failure, as it signals weaker performance in later undergraduate years compared to typical students who average around the 5th or 6th decile. Your Year 1 decile in the 4th spot also contributed toward that risk, falling below the average of about 5.7 and reinforcing concerns about consistent academic strength. On a more positive note, your LSAT score of 36, close to the dataset average of 36.7, worked in your favor by nudging the prediction slightly toward passing success. While your GPA of 3.10 is a bit below the typical 3.21, and full-time status is common among admitted students, those played smaller roles here. Compared to students who typically pass the bar, your later-year grades lag noticeably behind their stronger rankings, which is why the model flagged higher risk despite your solid test score. This isn't a judgment on your potential as a Hispanic leader in law—many from similar backgrounds overcome early hurdles—but the system prioritizes bar passage predictors to protect students from that setback. To move forward, consider retaking courses or a post-bac program to boost your decile rankings, perhaps targeting LSAT retakes for a slight edge, and reapply after building a stronger academic narrative. Schools value persistence, and with targeted improvements, you can shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

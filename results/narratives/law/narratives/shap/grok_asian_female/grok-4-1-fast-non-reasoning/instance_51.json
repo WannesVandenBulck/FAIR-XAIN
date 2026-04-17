@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 51,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:31.375402",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 96% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your third-year grade decile, which placed you in the bottom group compared to an average of around the sixth decile among those who passed the bar—pushing the prediction firmly toward failure. Your LSAT score of 24 was the next biggest factor, well below the typical 37 seen in passers, further increasing the model's concern about bar success. Even your first-year grade decile in the bottom tier, versus the sixth decile average for successful students, added to this risk, though it had a smaller influence. Your middle family income aligns with about a third of bar passers, and your choice of full-time study matches nearly all of them, but these couldn't offset the dominant academic signals. Overall, your profile stood out as riskier than accepted students, whose stronger early and later undergrad rankings and higher entrance exam scores typically predict bar passage. While your undergraduate GPA of 2.6 is below the 3.24 average for passers, it wasn't the top driver here. This isn't a judgment on your potential or effort—it's the model highlighting where your metrics most diverged from proven success patterns. To move forward, consider retaking the LSAT to boost your score significantly, as that's a key lever for shifting predictions, and focus on climbing higher in your grade deciles through targeted academic strategies. You might also explore preparatory programs or gap-year experiences that have helped similar students strengthen their profiles before reapplying. With deliberate steps, you can realign your strengths to better match what the model sees as bar-ready.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

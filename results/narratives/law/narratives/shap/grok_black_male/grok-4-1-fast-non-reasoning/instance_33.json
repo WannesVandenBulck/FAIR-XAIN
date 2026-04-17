@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:55.522811",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who went on to take the bar exam, looking at factors like academic records, test scores, and background to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.70 (below the typical 3.21 average), LSAT score of 31 (well under the 36.70 average), first-year school decile of 1 (far below the 5.71 average), third-year decile of 1 (versus a 5.53 average), high family income bracket, and full-time student status—and predicted a 93.3% chance that you would fail the bar exam on your first attempt. This high predicted failure risk is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing the model toward this failure prediction was your third-year academic decile ranking at the bottom of your school, which strongly signaled potential struggles ahead compared to peers who ranked higher. Your first-year decile, also at the very bottom, reinforced this concern as the second-biggest influence, deviating sharply from the middle-of-the-pack performance seen in most successful bar takers. Even your LSAT score played a notable role in tipping the scales toward failure, as its lower-than-average mark stood out against the stronger scores typical of those who pass. While your high family income and full-time status were neutral or less impactful here, they couldn't offset these academic red flags that dominated the model's decision. In essence, your early and sustained low rankings in school deciles set you apart from the average student profiles that predict bar passage, making the model view your path to success as unusually risky. This isn't a judgment on your potential or background, but a data-driven assessment based on patterns from past students. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through post-bac courses or a master's program, or targeting schools with more holistic admissions that weigh personal stories like yours alongside metrics. Building a clearer track record of academic improvement could shift future predictions in your favor, and many applicants in similar situations succeed by addressing these exact gaps. Keep pushing—law is full of stories of resilience just like what you're showing now.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

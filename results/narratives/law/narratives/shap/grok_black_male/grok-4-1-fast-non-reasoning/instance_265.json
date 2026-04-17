@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 265,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:47:40.069349",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.20—right around the typical 3.21 average—and an LSAT score of 35, which is close to the usual 36.7, you've put together a respectable profile for law school admission. Your family falls into the middle income bracket, and you're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated an 82% probability that you would fail it. This high risk of failure is why your application was rejected—the school uses this prediction to prioritize applicants likely to succeed on the bar and graduate strong. The model's decision hinged most on your academic decile rankings from earlier years in school, particularly your Year 3 performance, which landed you in the bottom decile (1 out of 10), far below the average of around the 5th or 6th decile. This low Year 3 standing was the single biggest factor pushing the prediction toward failure, as it signals to the model a potential struggle with the rigors ahead in law school and on the bar. Your Year 1 decile, also at the bottom (1 versus the average 5.7), was the second strongest influence in the same direction, reinforcing concerns about consistent early academic momentum. On a more positive note, your undergraduate GPA provided the third most significant counterbalance, nudging the prediction slightly toward passing success because it's on par with what succeeds for most students. Compared to typical applicants who pass the bar, your early deciles are notably weaker, while your GPA aligns with theirs, highlighting where the model saw the biggest red flags in your trajectory. Many students in similar situations, especially from underrepresented backgrounds like yours, have turned things around by addressing early academic hurdles. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or targeted prep that demonstrates upward momentum. You might also explore schools with holistic reviews that weigh your personal story more heavily, or gain practical experience like paralegal work to strengthen future applications. With targeted improvements, especially in showing stronger recent academics, you can shift this prediction and open new doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

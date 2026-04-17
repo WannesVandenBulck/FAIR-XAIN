@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 415,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:51:19.072859",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 3.30, an LSAT score of 26, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 96.9% chance that you would fail the bar exam—far higher than what it sees in most applicants, leading directly to the rejection of your application. This high failure risk stems primarily from three key factors in your profile that weighed heavily against you. Most influential was your Year 3 school decile ranking in the bottom 10%, well below the typical student's middle-of-the-pack 5th or 6th decile, which strongly signaled to the model a heightened risk of bar failure based on similar past students. Next, your LSAT score of 26, significantly lower than the average of around 37, further pushed the prediction toward failure by matching profiles of others who struggled on the exam. Your Year 1 decile in the bottom 10%—again undercutting the usual 5th or 6th decile—added to this concern, reinforcing a pattern of early academic challenges. While your undergraduate GPA of 3.30 edges above the average of 3.21 and your full-time status aligns with over 90% of students, these weren't enough to offset the top concerns. Compared to typical admitted students, who generally show stronger decile rankings and higher LSATs correlating with bar passage, your profile unfortunately clustered with those who faced greater hurdles. This isn't a judgment on your potential or background, but a data-driven flag from historical trends. To move forward, consider retaking the LSAT to boost your score, seeking targeted academic support to improve your school performance trajectory, or exploring programs with bar passage resources tailored for students like you. Building a stronger application with these steps could shift the model's view in your favor next time. Keep pushing—you've already shown resilience in completing your undergrad above average.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

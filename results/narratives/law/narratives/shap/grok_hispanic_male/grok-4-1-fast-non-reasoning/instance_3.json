@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:06.901448",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 32, upper-middle family income, full-time student status, and school decile rankings of 4th in Year 1 and 8th in Year 3—solid improvement over time that shows your potential. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 48.7% chance you'll fail the bar, tipping the scales just enough to reject your application since the school prioritizes those predicted to pass confidently. This prediction wasn't random; it hinged on a few key aspects of your profile, ranked by their influence on the outcome. The strongest factor pulling in your favor was your Year 3 decile ranking of 8th, well above the typical student's 5.5th—your late academic surge convinced the model you're capable of strong performance under pressure, pushing toward a pass prediction. However, your LSAT score of 32, notably below the average of 36.7, had the biggest negative pull, signaling to the model a higher risk of bar struggles despite your other strengths. Your Year 1 decile of 4th, under the average 5.7th, added a smaller but still concerning nudge toward failure, highlighting an early weaker start compared to peers. Overall, while your upward trajectory and background stand out positively against many applicants, the LSAT gap loomed largest, making your profile riskier than the typical admitted student's. To move forward, consider retaking the LSAT to boost it closer to or above average, as that single change could flip the model's view dramatically. Strengthening recent academics further, perhaps through targeted prep courses, would amplify your Year 3 gains. Reach out to admissions for feedback or reapply after addressing these, and remember, models guide but don't define your path—many in similar situations have succeeded by focusing on these levers. Your resilience as a Hispanic male in this field is already a strength; channel it into these steps for a stronger shot next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

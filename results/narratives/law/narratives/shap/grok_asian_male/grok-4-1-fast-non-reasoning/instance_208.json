@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 208,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:14.064146",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and an impressive LSAT score of 42, which outshines the dataset average of 36.70, you brought some strong academic credentials to your law school application. However, your Year 1 school decile ranking of 2nd out of 10 placed you in the lower performance tier compared to the average of around 6th, signaling early academic struggles that caught the model's attention. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing the bar at 48%, a risk level high enough to trigger rejection as the school prioritizes applicants likely to pass on their first try. Among all the factors considered—like your lower-middle family income bracket and full-time student status—the three most influential in this decision were your LSAT score, Year 1 decile, and undergraduate GPA. Your standout LSAT was the top positive force, strongly pushing the prediction toward bar passage by demonstrating exceptional analytical skills beyond what most applicants show. In contrast, your low Year 1 decile ranking had the strongest negative pull, significantly nudging the model toward expecting failure due to that early indicator of challenges in a rigorous academic environment. Your high undergraduate GPA provided a meaningful counterbalance, leaning the prediction back toward success and highlighting your ability to excel in college-level work. Compared to typical students in the dataset, where decile rankings average mid-pack and LSATs are lower, your profile shows real strengths in standardized testing and prior grades, but the early dip in school performance outweighed them just enough to tip the scales. This isn't a judgment on your potential as an Asian male applicant—many with similar backgrounds succeed—but a data-driven caution based on patterns where low early deciles often correlate with bar struggles. To move forward, consider retaking courses or building a stronger early academic record if possible, perhaps through a post-bac program to boost your decile equivalent, while leveraging your LSAT edge in appeals or other schools. You might also seek targeted bar prep resources early, as students with your GPA profile often overcome early hurdles with focused effort. Admissions models like this evolve, so reapplying after addressing that Year 1 signal could shift your odds dramatically. Your strong metrics suggest you're capable—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

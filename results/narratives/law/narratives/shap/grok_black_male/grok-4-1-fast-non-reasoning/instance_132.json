@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 132,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:39:15.318955",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 40—higher than the typical applicant's 36.7—and an undergraduate GPA of 2.2, alongside lower decile rankings in your early school years (2nd decile in Year 1 and 1st in Year 3, compared to averages around 5th or 6th). The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing at 47.8%, which crossed the threshold for rejection since the school prioritizes applicants likely to pass on their first try. This prediction wasn't random; it hinged on just a few key factors from your record that carried the most weight. Your LSAT score was the strongest positive signal, pushing the model toward expecting you to pass by showing stronger-than-average preparation for legal reasoning. However, your Year 3 decile ranking had the biggest negative pull, signaling to the model that your later academic performance ranked at the very bottom of your school, which strongly nudged the prediction toward failure risk. Your Year 1 decile added a smaller but similar drag, reinforcing concerns about consistently underperforming relative to peers. Compared to typical students who pass—who often rank in the middle or higher deciles—your grades painted a picture of hurdles that outweighed even your LSAT strength. While factors like your full-time status (common for 93% of applicants) and family income played minor roles, they didn't shift the balance. This rejection stings, especially given the extra barriers Black students like you often face in competitive fields, but it's a data-driven call focused on bar passage odds. To move forward, consider retaking courses or programs to boost your decile rankings, as that's the model's biggest red flag—perhaps through a post-baccalaureate or targeted GPA improvement initiative. You could also highlight any extenuating circumstances in a future appeal or reapply after demonstrating upward trends. With your LSAT as a foundation, targeted improvements could flip this prediction next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

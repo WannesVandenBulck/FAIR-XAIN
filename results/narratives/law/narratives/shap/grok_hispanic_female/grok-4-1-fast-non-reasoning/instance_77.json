@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:38.596329",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 45.2% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. Among the key elements in your profile, your undergraduate GPA stood out as the strongest positive force, actually pushing the prediction toward success since it's higher than the average for students who passed the bar. In contrast, your position in the lower decile of your school's Year 3 grades had the most significant negative pull, signaling to the model a notable risk of bar exam struggles compared to typical admitted students who rank much higher. Your LSAT score also worked in your favor to some degree, though less powerfully, as it nudged the outlook slightly toward passing despite being below the average for bar passers. Your middle family income aligns with a substantial portion of successful students, and opting for full-time study matches the norm for those who pass, but these didn't outweigh the concerns from your Year 3 performance. Overall, your strong undergrad record gives hope, but the model saw your later school ranking as the biggest red flag when stacked against profiles of accepted students, who typically show consistent high deciles like 6th or above in both early and later years. This isn't a judgment on your potential—it's just how your specifics compared in the prediction. To move forward, consider retaking the LSAT to boost it closer to 37 or higher, and if possible, strengthen your recent academic standing through additional coursework or a post-bac program that highlights improvement. Many students in similar spots have succeeded by addressing these exact gaps, so reaching out to admissions for feedback or reapplying after targeted prep could shift your odds dramatically. You're clearly capable, given your undergrad success, and with focused effort on those ranking and test areas, a future application stands a good chance. Keep pushing—you've got the foundation to turn this around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

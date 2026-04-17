@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 154,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:07:34.058122",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.70, which stands out well above the typical 3.21 average among students in our dataset, along with middle-family-income background and plans to attend full-time like most applicants. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 56.5%—just over the threshold that led to your application's rejection. This prediction draws from patterns in thousands of past students' data, focusing on key indicators of bar success like early and later school grades, test scores, and more. The most influential factor pulling in your favor was your strong undergraduate GPA, which significantly nudged the model toward expecting you to pass, reflecting how it signals sustained academic strength beyond law school entry. On the flip side, your Year 3 school decile ranking of 2—below the average of about 5.5—had the strongest push toward predicting failure, as it suggests challenges in maintaining top performance later in your studies compared to peers. Your Year 1 decile of 1, also lower than the typical 5.7 average, added further weight toward the failure prediction, highlighting early struggles that the model sees as a concerning pattern. While your LSAT score of 28 is below the 36.7 average, it played a lesser role here, and your full-time status aligned with the vast majority of successful students. Overall, these grade deciles outweighed your GPA's positive signal, tipping the balance against admission despite your promising undergrad record. This doesn't define your potential—many students overcome similar early hurdles. To strengthen future applications, consider retaking the LSAT to boost it closer to average, seeking targeted support to improve decile rankings in advanced coursework, or gaining practical experience like internships that demonstrate resilience. You might also explore programs with holistic reviews or retake key metrics to shift the model's view. Keep pushing forward; your above-average GPA shows you have the capability to succeed with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

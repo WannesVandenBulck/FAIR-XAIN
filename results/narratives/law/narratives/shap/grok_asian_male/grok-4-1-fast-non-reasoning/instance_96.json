@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 96,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:09.383240",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.80, LSAT score of 31, upper-middle family income, full-time enrollment plans, and notably low Year 1 and Year 3 school decile rankings of 1—and predicted an 80.5% chance that you would fail the bar exam on your first attempt. This high predicted failure risk is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, which placed you in the bottom 10% of your school that year—far below the typical student's middle-of-the-pack average—signaling to the model a significant drop-off in performance that often correlates with bar struggles. Next in importance was your Year 1 decile, also at the bottom 10% compared to peers' averages around the middle, reinforcing concerns about early academic challenges that the model sees as persistent hurdles. Your undergraduate GPA provided some counterbalance, as its value slightly favored a passing prediction by being closer to average levels, but it wasn't strong enough to offset the top concerns. Overall, your metrics fell short of typical admitted students, whose deciles, GPAs around 3.21, and LSATs near 36.7 paint a stronger picture of bar readiness. While your upper-middle income and full-time status align with most applicants, they didn't sway the outcome here. This rejection stings, especially given your background, but it's not the end—many students in similar positions rebound by retaking the LSAT to hit 35+, boosting their GPA through post-bac courses, or targeting schools with holistic reviews that value diverse experiences like yours. Consider auditing undergrad classes or bar prep programs to build proven academic momentum, and reapply next cycle with targeted improvements to flip the model's outlook. You've got the drive; channeling it into these steps can turn this into a temporary setback.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

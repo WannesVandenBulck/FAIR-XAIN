@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:32.868471",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.20 and an LSAT score of 34, your profile also includes strong family support from an upper-middle income background and plans to attend law school full-time. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 75.2% chance that you would fail, which directly led to the rejection of your application since the school prioritizes candidates with lower predicted failure risks. This prediction was driven primarily by your academic performance in school, particularly your position in the lower deciles for grades in Year 3 and Year 1, which stood out as the top factors pushing the model toward expecting bar exam struggles. Your Year 3 grades, ranking you in the 2nd decile compared to the typical 5th or 6th decile for others, had the strongest negative influence, signaling to the model a potential downward trend or insufficient preparation for the rigors ahead. Similarly, your Year 1 grades in the 2nd decile—well below the average—reinforced this concern as the third-most influential factor, suggesting early academic challenges that often correlate with bar exam outcomes. On a more positive note, your undergraduate GPA was a key counterbalancing force, nearly matching the dataset average of 3.21 and pulling the prediction somewhat toward success, showing your college-level work held up reasonably well. Compared to typical students who pass the bar on their first attempt, your school decile rankings are notably lower, while your LSAT and GPA align closer to the middle of the pack, highlighting academics during law school as your relative weakness. The model weighs these patterns from thousands of past students, where lower early and later deciles frequently predict failure despite other strengths like your full-time commitment, which is common among admits. This isn't a judgment on your potential or background—many Asian males with similar family resources succeed—but a data-driven flag on those grade deciles. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through targeted tutoring or a post-baccalaureate option, and reapply after demonstrating stronger academic momentum. You might also explore schools with more holistic reviews or appeal with evidence of improvement since those grades. With focused effort on those early indicators, your solid GPA and LSAT could position you much better next time. Keep pushing; many overcome these hurdles.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

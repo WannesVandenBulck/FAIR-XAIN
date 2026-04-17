@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:09.444370",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.50, an LSAT score of 27.50, low family income bracket, and plans to attend full-time, along with your early academic deciles from school. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 69% chance that you would fail the bar exam—high enough that your application was rejected to minimize the school's risk of low pass rates. This prediction hinged most strongly on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and stood out as the biggest factor pushing the model toward forecasting failure, since stronger late-stage grades often signal better bar preparation. Next in influence was your Year 1 decile of 1, also in the lowest tenth—far below the typical student's mid-range standing of around the 5th or 6th decile—which reinforced concerns about consistent academic momentum from the start. Your undergraduate GPA of 3.50, while solid and above the average of 3.21, worked in your favor as the third-most influential factor, nudging the prediction slightly toward success and showing the model some reassurance in your college performance. Compared to typical students who pass the bar, your LSAT score of 27.50 is notably lower than the average 36.70, though it played a lesser role here, and your low family income and full-time status aligned with the norm for most applicants. These early low deciles were the dominant signals of risk, overriding positives like your GPA in the model's eyes. It's tough to hear, especially when you're pushing forward despite challenges that many from similar backgrounds face. To turn this around, focus on retaking the LSAT to boost it closer to or above average, as that could dramatically shift future predictions. Strengthening recent academic showings—perhaps through post-bac courses or targeted prep—might also lift those decile concerns in a reapplication. Consider part-time programs if full-time added unintended flags, and gather strong recommendation letters highlighting your resilience. Many students in your position have succeeded by addressing these exact gaps; with targeted improvements, you can reapply stronger next cycle. Keep your determination—law school values perseverance like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

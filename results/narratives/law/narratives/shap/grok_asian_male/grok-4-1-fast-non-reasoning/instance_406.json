@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 406,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:50:45.250488",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and a competitive LSAT score of 36, you brought strong academic credentials to your law school application, along with middle-family-income background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 40.9%, tipping the scales toward rejection to prioritize candidates with lower predicted risks. This prediction stemmed from a careful weighing of your profile against patterns seen in thousands of past students, focusing on the factors most predictive of bar success. The three biggest influences were your LSAT score, your Year 3 school decile ranking of 2 (below the average of about 5.5), and your undergraduate GPA. Your LSAT, ranking among the top percentiles, strongly pushed the model toward expecting you to pass, acting as a major positive signal in your favor. Similarly, your standout GPA signaled high potential and pulled the prediction toward success, counterbalancing other concerns. Yet your lower Year 3 decile had the strongest countervailing effect, nudging the model toward failure risk because it suggests your performance relative to peers dipped later in school, a pattern linked to bar struggles in similar students. Compared to typical applicants, where Year 3 rankings average higher, this stood out as your most pivotal drag, even with your other strengths nearly offsetting it. While full-time status and family income played smaller roles, they aligned with the norm and didn't sway things much. To move forward, consider retaking courses or building recent academic momentum to boost that later decile, perhaps through post-baccalaureate programs or targeted prep that showcases upward trends. Strengthening any perceived late-stage dips could recalibrate your profile for future applications, as schools value evidence of sustained excellence heading into the bar. With your LSAT and GPA as anchors, targeted improvements here could easily shift your predicted odds.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

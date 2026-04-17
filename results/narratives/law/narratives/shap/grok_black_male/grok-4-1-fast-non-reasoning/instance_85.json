@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:16.908650",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application stood out for your commitment to pursuing this path full-time, but the admissions model focused on key indicators from past students' paths to the bar exam. Your undergraduate GPA of 3.00, while respectable, sits below the typical 3.21 average among applicants, and it emerged as the single most influential factor in the model's assessment. This GPA nudged the prediction slightly toward expecting you to pass the bar on your first try, acting as a modest positive signal amid other concerns. However, your family income bracket pushed moderately in the opposite direction, increasing the model's estimate of bar failure risk compared to lower-income peers in the dataset. Similarly, your Year 3 school decile ranking of 4—below the average 5.53—contributed toward the failure prediction, signaling relatively lower performance in that stage relative to classmates. These top three elements—your undergrad grades helping your case, but family income and later-year decile working against it—together drove the model's overall output to a 49.1% predicted probability that you would fail the bar exam on the first attempt. Since the threshold for approval requires a stronger outlook for passing, this tipped the decision to reject your application, even though your LSAT score of 32.50 and Year 1 decile of 4 were considered but less decisive here. Compared to typical students who got approved, you were close on GPA but diverged on those income and decile metrics, which have historically correlated with bar outcomes in the data. It's understandable to feel frustrated, especially given the systemic hurdles Black students like yourself often face in competitive academic pipelines. To move forward, consider retaking the LSAT to boost it toward the 36.70 average or strengthening your recent academic decile through additional coursework or post-bac programs. Building a narrative around targeted improvements, perhaps with mentorship from bar-pass alumni, could also help in reapplying or appealing to schools with holistic reviews. Your full-time dedication is a great foundation—keep pushing, as many have turned similar profiles around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

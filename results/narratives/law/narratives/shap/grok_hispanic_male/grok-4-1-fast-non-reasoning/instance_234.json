@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 234,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:47.530961",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your solid LSAT score and middle-income family situation—paint a picture of determination against real-life challenges, but the admissions model focused on predicting your odds of passing the bar exam on the first try. The model assessed your profile and estimated a 57.5% probability that you would fail the bar exam initially, which crossed the threshold for rejecting your application to prioritize students with stronger predicted success rates. This decision hinged on just a few key factors from your academic record, with your undergraduate GPA emerging as the most influential, as it was lower at 2.80 compared to the typical 3.21 average, pushing the prediction toward expecting a bar failure. Your Year 3 school decile ranking of 4—below the average of about 5.5—came in second, signaling to the model that your later academic performance wasn't as competitive as many peers', further tilting the odds against passing. On a brighter note, your LSAT score of 39, which beats the average of 36.7, was the top factor pulling in the opposite direction, strongly suggesting you have the test-taking skills to succeed on the bar. Being in the full-time student category, like over 90% of applicants, didn't sway things much either way. Overall, your profile stacks up as solid in some areas like LSAT but lags behind typical admitted students in GPA and decile rankings, which is why the balance tipped to rejection. These models aren't perfect and don't capture your full story, like the resilience you've shown as a Hispanic student from a middle-income background. To move forward, consider retaking courses or a post-bac program to boost your GPA and decile standing, as even small improvements there could flip future predictions. You might also seek targeted bar prep resources early, leveraging that strong LSAT strength. Reapplying after addressing these gaps, perhaps with added work experience or recommendations highlighting your potential, could make a big difference. Keep pushing—many students in similar situations turn things around and pass the bar on their first try.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

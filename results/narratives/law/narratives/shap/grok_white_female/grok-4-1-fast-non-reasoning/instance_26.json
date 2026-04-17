@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:15.968176",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 53.1% chance that you would not pass—tipping just over the threshold we use to make admission decisions. This prediction draws from your academic record, including your Year 1 and Year 3 grade deciles of 5 and 4 respectively, your LSAT score of 30, undergraduate GPA of 3.00, upper-middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average Year 1 decile was 6.04 and Year 3 was 5.91, while the average LSAT was 37.27 and GPA 3.24, showing your metrics are below those benchmarks. The three most influential factors in pushing your prediction toward failure were your Year 3 decile ranking, your family income bracket, and your LSAT score. Your Year 3 decile of 4 had the strongest pull toward the failure prediction, as it signals performance in the lower half compared to successful bar takers. Your upper-middle family income, while common among passers (45.1% share), contributed somewhat toward the riskier side in your case, possibly interacting with other factors. On a brighter note, your LSAT score worked in your favor, nudging the prediction toward passing since it showed potential despite being below the average. Full-time status aligned well with the 93.2% of successful students, but it wasn't a top driver here. Overall, your profile compares to accepted students by lagging most in later-year grades and test scores, areas the model weighs heavily for bar success. To strengthen future applications, focus on boosting your academic deciles through targeted study habits or retaking the LSAT to hit closer to 37 or higher. Consider gaining practical experience, like internships, to build a stronger narrative around your potential. Many students in similar positions have improved by addressing these gaps—reapplying after targeted improvements could shift your odds significantly.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

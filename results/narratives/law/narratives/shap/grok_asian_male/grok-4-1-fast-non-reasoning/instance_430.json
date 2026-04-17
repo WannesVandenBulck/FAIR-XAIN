@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 430,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:52:18.483515",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 76.7% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. This decision hinged primarily on your academic performance in school, particularly your grades in later years. Your position in the bottom decile for Year 3 grades stood out as the strongest factor pushing the prediction toward failure—it signaled to the model a notable struggle compared to most students, who typically rank around the middle of their class. Your Year 1 grades, also in the bottom decile well below the average, reinforced this concern as the second-most influential factor, suggesting early challenges that carried forward. While your undergraduate GPA of 2.90 is slightly below the typical 3.21 average, it actually worked slightly in your favor, nudging the prediction a bit toward passing despite the overall risk. Other elements like your middle-family income bracket and LSAT score of 28—lower than the average of about 37—played supporting roles but weren't the main drivers here. Full-time enrollment plans align with the vast majority of students, so that didn't sway things much. In comparison to typical admitted students, who often show stronger decile rankings and higher test scores, your profile raised red flags about bar exam readiness. This isn't a judgment on your potential or background, but a data-driven call to ensure success rates. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year academics through additional coursework or tutoring, and reapplying with evidence of improvement—many students turn things around this way and succeed. Schools value persistence, especially from determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

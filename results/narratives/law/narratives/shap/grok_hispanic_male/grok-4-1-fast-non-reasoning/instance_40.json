@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:16.088870",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 21.30, middle-family income background, full-time student status, and school decile rankings of 6th in Year 1 and 2nd in Year 3 based on your grades. The admissions model, trained on data from thousands of past students' academic records, family details, and bar exam outcomes, predicted a 65% chance that you would fail the bar exam on your first try. This high risk of failure is why your application was rejected—law schools use this prediction to prioritize applicants likely to succeed and pass the bar promptly. The model's decision hinged most strongly on three key factors from your profile, ranked by their influence. Your LSAT score had the biggest push toward the failure prediction, as it stands notably below the typical applicant's average of around 37, signaling to the model a potential struggle with the intense analytical demands of law school and the bar. Next, your undergraduate GPA pulled in the opposite direction, slightly favoring a pass prediction since your 3.20 is right in line with the average of 3.21, showing solid prior academic capability. Finally, your Year 3 school decile of 2nd—well below the average 6th—nudged the prediction toward failure, indicating a dip in performance relative to peers that the model associates with bar exam challenges. Compared to typical students who pass, your combination stands out with that lower LSAT and recent decile drop outweighing your steady GPA. While disheartening, this isn't a judgment on your potential as a Hispanic man from a middle-income family pursuing law full-time—it's a data-driven risk assessment. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your Year 3 performance through targeted study habits, and reapplying next cycle with these improvements to shift the model's view. Many students in similar situations have succeeded by addressing these exact gaps, and law schools value persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 308,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:25.018602",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid foundation with your undergraduate GPA of 3.50, which stands above the typical 3.21 average, along with a competitive LSAT score of 37 and a family income in the high bracket that reflects stability many students aspire to. You're planning to attend full-time, just like the vast majority of applicants at 92.7%. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated an 80.3% chance that you would fail the bar exam— a threshold that led to your application's rejection to protect the school's outcomes. This prediction wasn't driven by your strengths, but primarily by your academic decile rankings from earlier years in school. The most influential factor was your Year 3 decile of 2, which is well below the average of about 5.5; this lower standing signaled to the model a heightened risk of bar struggles, strongly pushing the prediction toward failure. Next in importance was your Year 1 decile of 1, even further below the typical 5.7 average, reinforcing concerns about early academic momentum and further tipping the scales against passing. Your high family income, while a positive, played a smaller role by slightly nudging the prediction toward success, but it wasn't enough to offset those academic flags. Compared to students who typically pass the bar, your profile aligns well in GPA, LSAT, and socioeconomic factors, but those lower deciles set you apart in a way the model weighs heavily as a predictor of exam outcomes. This isn't a judgment on your potential as a Hispanic leader in law or your full-time commitment—it's the model highlighting patterns from historical data. To move forward, consider retaking courses or programs to boost your decile rankings, as even small improvements there could dramatically shift future predictions. You might also seek targeted bar prep resources tailored for students with similar backgrounds to build proven success signals. With your strong GPA and LSAT as anchors, targeted steps on early performance could open doors at other schools soon. Keep pushing—many in your position have turned similar feedback into bar-passing triumphs.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

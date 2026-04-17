@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 358,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:53:24.827240",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 57.5% chance that you would fail the bar exam. This prediction directly influenced the admissions decision, as the school prioritizes applicants likely to pass on their first try. For you, a Black male with a middle-income family background, the model's assessment hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your peers—far below the typical student's middle-of-the-pack standing around the fifth decile. This low ranking was the strongest factor pushing the prediction toward failure, signaling to the model potential challenges in sustaining strong performance through later undergraduate years. Counterbalancing that somewhat was your solid undergraduate GPA of 3.70, which exceeds the average of 3.21 and pulled the prediction in the direction of passing success. Your LSAT score of 33, while respectable, fell short of the dataset average of 36.70 and provided a milder positive influence toward passing, but not enough to offset the top concern. Being in the part-time work category, which is uncommon at just 7.3% of students compared to the vast majority who go full-time, played a lesser role overall. Compared to typical students who pass the bar, your profile shows strengths in undergraduate grades but notable gaps in later-year consistency and standardized testing that tipped the scales. It's understandable to feel disappointed, especially given your unique circumstances as a Black man navigating these academic pressures. To move forward, consider retaking the LSAT to boost your score closer to or above the average, while focusing on strategies to improve your class rankings in any remaining coursework—perhaps through tutoring or study groups. Building a stronger narrative around your part-time commitments could also help in reapplying, and exploring targeted bar prep resources early might demonstrate your commitment. With targeted improvements, you can reshape this prediction and strengthen your candidacy for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

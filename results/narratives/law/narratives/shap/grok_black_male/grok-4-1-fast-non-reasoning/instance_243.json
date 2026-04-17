@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 243,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:46:15.929038",
+  "status": "success",
+  "narrative": "As a Black male applicant with a low family income background, your law school application was evaluated using a model trained on data from thousands of students who went on to take the bar exam, predicting whether they'd pass on the first try based on academic and personal factors. The model assessed your profile— including your undergraduate GPA of 2.70, LSAT score of 22.50, first-year decile rank of 1st (well below the average 6th), third-year decile rank of 1st (also far below the typical 6th), and plans to attend full-time—and concluded there's an 82% chance you'd fail the bar exam initially. This high predicted risk of failure is why your application was rejected; law schools use this to prioritize admits likely to succeed and pass the bar promptly. The three biggest factors driving this prediction, in order of influence, were your third-year school decile rank, your LSAT score, and your undergraduate GPA. Your low third-year decile rank stood out most strongly, pushing the model heavily toward predicting bar failure because it signals consistently weaker performance compared to peers. Your LSAT score reinforced this concern, as its below-average level (typical students score around 37) further increased the predicted risk. On a more positive note, your undergraduate GPA, while below the average of 3.21, actually nudged the prediction slightly toward success, softening the overall risk a bit. Compared to typical students who pass the bar, your ranks in the bottom decile for both early and later years, combined with the low LSAT, put you in a tougher spot than most full-time applicants. This isn't a judgment on your potential or background—many from similar circumstances overcome these metrics—but the model weighs these academic signals heavily for bar passage. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your GPA through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience as a Black man from a low-income family. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value diverse perspectives like yours. Keep pushing; your story has real power beyond these numbers.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

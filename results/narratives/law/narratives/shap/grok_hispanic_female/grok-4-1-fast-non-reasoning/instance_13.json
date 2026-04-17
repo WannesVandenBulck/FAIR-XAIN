@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:38.859431",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.30 stood out as the primary factor pushing the model's prediction toward expecting you to struggle on the bar exam, even though it's slightly above the average of 3.24 seen among students who passed on their first try. This edged your predicted chance of failing the bar at 59.6%, which was just enough for the law school to reject your application, as they prioritize admitting those likely to succeed right away. Coming from an upper-middle income family and planning to attend full-time aligns well with typical successful applicants, but it wasn't enough to offset the other concerns. Your LSAT score of 40, higher than the 37.27 average for bar passers, did help pull the prediction somewhat toward success, showing your potential in that area. On a brighter note, your Year 3 decile ranking of 9—stronger than the 5.91 average for those who passed—worked strongly in your favor, nudging the model to see you as more capable than it otherwise might have. These top three elements—your undergrad grades weighing against you most heavily, followed by your solid later-year performance countering it, and your LSAT offering moderate support—ultimately tipped the scales. Compared to admitted students, your profile shows strengths in test scores and recent academics that many lack, but the model fixated on that early GPA as a bigger risk signal. It's tough to hear, especially with your Hispanic background and the dedication full-time study demands, but this isn't a judgment on your worth—it's a data-driven call focused on bar passage odds. To move forward, consider retaking the LSAT if possible or bolstering your undergrad record through post-bac courses or a master's to shift future predictions. Reaching out to admissions for feedback or appealing with evidence of your Year 3 improvement could also help. Many students in similar spots strengthen one key area and reapply successfully—your decile progress suggests you have that trajectory. Keep pushing; with targeted steps, you'll likely turn this around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

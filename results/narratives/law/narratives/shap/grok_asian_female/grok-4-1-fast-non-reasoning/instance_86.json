@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 86,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:44.394262",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 66.8% chance that you would not pass, tipping the scales against admission. This prediction draws from your academic record, including your undergraduate GPA of 3.60—which is actually stronger than the 3.24 average among students who passed the bar—and other details like your LSAT score of 31, your position in the lowest deciles for Year 1 and Year 3 grades at your school, your lower-middle family income bracket, and your plan to attend full-time. The two biggest factors pushing the model toward predicting bar failure were your Year 3 and Year 1 grade deciles, both at the bottom of the scale, far below the mid-range positions (around the 6th decile) typical for students who succeed on the bar. These early academic struggles in school stood out as the strongest signals of potential difficulty ahead, even outweighing other elements in your profile. On a more positive note, your solid undergraduate GPA worked against the failure prediction, pulling the odds in your favor compared to the typical successful student's lower average. Among students who passed the bar, lower-middle income backgrounds like yours are less common (only about 9% of them), while full-time enrollment aligns well with the vast majority (over 93%) who succeeded. Overall, your profile compares unfavorably to admitted students mainly due to those low school deciles, despite strengths like your GPA that mirror or exceed passers' averages in some areas. The model isn't judging your potential or worth—it's just highlighting patterns from past students where similar early grade positions often led to bar challenges. To move forward, consider retaking the LSAT to boost your score closer to the 37+ average of bar passers, or strengthening your recent academic performance through additional coursework or a post-bac program to shift those deciles. You might also explore part-time options or scholarships tailored to lower-middle income students, as they could better align with success patterns. Gathering letters of recommendation that emphasize your undergraduate strengths could help reframe your story in future applications. With targeted improvements, you can reshape how models like this—and admissions committees—view your bar exam prospects. Keep pushing; many students turn around similar profiles and succeed.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

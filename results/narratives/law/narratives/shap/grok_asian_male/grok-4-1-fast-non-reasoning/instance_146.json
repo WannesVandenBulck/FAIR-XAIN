@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 146,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:34:15.922676",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've built a solid academic foundation with your undergraduate GPA of 3.10, LSAT score of 33, and strong showings in your early school years—ranking in the 8th decile in Year 1 and 6th decile in Year 3, both above average for peers in the dataset. Your family falls into the middle income bracket, and you've indicated plans to attend part-time, which is less common as only about 7% of students do so compared to over 90% full-time. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 53% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes those predicted to pass confidently. The most influential factor pushing toward this failure prediction was your part-time status, which the model sees as a notable risk compared to the full-time path most successful bar takers follow. On a positive note, your high Year 1 decile ranking strongly pulled the prediction toward success, signaling early academic promise that outperforms the typical student's 5.71 average decile. Your Year 3 decile, while still solid above the 5.53 average, had a milder favorable influence but couldn't fully offset the top concerns. Overall, while your metrics stack up well against averages in several areas, the model weighed your uncommon part-time choice as the dominant hurdle, tipping the balance despite your strengths. This isn't a judgment on your potential—it's a data-driven call based on patterns from thousands of similar students. To move forward, consider reapplying with a full-time commitment if feasible, as that alone could shift the prediction dramatically. Boosting your LSAT toward the 36.7 average or strengthening later-year deciles might also help. You could retake the LSAT or gather letters emphasizing your discipline as a part-time student. Many in your position succeed by addressing these flags head-on—your above-average early performance shows you have the foundation to pivot and pass the bar. Keep pushing; law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

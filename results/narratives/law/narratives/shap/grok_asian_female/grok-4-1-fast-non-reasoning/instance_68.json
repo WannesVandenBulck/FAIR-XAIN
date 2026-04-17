@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 68,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:34.739004",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 69.9% chance that you would not pass. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students likely to succeed on the bar. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom group and significantly pushed the prediction toward expecting bar failure—far below the mid-to-upper deciles typical of students who passed. Next in influence was your LSAT score of 37, which, while close to the average for bar passers at 37.27, worked in your favor by nudging the prediction slightly toward success. Your Year 1 decile ranking, also at the bottom, further reinforced the risk of failure, contrasting sharply with the higher deciles seen in successful students. These early and later academic rankings stood out as the top drivers, overshadowing other aspects like your middle family income bracket—which aligns with over a third of bar passers—or your undergraduate GPA of 2.50, which trails the 3.24 average for those who succeeded. Being full-time, like over 93% of passers, didn't sway things much here. Compared to typical accepted students, your profile shows stronger early grades potential but weaker sustained performance in school rankings, which the model flagged as a key mismatch for bar success. This isn't a judgment on your potential or background as an Asian female from a middle-income family; it's the model highlighting patterns from past students where low deciles often correlated with bar struggles. To move forward, focus on boosting your academic deciles through targeted study habits or additional coursework, retake the LSAT if feasible to exceed that passer average, and consider programs offering bar prep support. Gathering stronger reference letters emphasizing your resilience could also help in reapplying or appealing. With deliberate steps to address these academic signals, you can reshape your profile for future success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 84,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:16:04.348666",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 52.6% chance that you would fail the bar exam on your first try, which is just above the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances—without considering gender or race. The model's decision hinged most strongly on your Year 3 school decile ranking of 2, which placed you in the lower part of your class that year and significantly raised concerns about bar exam readiness, as it stood out as the top factor pushing toward a failure prediction compared to successful students who averaged around the 6th decile. Next in influence was your lower-middle family income bracket, which actually worked in your favor by pulling the prediction toward success, since a notable portion of bar passers—about 9%—came from similar backgrounds, defying expectations of disadvantage. Your Year 1 decile of 3 also contributed toward the failure prediction, though less forcefully than Year 3, as it was below the 6th decile average for those who passed. Other elements, like your LSAT score of 29 well under the 37 average for passers, undergraduate GPA of 3.0 slightly below their 3.24 norm, and full-time enrollment plans aligning with 93% of successful students, played supporting roles but weren't the main drivers. In essence, your later-year grades were the biggest red flags when stacked against profiles of admitted students who typically ranked higher throughout undergrad and law school prep. This isn't a judgment on your potential or background—many from modest incomes thrive—but a data-driven call to protect your future success. To move forward, consider retaking the LSAT to boost it closer to 37 or above, strengthening your upper-year grades through targeted study or tutoring, and reapplying next cycle with those improvements, as even small shifts in key areas have flipped predictions for similar applicants. You have the full-time commitment that matches top performers, so building on that foundation could make all the difference. Keep pushing; your story isn't over yet.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

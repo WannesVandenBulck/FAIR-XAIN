@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 327,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:37.110089",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 28, lower-middle family income, and plans to attend full-time, along with your early academic deciles from school. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 63.3% chance that you would fail the bar on your first try—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your profile that stood out as the strongest influences. Most critically, your Year 3 school decile ranking of 1—well below the typical student's midpoint around 5.5—pushed the prediction heavily toward failure, signaling to the model a potential struggle with sustaining strong performance over time. Your Year 1 decile of 1, also far under the average of about 5.7, reinforced this concern as the second-biggest driver, suggesting early academic challenges that often correlate with bar exam hurdles. On a more positive note, your undergraduate GPA of 3.10, slightly below the average of 3.21, actually worked in your favor, nudging the prediction a bit toward passing and softening the overall risk. Compared to typical students who pass the bar, who often enter with higher early deciles and stronger test scores like the average LSAT of 36.7, your profile aligned more closely with those who faced first-try failures. Full-time status, common among 93% of applicants, didn't sway things much either way. While family background and demographics like being Hispanic played roles in the full picture, they weren't the top deciders here. This isn't a judgment on your potential—models like this spot patterns, not destinies. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year academics through targeted courses or tutoring, and gathering strong recommendation letters that highlight your resilience. Many students in similar situations have improved their profiles and succeeded on later bar attempts or at other programs—persistence and targeted prep can shift your odds dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

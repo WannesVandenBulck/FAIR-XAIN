@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 390,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:43.840331",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.40 and an impressive LSAT score of 42—both above average for typical students—the admissions model took a close look at your full profile to predict your chances of passing the bar exam on the first try. Unfortunately, it estimated a 62.6% probability that you would fail, which crossed the threshold for rejecting your law school application, as the school prioritizes candidates likely to succeed on the bar right away. The most influential factor pushing toward this failure prediction was your undergraduate GPA; even though it's stronger than the average of 3.21, it still stood out as the top concern, suggesting the model sees room for even higher performance to signal bar exam readiness. Next in importance was your Year 3 school decile ranking of 9th, which actually worked in your favor by pulling the prediction toward passing—it's notably higher than the typical 5.53 average, showing strong late-stage academic momentum that offset some risks. Your upper-middle family income bracket, while not uncommon, ranked third and nudged the outlook slightly toward failure, perhaps because the model associates it with certain pressures or patterns seen in similar students. Compared to typical applicants, your full-time enrollment plan aligns with the vast majority (over 92%), so it didn't sway things much either way. These top three elements—your GPA as the biggest red flag despite its strength, bolstered by your solid Year 3 deciles, and tempered by family background—together drove the model's cautious decision. It's worth noting that your standout LSAT and Year 1 decile of 8 (above the 5.71 average) helped, but weren't enough to tip the scales. This isn't a judgment on your potential as an Asian male student with clear drive; the model just weighs these predictors conservatively for bar passage. To move forward, consider retaking the LSAT for an even higher score, bolstering your GPA through post-bac courses or a master's, or applying to schools with more holistic reviews that value your full-time commitment and upward grade trajectory. Gathering letters emphasizing your Year 3 improvements could also highlight strengths the model undervalued. With targeted steps, you can reshape this narrative for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

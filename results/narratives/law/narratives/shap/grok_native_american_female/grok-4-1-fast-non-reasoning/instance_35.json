@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 35,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:59.279479",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 95.8% chance that you would not pass, based on patterns from thousands of past students. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates. The model's decision hinged most strongly on your academic decile in your third year of school, which stood out as the top factor pushing toward this failure prediction—it's well below the levels typical for students who went on to pass, where most ranked in the 6th decile or higher. Next in influence was your first-year decile ranking, also low at the 2nd decile compared to the 6th decile average among passers, further tipping the scales against you. Your LSAT score of 28 played a notable role too, as it fell short of the 37 average seen in successful bar takers, reinforcing the model's concerns about your preparation for the rigors ahead. While your middle family income aligns with over a third of those who passed and your choice to study full-time matches nearly all successful students, these didn't outweigh the academic red flags. Your undergraduate GPA of 2.70, likewise below the 3.24 average for passers, added to the overall picture but wasn't as decisive as those top three factors. In essence, compared to admitted students—who typically show much stronger year-end class rankings and higher entrance exam scores—your profile signaled higher risk, even though many from similar income backgrounds do succeed with better academics. This isn't a judgment on your potential or background; it's the model highlighting where your record diverges from proven paths to bar success. To move forward, consider retaking the LSAT to boost your score toward 37 or above, strengthening your early and later undergrad performance through additional coursework or a post-bac program, and gathering letters from professors who can speak to your upward trajectory. Reapplying after addressing these core areas could shift the prediction in your favor, opening doors to programs that value resilience like yours. Many students in your position have turned things around by focusing on these exact steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

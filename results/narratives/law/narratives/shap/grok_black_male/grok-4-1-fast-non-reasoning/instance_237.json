@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 237,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:54.450550",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you've built an impressive academic foundation that many peers would envy. Your Year 1 and Year 3 school deciles both at 7 also place you in the upper half of your classes, ahead of averages around 5.5-5.7. Coming from an upper-middle-class family background further positions you favorably compared to many applicants. However, the admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 49% probability that you would fail the bar—crossing the threshold that led to your application's rejection. This prediction hinges on just a few key factors from your profile, with your Year 3 decile ranking emerging as the most influential. That solid 7th decile actually worked strongly in your favor, nudging the model toward expecting you to pass by highlighting your later academic consistency. Next in importance was your family income bracket; being upper-middle pushed the prediction somewhat toward failure, as the model associates higher socioeconomic status in this dataset with slightly elevated bar risks, perhaps due to patterns in study habits or pressures observed among similar students. Your undergraduate GPA followed closely, with its above-average 3.40 exerting a moderate pull toward a failure prediction, even though it's better than most—suggesting the model weighs it as a modest risk signal in context. Compared to typical students who pass, where these factors often align more favorably overall, your combination tipped just over the edge despite your strengths in LSAT and deciles. Full-time enrollment plans align with the vast majority at 92.7%, so that didn't sway things much. To move forward, consider retaking the LSAT for an even higher score or bolstering Year 3 performance documentation to amplify those positives, then reapply to schools with holistic reviews that might weigh your full story beyond this model. Programs offering bar prep support for underrepresented applicants like yourself could also bridge any perceived gaps. With your profile's strengths, targeted improvements can shift the odds significantly in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

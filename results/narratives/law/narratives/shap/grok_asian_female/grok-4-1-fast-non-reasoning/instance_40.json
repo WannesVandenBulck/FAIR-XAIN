@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 40,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:48.616284",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 65% chance that you would not pass. This threshold triggered the rejection to help the university maintain high bar passage rates among its graduates. The model's decision hinged primarily on three key aspects of your profile: your LSAT score, undergraduate GPA, and Year 3 academic decile ranking. Among these, your LSAT score stood out as the strongest driver pushing the prediction toward failure—it was significantly lower at 21.3 compared to the 37.27 average among students who passed the bar, signaling to the model a notable gap in readiness for the rigors ahead. Your undergraduate GPA of 3.20 offered some counterbalance, as it was close to the 3.24 average for successful bar takers and nudged the prediction slightly toward passing. However, your Year 3 decile of 2 was well below the 5.91 average for those who passed, reinforcing the model's concern by contributing substantially toward the failure prediction. Other elements, like your middle family income bracket—which aligns with about a third of bar passers—and your choice of full-time enrollment, which is typical for 93% of successful students, played lesser roles and didn't shift the outcome enough. Compared to admitted students, who generally show stronger alignment across these metrics, your profile fell short mainly due to the LSAT and later-year performance dips. This doesn't reflect your full potential or personal strengths, such as your persistence through undergraduate studies. To move forward, consider retaking the LSAT to boost your score closer to the typical passing range, while strengthening your later academic showings through targeted prep or additional coursework. Many students in similar situations have succeeded by addressing these exact areas before reapplying. We encourage you to use this feedback as a roadmap for improvement.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

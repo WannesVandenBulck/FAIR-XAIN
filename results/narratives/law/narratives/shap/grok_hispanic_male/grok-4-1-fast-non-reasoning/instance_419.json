@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 419,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:20.076031",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.3, an LSAT score of 23, Year 1 and Year 3 school deciles both at 5, upper-middle family income, and plans to attend full-time—solid details that paint a picture of your background and ambitions. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 54% chance you'll fail it on your first try, tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on how your profile stacks up against patterns from past students, focusing on a few key factors that swayed the outcome most strongly. The top influence working in your favor was your Year 3 school decile ranking of 5, slightly below the typical 5.53 average; this showed some academic resilience in later years, nudging the model toward expecting you to pass rather than fail. However, your LSAT score of 23—well below the dataset average of about 37—had the strongest opposing pull, significantly raising the model's concern about bar exam struggles since lower scores like yours often correlate with first-time failures in the data. Rounding out the top three, your undergraduate GPA of 2.3, compared to the average 3.21, further pushed the prediction toward failure by signaling inconsistent prior performance. While your full-time status aligns with most students (over 90%) and your family income is solid, these didn't carry enough weight to offset the concerns from your test scores and grades. In essence, your LSAT and GPA stood out as bigger hurdles than your later school rankings could overcome, placing you on the riskier side compared to applicants who typically pass. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar starts through targeted prep. Next, consider retaking the LSAT to boost it closer to average levels, strengthening your undergrad record with post-bac courses if possible, and seeking bar prep resources early; reapplying with those improvements could flip the model's view and open doors. You're clearly driven—use this feedback to refine your path forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

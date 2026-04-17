@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 227,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:13.881887",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and an LSAT score of 37, which edges out the average of 36.70, you've built an impressive academic foundation that many aspire to. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, aligning with the vast majority of students at 92.7%. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 45.9% chance that you would fail the bar exam. This probability crossed their threshold, leading to the rejection of your application, as they prioritize admitting those predicted to pass on the first try.\n\nThe model's decision hinged most strongly on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers that year—far below the average decile of about 5.5—and this was the top factor pushing the prediction toward failure, signaling potential challenges in sustaining performance closer to the bar exam timeline. Counterbalancing that, your strong undergraduate GPA had the second-strongest influence, pulling the prediction toward success by demonstrating your capability in college-level work. Your LSAT score followed closely as the third key factor, also nudging things positively with its above-average strength, showing solid reasoning skills relevant to legal studies.\n\nCompared to typical students in the dataset, your early Year 1 decile was similarly low at 1 versus an average of 5.7, but it was your Year 3 performance that carried the most weight here, outweighing even your standout GPA and LSAT. While these metrics don't capture your full potential or personal drive, they explain why the model leaned toward caution in your case.\n\nTo move forward, consider retaking courses or targeted prep to boost your later-year rankings, perhaps through tutoring or study groups, and reapply after building even stronger evidence of consistency—many students in similar positions have succeeded by addressing these exact gaps. Your profile already shows real promise, so channeling that into demonstrable improvement could tip the scales next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

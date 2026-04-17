@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:26.542436",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 51.8% chance that you would fail it—crossing the threshold we use to make such decisions. This prediction draws from your academic record, test scores, and background details like your lower-middle family income and plans to attend full-time. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, which places you in the bottom tenth of your school that year, far below the typical top-half standing of students who passed the bar. In contrast, your LSAT score of 36 worked strongly in your favor, pulling the prediction toward success since it's close to the average of 37.27 among those who passed. Similarly, your undergraduate GPA of 3.40 helped your case, as it's higher than the 3.24 average for bar passers, countering some of the risk. These three elements—your later-year performance ranking first in influence, followed by your LSAT and undergrad grades—together tipped the scales toward rejection, even though your early Year 1 decile of 2 and full-time status align more closely with successful students. Compared to those typically admitted, who often rank in the 6th decile or higher by Year 3 and come from middle or upper-middle income families (making up about 80% of passers), your profile showed more risk in sustaining strong performance. While your strengths shine through in testing and prior academics, the model prioritizes consistent decile progress as a key bar exam signal. To move forward, consider retaking the LSAT to push closer to 38 or higher, bolstering your Year 3 record through additional coursework or a post-bac program, and reapplying next cycle with updated transcripts. Many students in similar positions have succeeded by addressing these gaps—your solid UGPA and full-time commitment give you a strong foundation to build on. With targeted improvements, you can shift that probability firmly toward passing and secure admission.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

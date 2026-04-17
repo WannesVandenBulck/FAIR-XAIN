@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 330,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:18:49.895406",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.40, an LSAT score of 33, lower-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both ranking in the 2nd decile based on grades. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 50.8% chance that you would fail the bar on your first try—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This decision hinged on just a few key factors from your profile that most strongly shaped the prediction. Your undergraduate GPA stood out as the top positive influence, suggesting it helped pull the odds toward passing the bar, performing above the typical 3.21 average and showing solid academic foundation. However, your Year 3 school decile in the 2nd percentile—well below the average 5th or 6th decile—emerged as the most powerful counterforce, strongly pushing the model toward predicting failure by signaling weaker performance relative to peers later in your studies. Your Year 1 decile, also in the 2nd, added further weight in the same concerning direction, though with less intensity, as it deviated sharply from the dataset's average around the 6th decile. Compared to typical students who pass the bar, where grades consistently rank higher across years, your early and sustained lower deciles tipped the scales despite strengths like your GPA and full-time commitment, which aligns with the vast majority at 93%. While your LSAT of 33 falls short of the 37 average and family background is modest, they played smaller roles here. This isn't a judgment on your potential as a Hispanic man with clear drive—many overcome similar starts through targeted growth. To move forward, focus on boosting your academic deciles in any remaining coursework, retaking the LSAT for a stronger score, and gathering letters highlighting your resilience and bar prep readiness. Reapplying after these steps, perhaps with community college or prep courses tailored to first-generation challenges, could shift your profile toward the passing predictors the model favors. You're capable of rewriting this story—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

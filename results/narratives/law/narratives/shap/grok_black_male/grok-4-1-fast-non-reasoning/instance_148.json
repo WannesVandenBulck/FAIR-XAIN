@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 148,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:40:13.831886",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your background and academic journey were carefully evaluated by our admissions model, which predicts the likelihood of passing the bar exam on the first try. The model assessed key aspects of your profile, including your Year 1 and Year 3 school grade deciles, undergraduate GPA of 2.90, LSAT score of 27, middle family income bracket, and your plan to attend part-time. It estimated a 58% probability that you would fail the bar exam initially, which is above our threshold for admission, leading to the rejection of your application. This prediction was driven primarily by three standout factors in your profile, ranked by their influence on the outcome. The most significant was your Year 3 grade decile of 1, which is well below the typical student's decile of about 5.5; this low ranking strongly pushed the model toward predicting bar failure, as it signals challenges in sustaining strong performance later in your studies. Next, your undergraduate GPA of 2.90, slightly under the average of 3.21, worked in your favor by nudging the prediction toward passing, showing some resilience in your prior college work. Finally, your choice of part-time enrollment—uncommon, as only about 7% of students opt for this—pulled the prediction toward failure, likely because the model associates it with added difficulties in focusing fully on rigorous legal training. Compared to typical students, who often have higher deciles around 5-6, stronger LSAT scores near 37, and full-time plans, your profile appeared riskier in these key areas. While factors like your LSAT and family income played supporting roles, they didn't outweigh the top concerns. This isn't a judgment on your potential as a Black man pursuing law—many from similar backgrounds succeed with targeted preparation—but the model prioritizes bar passage stats to ensure student success. To move forward, consider retaking the LSAT to boost your score above average, strengthening your later-year grades through additional coursework or tutoring, and exploring full-time options if feasible. Reapplying after addressing these could shift your predicted odds significantly, and we're here to guide you on building a stronger case.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

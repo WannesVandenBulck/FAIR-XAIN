@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 279,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:37.887727",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 38, middle family income bracket, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both sitting at the 2nd decile—meaning your early grades placed you in the lower part of your class compared to typical students, whose averages hover around the 5th or 6th decile. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 66.5% chance that you would fail it on your first try, which is high enough to trigger an automatic rejection of your application to protect the school's bar passage rates. This prediction isn't a judgment on your potential or background, but a data-driven assessment based on patterns from past students like you. The three biggest factors driving this outcome were your LSAT score, your Year 3 school decile, and your Year 1 school decile, ranked by their influence on the model's thinking. Most notably, your LSAT score of 38—stronger than the average of 36.70—worked strongly in your favor, pushing the prediction toward expecting you to pass the bar, as higher scores like yours often correlate with success in similar cases. However, your Year 3 decile of 2 pulled forcefully in the opposite direction, signaling to the model a heightened risk of bar failure because students in lower deciles at that stage have historically struggled more than the typical 5.53 average. Similarly, your Year 1 decile of 2 added to that concern, reinforcing the risk since early low performance below the 5.71 average has been a red flag in the data for many students. Compared to typical applicants who pass the bar prediction, your LSAT stands out positively, but those lower deciles deviate from the stronger academic trajectories that usually tip the scales toward approval. Your full-time status aligns with the vast majority at 92.7%, so it didn't sway things much, nor did your GPA of 2.90, which is a bit below the 3.21 average. To move forward, focus on strengthening your academic profile—perhaps retake the LSAT if possible to build on your solid score, seek targeted tutoring to boost grades toward higher deciles, or gain practical experience like internships that demonstrate resilience, then reapply to schools with more holistic reviews that might value your unique background as a Hispanic male overcoming middle-income challenges. With deliberate steps, you can shift these patterns in your favor for future opportunities.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:27.798125",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated an 80% probability that you would fail the bar exam, which directly led to the rejection of your admission because the school prioritizes candidates with stronger predicted odds of success. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank of around the 5th or 6th decile, signaling a significant dip in performance that the model sees as a major red flag for bar exam readiness. Next in influence, your LSAT score of 35 worked in your favor somewhat, as it pulled the prediction slightly toward passing, though not enough to offset other concerns—it's a bit below the average of 36.7 but still respectable. Your upper-middle family income bracket also nudged the prediction toward failure, as the model associates it with patterns where students in similar situations faced higher risks, compared to the broader dataset average. While your Year 1 decile of 6 was solid and above average, and your full-time student status aligns with most applicants, these didn't carry enough weight to change the outcome. In comparison to typical students who pass, your profile shows stronger early performance but a troubling slide later on, which stands out as the key differentiator. This isn't a judgment on your potential as an Asian male pursuing law—many in similar backgrounds succeed with targeted improvements. To move forward, focus on boosting your academic decile through stronger coursework or test prep, perhaps retaking the LSAT to push it higher, and consider programs that support students with performance dips. Gathering letters of recommendation highlighting your resilience could also help in reapplying. With deliberate steps like these, you can reshape your profile for future applications and prove the model wrong.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

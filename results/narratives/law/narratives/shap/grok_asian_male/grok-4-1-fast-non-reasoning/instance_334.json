@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 334,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:11.989289",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.80—well above the typical 3.21 average—and a competitive LSAT score of 37, slightly edging out the average of 36.70, you've built an impressive academic foundation that many law school hopefuls would envy. Your family falls into the middle income bracket, and you're planning to attend full-time, which aligns with the vast majority of students in the dataset at over 92%. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 61% probability that you would fail the bar on your first attempt—a threshold that led to your application's rejection, as the school prioritizes candidates predicted to pass. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1st, meaning your grades placed you in the bottom tenth of your peers that year, far below the average 5.53 decile. This low performance stood out strongly to the model, signaling potential challenges in sustaining high-level legal coursework leading up to the bar. Next in influence was your LSAT score, which actually worked in your favor by nudging the prediction toward passing, reflecting its solid strength relative to others. Rounding out the top factors, your Year 1 decile of 2nd—again in the bottom tenth compared to the average 5.71—pushed somewhat toward failure, highlighting an early pattern of underperformance in school rankings despite your undergraduate success. Compared to typical students who pass the bar, your school deciles are notably lower, which overshadowed your other strengths in the model's eyes. This isn't a judgment on your potential as an Asian male applicant with your background—many in similar demographics succeed—but rather a data-driven flag on these grade trends. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through targeted tutoring or a post-baccalaureate option, and reapply once you've strengthened those areas. Gathering letters of explanation for your Year 1 and 3 performance could also help contextualize this for human reviewers. With your UGPA and LSAT as anchors, targeted improvements here could flip the model's prediction in your favor next time. Keep pushing; your profile shows real promise beneath these hurdles.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

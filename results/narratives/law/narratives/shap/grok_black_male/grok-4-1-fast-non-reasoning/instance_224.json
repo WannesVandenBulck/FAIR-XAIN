@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 224,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:02.001961",
+  "status": "success",
+  "narrative": "As a Black male applicant with a middle-income family background, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles of many past students. The model looked at your academic record, including your undergraduate GPA of 2.80—which is below the typical 3.21 average—your LSAT score of 32 compared to the usual 36.70, and your strong high school performance in Years 1 and 3, where you ranked in the top decile at your school. It also noted your plan to attend full-time, which is the norm for over 90% of students. Overall, the model estimated a 40.9% chance that you would fail the bar exam on your first attempt, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. The three biggest factors driving this prediction were, in order of influence, your Year 3 high school decile ranking, your Year 1 high school decile ranking, and your undergraduate GPA. Your top decile ranking in Year 3 grades stood out as the strongest positive signal, significantly pushing the model toward predicting you'd pass the bar, well above what most applicants show. Similarly, your top decile in Year 1 grades provided another solid boost in the model's eyes, helping counter some concerns. However, your undergraduate GPA had the opposite effect, pulling the prediction toward failure because it's lower than average and signaled potential challenges ahead. Compared to typical students, your high school deciles are exceptional strengths that many don't have, but they weren't quite enough to offset the GPA's drag in this case. While this rejection stings, especially given your determination as a first-generation aspirant from a middle-income background, it doesn't define your potential. To move forward, consider retaking the LSAT to aim for a score closer to or above the 36.70 average, bolstering your undergraduate record through a post-baccalaureate program or relevant internships, and applying to schools with holistic reviews that value your unique high school achievements and full-time commitment. With targeted improvements, you can strengthen your profile for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 318,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:50:56.316274",
+  "status": "success",
+  "narrative": "As a Black male applicant with an undergraduate GPA of 3.10 and an LSAT score of 28.50, your profile also includes upper-middle family income, full-time student status, and school deciles of 4th in Year 1 and 2nd in Year 3 based on your grades. The admissions model, which predicts first-time bar exam success using past student data on academics, background, and demographics, estimated a 49.9% chance that you would fail the bar exam. This high risk of failure led to the rejection of your law school application, as the university prioritizes admitting students likely to pass on their first try. The model's decision hinged most strongly on your Year 3 school decile ranking, which was the top factor pushing the prediction toward failure—your 2nd-place decile (well below the typical 5.53 average) signaled weaker late-stage academic performance compared to most students. Next in influence was your undergraduate GPA, which pulled in the opposite direction toward predicting success, as your 3.10 score was close to the dataset average of 3.21 and showed solid prior achievement. Your LSAT score ranked third in impact, also nudging the prediction toward passing, though your 28.50 was notably lower than the average of 36.70 seen in successful bar takers. Overall, while your GPA and LSAT offered some reassurance relative to peers, they weren't enough to offset the strong warning from your lower Year 3 decile, which stood out as the dominant concern in your case. This placed your profile among those with elevated risk, unlike typical admitted students who balance stronger deciles across years. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your Year 3 performance through additional coursework or tutoring if possible, and exploring programs with holistic reviews that weigh your unique background more favorably. Building a narrative around your resilience as a Black male from an upper-middle family could also help in reapplying or appealing. With targeted improvements, you can shift future predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

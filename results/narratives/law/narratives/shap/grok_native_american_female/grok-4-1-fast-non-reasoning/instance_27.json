@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:28.690494",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 63.2% chance that you would not pass the bar exam on your first try, based on patterns from thousands of past students' academic records and backgrounds. This threshold is set to prioritize admitting those most likely to succeed, and unfortunately, your profile tipped the scales toward a higher risk of failure. The biggest factor pulling the prediction in that direction was your Year 3 school decile ranking of 1st, which is notably lower than the 6th decile average among students who passed the bar—suggesting your later undergraduate performance raised concerns about sustaining the rigor needed for law school and the exam. While your undergraduate GPA of 3.00 was solid and actually nudged the model slightly toward expecting success, since it's close to the 3.24 average for bar passers, it wasn't enough to offset the other signals. Your LSAT score of 25.50 also contributed toward the failure prediction, as it's well below the 37.27 average for those who succeeded, hinting at potential challenges with the intense analytical demands ahead. Coming from a middle-income family and planning full-time studies aligns more closely with typical successful applicants, but these didn't carry enough weight to change the overall outlook. Compared to students who were accepted, your combination of lower decile rankings and LSAT stood out as riskier, even though your GPA held its own. It's tough to hear, especially when you've worked hard to get here as a full-time aspiring lawyer from a Native American background. To move forward, consider retaking the LSAT to boost your score closer to that 37 average, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience and growth. Many students in similar spots have improved these areas and succeeded on later applications—reapplying after targeted preparation could shift your prediction dramatically. You're clearly determined, and with focused steps, you can rewrite this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

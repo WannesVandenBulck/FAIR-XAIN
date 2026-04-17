@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 399,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:55:51.563095",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your background includes an undergraduate GPA of 2.40, which is below the typical 3.21 average, an LSAT score of 30 compared to the usual 36.70, and placement in the 4th decile for your first-year school grades and a very low 1st decile for your third-year grades—well under the averages of about 5.7 and 5.5. You also come from an upper-middle income family and plan to attend part-time, which is less common as only about 7% of students do so. The admissions model, trained on data from many students' paths to the bar exam, predicted a 56% chance that you would fail the bar on your first try, tipping the scales just enough to reject your application since the school prioritizes those likely to pass and succeed as lawyers. The most influential factor pushing toward this failure prediction was your third-year school decile ranking, as being in the bottom of your class there strongly signaled potential struggles on the demanding bar exam. Your first-year decile, while still middling, actually worked slightly in your favor by suggesting some earlier promise that tempered the prediction a bit. Similarly, your undergraduate GPA provided a modest counterbalance, nudging the model toward seeing you as more capable of passing than it otherwise would have. Compared to typical admitted students, who often have stronger year-end rankings and higher test scores, your profile stood out as riskier in those key academic areas. This isn't a judgment on your potential or the challenges you may have faced as a Black man pursuing this path—it's the model weighing patterns from past students. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience and part-time commitments. Many students in similar situations improve their profiles and get accepted elsewhere—persistence pays off, and resources like LSAT prep courses or academic coaching tailored for underrepresented applicants can make a real difference. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

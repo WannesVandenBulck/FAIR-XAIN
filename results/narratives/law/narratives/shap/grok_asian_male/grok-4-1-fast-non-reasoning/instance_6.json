@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:25:37.397804",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam based on academic and background factors from past students. The model estimated a 99.2% probability that you would fail the bar exam, which directly led to the rejection of your admission because the school prioritizes candidates with strong predicted odds of passing. This high failure risk stems primarily from your academic performance in school, particularly your lower rankings compared to peers. The most influential factor pushing the prediction toward failure was your Year 3 decile rank of 2, well below the typical student's average of around 5.5, signaling to the model that your later academic trajectory raises serious concerns for bar success. Next in importance was your Year 1 decile of 2, again much lower than the average of about 5.7, which reinforced the pattern of underperformance from the start. Your upper-middle family income also contributed somewhat toward the failure prediction, as the model associates certain income brackets with outcomes less favorable than those seen in other groups. While your LSAT score of 34 and undergraduate GPA of 2.90 are below typical averages of 36.7 and 3.21 respectively, and you're planning full-time enrollment like most applicants, these played smaller roles here. Overall, your profile stands out from typical admitted students who generally rank higher in school deciles and show stronger early academic metrics. This isn't a judgment on your potential or background, but a data-driven flag on bar passage risks that schools use to maintain their standards. To move forward, consider retaking courses or programs to boost your decile rankings, preparing intensively for a higher LSAT retake, or exploring post-baccalaureate options to strengthen your GPA. Building a clearer track record of academic improvement could shift future predictions in your favor. Many students in similar situations have succeeded by targeting these areas—reach out to advisors for tailored strategies. With persistence, you can reshape how models like this see your prospects.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

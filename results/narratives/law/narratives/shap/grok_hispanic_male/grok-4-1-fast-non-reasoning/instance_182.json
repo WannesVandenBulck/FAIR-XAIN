@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 182,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:09:21.506871",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with your undergraduate GPA of 3.50, which stands above the typical 3.21 average, and strong school decile rankings of 7th in both your first and third years—better than the averages of around 5.7 and 5.5. However, your LSAT score of 30.50 falls notably below the dataset average of 36.70, and your middle family income bracket aligns with common levels among applicants. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your probability of failure at 44.0%—a risk high enough to lead to the rejection of your application, as the school prioritizes candidates with stronger projected bar success. This decision hinged on just a few key factors from your profile, ranked by their influence on the prediction. Most notably, your third-year decile ranking played the strongest role in pushing the model toward expecting you to pass, as it signals consistent high performance relative to peers. Your first-year decile ranking also helped in the same positive direction, though with somewhat less weight, reinforcing your academic resilience. On the flip side, your middle family income bracket was the primary factor nudging the prediction toward failure risk, likely because it correlates with certain challenges seen in similar students' bar outcomes. Compared to typical applicants, where full-time status is the norm at over 92%, your plans there didn't stand out as a differentiator. While these elements combined to tip the scales against you this time, your above-average GPA and deciles show real strengths that many peers lack. To move forward, consider retaking the LSAT to boost that score closer to or above average, as it could dramatically shift future predictions. You might also explore programs offering bar prep support or connect with Hispanic legal networks for mentorship tailored to your background. With targeted improvements, your profile has the potential to shine in the next application cycle. Keep pushing—your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

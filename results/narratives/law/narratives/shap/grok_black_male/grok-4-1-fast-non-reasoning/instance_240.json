@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 240,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:46:06.857142",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application stood out in several ways, including a solid LSAT score of 36.50—right around the typical 36.70 average—and an undergraduate GPA of 3.30, which is slightly above the dataset average of 3.21. You're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated a 52.7% chance that you would fail it. This tipped the prediction toward failure, leading to the rejection of your application, as the school prioritizes candidates with the lowest predicted risk. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of 5.53, signaling to the model that your later academic performance placed you in the lower end compared to peers who typically pass the bar. Your Year 1 decile of 3, also under the average 5.71, reinforced this concern as the third-most important factor, suggesting early struggles that carried weight in the model's eyes. On a more positive note, your undergraduate GPA had the strongest counterbalancing influence, pulling the prediction toward success because it exceeded what the model sees in most students. Overall, your profile compares to typical students by having competitive test scores and income stability, but your school deciles stood out as weaker than average, driving the final call. This doesn't define your potential—many overcome similar early hurdles. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or targeted GPA improvement initiative. You might also seek bar prep resources early or explore schools with holistic reviews that weigh your LSAT and background more heavily. With focused effort on those school performance gaps, you can strengthen your profile for the next application cycle. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 352,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:53:04.677360",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time success on the bar exam, estimated a 49% chance that you would not pass it. This prediction is based on a comprehensive review of your academic record, test scores, family background, and planned study approach, drawing from patterns seen in thousands of past students. As a Black male applicant, your profile stands out in several ways, but the model focused on key indicators that signal higher risk of bar exam struggles.\n\nThe most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the typical student's rank around the middle of their class (average decile of about 5.5). This suggests your performance in later undergraduate years raised concerns, as students in lower deciles historically face steeper challenges on the bar. In contrast, your choice to pursue part-time status worked in your favor, pulling the prediction toward success—full-time students make up over 90% of the dataset, and part-time paths sometimes correlate with better outcomes for those who need flexibility.\n\nYour undergraduate GPA of 2.4, below the average of 3.21, also helped by nudging the odds slightly toward passing, perhaps reflecting resilience despite earlier hurdles. Other elements like your LSAT score of 30 (well below the 36.7 average), middle family income bracket, and Year 1 decile of 2 played supporting roles but were less decisive here. Compared to typical admitted students, who often show stronger mid-to-upper decile rankings and higher test scores, your profile aligns more closely with those who needed multiple bar attempts.\n\nWhile this is disappointing, especially given the barriers many Black students like yourself navigate in competitive fields like law, it's not the end of the road. To strengthen future applications, focus on boosting your academic decile through targeted coursework or retakes, aim to improve your LSAT, and gather evidence of bar prep success, such as mock exam results. Consider reapplying after addressing these gaps, or explore bridge programs designed for part-time learners—many have turned similar predictions around with persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

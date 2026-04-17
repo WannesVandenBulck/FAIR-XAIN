@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 255,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:14:05.769420",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes an undergraduate GPA of 2.90, which is below the typical 3.21 average for students in our dataset, an LSAT score of 33 compared to the usual 36.7, and school decile rankings of 3rd in both Year 1 and Year 3—lower than the averages of around 5th or 6th decile for most applicants. You come from an upper-middle income family and plan to attend full-time, which is the norm for over 90% of students. The model's assessment predicted a 44.8% chance that you would fail the bar exam on your first try, a risk high enough that the university rejected your application to prioritize students with stronger projected outcomes. This prediction hinges on just a few key factors from your profile, ranked by their influence on the decision. Your undergraduate GPA had the strongest positive sway toward passing, as it suggested some foundational academic potential despite being below average. Your LSAT score played a supporting role in the same direction, nudging the model toward expecting success even though it fell short of the typical benchmark. However, your Year 3 decile ranking pulled most forcefully in the opposite direction, signaling weaker performance relative to peers and tipping the overall prediction toward failure risk. Compared to typical students who pass the bar, your combination of these metrics—especially the lower deciles—stands out as less competitive, which is why the balance landed on rejection. This isn't a judgment on your potential as a Hispanic man with drive and family support; it's the model weighing patterns from past bar-takers. To move forward, consider retaking the LSAT to boost your score closer to or above 36.7, strengthening your Year 3 performance through targeted coursework or tutoring to climb those deciles, and gathering strong recommendation letters that highlight your resilience. Reapplying after these improvements could shift your predicted odds significantly in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

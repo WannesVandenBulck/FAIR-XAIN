@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 352,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:12.483536",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background brings unique strengths and challenges that the admissions model carefully considered alongside your academic record. The model predicts there's a 49% chance you would fail the bar exam on your first try, which is high enough to tip the decision toward rejecting your application—law schools use this prediction to prioritize applicants likely to succeed and pass the bar promptly. The key factor driving this prediction was your Year 3 school decile ranking of 2, well below the typical student's 5.5 average, as it strongly signaled to the model a higher risk of bar exam struggles compared to peers with stronger mid-college performance. This stood out as the most influential element pushing the prediction toward failure. On a more positive note, your choice to attend part-time—uncommon since over 90% of students go full-time—worked in your favor, suggesting to the model that your flexible schedule could boost your odds of passing, countering some of the risk. Similarly, your undergraduate GPA of 2.4, though below the 3.2 average, provided a mild positive nudge, indicating some foundational promise despite not being standout. Other details like your middle family income bracket, LSAT score of 30 (versus the usual 37), and early Year 1 decile of 2 played supporting roles but weren't the top drivers here. Overall, your profile compares to typical students by showing lower academic deciles and test scores that align more with those who historically struggle on the bar, even as your part-time plan sets you apart favorably. This isn't a judgment on your potential as a Hispanic man with clear determination to enter law—it's the model's data-driven assessment of bar passage odds. To move forward, consider retaking the LSAT to aim for 35 or higher, bolstering your later-year grades through targeted coursework or tutoring, and exploring full-time options if feasible to align with successful patterns. Building a stronger narrative around overcoming early academic hurdles in your personal statement could also help in reapplying or appealing to schools with holistic reviews. With focused improvements, you can shift these predictions in your favor and pursue your legal ambitions.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:44.388411",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, an LSAT score of 36, middle family income bracket, and plans to attend full-time, along with your school deciles from Year 1 (2nd decile) and Year 3 (1st decile). The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 63.5% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This threshold exists because law schools aim to admit students likely to pass the bar and succeed in practice, avoiding risks that could impact their own rankings. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom 10% of your peers that year; this stood out as the biggest factor pushing the prediction toward failure, as stronger late-stage grades are key indicators of bar readiness in the data. Next in influence was your LSAT score of 36, slightly below the typical 36.7 average—this helped pull the prediction somewhat toward passing, showing your potential but not enough to offset other concerns. Your Year 1 decile of 2 also contributed toward the failure prediction, though less forcefully, highlighting that early struggles carried some weight too. Compared to typical students who pass the bar, your deciles are notably lower than the averages around the 5th or 6th, while your LSAT was close but your overall academic trajectory didn't align with their stronger upward trends. Family income and full-time status played smaller roles here, as they're more common among admitted applicants. This isn't a judgment on your worth or background—many from similar Hispanic communities overcome these metrics through targeted prep—but the model prioritizes these academic signals for bar success. To move forward, focus on retaking the LSAT to push above 37, bolstering recent grades through post-bac courses or community college, and gathering strong recommendation letters emphasizing your resilience. Consider bridge programs or deferred admissions at schools with bar support for underrepresented students like yourself. With deliberate steps, you can reshape your profile and reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:07.762928",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 69% chance that you would not pass—high enough to trigger rejection as part of our commitment to admitting students poised for success. This prediction drew heavily from your academic record, particularly your placement in the lowest decile for grades in your first and third undergraduate years, which stood out starkly against the much higher deciles—around the 6th—typical for students who went on to pass the bar. These early and later undergrad performance indicators were the strongest factors pushing the model toward forecasting failure, signaling potential challenges in sustaining the rigorous demands of law school and bar prep. Your LSAT score of 27.5, well below the 37.3 average for bar passers, added to those concerns, though it wasn't the top influence here. On a brighter note, your undergraduate GPA of 3.5 exceeded the 3.24 average among successful bar takers, which nudged the prediction slightly in a more favorable direction by demonstrating some academic strength. Coming from a low family income background, a situation far less common among bar passers where middle and upper-middle incomes dominate, may have compounded the model's worries about external pressures, even if it wasn't the decisive factor. Your plan to attend full-time aligns well with the vast majority of passers, so that didn't hurt your case. Overall, your profile compared to accepted students highlights how your low class deciles overshadowed strengths like your GPA, placing you outside the typical successful pattern. This isn't a judgment on your potential or resilience—many overcome similar starts—but the model prioritizes patterns from past bar outcomes to protect applicants from avoidable setbacks. To move forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through a post-bac program or additional coursework to climb those deciles, and gathering letters highlighting your determination despite financial hurdles. Reach out to admissions advisors for targeted feedback, and explore bridge programs or part-time options that build credentials gradually. With focused steps, you can reshape your profile for stronger future applications.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

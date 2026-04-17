@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 88,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:53.634858",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.50, LSAT score of 40, Year 1 and Year 3 grade deciles both at 3, middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average undergraduate GPA is 3.24, and typical Year 3 deciles are around 5.91, so your profile stands out as lower in these key academic areas compared to those who succeeded. The three most influential factors in this decision were your LSAT score, undergraduate GPA, and Year 3 grade decile, in that order of impact. Your strong LSAT performance was the biggest positive force, pushing the prediction toward expecting you to pass by showing solid reasoning and analytical skills that align well with bar success. On the other hand, your undergraduate GPA had a notable negative pull, signaling to the model a potential challenge in maintaining consistent high-level academic performance, especially since it's below the average for bar passers. Similarly, your Year 3 decile worked against you, reinforcing concerns about your relative standing in later coursework compared to peers who passed. Your full-time enrollment plan fits the norm for successful students (over 93% of bar passers), and your middle income bracket is common too (about 35% of passers), so neither shifted the outcome much. Overall, while your LSAT gives you a real strength to build on, the model saw your GPA and later decile as stronger signals of risk, placing you below typical accepted students whose profiles show higher averages across these metrics. This isn't a judgment on your potential or background—it's a data-driven estimate to help the school maintain strong bar passage rates. To move forward, consider retaking the LSAT if possible to boost it further, or focus on graduate-level courses to improve your decile standing and demonstrate upward momentum. You might also seek targeted GPA improvement strategies, like tutoring in weak areas, and reapply after addressing these, as many students strengthen their profiles this way and succeed. Keep pushing; your LSAT already shows you're capable.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

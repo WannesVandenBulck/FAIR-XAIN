@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 168,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:31.531230",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates applicants based on factors like academic history, test scores, and background to forecast bar exam success, estimated a 90% chance that you would not pass the bar on your first attempt. As a Black male student from a middle-income family planning to attend full-time, your profile includes an undergraduate GPA of 2.30—below the typical 3.21 average—and an LSAT score of 19.30, well under the dataset average of 36.70. The model zeroed in on three key aspects of your record as the strongest drivers behind this high failure risk prediction. Most influential was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers, which significantly pushed the prediction toward expecting bar exam struggles compared to students who rank higher. Your LSAT score ranked as the second-biggest factor, similarly nudging the model toward failure due to its low standing relative to typical successful applicants. Even your Year 1 decile of 1, while less dominant, added further weight in the same concerning direction, highlighting early academic challenges that echoed through your profile. In contrast, typical students who pass the bar often show much stronger decile rankings around the middle or top of their classes and higher standardized scores closer to or above averages. These patterns in your academics stood out as mismatched with those of first-time bar passers in our dataset. While your full-time status aligns with most students and your family income is middle-of-the-road, they didn't offset the academic signals. To move forward, consider retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking targeted tutoring to improve your class rankings in future endeavors. Many students in similar situations have succeeded by addressing these core areas head-on, and reapplying with clearer evidence of growth could shift the model's outlook in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

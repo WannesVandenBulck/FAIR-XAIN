@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:58:06.786463",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 64% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and enrollment status, while setting aside demographics like gender or race. The strongest influence pushing toward this failure prediction was your planned part-time enrollment, as the vast majority of students who passed the bar—over 93%—were full-time, and part-time status often correlates with added challenges in sustaining the intense focus needed for bar success. On a more positive note, your Year 3 school decile ranking of 7 stood out favorably, well above the average of about 5.9 for those who passed, showing solid improvement that pulled the prediction toward success. However, your Year 1 decile of 4 weighed against you, falling below the typical 6.0 average for passers, signaling an early academic struggle that the model sees as a risk factor. Your LSAT score of 37 and undergraduate GPA of 3.20 were close to the averages for successful students, offering some balance, while your middle family income bracket aligns with over a third of those who passed. Overall, the part-time choice emerged as the top driver tipping the scales toward failure, outweighing your later academic gains despite the early setback. Compared to admitted students, who typically show stronger early performance and full-time commitment, your profile highlighted these gaps that the model flagged as hurdles. This isn't a judgment on your potential—many overcome similar starts—but a data-driven caution based on historical outcomes. To strengthen a future application, consider shifting to full-time enrollment if possible, and focus on boosting early-grade momentum through targeted study habits or additional coursework. You might also retake the LSAT or pursue experiences that demonstrate bar-exam readiness, like rigorous legal internships. Reapplying after addressing these key areas could shift your predicted odds significantly in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

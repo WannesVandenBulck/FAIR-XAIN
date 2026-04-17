@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 87,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:03:26.287975",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 55.5% chance that you would not pass—crossing the threshold we use to make admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.80, LSAT score of 34, Year 1 and Year 3 decile rankings both at 3, and your middle family income bracket, among other details like your full-time enrollment plans. The model focuses on patterns from past students to flag those at higher risk of bar failure, helping the school admit applicants more likely to succeed long-term. Among the factors considered, your LSAT score had the strongest influence, actually working in your favor by suggesting a better-than-expected shot at passing compared to what the model might have assumed otherwise. However, your Year 3 decile ranking played a significant role in pushing the prediction toward failure, as it indicates performance below the typical levels seen in students who passed the bar. Similarly, your Year 1 decile ranking contributed toward that higher-risk direction, reinforcing concerns about early academic standing relative to successful peers, whose averages were around the 6th decile for both years. Your LSAT stood out as notably lower than the 37.27 average for bar passers, and your undergraduate GPA trailed the 3.24 norm, which amplified the overall risk signal despite the score's positive pull. In contrast, students who were admitted typically showed stronger alignments across these metrics, with most coming from upper-middle or high family incomes and full-time tracks like yours, but with higher deciles and test scores placing them firmly in the passer profile—only about 35% shared your middle income bracket. This combination set your profile apart from those accepted, tipping the balance against you. To move forward, consider retaking the LSAT to boost your score, as it proved the most influential factor and could shift the prediction dramatically. Strengthening your recent academic decile through additional coursework or a post-bac program might also help, directly countering those key concerns. We encourage reapplying after addressing these areas, as many students improve their profiles and succeed on later attempts. Your determination as a full-time aspiring lawyer from a Hispanic background with middle-income roots shows real promise—use this feedback to build on your strengths.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

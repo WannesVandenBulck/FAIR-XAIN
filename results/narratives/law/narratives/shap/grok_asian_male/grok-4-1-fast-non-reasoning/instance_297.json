@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 297,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:44.029728",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.20, LSAT score of 23, Year 1 decile rank of 3rd out of 10, Year 3 decile of 4th, middle family income bracket, and plan to attend full-time—and predicted a 72.6% chance that you would fail the bar exam on your first attempt. This high predicted failure risk led directly to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The three most influential factors in this decision were your LSAT score, undergraduate GPA, and Year 1 decile rank, in that order of impact. Your LSAT score of 23, well below the typical 36.7 average, was the strongest driver pushing the prediction toward failure, signaling to the model a significant gap in the standardized reasoning skills often needed for bar success. In contrast, your undergraduate GPA of 3.20, right around the average of 3.21, worked in your favor by nudging the prediction slightly toward passing, showing solid college performance. Your Year 1 decile rank of 3, lower than the average 5.71, added a modest push toward the failure prediction compared to peers who ranked higher early in school. Overall, your profile stands out from typical admitted students, who tend to have stronger LSATs and higher early-year rankings that align with bar passers. While your full-time status matches the norm for most students and your middle-income background is common, these didn't outweigh the key concerns. To move forward, consider retaking the LSAT to boost your score toward or above the average, as that's the biggest lever here, and perhaps strengthen early academic showings if reapplying. Building a narrative around your unique strengths as an Asian male applicant, like any demonstrated resilience or extracurriculars, could also help in appeals or future applications. With targeted improvements, you can shift the odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

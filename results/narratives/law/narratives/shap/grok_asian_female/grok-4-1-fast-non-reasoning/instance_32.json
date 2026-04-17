@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 32,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:19.905261",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated an 82.1% chance that you would not pass. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger projected outcomes to maintain high bar passage rates. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your peers and strongly signaled a higher risk of bar failure compared to the typical admitted student, who ranks around the sixth decile. Next in influence was your Year 1 decile, also at the first decile—far below the sixth-decile average for those who pass—further pushing the prediction toward failure by highlighting early academic struggles. Your LSAT score of 35 offered some counterbalance, pulling the prediction slightly toward success since it's reasonably competitive, though still under the 37.27 average for passers. While your middle family income aligns with over a third of successful students and your choice of full-time enrollment matches nearly all admitted applicants, these didn't outweigh the dominant impact of your lower decile rankings. Your undergraduate GPA of 2.90, below the 3.24 average for bar passers, added to the concerns but wasn't among the top drivers here. In essence, the model saw your consistently low class standings in Years 1 and 3 as the biggest red flags, setting you apart from the stronger academic profiles of accepted students. This isn't a judgment on your potential or background—it's a data-driven forecast focused on bar success patterns. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through additional coursework or tutoring, and reapplying with updated credentials that address these key areas. Many students in similar positions have succeeded by targeting these improvements, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 39,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:12.575111",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.30, an LSAT score of 26, and your strong ambition to study full-time, along with your upper-middle family income background. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 92% chance that you would fail the bar exam. This high predicted risk is why your application was rejected—law schools use this tool to prioritize applicants likely to pass the bar and succeed in practice. The three biggest factors pulling the prediction toward failure were your Year 3 school decile ranking, your LSAT score, and your Year 1 school decile ranking, in that order of influence. Your Year 3 decile of 1—far below the typical student's 5.5—stood out as the strongest signal, suggesting your later academic performance ranked in the bottom tenth of your peers, which strongly pushed the model toward expecting bar struggles. Similarly, your LSAT score of 26, compared to the average of nearly 37, reinforced that concern by indicating preparation gaps seen in many who later failed the bar. Even your Year 1 decile of 1, well under the average of about 5.7, added to this by showing early grades that didn't keep pace with stronger performers. These academic markers mattered more than your family income or full-time plans because they directly mirror traits of students who historically struggled on the bar. While most applicants have higher deciles and LSATs that align with passers, your profile unfortunately clustered with those who didn't. To turn this around, focus on retaking the LSAT to boost your score toward 35 or above, strengthening your recent grades through targeted courses or community college refreshers, and gathering strong recommendation letters highlighting your resilience as a Hispanic student overcoming challenges. Many in similar situations have succeeded by addressing these gaps head-on—consider bar prep programs or admissions consultants for personalized strategies. With persistence, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

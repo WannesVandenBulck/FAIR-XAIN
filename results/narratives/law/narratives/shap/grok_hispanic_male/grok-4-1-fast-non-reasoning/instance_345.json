@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 345,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:47.778758",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, LSAT score of 29, Year 1 school decile of 3, Year 3 decile of 4, and that your family falls into a low income bracket, along with planning to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 42% chance you'll fail the bar—high enough that it tipped the decision to reject your application, as schools prioritize applicants likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your background that stood out most to the model. Interestingly, your low family income was the strongest positive signal, actually pushing the prediction toward bar exam success more than any other factor, likely because many students from similar backgrounds have overcome challenges to pass. Your Year 3 school decile of 4 also helped in a meaningful way, nudging things toward passing by showing solid improvement from earlier performance. On the flip side, your Year 1 decile of 3 had the next biggest pull in the opposite direction, contributing toward the failure risk since it's below the typical student's rank of around 5-6, signaling early academic hurdles. These three—family income helping the most, followed by Year 3 decile positively and Year 1 decile negatively—were the primary drivers, outweighing elements like your LSAT or GPA in this specific case. Compared to averages, your LSAT of 29 and GPA of 2.90 are understandably below the dataset norms of 36.7 and 3.21, but they weren't the top influencers here. Full-time status aligns with most applicants at 93%, so it was neutral. While this rejection stings, especially given your determination as a first-generation or low-income Hispanic applicant, it highlights where targeted growth could shift future outcomes. To move forward, consider retaking the LSAT to boost it toward 35+, strengthening early-grade performance through prep courses, and gathering strong recommendation letters emphasizing your Year 3 gains and resilience. Reapply after building these, perhaps to schools with holistic reviews that value diverse backgrounds like yours, or explore bridge programs for underrepresented students. You've already shown upward momentum—lean into that, and doors will open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

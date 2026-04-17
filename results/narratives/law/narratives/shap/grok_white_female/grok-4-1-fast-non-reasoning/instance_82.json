@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 82,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:34.546476",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 63.4% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and stood out as the strongest factor pushing the model toward forecasting bar failure—far below the typical top-half positioning seen among those who passed. Your Year 1 decile of 2 similarly worked against you as the second-most influential element, signaling early struggles compared to the mid-to-upper deciles common for successful bar takers averaging around 6. On a more positive note, your upper-middle family income bracket nudged the prediction slightly toward success, aligning well with the majority of passers who come from similar backgrounds. Other aspects, like your LSAT score of 28.5—well under the 37.27 average for those who passed—and undergraduate GPA of 2.6 versus their 3.24 average, contributed to the overall concern but weren't the top drivers. Being a full-time student is a commonality among passers, so that didn't sway things much either. In essence, the model saw your lower decile rankings in school as red flags outweighing the strengths in your family background, unlike accepted applicants whose grades consistently ranked higher. This isn't a judgment on your potential or drive—many factors beyond these metrics shape real-world success. To move forward, consider retaking the LSAT to boost your score closer to 35 or above, strengthening your undergraduate record through additional coursework if possible, or targeting schools with holistic reviews that weigh personal growth. Building a standout narrative around any improvements or unique experiences could also help in reapplying, and reaching out to admissions counselors for feedback might uncover tailored advice. With targeted steps, you can reshape how models like this view your profile next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:00.807820",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong Year 1 grades placing you in the 6th decile—solidly above average for most students—and your family's upper-middle income background, which reflects stability many applicants aspire to. However, your Year 3 grades dropped to the 2nd decile, well below the typical 5th or 6th decile midpoint, your undergraduate GPA sits at 2.8 compared to the average 3.21, and your LSAT score of 35 falls short of the usual 36.7 benchmark. The admissions model, trained on past students' data to predict first-time bar exam success, estimated an 80% chance you'll fail the bar, tipping the scales against your application and leading to this rejection. The most influential factor pushing toward that failure prediction was your lower Year 3 academic decile, as it signaled a significant dip in performance that strongly outweighed other positives for the model. Next in impact was your LSAT score, which, while respectable, pulled slightly in the direction of passing by being close to average but not enough to counterbalance concerns. Your family's upper-middle income had a modest push toward failure in the model's eyes, perhaps because it didn't stand out as an exceptional advantage compared to peers. Overall, these top three elements—dominated by that Year 3 drop—made your profile riskier than typical admitted students, who maintain steadier high school deciles and stronger test scores. This isn't a judgment on your potential as a Hispanic leader in law; it's the model highlighting patterns from thousands of past cases where similar trajectories led to bar struggles. To move forward, consider retaking the LSAT to boost it above average, strengthening your recent academic record through additional coursework or a post-bac program, and gathering strong letters emphasizing your resilience. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value diverse backgrounds like yours. Many students in your position have succeeded by targeting these areas—your full-time commitment positions you well for that focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

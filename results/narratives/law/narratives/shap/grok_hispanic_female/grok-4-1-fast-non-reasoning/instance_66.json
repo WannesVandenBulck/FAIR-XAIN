@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 66,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:57.490164",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 62.6% chance that you would not pass. This prediction stems from a careful analysis of key elements in your profile, like your undergraduate GPA, LSAT score, early and later school grade deciles, family income bracket, and enrollment plans. The model flagged your Year 3 grade decile of 1 as the strongest factor pushing toward a failure prediction, since it places you well below the typical top performers among those who passed the bar. Your Year 1 grade decile of 1 also contributed notably in the same direction, reinforcing concerns about consistent academic standing compared to successful students, whose averages hover around the 6th decile for both years. On a brighter note, your LSAT score of 39 stood out positively, pulling the prediction toward success more than any other strength, as it exceeds the average of 37 among bar passers. While your undergraduate GPA of 2.70 is lower than the 3.24 average for those who passed, and your upper-middle family income aligns with many successful applicants, these did not outweigh the grade decile impacts. Being full-time is common among passers, so that fits the norm. Overall, your profile compares to accepted students by having a solid LSAT edge but lagging in grade rankings, tipping the balance toward risk. This isn't a judgment on your potential or background—it's a data-driven call to protect the program's bar passage rates. To move forward, consider retaking courses or programs to boost your deciles, perhaps targeting graduate-level prep that highlights your LSAT strength, and reapply once you've strengthened those early indicators. Many students in similar positions have succeeded by addressing these exact gaps. You're clearly capable, given that LSAT, so focus there for your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

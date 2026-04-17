@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 353,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:53:07.791866",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application stood out in some ways, including your middle family income bracket and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 93% chance that you would fail it, leading directly to the rejection of your application. This high failure probability means the model saw your profile as carrying substantial risk compared to students it views as strong bar exam candidates. The three biggest factors pushing the prediction toward failure were your Year 3 school decile ranking of 2—well below the average of about 5.5—your Year 1 decile of 2 compared to the typical 5.7, and your LSAT score of 28, which is notably lower than the average 36.7. Your low Year 3 decile had the strongest negative pull, signaling to the model that your later academic performance in school placed you in the bottom ranks relative to peers who tend to pass the bar. Similarly, the Year 1 decile reinforced concerns about early struggles that often correlate with bar challenges for students in your position. The LSAT score amplified these issues, as lower scores like yours are among the top predictors of first-time bar failure across the board. While your stronger undergrad GPA nudged things slightly in a positive direction, it wasn't enough to offset these dominant concerns. In essence, your profile compared unfavorably to typical admitted students, who generally rank higher in school deciles and score much better on the LSAT, even accounting for diverse backgrounds like yours. To move forward, consider retaking the LSAT to boost your score toward the average or higher, while strengthening your recent academic decile through additional coursework or a post-bac program. Building a clearer track record of upward academic momentum could help reframe your story for future applications. Many students in similar situations have succeeded by targeting these exact areas, so persistence tailored to your strengths will make a real difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

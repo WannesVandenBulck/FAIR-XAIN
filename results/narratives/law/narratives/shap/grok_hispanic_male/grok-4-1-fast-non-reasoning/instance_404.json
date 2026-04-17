@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 404,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:23:25.324095",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.40, which stands out above the typical 3.21 average, along with your LSAT score of 32, family from a middle-income bracket, and plans to attend full-time—details that paint a picture of your dedication despite coming from a background that might not have every advantage. The admissions model, trained on past students' paths to the bar exam, predicted a 67.5% chance that you would fail it on your first try, tipping the scales toward rejecting your application to prioritize spots for those seen as lower risk. This prediction hinged most heavily on your Year 1 school decile ranking of 1st, which stood out as a major red flag compared to the average 6th decile, strongly signaling to the model a higher likelihood of bar struggles down the line. Next in influence was your undergraduate GPA, which actually worked in your favor by pushing the prediction toward expecting you to pass, thanks to its above-average strength that often correlates with bar success. Your Year 3 decile of 2nd, while an improvement from Year 1, still pulled notably toward the failure side, as it remained well below the typical 6th decile and reinforced early concerns about academic momentum. Overall, these early performance indicators outweighed your other solid attributes, like your LSAT and full-time commitment, in the model's eyes. Many admitted students have Year 1 and 3 deciles closer to the middle of the pack or higher, which helps them clear this hurdle more easily. It's tough to hear, especially when your GPA shows real capability, but this isn't a judgment on your potential as a lawyer—it's the model being cautious based on patterns from thousands of similar journeys. To move forward, consider retaking the LSAT to boost it toward the 37 average, or strengthening recent academics through grad courses or targeted prep to shift those decile perceptions. You might also explore programs with holistic reviews that weigh your Hispanic background and middle-income resilience more personally. Keep pushing; many in your position have rebounded by addressing these exact gaps and passed the bar strong. Your story isn't over—use this as fuel to build an even stronger case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

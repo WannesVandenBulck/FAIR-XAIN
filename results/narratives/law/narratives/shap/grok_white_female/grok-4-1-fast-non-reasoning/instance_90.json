@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:05.743013",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 72.3% chance that you would not pass, tipping the scales against admission. This prediction draws from your academic record, test scores, and background details like your middle-class family income and plans to attend full-time. The biggest factor pulling the prediction toward failure was your Year 3 class rank, which fell in the bottom decile at your school—far below the top-half average typical for students who go on to pass the bar. Your Year 1 rank, also in a low decile compared to successful passers, added to this concern, suggesting early struggles that carried through. On a brighter note, your strong LSAT score stood out as a key strength, well above the average for those who pass, and it noticeably pushed the model's view toward expecting success. While your undergraduate GPA was a bit lower than the norm for bar passers and your family income sits in the middle range—common among acceptees but not a standout—it played less of a role here. Overall, the model saw your later academic performance as the dominant signal of risk, outweighing positives like your LSAT despite your full-time commitment aligning with most successful students. This isn't a judgment on your potential or drive, but a data-driven flag based on patterns from thousands of past students. To move forward, consider retaking courses or pursuing targeted prep to boost your class ranks, as those proved decisive here. You might also highlight your LSAT strength in appeals or reapply after building a stronger GPA trajectory. Many students in similar spots have succeeded by addressing these exact gaps—your path ahead is very much open with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

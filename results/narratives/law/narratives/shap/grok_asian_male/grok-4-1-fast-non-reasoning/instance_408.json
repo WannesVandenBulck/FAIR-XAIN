@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 408,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:50:53.011242",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—your law school application stood out in some ways, but the admissions model focused on predicting your chances of passing the bar exam on the first try. The model assessed your overall profile and estimated a 44.9% probability that you would fail the bar exam, which crossed the threshold for rejection since the school prioritizes applicants likely to succeed on that critical test. This prediction wasn't about your potential or character, but a data-driven estimate based on patterns from thousands of past students' academic records, family backgrounds, and test scores. The three most influential factors in pushing your prediction toward failure were your school decile rankings from Year 1 and Year 3, both at 3—well below the averages of about 5.7 and 5.5—indicating your high school grades placed you in the lower third of your peers, which strongly signaled higher bar failure risk to the model. Your undergraduate GPA had the strongest counterbalancing effect, pulling the prediction toward success because it's stronger than most applicants', showing you have the academic capability to perform well. Your Year 3 decile ranking had the next biggest negative pull, as it suggested inconsistent performance later in high school compared to typical admitted students who rank higher. Even your Year 1 decile contributed against you, reinforcing concerns about early academic struggles that often correlate with bar challenges. Other details like your upper-middle family income bracket, LSAT score of 31 (below the 36.7 average), and full-time student status played smaller roles but didn't outweigh these top concerns. Compared to typical students who pass the bar, your high school deciles are notably lower, while your college GPA gives you an edge many lack. This rejection stings, especially with your background, but it's a chance to address those high school metrics head-on. To move forward, consider retaking the LSAT to boost it toward the average, gathering strong recommendation letters highlighting your college strengths, or pursuing post-baccalaureate courses to demonstrate upward trends—many applicants in similar spots succeed by building a clearer path to bar success. Keep pushing; your GPA shows you're capable of turning this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

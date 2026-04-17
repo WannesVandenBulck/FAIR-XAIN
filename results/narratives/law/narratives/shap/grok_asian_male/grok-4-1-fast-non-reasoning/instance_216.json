@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 216,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:45.303133",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was carefully evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam based on academic and background factors from past students. The model estimated a 50.9% probability that you would fail the bar exam on your first attempt, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle to pass this critical hurdle. This decision hinged on just a few key aspects of your profile, with your Year 3 school decile ranking—where you placed in the middle of your class—emerging as the single most influential factor, actually working in your favor by suggesting stronger performance potential than the model might otherwise expect. Next in importance was your LSAT score of 30.5, which is below the typical 36.7 average and pulled the prediction toward a higher failure risk, as lower scores have historically correlated with bar exam challenges for students like you. Your undergraduate GPA of 3.0, also under the average of 3.21, played a supporting role in the same direction, reinforcing concerns about consistency in academic achievement. Compared to typical students, your upper-middle family income and full-time enrollment plans align with the majority, so they didn't sway the outcome much, but your mid-range Year 1 and Year 3 deciles stood out as solidly average rather than top-tier. While your Year 3 decile helped counterbalance those metrics somewhat, the LSAT and GPA tipped the scales just enough toward failure risk. This isn't a judgment on your potential as an Asian male pursuing law—many with similar backgrounds succeed—but the model prioritizes patterns from historical data to protect the program's outcomes. To move forward, consider retaking the LSAT to boost your score above average, as that could dramatically shift future predictions in your favor. Strengthening your GPA through post-baccalaureate courses or highlighting upward trends in later deciles might also help. Reach out to admissions for feedback on bolstering your narrative, and explore programs with holistic reviews that value your unique story beyond these numbers. With targeted improvements, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

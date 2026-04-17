@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:03.929483",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 54.9% chance that you would fail the bar exam on your first try, which is just over the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data about thousands of past students' academic records, test scores, and backgrounds, focusing on factors that best predict bar exam outcomes without considering gender or race. Among the key elements in your profile, your Year 3 school decile ranking stood out as the strongest positive force, placing you slightly above average for those who passed and nudging the model toward expecting success. However, your LSAT score of 32.50, well below the 37.27 average of bar passers, pulled significantly in the opposite direction, raising concerns about your readiness for the exam's demands. Similarly, your Year 1 decile of 4.00, lower than the 6.04 average for successful students, contributed to the model's worry by signaling an early academic struggle that often correlates with bar challenges. Your undergraduate GPA of 2.90, compared to 3.24 for passers, and upper-middle family income—common among admitted students—played supporting roles but weren't the top drivers here. Full-time enrollment plans align well with the vast majority of bar passers, yet they couldn't outweigh the concerns from your earlier performance and test score. In essence, while your improvement to a solid Year 3 decile shows real progress, the model weighed your lower LSAT and Year 1 standing as the biggest risks, setting you apart from typical accepted students whose profiles show stronger early metrics and higher test scores. This close call means you're not far off, and many students in similar spots have turned things around. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as that's a proven lever for shifting predictions. Strengthening your academic decile through targeted study habits or additional coursework could also help rebuild that foundation. We encourage reapplying after addressing these areas—your upward trajectory in later years suggests you have the potential to pass the bar with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

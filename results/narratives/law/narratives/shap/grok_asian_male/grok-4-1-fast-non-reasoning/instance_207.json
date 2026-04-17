@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 207,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:11.023432",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—above the typical 3.21 average—your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile, including your Year 1 school decile of 4 (below the average 5.71), Year 3 decile of 3 (under the average 5.53), LSAT score of 28.50 (well below the average 36.70), middle family income bracket, and full-time student status, which is common among applicants. It calculated a 45% probability that you would fail the bar exam on your first attempt, a risk threshold that led to the rejection of your admission to protect the school's outcomes. Among all these factors, your undergraduate GPA stood out as the most influential positive force, strongly pushing the prediction toward expecting you to pass by highlighting your strong academic foundation from college. Next in importance was your LSAT score, which had a notable negative pull, nudging the model toward failure because it falls significantly short of what's typical for successful bar takers. Your Year 1 school decile ranking came third, also contributing positively by suggesting decent early performance relative to peers, though still below average. Compared to typical students who pass, your LSAT is a bigger drag than most, while your GPA gives you an edge that many lack, creating a close but unfavorable balance overall. This mix explains why the model tipped toward rejection despite some strengths. To move forward, consider retaking the LSAT to boost it closer to or above the 36.70 average, as that could dramatically shift future predictions in your favor. Strengthening recent school performance to higher deciles would help too, building on your solid undergrad record. Reach out to admissions advisors for targeted prep resources, and explore programs with holistic reviews that might weigh your full-time commitment and background more flexibly. With focused effort on these areas, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:25:59.745837",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at key aspects of your background, including your undergraduate GPA of 2.60, LSAT score of 35, first-year school decile ranking of 4th out of 10, third-year decile of 4th out of 10, middle family income bracket, and your plan to attend full-time. It predicted a 49.9% chance that you would fail the bar exam initially, which crossed the threshold for rejection since the school prioritizes applicants likely to succeed and pass on their first attempt. This decision hinged on just a few standout factors from your profile, ranked by their influence on the prediction. Your LSAT score had the strongest pull toward a positive outcome, as it suggested a solid potential for passing despite being slightly below the typical 36.7 average. However, your first-year decile ranking pushed significantly in the opposite direction, indicating performance in the lower half of your school compared to the average 5.71 decile, which raised concerns about foundational academic habits. Similarly, your undergraduate GPA exerted a notable negative influence, being lower than the typical 3.21 and signaling potential challenges in sustaining the rigor needed for law school and the bar. These top three elements—your LSAT helping you, but your early grades and undergrad performance weighing against—together tipped the scales toward the failure prediction. Compared to typical students who get approved, your metrics align more closely with those who struggled on the bar, especially in those early academic deciles. While your full-time status and middle-income background are common and neutral here, they didn't offset the key drags. To move forward, consider retaking the LSAT to boost that positive factor or strengthening your academic record through a post-bac program or additional coursework to improve those decile-like standings. Many applicants in similar situations have succeeded by addressing these exact areas and reapplying stronger. With targeted effort, you can shift your profile toward the passing side that admissions favors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

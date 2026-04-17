@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 119,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:18.187219",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, an LSAT score of 26.50, low family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the bottom 10th percentile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 66.6% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most compared to typical applicants. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking in the lowest 10th percentile, well below the average student's mid-range position around the 5th or 6th decile, signaling to the model a significant late-stage dip in academic performance that often correlates with bar struggles. Next in influence, your undergraduate GPA of 3.00 actually worked in your favor somewhat, as it's close to the dataset average of 3.21 and pulled the prediction slightly toward passing, showing the model saw some solid foundational strength there. Your Year 1 decile, also in the bottom 10th percentile versus the typical 5th or 6th, added further weight toward failure, reinforcing concerns about early academic challenges that didn't fully recover. Other elements like your low family income or full-time status, which is common for over 90% of students, played smaller roles and didn't sway the outcome much. In essence, while your GPA offered a counterbalance, the low decile rankings dominated, making your profile riskier than most who get approved, where stronger year-end performance is the norm. This doesn't define your potential—many in similar circumstances, including Hispanic students from modest backgrounds, have succeeded by addressing these gaps. To move forward, consider retaking the LSAT to boost your score well above the average 36.7, strengthening your academic record through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience. Reapplying after these steps could shift the model's view, and exploring schools with holistic reviews might also open doors. You're taking a tough path, but with targeted improvements, you can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

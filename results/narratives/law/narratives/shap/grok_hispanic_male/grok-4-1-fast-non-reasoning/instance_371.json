@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 371,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:27.009078",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared strong credentials like an undergraduate GPA of 3.50—above the typical 3.21 average—and an LSAT score of 41, which stands out well beyond the usual 36.70 mark, along with your plan to attend full-time like most applicants. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 75.2% chance that you would fail the bar exam, tipping the decision toward rejecting your application to prioritize those with lower predicted risks. This prediction hinges heavily on your academic decile rankings from earlier years in school, which carried the most weight in the model's thinking. Specifically, your Year 3 decile of 1—far below the average of about 5.5—stood out as the strongest signal pushing the model toward forecasting bar failure, suggesting those lower rankings in your school's performance distribution were a major red flag compared to peers who succeeded. Your Year 1 decile of 2, also well under the typical 5.7 average, reinforced this concern as the second-biggest influence, further nudging the prediction in the unfavorable direction. On a brighter note, your high LSAT score worked against that trend, pulling the model's outlook toward expecting you to pass, nearly offsetting some of the earlier academic concerns. While factors like your upper-middle family income bracket played a role, they weren't the decisive drivers here—your school's decile placements in Years 1 and 3 dominated the reasoning. In contrast to students who typically pass the bar, your profile shows earlier inconsistencies in school rankings that outweighed your later strengths, even though you're full-time like over 90% of successful applicants. This isn't a judgment on your potential as a Hispanic man with clear drive, but a data-driven caution based on patterns from thousands of similar cases. To move forward, consider retaking courses or programs to boost your decile rankings, as those proved pivotal here, and gather letters highlighting your LSAT success and upward trajectory. You might also appeal with evidence of bar prep commitment or target schools with holistic reviews that weigh your full story. Keep pushing—many overcome early hurdles to excel in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

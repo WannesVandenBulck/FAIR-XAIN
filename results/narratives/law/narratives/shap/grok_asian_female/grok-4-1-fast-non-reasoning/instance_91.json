@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 91,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:05.109205",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 45.5% chance that you would not pass—above the threshold we use for admission decisions. This prediction stemmed primarily from your Year 3 school decile ranking of 2, which stood out as the strongest factor pushing the model toward forecasting a bar failure, especially since students who passed averaged around the 6th decile. In contrast, your undergraduate GPA of 3.50 was a major positive influence, pulling the prediction in the opposite direction toward success, as it exceeds the 3.24 average among those who passed the bar. Your LSAT score of 32 also helped your case somewhat, nudging the outlook toward passing, though it fell short of the typical 37.27 seen in successful students. While your high family income and full-time enrollment plans align well with patterns among bar passers—where high income is less common but full-time status is the norm at 93%—they played smaller roles here compared to your grades. Overall, your solid undergrad performance and decent LSAT offered some reassurance, but the lower Year 3 decile carried the most weight in tipping the scales against you. This isn't a judgment on your potential or drive; it's the model highlighting where your profile diverges from those who typically succeed on the bar. To strengthen a future application, focus on boosting your upper-year performance to climb those school deciles, perhaps through targeted study habits or academic support. Retaking the LSAT for a higher score could also shift the balance significantly. Consider gaining practical experience, like internships, to build a fuller profile. Many students in similar spots have improved by addressing these key areas and reapplying successfully—your strong GPA shows you have a solid foundation to build on. Keep pursuing your goals; this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

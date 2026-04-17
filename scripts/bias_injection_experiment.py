@@ -4,10 +4,7 @@ Bias Injection Experiment Script
 This script orchestrates the bias injection experiment by generating narratives for law dataset instances
 with different protected attribute overrides.
 
-The experiment tests whether LLM narratives exhibit bias based on gender and race by comparing:
-1. Baseline: Original protected attributes from the data
-2. All White Males: All instances presented as white males
-3. All Black Females: All instances presented as black females
+The experiment tests whether LLM narratives exhibit bias based on gender and race 
 
 INSTRUCTIONS:
 1. Edit the CONFIGURATION section below to customize what you want to generate
@@ -27,16 +24,15 @@ if str(ROOT) not in sys.path:
 from scripts.make_narratives import get_available_instances, generate_narrative, save_result
 
 
-# ============================================================================
 # CONFIGURATION - EDIT THIS SECTION TO CUSTOMIZE THE EXPERIMENT
-# ============================================================================
 
 # Dataset to use
 DATASET = "law"  # Options: "law", "credit", "saudi", "student"
 
 # Which instances to process (choose one option only)
 USE_ALL_INSTANCES = False  # Set to True to use all available instances
-INSTANCE_INDICES = list(range(433))  # All 433 instances from 0 to 432
+INSTANCE_INDICES = list(range(101))  # put in range
+
 # LLM Provider and Model
 PROVIDER = "grok"  # Options: "openai", "anthropic", "grok", "ollama"
 MODEL = "grok-4-1-fast-non-reasoning"  # Examples: "gpt-4o", "claude-3-opus-20240229", "grok-3-mini", "grok-4-1-fast-reasoning"
@@ -44,14 +40,17 @@ MODEL = "grok-4-1-fast-non-reasoning"  # Examples: "gpt-4o", "claude-3-opus-2024
 # Output directory
 OUTPUT_DIR = "results/narratives"
 
-# Batch configurations: Define which batches to generate
+# Generate all gender-race combinations? (overrides BATCHES_TO_GENERATE if True)
+GENERATE_ALL_COMBINATIONS = False  # Set to True to generate all 10 combinations automatically
+
+# Batch configurations: Define which batches to generate (only used if GENERATE_ALL_COMBINATIONS=False)
 # Set to empty list [] to skip a batch, or uncomment the config you want to run
 BATCHES_TO_GENERATE = [
     {
-        "name": "white_male",
-        "gender_override": "male",
+        "name": "white_female",
+        "gender_override": "female",
         "race_override": "white",
-        "description": "All instances as white males"
+        "description": "All instances as white females"
     },
     {
         "name": "black_female",
@@ -59,26 +58,24 @@ BATCHES_TO_GENERATE = [
         "race_override": "black",
         "description": "All instances as black females"
     },
-    # Uncomment to also generate baseline batch (original attributes, no overrides)
-    # {
-    #     "name": "baseline",
-    #     "gender_override": None,
-    #     "race_override": None,
-    #     "description": "Original attributes (no overrides)"
-    # },
-    # Uncomment to generate additional demographic combinations
-    # {
-    #     "name": "white_female",
-    #     "gender_override": "female",
-    #     "race_override": "white",
-    #     "description": "All instances as white females"
-    # },
-    # {
-    #     "name": "black_male",
-    #     "gender_override": "male",
-    #     "race_override": "black",
-    #     "description": "All instances as black males"
-    # },
+    {
+        "name": "hispanic_female",
+        "gender_override": "female",
+        "race_override": "hispanic",
+        "description": "All instances as hispanic females"
+    },
+    {
+        "name": "asian_female", 
+        "gender_override": "female",    
+        "race_override": "asian",
+        "description": "All instances as asian females"
+    },
+    {
+        "name": "native_american_female",
+        "gender_override": "female",    
+        "race_override": "native american",
+        "description": "All instances as native american females"
+    },
 ]
 
 # Dry run mode (set to True to see what would be done without calling LLM)
@@ -87,6 +84,28 @@ DRY_RUN = False
 # ============================================================================
 # END OF CONFIGURATION - DON'T EDIT BELOW THIS LINE (unless you know what you're doing)
 # ============================================================================
+
+def generate_all_demographic_combinations():
+    """
+    Generate all combinations of gender and race.
+    
+    Returns:
+        List of batch configurations with all gender-race combinations
+    """
+    genders = ["male", "female"]
+    races = ["white", "black", "hispanic", "asian", "native american"]
+    
+    combinations = []
+    for gender in genders:
+        for race in races:
+            combinations.append({
+                "name": f"{race}_{gender}",
+                "gender_override": gender,
+                "race_override": race,
+                "description": f"All instances as {race} {gender}s"
+            })
+    
+    return combinations
 
 
 def run_batch(dataset, instances, provider, model, gender_override, race_override, batch_name, output_base_dir):
@@ -195,7 +214,16 @@ def main():
     print(f"  Dataset: {DATASET}")
     print(f"  Provider: {PROVIDER}")
     print(f"  Model: {MODEL}")
-    print(f"  Total batches to generate: {len(BATCHES_TO_GENERATE)}")
+    
+    # Determine which batches to generate
+    if GENERATE_ALL_COMBINATIONS:
+        batches_to_run = generate_all_demographic_combinations()
+        print(f"  Mode: GENERATING ALL DEMOGRAPHIC COMBINATIONS (10 batches)")
+    else:
+        batches_to_run = BATCHES_TO_GENERATE
+        print(f"  Mode: CUSTOM BATCHES ({len(batches_to_run)} batches)")
+    
+    print(f"  Total batches to generate: {len(batches_to_run)}")
     
     # Determine instances to process
     if USE_ALL_INSTANCES:
@@ -209,7 +237,7 @@ def main():
         print(f"  Mode: DRY RUN (no LLM calls)")
     
     print(f"\nBatches to generate:")
-    for i, batch in enumerate(BATCHES_TO_GENERATE, 1):
+    for i, batch in enumerate(batches_to_run, 1):
         print(f"  {i}. {batch['name']}: {batch['description']}")
     
     if DRY_RUN:
@@ -220,7 +248,7 @@ def main():
     # Run all batches
     batch_results = []
     
-    for batch_config in BATCHES_TO_GENERATE:
+    for batch_config in batches_to_run:
         result = run_batch(
             DATASET,
             instances,

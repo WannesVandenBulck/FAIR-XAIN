@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:27.006465",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 40.9% chance that you would fail it. This threshold triggered the rejection to help the university select applicants most likely to succeed long-term. The model's decision hinged primarily on three key aspects of your profile: your LSAT score, your Year 3 grade decile, and your Year 1 grade decile. Among these, your LSAT score stood out as the strongest positive factor, as your solid score of 40—higher than the average of 37.27 among students who passed the bar—pushed the prediction toward expecting you to pass, countering some risks. In contrast, your Year 3 decile of 2, notably lower than the average of about 6 for bar passers, was the top concern, signaling to the model a potential struggle with sustaining strong performance later in your studies. Similarly, your Year 1 decile of 1, also well below the typical 6 for successful students, reinforced this worry by highlighting an early academic challenge that often correlates with bar exam difficulties. While your upper-middle family income aligns well with many who pass (around 45% of them), and your undergraduate GPA of 3.10 is close to the 3.24 average, these didn't outweigh the decile impacts enough. Your choice of full-time enrollment matches the norm for passers at 93%, which is encouraging but not decisive here. Compared to typical accepted students, who generally rank in higher deciles early and throughout undergrad law programs, your starting position suggests the model saw a higher hurdle to bar success despite strengths like your LSAT. This isn't a judgment on your potential—many overcome early setbacks—but the system prioritizes patterns from past data. To move forward, consider retaking courses or programs to boost your deciles, perhaps seeking targeted tutoring for foundational skills, and reapply after demonstrating improved rankings, as the model weighs recent academic momentum heavily. You're clearly capable, given that LSAT edge, so focusing on those early grades could shift your prediction dramatically next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

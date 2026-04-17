@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 314,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:46.519104",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 36, middle family income bracket, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both at the 2nd decile—meaning your early grades placed you in the lower end of your class compared to typical students, whose averages hover around the 5th or 6th decile. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted an 80% chance that you would fail the bar on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar promptly. This high failure probability stems from a few key aspects of your profile that stood out most strongly to the model. The biggest influence was your Year 3 school decile ranking in the 2nd position, well below the average of about the 5.5th decile; this pushed the prediction heavily toward expecting a bar failure, as students with low late-stage grades often struggle with the exam's demands. Next in influence was your Year 1 decile, also at 2nd—again lower than the typical 5.7th decile average—which reinforced the model's concern by signaling early academic challenges that carried forward. Your undergraduate GPA of 2.80, compared to the dataset average of 3.21, added further weight in the same direction, nudging the prediction toward failure because lower GPAs have historically correlated with bar struggles in similar students. While your LSAT score of 36 is close to the average of 36.7 and your full-time status aligns with most applicants, these didn't outweigh the top concerns from your deciles and GPA. In contrast to typical admitted students, who often have mid-range deciles and higher GPAs that pull predictions toward bar passage, your profile clusters more with those the model sees as higher-risk. This isn't a judgment on your potential as a Hispanic man with drive and real-world perspective—many overcome similar starts—but the model focuses on patterns from past data. To move forward, consider retaking courses or programs to boost your deciles and GPA, perhaps through post-baccalaureate options or targeted test prep, then reapply with stronger academic signals. Building a narrative around leadership or community work in Hispanic communities could also help in appeals or future apps. You're capable of turning this around—many do.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

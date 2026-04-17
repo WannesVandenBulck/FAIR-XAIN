@@ -42,12 +42,11 @@ DATASET = "law"
 
 # Which batches to compare (batch names from bias_injection_experiment.py)
 BATCHES = [
-    "white_male",
+    "white_female",
     "black_female",
-    # Uncomment to also include:
-    # "baseline",
-    # "white_female",
-    # "black_male",
+    "hispanic_female", 
+    "asian_female", 
+    "native_american_female",
 ]
 
 # LLM Provider and Model used for the narratives
@@ -63,6 +62,18 @@ NUM_INSTANCES = None
 # ============================================================================
 # END CONFIGURATION
 # ============================================================================
+
+# Label interpretations for reference
+EMPATHY_STRATEGY_LABELS = {
+    "Affirmation and Reassurance": "Validating and encouraging; building confidence",
+    "Information": "Providing factual knowledge or explanations",
+    "Others": "General or non-specific support; miscellaneous responses",
+    "Providing Suggestions": "Offering concrete advice or action steps",
+    "Question": "Asking clarifying or exploratory questions",
+    "Reflection of feelings": "Mirroring or acknowledging emotions",
+    "Restatement or Paraphrasing": "Restating information to show understanding",
+    "Self-disclosure": "Sharing personal experiences or vulnerabilities",
+}
 
 
 def load_bias_narratives(dataset, batch_name, provider, model, num_instances=None):
@@ -138,16 +149,126 @@ class BiasNarrativeAnalyzer:
         self.narratives_by_batch = narratives_by_batch
         self.results = {}
     
+    def build_metadata_overview(self):
+        """
+        Build a detailed overview of the analysis for report metadata.
+        
+        Returns:
+            Dict with comprehensive metadata about the comparison.
+        """
+        # Calculate statistics about narratives
+        batch_details = {}
+        total_narratives = 0
+        
+        for batch_name, narratives in self.narratives_by_batch.items():
+            count = len(narratives)
+            total_narratives += count
+            batch_details[batch_name] = {
+                "narrative_count": count,
+                "demographics": self._parse_batch_demographics(batch_name)
+            }
+        
+        # Parse demographic groups
+        demographics_description = self._get_demographics_description()
+        
+        metadata = {
+            "report_type": "Bias Injection Experiment Comparison",
+            "analysis_timestamp": datetime.now().isoformat(),
+            "dataset": DATASET,
+            "comparison_summary": {
+                "total_batches": len(self.narratives_by_batch),
+                "total_narratives": total_narratives,
+                "batches_compared": list(self.narratives_by_batch.keys()),
+                "batch_details": batch_details
+            },
+            "llm_configuration": {
+                "provider": PROVIDER,
+                "model": MODEL
+            },
+            "demographics_explanation": demographics_description,
+            "analyses_included": [
+                "protected_mentions",
+                "emotion_distilroberta",
+                "emotion_go_emotions",
+                "empathy_strategy"
+            ],
+            "summary": f"This report compares {total_narratives} narratives across {len(self.narratives_by_batch)} demographic groups "
+                      f"({', '.join(self.narratives_by_batch.keys())}) generated using {PROVIDER} ({MODEL}). "
+                      f"Each group represents narratives where the demographic attributes were overridden to specific demographic profiles. "
+                      f"The comparison includes sentiment analysis (DistilRoBERTa and GoEmotions), "
+                      f"mentions of protected attributes (gender and race), and empathy strategy detection."
+        }
+        
+        return metadata
+    
+    def _parse_batch_demographics(self, batch_name):
+        """Parse batch name to extract demographic information."""
+        parts = batch_name.lower().split('_')
+        demographics = {}
+        
+        # Common demographic values in batch names
+        races = ['white', 'black', 'hispanic', 'asian', 'native']
+        genders = ['male', 'female']
+        
+        for part in parts:
+            if part in races or any(part in race for race in races):
+                demographics['race'] = part.replace('native', 'native american')
+            elif part in genders:
+                demographics['gender'] = part
+        
+        return demographics
+    
+    def _get_demographics_description(self):
+        """Build a human-readable description of the demographic groups being compared."""
+        descriptions = []
+        
+        for batch_name in sorted(self.narratives_by_batch.keys()):
+            demo = self._parse_batch_demographics(batch_name)
+            parts = []
+            
+            if 'race' in demo:
+                parts.append(f"race: {demo['race'].title()}")
+            if 'gender' in demo:
+                parts.append(f"gender: {demo['gender'].title()}")
+            
+            if parts:
+                narratives_count = len(self.narratives_by_batch[batch_name])
+                descriptions.append(f"  - {batch_name}: {', '.join(parts)} ({narratives_count} narratives)")
+        
+        return "Demographic groups compared:\n" + "\n".join(descriptions) if descriptions else ""
+    
     def analyze_protected_mentions(self):
         """Count mentions of protected attributes (gender and race) in narratives."""
         print("\n" + "="*70)
         print("1. Protected Attribute Mentions Analysis")
         print("="*70)
         
-        gender_terms = ["Male", "Female", "Man", "Woman", "men", "women", "boy", "girl",
-                       "masculine", "feminine", "he", "she", "his", "her"]
-        race_terms = ["Black", "Hispanic", "Asian", "White", "Native American", 
-                     "African", "Latino", "Caucasian"]
+        gender_terms = [
+            "Male", "male", "MALE",
+            "Female", "female", "FEMALE",
+            "Man", "man", "MAN",
+            "Woman", "woman", "WOMAN",
+            "men", "MEN",
+            "women", "WOMEN",
+            "boy", "Boy", "BOY",
+            "girl", "Girl", "GIRL",
+            "masculine", "Masculine", "MASCULINE",
+            "feminine", "Feminine", "FEMININE",
+            "he", "He", "HE",
+            "she", "She", "SHE",
+            "his", "His", "HIS",
+            "her", "Her", "HER",
+        ]
+        race_terms = [
+            "Black", "black", "BLACK",
+            "Hispanic", "hispanic", "HISPANIC",
+            "Asian", "asian", "ASIAN",
+            "White", "white", "WHITE",
+            "Native American", "native american", "NATIVE AMERICAN",
+            "African", "african", "AFRICAN",
+            "Latino", "latino", "LATINO",
+            "Caucasian", "caucasian", "CAUCASIAN",
+        ]
         
         gender_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in gender_terms]
         race_patterns = [re.compile(r'\b' + re.escape(term) + r'\b', re.IGNORECASE) for term in race_terms]
@@ -339,15 +460,18 @@ class BiasNarrativeAnalyzer:
                     "count": count,
                     "percentage": (count / total * 100) if total > 0 else 0,
                     "avg_score": np.mean(scores) if scores else 0,
+                    "meaning": EMPATHY_STRATEGY_LABELS.get(label, "Unknown label"),
                 }
             
             results_by_batch[batch_name] = label_stats
             
-            print(f"  Empathy distribution:")
+            print(f"  Empathy Strategy distribution:")
             for label, stats in sorted(label_stats.items(), key=lambda x: x[1]["count"], reverse=True):
                 print(f"    {label}: {stats['count']} ({stats['percentage']:.1f}%) - avg score: {stats['avg_score']:.3f}")
+                print(f"      Meaning: {stats['meaning']}")
         
         self.results["empathy_strategy"] = results_by_batch
+        self.results["empathy_strategy_meanings"] = EMPATHY_STRATEGY_LABELS
         return results_by_batch
     
     def run_analysis(self):
@@ -358,6 +482,13 @@ class BiasNarrativeAnalyzer:
         print(f"Dataset: {DATASET}")
         print(f"Batches: {list(self.narratives_by_batch.keys())}")
         print(f"Started: {datetime.now().isoformat()}")
+        
+        # Build metadata overview first - this will appear at the start of the JSON
+        print("\n" + "="*70)
+        print("Building Report Metadata")
+        print("="*70)
+        metadata = self.build_metadata_overview()
+        self.results["metadata"] = metadata
         
         # Basic statistics
         print("\n" + "="*70)

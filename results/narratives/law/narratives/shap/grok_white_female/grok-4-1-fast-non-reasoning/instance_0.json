@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:45:31.056842",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold that leads to rejection. This prediction draws from your academic record, test scores, family background, and planned study schedule, focusing on patterns seen in thousands of past students without considering gender or race. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, which ranks you at the lower end of your school's performance distribution that year; among students who passed the bar, the average was a much higher decile of about 6, signaling to the model a potential struggle with sustained high-level coursework critical for bar success. Counterbalancing this somewhat was your strong undergraduate GPA of 3.70, well above the 3.24 average of those who passed, which pulled the prediction toward success by demonstrating your foundational academic strength from undergrad. Your LSAT score of 34 also helped in that direction, though it fell short of the 37.27 average among bar passers, offering a moderate boost by showing solid reasoning skills but not at the elite level the model associates with reliable outcomes. Other elements, like your lower-middle family income bracket—less common among passers, where middle and upper-middle incomes dominate—and your plan to attend part-time, which only 6.8% of successful students did, played supporting roles but weren't the top drivers here. Overall, your profile compares to accepted applicants as having standout undergrad performance that buoys your chances, yet early and late undergrad deciles, especially Year 3, align more closely with those who faced bar challenges, outweighing the positives in the model's eyes. This isn't a judgment on your potential, but a data-driven flag based on historical trends. To move forward, consider retaking the LSAT to push closer to 37 or above, strengthening recent grades through additional coursework or a post-bac program to improve your decile rankings, and exploring full-time options if feasible to match the profile of most bar passers. You might also connect with advisors for targeted bar prep strategies tailored to part-time students, and reapply after addressing these areas—many have turned similar predictions around with focused improvements. Your undergrad GPA is already a powerful asset; building on it could shift the odds significantly in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

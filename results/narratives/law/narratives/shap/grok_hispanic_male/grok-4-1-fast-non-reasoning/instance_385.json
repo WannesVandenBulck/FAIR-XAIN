@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 385,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:15.826114",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.40, an LSAT score of 25, Year 1 school decile ranking of 5th, and Year 3 decile of 3rd, along with your middle family income bracket and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 71% chance you'll fail the bar—high enough that your application was rejected to minimize the school's risk of low bar passage rates. This prediction hinges on just a few key factors from your profile that stood out most strongly to the model. Your LSAT score had the biggest influence, pushing the prediction heavily toward failure because it's well below the typical 36.7 average seen in students who pass. Next, your Year 3 decile ranking of 3rd—lower than the average 5.53—further tipped the scales toward expecting a struggle on the bar, signaling weaker late-stage academic performance compared to peers. On a more positive note, your Year 1 decile of 5th, close to the average of 5.71, worked in your favor by nudging the prediction slightly toward passing success. While your full-time status aligns with most students and your middle income is common, they didn't sway the outcome much here. Overall, your profile compares to typical admitted students by having solid early grades but falling short in critical test scores and later performance, where stronger showings often predict bar passage. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar starts through targeted effort. To move forward, consider retaking the LSAT to boost it toward 35 or higher, strengthening your later academic deciles with focused study habits, and exploring post-bac programs or prep courses proven to lift bar odds for students like you. Reapply after building these credentials, and seek mentorship from Hispanic law alumni who navigated parallel paths. Your determination can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

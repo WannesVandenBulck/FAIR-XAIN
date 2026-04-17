@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:11.149037",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 37, middle-family income background, part-time enrollment plans, and school decile rankings of 4th in Year 1 and 7th in Year 3. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 64% chance you'll fail the bar—high enough to trigger an automatic rejection to protect the school's outcomes. This decision hinged on just a few key factors from your profile that stood out the most to the model. The biggest influence pushing toward a failure prediction was your plan to attend part-time, which is uncommon—only about 7% of students do this—and the model sees it as a major risk since most successful bar passers go full-time. Next, your stronger 7th-decile ranking in Year 3 grades pulled things in a positive direction, suggesting good late momentum compared to the typical student's 5.5 average there, which helped offset some concerns. However, your lower 4th-decile ranking in Year 1 grades, below the usual 5.7 average, nudged the prediction back toward failure by signaling an early academic struggle. Overall, these elements combined to tip the scales against you, even with your solid LSAT and GPA aligning closely with averages. While this feels disappointing, especially given your background and determination, it's not the end of the road. Consider retaking the LSAT for a higher score, strengthening recent grades to boost your deciles further, or exploring full-time options to align better with proven paths. You could also target schools with more flexible models or appeal with a personal statement highlighting your Hispanic perspective and resilience. Many students in similar spots pivot successfully—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

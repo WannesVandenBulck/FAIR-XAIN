@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:21.403963",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 44.5% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in academic records, test scores, and backgrounds of past students, focusing on factors like grades, LSAT performance, and family circumstances that reliably signal bar success. Among the key elements in your profile, your undergraduate GPA of 3.40 stood out as the strongest positive signal, actually exceeding the average of 3.24 seen among students who passed the bar, which pushed the model's assessment toward expecting you to succeed. However, this was outweighed by your Year 3 school decile ranking of 2, well below the typical 5.91 for bar passers, marking it as the most influential factor driving the prediction toward failure by highlighting relatively lower performance in that stage compared to peers. Your Year 1 decile of 2 played a similar but lesser role, further nudging the model toward concern since it also trails the 6.04 average for successful students. While your middle family income aligns with about a third of bar passers and your full-time study plans match over 90% of them, and your LSAT score of 30.50 reflects solid effort, these did not offset the decile impacts enough to tip the balance. In essence, the model saw your early and mid-undergrad deciles as red flags when stacked against stronger academic trajectories of admitted students, even with your above-average undergrad GPA providing some counterbalance. You're in a tough spot, but this isn't a judgment on your potential—many with similar starting points improve dramatically. To move forward, consider retaking the LSAT to boost that score closer to 37 or higher, strengthening your class rankings through targeted coursework or extracurriculars that demonstrate upward trends, and gathering letters highlighting your resilience and full-time commitment. Reapplying after addressing these could shift your predicted odds significantly, opening doors at schools like ours. Keep pushing; your story shows real grit already.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

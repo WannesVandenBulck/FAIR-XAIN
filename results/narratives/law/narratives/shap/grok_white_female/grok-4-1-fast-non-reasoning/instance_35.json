@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 35,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:49.523986",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 95.8% chance that you would not pass, based on patterns from thousands of past students. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your academic decile rankings from earlier years in school—specifically, your placement in the bottom deciles for both Year 1 and Year 3 grades—which stood out as the top two factors pushing the prediction toward failure. Students who passed the bar typically ranked much higher, around the 6th decile in Year 1 and 6th in Year 3, so your lower rankings signaled a concerning trend to the model. Your LSAT score of 28, well below the average of about 37 for those who passed, was the third most influential factor, further reinforcing the model's worry about your readiness for the rigors ahead. While your middle family income bracket aligns with over a third of successful bar takers, and your choice of full-time study matches nearly all of them, these didn't outweigh the academic concerns. Compared to typical accepted students, who boast stronger early grade deciles and higher LSATs alongside solid undergraduate GPAs like your 2.7 (versus their 3.24 average), your profile fell short in the areas the model weighs most heavily for bar success. This isn't a judgment on your potential or background—it's the model highlighting where historical data shows the biggest hurdles. To move forward, focus on bolstering your academic standing: retake the LSAT to aim for 35 or higher, build a stronger GPA through targeted coursework, and gather evidence of improvement like recent high grades or bar prep commitments. Consider reapplying after addressing these gaps, perhaps with a post-bac program or additional test prep to shift your profile closer to successful applicants. Many students in similar spots have turned things around with focused effort, and universities value demonstrated growth. You're capable of this—use this feedback as your roadmap to a stronger application next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

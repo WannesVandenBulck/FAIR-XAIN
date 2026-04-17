@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 222,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:10.743899",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.10 and an LSAT score of 31, your profile also includes strong family support from an upper-middle income background and plans to attend law school full-time. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 45.8% chance of failure—high enough that it tipped the decision toward rejecting your application to help the school maintain strong bar passage rates. This prediction hinged mostly on your academic performance in school, particularly your grades in later years. The strongest factor pushing toward a failure prediction was your Year 3 decile ranking of 1, which placed you in the bottom tenth of your school—far below the typical student's average around the middle of the pack—and signaled potential challenges in sustaining high performance over time. Next in influence, your undergraduate GPA of 3.10 worked in your favor, pulling the prediction toward passing since it's close to the average of 3.21 and shows solid prior achievement. Your Year 1 decile of 1 had a moderate pushing effect toward failure, again reflecting a low starting rank compared to peers' averages near the middle. Compared to typical students who pass the bar, your early and late school rankings stand out as weaker, while your GPA aligns more closely with successful applicants. These top three academic indicators outweighed positives like your LSAT, family income, and full-time status, which is common for about 93% of students. While disappointing, this isn't a judgment on your potential as an Asian male from a supportive background—many overcome similar starts. To move forward, consider retaking the LSAT to boost it above the average 36.7, strengthening your undergrad record through additional coursework or a post-bac program, and targeting schools with holistic reviews that value your unique story. Reapplying after addressing these gaps could shift your predicted odds significantly. Keep pushing; your determination will make the difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 315,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:50:45.108586",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—your law school application stood out in some academic areas, but the admissions model ultimately predicted a 42.7% chance of failing the bar exam on your first try, tipping the decision toward rejection. This probability reflects the model's assessment of your overall profile against patterns from thousands of past students, where failing the bar meant applications like yours were turned away to prioritize those with stronger predicted odds of success. The three biggest factors driving this prediction were your undergraduate GPA, your LSAT score, and your Year 1 school decile ranking. Your strong undergraduate GPA was the most influential positive force, pushing the model toward expecting you to pass the bar by signaling solid prior academic performance compared to peers. However, your LSAT score of 24—well below the average of 36.7—had an equally powerful counter-effect, strongly nudging the prediction toward failure since lower scores like yours often correlate with bar struggles in the data. Your Year 1 decile of 5, slightly under the average of 5.71, also helped a bit by showing decent early performance, but it wasn't enough to offset the LSAT's drag. Compared to typical admitted students, who often have higher LSATs and consistent deciles above 5-6 across years, your profile aligns more with those who faced bar challenges despite strengths like your GPA and middle-family-income background. Your full-time student status, common among 93% of applicants, didn't sway things much either way. This isn't a judgment on your potential as a Black man pursuing law—many with similar backgrounds succeed with targeted preparation—but the model weighs these metrics heavily to predict bar outcomes. To move forward, focus on retaking the LSAT to boost it closer to or above 36, as that single change could flip predictions for schools using similar systems. Strengthening your later-year deciles through standout coursework might help too, and consider programs offering LSAT prep scholarships tailored for underrepresented applicants like you. With your GPA as a foundation, you're already ahead of many; persistence here could open doors next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

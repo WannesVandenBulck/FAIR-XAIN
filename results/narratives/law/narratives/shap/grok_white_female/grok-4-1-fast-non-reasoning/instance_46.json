@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:28.702733",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 40.5% chance that you would fail—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.60, LSAT score of 37.50, Year 1 and Year 3 decile rankings both at 2, middle family income bracket, and your plan to attend full-time. Among students who passed the bar, the average undergraduate GPA is 3.24, and decile rankings are much higher, around 6 for both early and later years, which highlights where your profile stands out. The three most influential factors in pushing your prediction toward failure were your Year 3 decile ranking, your Year 1 decile ranking, and—counterbalancing them somewhat—your LSAT score. Your Year 3 decile of 2 had the strongest pull toward predicting failure, as it signals performance well below what successful bar takers typically show in their later undergraduate years. Similarly, your Year 1 decile of 2 contributed notably in the same direction, reinforcing concerns about consistent academic strength from the start. On a brighter note, your LSAT score was the top factor nudging the prediction toward success, performing slightly above the average for those who passed and helping to offset some of the other risks. Your full-time enrollment plan aligns well with the vast majority of bar passers (over 93%), and your middle family income is common among them too, so those didn't sway the outcome much. Overall, compared to admitted students, your deciles lag significantly behind their typical top-third standings, which weighed more heavily than your solid LSAT in the model's eyes. This isn't a judgment on your potential or background—it's just how these key academic markers stacked up. To move forward, consider retaking the LSAT to strengthen that asset further or focusing on graduate-level courses to boost your decile rankings, then reapply with an updated profile that addresses these gaps. Many students in similar spots have succeeded by targeting these areas, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

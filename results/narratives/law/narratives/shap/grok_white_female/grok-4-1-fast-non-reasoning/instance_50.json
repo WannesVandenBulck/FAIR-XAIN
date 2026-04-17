@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 50,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:42.666123",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 64% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. For you specifically, your Year 3 school decile ranking of 2 played the biggest role in pushing the model toward predicting failure, as it signals performance in the lower range compared to the typical top-third standing among those who passed the bar. Your LSAT score of 25 was the second strongest factor pulling in the same direction, falling well below the average of about 37 seen in successful bar takers. On a more positive note, your upper-middle family income bracket nudged the prediction slightly toward success, aligning with the most common background among those who passed, where it represents nearly half of that group. Overall, these top influences—your Year 3 deciles and LSAT—outweighed the supportive effect of your family income, leading the model to see higher risk than in accepted applicants, who typically show stronger mid-to-late academic deciles and LSATs around 37 or higher. Your undergraduate GPA of 2.5 and Year 1 decile of 2 also factored in as weaker than the 3.24 and 6+ averages for passers, though they weren't the dominant drivers here. Full-time enrollment plans match the norm for those admitted, so that didn't sway things much. This isn't a judgment on your potential or effort—it's a data-driven flag based on historical outcomes. To move forward, consider retaking the LSAT to boost your score closer to 35 or above, strengthening your later-year grades to climb into a higher decile, and gathering letters or experiences that highlight your resilience and growth. Many students in similar spots have improved these areas and succeeded on appeal or reapplication—reach out to our admissions team for personalized advice on building a stronger case. With targeted steps, you can shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

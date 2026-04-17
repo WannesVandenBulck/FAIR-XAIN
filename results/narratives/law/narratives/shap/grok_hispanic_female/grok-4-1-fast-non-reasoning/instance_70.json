@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:10.938400",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 75.2% chance that you would not pass, tipping the scales against admission. This prediction draws from your academic record, including your undergraduate GPA of 3.20 and LSAT score of 34, alongside your Year 1 and Year 3 school decile rankings of 2 in both, your upper-middle family income, and your plan to attend full-time. The model weighed these factors against patterns from thousands of past students, focusing on those most predictive of bar success. The strongest influence pushing toward this failure prediction was your Year 3 decile ranking, as being in the second decile—well below the typical fifth or sixth decile for those who passed—signaled potential challenges in sustaining strong performance. Next, your undergraduate GPA played a key role in the opposite direction, pulling the prediction toward passing since your 3.20 is close to the 3.24 average among successful bar takers, showing some academic promise. Your Year 1 decile ranking of 2 also contributed toward failure, though less strongly, as it similarly lags behind the sixth decile average for passers, highlighting early struggles relative to peers who succeeded. While your full-time status aligns with 93% of those who passed and your family income falls squarely in the upper-middle range common among them (45%), these did not outweigh the academic concerns. Compared to typical accepted students, your LSAT of 34 falls short of their 37.27 average, compounding the decile issues. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven flag on bar passage odds. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your grades to climb those school deciles, and perhaps seeking targeted prep like bar-focused tutoring. Many students in similar spots have improved by addressing these gaps, and reapplying with updated credentials could shift the model's view. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:51.679663",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 69% chance that you would not pass the bar exam on your first attempt, based on patterns from thousands of past students' academic and background details. This threshold is set to prioritize admitting those most likely to succeed on the bar right away, helping the school maintain its strong outcomes. The model's decision hinged most on your class rankings from your first and third undergraduate years, where you placed in the lowest decile both times—far below the top-half positions typical for students who went on to pass the bar. Your third-year decile had the strongest pull toward this failure prediction, as low rankings there often signal challenges in sustaining performance under pressure, a key bar exam factor. Your first-year decile reinforced that concern, pushing the prediction further in the same direction since early struggles frequently predict ongoing difficulties. On a brighter note, your undergraduate GPA of 3.50 actually worked in your favor, exceeding the average for bar passers and nudging the model toward expecting success. While your LSAT score of 27.50 was notably lower than the 37 average for those who passed, and your low family income bracket is uncommon among successful students, these played smaller roles compared to your class deciles. Being a full-time student aligned well with the vast majority who passed, but it couldn't offset the top concerns. Compared to admitted applicants, who typically ranked much higher in their classes and showed stronger early indicators, your profile raised red flags about bar readiness despite strengths like your solid college grades. This isn't a judgment on your potential or background—it's just the model spotting patterns where low deciles like yours correlated with first-try bar failures. To move forward, consider retaking the LSAT to boost your score, seeking academic advising to improve class rankings in any further studies, or exploring part-time programs or gap-year prep courses that have helped similar students strengthen their profiles before reapplying. With targeted improvements, you could shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

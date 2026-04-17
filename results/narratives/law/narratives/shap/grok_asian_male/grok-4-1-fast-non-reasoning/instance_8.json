@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:25:45.011053",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid LSAT score of 37—right above the typical 36.7 average—and a family income in the high bracket, you've built an impressive profile coming into law school admissions. Your undergraduate GPA of 3.10 is close to the average of 3.21, and planning to attend full-time aligns with what most students do. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 48%, tipping the scales just enough to reject your application. This prediction hinges on a few key academic markers from your background, with your Year 3 school decile ranking of 2—well below the average of about 5.5—standing out as the top factor pushing the model toward forecasting a bar failure. That lower ranking in your later undergraduate years signaled to the model a potential dip in sustained performance, which carried the strongest weight in its decision. On a more positive note, your undergraduate GPA played a nearly equal but opposite role, pulling strongly in favor of predicting you'd pass by showing solid overall academic strength. Your LSAT score followed closely behind as another helpful factor, nudging the prediction toward success thanks to its above-average edge. Compared to typical students, where Year 1 and Year 3 deciles average around 5-6, your stronger start in Year 1 (decile 1) was promising but couldn't fully offset the later drop. These top three elements—your Year 3 decile as the biggest concern, balanced by your GPA and LSAT—ultimately outweighed your other strengths like family background and full-time plans. While this feels disappointing, especially with your high-achieving profile as an Asian male, it reflects the model's focus on consistent academic trajectory for bar success. To move forward, consider retaking courses or building recent grades to boost your decile rankings, perhaps through a post-bac program or targeted prep that highlights upward trends. You could also reapply after gaining more experience, like internships, to show the model—and admissions teams—your full potential. With your LSAT and GPA as anchors, targeted improvements here could easily shift that 48% risk lower next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

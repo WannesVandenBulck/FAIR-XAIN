@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 423,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:51:49.635190",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and family background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.20 (below the typical 3.21 average), LSAT score of 33 (under the usual 36.7), Year 3 school decile ranking of 2 (far below the average 5.53), low family income bracket, and plan to attend full-time—and predicted a 48.3% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing the prediction toward failure was your Year 3 decile ranking, which signals weaker performance relative to your peers in that critical later stage of schooling. Counterbalancing this somewhat was your LSAT score, which had a strong favorable pull toward predicting bar exam success, performing better than it might have otherwise. Your low family income also nudged the prediction in a positive direction, as students from similar backgrounds have historically shown resilience in passing the bar. Compared to typical students, your early Year 1 decile of 2 (versus an average 5.71) and overall lower GPA placed you in the lower tail of the distribution, amplifying concerns despite the full-time commitment that aligns with most successful applicants. While these top factors created a close call, the model tipped toward caution due to the dominant drag from your later-year grades. This isn't a judgment on your potential as an Asian male student—many from similar demographics overcome these hurdles—but a data-driven flag on bar passage odds. To move forward, consider retaking the LSAT to boost that favorable influence, strengthening your later academic deciles through targeted coursework or post-bac programs, and gathering letters highlighting your resilience from a low-income background. Reapplying after addressing these could shift your predicted probability significantly lower. Schools value persistence, so use this feedback to refine your path toward bar success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

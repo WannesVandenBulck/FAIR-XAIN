@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 48,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:47.300939",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.90, LSAT score of 29.30, middle family income bracket, and full-time student status, along with your Year 1 and Year 3 school decile rankings of 3 and 2, respectively. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 75.8% chance that you would fail it on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most to the model. The strongest influence pushing toward failure was your Year 3 school decile of 2, well below the typical student's 5.53 average, signaling to the model a notable dip in performance relative to peers at a critical stage. Next in influence was your Year 1 decile of 3, again lower than the average of 5.71, reinforcing concerns about consistent academic standing from early on. Your LSAT score, while not your strongest suit compared to the 36.70 average, actually worked slightly in your favor by nudging the prediction a bit toward passing, showing some potential despite the overall picture. Compared to typical students who pass the bar, your decile rankings place you in the lower range of the distribution, which amplified the model's worries about bar exam readiness. These top three factors—your later-year deciles most heavily, followed by early-year performance and tempered by LSAT—drove about three-quarters of the risk the model saw. It's tough to hear, especially as someone from a Hispanic background navigating these metrics, but this is the model's data-driven lens on bar passage patterns. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your later academic deciles through additional coursework or a post-bac program, and gathering strong recommendation letters highlighting your resilience. Many students in similar situations improve these markers and succeed on reapplication—focus on targeted prep, and you'll have a stronger case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

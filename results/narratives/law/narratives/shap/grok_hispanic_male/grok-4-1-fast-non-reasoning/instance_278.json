@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 278,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:33.640554",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shown impressive strengths in your academic background, including a strong undergraduate GPA of 3.90 that stands out well above the typical 3.21 average for students in this prediction system. However, the model used to evaluate your application predicted a 45% probability that you would fail the bar exam on your first try, which unfortunately crossed the threshold for rejection, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction was driven primarily by three key factors from your profile, ranked by their influence on the outcome. Your undergraduate GPA was the most powerful positive force, strongly pushing the prediction toward expecting you to pass the bar, reflecting how it signals your potential for high performance under pressure. In contrast, your position in the lowest decile for Year 3 school grades was the next biggest factor, pulling the prediction toward failure by highlighting a concerning dip in performance later in your studies compared to peers. Your LSAT score of 21, notably below the average of about 37, also contributed toward the failure prediction, though to a lesser extent, as it raised doubts about standardized test readiness for the bar. While your full-time student status aligns with most applicants and your lower-middle family income bracket is common, these didn't sway the decision much. Compared to typical students who pass the bar, your profile shines in GPA but lags in these ranking and test metrics, tipping the overall balance. This isn't a judgment on your worth or potential as a lawyer—many overcome similar hurdles through targeted preparation. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your Year 3 record perhaps through additional coursework or explanations in a reapplications, and seeking bar prep resources early. Law schools value resilience, especially from diverse backgrounds like yours, so reapplying with these improvements could change the outcome next time. You're clearly capable, given your GPA, and with focus, you can turn this into a success story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

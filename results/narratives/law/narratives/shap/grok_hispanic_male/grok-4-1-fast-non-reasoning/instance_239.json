@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 239,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:05.249534",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.10, an LSAT score of 28, lower-middle family income, and your plan to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile—well below the typical student's averages around the middle of their class. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 82.8% chance that you would fail the bar on your first try, tipping the scales toward rejection to minimize the risk of poor outcomes for both you and the school. This high failure probability meant your application didn't meet the threshold for approval, as the school prioritizes candidates likely to pass and thrive in legal practice. The three biggest factors pulling the prediction toward failure were, first and foremost, your Year 3 school decile ranking, which strongly signaled lower academic performance relative to peers and pushed the model heavily toward expecting a bar exam struggle. Next, your Year 1 decile in the bottom 10% reinforced that early pattern of underperformance compared to the average student's mid-range standing, further increasing the predicted risk. Your LSAT score of 28, notably below the dataset average of about 37, added to this by contributing in the same direction, as lower scores like yours have historically correlated with bar challenges in the model's analysis. While your full-time enrollment plan aligns with most students and your family background is common, these top academic indicators overshadowed them in driving the decision. You're not alone in this—many applicants with similar early deciles and test scores face the same hurdle, but stronger profiles typically land in higher deciles and push 30+ on the LSAT to shift predictions favorably. To move forward, consider retaking the LSAT to boost your score, strengthening your recent grades to climb those deciles, or exploring post-baccalaureate programs to build a more competitive academic record before reapplying. Schools value persistence, especially from determined Hispanic men like you breaking into law, so targeted improvements could flip this prediction next time. Keep your full-time commitment, as it matches the successful majority, and seek mentorship from bar-passers with similar backgrounds to guide your prep. With focused effort, you can rewrite this story and secure that admission.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

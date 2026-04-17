@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 41,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:48:11.114830",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 46% chance that you would fail it. This threshold triggered the rejection to help the school maintain high bar passage rates for its students. The model's decision for you hinged primarily on three key aspects of your profile: your undergraduate GPA, your third-year grade decile in school, and your family income level. Among these, your strong undergraduate GPA of 3.90—well above the 3.24 average for students who passed the bar—stood out as the most influential positive factor, strongly pushing the prediction toward expecting you to pass rather than fail. In contrast, your third-year decile ranking of 1.00, much lower than the 5.91 average for bar passers, was the top factor pulling in the opposite direction, significantly raising concerns about potential bar struggles. Your low family income bracket played a smaller role but still leaned positive, as it aligned with patterns where students from similar backgrounds who passed weren't uncommon, though they represent a smaller share compared to those from middle or upper-middle incomes. Overall, while your impressive undergrad performance provided a solid boost, the model weighed your lower third-year standing heavily enough to tip the scales toward a concerning failure risk, especially when stacked against profiles of accepted students who typically show stronger decile rankings across the board. Full-time enrollment plans like yours are common among bar passers, so that didn't sway things much here. To move forward, consider retaking the LSAT—your score of 26.50 is notably below the 37.27 average for successful students—and focus on boosting your grades to climb those school deciles. Building a more robust academic trajectory could shift future predictions in your favor. You might also explore programs with bar prep support tailored for students from varied income backgrounds. With targeted improvements, another application could tell a different story. Keep pushing; your undergrad success shows real potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

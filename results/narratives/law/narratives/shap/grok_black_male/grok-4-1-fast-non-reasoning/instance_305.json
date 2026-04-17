@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 305,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:50:06.883624",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 44, middle family income bracket, full-time student status, and notably low Year 1 and Year 3 school decile rankings of 1—and predicted a 69.8% chance that you would fail the bar exam on your first attempt. This high predicted failure risk led directly to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. Among all the factors considered, your LSAT score had the strongest positive influence, pushing the prediction toward expecting you to pass because your 44 is well above the typical score of around 37. However, your Year 3 decile ranking of 1—the most influential factor overall—strongly pulled in the opposite direction toward failure, as it places you in the bottom 10% of your school's grades that year, far below the average decile of about 5.5. Similarly, your Year 1 decile of 1, the third-most important factor, reinforced this negative signal by again showing bottom-tier performance compared to peers averaging around 5.7. Your undergraduate GPA of 3.10 was close to the dataset average of 3.21 and didn't sway the outcome much, while your middle income and full-time status aligned with most applicants and had minimal impact. In essence, while your standout LSAT suggested real potential, the model weighed your consistently low school deciles as the dominant red flags, setting you apart from typical admitted students who rank higher in their classes. This isn't a judgment on your character or background, but a data-driven assessment highlighting where your record fell short of patterns linked to bar success. To move forward, consider retaking courses or programs to boost your school deciles, perhaps supplementing with targeted LSAT-level prep to solidify that strength, and reapplying after building a stronger academic trajectory—many students in similar situations have turned things around with focused improvement. Schools value persistence, especially from determined applicants like you, so use this as motivation to address those key gaps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

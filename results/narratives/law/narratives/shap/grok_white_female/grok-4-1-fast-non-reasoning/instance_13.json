@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:24.156778",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.30 stood out as a key factor in the model's decision, as it was the strongest influence pushing the prediction toward expecting you might struggle on the bar exam—despite being slightly above the average of 3.24 for students who passed, it wasn't enough to offset other concerns in the model's eyes. Next in importance was your Year 3 decile ranking of 9th, which actually worked in your favor by pulling the prediction toward success, much like it does for many who pass the bar. Your LSAT score of 40 also played a notable role, though it nudged the outlook slightly toward potential failure compared to the typical successful student's score around 37. Overall, these three elements—your undergrad grades, later-year school ranking, and LSAT—were the most influential in shaping the model's view, with your GPA carrying the most weight toward concern. The model estimated a 59.6% chance you'd fail the bar on your first try, which crossed the threshold for denying your full-time law school application to protect the program's outcomes. This prediction drew from patterns in thousands of past students' academic records, family backgrounds like your upper-middle income, and early grade deciles—your Year 1 decile of 9 was higher than average for passers, yet it didn't sway things enough. Compared to those typically admitted, who often have stronger alignments across grades and test scores, your profile showed solid potential in some areas like LSAT and later deciles but raised flags elsewhere. It's understandable to feel disappointed, especially with your full-time commitment and background aligning with many who succeed. To move forward, consider retaking the LSAT to boost it further or strengthening your GPA through post-bac courses or targeted prep, as even small improvements in these top factors could shift future predictions. You might also seek feedback from admissions counselors on bolstering your Year 3-style performance earlier. Many students in similar spots reapply successfully after addressing one key area—your upper-middle family support positions you well for that. Keep pushing; this is just one model's snapshot, not your full story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

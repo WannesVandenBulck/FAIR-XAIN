@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:40.662554",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 57% chance that you would not pass the bar exam on your first try, based on patterns from thousands of past students' academic records and outcomes. This threshold triggered the rejection to help the university select applicants more likely to succeed long-term. The model's decision hinged most strongly on three key factors from your profile: your LSAT score, your third-year grade decile in school, and your first-year grade decile. Above all, your LSAT score of 25 stood out as the biggest push toward predicting bar failure—it was well below the average of about 37 for students who passed, signaling to the model a potential struggle with the intense reasoning demands of law. On a brighter note, your third-year decile of 4 worked strongly in your favor, pulling the prediction toward success since it exceeded the typical 5.9 average among those who passed, showing real academic growth over time. Your first-year decile of 1, however, nudged things back toward failure risk, as it was much lower than the 6 average for passers, highlighting an early challenge that the model weighed heavily. While your upper-middle family income aligns with many who succeed and your part-time enrollment status is less common but not decisive here, these academic markers dominated the assessment. Compared to typical accepted students—who often enter with stronger early grades, higher LSATs, and full-time focus—your profile suggested higher odds of needing extra attempts at the bar, which influenced the outcome. This isn't a judgment on your potential or background; it's the model prioritizing bar passage stats to protect your investment in time and tuition. To move forward, consider retaking the LSAT to boost that score closer to 37 or above, as even a modest improvement could shift predictions dramatically for other schools. Strengthening your early-grade foundation through targeted prep or additional undergrad coursework might also help in future applications. Many students in similar spots have rebounded by addressing these exact areas—reach out to admissions advisors for personalized strategies, and keep pursuing your goals with that upward trajectory you've already shown.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

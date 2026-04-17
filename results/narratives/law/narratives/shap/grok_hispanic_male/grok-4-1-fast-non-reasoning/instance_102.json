@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 102,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:13.276863",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes middle-class family income and plans to attend full-time, which are common among applicants. Your undergraduate GPA of 2.30 sits below the typical 3.21 average, while your LSAT score of 23 is notably lower than the average of around 37. Your Year 1 school decile ranking of 5 is close to average, and your Year 3 decile of 5 is similarly typical. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 45% chance you'll fail the bar—high enough to trigger rejection, as the school prioritizes applicants likely to pass on their first try and build a strong reputation. Among all factors considered, your Year 3 decile ranking had the strongest positive influence, pushing the prediction toward success because it shows solid performance relative to peers. Next in importance was your LSAT score, which significantly pulled toward a failure prediction due to its low value compared to what's typical for successful bar takers. Your undergraduate GPA followed, also nudging the outlook toward failure, though less forcefully, as it falls short of the stronger records that correlate with passing. These top three elements—your later-year ranking helping you, but LSAT and GPA working against—were the key drivers tipping the scales. Compared to typical admitted students, who often have higher test scores and GPAs alongside average deciles, your profile appeared riskier for bar passage. This isn't a judgment on your potential as a lawyer or your Hispanic heritage's value in the field—it's a data-driven call based on patterns from thousands of past students. To move forward, consider retaking the LSAT to boost that score, strengthening your academic record through additional coursework or a post-bac program, and reapplying next cycle with updated credentials that align more closely with proven bar-passers. Many students in similar situations have succeeded by targeting these areas, and law schools often value persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

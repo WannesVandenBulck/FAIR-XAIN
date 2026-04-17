@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 266,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:52.218719",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 97% probability that you would fail the bar exam, which directly led to the rejection of your admission because the school prioritizes candidates with strong predicted odds of bar success. The three biggest factors pushing this prediction toward failure were your Year 3 school decile ranking, your LSAT score, and your Year 1 school decile ranking—these stood out as the most influential in the model's decision for you specifically. Your Year 3 decile of 1, which places you in the bottom tenth of your school's grades that year, had the strongest negative pull, signaling to the model a significant risk of bar struggles compared to typical students averaging around the middle of their class. Similarly, your LSAT score of 25 was a major concern, as it's well below the dataset average of about 37, strongly contributing to the failure prediction since higher scores are key predictors of bar passage. Your Year 1 decile of 1 reinforced this pattern, again showing early underperformance relative to peers who average mid-range rankings. While positives like your undergraduate GPA of 3.60 exceed the typical 3.21 average and your full-time student status aligns with most applicants, they weren't enough to offset these top concerns. Your middle family income bracket is right in line with averages, so it didn't sway the outcome much. In comparison to typical students who pass the bar, your early and later school deciles are notably lower, and your LSAT lags far behind, creating a profile the model sees as high-risk. This isn't a judgment on your potential as a person or your dedication—many factors like personal growth or external challenges aren't fully captured here. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through additional coursework or tutoring, and reapplying to schools with more holistic reviews that might weigh your solid UGPA more heavily. You could also explore post-baccalaureate programs to build a stronger pre-law record tailored to your background. With targeted improvements, your next application could tell a different story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

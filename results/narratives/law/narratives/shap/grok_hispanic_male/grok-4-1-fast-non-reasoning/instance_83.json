@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 83,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:04.575408",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 40, which stands out above the typical 36.7 average, along with your upper-middle family income background and plans to attend full-time. However, your undergraduate GPA of 2.6 falls below the average of 3.21, and your Year 1 school decile ranking of 2 is notably lower than the usual 5.71, with your Year 3 decile at 1 compared to a typical 5.53. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 40% chance you'll fail the bar—high enough to trigger a rejection, as the school prioritizes applicants likely to pass on their first try. This prediction hinged on just a few key factors from your profile, ranked by their influence on the outcome. Your standout LSAT score was the strongest positive force, strongly pushing the model toward expecting you to pass by signaling sharp analytical skills that often predict bar success. However, your Year 3 decile ranking had an even more powerful counter-effect, driving the prediction toward failure because it reflects weaker performance relative to peers at that stage, a red flag for long-term endurance in rigorous programs. Your family income also nudged things positively toward passing, as upper-middle resources often correlate with better preparation and support. Compared to typical students who pass, your early and mid-year deciles are in the bottom ranks, pulling you below the pack despite your LSAT edge. While full-time status aligns with most successful applicants (over 92% of them), it wasn't a major swing factor here. To move forward, focus on bolstering your academic record—perhaps through a post-baccalaureate program or targeted GPA-boosting courses—to lift those decile rankings in future applications. Retaking the LSAT isn't urgent given your score, but gathering strong recommendation letters highlighting your resilience as a Hispanic student overcoming early hurdles could personalize your story further. Many in similar situations reapply successfully after addressing these gaps, so view this as targeted feedback rather than a final verdict. With strategic steps, you're well-positioned to strengthen your case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

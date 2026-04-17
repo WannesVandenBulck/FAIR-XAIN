@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 49,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:34:01.569203",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile, including your early academic deciles, LSAT score, family income bracket, and plans for full-time study, and it estimated a 44.5% chance that you would fail the bar exam. Because this probability crossed the threshold for high risk, your application was rejected to prioritize admits likely to pass on their first attempt. Among all the factors considered, your undergraduate GPA stood out as the strongest positive influence, pushing the prediction toward success since your score exceeds what's typical for students in the dataset. However, your third-year high school decile of 2—well below the average of 5.53—had the next biggest impact, nudging the model toward predicting failure by signaling weaker performance later in school compared to most applicants. Your first-year decile of 2, also under the average of 5.71, added further concern in a similar way, though its influence was smaller than your later decile. Your LSAT score of 30.50, below the 36.70 average, and middle family income bracket played supporting roles but weren't the top drivers here. Overall, while your college grades give you a real strength that many don't have, the model weighed your lower high school deciles heavily against you, seeing them as the biggest red flags relative to typical successful students. This isn't a judgment on your potential as a Black man pursuing law—many with similar backgrounds overcome these metrics—but the system's focus on bar passage stats led to this outcome. To move forward, consider retaking the LSAT to boost it closer to or above average, as that could tip future models in your favor. Strengthening any recent academic showings or gathering strong recommendation letters highlighting your resilience could also help reframe your high school deciles. Finally, target schools with holistic reviews that value diverse perspectives like yours, and perhaps seek bar prep resources early to build confidence. With targeted improvements, you're well-positioned to succeed next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

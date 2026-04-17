@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:57.959164",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 56.3% chance that you would fail the bar exam on your first try, which is above the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data about past students' academic records, test scores, and backgrounds to forecast bar exam outcomes. The biggest factor pushing toward this failure prediction was your Year 3 grade decile of 1st, which is much lower than the 6th decile average among students who passed the bar—placing you in the bottom tier compared to those who succeeded. This low ranking in your later undergraduate years stood out as the most influential concern, signaling to the model a potential struggle with sustained high performance needed for the bar. On a more positive note, your LSAT score of 35.5 pulled the prediction toward success, as it was close to the 37.3 average for bar passers and showed solid reasoning ability. Similarly, your undergraduate GPA of 3.4 worked in your favor, exceeding the 3.24 average of those who passed and highlighting your college-level academic strength. Your lower-middle family income bracket is less common among bar passers, where middle and upper-middle incomes dominate, but it wasn't among the top drivers here. Being a full-time student aligns well with the vast majority of successful candidates, though it didn't outweigh the key concerns. Overall, your profile compares unfavorably to typical accepted students mainly due to that Year 3 decile, despite strengths in LSAT and GPA that kept the failure odds from being even higher. To move forward, consider retaking the LSAT to boost your score further or strengthening your recent academic record through additional coursework or a post-bac program to improve your decile standing. You might also seek targeted bar prep resources early, as students with similar profiles who addressed grade trends often succeeded. We're rooting for you to build on your GPA and LSAT strengths—many applicants improve and get accepted later.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

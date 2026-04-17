@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 103,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:34.026394",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid full-time commitment to law school, your profile includes an undergraduate GPA of 2.50—below the typical 3.21 average—an LSAT score of 35, which is a bit under the usual 36.70, and placement in the lower deciles of your school's grading rankings in Year 1 (2nd decile versus an average of 5.71) and especially Year 3 (1st decile versus 5.53), alongside a lower-middle family income bracket. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 41% chance that you would fail the bar exam, tipping the scales toward rejection to minimize the risk of poor outcomes for both you and the school. This prediction wasn't random; it hinged on a few key factors from your background that stood out the most. Your LSAT score was the strongest positive signal, pushing the model toward expecting you to pass by showing solid reasoning ability compared to many applicants. However, your Year 3 school decile ranking had the biggest negative pull, signaling to the model a notable dip in performance relative to peers, which strongly nudged the prediction toward failure risk. Your family income bracket also helped your case somewhat, as it aligned with patterns where students from similar backgrounds sometimes overcome challenges to succeed. Overall, these elements placed you below the threshold of students typically predicted to pass, where stronger late-stage grades often make the difference. While your Asian background is common among high-achieving applicants, the model focused more on these academic metrics than demographics. To move forward, consider retaking the LSAT to boost that score further or strengthening your upper-year performance through targeted study habits or tutoring, then reapply with updated credentials. Many students in similar positions have improved their profiles and succeeded on later attempts. This rejection is a data-driven signal, not a final judgment on your potential as a lawyer. With focused effort, you can shift those key factors in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

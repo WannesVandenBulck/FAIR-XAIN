@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 57,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:22.174511",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select students likely to succeed on their first try. Your undergraduate GPA of 2.60 falls below the typical 3.21 average, your LSAT score of 31.50 is lower than the usual 36.70, and your Year 1 school decile ranking of 2 is well under the average of 5.71, reflecting challenges in early performance. The model estimates a 95% probability that you would fail the bar exam on your first attempt, which is why your application was rejected—law schools use this to prioritize applicants with stronger predicted odds of passing. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1, far below the average of 5.53, signaling to the model that your later academic standing in school was in the bottom tier compared to peers. Next in importance was your family's middle income bracket, which the model saw as contributing toward higher failure risk in this context, unlike higher brackets that often correlate with passing. Your Year 1 decile of 2 also played a role, nudging the prediction further toward failure rather than success, as it deviated significantly from typical stronger performers. While being full-time aligns with most students at 92.7%, it didn't offset these key concerns. Overall, your profile stood out as riskier than average students who pass, particularly in these decile rankings that capture relative performance within your school. This isn't a judgment on your potential or resilience as a Hispanic man pursuing law—many overcome similar starts—but the model weighs these patterns heavily. To move forward, consider retaking the LSAT to boost your score above average, strengthening your grades to climb those school deciles, or exploring post-baccalaureate programs to rebuild your academic record. You might also seek mentorship from successful Hispanic lawyers who navigated comparable paths. Reapplying after addressing these areas could shift your predicted odds dramatically. Keep pushing; your determination will serve you well in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

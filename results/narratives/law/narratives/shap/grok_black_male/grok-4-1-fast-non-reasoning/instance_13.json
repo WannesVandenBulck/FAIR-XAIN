@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 13,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:38.403255",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid upper-middle-class family background and plans to attend law school full-time, you've put together a strong profile including an undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 40, which stands out above the usual 36.70. However, the admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 59.6% chance that you would fail the bar on your first try, tipping the scales just over the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or character, but a data-driven assessment based on patterns from students like you who went on to take the exam. The most influential factor pushing toward this failure prediction was your undergraduate GPA; while it's respectable and above average, it wasn't quite high enough in the model's eyes to signal the strongest bar exam readiness compared to top performers. Counterbalancing that strongly was your Year 3 school decile ranking of 9, which is exceptionally high—well above the average of about 5.5—and pulled the prediction meaningfully toward expecting you to pass. Your LSAT score, though impressive and above average, had a moderate influence in the opposite direction, nudging the model slightly toward anticipating a failure based on how similar scores have played out for others. Overall, these three elements—your GPA as the top concern, bolstered by your strong later-year performance, and tempered by your LSAT—were the key drivers, with your high decile nearly offsetting the concerns but not fully. In comparison to typical students, your full-time status aligns with the vast majority (over 92%), so it didn't sway things much, but your academic trajectory shows real promise despite the early hurdles. This rejection stings, especially given your background and achievements, but it's not the end of the road—many students in similar positions have succeeded by addressing these gaps. To move forward, consider retaking the LSAT to push your score even higher or bolstering your GPA through a post-baccalaureate program or targeted coursework, then reapply to schools with more holistic reviews. You could also seek mentorship from Black attorneys who've navigated the bar successfully, as their insights might reveal strategies the model couldn't capture. With your upward trend in deciles, you're already showing the grit to beat these odds—keep building on that.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

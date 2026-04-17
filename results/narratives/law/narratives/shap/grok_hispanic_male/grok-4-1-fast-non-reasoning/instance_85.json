@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:12.420829",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, LSAT score of 32.50, upper-middle family income background, full-time student status, and school deciles of 4th in both Year 1 and Year 3 grades. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 49.1% chance that you would fail the bar on your first try—high enough that it tipped the decision to reject your application, as the school prioritizes applicants likely to pass and succeed in practice. This prediction isn't a judgment on your potential or character, but a data-driven assessment based on patterns from similar students. Among all the factors considered, your undergraduate GPA stood out as the most influential, actually working in your favor by suggesting a stronger likelihood of passing the bar compared to what the model expected. Next in importance was your family income bracket, which slightly nudged the prediction toward failure, as students from upper-middle backgrounds like yours have shown mixed bar outcomes in the dataset. Your Year 3 decile rank came third, also pushing mildly toward a failure prediction since being in the 4th decile is below the typical 5.53 average for admitted students who pass. Interestingly, your LSAT, while below the 36.70 average, and full-time status—which is common for 92.7% of students—played smaller roles here. Compared to typical successful applicants, your grades and deciles are a bit lower, which amplified those influences, even though your GPA provided some positive offset. This close 49.1% call shows you're right on the edge, not far from approval territory. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your recent grades to improve your decile, or gathering letters highlighting your resilience as a Hispanic student overcoming challenges. Many in similar situations reapply after targeted improvements and get accepted—your story isn't over, and with focus, you can shift the odds.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

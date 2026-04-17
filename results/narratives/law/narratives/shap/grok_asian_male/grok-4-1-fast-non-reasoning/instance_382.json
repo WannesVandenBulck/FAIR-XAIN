@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 382,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:15.858507",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 2.80 and an LSAT score of 35.50, you brought a strong academic foundation to your law school application, along with your background from a middle-income family and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated your probability of failing at 52%—just over the tipping point that led to your rejection. This decision hinged on a few key aspects of your record that stood out as the strongest influences. Most importantly, your Year 3 school decile ranking of 2nd—well below the typical 5th or 6th decile—pushed the prediction toward failure, signaling to the model that your later academic performance might not sustain bar-level success. Your LSAT score, while respectable, worked in the opposite direction as the second-biggest factor, pulling the odds toward passing since it's close to the average of 36.70 seen in successful students. Finally, your 1st-year decile of 1st, though impressive at first glance and above the average, still contributed toward the failure prediction, likely because the model weighs it less heavily than later performance. Compared to typical students who pass, your profile shows early promise that dipped in Year 3, which outweighed your other strengths like full-time commitment—a common trait among 93% of applicants. This isn't a judgment on your potential as an Asian male from a middle-income background; it's the model highlighting where your grades relative to peers raised concerns for bar passage. To move forward, focus on strengthening your later academic showings—perhaps through postgraduate courses or retaking the LSAT to boost it further above average. Consider programs that value upward trends or offer bar prep support tailored to diverse applicants like you. Gathering letters emphasizing your resilience and work ethic could also help reframe your story for other schools. With targeted improvements, you can shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

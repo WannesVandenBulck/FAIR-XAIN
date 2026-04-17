@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 180,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:29.581546",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your background includes part-time enrollment plans, a family from the lower-middle income bracket, an undergraduate GPA of 2.40—below the typical 3.21 average—and an LSAT score of 20.70, which is notably lower than the dataset average of 36.70. Your early academic deciles were in the 3rd out of 10 for Year 1 grades, while your Year 3 deciles fell to the 2nd, both underperforming compared to school averages around the 5th or 6th decile. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 47% chance that you would fail it on your first try—a risk high enough to lead to the rejection of your application, as the school prioritizes applicants likely to pass and succeed professionally. This prediction wasn't random; it hinged on a few key factors from your profile that stood out the most in pushing the model toward expecting failure. The biggest influence was your LSAT score, which strongly signaled a higher risk of bar exam struggles compared to stronger scorers who typically pass. Next, your lower Year 3 decile rank played a major role, suggesting a dip in performance that the model links to bar exam challenges in past students. On a more positive note, your family's lower-middle income actually nudged the prediction slightly toward success, as some students from similar backgrounds have outperformed expectations on the bar. Overall, these top factors—your LSAT, later-year grades, and family income—carried the most weight, with the first two outweighing the income benefit and tipping the scales against admission. Compared to typical admitted students, who boast higher test scores and steadier decile rankings, your metrics aligned more closely with those who faced bar exam hurdles. While this is disappointing, especially given your unique journey as an Asian male navigating these pressures, it's not the end of the road. To strengthen future applications, focus on retaking the LSAT for a competitive boost, bolstering late-stage grades through targeted study, and highlighting any resilience from your background in a reapplication essay. Many students in similar spots have rebounded by addressing these exact gaps—consider prep courses or academic advising to shift your odds. Your determination can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

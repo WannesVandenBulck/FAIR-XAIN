@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 373,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:44.742256",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes an undergraduate GPA of 2.50, which is below the typical 3.21 average, an LSAT score of 28 compared to the usual 36.70, and rankings in the lowest decile for both your first-year and third-year school grades—far under the average deciles of around 5.5 to 5.7. Your family falls into the middle income bracket, and you plan to attend full-time, which is the norm for over 90% of students. The admissions model, trained on past students' data to predict first-time bar exam success, estimated an 86.7% chance that you would fail the bar exam, tipping the scales against your application and leading to its rejection. This high failure probability means the model saw your profile as carrying substantial risk of not passing on the first try, a key benchmark for law school admissions. The decision hinged most heavily on your third-year school decile ranking, as being in the bottom group strongly pushed the prediction toward expecting bar failure, outweighing other factors. Next in influence was your first-year decile ranking, also at the lowest level, which further reinforced the model's concern about your academic trajectory. Your LSAT score rounded out the top concerns, with its lower-than-average performance adding to the tilt toward a failure prediction. Compared to typical students who pass the bar, your standings in these grade deciles and test score are notably weaker, placing you outside the profiles that usually predict success. While your full-time status and middle-income background didn't sway things much either way, they couldn't offset the dominant signals from your academic metrics. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your school grades through additional coursework or targeted improvement, and perhaps gathering stronger recommendation letters that highlight your potential. Exploring post-baccalaureate programs or community college bridges could also rebuild your academic decile rankings before reapplying. With focused effort on these areas, you can reshape your profile to better align with successful bar takers and improve your odds next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

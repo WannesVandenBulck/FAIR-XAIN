@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:58.594050",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 64% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in academic records, test scores, and background details of past students, focusing on factors like grades, LSAT performance, family income, and study commitments that best signal bar success. The three biggest influences on your specific prediction were your planned part-time enrollment status, your Year 3 grade decile of 7, and your Year 1 grade decile of 4. Most significantly, choosing to study part-time stood out as pushing the model strongly toward predicting bar failure, since over 93% of students who passed were full-time enrollees, and part-time paths have historically correlated with tougher odds in this dataset. On a brighter note, your solid Year 3 decile of 7—better than the average of about 5.9 for bar passers—worked in your favor, nudging the prediction toward success and showing your upward trajectory. However, your Year 1 decile of 4, lower than the typical 6 for those who passed, pulled in the opposite direction, highlighting early challenges as a concern for long-term bar performance. Your LSAT score of 37 and undergraduate GPA of 3.20 were close to averages for successful students, while your middle family income bracket aligns with over a third of bar passers, so those didn't sway the outcome much. Overall, your profile compares unfavorably to admitted students mainly due to the part-time choice outweighing your later academic strengths, tipping the balance against you. This isn't a judgment on your potential—many with similar starts have succeeded by adjusting their paths. To move forward, consider reapplying with a full-time commitment, as that single change could dramatically shift your predicted odds. Strengthening early-grade equivalents through additional coursework or retakes might also help, and exploring bar prep resources tailored for part-time learners could build a stronger case next time. You're clearly capable, especially with that Year 3 improvement, so refining these key areas positions you well for another shot. Keep pushing—law schools value persistence like yours.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

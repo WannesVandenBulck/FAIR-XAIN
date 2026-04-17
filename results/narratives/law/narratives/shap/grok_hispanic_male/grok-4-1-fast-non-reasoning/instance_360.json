@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 360,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:44.212506",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with a strong undergraduate GPA of 3.60—well above the typical 3.21 average—and a competitive LSAT score of 39, which exceeds the usual 36.70 mark. You're planning to attend full-time, just like the vast majority of students at 92.7%, and your family's middle-income bracket reflects a stable but not exceptional background. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 63.8% chance that you would fail the bar exam. This high predicted risk led to your application's rejection, as the school prioritizes candidates likely to pass on their first try. The most influential factor pushing the prediction toward failure was your family income level; being in the middle bracket signaled a slightly higher risk compared to students from higher-income families, who tend to have more resources for bar prep. Next in importance was your Year 1 school decile of 5, below the average of 5.71, suggesting early academic performance that the model associates with bar struggles. Your LSAT score, while strong, had a smaller pulling effect toward failure, likely because it wasn't standout enough to fully offset those other concerns. In contrast to typical admitted students, who often combine top early grades with financial advantages, your profile showed these key vulnerabilities that tipped the scales. It's understandable to feel disappointed, especially given your impressive undergrad record and dedication to full-time study. To move forward, consider retaking the LSAT to push it even higher or bolstering early graduate performance if possible, while exploring scholarships or prep programs that address income-related barriers many Hispanic students face successfully. Building a narrative of resilience in your next applications, perhaps with added bar prep commitments, could shift perceptions in your favor. You're clearly capable—many in similar situations turn this around with targeted improvements. Keep pursuing your legal ambitions; the right path ahead values your strengths.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

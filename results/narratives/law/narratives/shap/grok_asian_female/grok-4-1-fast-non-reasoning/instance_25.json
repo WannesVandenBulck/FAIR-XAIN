@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:52.838202",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 46% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, test scores, and background details like your middle-class family income and plans to study full-time. The most influential factor pushing toward this failure prediction was your Year 3 class rank, where you placed in the bottom decile (1st), far below the typical 6th decile among students who passed the bar. This low ranking stood out strongly to the model, signaling potential challenges in sustaining strong performance through later years of law school. Counterbalancing that, your undergraduate GPA of 3.60 was a significant positive force, well above the 3.24 average for bar passers, suggesting solid foundational skills from your prior studies. Your LSAT score of 33 also helped pull the prediction toward success, though it fell short of the 37 average seen in successful students. Compared to admitted applicants, who often have higher deciles in later years and stronger LSATs despite varied GPAs and backgrounds including middle-income families like yours, your profile showed this key gap in Year 3 performance. While your full-time commitment aligns with most who pass (over 93%), it wasn't enough to offset the ranking concern. The model weighed these elements to conclude your overall bar success odds were riskier than those of typical accepted students. This isn't a judgment on your potential or drive—many with similar starting points improve dramatically. To move forward, focus on bolstering evidence of late-stage academic strength, perhaps through additional coursework, a retake of the LSAT to aim closer to 37 or higher, or letters highlighting your upward trajectory since Year 3. Reapplying after addressing this could shift the prediction in your favor, opening doors to programs that value your strong undergrad foundation.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

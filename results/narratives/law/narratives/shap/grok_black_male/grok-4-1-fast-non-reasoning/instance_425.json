@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 425,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:57:27.643772",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application stood out in some positive ways, like your solid undergraduate GPA of 3.50—which is above the typical 3.21 average—and a strong LSAT score of 38, higher than the usual 36.70. You're planning to attend full-time, which aligns with the vast majority of students in the dataset at over 92%. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 72.5% chance that you would fail the bar exam, tipping the scales toward rejection to minimize the school's risk of low pass rates. The two biggest factors pulling the prediction toward failure were your Year 1 and Year 3 school decile rankings, both at the bottom of the 1st decile—far below typical mid-range averages of around the 5th or 6th decile—suggesting early and persistent academic struggles in your undergrad program that strongly signal bar exam challenges for students like you. These low deciles had the strongest influence, outweighing your other strengths and indicating the model sees them as major hurdles based on patterns from similar profiles. On a brighter note, your undergraduate GPA pushed back against failure, contributing meaningfully toward a pass prediction since it's above average and shows later improvement potential. Compared to typical students who pass, your profile mirrors many who faced early academic setbacks, especially from underrepresented backgrounds, where low deciles often correlate with bar struggles despite decent GPAs and test scores. This isn't a judgment on your potential as a Black man with drive and family support—it's the model prioritizing those early deciles as the top predictors. To move forward, focus on boosting your academic deciles through targeted undergrad improvement or post-bac courses, retake the LSAT if possible to push even higher, and gather strong letters highlighting your resilience. Consider schools with holistic reviews that weigh personal stories from applicants like you more heavily. Reapplying after addressing these gaps could flip the script, as many students in similar spots have succeeded by strengthening their early record. Your upper-middle background and full-time commitment are assets—lean into them while tackling the deciles head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

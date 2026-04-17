@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 123,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:33.181854",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong family background with high income, a solid LSAT score of 39.5—which stands out above the typical 36.7 average—and plans to attend full-time, just like over 90% of students in the dataset we reviewed. Your undergraduate GPA sits at 3.00, a bit below the average of 3.21, but that's only part of the picture the admissions model considered. This model looks at patterns from thousands of past students to predict the chances of passing the bar exam on the first try, and for you, it estimated a 43% probability of failure—high enough that your application was rejected to minimize the school's risk of lower bar passage rates. The decision hinged on just a few key factors from your profile, ranked by their influence on pushing the prediction one way or the other. Most notably, your LSAT score was the strongest force pulling the prediction toward success, as it signals the kind of analytical strength that typically helps students pass the bar. However, your Year 3 school decile ranking of 1—well below the average of about 5.5—had an even stronger counter-effect, suggesting your later academic performance in school raised concerns about sustaining the rigor needed for law and the bar. Your Year 1 decile of 1 also nudged things toward the failure prediction, though with less weight, indicating early struggles that the model sees as a pattern. Compared to typical students who pass, your high LSAT is a bright spot in the top range, but those low deciles put you in the bottom tier where bar success is rarer. It's tough to hear, especially with your family's support and dedication to full-time study, but the model prioritizes these academic signals over other strengths. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through post-baccalaureate options or targeted GPA improvement, and reapply once you've strengthened those areas—many students in similar situations have turned it around. Your LSAT gives you a real edge, so building on that could shift the odds dramatically in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

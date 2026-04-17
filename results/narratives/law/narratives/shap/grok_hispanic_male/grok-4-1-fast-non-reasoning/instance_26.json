@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 26,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:27.276286",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.00, LSAT score of 30, upper-middle family income background, and your school decile rankings of 5th in Year 1 and 4th in Year 3, along with your plan to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated a 53.1% chance that you would fail it—tipping just over the threshold that led to your application's rejection. This prediction stems from weighing factors like grades, test scores, and background against patterns seen in thousands of similar applicants. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 4th, which is lower than the typical student's 5.53 average and signaled to the model a potential struggle in sustaining strong performance heading into law school. Next in importance was your upper-middle family income bracket, which the model associated with a higher risk of bar failure in patterns from the dataset, even though it's not uncommon. On a more positive note, your LSAT score of 30—below the dataset average of 36.7—actually worked in your favor here, pulling the prediction slightly toward passing compared to what the model expected. These top three elements overshadowed other details like your solid Year 1 decile and full-time status, which aligns with most applicants at 92.7%. While your undergraduate GPA of 3.00 is close to the average of 3.21, it didn't carry enough weight to shift the overall outcome. This isn't a judgment on your potential as a Hispanic leader in law or your personal drive—it's just how your profile stacked up against historical bar passage trends. To move forward, consider retaking the LSAT to boost that score, strengthening your recent grades through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience. Many students in similar situations have succeeded by addressing these key areas and reapplying, so use this feedback as a roadmap to build a stronger case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:12:52.052859",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 93.3% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom group compared to an average of around the 6th decile for those who passed—pushing the prediction firmly toward failure by signaling lower relative performance in later undergraduate years. Your Year 1 decile, also at the bottom compared to passers' typical mid-range standing, reinforced this concern as the second-biggest factor, suggesting early academic struggles that often carry over. Even your LSAT score of 31, well below the 37 average for bar passers, added further weight toward the failure prediction, though it played a smaller role than your deciles. Coming from a high family income background and planning full-time studies aligned more closely with successful students, but these couldn't outweigh the dominant signals from your grades and test score. In contrast, admitted applicants typically show much stronger decile rankings in both early and later years, often paired with LSATs in the high 30s, reflecting the profiles of those who reliably pass the bar. While your undergraduate GPA of 2.70 trails the 3.24 average for passers, it wasn't among the top drivers here. This isn't a judgment on your potential or background—it's a data-driven flag on bar success odds. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and full-time commitment. Reapplying after addressing these key areas could shift your predicted odds dramatically, opening doors at schools like ours. You're capable of turning this around with focused steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

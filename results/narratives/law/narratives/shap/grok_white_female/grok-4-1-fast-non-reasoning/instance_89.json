@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 89,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:00.600978",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.80 stands out as the most influential factor in the model's assessment, as it worked in your favor by suggesting a stronger likelihood of passing the bar exam compared to what might have been expected otherwise. However, your position in the third-year decile of 3 pulled the prediction toward failure, since students who passed typically ranked higher around the 6th decile on average. Similarly, your LSAT score of 32 nudged the outlook toward a higher risk of failing, falling well below the average of about 37 for those who succeeded on their first try. Overall, these elements led the model to estimate a 48.2% probability that you would fail the bar exam on the first attempt—a threshold that triggered the rejection of your law school application to protect the program's outcomes. Your first-year decile of 3 and upper-middle family income bracket aligned more closely with patterns seen in passers, and opting for full-time study matches the vast majority of successful students, but they weren't the deciding factors here. When compared to typical admitted students—who often have undergraduate GPAs around 3.24, higher LSATs, and stronger year-three rankings—your profile showed some promising aspects but gaps in key academic predictors that tipped the scales. The model prioritizes these metrics because they've historically correlated with bar exam success in the dataset of past students. This isn't a judgment on your potential or background, but a data-driven signal based on patterns from thousands of similar cases. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as even a modest improvement could shift your predicted odds significantly. Strengthening your academic decile through targeted coursework or additional credentials might also help in future applications. Many students in your situation retake exams, build stronger GPAs via post-bac programs, or gain relevant experience to reshape their profiles. Reach out to admissions advisors for personalized strategies, and remember, this is just one model's view—your determination can change the story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

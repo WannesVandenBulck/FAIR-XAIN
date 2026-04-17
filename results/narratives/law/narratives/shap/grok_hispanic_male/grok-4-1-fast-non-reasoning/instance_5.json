@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:14.867174",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background brings unique strengths and challenges that the admissions model carefully considered alongside thousands of other students' profiles. The model predicts there's a 41% chance you would fail the bar exam on your first try, which is high enough—crossing the school's threshold—that it recommended rejecting your application to minimize the risk of poor outcomes for both you and the program. This decision hinged on just a few key factors from your profile, compared against patterns from past students.\n\nThe most influential factor working in your favor was your family income level, which falls into the low bracket—lower than the typical student's. Students from similar lower-income backgrounds have historically shown stronger bar exam success rates in the model's analysis, perhaps reflecting resilience or motivation, so this pushed the prediction toward you passing. Next in importance was your Year 3 school decile ranking of 1, well below the average of about 5.5, indicating grades in the bottom tenth of your peers; this stood out strongly as a red flag, pulling the prediction toward failure because lower rankings like yours correlate with bar struggles.\n\nYour LSAT score of 27, notably below the average of around 37, also played a role, though less decisively, nudging things slightly toward expecting a pass compared to even lower scores—but not enough to offset the concerns. Being in the part-time track, like only about 7% of students, didn't sway things much here, nor did your undergraduate GPA of 2.6 or Year 1 decile of 2. Overall, your profile shows lower academic markers than most admitted students, despite the positive signal from your family background.\n\nTo move forward, focus on boosting your credentials—consider retaking the LSAT to aim closer to or above the average, strengthening your recent grades to climb those decile rankings, and gathering strong recommendation letters that highlight your perseverance as a Hispanic student from a low-income family. Many in similar situations have succeeded by targeting schools with holistic reviews or bridge programs, and reapplying after demonstrable improvements could flip this prediction in your favor. You're clearly driven; channeling that into targeted preparation will open doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

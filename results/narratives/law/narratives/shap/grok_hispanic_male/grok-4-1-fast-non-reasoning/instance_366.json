@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 366,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:21:06.257361",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 29, middle-family income background, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3, both at the lowest 10th percentile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 71.7% chance that you would fail the bar exam—high enough to lead to your application's rejection, as the school prioritizes candidates likely to pass on their first try. This prediction wasn't random; it hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom 10% of your peers—far below the typical student's middle-of-the-pack 5th or 6th decile—and strongly pushed the model toward forecasting failure, as lower late-stage grades often signal challenges in mastering demanding legal coursework. Your Year 1 decile, also at the bottom 10% versus the average around the 6th decile, reinforced this concern as the second-biggest factor, suggesting early academic struggles that carried forward. Interestingly, your undergraduate GPA stood out positively here—it was lower than the typical 3.21 average, yet it nudged the prediction slightly toward success, likely because it showed some resilience compared to students with even weaker profiles who still passed the bar. Other elements like your LSAT score, well below the 37 average, family income, and full-time status played supporting roles but weren't the main drivers. Compared to typical admitted students, who often enter with stronger high school deciles, higher test scores, and GPAs, your profile aligned more closely with those who faced bar exam hurdles, especially given the emphasis on consistent academic performance. We understand this is disappointing, particularly as a first-generation or underrepresented applicant navigating these metrics. To move forward, consider retaking the LSAT to boost your score toward 35 or higher, strengthening your recent grades through additional coursework or a post-bac program to improve your deciles, and gathering strong recommendation letters highlighting your potential. Many students in similar situations have succeeded by addressing these gaps—reapplying after targeted improvements could shift your odds significantly. You're clearly motivated; channeling that into these steps will make a real difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

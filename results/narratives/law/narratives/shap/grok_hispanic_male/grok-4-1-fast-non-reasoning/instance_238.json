@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 238,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:02.150839",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts the likelihood of first-time success on the bar exam for applicants like you. Your undergraduate GPA of 2.90 sits a bit below the typical 3.21 average, while your LSAT score of 22.50 is notably lower than the dataset average of 36.70, and your Year 1 and Year 3 school deciles both at 4 are under the averages of about 5.7 and 5.5, respectively. Your family income falls in the middle bracket, which is common, and you're planning full-time enrollment like most applicants at 92.7%. The model estimates a 58.9% probability that you would fail the bar exam on your first attempt, tipping the scales just over the threshold that led to your application's rejection—essentially, it flagged a higher risk of not passing compared to profiles it views as safer bets for bar success. The most influential factor pushing toward this failure prediction was your LSAT score, as its lower level strongly signaled to the model a reduced chance of bar passage based on patterns from past students. Next in importance, your undergraduate GPA worked in your favor, pulling the prediction somewhat toward passing by showing solid college performance relative to broader trends. Your middle family income bracket also helped mildly, nudging things positively since it aligns with many who succeed. Compared to typical students who pass, your LSAT stands out as the biggest gap, while your other metrics are closer to average but not enough to offset it. This isn't a judgment on your potential or resilience as a Hispanic man pursuing law—many with similar starts improve dramatically. To move forward, consider retaking the LSAT to boost your score toward or above the 36.70 average, strengthening your GPA through post-bac courses if possible, and gathering strong letters of recommendation that highlight your unique story. Reapplying after addressing these could shift the model's view in your favor, opening doors to programs that value diverse perspectives like yours. Keep pushing; your determination will shine through.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

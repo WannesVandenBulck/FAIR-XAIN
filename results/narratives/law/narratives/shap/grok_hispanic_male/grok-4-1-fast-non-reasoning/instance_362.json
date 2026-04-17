@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 362,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:52.452333",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shown impressive strengths like your outstanding undergraduate GPA of 3.90, which stands well above the typical 3.21 average for students in this prediction system. However, the admissions model, which forecasts the likelihood of passing the bar exam on the first try based on academic and background details, estimated a 61% probability that you would fail it—crossing the threshold that led to your application's rejection. This prediction hinges on a few key factors from your profile that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 3, which is below the average of about 5.5 and signaled to the model a dip in performance relative to peers. Next, your LSAT score of 33, lower than the typical 36.7, also pulled the prediction toward failure, as higher scores are strongly linked to bar success in the model's view. Counterbalancing this somewhat was your high undergraduate GPA, which had a notable positive pull toward predicting you'd pass, highlighting it as a standout strength compared to most applicants. Your middle family income bracket and plan to attend full-time, which is the norm for over 90% of students, played lesser roles here. Overall, your situation compares to typical students by having elite undergrad grades but weaker high school later years and LSAT, tipping the scales against you where the model prioritizes consistent top performance. To move forward, consider retaking the LSAT to boost your score closer to or above average, while reflecting on what might have impacted your Year 3 decile—perhaps targeted prep or coursework could address that. Strengthening these areas could shift future predictions in your favor, and many applicants in similar positions succeed by reapplying after targeted improvements. You're clearly capable, given your GPA, so persistence will pay off.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

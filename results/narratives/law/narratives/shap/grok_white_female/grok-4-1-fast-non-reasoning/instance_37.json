@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 37,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:56.269950",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 72% chance that you would not pass—well above the threshold we use for admissions decisions. This prediction draws from patterns in data about past students' academic records, test scores, and backgrounds, focusing on factors like grades, LSAT performance, and family circumstances that have historically linked to bar exam outcomes. The strongest influence pushing toward this failure prediction was your Year 3 grade decile of 2, which ranks you quite low compared to the average of about 6 for students who passed the bar; this stood out as the top factor because lower rankings in later years often signal challenges in sustaining the rigorous performance needed for the exam. Next in importance was your Year 1 grade decile of 3, again below the typical 6 for successful bar takers, reinforcing concerns about early academic momentum in a demanding field like law. Your LSAT score of 30.5, while not the highest driver, did help pull the prediction somewhat toward success since it was a positive contributor relative to what the model expected in your profile—though still notably under the 37.3 average for those who passed. Coming from a middle-income family aligns with a substantial portion of bar passers (over a third), and your full-time study plans match the norm for nearly all who succeed, but these couldn't outweigh the grade-related red flags. Your undergraduate GPA of 3.3 actually exceeds the 3.24 average for bar passers, which is a bright spot showing solid prior preparation. Overall, your profile compares to accepted students by having competitive elements like GPA and study commitment, but the lower grade deciles in law school years deviated sharply from the higher performance typical of those admitted and predicted to pass. This isn't a judgment on your potential or effort—many students face hurdles in law programs—but the model prioritizes these bar success indicators to protect incoming classes. To move forward, consider retaking the LSAT to boost your score, seeking targeted academic support to improve your decile rankings if reapplying after more coursework, or exploring programs with bridge courses for students with similar profiles. You might also connect with advisors who can review your full transcript and suggest bar prep strategies proven for middle-income, full-time students like you. With focused steps, you can strengthen these key areas and reapply stronger.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:03:50.794688",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 63.5% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your class rankings in your first and third undergraduate years, alongside your LSAT score. The most influential factor pushing toward this failure prediction was your third-year decile ranking of 1, which placed you at the lower end of your school's performance distribution—far below the average of around 6 for students who went on to pass the bar. Your first-year decile of 2 also contributed in the same direction, signaling early academic challenges that the model sees as a persistent risk, especially when compared to the typical top-third rankings among successful bar takers. On a more positive note, your LSAT score of 36 worked in your favor, pulling the prediction toward success since it's close to the 37.27 average for those who passed, showing your potential in standardized testing. Other aspects, like your middle family income bracket—which aligns with about a third of passers—and your plan to attend full-time, like most admitted students, played smaller roles and didn't outweigh the academic concerns. Overall, your profile stands out as riskier than typical accepted applicants, who boast higher decile rankings and slightly stronger GPAs around 3.24, even with similar LSATs. While your undergraduate GPA of 3.00 is respectable, it didn't fully offset the lower class standings that dominated the model's view. This isn't a judgment on your determination or background—many from similar circumstances succeed with targeted effort. To strengthen future applications, focus on boosting your academic deciles through advanced coursework or retaking key exams, perhaps aiming for LSAT improvements to amplify that positive influence. Consider gaining practical experience, like internships, to build a fuller profile, and reapply after demonstrating upward trends in performance. With persistence, you can shift these predictions in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

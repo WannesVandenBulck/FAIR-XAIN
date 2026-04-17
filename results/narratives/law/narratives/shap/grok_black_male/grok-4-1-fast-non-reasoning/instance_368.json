@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 368,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:01.867643",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates whether applicants are likely to pass the bar exam on their first try, estimated a 69% chance that you would fail it. This high predicted risk of failure is why the university rejected your admission, as they prioritize students with stronger projected outcomes to ensure bar passage rates. The model's decision for you, as a Black male applicant, hinged most on three key factors from your profile: your Year 3 school decile ranking, your LSAT score, and your family income bracket. The strongest influence pushing toward a failure prediction was your Year 3 decile of 1, which is much lower than the typical student's decile of around 5.5, signaling to the model that your later academic performance in school was in the bottom tier compared to peers. Next in importance, your LSAT score of 20—well below the average of about 37—further nudged the prediction toward failure, as higher scores are strongly linked to bar success in the data we've analyzed. On a more positive note, your lower-middle family income bracket worked in your favor, pulling the prediction somewhat toward passing since students from similar backgrounds have shown resilience in passing the bar. Overall, these factors combined to outweigh other elements like your undergraduate GPA of 3.0 or your full-time student status, which aligns with most applicants. Compared to typical students who get approved, your lower Year 3 deciles and LSAT stood out as major drags, placing you in a riskier category despite your determination to pursue law full-time. While this outcome is disappointing, especially given the challenges many Black men face in competitive academic pipelines, it doesn't define your potential. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your high school performance through additional coursework or certifications if possible, and exploring programs with bar prep support tailored to diverse backgrounds. Building a stronger academic narrative could shift future predictions in your favor and open doors at other schools. Keep pushing—you've got the drive to rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

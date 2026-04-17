@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:23.999312",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.40—below the typical 3.21 average—your LSAT score of 25, which is notably lower than the average of 36.70, and your Year 1 and Year 3 school decile rankings both at 2, far under the averages of around 5.5 to 5.7. It also considered your middle family income bracket and your plan to attend full-time, which is the norm for over 90% of students. For you specifically, the model estimated a 48% probability that you would fail the bar exam on your first attempt, tipping the scales just enough to recommend rejecting your application to protect the school's outcomes. Among all the factors, your family income stood out as the strongest positive influence, actually pushing the prediction toward success and passing the bar, likely because middle-income backgrounds in the data often correlate with determination and focus. However, your Year 3 decile ranking had the next biggest impact, pulling strongly toward a failure prediction since your lower performance there signals potential challenges in sustaining strong grades. Your LSAT score followed closely, also contributing significantly toward the failure side because scores like yours are linked in the data to tougher bar prep hurdles. Compared to typical admitted students, who often have higher deciles, GPAs, and LSATs that align with bar passage rates above 80%, your profile clusters more with those who struggled initially. This close 48% call means small improvements could shift things dramatically. To move forward, focus on retaking the LSAT to boost it toward or above average, strengthening your recent academic decile through targeted coursework or grad school, and gathering letters highlighting your resilience as an Asian male from a middle-income family who's committed to full-time study. Reapplying after these steps, perhaps to schools with holistic reviews, could align your strong income-related advantage with better predictors of bar success. You're close—many have turned similar profiles around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

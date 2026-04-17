@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 234,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:43.300807",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.80—which is below the typical 3.21 average—your LSAT score of 39, your Year 1 and Year 3 school decile rankings both at 4 (lower than the averages of about 5.7 and 5.5), your middle family income bracket, and your plan to attend full-time. It predicted a 57.5% chance that you would fail the bar exam, tipping the scales just enough to result in a rejection of your admission. Among all the factors considered, your LSAT score had the strongest influence, working strongly in your favor by pushing the prediction toward passing, since your 39 is above the average of 36.7 and signals solid test-taking ability. However, your undergraduate GPA played a significant counteracting role, pulling toward a failure prediction because it's notably lower than what's typical for successful students. Your Year 3 decile ranking also contributed against you, as being in the fourth decile—below the middle of the pack—suggested challenges in maintaining higher performance later in your studies. Compared to typical students who pass, your profile shows strengths like that LSAT but is held back by these academic metrics that align more closely with those who struggle on the bar. Full-time status, which is the norm for over 90% of students, didn't sway things much either way. This combination made the model cautious about your bar passage odds, prioritizing evidence of consistent academic strength. To move forward, focus on strengthening your GPA through targeted coursework or a post-bac program, retake the LSAT if possible to boost it even higher, and gather strong letters highlighting your resilience as a Black man pursuing law. Reapplying after addressing these gaps could shift the prediction in your favor, and many schools value diverse backgrounds like yours when paired with improved metrics. Keep pushing—you've already shown promise with that LSAT score.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

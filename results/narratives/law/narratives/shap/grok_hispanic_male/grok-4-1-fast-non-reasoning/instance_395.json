@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 395,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:22:51.166747",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong commitment to pursuing a legal career, along with your undergraduate GPA of 3.10, LSAT score of 34, middle-family income background, and full-time student status. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 57.6% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction isn't a judgment on your potential or character, but a data-driven assessment comparing your profile to others who have taken the bar. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of their class and signaled potential challenges in sustaining strong academic performance. Your Year 1 decile of 1 also contributed toward the failure outlook, as it similarly fell well below the average early ranking, suggesting a pattern the model associates with bar struggles. On a more positive note, your LSAT score was the strongest force pulling the prediction toward success, countering some of the academic concerns even though it's a bit below the dataset average of about 37. While factors like your full-time enrollment—common for over 90% of students—and middle-income background played supporting roles, they didn't outweigh the top academic signals. Compared to typical admitted students, who often show higher decile rankings and slightly stronger test scores, your profile aligned more closely with those who faced bar difficulties. This isn't the end of your path; many students in similar situations improve by targeting targeted test prep, retaking the LSAT to boost your score above average, or strengthening recent grades through additional coursework. Consider community college or post-bac programs tailored for underrepresented groups like Hispanic applicants, which have helped others build stronger profiles. Reach out to admissions counselors for feedback, and explore schools with holistic reviews that value your unique background. With focused effort on these academic standouts, you can reshape your story and reapply stronger next cycle. Your determination as a first-generation or Hispanic trailblazer in law is already a strength—keep pushing forward.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

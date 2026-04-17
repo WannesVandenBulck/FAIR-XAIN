@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 333,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:00.356900",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 39, which stands out above the typical 36.7 average, along with a solid undergraduate GPA of 3.4 compared to the usual 3.21, and plans to attend full-time like most applicants. Your family income falls in the middle bracket, which is common among students in this dataset. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 52.4% chance that you would fail it—tipping just over the threshold that led to your application's rejection. This prediction draws from patterns in thousands of past students' academic records, family backgrounds, and demographics to forecast bar success. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year, well below the average fifth-decile position. Next in importance was your LSAT score, which actually worked strongly in your favor by pulling the prediction toward expecting you to pass, thanks to its above-average strength. Rounding out the top influences, your Year 1 decile of 1—again at the lowest tenth compared to the typical fifth-decile—further nudged the model toward anticipating a bar struggle. These early and later undergraduate performance deciles carried the heaviest weight in the decision, outweighing even your impressive standardized test results. While your profile shows promise in areas like the LSAT and GPA that align with or exceed averages, the low decile rankings signal to the model a potential gap in sustained academic competitiveness against fellow law students. To move forward, consider retaking courses or pursuing targeted academic improvement to boost future decile rankings, perhaps through a post-baccalaureate program, and reapply with updated transcripts that highlight upward trends. Many students in similar situations have succeeded by addressing these exact areas, turning predictions around on their next attempt.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 253,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:58.973609",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built an impressive academic profile with a strong undergraduate GPA of 3.80—well above the typical 3.21 average—and a solid LSAT score of 39, which edges out the usual 36.70. You're planning to attend full-time, like the vast majority of students at 92.7%, and come from an upper-middle-class family background. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 73.8% chance that you would fail it, leading directly to the rejection of your application. This prediction hinges on a few key factors from your record that stood out as the strongest influences. The most significant was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year—far below the average decile of about 5.5—which strongly pushed the model toward forecasting bar failure, as lower performance late in school often signals challenges ahead. Next in influence was your Year 1 decile, also a 1 compared to the typical 5.7 average, reinforcing that early struggles carried substantial weight in tipping the scales against you. On a more positive note, your high undergraduate GPA worked in your favor, pulling the prediction somewhat toward success and showing the model your potential from prior college work. Compared to typical students who pass the bar, where mid-to-high school deciles are common, your bottom-decile rankings in both early and later years deviated sharply, overshadowing your other strengths. While factors like your LSAT and family income played roles, they weren't the decisive drivers here. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through community college refreshers or targeted tutoring, and reapply once you've strengthened those areas. Many students in similar situations, including Hispanic applicants, have succeeded by addressing early academic hurdles head-on. Your solid GPA and LSAT give you a great foundation—focus on consistent performance to shift future predictions in your favor. Keep pursuing your legal ambitions; persistence pays off.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

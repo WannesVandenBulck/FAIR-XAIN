@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 33,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:42.310746",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 93.3% chance that you would not pass, based on patterns from thousands of past students. This high predicted risk of failure automatically triggers a rejection to ensure the program's overall success rates. The model's decision hinged most strongly on your academic decile in Year 3 of school, where you ranked in the bottom decile—far below the typical top-half standing of students who went on to pass the bar. This low Year 3 performance was the biggest factor pushing the prediction toward failure, as it signals potential challenges in sustaining strong grades through law school. Next in influence was your Year 1 decile, also at the bottom, which reinforced concerns about early academic struggles compared to passers who averaged much higher rankings. Your LSAT score of 31 further nudged the prediction toward failure, sitting well below the 37.27 average among those who succeeded on the bar. While your high family income and full-time study plans align with many successful students, they weren't enough to offset these academic red flags. In contrast, admitted students typically show deciles in the upper half for both early and later years, paired with LSAT scores around 37, reflecting the profiles that consistently predict bar passage. These top three factors—Year 3 decile leading the pack—dominated the model's thinking for your case, outweighing other strengths. It's tough to hear, especially with your solid background, but this highlights where your profile diverged from proven paths to bar success. To move forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through post-bac courses if possible, or targeting schools with bridge programs that support students building from lower starting deciles. You could also seek mentorship from alumni who overcame similar early hurdles. With targeted improvements, a stronger application next cycle could shift the odds in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:37:10.937195",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a model trained on data from thousands of students who went on to take the bar exam, looking at their academic records, family backgrounds, and other details to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.40 (below the typical 3.21 average), LSAT score of 25 (well under the average 36.7), low Year 1 and Year 3 school deciles of 2 (compared to averages around 5.5-5.7), middle family income bracket, and full-time student status—and predicted a 48% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. Among all the factors considered, three stood out as having the strongest influence on this decision for you specifically. Your middle family income bracket was the most impactful positive factor, actually working in your favor by suggesting a level of stability that nudged the prediction slightly toward bar exam success, unlike lower brackets that often correlate with higher failure risks. However, your Year 3 school decile of 2 was the next biggest driver toward failure, as it signals weaker performance relative to peers, pushing the model to see you as higher risk compared to typical students in higher deciles. Similarly, your LSAT score of 25 strongly contributed to the failure prediction, far below what the model sees in students who typically pass, making it a key reason you didn't stack up favorably against the average applicant. Overall, while your full-time status aligns with most successful students (over 92% of them), these core academic and background signals tipped the scales against you. This doesn't define your potential—many students with similar starting points have improved through targeted effort. To move forward, consider retaking the LSAT to boost your score closer to 35 or above, strengthening your undergraduate record if possible through post-bac courses, and seeking mentorship programs tailored for Black aspiring lawyers that address these predictive gaps. Reapplying after addressing these areas could shift your predicted odds dramatically in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

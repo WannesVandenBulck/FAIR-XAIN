@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:33.798899",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid LSAT score of 39—above the typical 37 average—and plans to attend full-time like most students, you've put together a strong profile in several areas, including your middle-income family background. However, the university's admission model, which predicts first-time bar exam success based on past student data, estimated a 72% chance you'll fail the bar, leading to the rejection of your application. This threshold is strict because law schools aim to admit those most likely to pass and practice successfully. The model's decision hinged most on your Year 3 school decile ranking of 1, far below the average of about 5.5, which strongly signaled a higher risk of bar failure compared to peers who ranked higher. Next in influence was your LSAT, which actually worked in your favor by pushing the prediction toward passing, thanks to outperforming the norm. Your Year 1 decile of 2, also well below the typical 5.7, added further concern by reinforcing a pattern of lower early academic standing relative to others. While your undergraduate GPA of 2.9 trails the average 3.2 slightly, it wasn't among the top drivers here. Overall, your grades placed you in the lower tail of the dataset's distribution, unlike many admitted students who maintained mid-to-high deciles throughout. This isn't a judgment on your potential as a Black man pursuing law—many from similar backgrounds succeed with targeted improvements—but the model prioritizes these academic signals for bar passage. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through community college or targeted prep that addresses early weaknesses. Strengthening your transcript could flip the prediction next cycle, and reaching out to admissions for feedback or appealing with new evidence might open doors too. You're clearly driven, given that LSAT; building on your strengths while tackling those deciles will position you strongly for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

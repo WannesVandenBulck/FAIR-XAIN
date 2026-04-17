@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:05.729991",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom tenth of your peers and significantly raised concerns about your trajectory toward bar success. Next in influence was your Year 1 decile, also at the lowest level—far below the mid-to-upper ranges typical for students who go on to pass the bar—further pushing the prediction toward failure. While your LSAT score stood out positively at 42, well above the average of 37 for successful bar takers, it wasn't quite enough to offset those early academic struggles in the model's eyes. Your undergraduate GPA of 3.00, slightly under the 3.24 average for passers, and your upper-middle family income bracket, which aligns with many who succeed, played supporting roles but weren't the main drivers here. Compared to admitted students, who typically rank in the 6th decile or higher by Year 1 and 3, your position in the 1st decile for both years marked a clear departure from the profiles that predict passing. Being a full-time student is a plus, matching the norm for 93% of bar passers, yet it couldn't counterbalance the decile impacts. This isn't a judgment on your potential or background—it's purely the model weighing patterns from past students like you. To move forward, focus on boosting your grades to climb those school deciles in upcoming years, perhaps through tutoring or study groups tailored to law school rigor. Retaking the LSAT to solidify that strength could help too, and gathering letters from professors who can highlight your growth might strengthen future applications. Many students in similar spots have rebounded by addressing these exact gaps—consider community resources for Hispanic women pursuing law to build a standout reapplication story. With targeted improvements, you can shift the odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

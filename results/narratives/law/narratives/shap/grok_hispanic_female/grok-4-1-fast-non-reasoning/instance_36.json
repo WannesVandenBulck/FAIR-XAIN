@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:56.937200",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you quite low in your class—far below the typical mid-to-upper rankings seen among students who go on to pass the bar. This stood out as the biggest factor pushing the prediction toward failure, signaling to the model a potential struggle with sustaining strong performance later in your studies. Your LSAT score was the next most influential element, but in a positive way: at 35, it pulled the prediction somewhat toward success, performing better than what might have been expected given your other metrics and aligning reasonably with passers' averages around 37. Your upper-middle family income bracket also played a role, nudging the outlook slightly toward failure compared to the mix of backgrounds among successful bar takers, where this level is common but not a standout advantage. Overall, these top factors—especially that lower Year 3 decile—outweighed strengths like your undergraduate GPA of 2.8 (below the 3.24 average for passers) and your choice to pursue full-time studies, which is the norm for those who succeed. Compared to admitted students, who typically show higher deciles across years and stronger entrance scores, your profile appeared riskier for bar success. It's understandable to feel disappointed, especially with your solid LSAT and family support, but this prediction is just one data point meant to guide admissions fairly. To move forward, consider retaking the LSAT to boost it further or focusing on improving late-stage academic performance through targeted tutoring or additional coursework that could lift your class rankings. Building a stronger narrative around your resilience and any upward trends in your record could also help in reapplying or appealing to other programs. With strategic steps, you can reshape how models like this see your potential.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 420,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:23.205051",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.8, an LSAT score of 26, and your position in the lower deciles for your Year 1 and Year 3 school grades, along with coming from a high family income bracket and planning to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours from past students, estimated a 55% chance that you would fail it. This tipped the prediction toward failure, leading to the rejection of your application, as the school prioritizes candidates with stronger signals of bar success. The most influential factor pushing toward this failure prediction was your LSAT score, which stands well below the typical 36.7 average and signaled lower readiness compared to students who passed. Next in importance, your high family income actually worked in your favor, pulling the prediction toward passing by suggesting potential advantages like better resources or support networks that have helped others succeed. Your undergraduate GPA, at 2.8 versus the average 3.21, provided some positive counterbalance too, nudging things slightly toward success but not enough to overcome the LSAT's weight. While your lower year deciles and full-time status played roles, they weren't the top drivers here. Compared to typical admitted students, your LSAT is a standout concern, as it's in the lower range of those who historically passed the bar. This doesn't define your potential—many overcome similar hurdles through targeted prep. To move forward, consider retaking the LSAT to boost your score closer to or above average, perhaps with focused tutoring given your strong family support. Strengthening your overall academic narrative, like through post-bac courses or relevant experience, could also help in reapplying. You're clearly driven; use this feedback to build a stronger case next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

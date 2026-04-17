@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 304,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:12.608816",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 38, and your position in the lower deciles for your Year 1 and Year 3 school grades, along with your upper-middle family income and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 74.7% chance that you would fail it—high enough to lead to the rejection of your application, as the school prioritizes candidates with stronger predicted odds of bar success. This decision hinged on just a few key aspects of your background that stood out the most to the model. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, which is notably below the typical student's average of around the 5th or 6th decile and signaled potential challenges in sustaining strong academic performance. Next in importance was your LSAT score of 38, which actually worked in your favor by pulling the prediction toward passing, since it's above the average of 36.7 and shows solid reasoning ability. Your Year 1 decile of 3 also contributed toward the failure side, being lower than the average and reinforcing concerns about early academic momentum. Compared to typical students in the dataset, where most attend full-time like you and come from varied income levels, your grades in those key school years deviated more sharply downward, outweighing positives like your LSAT and family background. While these factors don't define your potential, they explain why the model leaned toward rejection. To move forward, consider retaking the LSAT to boost it further or strengthening your recent academic record through additional coursework or a post-bac program that could improve your decile rankings. Building a narrative around targeted improvements, perhaps highlighting any personal challenges you've overcome as a Hispanic student, could also help in reapplying or appealing to schools with holistic reviews. With focused effort, you can shift these predictions in your favor for the next opportunity.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 71,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:17.411525",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and an LSAT score of 35.50, you brought some strong academic credentials to your law school application, along with your plan to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 56.3% chance that you would fail it. This tipped the prediction toward failure, leading to the rejection of your application, as the school prioritizes candidates shown to have a high probability of bar success. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, well below the average of 5.53, signaling to the model that your later academic performance in school placed you in the lowest group compared to peers. This stood out as the top driver, far outweighing other elements in its impact. Next in influence, your LSAT score worked in your favor, pulling the prediction toward bar passage since it was close to the solid average of 36.70 and demonstrated good reasoning ability. Similarly, your undergraduate GPA provided a positive boost, as its above-average strength suggested you could handle rigorous coursework. Your lower-middle family income bracket played a lesser role overall, but the model weighed these top three elements—Year 3 deciles most heavily—against thousands of past students, where low late-stage rankings like yours strongly correlated with bar struggles regardless of background. Compared to typical applicants who pass, your profile diverged most in that critical Year 3 performance dip, which overrode your other strengths. To move forward, focus on improving your academic decile through targeted study habits or additional coursework to rebuild that momentum, retake the LSAT if feasible to push closer to or above average, and consider programs offering bar prep support for students from similar backgrounds. Gathering letters of recommendation highlighting your resilience could also strengthen future apps, showing growth beyond these metrics. With targeted steps, you can shift your profile toward the successful passers the model favors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

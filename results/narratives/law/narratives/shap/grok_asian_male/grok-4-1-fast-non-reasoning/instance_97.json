@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 97,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:14.214946",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 68% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. This decision hinged primarily on your early academic performance in school, where your Year 1 grades placed you in the bottom decile—far below the typical student's middle-range standing. Similarly, your Year 3 grades also landed in the lowest decile, again well under the average, making these two factors the strongest drivers pushing the prediction toward failure. While your upper-middle family income provided some positive counterbalance—since students from similar backgrounds often fare better—it wasn't enough to offset those low rankings. Your LSAT score of 32 and undergraduate GPA of 2.90, both below typical levels around 37 and 3.2 respectively, added to the concerns, though they played lesser roles here. Planning to attend full-time, like most applicants, didn't sway things much either. Compared to typical students who pass, your position in the bottom deciles for both early and later school years stands out as unusually weak, signaling a pattern the model associates with bar struggles. This isn't a judgment on your potential or background, but a data-driven flag based on historical patterns. To move forward, consider retaking the LSAT or boosting your GPA through post-bac courses to realign with stronger profiles. You might also seek targeted tutoring to improve academic decile rankings in any further studies. Exploring part-time programs or schools with more flexible admissions could open doors, and connecting with Asian student networks who've overcome similar hurdles might provide tailored strategies. With focused improvements, you can reshape this prediction for future applications.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

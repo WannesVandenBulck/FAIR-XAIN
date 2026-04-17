@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:47:46.189470",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated a 43% chance that you would fail it. This prediction draws from patterns in data about past students' academic records, test scores, family backgrounds, and study commitments, focusing on key indicators of bar success without considering gender or race. In your case, the model saw several strengths, like your solid LSAT score of 40—which is above the average of 37.27 for those who passed—and your undergraduate GPA of 3.30, which also exceeds the 3.24 average for successful bar takers. Your Year 1 and Year 3 decile rankings of 7 are likewise stronger than the averages of around 6 and 5.9 for passers, and your upper-middle family income aligns well with the majority of those who succeeded. However, the single biggest factor pushing the prediction toward failure was your plan to attend part-time, as this choice stands out sharply against the norm—over 93% of bar passers were full-time students, with part-timers making up just 7%. This enrollment status had the strongest influence, signaling to the model a higher risk of not passing, likely due to the challenges of balancing work or other commitments with rigorous legal studies. On a more positive note, your Year 3 decile ranking pulled strongly in the direction of passing, showing the model that your later academic performance demonstrated real promise. Similarly, your undergraduate GPA contributed meaningfully toward a passing prediction, reinforcing your academic capability. Compared to typical accepted students—who often combine full-time dedication with consistent high performance—your profile is competitive in grades and scores but diverges in that key part-time factor, tipping the overall balance. While this is disappointing, especially given your strong metrics elsewhere, it highlights how enrollment intensity can overshadow other positives in these predictions. To move forward, consider reapplying with a full-time plan if feasible, or strengthen your case by gaining relevant experience like internships or additional test prep to demonstrate bar readiness. You might also explore schools with flexible programs or appeal with a personal statement addressing how you'll manage part-time demands successfully. Keep pushing—your foundation is solid, and adjustments like these have helped many in similar spots turn predictions around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

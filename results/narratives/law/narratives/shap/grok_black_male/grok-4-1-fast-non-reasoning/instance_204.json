@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 204,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:46.338355",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your profile includes a Year 1 school decile of 5, a Year 3 decile of 3, lower-middle family income, an LSAT score of 22, an undergraduate GPA of 2.80, and plans to attend part-time. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 48% chance that you would fail it on your first try—high enough to trigger a rejection, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction stemmed from weighing key aspects of your background against patterns seen in past students. The most influential factor pushing toward a failure prediction was your LSAT score, which at 22 is notably below the typical 37 seen across applicants, signaling to the model a higher risk compared to those who scored higher and passed the bar. Next in importance, your lower-middle family income actually worked in your favor, pulling the prediction toward passing, as students from similar backgrounds have sometimes outperformed expectations in bar success rates. Your undergraduate GPA of 2.80, lower than the average 3.21, also leaned positive but less strongly, suggesting it helped somewhat by aligning with cases where moderate GPAs still led to passes. Overall, your LSAT stood out as the dominant driver overriding these positives, especially when stacked against full-time students who dominate the dataset at over 90%. Your part-time status and decile rankings played supporting roles but weren't the top influencers here. Compared to typical admitted students, who often have stronger test scores and full-time commitments, your profile highlighted vulnerabilities the model associates with bar struggles. This isn't a judgment on your potential—many factors like determination and preparation can shift outcomes. To move forward, consider retaking the LSAT to boost your score toward the average, strengthening your GPA through post-bac courses if possible, and exploring programs that support part-time or underrepresented students like yourself with bar prep resources. Reapplying with these improvements could align you better with successful profiles and open new doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

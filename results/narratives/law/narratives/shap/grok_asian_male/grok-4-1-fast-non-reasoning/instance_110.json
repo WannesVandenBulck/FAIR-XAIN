@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 110,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:32:01.824772",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who went on to take the bar exam, looking at their academic records, test scores, and backgrounds to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.40 (below the typical 3.21 average), LSAT score of 39 (above the average 36.7), middle-family income bracket, full-time study plans, and school deciles of 4th in Year 1 and 2nd in Year 3—and calculated a 44.9% probability that you would fail the bar exam on your first attempt. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students predicted to pass with high confidence. Among all the factors considered, your LSAT score had the strongest positive influence, pushing the prediction firmly toward bar exam success and helping to offset other concerns. However, your Year 3 school decile ranking carried the most significant negative weight, strongly nudging the model toward expecting failure, likely because it reflects recent academic performance that's notably lower than the typical 5.53 average decile. Your undergraduate GPA followed as the next key concern, also contributing toward the failure prediction since it's well below what's common for successful bar takers. While your stronger LSAT stands out as a highlight compared to peers, these weaker academic markers in your recent school performance and college grades pulled the overall assessment into risky territory. Full-time enrollment and your family background played lesser roles here, aligning with most applicants. To move forward, consider retaking the LSAT to build on your strength or focusing on boosting your GPA through post-baccalaureate courses or targeted academic improvement programs, which could reshape your profile for future applications. Many students in similar situations have succeeded by addressing these exact gaps—reach out to admissions counselors for personalized advice on reapplication strategies. With your above-average LSAT as a foundation, targeted improvements could flip this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

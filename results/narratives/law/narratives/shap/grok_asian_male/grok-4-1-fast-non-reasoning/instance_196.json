@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 196,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:37:31.925985",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.20 and an LSAT score of 36—both very close to what the model has seen in students who typically succeed—your law school application was evaluated using a prediction tool designed to forecast first-time bar exam outcomes based on academic and background factors from past students. The model assessed your profile and estimated a 49.4% probability that you would fail the bar exam on your first attempt, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle to pass this critical hurdle. The primary reason for this decision was your Year 3 school decile ranking of 2, which placed you in the lower part of your class compared to the average of around 5.5; this stood out as the strongest factor pushing the prediction toward failure, as lower rankings in later years often signal challenges in sustaining performance leading up to the bar. On a more positive note, your undergraduate GPA had a meaningful counterbalancing effect, pulling the prediction toward success because it aligns well with averages around 3.21 for students who pass. Similarly, your LSAT score contributed favorably, as its near-average value of 36 (versus 36.7 typically) suggested solid foundational aptitude despite not being exceptional. Your upper-middle family income and full-time student status were noted but played smaller roles here, as full-time enrollment is the norm for over 90% of students in the dataset. Compared to typical admitted students, your early Year 1 decile of 3 was also below average, hinting at a pattern of academic hurdles that amplified concerns. While your background as an Asian male doesn't directly sway the prediction, it fits within diverse profiles where consistent high performance is key to strong bar outcomes. This isn't a judgment on your potential—many students improve dramatically—but the model prioritizes patterns from past data to protect program outcomes. To move forward, consider retaking courses or targeted prep to boost your decile rankings, perhaps exploring part-time options if workload was a factor, and reapplying after demonstrating upward trends in grades or additional test prep. Building a narrative of resilience through supplemental experiences, like internships or bar-focused tutoring, could also strengthen your next application. You're close on key metrics, so focused improvements could shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

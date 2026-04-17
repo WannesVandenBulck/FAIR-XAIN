@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:09.350685",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold we use to make admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.30, LSAT score of 24, Year 1 and Year 3 school deciles of 1 and 4 respectively, middle family income bracket, and part-time enrollment status. Among the factors considered, your LSAT score had the strongest influence, pushing the model toward predicting failure because it falls well below the average of about 37 seen in students who passed the bar. On a more positive note, your undergraduate GPA stood out as the second-most influential factor, pulling the prediction toward success since your 3.30 exceeds the typical 3.24 average for bar passers. Similarly, your Year 3 decile rank of 4 worked in your favor, as it was close to the average of nearly 6 for successful students, helping to offset some concerns. While your middle family income aligns with over a third of bar passers and your part-time status is less common but not disqualifying, these played smaller roles compared to your core academic metrics. Overall, your profile compares unfavorably to admitted students mainly due to the low LSAT, even though your GPA and later school performance show real strengths that the model recognized. It's understandable to feel disappointed, especially with your solid undergraduate record and upward trajectory in school rankings. To strengthen future applications, consider retaking the LSAT to aim closer to 37 or higher, as that's the biggest lever here. You might also explore full-time programs, given that over 93% of bar passers were in that track. Building on your GPA advantage, targeted bar prep or additional coursework could further demonstrate your potential. Many students in similar situations have succeeded by addressing key gaps like this—your path forward looks promising with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

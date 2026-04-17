@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 64,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:34:53.231742",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 51.6% chance that you would fail the bar exam. This prediction tips the scale just over the threshold we use for admission decisions, prioritizing students with stronger projected outcomes to maintain high pass rates. For you, as a Black male applicant, the model weighed your undergraduate GPA of 2.90, LSAT score of 33.50, middle family income bracket, and full-time student status alongside your early academic deciles—placing you in the 1st decile for Year 1 grades and 2nd for Year 3, both notably below the typical 5th or 6th decile averages for admitted students. The most influential factor pushing toward this failure prediction was your Year 1 academic decile, as being in the bottom tier signaled to the model a foundational struggle that often correlates with bar challenges. Next, your Year 3 decile reinforced that concern, showing limited improvement relative to peers and continuing to nudge the prediction toward failure. Your LSAT score, while not exceptional, was the strongest counterbalance, pulling the prediction back toward passing by demonstrating solid reasoning potential compared to lower scorers. These three elements—your early and mid-undergrad performance metrics and LSAT—dominated the model's thinking, outweighing other details like your full-time plans or family background. Compared to typical students who pass the bar on the first try, your deciles are in the lower range, your LSAT sits below the 36.7 average, and your GPA trails the 3.21 norm, creating a profile the model views as higher risk. This isn't a judgment on your potential or resilience—many from similar backgrounds overcome these odds through targeted effort. To move forward, focus on retaking the LSAT to boost it toward or above average, strengthening your academic record with postgraduate courses or certifications, and gathering strong recommendation letters highlighting your growth. Reapplying after addressing these could shift your predicted odds significantly, opening doors at schools that value persistence like yours. Keep pushing; your story is still unfolding.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

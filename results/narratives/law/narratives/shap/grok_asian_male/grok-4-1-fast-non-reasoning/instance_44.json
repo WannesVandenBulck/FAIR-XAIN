@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 44,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:58.373820",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.50 (below the typical 3.21 average), LSAT score of 32 (under the usual 36.70), Year 1 and Year 3 school deciles both at 3 (lower than averages around 5.5-5.7), middle family income bracket, and full-time student status—and predicted a 43.6% chance you'll fail the bar exam on your first try. This elevated risk threshold led to your application's rejection, as the school prioritizes admitting those with stronger predicted odds of bar passage success. Among all the details in your profile, three factors stood out as having the strongest sway on this decision. Your LSAT score was the most influential, working strongly in your favor by suggesting a higher likelihood of passing the bar, even though it's below average. Next, your Year 3 school decile ranking pushed the prediction toward failure risk, as being in the lower third of your class signaled potential challenges in sustaining strong performance. Your middle family income also helped your case somewhat, nudging the model toward seeing you as more likely to pass compared to those from lower brackets. Overall, these elements tipped the balance toward concern, especially since your academic deciles are notably below what's typical for admitted students. While full-time status aligns with most applicants (over 90%), it didn't shift the outcome much here. To move forward, consider retaking the LSAT to boost that key strength, improving your upper-level grades to climb those deciles, and gathering letters or experiences highlighting your resilience as an Asian male navigating competitive paths. Many students in similar spots have succeeded by addressing these gaps—reapplying after targeted improvements could change the model's view and open doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

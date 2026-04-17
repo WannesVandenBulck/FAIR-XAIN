@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 111,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:46.288606",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.20, which is right in line with the typical applicant's 3.21, along with an LSAT score of 35, your upper-middle family income background, and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 61.2% chance that you would fail it—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key aspects of your academic record, with your performance in later years standing out as the biggest concern. Specifically, your Year 3 grades placed you in the bottom decile of your school (1st out of 10), far below the average 5th or 6th decile, and this low ranking was the most powerful factor pushing the model toward predicting bar failure. Your Year 1 grades, also in the low 2nd decile compared to the typical 5th or 6th, added to that concern as the third-most influential element, suggesting early struggles that carried over. On a brighter note, your LSAT score was the second-most important factor and worked in your favor, pulling the prediction toward success despite being slightly below the average of 36.7—showing the model recognized your potential there. Overall, these academic deciles outweighed your other solid qualifications, like your GPA and family background, in a dataset where stronger year-end performance is a top indicator of bar success. Compared to typical students who get approved, your lower deciles in Years 1 and 3 are uncommon red flags that signal higher risk to the model. While this rejection stings, especially given your full-time commitment and personal drive, it's not the end of the road. To strengthen future applications, focus on boosting your grades through targeted tutoring or study habits to climb those school deciles, perhaps retake the LSAT if feasible, and highlight any bar prep experience or extracurriculars that demonstrate resilience. Many applicants in similar situations reapply successfully after addressing these gaps—consider community college courses or a post-bac program to rebuild your record. Your upper-middle background and full-time plans position you well for that comeback. Keep pushing forward; law school doors can reopen with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

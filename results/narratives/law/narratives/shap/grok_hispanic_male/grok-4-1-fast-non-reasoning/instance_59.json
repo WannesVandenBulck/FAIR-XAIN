@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 59,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:29.881608",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your profile includes solid undergraduate grades with a GPA of 3.40—above the typical 3.21 average—alongside Year 1 and Year 3 school deciles of 4, a middle family income bracket, an LSAT score of 31, and plans to attend full-time like most applicants. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 48% chance you'll fail the bar on your first try, tipping the scales just enough to reject your application since schools prioritize those predicted to pass reliably. Among all the factors considered, your undergraduate GPA stood out as the strongest positive influence, pushing the prediction toward expecting you to pass because it's higher than average and signals strong academic potential. However, your LSAT score was the top factor driving the failure prediction, as its lower-than-average value of 31 (compared to 36.7 typically) raised concerns about readiness for the rigors ahead. Your middle family income bracket also contributed toward the failure side, being a notable drag in the model's eyes, possibly reflecting patterns where financial pressures correlate with bar struggles in past data. These three elements—your GPA helping, but LSAT and income hindering—were the most influential in the close call, outweighing other details like your deciles or full-time status. Compared to typical students who get approved, you align closely on GPA strength but fall short on LSAT, which often separates passers from those who need multiple tries. It's a tough outcome, especially knowing the barriers many Hispanic men face in pursuing law, but this isn't a judgment on your potential—it's one model's data-driven snapshot. To move forward, consider retaking the LSAT to boost it toward the average, perhaps while seeking fee waivers or prep resources tailored for underrepresented students. Strengthening letters of recommendation or adding bar prep experience could also help reframe your story for other schools. Many in similar positions have succeeded by targeting programs with holistic reviews that value your background. Keep pushing; your above-average GPA shows you have the foundation to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

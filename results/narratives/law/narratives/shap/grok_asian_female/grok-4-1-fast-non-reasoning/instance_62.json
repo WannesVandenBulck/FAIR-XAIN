@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 62,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:12.088208",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 2.20 played the biggest role in the model's decision, as it stands well below the average of 3.24 seen among students who went on to pass the bar exam on their first try, strongly pushing the prediction toward expecting a failure. Next, your LSAT score of 31 had a notable negative influence too, since it's significantly lower than the 37.27 average for those who passed, further tipping the scales against you. On a more positive note, your Year 3 decile ranking of 5 was a helpful factor, coming close to the 5.91 average for passers and pulling the prediction somewhat toward success. Overall, these elements led the model to estimate a 60% chance that you would fail the bar exam on your first attempt, which is why your application for admission was rejected—law schools use this prediction to prioritize applicants likely to succeed and pass the bar right away. Your lower-middle family income bracket, while not the top driver, is less common among bar passers, where middle and upper-middle incomes dominate, adding another layer of concern for the model. Being a full-time student aligned well with the vast majority of successful candidates, but it wasn't enough to offset the key academic shortcomings. Compared to typical accepted students, who boast stronger undergrad grades and LSATs, your profile signaled higher risk of not making it through the bar on the first go. This isn't a judgment on your potential or background as an Asian woman pursuing law full-time—it's just the model weighing patterns from past students. The good news is your solid Year 3 performance shows room for growth. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and if possible, strengthen your academic record through additional coursework or a post-bac program to lift that GPA perception. Many students in similar spots have succeeded by targeting these areas and reapplying—persistence pays off. You have the drive; now focus on building the metrics that match successful profiles.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

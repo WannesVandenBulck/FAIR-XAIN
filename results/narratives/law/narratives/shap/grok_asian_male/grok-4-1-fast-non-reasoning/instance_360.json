@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 360,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:47:55.650211",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.60—well above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you brought some impressive academic credentials to your law school application. Your Year 3 school decile ranking of 6 also edges out the average of 5.53, showing consistent performance later on, and you're planning to attend full-time like the vast majority of students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 63.8% chance that you would fail it—crossing the threshold that led to your application's rejection. This prediction stems from weighing various factors from past students' data, focusing on those most predictive of bar success. The biggest influence pushing toward a failure prediction was your family income bracket, listed as middle, which in this model's view correlates with higher risk compared to higher-income backgrounds that often signal more resources for exam prep. Next in importance, your Year 1 school decile of 5—slightly below the average of 5.71—signaled an early academic stumble that weighed heavily against you, even if you improved later. Your LSAT score, while strong, had a smaller counterbalancing effect pulling slightly toward success, but it wasn't enough to offset the top concerns. Overall, your profile stacks up well academically against typical applicants, but these early and socioeconomic factors tipped the scales in a way that mirrored patterns among students who struggled on the bar. It's understandable to feel frustrated, especially with your upward trajectory and full-time commitment. To move forward, consider retaking tests to boost your Year 1 decile equivalent or LSAT further, gathering evidence of family support structures, or applying to programs with holistic reviews that value your Asian background and resilience story. Strengthening these areas could shift future predictions in your favor and open doors to law school.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

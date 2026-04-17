@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 413,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:51:12.323273",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and a competitive LSAT score of 37, slightly edging out the average of 36.70, you brought some strong academic credentials to your law school application. Your family comes from an upper-middle income background, and you're planning to attend full-time, which aligns with the vast majority of students in the dataset at 92.7%. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 45.9% probability that you would fail the bar on your first try—a risk level high enough to lead to your application's rejection. The model's decision hinged primarily on three key factors from your profile, ranked by their influence on this specific prediction. The most influential was your Year 3 school decile ranking of 1, which is in the bottom tier compared to the average of around 5.5; this low performance pushed the model strongly toward predicting bar failure, as it signals potential challenges in sustaining strong grades over time. Counterbalancing that, your undergraduate GPA had the second-strongest influence, pulling the prediction toward bar passage success because of how much it exceeds the norm and reflects proven academic ability. Your LSAT score followed closely as the third key driver, also nudging the outlook positively due to its above-average strength, which the model associates with better bar preparation skills. Overall, while your prior achievements like GPA and LSAT helped mitigate the risk, the low Year 3 decile outweighed them just enough to tip the scales. Compared to typical students who pass the bar, your profile is stronger in test scores and college grades but weaker in later high school performance, where many successful applicants rank in the middle to upper deciles. To move forward, consider retaking courses or building a stronger recent academic record to boost that decile, perhaps through community college classes or targeted prep programs, and reapply once you've addressed this gap—many students in similar situations have turned things around with focused improvement.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

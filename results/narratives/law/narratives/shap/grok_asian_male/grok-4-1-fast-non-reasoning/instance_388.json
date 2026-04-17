@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 388,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:36.892433",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.70 (below the typical 3.21 average), LSAT score of 32 (lower than the usual 36.7), upper-middle family income, part-time enrollment plans, and school decile rankings from early and later years—and predicted a 43% chance you'll fail the bar exam on your first try. This elevated risk threshold led to your application's rejection, as the school prioritizes admitting those with stronger predicted odds of bar success. The decision hinged most heavily on your Year 3 school decile ranking of 1, which stood out as a major red flag; it significantly pushed the prediction toward failure because it signals weaker performance relative to peers in that later stage, far below the average decile of about 5.5. Your Year 1 decile of 6, on the other hand, worked in your favor—above the typical 5.7 average—and pulled the odds toward passing, showing early promise that the model valued. Your undergraduate GPA also helped somewhat, nudging the prediction slightly toward success despite being below average, as it indicated a baseline of academic capability. Compared to typical students, who often have higher later-year rankings, stronger LSATs, and full-time plans (only 7% go part-time like you), your profile appeared riskier overall, especially with that sharp drop from Year 1 to Year 3 performance. While your upper-middle background aligns with many admits, it didn't offset the academic concerns. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds succeed with targeted improvements—but the model saw patterns in the data linking your specifics to bar struggles. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your later-year academics through additional coursework or tutoring, and exploring full-time options if feasible. You might also gather stronger letters of recommendation highlighting your early strengths or seek programs with bar prep support. Reapplying after addressing these gaps could shift your predicted odds dramatically in future cycles. Keep pushing; your Year 1 success shows you have the foundation to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

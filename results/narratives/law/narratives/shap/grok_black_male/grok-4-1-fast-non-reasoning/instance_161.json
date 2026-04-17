@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 161,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:41:03.762911",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.60—well above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you've shown real academic promise that the admissions model noticed. Your plan to attend full-time aligns with the vast majority of students in the dataset, about 93%, so that didn't raise any flags. However, the model predicts a 63.8% chance that you would fail the bar exam on your first try, which is the key benchmark this university uses for admissions decisions—anything tipping over that threshold leads to rejection to protect their bar passage rates. This prediction hinges on a few key factors from your profile that pulled the odds toward failure, even outweighing your strengths in GPA and LSAT. The most influential was your family income bracket, listed as middle, which stood out as a stronger risk signal here compared to higher-income peers who tend to have more resources for exam prep. Next, your Year 1 school decile of 5—slightly below the average of 5.71—suggested an early academic dip that the model saw as a hurdle for law school rigor. Your LSAT, while above average, still nudged the prediction slightly toward risk in this context, as if the model weighed it against other bar passers with even higher peaks. In contrast to typical admitted students, who often come from higher family income levels and stronger early deciles, your profile mirrors many who faced bar challenges despite later improvements like your Year 3 decile of 6. These top three elements—family income leading the pack, followed by early-year performance and LSAT—collectively outweighed your positives, pushing the model to flag you as higher-risk. It's a tough outcome, especially given systemic barriers Black students like yourself often navigate in competitive fields like law. To move forward, consider retaking the LSAT for an even higher score, building early-grade momentum through targeted undergrad courses if possible, or seeking scholarships that bolster financial support—many schools value demonstrated resilience in reapplying. With your GPA and full-time commitment as foundations, refining these areas could flip the script on your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

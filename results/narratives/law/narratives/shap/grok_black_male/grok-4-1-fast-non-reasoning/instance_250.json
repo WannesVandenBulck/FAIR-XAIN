@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 250,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:46:45.783833",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates applicants based on their likelihood of passing the bar exam on the first try, estimated a 41.6% chance that you would fail it. This prediction draws from patterns in data on thousands of past students, including their grades, test scores, family backgrounds, and more, to help schools make informed admission decisions. For you, as a Black male applicant, the model zeroed in on a few key aspects of your profile that shaped this outcome. The strongest factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of the pack—this suggested to the model a potential challenge in sustaining strong academic performance heading into law school. Counterbalancing that, your family's high income level worked strongly in your favor, as it aligns with profiles of students who tend to pass the bar more reliably, likely reflecting access to resources and support. Your LSAT score of 37 also pulled positively toward passing, sitting just above the average of about 36.7 and signaling solid test-taking ability. Unfortunately, other elements like your undergraduate GPA of 2.5—below the typical 3.21—likely amplified the concerns from your Year 3 grades, even if they weren't the top influences here. Compared to most full-time applicants, who make up over 90% of the pool, your planned full-time status fits the norm but didn't sway the overall prediction much. While these factors combined to tip the scales toward rejection, it's worth noting that your high family income and LSAT nearly offset the academic concerns. This isn't a judgment on your potential as a Black man pursuing law—many with similar backgrounds succeed with targeted improvements. To move forward, focus on bolstering your recent grades through additional coursework or a post-bac program, retake the LSAT if feasible to push it higher, and consider schools with holistic reviews that weigh personal stories alongside metrics. Gathering strong recommendation letters highlighting your resilience could also help in reapplying or appealing. With strategic steps, you can reshape how models like this see your bar exam prospects next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

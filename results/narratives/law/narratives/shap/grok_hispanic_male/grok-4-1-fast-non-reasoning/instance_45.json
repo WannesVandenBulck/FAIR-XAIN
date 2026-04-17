@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:36.092494",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, an LSAT score of 30, lower-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 84% chance you'll fail the bar on your first try—high enough that your application was rejected to minimize the school's risk of low bar passage rates. This prediction hinged most strongly on your Year 3 school decile ranking of 1, which is in the bottom tenth of your peers and well below the typical student's midpoint of around 5.5; it significantly pushed the model toward forecasting failure, as lower late-stage grades often signal challenges in mastering demanding legal coursework. Your Year 1 decile of 2, also much lower than the average of about 5.7, reinforced this concern as the second-biggest factor, suggesting early academic struggles that carried forward. Even your LSAT score of 30, notably below the dataset average of 36.7, contributed by nudging the prediction further toward failure, as stronger scores typically correlate with bar success. While your undergraduate GPA sat right around the average of 3.21 and your full-time status aligns with most students, these weren't enough to offset the top concerns. Compared to typical admitted students, who often show higher deciles and LSATs that predict bar passage above 50%, your profile stood out as riskier in these key academic indicators. It's understandable to feel frustrated, especially knowing external factors like family background can influence opportunities, but the model focuses narrowly on bar success signals. To strengthen future applications, prioritize boosting your academic deciles through targeted study habits or tutoring, retake the LSAT for a higher score, and consider gaining legal experience or prep courses proven to lift bar outcomes. Many students in similar situations have rebounded by addressing these exact gaps—reach out to advisors for personalized bar prep strategies, and reapply once you've built a stronger track record. Your determination as a first-generation or underrepresented aspirant can turn this into a stepping stone.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

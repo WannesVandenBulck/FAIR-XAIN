@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 337,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:23.672779",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a part-time enrollment plan, an undergraduate GPA of 2.70—which is below the typical 3.21 average—an LSAT score of 27 compared to the usual 36.70, middle family income, and school deciles of 4th in Year 1 and 3rd in Year 3, both lower than averages around 5th to 6th. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 56.9% chance you'll fail the bar, tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on a few key aspects of your background that stood out most strongly to the model. The top influence pushing toward a failure prediction was your choice of part-time status, which is uncommon—only about 7% of students opt for it—and the model sees it as a notable risk factor compared to the 93% who go full-time and tend to fare better. Next, your lower Year 3 decile ranking amplified concerns, signaling to the model a dip in performance relative to peers that correlates with bar struggles. On a more positive note, your undergraduate GPA provided the strongest counterbalance, pulling the prediction toward success since, despite being below average, it showed enough promise to offset some risks. Overall, your situation contrasts with typical admitted students who often have stronger test scores, higher deciles, and full-time plans, placing you in a higher-risk group for bar passage based on historical patterns. While this is disappointing, it's not set in stone—the model highlights areas where targeted improvements could shift future outcomes. Consider retaking the LSAT to boost your score closer to the average, seeking academic advising to improve your decile rankings, or exploring full-time options if feasible. Strengthening your GPA through additional coursework or a post-bac program could also help demonstrate upward momentum. Many students in similar positions have succeeded by addressing these exact factors before reapplying. Your determination as an Asian male navigating these challenges positions you well to rewrite this story with the right next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

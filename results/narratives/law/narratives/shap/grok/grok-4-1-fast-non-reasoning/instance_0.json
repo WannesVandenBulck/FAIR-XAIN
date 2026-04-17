@@ -1,0 +1,11 @@
+{
+  "dataset": "law",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "status": "success",
+  "narrative": "Dear [Student's Name],\n\nAs a white male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and an LSAT score of 34, you've shown real academic promise in several areas, though your Year 1 school decile of 3 and Year 3 decile of 1 are below the averages of around 5.7 and 5.5, respectively. Your background from a lower-middle income family and preference for part-time enrollment, which is less common as only about 7% of students choose that path compared to 93% full-time, also factor into your profile. The admissions model assessed your likelihood of passing the bar exam on the first try and predicted a 51% chance of failure, which crossed the threshold leading to the rejection of your law school application. This prediction was driven primarily by three key factors, ranked by their influence on the outcome. The strongest push toward the failure prediction came from your Year 3 academic decile ranking, as being in the lower end of your school's performance distribution significantly raised concerns about sustaining strong results through law school and beyond. Counterbalancing that, your undergraduate GPA had the second-biggest impact by working in your favor, pulling the prediction toward success since it exceeds what most applicants bring. Your LSAT score followed closely, also helping your case by nudging the model toward expecting a bar exam pass, even if it's a bit under the 36.7 average. Overall, while your prior academic deciles tipped the scales most heavily against you, your standout undergrad record and LSAT provided meaningful offsets compared to typical students. To move forward, consider retaking the LSAT to boost it closer to or above average, strengthening your Year 3 performance through additional coursework or targeted study, and exploring full-time options if feasible to align with the majority profile. Reapplying after addressing these could shift the model's view in your favor—many students improve with focused effort.\n\nBest regards,  \nAdmissions Review Team",
+  "timestamp": "2026-04-17T11:39:40.739000",
+  "error": null
+}

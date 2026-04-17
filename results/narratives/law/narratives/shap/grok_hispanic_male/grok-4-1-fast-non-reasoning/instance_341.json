@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 341,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:30.863972",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.70, LSAT score of 30, middle-income family background, and plans to attend part-time while working. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated an 87% chance that you would fail the bar exam— a threshold that led to your application's rejection to protect the school's outcomes. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out as the strongest influences. Most critically, your Year 3 school decile ranking of 1—far below the typical student's 5.53 average—pushed the model heavily toward forecasting failure, as it signals challenges in sustaining strong performance later in your studies. Your choice to attend part-time, uncommon among the 92.7% of students who go full-time, was the second-biggest factor pulling the prediction in the same direction, likely because part-time paths have historically correlated with bar struggles in the data. Even your Year 1 decile of 3, lower than the average 5.71, added further weight toward the failure outlook, though less intensely than the others. Compared to typical admitted students, who often have higher deciles, GPAs around 3.21, and LSATs near 36.7, your profile aligned more closely with those who faced bar hurdles. While factors like your family income didn't sway things much here, these top three elements dominated the decision. This doesn't define your potential—many overcome similar starts through targeted effort. To move forward, consider retaking the LSAT to boost your score, strengthening your upper-year grades if possible, or exploring full-time options and prep programs proven to lift bar passage rates for students like you. Admissions teams value growth stories, so building a clearer path to bar success could open doors at other schools. You're taking a thoughtful step by understanding this; use it to chart your next move.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 100,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:13.150456",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 48% chance that you would not pass—high enough to trigger rejection as a precaution to protect the school's outcomes. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The three biggest influences on your specific prediction were your family income level, your third-year grade decile in school, and your LSAT score. Interestingly, your middle-class family income actually worked in your favor, nudging the model toward seeing you as more likely to pass the bar, much like how over a third of successful students came from similar backgrounds. However, your position in the second decile for third-year grades pushed strongly against you, signaling to the model a risk of struggling on the exam, especially since those who passed tended to rank much higher, around the sixth decile on average. Similarly, your LSAT score of 25 had a notable negative pull, as it falls well below the typical 37-plus seen among students who go on to pass, amplifying concerns about bar readiness. Compared to admitted students, who often have stronger undergraduate GPAs around 3.24 versus your 2.40 and higher early-year deciles, your profile overall aligned more closely with those who faced bar challenges. Your full-time enrollment plans match the norm for passers, but they weren't enough to offset the key drags. This isn't a judgment on your potential or hard work—it's the model highlighting where risks cluster based on historical trends. To move forward, consider retaking the LSAT to boost that score, seeking ways to improve your academic decile through targeted study or advising, and gathering stronger references that speak to your resilience. Many students in similar spots have succeeded by addressing these areas before reapplying—reach out to admissions for feedback on bolstering your next application. You've got this; persistence pays off.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

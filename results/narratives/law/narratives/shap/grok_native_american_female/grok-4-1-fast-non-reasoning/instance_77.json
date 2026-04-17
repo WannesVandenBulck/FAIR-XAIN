@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:37.357591",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.40 stood out as a strong point in your law school application, performing better than the average of 3.24 among students who went on to pass the bar exam on their first try—this helped pull the model's prediction in a positive direction, suggesting you have solid academic foundations from your prior studies. However, your position in the second decile for Year 3 grades worked against you, as it signaled to the model a dip in performance compared to the typical fifth or sixth decile ranking of those who passed, making this one of the biggest factors pushing toward a higher risk of bar exam failure. Your LSAT score of 31 also played a role, though less strongly, as it fell short of the 37 average for successful bar takers, nudging the prediction slightly toward concern despite your full-time study plans aligning well with the norm. Overall, the model estimated a 45.2% chance that you might not pass the bar on the first attempt, which crossed the threshold for denying admission to prioritize applicants with lower predicted risks. Among the key influences, your undergraduate performance was the most protective factor, counterbalancing some worries, while your later-year school ranking carried the heaviest negative weight, followed by your entrance exam score. Compared to admitted students, whose profiles often show stronger consistency across high school deciles and test scores alongside varied family backgrounds like your middle-income one, your application highlighted areas where the model saw elevated hurdles to bar success. This isn't a judgment on your potential or background—your choice to pursue full-time studies matches what works for most who pass—but rather a data-driven assessment focused on bar passage patterns. Many with similar starting points have improved by targeting weak spots. To move forward, consider retaking the LSAT to boost that score closer to 37 or higher, and reflect on strategies to elevate your class rankings in future coursework, perhaps through tutoring or study groups. Building a narrative around your undergraduate strengths in a reapplication, maybe with added bar prep experience or recommendations, could shift the odds. You're clearly capable, as your GPA shows, and with targeted steps, you can strengthen your profile for the next cycle. Schools value persistence, especially from determined applicants like you aiming for full-time success.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

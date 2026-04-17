@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:22.435037",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 60% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in data about past students' academic records, test scores, and backgrounds, focusing on factors like grades, LSAT performance, and family circumstances that have historically linked to bar exam outcomes. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 1st, which is notably lower than the 6th decile average among students who passed the bar, signaling to the model a potential struggle in later undergraduate performance that often carries over. Next in importance was your LSAT score of 36, which, while solid, fell short of the 37.3 average for bar passers and pulled the prediction somewhat toward success but not enough to offset other concerns. Your Year 1 decile of 2nd also contributed toward the failure outlook, again lower than the typical 6th decile for successful students, reinforcing a pattern of early academic positioning that the model views as risky. Coming from a middle-income family aligns with about a third of bar passers, and your choice of full-time study matches the vast majority who succeed, but these didn't outweigh the academic signals. Compared to admitted students, whose profiles typically show stronger decile rankings and higher LSATs, your combination stood out as higher-risk for bar failure. This isn't a judgment on your potential or effort—many with similar starts have improved dramatically—but the model prioritizes these predictors to help the school maintain high bar passage rates. To move forward, consider retaking the LSAT to boost your score closer to or above the 37.3 average, and if possible, strengthen your recent academic deciles through additional coursework or a post-bac program. You might also gather letters from professors highlighting your upward trajectory since Year 1, as the model weighs sustained performance heavily. Reapplying after addressing these key areas could shift your predicted odds significantly, and we're here to review updated materials. Keep pushing; your full-time commitment and background position you well for a comeback story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 337,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:03.668094",
+  "status": "success",
+  "narrative": "As a Black male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 27, middle-family income background, part-time enrollment plans, and school deciles of 4th in Year 1 and 3rd in Year 3 based on your grades. The admissions model, which predicts first-time bar exam success using profiles like yours, estimated a 56.9% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass on their first try. This decision hinged on just a few key factors from your profile that stood out most to the model. The strongest influence pushing toward a failure prediction was your plan to attend part-time, which is uncommon—only about 7% of students do so—and the model sees it as a major hurdle linked to lower bar passage rates in similar cases. Next, your 3rd-year decile ranking of 3, well below the typical 5.5-ish average, signaled weaker late-stage academic performance and nudged the prediction further toward failure. On a more positive note, your undergraduate GPA of 2.70, though under the 3.21 average, actually worked in your favor, pulling the odds slightly toward passing compared to even lower GPAs the model has seen. While your LSAT and family income played roles, these top three factors dominated the model's thinking for you specifically. Compared to typical students who get approved, your part-time status and lower deciles set you apart in ways that raised red flags, even with your GPA offering some counterbalance. This isn't a judgment on your potential—models like this weigh patterns from past students, and your unique path as a Black man balancing part-time work might not fully capture your strengths. To move forward, consider retaking the LSAT to boost that score toward the 36.7 average, strengthening your later-year grades for a higher decile, or exploring full-time options if feasible. You could also gather letters highlighting your resilience and non-academic achievements, then reapply to schools with holistic reviews or targeted programs for underrepresented students like yourself. Keep pushing—many overcome these predictions through targeted prep and persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 177,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:16.497874",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and an LSAT score of 36, which is close to the dataset average of 36.70, you've put together a respectable profile for law school admission. Your family falls into the middle income bracket, and you're planning to attend full-time, which is the norm for over 92% of students in the dataset. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing the bar at 44%, tipping the scales toward rejection to minimize the risk of poor outcomes. This prediction wasn't driven by your LSAT or GPA alone but by a combination of factors from your academic record that stood out to the model. The most influential element pushing against you was your Year 3 school decile ranking of 2, well below the average of 5.53, which strongly signaled a higher risk of bar failure compared to peers who ranked higher. Nearly as important was your Year 1 decile of 1—far under the typical 5.71—which further reinforced the model's concern about early academic struggles that often predict bar challenges. On a brighter note, your LSAT score was the top factor working in your favor, pulling the prediction toward bar passage since it's competitive with successful students. While your undergraduate performance and full-time status align with averages and didn't sway things much either way, those lower decile rankings in your school grades carried the heaviest weight, placing you below the typical trajectory of students who pass the bar on their first try. Many admitted applicants have deciles closer to the middle or top of their classes, highlighting how your early and later school performance diverged from that successful norm. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted tutoring or a post-baccalaureate option, and reapply with strengthened high school-level transcripts. Gathering letters of recommendation that address your academic growth could also help contextualize those deciles for human reviewers. With your strong LSAT as a foundation, focusing on elevating those school performance metrics will better position you for success next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

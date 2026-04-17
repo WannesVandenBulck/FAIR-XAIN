@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 419,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:57:07.002100",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 54% chance that you would not pass the bar on your first attempt—a threshold that leads to rejection to ensure incoming students are positioned for success. As a Black male student with an upper-middle-class family background and plans to attend full-time, your profile includes a Year 1 school decile of 5, a Year 3 decile of 5, an undergraduate GPA of 2.3 (below the typical 3.21 average), and an LSAT score of 23 (well under the usual 36.7 average). These elements were weighed against patterns from thousands of past students to arrive at this prediction. The three most influential factors in your case were your Year 3 academic decile, your LSAT score, and your undergraduate GPA, in that order of impact. Notably, your Year 3 decile worked strongly in your favor, pulling the prediction toward expecting bar exam success because it signals solid performance relative to peers at a critical stage. However, your LSAT score had the strongest opposing pull, significantly increasing the model's concern about bar failure due to how far it falls from what's typically needed for strong outcomes. Your undergraduate GPA added further weight toward the failure prediction, reinforcing doubts despite being a smaller influence overall. Compared to typical admitted students, who often enter with higher test scores and GPAs aligning closer to or above averages, your metrics placed you in a riskier category, even with your average Year 1 decile and common full-time status. This isn't a judgment on your potential or background—many students from similar circumstances succeed with targeted preparation—but the model prioritizes these predictors to minimize bar failure rates. To move forward, consider retaking the LSAT to boost your score, strengthening your GPA through post-baccalaureate courses or a master's program, and gathering strong letters of recommendation that highlight your Year 3 improvement. Reapplying after addressing these could shift your predicted odds favorably, opening doors at schools that value resilience like yours. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

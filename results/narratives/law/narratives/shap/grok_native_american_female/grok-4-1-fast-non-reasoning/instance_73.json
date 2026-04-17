@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 73,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:22.865258",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 52.8% chance that you would not pass—crossing the threshold we use to make such decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.10 and LSAT score of 31.50, alongside your Year 1 and Year 3 grade deciles, family income in the middle bracket, and your plan to attend full-time. Among students who passed the bar, the average LSAT is notably higher at 37.27, and undergraduate GPAs average 3.24, giving context to how the model weighs these elements. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 2, which is well below the average of about 6 for those who passed, signaling to the model a potential challenge in sustaining strong performance. Next in influence, your undergraduate GPA actually worked in your favor, pulling the prediction toward passing because it was reasonably close to successful students' averages. Your Year 1 decile of 3 had a moderate push toward failure, again lower than the typical 6 for passers, reinforcing concerns about early academic momentum. Your middle family income aligns with over a third of bar passers, and your full-time status matches nearly all of them, so those didn't sway the outcome much. Compared to typical accepted students, who tend to show higher deciles and stronger test scores from the start, your profile raised flags about bar exam readiness despite some positive notes like your GPA. This isn't a judgment on your potential or background—it's the model highlighting patterns from past students. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on strategies to improve your class rankings, perhaps through tutoring or study groups. Building a stronger narrative around your resilience, maybe highlighting any upward trends or relevant experiences, could help in reapplying or appealing. Many students in similar positions have succeeded by addressing these key areas—your next application can reflect targeted growth.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

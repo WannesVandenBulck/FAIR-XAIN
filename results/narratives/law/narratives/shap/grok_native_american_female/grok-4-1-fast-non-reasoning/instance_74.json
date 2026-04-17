@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 74,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:26.034573",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 68.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, test scores, and background details like your upper-middle family income and plans to attend full-time. The model's decision hinged most strongly on your Year 1 grade decile of 4, which placed you below the typical 6th decile seen among students who passed the bar, signaling to the model a foundational academic challenge that strongly pushed the prediction toward failure. Your LSAT score of 35 also contributed notably in the same direction, as it fell short of the average 37.3 among those who succeeded, reinforcing concerns about exam readiness. On a more positive note, your Year 3 decile of 5 was close to the 5.9 average for passers and actually pulled the prediction toward success, showing the model recognized your later improvement. While your undergraduate GPA of 3.3 edged above the 3.24 average for bar passers and your full-time status aligned with most successful students, these weren't enough to offset the top concerns. Compared to admitted students, who typically show stronger early performance and higher LSATs, your profile suggested higher risk despite some strengths like your upward grade trajectory. This isn't a judgment on your potential or background—it's a data-driven forecast based on patterns from thousands of past students. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, as even a modest gain could shift future predictions favorably. Strengthening early-grade equivalents through additional coursework or focusing on consistent performance might also help in reapplying. We encourage you to seek personalized advising from pre-law counselors who can review your full transcript and suggest targeted prep for both law school and the bar. With your demonstrated improvement by Year 3, you're already showing resilience—many students in similar positions succeed by addressing these key areas head-on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

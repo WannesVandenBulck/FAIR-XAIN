@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 80,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:09:20.533479",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 68.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.20 and LSAT score of 36, alongside your Year 1 and Year 3 grade deciles of 4 and 3 respectively, your upper-middle family income background, and your plan to attend full-time. Among students who passed the bar, the average Year 3 decile is 5.91, making your position in the 3rd decile a standout concern that most strongly pushed the model toward predicting failure, as it signals performance lagging behind typical successful applicants. Your Year 1 decile of 4, compared to their average of 6.04, was the next biggest factor pulling in the same direction, reinforcing doubts about consistent academic strength. Even your upper-middle family income, while common among bar passers (45.1% share that bracket), didn't offset these issues and contributed somewhat to the risk assessment in your case. Your undergraduate GPA sits close to the 3.24 average of those who passed, and your full-time status aligns with 93.2% of them, but these weren't enough to counterbalance the top concerns. In essence, the model saw your mid-program grade deciles as the primary red flags when stacked against patterns from past students, unlike the higher deciles that typify accepted applicants who went on to pass the bar. This isn't a judgment on your potential or background—it's a data-driven forecast based on how similar profiles have fared historically. To move forward, consider retaking the LSAT to boost your score above the 37.27 average of bar passers, or strengthening your recent academic decile through additional coursework or a post-bac program. You might also explore part-time options or schools with bar passage support tailored to full-time students like you. Gathering letters from professors who can highlight your upward trajectory could help reframe your Year 3 performance in future applications. With targeted improvements, you can shift these predictions in your favor and pursue law school successfully.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

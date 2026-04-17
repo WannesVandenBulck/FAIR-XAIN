@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 365,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:13.954998",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at their academic records, test scores, family backgrounds, and more to predict the chances of passing on the first try. The model assessed your profile— including your undergraduate GPA of 2.3 (below the typical 3.21 average), LSAT score of 34 (under the usual 36.7), Year 1 grade decile of 3 and Year 3 decile of 2 (both well below school averages around 5-6), middle family income bracket, and full-time student status—and predicted a 40.5% probability that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The three biggest factors driving this decision were your LSAT score, your Year 3 grade decile, and your family income bracket, ranked by their influence on the model's thinking for your specific case. Most notably, your Year 3 decile of 2 strongly pushed the prediction toward failure, as it signals weaker performance relative to peers in a key later academic year. On a more positive note, your LSAT score of 34 worked in your favor, nudging the model toward seeing you as more likely to pass compared to lower scorers. Your middle family income also helped a bit, contributing positively since students from similar brackets often show resilience in bar outcomes. While full-time status is common and didn't sway things much, your overall academic metrics, especially those lower deciles and GPA, stood out as lagging behind typical successful applicants. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds excel with targeted improvements—but the model saw your profile as higher-risk than the average student's. To move forward, focus on retaking the LSAT to boost it above 36, strengthening your academic deciles through additional coursework or a post-bac program, and gathering strong recommendation letters highlighting your dedication. Reapplying after these steps could shift your predicted failure odds dramatically lower, opening doors at competitive programs. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

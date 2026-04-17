@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:49.032916",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 47% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.20, LSAT score of 24, Year 1 and Year 3 grade deciles both at 7, middle family income bracket, and full-time enrollment plans. The most influential factor pushing the model toward predicting bar failure was your LSAT score, which stood out as notably lower than the average of about 37 for students who passed the bar. In contrast, your Year 3 decile ranking worked strongly in your favor, pulling the prediction toward success since it exceeded the typical 5.91 average among bar passers. Your Year 1 decile also helped somewhat, being above the passers' average of around 6, though its influence was milder. Compared to admitted students, who often come from a mix of income levels but predominantly full-time like you, your profile aligns well in those areas but was overshadowed by the LSAT's weight. While your undergraduate GPA was close to the 3.24 average of successful bar takers, it didn't shift the balance enough. This combination led the model to see higher risk in your bar exam outcome than in profiles it approved. To strengthen future applications, focus on boosting your LSAT or similar standardized scores, perhaps through targeted prep courses, as that's the biggest lever here. You might also highlight any upward trends in your later grades, like that solid Year 3 decile, in retakes or appeals. Consider gaining relevant experience or retaking the LSAT to realign your profile closer to proven bar passers. With your full-time commitment and middle-income background mirroring many successes, targeted improvements could tip the scales next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

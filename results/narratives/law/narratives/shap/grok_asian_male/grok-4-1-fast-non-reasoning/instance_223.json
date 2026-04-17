@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 223,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:14.664724",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 38—above the typical 36.7 average—and an undergraduate GPA of 3.0, which is slightly below the average of 3.21. However, the university's admission model, which predicts the likelihood of passing the bar exam on the first try, estimated a 76% chance that you would fail it, leading directly to the rejection of your application. This prediction hinges on how your early academic performance stacked up against others, with your third-year school decile ranking of 2—well below the average of about 5.5—emerging as the single strongest factor pushing the model toward forecasting failure. Your first-year decile of 3, also lower than the typical 5.7, reinforced this concern as the second-most influential element, suggesting the model sees a pattern of underperformance relative to peers that often correlates with bar exam struggles. On a more positive note, your LSAT score was the third-most impactful feature, actively working against the failure prediction by demonstrating stronger-than-average reasoning ability. Compared to typical students who pass the bar, your lower decile rankings in those key undergrad years placed you in a riskier group, where many similar profiles historically faced first-try failures despite other strengths like your LSAT. The model weighs these early indicators heavily because they tend to signal long-term preparation challenges for the intense bar exam. While your full-time status aligns with the vast majority of successful applicants, it wasn't enough to offset those core academic flags. This isn't a judgment on your potential—many students improve dramatically—but the system's goal is to prioritize those with profiles showing the highest bar passage odds upfront. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or targeted GPA improvement initiative, and reapply once you've strengthened those early academic markers. Gathering letters of recommendation that highlight your growth trajectory could also help contextualize your story for holistic reviewers. With your LSAT edge already in your favor, focusing here positions you well for future success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 299,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:53.456475",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an undergraduate GPA of 3.40—above the typical 3.21 average—and a strong LSAT score of 42, which stands out compared to the usual 36.70. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 62.6%. This high predicted probability tipped the decision against your application, as the school prioritizes candidates likely to succeed on the bar to maintain their strong pass rates.\n\nThe model's judgment hinged on just a few key factors from your profile, with your undergraduate GPA emerging as the strongest influence pushing toward a failure prediction. Despite being above average, it apparently wasn't competitive enough in the eyes of the model to offset other risks for someone with your background. Next in importance was your Year 3 school decile ranking of 9th—well above the average 5.53—which worked strongly in your favor, pulling the prediction toward expecting you to pass the bar.\n\nYour family income level followed as the third most influential factor, contributing toward the failure risk, perhaps because the model associates upper-middle backgrounds with certain performance patterns in bar outcomes. Overall, these elements combined to outweigh your strengths, like that impressive LSAT and solid early-year decile of 8 compared to the average 5.71, placing your profile among those the model sees as higher-risk compared to typical admitted students who balance top-tier GPAs with consistent high deciles.\n\nWhile this rejection stings, especially given your promising scores, it's not the end of the road—many students in similar situations retake the LSAT for an even higher score or bolster their GPA through post-baccalaureate courses to shift these key factors. Consider targeting programs with holistic reviews that value your Hispanic background and full-time commitment more explicitly. Reach out to admissions counselors for feedback, and explore bridge programs or retake strategies to demonstrate bar readiness. With targeted improvements, you can reapply stronger next cycle and turn this prediction around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:22.423068",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 99.2% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking of 2, which stood out as the biggest factor pushing toward this failure prediction—it's well below the typical 6th decile among students who passed, signaling to the model weaker relative performance in your later undergraduate years compared to peers who succeeded. Next in influence was your Year 1 decile of 2, again lower than the average 6th decile for bar passers, reinforcing the model's concern about your early academic standing in a competitive school environment. Your upper-middle family income also played a supporting role in tipping the scales toward failure, as while it's common among passers (about 45% share this bracket), in combination with your other metrics, it didn't offset the academic signals the way it sometimes does for others. For context, accepted students typically have much stronger profiles, like LSAT scores around 37 and undergraduate GPAs near 3.24, whereas yours at 34 and 2.90 fell short, aligning with the full-time enrollment path that 93% of successful students follow but amplifying the risks here. These top three factors—your deciles and income—dominated the prediction because they capture core academic momentum and socioeconomic patterns strongly linked to bar outcomes in the data. It's tough to hear, especially when you've worked hard and come from a solid background, but the model saw your grades placing you in the lower deciles consistently, unlike the higher rankings that buoy most admitted applicants. To move forward, consider retaking the LSAT to aim for 37 or above, bolstering your undergraduate record through post-bac courses or a master's to shift those decile perceptions, and exploring part-time programs if full-time feels like a mismatch. Building a narrative of upward academic trajectory could also help in reapplying or appealing, perhaps with letters highlighting any extenuating circumstances from your years 1 and 3. Many students in similar spots have succeeded by targeting schools with holistic reviews or bar prep support, so researching those options and consulting an admissions advisor could open new doors. You're capable of turning this around with focused steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

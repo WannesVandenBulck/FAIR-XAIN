@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 97,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:29.884220",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 68% chance that you would not pass—well above the threshold we use for admissions decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. In your case, the model zeroed in on a few key aspects of your profile that stood out as the strongest signals pushing toward this concerning outcome.\n\nThe most influential factor was your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers—a sharp contrast to the typical top-half positioning (around the 6th decile) seen among students who went on to pass the bar. This low ranking signaled to the model a potential struggle with sustaining strong performance later in your studies, heavily tipping the scales toward predicting failure. Next in influence was your Year 1 decile, also at 1, far below the 6th decile average for bar passers, reinforcing concerns about early academic momentum that often predicts long-term success.\n\nYour upper-middle family income level actually worked in your favor, pulling the prediction somewhat toward passing since it aligns closely with the majority (about 45%) of successful bar takers and suggests access to supportive resources. However, these positive notes weren't enough to offset the dominant drag from your low decile rankings, especially when combined with your undergraduate GPA of 2.90 (below the 3.24 average for passers) and LSAT score of 32 (under the 37.27 norm). Compared to admitted students, who typically show stronger grades and test scores from the start, your profile appeared riskier for bar success, even as a full-time student in a common pathway for passers.\n\nWhile this is disappointing, it's not the end of the road—many students in similar positions have improved by retaking the LSAT to boost their score, strengthening their GPA through post-baccalaureate courses, or gaining targeted academic experience to climb those decile rankings. Consider reaching out to admissions advisors for feedback on bolstering your transcript, or exploring bridge programs designed for applicants with solid potential like yours. With focused effort on these academic foundations, you can reshape your profile and reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

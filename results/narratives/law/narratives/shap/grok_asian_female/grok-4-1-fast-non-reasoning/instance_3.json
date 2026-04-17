@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:04:30.102905",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 48.7% chance that you would not pass—above the threshold we use for admission decisions. This prediction stemmed from a close look at key elements of your profile, like your undergraduate GPA of 3.10, LSAT score of 32, Year 1 decile rank of 4th, Year 3 decile rank of 8th, upper-middle family income, and your plan to attend full-time. Among the influences, your strong Year 3 performance stood out as the most significant positive factor, pushing the model's view toward expecting you to pass by showing notable improvement in your school rankings compared to peers. However, your LSAT score had the strongest pull in the opposite direction, contributing substantially toward the failure prediction since it fell well below the average of 37.27 seen in students who passed the bar. Your Year 1 decile rank also nudged the prediction toward failure, though less forcefully, as it was lower than the typical 6th decile for successful bar takers. Overall, these top three factors—your later academic surge helping, but held back by earlier grades and especially the LSAT—tipped the balance despite positives like your full-time commitment, which aligns with 93% of those who passed. Your upper-middle income background is common among bar passers, fitting right in the middle of their distribution, so it didn't sway things much either way. Compared to typical admitted students, who often enter with higher starting deciles, stronger LSATs, and slightly better undergrad GPAs like 3.24, your profile showed promise in recovery but started from a tougher spot. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call to prioritize bar success odds. To move forward, consider retaking the LSAT to boost that score closer to the passing average, as it carries heavy weight, and highlight any further academic gains in a reapplication. You might also seek targeted bar prep resources or advising to build on your Year 3 momentum. With focused steps like these, you can strengthen your profile for another shot at admission.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

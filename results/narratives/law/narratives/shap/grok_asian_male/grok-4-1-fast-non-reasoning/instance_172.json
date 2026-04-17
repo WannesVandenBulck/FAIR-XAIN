@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 172,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:35:57.702403",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.60—which is below the typical 3.21 average—your LSAT score of 24, far under the dataset average of 36.70, and your school decile rankings of 5th in Year 1 and 4th in Year 3, both lower than the averages of about 5.7 and 5.5. It also noted your middle family income bracket and your plan to attend full-time, which is the norm for over 90% of students. Overall, the model estimated an 83% probability that you would fail the bar exam on your first attempt, leading to the rejection of your application as the school prioritizes candidates predicted to succeed. The most influential factor pushing toward this failure prediction was your LSAT score, as its low value strongly signaled higher risk compared to what the model typically sees in successful students. Next in importance, your Year 1 decile ranking contributed by being in the middle of the pack rather than the top tiers common among bar passers. Your Year 3 decile similarly nudged the prediction toward failure, reflecting grades that didn't stand out against the stronger performances that correlate with passing. While other aspects like your full-time status didn't sway things much positively or negatively, these top three academic indicators dominated the decision. This outcome reflects how the model weighs early academic signals heavily for students like you from middle-income backgrounds. To move forward, consider retaking the LSAT to boost your score closer to or above the average, strengthening your high school decile performance through additional coursework or test prep if possible, and gathering stronger recommendation letters that highlight your potential. Many applicants in similar situations have succeeded by addressing these key areas and reapplying—persistence pays off, and targeted improvements can shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

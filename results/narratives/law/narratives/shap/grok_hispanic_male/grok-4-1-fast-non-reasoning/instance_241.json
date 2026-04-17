@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 241,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:12.889998",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.30, which stands out above the typical 3.21 average, along with your upper-middle family income background and plans to attend full-time. Your Year 1 school decile ranking placed you in the top group at 1.00, but your Year 3 decile also sat at 1.00—far below the average of around 5.5—while your LSAT score of 27 trails the usual 36.7 benchmark. The admissions model, trained on data from countless students' paths to the bar exam, predicted a 72% chance you'll fail it on your first try, tipping the scales toward rejecting your application to prioritize those with stronger signals of bar passage success. The biggest factor pulling the prediction toward failure was your Year 3 academic decile; being in the lowest school ranking that year strongly signaled higher risk compared to peers who climbed higher. This outweighed your solid undergraduate GPA, which nudged things positively by showing consistent college-level performance above average. Similarly, your upper-middle family income provided a slight boost, as students from similar backgrounds often have more resources supporting bar success. Overall, your Year 3 performance stood out as the dominant concern, especially against the backdrop of your lower LSAT, making your profile riskier than typical admitted students who balance stronger high school deciles across years. While full-time status aligns with most applicants at 92.7%, it didn't shift the needle much here. This isn't a judgment on your potential as a Hispanic leader in law—many overcome early hurdles—but the model flags patterns where Year 3 struggles predict bar challenges. To move forward, consider retaking the LSAT to boost it toward 35+, strengthening your Year 3 record through post-bac courses or targeted academics, and reapplying next cycle with those updates. Gathering letters highlighting your resilience could also help contextualize your journey for holistic reviewers. You're clearly driven; refining these key areas positions you strongly for approval.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

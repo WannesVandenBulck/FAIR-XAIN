@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:25:24.273658",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid upper-middle-class family background and plans to attend law school full-time, your profile shows a mixed academic picture that the admissions model carefully evaluated. Your undergraduate GPA of 3.10 is close to the typical student's 3.21, while your LSAT score of 32 falls below the average of 36.70, and your Year 1 school decile ranking of 4 is lower than the usual 5.71, though your Year 3 decile of 8 exceeds the average 5.53. The model predicts a 48.7% chance that you would fail the bar exam on your first try, which is high enough to tip the scales toward rejection, as the university prioritizes applicants likely to pass and succeed in their legal careers. This decision hinged on just a few key factors from your record, with your Year 3 performance standing out as the most influential in a positive way. Specifically, your strong Year 3 decile ranking pushed the prediction toward expecting you to pass the bar, showing the model recognized your later academic improvement as a major strength. Next in importance was your LSAT score, which had a notable pull in the opposite direction, contributing toward the risk of failure because it was below what's typically needed for strong bar outcomes. Your Year 1 decile ranking played a smaller but still negative role, nudging the prediction slightly toward failure due to that earlier weaker performance compared to peers. Overall, while your upward trajectory in grades offered some counterbalance, the LSAT's impact outweighed it just enough in the model's eyes, especially when stacked against typical successful applicants who enter with higher standardized test scores. Many students in your position see approvals when LSATs align closer to or above average, highlighting how that one metric often sways these close calls. To move forward, consider retaking the LSAT to boost your score, as even a modest improvement could shift your predicted odds dramatically. Strengthening recent academic showings like your Year 3 results through additional coursework or recommendations might also help reframe your story. Finally, reaching out to admissions for feedback or exploring programs with holistic reviews could open new paths tailored to your unique journey as an Asian male applicant with clear potential.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

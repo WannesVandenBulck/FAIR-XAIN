@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 64,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:50.780276",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and academic record were carefully evaluated by an admissions model designed to predict first-time success on the bar exam, using data from thousands of past students. The model assessed factors like your early college grades, later performance, LSAT score, undergraduate GPA, family income, and whether you'd attend full-time. It calculated a 51.6% probability that you would fail the bar exam on your first attempt—meaning it saw a slight risk tipping toward failure, which led to your application's rejection to protect the school's outcomes. The most influential factor pushing toward this failure prediction was your first-year decile ranking of 1, placing you in the bottom 10% of your school's grades that year, far below the typical student's mid-range position around the 6th decile. This early struggle stood out strongly because it signals potential challenges in building a strong legal foundation from the start. Next in influence was your LSAT score of 33.5, which is below the average of 36.7 for students in the dataset; however, this worked somewhat in your favor, pulling the prediction away from failure since higher scores often correlate with bar success. Rounding out the top three was your third-year decile of 2, still in the lower ranks compared to the average around the 6th decile, which further nudged the model toward predicting failure by showing your grades hadn't climbed enough later on. Your undergraduate GPA of 2.9 (below the 3.21 average), middle family income bracket, and full-time enrollment status played supporting roles but weren't the primary drivers. Compared to typical admitted students, who often enter with stronger early and consistent rankings closer to the middle or top of their classes, your profile highlighted more risk in these core academic signals. While your LSAT provided a positive counterbalance, it wasn't enough to offset the weight of those lower deciles. To move forward, focus on retaking the LSAT to boost it above average, strengthening your academic record through additional coursework or a post-bac program to improve those decile rankings, and gathering strong recommendation letters that highlight your resilience as a Hispanic student overcoming early hurdles. Reapplying after addressing these could shift your predicted odds significantly in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

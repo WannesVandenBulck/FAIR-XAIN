@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:34:32.283129",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select candidates likely to succeed on their first try. Your profile includes a Year 1 school decile of 4, below the typical 5.71 average; a Year 3 decile of 3, also under the average of 5.53; an undergraduate GPA of 2.60 compared to the usual 3.21; an LSAT score of 23, well below the dataset average of 36.70; a lower-middle family income bracket; and plans to attend part-time, which is less common as only about 7% of students do so. The model estimates a 51% probability that you would fail the bar exam on your first attempt, tipping the scales just over the threshold that led to your application's rejection—meaning the system flagged a higher risk of not passing compared to profiles it approves. The most influential factor pushing toward this failure prediction was your LSAT score, as its lower level strongly signaled to the model a greater challenge in bar success relative to what it typically sees in passers. Next in importance, your family income bracket actually worked in your favor, pulling the prediction toward passing because lower-middle incomes in the dataset often correlate with resilience and success. Your Year 1 decile placement provided a moderate positive nudge too, suggesting your early performance was solid enough to somewhat offset concerns. Compared to typical students who pass—those with higher test scores, stronger GPAs, and full-time enrollment—your LSAT stood out as the biggest deviation, while your part-time status and lower deciles aligned with riskier profiles the model has learned to approach cautiously. This isn't a judgment on your potential or the barriers you've overcome as a Black man pursuing law; it's the model's data-driven assessment prioritizing bar passage rates. To move forward, consider retaking the LSAT to boost your score closer to the 36.70 average, strengthening your academic deciles through additional coursework, or exploring full-time options if feasible—these steps could shift future predictions dramatically in your favor. Many students in similar situations have succeeded by targeting these areas, and we're here to support your next application. Keep pushing; your determination is evident.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 209,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:44:03.339362",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and a family from a high-income bracket, you've put together a strong profile for law school, including full-time study plans and an LSAT score of 35. However, the admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated your chance of failing the bar at 44%, tipping the scales toward rejection to minimize the risk of poor outcomes. This prediction isn't a judgment on your potential or background, but a data-driven assessment comparing you to others who've taken the exam. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later academic performance in school lagged behind most peers who passed the bar. Your undergraduate GPA, on the other hand, worked strongly in your favor, pulling the prediction toward success because it exceeded typical levels and correlates with bar passers. Similarly, your LSAT score helped by nudging the odds toward passing, even if it was a bit under the 36.7 average. Overall, while your strengths in prior academics and test performance stood out positively compared to averages, the lower Year 3 decile carried the most weight, outweighing those positives in the model's eyes for someone in your circumstances. This isn't set in stone—many students like you improve dramatically with targeted effort. To move forward, consider retaking courses or programs to boost your later-year rankings, perhaps seeking mentorship from Black alumni networks who've navigated similar paths to bar success. You could also retake the LSAT for a higher edge or gather letters highlighting your resilience and family support. Reapplying after addressing that key decile gap could flip the model's view, opening doors at schools that value your unique background. Keep pushing; your profile shows real promise with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

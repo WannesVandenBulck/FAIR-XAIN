@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 405,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:50:41.107559",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 68.9% probability that you would fail the bar exam, which crossed the threshold for rejection to protect the school's outcomes. This decision hinged primarily on your academic performance in school, particularly your grades in later years. Your position in the second decile for Year 3 grades—well below the typical student's fifth or sixth decile—stood out as the strongest factor pushing the prediction toward failure, as it signals challenges in sustaining high performance over time. Similarly, your Year 1 grades also in the second decile, compared to the average around the sixth, reinforced this concern by highlighting an early pattern of underperformance relative to peers. On a more positive note, your undergraduate GPA of 3.00, slightly below the average of 3.21, actually worked in your favor, nudging the prediction somewhat toward passing by showing respectable college-level achievement. Other elements like your middle family income bracket, LSAT score of 32 (below the average 36.7), and full-time student status aligned with common profiles but didn't outweigh the key academic red flags. In comparison to typical admitted students, who often rank higher in school deciles and boast stronger test scores, your profile appeared riskier for bar success. While factors like your background as an Asian male didn't directly sway the model, they fit within broader patterns where consistent academic strength is paramount. This isn't a judgment on your potential, but a data-driven call based on historical trends. To move forward, consider retaking the LSAT to boost your score, strengthening your recent grades through additional coursework or a post-bac program, and gathering strong recommendation letters that highlight your resilience. Reapplying after addressing these core areas could significantly shift your odds in future cycles.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

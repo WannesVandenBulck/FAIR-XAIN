@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 253,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:41:03.108722",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a strong undergraduate GPA of 3.80—well above the typical 3.21 average—and a solid LSAT score of 39, which exceeds the usual 36.70, you brought impressive academic credentials to your law school application. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, aligning with the vast majority of students in the dataset. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 73.8% chance that you would fail the bar exam, tipping the scales toward rejection to minimize the risk of poor outcomes for future classes. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year, far below the average decile of about 5.5. Next in impact was your Year 1 decile also at 1, again well under the typical 5.7 average, signaling early struggles that the model sees as a strong warning sign for bar performance. While your high undergraduate GPA worked strongly in your favor, pulling the prediction toward success and offsetting some concerns, it wasn't enough to counterbalance those lower high school rankings. Compared to typical students who pass the bar on their first try, your profile stands out for those early decile weaknesses despite later strengths like your college grades and LSAT. This isn't a judgment on your potential as an Asian male from a stable background—many with similar demographics succeed—but the model prioritizes patterns from historical data where low early deciles often predict bar challenges. To move forward, consider retaking courses or programs to boost your high school decile equivalents, gathering letters explaining those early dips, or targeting schools with holistic reviews that weigh your GPA and LSAT more heavily. You could also prepare rigorously for the bar early, perhaps through targeted prep courses, to demonstrate readiness. Reapplying after addressing these gaps could shift your predicted odds dramatically. Your solid foundation suggests you're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

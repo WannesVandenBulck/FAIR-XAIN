@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:30.043127",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.00, an LSAT score of 25.50, and your grades placing you in the lower deciles of your school—specifically the 2nd decile in Year 1 and the 1st decile in Year 3—along with coming from a middle-income family and planning to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 63.2% probability that you would fail it, tipping the scales toward rejecting your application to prioritize candidates with stronger predicted odds of bar success. This decision hinged most heavily on your Year 3 school decile ranking, which stood out as the top factor pushing the prediction toward failure because it was exceptionally low compared to the typical student's 5th or 6th decile placement. Your undergraduate GPA played the second-biggest role, but in a positive way—it pulled the prediction somewhat toward passing, as your 3.00 is close to the average of 3.21 and showed solid college performance. Your LSAT score ranked third in influence, nudging things slightly toward failure since your 25.50 is well below the dataset average of 36.70, signaling a potential challenge in the rigorous reasoning demands of law school and the bar. Overall, while your full-time status aligns with most applicants and your family background is middle-of-the-road, these top three elements—especially that low Year 3 decile—made your profile riskier than typical admitted students, who tend to cluster in higher deciles with stronger test scores. It's understandable to feel disappointed, especially as a first-generation or underrepresented applicant navigating these metrics. To move forward, consider retaking the LSAT to boost your score toward the average, strengthening your recent grades through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience and potential. Many students in similar situations reapply successfully after targeted improvements—reach out to pre-law advisors for personalized strategies, and know that your determination as a Hispanic man in law can open doors beyond this one decision. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

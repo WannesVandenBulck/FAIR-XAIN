@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 307,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:17:21.775896",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, an LSAT score of 37.50, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 (3rd decile) and Year 3 (2nd decile). The admissions model, which predicts first-time bar exam success based on profiles like yours, estimated a 49.6% chance that you would fail the bar—high enough to trigger an automatic rejection to protect the school's outcomes. This decision hinged on just a few key factors from your background that stood out the most. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, well below the typical 5.53 average, signaling to the model that your later academic performance might not build the momentum needed for bar success. Next in importance, your LSAT score of 37.50, slightly above the 36.70 average, worked strongly in your favor by pulling the prediction toward passing, showing solid reasoning potential. Your undergraduate GPA of 3.00, dipping under the 3.21 average, also helped by nudging things positively, though not as powerfully as your LSAT. Compared to typical students who pass the bar on their first try, your lower Year 3 decile was a bigger red flag than most, while your test scores aligned more closely with successful applicants. Full-time status, like 93% of students, and your family income didn't sway the scales much here. This close call means small improvements could flip the outcome next time. To move forward, focus on boosting your academic deciles through targeted coursework or retakes, perhaps retaking the LSAT to push even higher, and gather strong recommendation letters highlighting your resilience as a Hispanic student navigating these challenges. Reapply after addressing that Year 3 decile—many in similar situations succeed by showing upward trends. You're close; with these steps, law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

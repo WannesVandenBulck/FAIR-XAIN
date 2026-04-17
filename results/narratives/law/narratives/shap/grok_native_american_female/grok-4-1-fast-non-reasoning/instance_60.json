@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:14:39.159667",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 91.9% chance that you would not pass, based on patterns from thousands of past students' academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking of 1st, which stood out as a major factor pushing toward a failure prediction—unlike the typical 6th decile average among students who passed the bar. Your Year 1 decile of 1st played a similarly powerful role in the same direction, signaling early academic struggles that the model sees as a persistent red flag compared to the 6th decile norm for successful bar takers. While your LSAT score of 37 helped pull the prediction somewhat toward passing—close to the 37.27 average of those who succeeded—it wasn't enough to offset those lower decile positions. Your undergraduate GPA of 3.10, just below the 3.24 average for passers, and upper-middle family income, which aligns with many who pass, had lesser influence here. Being a full-time student is common among bar passers, so that didn't sway things much either. In essence, the model viewed your consistently low class rankings in Years 1 and 3 as the strongest indicators of bar exam risk, far below what it typically sees in accepted applicants. Compared to those admitted, your profile shows room for growth in core academic deciles that correlate tightly with bar success. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through targeted tutoring or additional undergrad-level work to lift your GPA closer to successful averages. You might also explore bar prep resources early or schools with stronger support for students starting from similar positions. With focused improvements, you can reshape this prediction and strengthen future applications.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 22,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:56.759648",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 57% chance that you would not pass—crossing the threshold we use for admission decisions. This prediction stemmed primarily from your LSAT score, which stood out as the strongest factor pushing the model toward forecasting a bar failure, as it was notably lower than the average of around 37 seen among students who passed. In contrast, your Year 3 school decile ranking played a helpful role, pulling the prediction back toward success since your position in the 4th decile was closer to the typical 6th decile for passers, suggesting solid improvement over time. Your Year 1 decile of 1st, however, worked against you as a secondary influence, reinforcing the model's concerns because it was much lower than the 6th decile average for those who succeeded. While your upper-middle family income aligns well with the majority of bar passers and your choice to study part-time is less common but not a dealbreaker, these didn't outweigh the key academic signals. Compared to admitted students, who typically boast undergraduate GPAs around 3.24 and far higher LSATs, your 2.40 GPA and 25 LSAT score placed you below the profiles that consistently predict bar success. The model weighed your LSAT most heavily, followed by your later-year decile positively and early-year decile negatively, creating an overall risk profile that didn't match successful applicants. This isn't a judgment on your potential or drive—many factors like resilience and study habits aren't captured here—but it explains the data-driven call. To move forward, consider retaking the LSAT to boost that critical score, as even a modest gain could shift your prediction dramatically. Strengthening your recent academic decile through targeted coursework or highlighting any upward trends in your application could also help. Reach out to admissions for feedback on bolstering your profile, and explore prep programs tailored for part-time students aiming for the bar. With focused effort on these areas, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

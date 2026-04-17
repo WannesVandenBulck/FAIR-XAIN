@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:59.710112",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong Year 1 grades, which placed you in the 6th decile at your school—solidly above average—and your plans to attend full-time, just like over 90% of students in the dataset we analyzed. However, the automated system reviewing your application predicts a 65% chance you'll struggle and fail the bar exam on your first try, which is why your admission was rejected; schools use this prediction to prioritize applicants likely to succeed and pass the bar right away. The biggest factor pulling the prediction toward failure was your Year 3 grades, which landed you in the 1st decile—far below the typical 5th or 6th decile for most students—suggesting a significant drop-off that the model sees as a strong warning sign for bar performance. Your undergraduate GPA of 3.0, a bit under the average 3.21, provided some counterbalance by nudging the prediction slightly toward success, showing you have the baseline academic capability. Meanwhile, your LSAT score of 28, well below the average 36.7, reinforced the concerns by pushing the outlook toward failure, as lower scores often correlate with bar challenges in patterns we've seen. Your upper-middle family income background didn't sway things much either way, but it couldn't offset these core academic red flags. Compared to typical students who get approved, your profile stands out for that sharp decline from early strong performance to much weaker later grades, which the model weighed most heavily. This isn't a judgment on your potential as a Hispanic man with clear drive—many in similar situations rebound impressively—but the system flags risks based on historical patterns. To move forward, focus on retaking the LSAT to boost it closer to 35 or higher, and if possible, explain or improve whatever caused that Year 3 dip through additional coursework or a post-bac program. Building a stronger narrative around your resilience, perhaps highlighting community involvement or work ethic from your background, could help in reapplying to schools with holistic reviews. Consider targeting programs that value diversity and offer bar prep support tailored for first-generation or underrepresented students like yourself. With targeted improvements, you can shift this prediction in your favor next time. Keep pushing—you've already shown early promise that proves you're capable.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

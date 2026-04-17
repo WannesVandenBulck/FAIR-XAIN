@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:09.366757",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.50—above the typical 3.21 average—your law school application stood out in some ways, but the admissions model focused on predicting your chances of passing the bar exam on the first try. The model assessed your overall profile and estimated a 69% probability that you would fail the bar exam, which triggered an automatic rejection to minimize the school's risk of admitting students who might struggle post-graduation. The decision hinged most heavily on your academic decile rankings from earlier years in school, particularly your Year 3 performance, where you ranked in the bottom decile (1 out of 10), far below the average of around the 5th or 6th decile. This low Year 3 ranking was the single biggest factor pushing the prediction toward failure, as it signaled to the model a potential lack of sustained academic momentum heading into law school. Your Year 1 decile, also at the bottom (1 out of 10 versus the average 5th or 6th), reinforced this concern as the second-most influential element, suggesting early challenges that carried forward. On a more positive note, your undergraduate GPA provided the strongest counterbalance, pulling the prediction somewhat toward success because it exceeded what the model sees in most applicants. Other aspects, like your low family income bracket and LSAT score of 27.50—well below the typical 36.70—played supporting roles but weren't the top drivers here. Full-time enrollment plans aligned with the vast majority of students (over 90%), so that didn't sway things much either. Compared to typical students who get approved, your profile mirrors many who pass the bar only when early deciles are mid-range or higher, highlighting how those low rankings set you apart in a concerning way. While your stronger undergrad record shows real capability, the model weighed recent school performance as a better bar exam indicator for someone in your circumstances. To move forward, consider retaking courses or programs to boost your decile rankings, aiming for at least average levels, and perhaps retaking the LSAT to close that gap. With targeted improvements in those early academic signals, you could resubmit a stronger application that flips the model's outlook in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

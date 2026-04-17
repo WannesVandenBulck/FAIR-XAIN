@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 377,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:54:35.056049",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model designed to estimate the likelihood of passing the bar exam on the first try, based on patterns from thousands of past students' academic records, family backgrounds, and other details. The model assessed your profile— including your undergraduate GPA of 2.60, upper-middle family income bracket, Year 1 school decile of 7, Year 3 decile of 7, LSAT score of 40, and full-time enrollment status—and predicted a 72% probability that you would fail the bar exam. This high risk of failure is why your application was rejected; law schools use this tool to prioritize admits with stronger predicted odds of bar success. The most influential factor pushing the prediction toward failure was your undergraduate GPA, which is below the typical 3.21 average and signaled to the model a weaker academic foundation compared to students who passed. Next in importance, your upper-middle family income bracket contributed toward the failure prediction, as the model associates certain income levels with outcomes that didn't favor passing in similar cases. Your Year 1 school decile of 7, while above the average of 5.71, still nudged the prediction slightly toward failure rather than strongly countering it. Positively, your LSAT score of 40 exceeds the average of 36.70 and full-time status aligns with the vast majority of students, but these weren't enough to offset the top concerns. Overall, your profile stands out from typical admitted students, who tend to have higher GPAs and combinations of factors that align more consistently with bar passers. This isn't a judgment on your potential or background—it's the model's data-driven read on bar exam risks. To move forward, consider retaking courses or programs to boost your GPA, gaining additional academic credentials like a post-baccalaureate, or targeting schools with holistic reviews that weigh LSAT and personal story more heavily. You might also explore bar prep resources early or apply to programs with strong support for first-generation or underrepresented students like yourself. With targeted improvements, you can reshape how models like this see your future success. Keep pushing—many have turned similar predictions around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 76,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:43.308742",
+  "status": "success",
+  "narrative": "As a Black male applicant with a high family income background and plans to attend full-time, your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your profile— including your undergraduate GPA of 2.80, LSAT score of 35, and school decile rankings from early years—and estimated a 48.2% probability that you would fail the bar exam, which crossed the threshold for rejection. This prediction hinges on just a few key factors from your record that stood out the most to the model. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 1, well below the typical student's average around the 5th or 6th decile, signaling to the model relatively lower performance in that phase compared to peers. Next in importance, your LSAT score of 35 worked in your favor, as it pulled the prediction toward passing since it's close to the dataset average of about 37, showing solid standardized test ability. Your undergraduate GPA of 2.80, lower than the average of 3.21, also nudged things slightly toward failure but with less force than your Year 3 deciles. Overall, these top three elements—dominated by that early low decile—outweighed positives like your high family income and full-time status, which aligns with 93% of students but didn't shift the balance enough. Your situation reflects many applicants from similar racial backgrounds who face steeper hurdles if academic deciles lag, even with supportive family resources. To move forward, consider retaking the LSAT to boost it above average or strengthening your recent grades to improve future decile rankings, as the model weighs these heavily. Gathering stronger letters of recommendation or relevant experience could also help in reapplying to programs with more holistic reviews. With targeted improvements, especially in those decile areas, you could flip this prediction on its head next time. Keep pushing—many students in your position have succeeded by addressing these exact gaps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

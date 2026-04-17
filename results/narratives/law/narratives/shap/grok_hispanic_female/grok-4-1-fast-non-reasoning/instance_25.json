@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 25,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:16.959120",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 46% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.60, LSAT score of 33, Year 1 grade decile of 3, Year 3 decile of 1, middle family income bracket, and full-time enrollment plans. The model weighed these factors against patterns from thousands of past students, focusing on what best forecasts bar success without considering gender or racial background.\n\nThe most influential factor pushing toward a failure prediction was your Year 3 grade decile of 1, which ranks you at the lower end compared to the average of about 6 for those who passed the bar—suggesting a notable dip in performance that the model sees as a strong risk signal. Counterbalancing this, your undergraduate GPA of 3.60 stood out positively, higher than the 3.24 average among bar passers, helping pull the prediction toward success. Your LSAT score of 33 also contributed favorably, though less strongly, as it nudged the odds slightly better than what might drag someone down, relative to the typical 37.27 for successful students.\n\nOverall, your Year 3 decile had the strongest sway toward failure, outweighing the boosts from your solid undergrad grades and LSAT, even with your middle-income background aligning with over a third of bar passers and full-time status matching most admits. Compared to typical accepted students, your profile shows strengths in prior GPA but flags in later law school rankings that tipped the scale. To move forward, consider retaking the LSAT to boost it closer to 37 or higher, strengthening your later-year grades through targeted study or advising, and reapplying next cycle with updated transcripts—many students in similar spots have succeeded by addressing these exact areas.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

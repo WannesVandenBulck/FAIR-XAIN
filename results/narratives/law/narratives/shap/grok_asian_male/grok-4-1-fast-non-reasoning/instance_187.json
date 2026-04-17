@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 187,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:57.102276",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile stands out with a solid upper-middle-class family background, a part-time enrollment plan—which is less common, as only about 7% of students choose that path—and early academic success in your first year, placing you in the top decile of your school. However, your undergraduate GPA of 2.80 sits below the typical 3.21 average, and your Year 3 grades landed you in the second decile, lower than the average fifth decile position. Your LSAT score of 35 is also slightly under the dataset average of 36.7. The admissions model, trained on thousands of similar students' data to predict first-time bar exam success, estimated a 40% chance you'll fail the bar—high enough to trigger an automatic rejection, as the school prioritizes applicants likely to pass on their first try and bolster their own metrics. Among all the factors considered, your LSAT score had the strongest positive sway, pushing the prediction toward expecting you to pass despite other concerns. Next in influence was your Year 3 decile ranking, which notably pulled in the opposite direction, signaling to the model a heightened risk of bar failure based on that mid-pack performance relative to peers. Your family income bracket rounded out the top three influencers, offering some favorable lift by suggesting resources that typically correlate with better outcomes. Compared to typical students who get approved—those with higher GPAs, stronger later-year rankings, and full-time commitments—your combination tipped the scales just enough toward risk, even with your LSAT as a bright spot. This isn't a judgment on your potential as an Asian male from a supportive background; it's the model's data-driven math. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted study or additional coursework, and exploring full-time options if feasible—these could reshape your profile for stronger schools. Many students in similar spots reapply successfully after addressing one or two key areas, so use this as targeted feedback to build a winning application next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

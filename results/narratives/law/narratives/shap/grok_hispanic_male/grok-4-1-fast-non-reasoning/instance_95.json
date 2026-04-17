@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 95,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:48.083248",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.60, an LSAT score of 27, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 based on grades. The admissions model, which predicts first-time bar exam success using patterns from thousands of past students, estimated an 82.9% chance that you would fail the bar exam— a risk level that led to your application's rejection to protect the school's outcomes. This prediction hinges on just a few key aspects of your profile that stood out as the strongest influences. Most critically, your Year 3 school decile ranking of 1—well below the typical student's rank around the middle of their class—pushed the model heavily toward predicting failure, as it signals weaker performance in later academics compared to peers who passed the bar. Your Year 1 decile of 2, also lower than the average around 6th decile, reinforced this concern by showing an early pattern of underperformance relative to others. On a more positive note, your undergraduate GPA of 2.60, though below the dataset average of 3.21, actually nudged the prediction slightly toward success, likely because it demonstrated some resilience despite challenges. These three factors—your Year 3 and Year 1 deciles as the top drivers toward failure, tempered a bit by your undergrad grades—overrode other details like your LSAT or family background in shaping the model's view. Compared to typical students who passed, your decile rankings place you in the lower tail of the distribution, where bar passage rates drop sharply. While full-time status aligns with most successful applicants, it wasn't enough to offset those academic signals. This isn't a judgment on your potential as a Hispanic leader in law or your personal drive—many overcome similar starts. To move forward, consider retaking the LSAT to boost your score toward the average of 37, strengthening your undergrad record through a post-bac program, or targeting schools with holistic reviews that weigh your background more favorably. With targeted improvements, you can reshape this story and reapply stronger.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

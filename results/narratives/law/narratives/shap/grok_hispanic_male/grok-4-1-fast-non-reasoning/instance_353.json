@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 353,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:15.852491",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.60, which stands out above the typical 3.21 average, along with your LSAT score of 28, family from a middle-income bracket, and plans to attend full-time. The admissions model, which predicts whether students like you are likely to pass the bar exam on the first try, estimated a 93% chance that you would fail it. This high predicted risk of failure is why your application was rejected—the school uses this prediction to prioritize applicants most likely to succeed on the bar and graduate successfully. The three biggest factors pushing the model toward this \"fail\" prediction, in order of influence, were your Year 3 school decile ranking of 2, your LSAT score, and your Year 1 school decile ranking of 2. Your lower Year 3 decile, well below the average of around 5.5, had the strongest pull toward failure, signaling to the model that your later academic performance in school didn't keep pace with top performers who typically pass the bar. Similarly, your LSAT score of 28, much lower than the average 36.7, reinforced this concern by suggesting challenges with the standardized reasoning skills key to bar success. Your Year 1 decile of 2, also below the average of about 5.7, added further weight in the same direction, indicating an early pattern of grades placing you outside the upper half of your peers. While your above-average undergrad GPA and full-time status nudged things slightly toward success, they weren't enough to offset these top concerns. Compared to typical students who pass the bar, your school deciles are notably lower, putting you in a riskier group despite your other strengths. To move forward, focus on retaking the LSAT to boost your score closer to or above the average, as that could dramatically shift future predictions. You might also consider programs or tutoring to strengthen your academic decile performance in any ongoing studies. With targeted improvements, especially there, you can reapply stronger and show the model—and schools—your potential as a successful lawyer. Keep pushing; many in similar situations turn it around with persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

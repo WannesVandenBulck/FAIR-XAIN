@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 205,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:52.276817",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong LSAT score of 39, which stands out above the typical 36.7 average, along with your undergraduate GPA of 3.10 and plans to attend full-time, all while coming from a middle-income family background. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 56.7% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction hinges on a few key factors from your academic record that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking of 2, well below the average of about 5.5, signaling to the model that your later undergraduate performance placed you in the lower end compared to peers who typically pass the bar. Countering that somewhat was your LSAT score, which had a notable positive pull toward predicting success, as higher scores like yours often correlate with bar passers. Your undergraduate GPA also nudged things slightly in a favorable direction, though not as strongly, given it's a bit under the 3.21 average. Overall, your lower Year 3 decile outweighed these strengths, tipping the model's view toward risk despite your solid test performance. Compared to typical admitted students, who often have mid-range deciles around 5 or 6 across years, your profile showed more variability that raised flags for bar passage. This isn't a judgment on your potential as a Hispanic student from a middle-income background—many in similar situations succeed with targeted effort. To move forward, consider retaking courses or programs to boost your later academic deciles, perhaps through post-baccalaureate options or targeted GPA improvement, and reapply once you've strengthened that area. Admissions teams value persistence, and addressing this specific gap could shift your prediction dramatically in the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

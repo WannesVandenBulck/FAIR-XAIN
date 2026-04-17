@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:34.896917",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and personal circumstances to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 40, Year 1 school decile of 1st (well below the average 6th), Year 3 decile of 2nd (also below the typical 6th), and plans to attend full-time—and predicted a 40.9% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The three most influential factors in this decision were your LSAT score, your Year 3 academic decile, and your Year 1 academic decile, ranked by their impact on pushing the prediction one way or the other. Your LSAT score of 40, higher than the average of 37, was the strongest positive force—it significantly pulled the prediction toward expecting you to pass the bar, showing the model views this as a key strength in your favor. However, your Year 3 decile of 2nd worked against you, nudging the prediction toward failure because it signals weaker performance relative to peers at that stage. Similarly, your Year 1 decile of 1st contributed toward the failure risk, as being in the bottom decile early on raised concerns about building momentum. Compared to typical students, your LSAT stands out favorably, but your early and mid-undergrad deciles are notably lower than averages, which amplified the model's worries despite your full-time commitment and solid GPA close to the 3.21 norm. While your background as a Black male wasn't a direct driver here, these academic patterns highlight areas where the model saw hurdles similar to those faced by others in comparable situations. To move forward, consider retaking the LSAT to boost it even higher, strengthening your weaker deciles through additional undergrad coursework or a post-bac program, and gathering strong letters of recommendation that address your academic trajectory. Reapplying after addressing these could shift your predicted odds dramatically, opening doors at schools that value persistence like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

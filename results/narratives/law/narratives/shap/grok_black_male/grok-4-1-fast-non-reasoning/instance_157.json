@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 157,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:40:49.254927",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles of past students. The model estimated an 84.8% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's bar passage rates. This decision hinged primarily on your early academic performance in school, where your Year 1 and Year 3 grades placed you in the bottom decile—far below the typical student's middle-of-the-pack standing. These two factors were the most influential in pushing the prediction toward failure, as low early rankings like yours strongly signal challenges in handling the rigorous demands ahead. Your LSAT score of 40, while solid and above the average of around 37, worked in your favor by pulling the prediction somewhat toward passing, showing your potential in standardized legal reasoning. However, it wasn't enough to offset the weight of those early low deciles. Your undergraduate GPA of 3.10 sits just slightly below the average of 3.21, but it played a lesser role here. Planning to attend full-time, like the vast majority of students (over 92%), didn't sway things much either. Compared to typical admitted students, who often have stronger early grades even with similar LSATs or backgrounds, your profile raised red flags about bar success. While factors like your race and gender were part of the broader dataset, the model's focus stayed on these performance indicators. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through community college or targeted prep that addresses early weaknesses. Strengthening your transcript alongside your already competitive LSAT could position you for success at schools with more flexible models or holistic reviews.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

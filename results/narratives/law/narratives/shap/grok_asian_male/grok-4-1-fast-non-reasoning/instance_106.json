@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 106,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:44.553724",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 68.9% probability that you would fail the bar exam, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. The primary reason for this decision centered on your academic performance in school, particularly your lower rankings in earlier years, which stood out as the strongest signals pushing the prediction toward failure. Specifically, your Year 3 decile ranking of 2—well below the typical student's 5.5—had the biggest negative impact, as it suggested challenges in maintaining high performance relative to peers. Your Year 1 decile of 3, also under the average of about 5.7, reinforced this concern by indicating a pattern of below-average standing from the start. On a more positive note, your LSAT score of 37—slightly above the average of 36.7—worked in your favor, pulling the prediction somewhat toward success and showing your potential in standardized testing. While factors like your upper-middle family income and full-time student status align with most applicants, they didn't outweigh the academic red flags here. Compared to typical students who pass, your grades placed you in the lower deciles, where failure rates are historically higher, unlike those in the top half who often succeed. This isn't a judgment on your overall potential, especially given strengths like your LSAT, but the model prioritizes patterns from similar profiles. To move forward, consider retaking courses or programs to boost your decile rankings, as even small improvements there could shift future predictions dramatically. You might also seek targeted LSAT prep to amplify that advantage or explore part-time options if it fits your goals better. Many students in your position have succeeded by addressing these exact gaps—your next application could tell a stronger story with targeted improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

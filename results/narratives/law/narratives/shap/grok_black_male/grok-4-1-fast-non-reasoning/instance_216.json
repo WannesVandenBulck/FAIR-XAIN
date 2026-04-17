@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 216,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:44:30.027199",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 3.00 and LSAT score of 30.50, both below the typical averages of 3.21 and 36.70 seen among past students. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 50.9% chance that you would fail it—crossing the threshold that led to your application's rejection. This prediction was driven primarily by three key factors from your record, ranked by their influence on the outcome. The strongest positive factor in your favor was your Year 3 school decile ranking of 5, which placed you solidly in the middle of your peers and pushed the model's assessment toward expecting you to pass the bar. However, your LSAT score had the most significant negative pull, nudging the prediction toward failure because it fell well short of what the model associates with strong bar exam success. Your undergraduate GPA followed closely as another key drag, similarly contributing to the higher failure risk due to being lower than average. While your Year 3 performance helped balance things somewhat, the LSAT and GPA outweighed it, tipping the overall decision against admission. Compared to typical students who pass the bar, your scores align more with those who struggle on the first attempt, even as a full-time student like most in the dataset. This isn't a judgment on your potential as a Black man from a supportive background—it's the model highlighting areas where your academics signal risk. To move forward, focus on retaking the LSAT to boost it above 36, strengthening your GPA through additional coursework or a post-bac program, and gathering strong letters emphasizing your Year 3 improvement. Reapplying after addressing these could shift your predicted odds dramatically in your favor. Many students in similar situations have succeeded by targeting these exact improvements.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

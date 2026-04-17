@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 243,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:20.786859",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 22.50, low family income bracket, and your grades placing you in the lowest decile for both your first and third years of school, along with your plan to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated an 82% chance that you would fail it. This high predicted risk of failure is why your application was rejected—the school uses this model to prioritize applicants likely to succeed on the bar and graduate successfully. The decision hinged most on three key factors from your profile, ranked by their influence on this outcome. First and foremost, your third-year school decile rank stood out as the strongest driver pushing the prediction toward failure, as being in the bottom decile signals lower academic performance compared to peers. Second, your LSAT score had a major push in the same direction, well below the typical 36.70 average, which the model sees as a critical hurdle for bar success. Third, your undergraduate GPA actually worked slightly in your favor, pulling the prediction a bit toward passing since your 2.70 is not far off the average of 3.21, offering some counterbalance. Compared to typical students in the dataset—who often have mid-range deciles around 5.5, higher test scores, and stronger overall academics—your profile aligns more closely with those who struggled on the bar, especially given the low decile ranks and LSAT. Your full-time status is common (over 90% of students), so it didn't sway things much, nor did your family background directly. To move forward, focus on retaking the LSAT to boost it significantly above average, strengthening your recent grades to climb those school deciles, and perhaps seeking GPA-improvement strategies like targeted tutoring. Building a stronger academic track record could shift future predictions in your favor for other schools. Keep pushing—you've got resilience as a first-generation or low-income Hispanic applicant, and many overcome similar starts with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 110,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:04:41.764505",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your solid LSAT score and middle-income family situation—paint a picture of determination against real-life challenges, but the admissions model focused on predicting your odds of passing the bar exam on the first try. The model assessed your profile and estimated a 44.9% chance that you would fail the bar exam initially, which crossed the threshold for rejection to minimize the risk of students struggling post-graduation. This prediction hinged on just a few key factors from your academic record, with your LSAT score standing out as the strongest positive influence, as it pushed the model's thinking toward you likely passing since your score of 39 is above the typical 36.7 average. However, your Year 3 school decile ranking of 2—well below the average of about 5.5—had the next biggest impact, signaling to the model a notable dip in performance that tilted the prediction toward failure risk. Your undergraduate GPA of 2.4, lower than the average 3.21, added further concern by reinforcing that pattern and nudging the odds higher for not passing on the first attempt. Compared to typical students, where full-time enrollment is the norm at over 90%, your choice aligns with the majority, so it didn't sway things much either way. These top three elements—your stronger LSAT offsetting but not fully countering the weaker later grades and undergrad performance—ultimately drove the decision to reject your application. It's tough to hear, especially knowing the barriers many Hispanic students like yourself face in climbing academic deciles. To turn this around, consider retaking the LSAT if possible to build on your strength there, or focus on boosting your GPA through post-bac courses or targeted improvement in upper-level work. Many students in similar spots have succeeded by addressing these exact gaps—reach out to advisors for bar prep resources tailored to first-generation or underrepresented applicants. Your full-time commitment shows you're ready to dive in, so use this feedback as a roadmap. With intentional steps, you can reshape your profile for the next cycle and prove the model wrong.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

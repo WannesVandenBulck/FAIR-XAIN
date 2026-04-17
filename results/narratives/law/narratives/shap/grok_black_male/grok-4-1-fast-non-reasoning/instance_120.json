@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 120,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:30.555144",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid Year 1 decile ranking of 6th—slightly above the typical student's 5.71 average—but a lower Year 3 decile of 4th compared to the average of 5.53. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 61% chance that you would fail the bar on your first attempt, which crossed the threshold for rejecting your application to protect the school's outcomes. This prediction hinged most strongly on three key factors from your record: your LSAT score, undergraduate GPA, and Year 1 decile performance. Your LSAT score of 32, well below the dataset average of 36.7, was the biggest driver pushing the model toward predicting failure, as lower scores like yours have historically correlated with bar struggles in similar students. Next, your undergrad GPA of 2.7—under the typical 3.21 average—reinforced that concern, signaling to the model a potential gap in foundational academic strength compared to peers who passed the bar. On a brighter note, your Year 1 decile of 6 provided the strongest counterbalance, nudging the prediction toward success because it shows early promise that has helped others like you overcome hurdles. While your full-time status aligns with most students (over 92% in the data), it didn't sway the overall decision much here. In essence, the model saw your test scores and early college grades as outweighing your initial high school momentum, placing you below the profile of typical bar passers. This isn't a judgment on your potential as a Black man from a supportive background—many in similar situations have succeeded with targeted improvements. To move forward, consider retaking the LSAT to boost it closer to or above 36.7, strengthening your undergrad record through post-bac courses if possible, and highlighting any recent achievements that build on your strong Year 1 performance. Reapplying after addressing these could shift your predicted odds significantly, opening doors at schools that value resilience like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

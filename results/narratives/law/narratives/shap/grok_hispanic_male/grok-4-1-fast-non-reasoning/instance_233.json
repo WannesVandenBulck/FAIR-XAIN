@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 233,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:12:43.853973",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.30, an LSAT score of 25, middle-family income background, and school decile rankings of 4th in both your first and third years, along with planning to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 54% chance that you would fail it—tipping just over the threshold that led to your application's rejection. This prediction stems from weighing various aspects of your academic record and background against patterns seen in thousands of past students. The most influential factor pushing toward this failure prediction was your LSAT score, which is notably lower than the average of around 37 seen in the dataset, signaling to the model a higher risk despite other strengths. Next in importance, your undergraduate GPA actually worked in your favor, as your 3.30 exceeds the typical 3.21 average and pulled the prediction toward expecting bar exam success. Your third-year school decile ranking of 4th also helped somewhat, nudging things positively compared to broader trends, though not enough to offset the top concern. While your middle-income family status and full-time plans align with the majority of students (over 90% go full-time), they played smaller roles here. Overall, your profile shows solid undergraduate performance above average in GPA, but the LSAT stood out as the dominant hurdle when compared to students who typically pass the bar. This isn't a judgment on your potential as a Hispanic leader in law—many with similar backgrounds succeed with targeted improvements. To move forward, consider retaking the LSAT to boost your score closer to or above the average, as that single change could dramatically shift future predictions. Strengthening your application with recent academic achievements or bar prep experience might also help. Reach out to admissions advisors for personalized feedback, and keep pursuing your goals—law schools value resilience, and this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+================================================================================
+NARRATIVE: LAW | Instance 1 | SHAP
+================================================================================
+Provider: grok
+Model: grok-4-1-fast-non-reasoning
+Status: success
+Timestamp: 2026-04-17T13:57:05.650988
+
+--------------------------------------------------------------------------------
+NARRATIVE:
+--------------------------------------------------------------------------------
+Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 99.2% probability that you would not pass the bar on your first attempt. This high risk of failure directly led to the rejection, as the university prioritizes admitting students with strong predicted odds of bar passage to maintain high success rates. The model's decision for you hinged most strongly on your Year 3 school decile ranking of 2, which placed you in the bottom tenth of your peers and significantly pushed the prediction toward failure compared to the typical student's middle-of-the-pack standing around the 5th or 6th decile. Next in influence was your Year 1 decile of 2, again well below the average of about the 6th decile, reinforcing the model's concern over your early academic performance relative to others. Your upper-middle family income also played a supporting role in tipping the scales toward this outcome, as it stood out as less advantageous than what the model sees in many successful applicants. While your LSAT score of 34 and undergraduate GPA of 2.90 were somewhat below the dataset averages of 36.7 and 3.21 respectively, and you're planning full-time enrollment like over 90% of students, these factors had less sway than your decile rankings. As a Hispanic woman navigating these academic metrics, your profile signals to the model a challenging path ahead, even with your solid background. To move forward, consider retaking the LSAT to boost your score closer to or above the average, strengthening your undergraduate record through additional coursework or a post-bac program, and targeting schools where your full-time commitment and personal resilience can shine in a holistic review. Building a stronger narrative around your Year 1 and Year 3 performances, perhaps with explanations or upward trends, could also help in reapplying. Exploring part-time options or bridge programs might offer a lower-pressure entry while you address these gaps. Ultimately, many students in similar positions improve their profiles and succeed—focusing on these targeted steps will position you better for future opportunities.
+
+================================================================================

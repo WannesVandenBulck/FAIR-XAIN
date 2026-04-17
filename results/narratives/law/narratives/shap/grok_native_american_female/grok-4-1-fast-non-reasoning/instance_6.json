@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:05.672332",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 99.2% chance that you would not pass—far too high a risk for admission. This prediction stems from a close look at key aspects of your academic record and background, compared to patterns among students who successfully passed the bar. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 2, which ranks you quite low in your school and stands well below the average of around 6 for those who passed, signaling to the model a potential struggle with sustained performance. Next in importance was your Year 1 grade decile, also at 2 versus the typical 6 for passers, reinforcing concerns about your early academic foundation in a rigorous environment. Your upper-middle family income bracket played a smaller but still notable role, as it didn't align as strongly with the profiles of bar passers, where this level is common but often paired with stronger academics. While your LSAT score of 34 and undergraduate GPA of 2.90 are below the averages of 37 and 3.24 for those who passed, and your choice of full-time study is typical, they weren't the primary drivers here. Overall, your profile contrasts sharply with admitted students, who generally show higher decile rankings in both early and later years, helping the model confidently predict their success. These academic deciles were the top signals of risk, outweighing other positives like your full-time commitment. It's understandable to feel disappointed, especially given your background and dedication to pursuing law full-time. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, and focus on strategies to improve your class rankings, perhaps through tutoring or additional coursework. Building a stronger undergraduate-like GPA trajectory in any further studies could also help recalibrate future predictions. Many students in similar positions have succeeded by addressing these core academic areas—reapplying after targeted improvements often leads to better outcomes. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

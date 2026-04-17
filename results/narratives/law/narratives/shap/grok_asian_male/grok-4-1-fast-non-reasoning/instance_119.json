@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 119,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:32:35.414026",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a full-time study plan, low family income bracket, an undergraduate GPA of 3.00—which is a bit below the typical 3.21 average—and an LSAT score of 26.50, well under the usual 36.70 mark. Your Year 1 school decile ranking of 1.00 places you in the bottom tenth compared to the average of 5.71, and your Year 3 decile is also 1.00 against an average of 5.53. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 66.6% chance you'll fail the bar on your first try—high enough that it tipped the decision to reject your application, as schools prioritize applicants likely to pass and succeed professionally. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, signaling to the model that your later academic performance in school was weaker than what typically leads to bar success. Next in importance, your undergraduate GPA worked in your favor, pulling the prediction somewhat toward passing because, despite being slightly below average, it showed enough promise to offset other concerns. Your Year 1 decile ranking also contributed toward the failure outlook, though less strongly, as starting in the bottom decile often correlates with challenges in high-stakes exams like the bar. Compared to typical students who pass, your consistently low decile rankings stand out as bigger hurdles than for most, while full-time status aligns with the 92.7% norm and didn't sway things much. This isn't a judgment on your potential as an Asian male from a modest background—many overcome similar starts—but the model weighs these academic signals heavily from historical data. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your grades in any ongoing studies to improve decile rankings, or exploring programs with bar passage support tailored for full-time students like you. Building a stronger academic track record could shift future predictions in your favor. Keep pushing; targeted prep often turns these profiles around for determined applicants.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

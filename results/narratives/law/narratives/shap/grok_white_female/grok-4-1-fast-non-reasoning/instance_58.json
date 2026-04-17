@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:10.846277",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51% chance that you would not pass—tipping just over the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The main driver pushing the model toward this concerning prediction was your LSAT score of 23, which stood out as a strong signal of potential struggle compared to the average of 37 among those who passed the bar—making it the most influential factor in forecasting failure. On a more positive note, your lower-middle family income bracket worked in your favor, as the model saw this as less of a hindrance than lower incomes might be for others, pulling the prediction somewhat toward success. Similarly, your Year 1 grade decile of 4 provided a helpful counterbalance, suggesting early academic potential that nudged the outlook better than it might have otherwise. These top three elements—your LSAT as the biggest concern, offset by family income and initial grades—shaped the overall decision more than other details like your undergraduate GPA of 2.6 or part-time status. For context, students who typically get admitted show stronger alignments here, like LSATs well above 37 and mostly full-time enrollment, with over 93% of bar passers in that group. Your profile, while showing some promise in early school performance, didn't quite match those benchmarks that reliably predict bar success. This isn't a judgment on your potential or effort—it's just the model's data-driven read. To move forward, consider retaking the LSAT to boost that score, as even a modest improvement could shift your predicted odds dramatically. Strengthening your academic decile through targeted prep or exploring full-time options might also help realign your profile with successful applicants. We encourage reapplying after addressing these areas, and resources like LSAT prep courses or academic advising are great next steps to build your case.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

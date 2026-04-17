@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 358,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:20:36.647795",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.70, which stands out well above the typical 3.21 average, along with an LSAT score of 33, a middle-class family income background, and plans to attend part-time while likely working. Your Year 1 school grades placed you in the 2nd decile, while your Year 3 grades were in the 1st decile, reflecting some challenges in maintaining top performance later on. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 57.5% chance that you would fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes candidates predicted to pass on the first try. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking, as being in the bottom group signaled to the model a higher risk of struggling on the bar, unlike many applicants who rank higher. Counterbalancing that somewhat was your undergraduate GPA, which strongly pulled the prediction in the favorable direction toward passing, given how it exceeds the norm and suggests solid academic foundation. Your LSAT score also helped nudge things positively, though less powerfully, as it was solid but below the average of 36.7 seen in stronger bar-passing profiles. Compared to typical students, your part-time status is uncommon—only about 7% opt for it versus 93% full-time—which may have played a subtle role, but the model weighed your later grades most heavily overall. This isn't a judgment on your potential as a Hispanic man with clear drive; it's the model highlighting patterns from past students where low Year 3 deciles often correlated with bar failures. To move forward, consider retaking courses or programs to boost your recent decile rankings, perhaps aiming for full-time study if feasible, and reapplying with updated transcripts that demonstrate upward trends. Many students in similar situations have succeeded by addressing these exact gaps, and law schools value persistence. Your above-average UGPA is a great asset to build on—focus there for your next steps. With targeted improvements, you can shift the model's view and strengthen your case.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

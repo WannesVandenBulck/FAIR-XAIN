@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 198,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:21.605860",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 26.50, middle-family income background, part-time enrollment plans, and school decile rankings of 6th in your first year but only 1st in your third year. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 56% chance that you would fail it on your first try—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to succeed on that critical test. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most to the model. The strongest factor pushing toward a failure prediction was your third-year school decile ranking, which placed you at the bottom of your class—far below the typical student's middle-of-the-pack average—and signaled a potential struggle with the rigorous demands ahead. In contrast, your stronger first-year decile of 6th, slightly above average, worked in your favor by nudging the prediction toward success and showing early promise. Your LSAT score also pulled against you, as its lower-than-average level compared to the dataset's typical 36.70 reinforced concerns about bar exam readiness. While factors like your part-time plans or family income played roles, these top three—especially that sharp drop in later-year performance—were the decisive influences tipping the scales. Many admitted students maintain steadier or higher deciles throughout, along with stronger LSATs, which is why your profile compared less favorably overall. It's understandable to feel disappointed, especially given your solid start and personal circumstances. To strengthen future applications, focus on boosting your LSAT through targeted prep, explaining your third-year dip with any extenuating context like work demands, and highlighting part-time success stories if available. Retaking the LSAT or pursuing post-bac courses to lift your GPA could shift your predicted odds dramatically. You're clearly motivated—use this feedback as a roadmap to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

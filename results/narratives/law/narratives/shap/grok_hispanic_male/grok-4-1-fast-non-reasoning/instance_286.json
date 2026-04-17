@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 286,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:16:05.485713",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid foundation with your undergraduate GPA of 3.40, which stands above the typical 3.21 average, and an LSAT score of 36, close to the usual 36.70 mark seen among applicants. Your family comes from an upper-middle income bracket, and you're planning to attend full-time, which is the norm for over 92% of students in this dataset. However, the admissions model, trained on past students' paths to the bar exam, predicted a 41.3% chance that you would fail it on your first try—high enough to tip the scales toward rejecting your application, as the school prioritizes those likely to pass and succeed. This prediction hinges on just a few key factors from your profile, ranked by their influence on the outcome. The most impactful was your Year 3 school decile ranking of 4, well below the average 5.53; this lower performance pushed the model strongly toward forecasting bar exam failure, signaling potential challenges in sustaining academic momentum. Counterbalancing that, your undergraduate GPA had the second-strongest influence, pulling the prediction toward success because it's above average and shows you can handle rigorous coursework. Your LSAT score followed closely, also nudging things positively due to its solid standing near the typical level. Compared to other students, your grades dipped more noticeably in later years than most, which outweighed your earlier strengths despite your demographic background not factoring heavily here. While this rejection stings, it doesn't define your potential—many in similar situations rebound strongly. To move forward, consider retaking the LSAT for a boost or strengthening your recent academic record through additional coursework or a post-bac program to better align with top performers. Reach out to admissions advisors for feedback, and explore schools with holistic reviews that might value your full story more. With targeted improvements, you can reshape this narrative and ace the bar on your first go. Keep pushing; your upper-middle background and full-time commitment give you a strong base to build on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

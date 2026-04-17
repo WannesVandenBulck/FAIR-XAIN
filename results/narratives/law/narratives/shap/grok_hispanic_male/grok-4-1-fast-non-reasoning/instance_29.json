@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 29,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:37.313260",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your profile includes a solid undergraduate GPA of 3.30, which is slightly above the typical 3.21 average, along with Year 1 grades placing you in the top decile of your school and Year 3 grades in the 4th decile—respectable but not at the very top. Your family falls into the middle income bracket, you're planning to attend part-time (uncommon, as only about 7% of students do), and your LSAT score is 24, well below the average of around 37. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 51% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as schools prioritize those likely to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your LSAT score, as lower scores like yours have historically correlated strongly with bar struggles in the data. On a more positive note, your undergraduate GPA played a significant role in countering that, pulling the prediction toward success because it's above average and signals strong academic potential. Similarly, your Year 3 decile rank helped nudge things in a favorable direction, showing solid performance relative to peers despite not being in the highest tier. Compared to typical admitted students, who often have higher LSATs and full-time status, your part-time plans and lower test score stood out as riskier, even with your GPA strengths. This isn't a judgment on your abilities or background—many from similar Hispanic and middle-income families succeed with targeted prep—but the model weighs these predictors heavily to minimize bar failure rates. To move forward, consider retaking the LSAT to boost it closer to average levels, as that single change could flip predictions for many schools. Strengthening recent grades or gaining full-time study commitment might also help. Reach out to admissions advisors for feedback, and explore prep courses tailored for part-time students from diverse backgrounds—they've turned around profiles like yours before. With persistence, you can reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:02.877245",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.40, which stands out above the typical 3.21 average, along with a solid LSAT score of 36 and plans to attend full-time. Your family comes from a lower-middle income background, and while your early high school grades placed you in the 2nd decile, your 3rd-year high school performance ranked even lower in the 1st decile compared to school peers. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 51.8% chance that you would fail it on your first try—tipping just over the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your 3rd-year high school decile ranking, which signaled to the model a potential weakness in sustaining academic performance over time, especially since it was well below the average 5th decile for others. Your LSAT score, while respectable, worked in your favor by pulling the prediction toward success, as it aligned closely with the typical 36.7 average and showed your aptitude for legal reasoning. Similarly, your undergraduate GPA provided a strong counterbalance, nudging the model toward expecting you to pass because it exceeded the norm and demonstrated college-level capability. Overall, your high school record in later years outweighed these positives, placing your profile among those the model sees as higher-risk compared to typical admitted students who maintain stronger consistent rankings. This doesn't reflect your full potential or personal drive, but rather how these patterns correlated with bar outcomes in past data. To move forward, consider retaking the LSAT to boost it further or gathering letters highlighting your resilience and growth since high school. Strengthening your narrative around overcoming early academic hurdles, perhaps through community involvement or work experience relevant to your Hispanic heritage, could also help in reapplying. Many students in similar situations improve their profiles and succeed—focus on targeted prep for the bar early, and explore schools with holistic reviews that value your unique background. Your path to law isn't closed; it's just asking for a bit more polish.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

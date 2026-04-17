@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 139,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:06:33.108181",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 34, and your school decile rankings from Year 1 and Year 3, along with your upper-middle family income and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 66.3% chance that you would fail it—high enough to lead to the rejection of your application, as the school prioritizes candidates with stronger predicted odds of bar success. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's 5.53 average and signaled to the model a significant dip in later academic performance. This stood out as the top driver, far outweighing other elements in its impact. In contrast, your Year 1 decile of 5, close to the average of 5.71, worked in your favor by suggesting a solid start that pulled the prediction somewhat toward passing. Your LSAT score of 34, below the dataset average of 36.7, also helped by nudging the odds slightly toward success, even if not by a lot. Compared to typical students who pass the bar, your profile shows promise in early performance and test-taking but is held back by that later decile drop, which the model sees as a key warning sign. While your full-time status aligns with most applicants and your family background is solid, these didn't sway the top factors enough. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar hurdles—but the model focuses on patterns from past bar-takers. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted courses or tutoring, and reapplying with updated transcripts that show upward momentum. You might also seek programs with holistic reviews or bar prep support tailored for diverse students like yourself. With focused improvements, your next application could tell a stronger story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

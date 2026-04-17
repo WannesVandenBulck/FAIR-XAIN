@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 77,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:29:59.321089",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.40, LSAT score of 31, Year 1 grade decile of 3, Year 3 decile of 2, middle family income bracket, and full-time student status—and predicted a 45.2% chance that you would fail the bar exam on your first attempt. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students likely to pass the bar and succeed in their legal careers. Among all the factors considered, your undergraduate GPA stood out as the most influential positive force, strongly pushing the prediction toward expecting you to pass because it's above the typical 3.21 average, signaling solid academic foundation. Next in importance was your Year 3 grade decile of 2, which had a notable negative pull by increasing the failure risk compared to the average decile of 5.53, suggesting a dip in performance that raised concerns about consistency heading into law school. Your LSAT score of 31, while not the top driver, also worked in your favor by nudging the odds toward passing, even though it's below the dataset average of 36.70. Overall, these top three elements—your strong undergrad GPA counterbalanced by weaker later high school rankings and a modest LSAT—tipped the scales toward caution, especially when compared to typical admitted students who show steadier upward trajectories. Your full-time status aligns with the vast majority (over 92%) of students in the data, so it didn't sway things much either way. While your middle-income background is common, the model weighed your academic inconsistencies more heavily. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your high school senior-year performance through additional coursework or explanations in a reapplications essay, and highlighting any upward trends or extenuating circumstances from Year 3. Many students in similar positions improve their profiles and gain admission elsewhere—persistence and targeted prep can shift your predicted odds dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

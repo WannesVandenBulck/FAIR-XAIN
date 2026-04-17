@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 295,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:37.029520",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.60, LSAT score of 27, middle family income bracket, full-time student status, and notably low Year 1 and Year 3 school decile rankings of 1—and predicted an 84.9% chance that you would fail the bar exam on your first attempt. This high predicted failure risk directly led to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The three most influential factors in this decision were your Year 3 school decile ranking, your Year 1 school decile ranking, and your undergraduate GPA. Your Year 3 decile of 1, well below the typical student's average of around 5.5, had the strongest pull toward predicting failure, signaling to the model that your later undergraduate performance placed you in the bottom tier compared to peers. Similarly, your Year 1 decile of 1, also far under the average of about 5.7, reinforced this concern by highlighting early struggles that often correlate with bar exam challenges. On a more positive note, your undergraduate GPA of 3.60—higher than the typical 3.21 average—pushed the prediction somewhat toward success, showing strength in your overall college record. While your LSAT score of 27 is notably below the average of 36.7, and your middle income and full-time status align with most applicants, they played smaller roles here. Compared to typical students who pass the bar, your low decile rankings stand out as red flags, as higher performers in school rankings usually drive better bar outcomes. This doesn't define your potential, but it explains the model's cautious stance. To move forward, consider retaking the LSAT to boost your score, seeking academic advising to improve your standing in any ongoing programs, and gathering strong letters of recommendation that highlight your resilience as an Asian male navigating competitive paths. You might also explore post-baccalaureate courses or bar prep programs to build a stronger profile for reapplication next cycle. With targeted improvements, you can shift the odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

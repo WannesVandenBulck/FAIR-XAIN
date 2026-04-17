@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 4,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:00.912900",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.20—right around the typical 3.21 average—and a strong LSAT score of 37, slightly above the usual 36.70, you've put together a competitive profile in many ways, including your middle-income family background. However, the university's admission model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 64% chance that you would fail the bar exam. This high predicted risk led directly to the rejection of your application, as the school prioritizes admitting those predicted to pass on their first try. The model's decision hinged most strongly on three key factors from your profile, ranked by their influence. The biggest push toward the failure prediction was your plan to attend part-time, which is uncommon—only about 7% of students do so—and the model sees it as a major risk factor that often correlates with bar struggles in past data. Next, your Year 3 school decile ranking of 7, which is stronger than the average 5.53, worked in your favor by pulling the prediction toward success, showing your later academic improvement stood out positively. Finally, your Year 1 decile of 4, below the typical 5.71, contributed toward the failure side by highlighting an early weaker performance that the model weighed against you. Compared to typical students, your part-time status deviated most sharply from the norm of full-time enrollment, amplifying its impact, while your LSAT and GPA aligned closely with averages but couldn't offset the top concerns. This isn't a judgment on your potential as a Black man pursuing law—many with similar backgrounds succeed—but a data-driven call based on these patterns. To move forward, consider reapplying with a full-time plan if possible, as that alone could flip the model's view dramatically, or boost early-grade equivalents through additional coursework or test prep to strengthen your decile profile. You might also explore schools with more flexible models or appeal by sharing a detailed bar prep strategy tailored to part-time demands. Keep pushing; your upward trajectory in later years suggests you're capable of beating these odds with the right adjustments.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

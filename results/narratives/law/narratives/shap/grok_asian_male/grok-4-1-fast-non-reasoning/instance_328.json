@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 328,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:45:45.110410",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, predicting the likelihood of passing on the first try. The model assessed your profile— including your undergraduate GPA of 3.50, LSAT score of 34, Year 1 school decile of 3, Year 3 decile of 1, and plan to attend full-time—and estimated a 42% probability that you would fail the bar exam. This elevated risk threshold led to the rejection of your application, as the school prioritizes admitting students predicted to pass with high confidence. The most influential factor pushing the prediction toward failure was your Year 3 academic decile ranking of 1, which is notably lower than the typical student's 5.53 average and signaled a significant dip in performance relative to peers. Counterbalancing this, your undergraduate GPA of 3.50—stronger than the average of 3.21—had the strongest positive influence, steering the model toward expecting bar exam success. Your LSAT score of 34, while below the dataset average of 36.70, also contributed positively by suggesting solid foundational skills, though not as powerfully as your GPA. Compared to typical students, your early-year decile of 3 (versus an average of 5.71) was concerning but overshadowed by the later decline, which weighed heaviest in the model's eyes. Your full-time enrollment plan aligns with the vast majority (over 92%) of students in the data, so it didn't sway the outcome much. While factors like your family income provided some stability, they weren't decisive here. This decision reflects patterns seen in similar profiles where late academic struggles correlate with bar challenges, even for driven applicants like you. To move forward, consider retaking the LSAT to boost it above average, strengthening your later-year grades through targeted prep or additional coursework, and reapplying next cycle with evidence of improvement—these steps could flip the model's prediction in your favor. Many students in your position have succeeded by addressing such gaps head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 197,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:21.620963",
+  "status": "success",
+  "narrative": "As a Black male applicant with a lower-middle family income background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and personal circumstances to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.70, LSAT score of 20, Year 1 and Year 3 school deciles both at 3rd (well below the typical 5th or 6th decile), full-time student status, and family income—and predicted a 46% chance that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected; law schools use this prediction to prioritize admits likely to succeed and pass the bar promptly. The three most influential factors in this decision were your LSAT score, undergraduate GPA, and family income. Your LSAT score had the strongest pull toward the failure prediction, as it stands notably low compared to the average of 36.7, signaling to the model a higher risk despite your full-time commitment. On a more positive note, your undergraduate GPA pushed back against failure more than any other factor, performing better than the model expected relative to similar students and offering a counterbalance. Your lower-middle family income also nudged the prediction toward success, likely because the model sees resilience in students from similar backgrounds who often outperform expectations. Compared to typical students, your early-year deciles align with lower performers, but your GPA provides a brighter spot that the model weighed favorably. While these elements tipped the scales to rejection, it's not a definitive judgment on your potential—many in your position, including Black males from modest incomes, have strengthened their profiles and succeeded. To move forward, consider retaking the LSAT to boost that key score, building on your solid GPA foundation through targeted prep or additional undergrad-level coursework, and gathering strong recommendation letters highlighting your determination. Reapplying after addressing the LSAT gap could shift your predicted odds significantly, opening doors at schools that value persistence like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

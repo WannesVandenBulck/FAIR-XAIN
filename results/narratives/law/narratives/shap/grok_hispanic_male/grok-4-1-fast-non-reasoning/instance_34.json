@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:54.708778",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with your undergraduate GPA of 3.30, which sits above the typical 3.21 average, and an LSAT score of 40 that exceeds the usual 36.70 mark, alongside strong Year 1 and Year 3 school decile rankings of 7—both better than the averages of about 5.7 and 5.5. Your upper-middle family income also reflects a supportive background. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 43% chance you'll fail the bar on your first attempt—a risk level that tipped the decision to reject your application, as they prioritize applicants likely to pass and succeed in practice. The most influential factor pushing toward this failure prediction was your plan to attend part-time, which is uncommon—only about 7% of students do so compared to 93% full-time—and the model sees it as the biggest hurdle, likely associating it with divided focus or slower progress that has tripped up others. On a brighter note, your Year 3 decile ranking played a strong positive role, pulling the prediction toward success by showing consistent high performance relative to peers. Similarly, your undergraduate GPA contributed favorably, signaling the academic strength that helps many pass the bar. Compared to typical students, your metrics are competitive or better in most areas, but the part-time choice stood out as the dominant concern, outweighing those strengths for this model's risk-averse lens. This doesn't define your potential—many in similar situations, including Hispanic students balancing commitments, have thrived by adjusting paths. To move forward, consider reapplying with a full-time plan if feasible, or strengthen your profile by retaking the LSAT for an even higher score or gaining relevant experience like internships. You could also target schools with more flexible programs for part-timers or appeal by sharing a personal statement on how you'll manage your schedule effectively. Keep pushing; your background positions you well for another shot at this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

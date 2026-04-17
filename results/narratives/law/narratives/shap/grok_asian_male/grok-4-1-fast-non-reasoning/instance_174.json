@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 174,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:05.101217",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like yours. The model estimated a 56% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting students likely to succeed and avoid high-risk profiles. The primary reason for this decision traces back to your Year 3 school decile ranking of 1st, which stood out as the strongest factor pushing the prediction toward failure—far below the typical student's 5.5 average, signaling weaker performance in later undergraduate years when compared to peers. This low ranking carried the most weight because it suggests challenges in sustaining academic momentum, a key indicator for bar success in the model's view. In contrast, your Year 1 decile of 4th provided some counterbalance, pulling the prediction slightly toward passing since it was closer to the average of about 5.7, showing an earlier solid start. Your lower-middle family income bracket also nudged things positively, as it aligned with patterns where students from similar backgrounds sometimes outperform expectations. Other elements, like your LSAT score of 30 (below the 36.7 average), undergraduate GPA of 2.9 (under the 3.21 norm), and full-time student status—which is common for 93% of applicants—played supporting roles but weren't the top drivers. Overall, your profile compares to typical students by having a promising early trajectory that faded, unlike many who maintain or improve through Year 3. While this rejection stings, especially with your background, it highlights a clear area for growth in late-stage academics. To move forward, consider retaking courses or targeted prep to boost your later decile rankings, perhaps through a post-bac program, and aim to retake the LSAT for a stronger score. Building a narrative of resilience in reapplications, maybe with letters explaining your Year 3 dip, could also help sway admissions committees using similar models. With focused effort, you can shift this prediction in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

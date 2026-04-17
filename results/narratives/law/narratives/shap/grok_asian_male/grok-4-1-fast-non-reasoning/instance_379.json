@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 379,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:05.375744",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and personal circumstances to forecast first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.30, LSAT score of 33.50, middle family income bracket, part-time enrollment status, and school decile rankings of 5th in Year 1 and 4th in Year 3—and predicted a 55.9% probability that you would fail the bar exam on your first attempt. This elevated risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The most influential factor pushing the prediction toward failure was your choice of part-time enrollment, which is uncommon (only about 7% of students opt for it) and historically correlates with lower bar passage odds in the model's analysis of past students. On a more positive note, your LSAT score, while below the average of 36.70, still worked in your favor by nudging the prediction toward success compared to lower-scoring peers. Similarly, your undergraduate GPA of 3.30 exceeded the typical 3.21 average, providing another helpful boost that suggested stronger potential than many applicants. These top three elements—part-time status as the strongest driver toward failure, followed by your LSAT and GPA pulling toward passing—together tipped the scales to that concerning 55.9% failure probability. Compared to typical students who get approved, your part-time choice stands out as a bigger hurdle, while your GPA gives you an edge over the average. To move forward, consider reapplying as a full-time student, as that could significantly lower your predicted risk, or retake the LSAT to push your score closer to or above the 36.70 average. Building a stronger narrative around your part-time rationale—perhaps tying it to unique strengths like work experience—might also help in appeals or future applications. With targeted improvements, your solid GPA positions you well to shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

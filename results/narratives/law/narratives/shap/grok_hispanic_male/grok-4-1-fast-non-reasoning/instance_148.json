@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 148,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:07:11.728553",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes part-time enrollment plans, a middle-income family, an undergraduate GPA of 2.90—which is below the typical 3.21 average—and an LSAT score of 27, notably lower than the average of 36.70. Your Year 1 school decile ranking of 3 also sits below the average of about 5.7, while your Year 3 decile of 1 is well under the typical 5.5. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 58% chance you'll fail the bar—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass on their first try. This decision hinged on just a few key factors from your profile, with your Year 3 academic decile ranking standing out as the strongest driver, pushing the prediction firmly toward failure because it signals weaker performance relative to peers. Your undergraduate GPA played a notable counterbalancing role, nudging the odds slightly toward passing since it showed some solid foundation despite being below average. Being in the part-time track, which only about 7% of students choose versus over 90% full-time, added a smaller but negative pull toward the failure prediction, as the model associates it with higher risk. Compared to typical students who pass the bar, your lower Year 3 decile and part-time status deviated most sharply from their stronger, full-time profiles. While these elements tipped the scale against you this time, your GPA's positive influence shows real potential in your academic history. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your later-year grades through additional coursework, or exploring full-time options if feasible. Many applicants in similar situations, including Hispanic men from middle-income backgrounds, succeed by addressing these gaps and reapplying—persistence often pays off. You might also seek feedback from admissions counselors or bar prep programs tailored to part-time students to build a stronger case next round. With targeted improvements, your profile could align much better with successful bar passers.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

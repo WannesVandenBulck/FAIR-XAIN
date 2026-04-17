@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 92,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:51:12.227522",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 55.5% chance that you would not pass the bar exam on your first try, which is above the threshold we use to ensure we admit students likely to succeed. This prediction draws from patterns in data about past students' academic records, test scores, and backgrounds to forecast bar exam outcomes. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, meaning you ranked in the bottom tenth of your school that year—far below the typical top-half ranking of around 6 seen among students who passed the bar. This low performance stood out strongly to the model as a red flag, suggesting challenges in sustaining strong grades later in your studies. Next in influence was your LSAT score of 37, which is solid and close to the 37.27 average for bar passers; it actually worked in your favor, nudging the prediction toward success by showing good foundational aptitude. Your undergraduate GPA of 2.90 also helped a bit, pulling slightly away from failure since it's not drastically off the 3.24 average of those who passed, though still room for improvement. Other aspects like your middle family income bracket and full-time study plans aligned reasonably with successful students, where full-time is the norm at 93% and middle incomes are common at about 35%. Overall, your Year 3 decile outweighed these positives, mirroring profiles of students who struggled on the bar despite decent earlier metrics. To move forward, focus on boosting your upper-year performance—consider targeted tutoring or study strategies proven to lift grades into higher deciles. Retaking the LSAT for a slight edge or strengthening your GPA through post-bac courses could also recalibrate future predictions in your favor. Many students in similar spots have succeeded by addressing these gaps, so revisit your application in a year with refreshed credentials. You're clearly capable, as your LSAT shows, and with focused effort, you can shift this outcome next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

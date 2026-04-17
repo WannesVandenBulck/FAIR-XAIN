@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 167,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:08:22.571318",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've built a solid academic foundation with an impressive undergraduate GPA of 3.80—well above the typical 3.21 average—and a competitive LSAT score of 37, right around the norm of 36.70. You're also planning to attend full-time, which is the most common path for students in this dataset. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your risk of failure at 54.7%, tipping the scales just over the threshold that led to your application's rejection. This prediction draws from patterns in thousands of past students' data, focusing on how features like early and later school grades, GPA, and background factors align with bar success. The most influential factor pushing toward a failure prediction was your Year 3 school decile ranking of 1, meaning you placed in the bottom tenth of your peers that year, which strongly signaled higher risk compared to typical students who rank around the middle. Your Year 1 decile of 1 also contributed in the same direction, reinforcing concerns about early performance trends that often correlate with bar struggles. On a positive note, your strong undergraduate GPA worked significantly in your favor, pulling the prediction toward success and offsetting some of those lower school rankings. While your upper-middle family income bracket is a neutral factor here, the model weighed your school deciles as the top concerns overall. In comparison to average applicants, your GPA stands out as a strength, but the low deciles in Years 1 and 3 deviated notably from the dataset's mid-range norms of about 5.5, which is why they dominated the decision. This isn't a judgment on your potential as a Hispanic student pursuing law—many from similar backgrounds succeed—but a data-driven flag on those specific grade trends. To move forward, consider retaking courses or seeking targeted tutoring to boost your school rankings, perhaps through a post-bac program, and reapply after demonstrating improvement. Gathering letters from professors who can speak to your resilience could also help contextualize your profile for future reviews. With your GPA and LSAT as anchors, targeted steps on those early deciles could shift the model's view dramatically.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

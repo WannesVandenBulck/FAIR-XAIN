@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 68,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:06.234068",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.50, an LSAT score of 37, middle family income bracket, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest level of 1—well below the typical student's averages around the mid-5s. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 69.9% chance that you would fail the bar on your first try, which directly led to the rejection of your application since the school prioritizes candidates likely to pass and succeed in practice. This isn't a judgment on your potential or background, but a data-driven assessment comparing your profile to others who have taken the exam. The most influential factor pushing the prediction toward failure was your Year 3 school decile ranking at the bottom, as lower performance in later undergraduate years has historically correlated strongly with bar struggles for students in similar situations. Next in importance was your LSAT score of 37, which is only slightly above the average and actually worked in your favor by nudging the model toward expecting a pass, showing that strength helped offset some concerns. Your Year 1 decile at the bottom also contributed toward the failure prediction, reinforcing a pattern of early academic challenges that the model sees as a hurdle compared to peers who ranked higher. While your full-time status aligns with most admitted students and your GPA trails the average of 3.21, these played supporting roles behind the top three drivers. Many students with profiles like yours, including those from Hispanic backgrounds, have improved outcomes by addressing early academic dips before law school. To move forward, consider retaking the LSAT to boost it further, targeting ways to strengthen your later academic record through post-bac courses or targeted prep, and reapplying after demonstrating upward trends—these steps have turned around predictions for others in your position. You're clearly motivated, and with focused effort on those key areas, a stronger application could change the model's outlook next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

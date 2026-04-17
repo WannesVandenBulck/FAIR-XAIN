@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 224,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:17.850379",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model estimated a 40.9% chance that you would fail the bar exam on your first attempt, which crossed the threshold for rejection since the school prioritizes admitting those predicted to pass with high confidence. This decision hinged on just a few key aspects of your profile, with your third-year school decile ranking as the most influential factor, actually working strongly in your favor by suggesting you'd outperform most peers and pushing the prediction toward passing. Your first-year decile ranking came next, also helping your case by showing solid early academic standing compared to typical students. However, your undergraduate GPA stood out as the third-biggest driver, pulling the prediction toward failure because at 2.80—below the average of 3.21—it signaled potential challenges in sustaining top performance through law school and the bar. While your LSAT score of 32 is lower than the typical 36.7, and your middle family income bracket aligns with many applicants, these played smaller roles here. Your plan to attend full-time, like over 90% of students, was neutral in the mix. Overall, your strong high school deciles offset some risks, but not enough to tip the scales given the GPA's weight. Compared to admitted students, who often have higher GPAs and test scores balancing their profiles, yours fell short on that critical metric despite your academic decile strengths. This isn't a judgment on your potential as an Asian male student—many from similar backgrounds succeed with targeted improvements. To move forward, consider retaking the LSAT or bolstering your GPA through post-bac courses or a master's program to strengthen future applications. You could also seek bar prep resources early or apply to schools with more holistic reviews that value your decile rankings more. With focused effort on those weaker areas, reapplying next cycle could change the outcome significantly. Keep pushing; your profile shows real promise beneath the surface.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 120,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:22.411068",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 32, and solid Year 1 school decile ranking of 6th—placing you above the typical student's average there—along with your upper-middle family income background and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 61% chance you'll fail the bar on your first try, tipping the scales toward rejection of your application to protect the school's outcomes. This prediction wasn't random; it hinged most strongly on three key factors from your profile. Your LSAT score stood out as the biggest driver pushing the model toward forecasting failure, as it falls notably below the average of 36.7 seen in students who typically pass. Next, your undergraduate GPA played a significant role in the same direction, being lower than the dataset average of 3.21, which the model associates with higher bar struggles. On a brighter note, your Year 1 decile ranking pulled things back toward success, countering the prediction somewhat since it's stronger than the average student's. Compared to typical applicants who pass, your academics align more closely with those who face bar challenges, even with your family's supportive income level and full-time commitment. While these factors don't define your potential, they explain the model's cautious stance. To move forward, consider retaking the LSAT to boost it closer to or above average, strengthening your GPA through post-bac courses or highlighting upward trends like your Year 1 performance in appeals or reapplications. Many students in similar situations succeed by targeting these areas—reach out to advisors for personalized prep strategies, and know your background as a Hispanic male brings valuable perspectives that schools increasingly value with improved metrics. Persistence pays off; use this feedback to refine your path.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

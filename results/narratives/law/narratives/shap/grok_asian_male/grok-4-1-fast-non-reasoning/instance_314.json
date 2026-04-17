@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 314,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:44:46.636343",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.80, LSAT score of 36, Year 1 and Year 3 school decile rankings both at the 2nd decile, middle family income bracket, and full-time student status—and predicted an 80% chance that you would fail the bar exam on your first attempt. This high predicted failure risk is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar to maintain their strong pass rates. The three biggest factors pushing the model toward this \"fail\" prediction, in order of influence, were your Year 3 school decile ranking, your Year 1 school decile ranking, and your undergraduate GPA. Your Year 3 decile of 2—well below the typical student's 5.5-ish ranking—had the strongest negative pull, signaling to the model that your later academic performance placed you in the bottom ranks compared to peers who passed the bar. Similarly, your Year 1 decile of 2, also far under the average of about 5.7, reinforced concerns about early struggles that often predict bar challenges. Your GPA of 2.80, lower than the dataset average of 3.21, added further weight toward failure, as stronger GPAs are strongly linked to bar success in the model's view. While your LSAT of 36 was close to the average and your full-time status is the norm for most students, these couldn't offset the dominant impact of your deciles and GPA. Compared to typical admitted students, who often rank in the middle or higher deciles with GPAs above 3.2, your metrics stood out as riskier for bar passage. This isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds succeed with stronger academic foundations—but the model saw clear patterns from past data. To move forward, consider retaking courses or undergrad classes to boost your GPA and decile rankings, perhaps through community college or targeted prep programs, then reapply with those improvements to shift your predicted odds. You could also explore bar prep resources early or part-time law programs that weigh other strengths, giving you a fresh path to prove the model wrong. With focused effort on these academic areas, your next application could tell a different story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

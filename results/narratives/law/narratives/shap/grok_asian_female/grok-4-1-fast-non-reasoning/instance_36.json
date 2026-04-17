@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 36,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:33.461225",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic and background details. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 grade decile, which ranked quite low at 2 compared to the average of about 6 for students who went on to pass the bar—this was the biggest factor pushing the prediction toward failure, as it signals potential challenges in sustaining strong performance later in your studies. Your LSAT score of 35, while solid, fell short of the typical 37-plus seen among successful bar takers and provided some counterbalance by nudging the prediction slightly toward passing, though not enough to offset other concerns. Your upper-middle family income aligned well with the majority of passers (around 45%), but it still contributed modestly toward the failure prediction in your specific case, possibly due to how it interacted with your other profile elements. Overall, these top influences—led by that Year 3 decile—stood out far more than factors like your undergraduate GPA of 2.8 (below the 3.24 average for passers) or your full-time enrollment plans, which are common among those who succeed. Compared to admitted students, who typically show stronger late-stage academic deciles and higher entrance exam scores, your profile appeared riskier despite positives like your background and commitment to full-time study. It's understandable to feel disappointed, especially with your Year 1 decile of 6 showing early promise that didn't carry through. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, and focus on strategies to improve your upper-year performance, such as targeted tutoring or course selections that build on your strengths. You might also explore programs with bridge courses or bar prep support tailored for students with similar starting points. Gathering letters of recommendation that highlight your resilience and potential could strengthen future applications. With targeted improvements, you can shift your profile toward the successful passers and reapply confidently.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

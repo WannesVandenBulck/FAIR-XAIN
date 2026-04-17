@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:19.350979",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 34, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both at the 2nd decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 99.2% chance that you would fail the bar exam—far higher than what it sees in most applicants, leading directly to the rejection of your application. This high failure risk stems from the model's analysis of how your profile stacks up against those who typically pass. The strongest factor pushing toward this prediction was your Year 3 school decile ranking of 2, well below the average of around the 5th or 6th decile, which the model sees as a major signal of struggles in later academic performance that often carry over to bar prep. Next in influence was your Year 1 decile of 2, again much lower than the typical 5th or 6th decile average, reinforcing concerns about consistent underperformance relative to peers. Your upper-middle family income also played a role, nudging the prediction toward failure because the model associates it—compared to broader dataset trends—with slightly elevated risks in this context, though less strongly than your deciles. Meanwhile, features like your LSAT and GPA contributed less to this outcome but didn't offset the top concerns. In short, your early and later school rankings stood out as the biggest drags compared to students who pass the bar, where higher deciles are the norm. This isn't a judgment on your potential or background—many from similar Hispanic communities overcome these stats—but the model prioritizes these predictors for efficiency in high-stakes admissions. To move forward, consider retaking the LSAT to aim above the 36.7 average, bolstering your GPA through post-bac courses or a master's, and seeking targeted academic coaching to improve your decile-equivalent performance in any new programs. Building a stronger narrative around resilience, perhaps with letters highlighting your full-time commitment and personal story, could help in reapplying or targeting schools with holistic reviews. With focused improvements, you can shift these odds in your favor for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

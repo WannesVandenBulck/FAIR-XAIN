@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 190,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:42:57.083701",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 3.30—which is actually a bit above the typical 3.21 average—your LSAT score of 33.50, your family income in the middle bracket, your full-time student status, and your school decile rankings from early and later years. It predicted a 49.3% chance that you would fail the bar exam on your first attempt, which crossed the threshold for rejection, as the school prioritizes admitting those with stronger projected odds of success. This decision hinged on just a few key factors from your profile that stood out as the strongest influences. Most notably, your Year 3 school decile ranking of 4th—below the average 5.53—pushed the prediction toward failure, signaling to the model that your later academic performance placed you in the lower half of your peers, a common risk factor for bar struggles. Nearly as influential was your middle family income bracket, which the model associates with added pressures that have historically correlated with first-time bar failures among similar students. On a more positive note, your LSAT score pulled strongly in the opposite direction, toward predicting success, as it reflects solid reasoning skills even if it's under the dataset average of 36.70. Compared to typical students who pass, your combination of these elements—particularly the dip in later-year decile and income level—mirrored patterns in those who faced bar challenges, despite strengths like your above-average undergrad GPA and full-time commitment. While your background as a Black male wasn't a direct factor highlighted here, the model draws from broad data where systemic hurdles can show up indirectly through academics and resources. To move forward, consider retaking the LSAT to boost that positive influence, strengthening your later-year grades through targeted prep or additional coursework, and exploring financial aid or support programs tailored for students from middle-income families. Many applicants in similar spots have succeeded by addressing these exact areas—retest, rebuild, and reapply with a sharper profile. Your foundation is there; refining these will make a real difference next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

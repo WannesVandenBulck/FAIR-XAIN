@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 98,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:16:55.545507",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates the likelihood of passing the bar exam on the first try, estimated an 80% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection, as the school prioritizes admitting students with stronger signals of bar exam success. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your class—far below the typical top-half standing seen among students who passed the bar. This low Year 3 performance was the strongest factor pushing the prediction toward failure, signaling potential challenges in sustaining strong grades through law school. Next in influence was your Year 1 decile, also at the bottom tenth compared to the much higher averages around the sixth decile for bar passers, reinforcing concerns about early academic struggles. Your LSAT score provided some counterbalance, as your solid 42 exceeded the average of 37 for those who passed, nudging the prediction slightly toward success—but not enough to offset the decile issues. While your upper-middle family income aligns well with many bar passers and your choice of full-time study is the norm, your undergraduate GPA of 3.00 fell short of the 3.24 average, adding to the overall risk picture without being a top driver here. Compared to admitted students, who typically show higher decile rankings and balanced metrics, your profile stood out for those early and later grade weaknesses that correlated strongly with bar failures in our data. This isn't a judgment on your potential or background—it's a data-driven assessment focused purely on bar passage patterns. To move forward, consider retaking courses or programs to boost your deciles, perhaps through targeted tutoring or a post-baccalaureate option to demonstrate improvement. Strengthening your GPA trajectory could also help in future applications. Many students in similar spots have succeeded by addressing these gaps head-on, and reapplying with updated achievements often changes the outlook. Keep pushing—you have strengths like that LSAT score that show real capability.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:51.037920",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 65% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from patterns in data from thousands of past students, focusing on academic and background factors like grades, test scores, and family circumstances, while setting aside demographics like gender or race. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which placed you much lower in your class compared to the average of about 6 for students who passed the bar—suggesting challenges in maintaining strong performance later in your studies. Your undergraduate GPA of 3.00 worked in your favor, as it pulled the prediction somewhat toward passing, being reasonably close to the 3.24 average among successful bar takers. However, your LSAT score of 28 also nudged the outlook toward failure, falling well below the 37 average for those who passed. Your upper-middle family income aligns with a large share—around 45%—of bar passers, and opting for full-time study matches the norm for over 90% of them, but these played smaller roles here. Overall, your profile showed strengths like a solid undergrad record, yet the low Year 3 decile stood out as the biggest concern, more so than for typical admitted students whose later grades tend to stay consistently higher. This combination made your predicted bar success less certain than for applicants who get approved, who usually have stronger alignments across these key academic markers. While disappointing, this isn't a judgment on your potential—it's just one data-driven snapshot. To move forward, consider retaking the LSAT to boost that score, strengthening your later-year grades through targeted prep or additional coursework, and gathering letters highlighting your resilience and growth. You might also explore programs with bridge courses or bar prep support tailored for students like you building momentum. With focused steps, you can reshape this story and reapply stronger.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

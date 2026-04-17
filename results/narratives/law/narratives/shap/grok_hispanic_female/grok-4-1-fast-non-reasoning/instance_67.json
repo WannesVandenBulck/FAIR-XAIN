@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 67,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:02:01.318420",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 41.9% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.20, LSAT score of 26.50, first-year decile ranking of 1st, third-year decile of 2nd, upper-middle family income bracket, and full-time enrollment plans. Among students who passed the bar, the average LSAT is much higher at 37.27, and first-year deciles average around 6th, highlighting how your early performance stands out as a concern. The three most influential factors in this decision were your undergraduate GPA, family income, and first-year decile ranking. Your undergraduate GPA played the strongest role in pushing the prediction toward success, as it aligns closely with the 3.24 average among those who passed, giving the model confidence in your foundational abilities. Similarly, your upper-middle family income bracket, which is common among bar passers (representing about 45% of them), worked in your favor by suggesting a supportive background. However, your first-year decile ranking of 1st pulled strongly in the opposite direction, signaling to the model a higher risk of bar failure compared to the typical 6th-decile standing of successful students. Overall, while your GPA and family circumstances helped balance things out, that low first-year ranking tipped the scales toward rejection. Compared to admitted students, who generally show stronger early rankings and higher test scores, your profile indicates room for improvement in those areas to match their bar-passing patterns. To move forward, consider retaking the LSAT to boost your score closer to the 37-average, strengthening your early academic performance through additional undergrad-level courses if possible, and gathering letters highlighting your resilience from a Hispanic background in a full-time program. Reapplying after addressing these could shift your predicted odds significantly. Many students in similar situations have succeeded by focusing on these steps, and we're here to support your next application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

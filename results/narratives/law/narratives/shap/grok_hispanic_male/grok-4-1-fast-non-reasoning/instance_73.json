@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 73,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:26.380229",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.10, an LSAT score of 31.5, middle-family income background, and full-time student status, along with your Year 1 and Year 3 grade deciles of 3 and 2 respectively—these placed you in the lower third of your school's rankings for those years, compared to typical students who average around the middle of their classes. The admissions model, trained on data from thousands of past law students, predicted a 52.8% chance that you would fail the bar exam on your first try, tipping the scales just over the threshold that led to your application's rejection. This prediction stems from weighing factors like academic performance and background that have historically signaled bar exam outcomes. The most influential factor pushing toward this failure prediction was your Year 3 grade decile, as being in the lower ranks there strongly signaled higher risk compared to peers who performed better in their later undergraduate years. Next in importance, your undergraduate GPA actually worked in your favor, pulling the prediction toward passing since your 3.10 is close to the average of 3.21 and showed solid consistency. Your Year 1 grade decile also contributed toward the failure side, though less strongly, highlighting how early lower performance added to the overall concern. While your LSAT score below the typical 36.7 average and middle-income background played roles, they weren't the top drivers here. In essence, the model saw your trajectory of below-average deciles as the biggest red flags when stacked against students who typically pass the bar. This doesn't define your potential, especially as a determined Hispanic student navigating these challenges. To strengthen future applications, focus on boosting metrics like LSAT retakes or pursuing postgraduate courses to improve your grade deciles and demonstrate upward momentum. Consider programs with holistic reviews that value your unique background, or gain practical experience through internships to build a stronger profile. With targeted improvements, you can shift this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

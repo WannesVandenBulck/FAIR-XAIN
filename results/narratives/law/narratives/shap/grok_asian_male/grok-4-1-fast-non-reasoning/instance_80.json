@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 80,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:30:10.126993",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared a solid profile with an undergraduate GPA of 3.20, right around the typical 3.21 average for students in this dataset, and an LSAT score of 36, very close to the usual 36.70 mark. You're planning to attend full-time, which is the norm for over 92% of applicants, and come from an upper-middle income family, a bit higher than the average bracket. However, the admissions model, which predicts the chances of passing the bar exam on the first try, estimated your risk of failure at 68.8%—high enough to trigger a rejection, as the school prioritizes applicants likely to succeed and pass that critical hurdle. The decision hinged on three key factors from your background, ranked by their influence on pushing the prediction toward failure. Most significantly, your Year 3 school decile ranking of 3—well below the average 5.53—stood out as a strong signal of underperformance relative to peers, making the model worry about your bar exam readiness. Next, your Year 1 decile of 4, lower than the typical 5.71, reinforced concerns about early academic struggles that often carry over. Finally, your upper-middle family income, while stable, nudged the prediction slightly toward higher failure risk compared to lower-income peers who sometimes show more grit in these models. These elements together painted a picture riskier than most applicants, whose stronger decile rankings typically tip predictions toward passing. It's tough to hear, especially when your test scores align with averages, but this reflects patterns seen in past students' bar outcomes. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps exploring part-time options if that fits better, or gaining targeted bar prep experience to demonstrate improvement. Building a stronger academic trajectory could reshape how models like this view your potential next time. You're clearly driven—use this as fuel to strengthen those early indicators and reapply with renewed evidence of your capabilities.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

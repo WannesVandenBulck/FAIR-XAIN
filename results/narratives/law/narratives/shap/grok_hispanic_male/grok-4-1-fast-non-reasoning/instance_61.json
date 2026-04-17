@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:38.387207",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 36, middle-family income background, and plans to attend full-time, along with your Year 1 and Year 3 school decile rankings of 2 and 1, respectively. The admissions model, trained on data from thousands of students who took the bar exam, predicted a 60% chance that you would fail it on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out the most to the model. The strongest influence pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's 5.53 average and signaled weaker performance relative to peers at that stage. Next, your LSAT score of 36, while close to the average of 36.7, still pulled in the opposite direction by somewhat favoring a passing prediction, softening the overall risk. Your Year 1 decile of 2, also below the average of 5.71, added further weight toward the failure side, though less intensely than Year 3. Compared to typical students who pass the bar, your deciles place you in the lower ranks, which the model sees as the biggest hurdles, while your LSAT offers a bright spot but couldn't outweigh them. Your full-time status aligns with most applicants at 92.7%, and middle income is common, so they played smaller roles here. This isn't a judgment on your potential as a Hispanic man with clear drive—many overcome similar starts—but the model flags these academic deciles as the top risks for bar success. To move forward, consider retaking the LSAT to boost it above average or strengthening your recent grades through post-bac courses or targeted prep to improve those decile perceptions. Building a narrative around leadership or community work, especially tied to your background, could also help in reapplying or appealing. With focused effort on these areas, you can shift the odds in your favor for the next round.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

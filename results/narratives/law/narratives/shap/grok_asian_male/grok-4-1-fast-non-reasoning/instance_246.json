@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 246,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:38.034893",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a high family income bracket and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.60—which is below the typical 3.21 average—and an LSAT score of 32, lower than the usual 36.70. The admissions model predicted a 54.6% chance that you would fail the bar exam on your first try, tipping the scales just enough to result in the rejection of your application, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your academic record compared to thousands of past students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, which is notably lower than the average of about 5.5—this placed you in the bottom tier of your peers that year, signaling potential challenges in sustaining strong performance through law school and beyond. Counterbalancing that somewhat was your undergraduate GPA, which, despite being below average, worked in your favor by suggesting some foundational capability that nudged the prediction slightly toward passing. Similarly, your high family income provided a supportive boost, as students from similar backgrounds often have resources that help them succeed, pulling the odds a bit away from failure. Overall, your Year 3 performance carried the most weight in overriding those positives, making your situation riskier than typical applicants who maintain mid-to-high deciles throughout. While your full-time status aligns with most students and didn't sway things much, these core academic signals dominated the decision. This doesn't define your potential—many overcome early setbacks. To strengthen future applications, focus on boosting your academic deciles through targeted study habits or additional coursework, retake the LSAT for a higher score, and perhaps gain practical experience like internships to build a fuller picture. Consider community colleges or bridge programs that value resilience in students like you. With deliberate steps, you can shift the narrative for your next opportunity.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

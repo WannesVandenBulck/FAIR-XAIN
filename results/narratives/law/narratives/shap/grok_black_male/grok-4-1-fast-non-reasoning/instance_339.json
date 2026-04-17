@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 339,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:52:10.600696",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 2.90 and plans to attend law school full-time, you've put considerable effort into your application, including your Year 1 school decile ranking of 8th, which reflects strong early performance. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 45% probability that you would fail it. This prediction directly led to the rejection of your application, as the school uses it to prioritize candidates with the lowest predicted risk of bar failure. The model's decision hinged on just a few key factors from your profile, with your LSAT score of 21.50 emerging as the most influential by far—it significantly pushed the prediction toward failure because it's well below the typical score of around 37 seen in the dataset of past students. In contrast, your strong Year 1 decile of 8 worked strongly in your favor, pulling the prediction toward success since it outperforms the average of about 5.7 and signals early academic promise. Your undergraduate GPA also helped, nudging things positively as it's close to the dataset average of 3.21, showing respectable college performance compared to peers. While your middle family income bracket and full-time status align with most applicants, they didn't sway the outcome much here. Overall, your profile compares unfavorably to typical admitted students mainly due to that standout LSAT gap, despite your other strengths that kept the failure odds from being even higher. This isn't a judgment on your potential as a Black man pursuing law—many with similar backgrounds succeed with targeted improvements. To move forward, focus on retaking the LSAT to boost your score closer to or above the average, as that's the single biggest lever for flipping future predictions. Consider supplemental prep courses tailored for underrepresented applicants, and gather strong letters highlighting your Year 1 momentum. Reapplying with these enhancements could position you much more competitively next cycle. Keep pushing; your early decile success shows you have the grit for this.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

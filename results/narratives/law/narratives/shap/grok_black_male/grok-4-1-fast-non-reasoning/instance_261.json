@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 261,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:47:25.413928",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows a strong start in your early academic years but some challenges later on. Your undergraduate GPA of 3.00 is slightly below the typical 3.21 average, while your LSAT score of 27 is notably lower than the dataset average of about 37, and your Year 1 school decile ranking of 9th (well above the average 6th) reflects solid initial performance. However, the automated system evaluating your law school application predicted a 45% chance that you would fail the bar exam on your first attempt, which is high enough to trigger a rejection as the school prioritizes applicants likely to pass and succeed in practice. This prediction hinges on just a few key factors from your record, with your Year 3 decile ranking of 2nd—far below the typical 6th—standing out as the most influential, as it strongly signaled to the model a heightened risk of bar exam struggles despite your earlier promise. In contrast, your impressive Year 1 decile pushed meaningfully in the opposite direction, suggesting the model saw your potential but weighed the later dip more heavily. Your undergraduate GPA also helped counterbalance the prediction somewhat, nudging it toward expecting success rather than failure. Compared to typical students in the dataset, who maintain more consistent decile rankings across years, your trajectory from high to low performance raised red flags, even with your full-time commitment aligning with the vast majority (over 90%) of peers. The model doesn't penalize your background as a Black male explicitly, but it focuses purely on these academic patterns linked to bar outcomes. This rejection stings, especially given your early strengths, but it's not a judgment on your worth or potential—it's a data-driven call based on patterns from past students. To move forward, consider retaking the LSAT to boost that score closer to average, strengthening your later-year grades through additional coursework or a post-bac program, and gathering strong letters highlighting your resilience and upward trends. Reapplying next cycle with those improvements could flip the prediction in your favor, and many students in similar spots have succeeded by addressing these exact gaps. You're clearly capable, as your Year 1 record shows—keep building on that.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

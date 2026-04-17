@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 150,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:34:32.109526",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of past students to predict their chances of passing the bar exam on the first try. The model assessed your profile—including your undergraduate GPA of 2.80, LSAT score of 36, Year 1 school decile of 2, Year 3 decile of 1, and plan to attend full-time—and estimated a 47.9% probability that you would fail the bar exam, which crossed the threshold for rejection. This prediction means the school sees a notable risk that you might not pass initially, prompting them to deny admission to prioritize applicants with stronger forecasted odds of bar success. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking of 1, well below the typical student's 5.53 average, signaling to the model that your later undergraduate performance placed you in the bottom tier compared to peers. Next in importance, your LSAT score of 36 worked strongly in your favor, as it was close to the dataset average of 36.70 and pulled the prediction toward expecting you to pass. Your family's upper-middle income level also helped somewhat, nudging the outlook positively since it aligns with backgrounds that often correlate with bar success in the data. Overall, while your solid LSAT and family support provided some balance, the low Year 3 decile dominated the decision, outweighing those positives and making your profile riskier than most applicants who typically rank much higher in later-year grades. Your full-time enrollment plan, shared by over 90% of students, didn't sway things much either way. Compared to typical students, your undergraduate GPA of 2.80 trails the 3.21 average, adding to the concerns, though it wasn't the top driver here. To move forward, consider retaking the LSAT to boost it further or strengthening your academic record through a post-baccalaureate program or additional coursework to improve future decile rankings. Building a narrative around targeted improvements, like tutoring in weak subjects from Year 3, could help reframe your application for other schools. Many students in similar situations have succeeded by addressing these exact gaps—reach out to admissions counselors for advice on appealing or reapplying with fresh evidence of growth.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

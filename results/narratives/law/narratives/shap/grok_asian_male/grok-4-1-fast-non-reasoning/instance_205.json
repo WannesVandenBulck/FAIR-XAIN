@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 205,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:38:04.328309",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your Year 1 and Year 3 school decile rankings both at 2 (well below the typical 5th or 6th decile), undergraduate GPA of 3.10 (slightly under the average 3.21), LSAT score of 39 (above the average 36.7), middle family income bracket, and full-time student status—and predicted a 56.7% chance that you would fail the bar exam on your first attempt. This probability tipped the scales just over the threshold, leading to the rejection of your application as the school prioritizes admitting those predicted to pass. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 2, which signaled to the model weaker performance relative to peers at a critical stage, strongly increasing the perceived risk. Next in importance, your LSAT score of 39 worked in your favor, pulling the prediction toward passing by showing stronger-than-average test-taking ability that often correlates with bar success. Your undergraduate GPA of 3.10 had a milder positive effect, nudging things slightly toward passing but not enough to offset the top concern. Compared to typical students, your lower decile rankings stand out as a bigger drag than most, while your LSAT gives you an edge over the average applicant. This combination made the model cautious about your bar exam odds, even with your full-time commitment and solid middle-income background. To move forward, consider retaking courses or programs to boost your decile rankings, as that's the heaviest weight here—perhaps through targeted tutoring or a post-baccalaureate option. Strengthening your GPA further could help too, building on its positive but limited influence. Reapplying after addressing these, maybe with an even higher LSAT or additional certifications, could shift your predicted probability under 50%. Many students in similar positions have succeeded by focusing on these academic levers, and with your above-average LSAT as a foundation, you're well-positioned to improve your profile for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

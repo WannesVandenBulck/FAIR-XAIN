@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 229,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:45:21.651357",
+  "status": "success",
+  "narrative": "As a Black male student applying to law school, your background and academic journey have been carefully evaluated by our admissions model, which predicts performance on the bar exam to ensure we select candidates likely to succeed on their first try. Your profile includes a Year 1 school decile of 4, below the typical 5.71 average; a notably low Year 3 decile of 1 compared to the average 5.53; lower-middle family income; an LSAT score of 27, well under the 36.7 average; an undergraduate GPA of 2.6 versus the 3.21 norm; and plans to attend part-time, which is uncommon as only 7.3% of students do so. The model estimates a 40% probability that you would fail the bar exam on your first attempt—a risk level that unfortunately led to the rejection of your application, as the school prioritizes applicants predicted to pass with high confidence. The most influential factor pushing toward this failure prediction was your Year 3 academic decile, which stands out as exceptionally low and signaled to the model a significant drop in performance relative to peers. Next in importance, your lower-middle family income actually worked in your favor, pulling the prediction toward success by suggesting resilience in the face of financial challenges that many overcome. Your Year 1 decile also helped somewhat, nudging things positively since it was closer to average, but not enough to offset the stronger negative signal. Compared to typical students who get approved—those with higher deciles, stronger test scores, and full-time status—your profile showed more risk in late-stage academics and overall metrics, tipping the balance. This isn't a judgment on your potential or the barriers you've faced; it's the model's data-driven assessment based on patterns from thousands of past students. To strengthen future applications, focus on boosting your academic deciles through targeted study habits or additional coursework, retake the LSAT to aim above the average, and consider full-time options if feasible to align with successful profiles. Building a narrative of upward trends in your record could also demonstrate growth to admissions teams. Keep pushing forward—many in similar circumstances have turned things around with persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

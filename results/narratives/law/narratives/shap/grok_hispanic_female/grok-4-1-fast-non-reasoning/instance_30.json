@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:59:32.625681",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 75% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 class rank, which fell in the second decile—well below the fifth decile average among students who went on to pass the bar—pushing the prediction firmly toward failure by signaling potential struggles in sustaining strong performance. Your Year 1 rank in the third decile, also lagging behind the typical sixth decile for bar passers, reinforced this concern as the second-biggest factor, suggesting early academic challenges that carried forward. On a brighter note, your LSAT score of 38 stood out positively, above the 37.27 average for those who passed, helping to pull the prediction somewhat toward success and softening the overall risk assessment. While your undergraduate GPA of 2.80 trailed the 3.24 average for bar passers, and your lower-middle family income bracket is less common among successful examinees (where middle and upper-middle incomes dominate), these played supporting roles compared to your class ranks. Being a full-time student aligns well with the vast majority of bar passers, but it wasn't enough to offset the top concerns. In essence, your profile compares to accepted applicants by showing solid test-taking strength but weaker sustained grades relative to those who typically succeed on the bar. This isn't a judgment on your potential or background—it's a data-driven flag on bar passage odds. To move forward, consider retaking courses or pursuing targeted academic improvement to boost your class ranks, perhaps through tutoring or additional undergrad-level prep to lift your GPA. You might also explore post-baccalaureate programs or gap-year experiences that demonstrate upward trends in performance. Many students in similar positions have strengthened their profiles this way and succeeded later—keep pushing, as your LSAT shows you have real strengths to build on.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

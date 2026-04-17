@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 432,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:57:51.878683",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.30—slightly above the typical 3.21 average—and a strong LSAT score of 41, which stands out well above the average of 36.70, you've put together an impressive profile for law school admission. Your family comes from a middle-income bracket, and you're planning to attend full-time, which is the norm for about 93% of students in the dataset we used. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 75% chance that you would fail the bar on your first try, tipping the scales toward rejection of your application. This prediction hinges on a few key academic indicators from your school record that carried the most weight in the decision. The strongest factor pushing toward a failure prediction was your Year 3 grade decile of 3, which placed you in the lower third of your classmates—well below the average decile of about 5.5—signaling to the model a potential struggle with sustained high performance heading into law school. Next in influence was your Year 1 decile of 5, roughly average at 5.71 across students but still contributing noticeably toward the risk of failing the bar by not standing out early on. Your LSAT score worked in your favor, pulling the prediction in the opposite direction toward passing, as its strength above the norm suggested good analytical potential. Compared to typical students who pass the bar, your early and later school deciles are lower than what the model sees in successful profiles, outweighing even your standout test score. While these patterns don't define your future, they explain why the model leaned cautious. To move forward, consider retaking courses or building a stronger senior-year record to boost those deciles, perhaps through targeted tutoring or additional certifications that highlight your growth. You might also seek feedback from mentors on bar prep strategies tailored to students from similar backgrounds, and reapply after demonstrating upward trends—many applicants turn predictions like this around with focused improvements. Your LSAT edge shows real promise, so channeling that into academics could shift the odds dramatically next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

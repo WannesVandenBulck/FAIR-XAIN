@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:08.463284",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.70, which stands out well above the typical 3.21 average, along with your LSAT score of 31, family from a middle-income bracket, and plans to attend full-time. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 67.4% chance that you would fail the bar on your first try, tipping the scales toward rejecting your application to prioritize spots for those seen as lower risk. This prediction hinges most heavily on your school decile rankings from Year 1 and Year 3, both at 2—far below the averages of about 5.7 and 5.5—meaning your high school grades placed you in the lower end of your class compared to peers who typically succeed. These early academic deciles were the top two factors pushing the model strongly toward forecasting bar failure, as they signal potential challenges in handling rigorous legal coursework ahead. On a brighter note, your undergraduate GPA pulled significantly in the opposite direction, nudging the prediction toward bar passage success because it's notably stronger than what the model sees in most applicants. While your LSAT score is below the usual 36.7 average and your full-time status aligns with the vast majority of students, they played smaller roles here. Overall, your profile stacks up as solid in college performance but hampered by those weaker high school deciles when compared to students who passed the bar, many of whom ranked higher early on. This isn't a judgment on your potential as a Hispanic man from a middle-income background—many in similar situations have thrived with targeted preparation. To move forward, consider retaking the LSAT to boost it closer to average, gathering strong recommendation letters that highlight your college strengths, or exploring programs with bridge courses to build on your GPA while addressing early grade concerns. You might also connect with mentors from Hispanic legal associations for bar prep strategies that have worked for others like you. With focused effort on these areas, you can reshape how models—and admissions committees—view your bar exam odds next time. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

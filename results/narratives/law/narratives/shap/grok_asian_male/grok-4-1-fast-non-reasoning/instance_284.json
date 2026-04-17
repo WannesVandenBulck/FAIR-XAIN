@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 284,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:42:55.781937",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 51.3% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed and avoid high-risk profiles. The primary driver pushing toward this failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers—far below the typical student's middle-of-the-pack average—which strongly signaled potential struggles in advanced coursework leading to bar readiness. Counterbalancing this somewhat was your undergraduate GPA of 3.40, which exceeds the average of 3.21 and pulled the prediction toward success by demonstrating solid prior academic ability. Your Year 1 decile of 1 also contributed toward the failure outlook, though less intensely than Year 3, as it highlighted an early pattern of underperformance compared to peers averaging around the 5th or 6th decile. Other elements like your LSAT score of 29—well below the usual 36.7—your middle family income bracket, and full-time student status played supporting roles but weren't the top influencers here. Compared to typical applicants, who often enter with stronger high school deciles and higher test scores, your profile stood out for its lower early rankings despite a respectable college GPA. This combination tipped the scales just over the edge into rejection territory. While disappointing, especially given your undergraduate strengths, this doesn't define your potential—many overcome similar early hurdles. To move forward, consider retaking the LSAT to boost your score toward the average, seeking targeted tutoring to improve decile rankings in future terms, or exploring part-time programs if work experience could strengthen your resume. Building a narrative around your GPA edge and any extracurriculars could also help in reapplying or appealing to schools with holistic reviews. With focused improvements, you can shift future predictions in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

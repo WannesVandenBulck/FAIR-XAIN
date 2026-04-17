@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 94,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:10:17.829401",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 63.5% chance that you would not pass, tipping the scales toward rejection to prioritize students with stronger projected outcomes. This prediction drew heavily from your academic record, particularly your class standing in Year 3, where you ranked in the first decile—far below the typical fifth-decile average among students who passed the bar. That early performance was the biggest factor pushing the model toward forecasting failure, as it signaled potential challenges in sustaining the rigorous demands of legal studies and the exam itself. Your LSAT score of 36 worked in your favor, though, pulling the prediction somewhat toward success since it's close to the 37.27 average for bar passers, showing your aptitude in that area. Meanwhile, your Year 1 decile of 2 also nudged the outlook negatively, though less strongly than your later ranking, as it was well under the sixth-decile norm for successful students. Your middle family income aligns with over a third of bar passers, and opting for full-time study matches nearly all of them, so those aspects didn't sway the decision much. Compared to admitted students, your undergraduate GPA of 3.00 trails their 3.24 average, reinforcing the concerns from your deciles. Overall, the model saw your profile as riskier than the typical accepted applicant, whose stronger year-in, year-out class rankings predict smoother paths to bar success. While this is disappointing, especially with your solid LSAT showing promise, it highlights where your grades lagged behind peers who made it through. To move forward, consider retaking the LSAT to boost that positive influence or strengthening your academic deciles through postgraduate courses or targeted prep that demonstrates upward momentum. You might also explore programs with bridge support for students from middle-income backgrounds pursuing full-time law paths. Many in similar spots have rebounded by addressing these key areas—your next application could tell a stronger story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

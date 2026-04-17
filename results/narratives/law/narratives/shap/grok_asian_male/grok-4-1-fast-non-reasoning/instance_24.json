@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 24,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:43.481535",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.20—right around the typical 3.21 average for students in this dataset—your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try. The model estimated a 47% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting students predicted to succeed and avoid the risks of higher failure rates. The key driver behind this decision was your LSAT score of 24, which stands out well below the dataset average of 36.70 and had the strongest influence in pushing the prediction toward failure. While your school decile rankings in Year 3 (7th decile, above the 5.53 average) and Year 1 (also 7th decile, above the 5.71 average) both worked in your favor by suggesting stronger-than-average academic performance in those periods, they weren't enough to offset the LSAT's impact. Your middle family income bracket and full-time student status, which is the norm for over 92% of applicants, played more neutral roles in the overall assessment. Compared to typical students who get approved, your profile shows competitive high school grades but lags significantly on the LSAT, a factor the model weighs heavily as a top predictor of bar success. This isn't a reflection of your overall potential as an Asian male applicant—many in similar demographic groups excel with stronger standardized test scores—but rather a data-driven flag on that one area. To move forward, consider retaking the LSAT to boost your score closer to or above the average, as even a modest improvement could shift your predicted failure risk below the rejection threshold. Strengthening recent academic deciles through additional coursework or advanced standing could further help. Reach out to admissions advisors for targeted prep resources, and explore schools with holistic reviews that might value your GPA and background more flexibly. With focused effort on these gaps, you're well-positioned to reapply successfully next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

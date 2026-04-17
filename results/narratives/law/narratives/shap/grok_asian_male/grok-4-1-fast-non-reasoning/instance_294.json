@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 294,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:43:33.679679",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 3.10, LSAT score of 39, Year 1 and Year 3 school decile rankings both at the 2nd decile, middle family income bracket, and your plan to attend full-time. It predicted a 56.7% probability that you would fail the bar exam initially, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. The most influential factor pushing toward this failure prediction was your Year 3 decile ranking of 2, well below the typical student's 5.53 average, signaling to the model that your later undergraduate performance placed you in the lower ranks compared to peers who succeeded. Next in importance, your LSAT score of 39 worked strongly in your favor, above the average of 36.7, pulling the prediction toward expecting you to pass. Your undergraduate GPA of 3.10 had a milder positive effect, as it's close to the 3.21 average but still helped counterbalance some concerns. While your middle family income and full-time status align with most students and didn't sway the outcome much, the low Year 3 decile outweighed your strengths, making the model view your overall profile as riskier than typical successful applicants who rank higher in later-year grades. This isn't a judgment on your potential as an Asian male student—many with similar backgrounds excel—but the model prioritizes patterns from past data where lower deciles like yours correlated with bar struggles. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps aiming for graduate-level achievements that demonstrate upward trajectory. You could also retake the LSAT to solidify that strength or seek targeted bar prep experience. Gathering letters from mentors who can speak to your resilience would help contextualize your profile. Finally, applying to schools with holistic reviews or strong support for students like you might open doors where this model's prediction carries less weight. Keep pushing—your solid LSAT shows you're capable, and with targeted improvements, future opportunities will follow.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 85,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:45.452291",
+  "status": "success",
+  "narrative": "Your undergraduate GPA of 3.00 stands out as the most influential factor in the model's assessment, actually working in your favor by suggesting a stronger likelihood of passing the bar exam compared to what might have been expected otherwise—it's below the 3.24 average for students who passed, but the model saw it as a relative positive signal for you. Next, your upper-middle family income bracket nudged the prediction slightly toward a higher risk of failure, as while it's common among passers (about 45% of them), it didn't provide the boost the model associates with other backgrounds in similar profiles. Your Year 3 decile ranking of 4 also contributed modestly toward the failure prediction, falling short of the 5.91 average for those who passed and indicating room for improvement relative to peers. Overall, these factors led the model to estimate a 49.1% probability that you would fail the bar exam on your first try, tipping the scales just enough to recommend rejecting your application to protect the school's outcomes. Your LSAT score of 32.50, lower than the 37.27 average for passers, and Year 1 decile of 4 played supporting roles but weren't the top drivers here. Being a full-time student aligned well with the 93% of passers in that category, yet it couldn't outweigh the key influences. Compared to typical accepted students, your profile shows solid alignment in areas like family income and full-time status, but your academic deciles and test scores lag behind their stronger averages, making the model's close call reflect a cautious stance. This isn't a judgment on your potential—it's the algorithm weighing patterns from past bar takers to forecast risks. To move forward, consider retaking the LSAT to push closer to 37 or higher, bolstering your undergraduate record with additional coursework or recommendations, and exploring programs that value upper-middle backgrounds like yours through targeted essays. Building a narrative around your full-time commitment could also highlight your dedication. Many students in similar spots improve these metrics and succeed—reach out to admissions advisors for personalized feedback or prep resources. With focused effort, you can reshape this story for your next application.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

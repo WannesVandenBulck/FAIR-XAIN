@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 376,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:54.843609",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a solid LSAT score of 43—well above the typical 37—along with a middle-income family background and plans to attend full-time, which is the norm for most students. Your undergraduate GPA sits at 3.00, slightly below the average of 3.21, while your Year 1 school decile ranking of 3 is lower than the usual 5.7, and your Year 3 decile of 3 trails the typical 5.5. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 66% chance you'll fail the bar—high enough to trigger an automatic rejection to protect the school's outcomes. This decision hinged on just a few key factors from your record, ranked by their influence on the prediction. Most critically, your lower Year 1 decile ranking strongly pushed the model toward expecting bar failure, as early academic struggles like yours have historically correlated with tougher bar outcomes. Your Year 3 decile ranking reinforced this concern, adding notable weight in the same direction since it also fell short of what's typical for successful bar takers. On a brighter note, your standout LSAT score had the strongest counterbalancing effect, pulling the prediction toward bar passage more than any other factor, reflecting how this strength often helps students overcome hurdles. Compared to typical admitted students, your early deciles stand out as the biggest drags, while your LSAT gives you an edge many lack. To move forward, consider retaking courses or programs to boost your decile rankings, as even modest improvements there could flip future predictions. You might also gather letters highlighting your LSAT prowess and full-time commitment to show resilience. Applying to schools with holistic reviews or targeted prep support could better match your profile. With targeted steps, your strengths position you well for another shot.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 226,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:24.938429",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.10 and plans to attend law school part-time, you've put considerable effort into your application, including your Year 1 school decile ranking in the top position and a Year 3 decile of 2, alongside coming from a lower-middle income family. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 56% chance that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction hinges on just a few key factors from your background that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your LSAT score of 20, which is notably below the typical applicant's 36.7 and signaled higher risk in the model's eyes, as stronger scores there have historically correlated with bar passage. Counterbalancing that somewhat was your undergraduate GPA, which nudged the prediction toward success since it's close to the average of 3.21 and reflects solid academic performance. Your top decile ranking in Year 1 also pulled slightly in the positive direction compared to the average of around the 6th decile, showing early promise. Overall, these three elements—your LSAT as the dominant concern, tempered by your GPA and first-year grades—tipped the scales against you when weighed against patterns from thousands of similar students. While part-time status is uncommon (only about 7% of applicants), it wasn't a top driver here, nor were factors like family income. Compared to typical admitted students, who often have higher LSATs balancing out average GPAs and deciles, your profile appeared riskier for bar success. This doesn't reflect your full potential or determination, especially as someone navigating part-time studies from a modest background. To move forward, consider retaking the LSAT to boost that score, as it's the most impactful lever, and gather letters highlighting your early academic strengths. Strengthening these could shift future predictions in your favor for other programs. Keep pushing—you've already shown grit in topping your Year 1 decile.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

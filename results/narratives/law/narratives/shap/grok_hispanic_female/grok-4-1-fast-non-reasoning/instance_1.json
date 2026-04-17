@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:57:56.412826",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 99.2% chance that you would not pass—far too high a risk for admission decisions. This prediction stems from a close look at key aspects of your academic record and background, compared to patterns among students who successfully passed the bar. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 2, which places you well below the average of around 6 for those who passed, signaling to the model a significant dip in performance that often correlates with bar struggles. Next in importance was your Year 1 grade decile, also at 2 versus the passers' average of about 6, reinforcing concerns about early academic challenges that tend to persist. Your upper-middle family income level played a smaller but still notable role, as it didn't stand out as a strong protective factor compared to the mix seen among successful bar takers, where this bracket is common but not decisive on its own. Other elements, like your LSAT score of 34 (below the 37.27 average for passers) and undergraduate GPA of 2.90 (versus 3.24), contributed to the overall picture but were less dominant here. Being full-time aligns with most who pass, which helped a bit, but it couldn't offset the top concerns. In essence, your profile stood out as riskier than typical admitted students, whose stronger decile rankings in early and later undergrad years were key to their predicted success. This isn't a judgment on your potential or background—it's the model highlighting patterns from past bar outcomes. To move forward, consider retaking the LSAT or boosting your GPA through post-bac courses to shift these academic signals, and explore programs with bar passage support tailored for full-time students like you. Gathering stronger letters of recommendation or relevant experience could also help reframe your story in future applications. With targeted improvements, you can align more closely with profiles the model views favorably. Keep pushing—you've got this.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

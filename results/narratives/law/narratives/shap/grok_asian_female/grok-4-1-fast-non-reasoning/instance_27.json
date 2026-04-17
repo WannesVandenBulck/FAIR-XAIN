@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:00.266471",
+  "status": "success",
+  "narrative": "Your law school application was denied because our prediction model estimated a 63.2% chance that you would not pass the bar exam on your first try, based on patterns from thousands of past students' academic and background details. This threshold is set to prioritize admitting those most likely to succeed on the bar right away, helping the school maintain its strong outcomes. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom tenth of your classmates—far below the middle-upper range typical for those who passed the bar—pushing the prediction heavily toward expecting a failure. Your undergraduate GPA of 3.00 offered some counterbalance, as it's reasonably close to the 3.24 average among bar passers, nudging the model slightly in favor of success. However, your LSAT score of 25.50, well under the 37.27 average for successful students, added further weight toward the failure prediction, though less intensely than your Year 3 performance. Coming from a middle-income family and planning full-time studies aligns with many who succeed—about a third of bar passers share your income bracket, and over 90% go full-time—but these didn't outweigh the academic red flags. Compared to admitted students, your profile shows solid potential in some areas like GPA, but the lower Year 3 decile and LSAT stand out as bigger hurdles than most who got in faced. It's understandable to feel disappointed, especially with your full-time commitment and background mirroring so many success stories. To move forward, consider retaking the LSAT to boost that score closer to the typical range, while reflecting on what might have impacted your Year 3 grades—perhaps targeted tutoring or study habits could help replicate your stronger earlier performance. Strengthening these could flip the model's outlook in a future application. Many students in similar spots have improved and succeeded, so you're not alone in this. Reach out to advisors for personalized strategies, and keep pursuing your goals with that determination.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

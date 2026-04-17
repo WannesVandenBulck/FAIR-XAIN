@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 50,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:00:54.788343",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.50, an LSAT score of 25, upper-middle family income, and plans to attend full-time, along with your school deciles from Year 1 and Year 3 both at the 2nd decile—meaning your early grades placed you in the lower end compared to your peers, where averages hover around the 5th or 6th decile. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 64% chance that you would fail it on your first try, which is why your application was rejected—schools use this to prioritize applicants likely to succeed and pass the bar promptly. This prediction isn't a judgment on your potential or background, but a data-driven assessment based on patterns from past students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, as being in the lower deciles like yours has historically correlated strongly with bar struggles for many students. Close behind was your LSAT score of 25, well below the typical 37 average, which carried significant weight in signaling potential challenges ahead. On a more positive note, your upper-middle family income provided some counterbalance, nudging the prediction slightly toward success since students from similar backgrounds have shown better bar passage rates on average. Compared to typical applicants who get approved, your academic deciles and LSAT stand out as notably lower, while your full-time status aligns with the vast majority who succeed. This combination tipped the scales, even though no single factor dooms anyone. The good news is this is just one model's snapshot based on your current profile—many students in similar positions have improved their trajectories. To strengthen future applications, focus on retaking the LSAT to aim closer to or above average, bolstering your recent grades to climb those school deciles, and gathering strong recommendation letters highlighting your resilience as a Hispanic male pursuing law. Consider targeted bar prep resources or community programs tailored for underrepresented students like yourself. With targeted effort, you can shift these odds and reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

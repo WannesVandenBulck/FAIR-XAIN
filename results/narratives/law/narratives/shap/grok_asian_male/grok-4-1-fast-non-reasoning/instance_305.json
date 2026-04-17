@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 305,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:44:13.502322",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared strong details about your background, including your LSAT score of 44—well above the typical 37 average—and an undergraduate GPA of 3.10, which is close to the standard 3.21. Your family falls into the middle income bracket, and you're planning to attend full-time, just like over 90% of students in the dataset used for this prediction. However, the model assessed your overall profile and predicted a 69.8% chance that you would fail the bar exam on your first try, which is the key benchmark this university uses for admissions decisions. This high failure risk led directly to the rejection of your application, as the school prioritizes candidates likely to pass and succeed in their legal careers. The three biggest factors driving this prediction were your LSAT score, your Year 3 school decile ranking of 1 (far below the average 5.5), and your Year 1 school decile ranking of 1 (also much lower than the typical 5.7). Among these, your low Year 3 decile had the strongest pull toward the failure prediction, signaling to the model that your later academic performance in school raised significant concerns about bar exam readiness. Your Year 1 decile ranking reinforced this, adding further weight toward the risk of failing. On a brighter note, your standout LSAT score pushed strongly in the opposite direction, arguing convincingly for your potential to pass—it's one of your standout strengths compared to most applicants. Overall, while your test scores show promise, the model saw your early and mid-school rankings as dominant red flags when stacked against typical students who pass the bar. To move forward, consider retaking courses or programs to boost your school deciles, perhaps through targeted academic support or a post-baccalaureate option, and reapply once you've strengthened those areas. Many students in similar situations have turned things around by focusing on consistent performance improvement. Your LSAT gives you a solid foundation—build on it. Keep pursuing your legal ambitions; this is just one data point in your journey.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

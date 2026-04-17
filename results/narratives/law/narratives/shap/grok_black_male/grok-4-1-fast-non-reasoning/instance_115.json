@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 115,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:38:10.488282",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.90 and LSAT score of 21. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on past student data, estimated an 82.8% chance that you would fail it— a risk level that led to the rejection of your application. This prediction hinges on how your academic history stacks up against patterns seen in thousands of similar students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, which is notably lower than the typical student's rank around the middle of their class and signaled weaker performance relative to peers. Next in importance was your Year 1 decile of 1, again well below the average, reinforcing concerns about consistent early academic struggles. Your LSAT score also played a key role, as its low value compared to the dataset average of about 37 further tipped the scales toward expecting bar exam challenges. These three elements—your deciles in Years 1 and 3, topped by Year 3, and your LSAT—dominated the decision, outweighing positives like your full-time status, which is common among admitted students. While your undergraduate GPA was slightly below average and family income aligned with many applicants, it didn't sway the outcome enough. In essence, the model saw your early and later school rankings, combined with the LSAT, as stronger red flags for bar success than what it observes in students who typically pass. This isn't a judgment on your potential or background, but a data-driven flag based on historical trends. To move forward, consider retaking the LSAT to boost your score, strengthening your high school or early college grades through additional coursework if possible, and gathering strong recommendation letters that highlight your resilience as a Black man pursuing law. Exploring community college or targeted prep programs could also rebuild your academic decile profile before reapplying, giving the model—and admissions committees—fresh evidence of your growth. With focused steps like these, you can shift the narrative for your next application.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

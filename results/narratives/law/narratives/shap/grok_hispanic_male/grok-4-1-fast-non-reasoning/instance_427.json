@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 427,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:24:45.326147",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.20, an LSAT score of 40, low family income bracket, and your plan to attend full-time, along with your school deciles from Year 1 and Year 3 both sitting at the bottom of the scale. The admissions model, trained on data from thousands of past students, predicted a 56% chance that you would fail the bar exam on your first try—a threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction isn't a judgment on your potential or background, but a data-driven assessment based on patterns from similar students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking at the lowest level, well below the typical student's mid-range position, signaling to the model a potential challenge in sustaining strong academic performance through later years. Next in importance was your LSAT score, which actually worked in your favor by pulling the prediction toward passing, since your 40 exceeds the average of around 37 and shows solid reasoning ability. Your Year 1 decile, also at the bottom compared to peers' averages, contributed further toward the failure side, reinforcing concerns about early academic momentum. While your full-time status aligns with most admitted students and your low family income didn't sway the top factors, these core academic signals dominated the decision. Compared to typical students who pass the bar, your deciles are notably lower, though your LSAT stands out positively against the norm. This isn't set in stone—many from similar Hispanic backgrounds with modest starts have boosted their profiles through targeted improvement. To move forward, consider retaking the LSAT if possible to strengthen that edge, seeking academic advising to improve your decile rankings in any ongoing studies, or exploring post-baccalaureate programs to lift your GPA. Building a stronger narrative around your resilience, perhaps through internships or community leadership, could also help in reapplying or appealing. You're taking a vital step toward law, and with focused effort on these academic areas, future applications can reflect your full capabilities. Keep pushing—you've already shown drive by applying.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

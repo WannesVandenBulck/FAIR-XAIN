@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 34,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:20.244795",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.30—above the typical 3.21 average—and a strong LSAT score of 40, which exceeds the dataset average of 36.70, you've built an impressive academic foundation that many peers would envy. Your Year 1 and Year 3 school deciles both at 7 also place you well above the averages of around 5.5 to 5.7, reflecting consistent performance in your studies. Coming from an upper-middle-class family background further positions you favorably compared to many applicants. However, the university's admission model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 43% probability that you would fail the bar exam. This threshold triggered the rejection of your application, as the school prioritizes candidates predicted to pass on their first attempt to maintain high bar passage rates.\n\nThe most influential factor pushing the prediction toward failure was your choice to attend part-time, a path taken by only about 7% of students in the dataset compared to the overwhelming 93% who go full-time. Being part-time stood out as the top driver, likely because the model associates it with divided attention from work or other commitments that have historically correlated with bar struggles in similar cases. On a positive note, your Year 3 decile ranking was the second-strongest factor pulling the prediction toward success, showing the model recognized your strong late-stage academic momentum as a clear asset. Similarly, your undergraduate GPA exerted a notable favorable influence, reinforcing that your college record signals real potential for bar passage.\n\nCompared to typical students, your metrics are stronger in grades and test scores, but the part-time status created the biggest outlier, tipping the scales despite those strengths. This doesn't reflect your overall talent or effort—many part-time students succeed—but the model's data-driven lens highlights patterns where full-time focus has been key. To move forward, consider reapplying with a full-time plan if feasible, or strengthen your profile by gaining relevant legal experience, retaking the LSAT for an even higher score, or seeking a recommendation that addresses bar prep resilience. You could also target schools with flexible programs that value part-time paths more explicitly. With your above-average academics, a strategic pivot could easily shift the odds in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

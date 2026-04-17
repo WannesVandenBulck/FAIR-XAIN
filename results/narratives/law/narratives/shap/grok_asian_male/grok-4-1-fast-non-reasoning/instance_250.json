@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 250,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:51.202699",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a strong LSAT score of 37 and a high family income bracket, you've put together a compelling profile for law school, including your plans to attend full-time. However, the admissions model predicted a 41.6% chance that you would fail the bar exam on your first try, which crossed the threshold for rejection—meaning the school sees too high a risk of you not succeeding long-term. This prediction hinges on a few key factors from your academic record that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your Year 3 school decile ranking of 1, which is much lower than the typical student's rank around the middle of the pack at 5.5—this signals to the model weaker performance in later undergrad years compared to peers who passed the bar. Nearly balancing that out was your high family income, which strongly pulled the prediction in a positive direction, as students from similar backgrounds often show better bar exam outcomes. Your solid LSAT score also helped significantly, nudging the odds toward passing since it's right above the average of 36.7 and aligns with successful applicants. Overall, your low Year 3 decile outweighed these strengths, unlike typical admitted students whose grades trended stronger across all years. Your undergraduate GPA of 2.5, below the average 3.21, likely played a supporting role but wasn't the top driver here. While this rejection stings, especially with your advantages in testing and background, it highlights room to address late-stage academic consistency. To move forward, consider retaking courses or a post-bac program to boost your decile rankings, gathering strong recommendation letters that speak to your potential, or targeting schools with more holistic reviews that value your LSAT and full-time commitment. You could also appeal with evidence of improvement since Year 3, like recent achievements, to show the model might undervalue your trajectory as an Asian male applicant with your profile. Keep pushing—many overcome similar hurdles and thrive in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

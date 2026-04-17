@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 83,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:50:37.539781",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 40% chance that you would not pass—higher than the threshold we use for admissions to ensure strong outcomes for our students. This prediction stemmed primarily from three key aspects of your profile that had the strongest sway in the model's decision. The most influential factor pulling against you was your position in the lower decile of your school's Year 3 grades, which stood at the 1st decile compared to an average of around the 6th decile for those who passed the bar; this signaled to the model a notable dip in later academic performance that often correlates with bar struggles. On a brighter note, your LSAT score of 40 was above the average of 37 for successful bar takers, making it the top factor pushing the prediction toward success and helping to offset some concerns. Your upper-middle family income also nudged things positively, as it aligns closely with the bracket where about 45% of bar passers fell, suggesting a supportive backdrop that the model views favorably. While your undergraduate GPA of 2.60 was below the 3.24 average for those who passed, and your Year 1 decile of 2 was lower than the typical 6 for passers, these played lesser roles compared to the top three influences. Being a full-time student further matches the profile of over 93% of those who succeeded, which the model noted supportively. Overall, your Year 3 decile stood out as the biggest hurdle, outweighing strengths like your LSAT in driving the failure risk up to that 40% mark. To move forward, consider retaking the LSAT if possible to build on your already solid score, or focus on boosting late-stage grades through targeted prep courses or academic advising to shift your decile standing. Many students in similar spots have improved their profiles by addressing these exact gaps before reapplying—reach out to our admissions team for personalized guidance on strengthening your next application. With your full-time commitment and strong LSAT foundation, targeted improvements could easily tip the scales in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

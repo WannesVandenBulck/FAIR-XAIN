@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:46:06.881819",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 45.8% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.80 and LSAT score of 29, alongside your Year 1 and Year 3 school decile rankings, family income in the middle bracket, and your plan to attend full-time. Among students who passed the bar, the average undergraduate GPA is 3.24 and LSAT is 37.27, while your Year 3 decile of 3 falls well below their average of 5.91, and your Year 1 decile of 5 is under their 6.04 average. The three most influential factors in your prediction were your Year 3 decile ranking, your undergraduate GPA, and your Year 1 decile ranking. Most critically, your lower Year 3 decile ranking stood out as the top driver pushing the model toward predicting bar failure, as it signals a dip in performance relative to peers who succeeded. In contrast, your undergraduate GPA had a strong counterbalancing effect, nudging the prediction toward success because, while below average, it still showed solid foundational strength compared to typical admitted students. Similarly, your Year 1 decile provided another positive pull toward passing, reflecting early promise that helped offset some concerns. Your middle family income aligns with about a third of bar passers, and your full-time status matches over 90% of them, but these played smaller roles here. Overall, your profile compares to accepted students by having competitive early indicators but lagging in later academic deciles and standardized metrics, tipping the balance toward risk. To move forward, consider retaking the LSAT to boost your score closer to 37 or higher, strengthening your later-year grades through additional coursework or a post-bac program, and reapplying next cycle with an updated profile that addresses these key areas. Many students in similar situations have succeeded by targeting these improvements, and we're here to support your next steps.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

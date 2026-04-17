@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 74,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:34.277330",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows solid strengths like an undergraduate GPA of 3.30, which is above the typical 3.21 average, and an LSAT score of 35. However, the university's admission model, which predicts first-time bar exam success based on academic and background factors from past students, estimated a 68.8% chance that you would fail the bar exam. This high predicted risk led directly to the rejection of your application, as the school prioritizes admitting those likely to pass on their first try. The model's decision hinged most on your Year 1 school decile ranking of 4th, which stood out as the strongest factor pushing toward a failure prediction—it's below the average 6th decile, signaling early academic struggles that often correlate with bar challenges for students like you. Your LSAT score ranked second in influence and also nudged the prediction toward failure, as your 35 falls short of the typical 37, making it a notable drag despite your other qualifications. On a more positive note, your Year 3 decile of 5th, close to the average 5.5th, worked in your favor as the third-most important factor, pulling the prediction slightly toward passing by showing later improvement. Compared to typical students in the dataset, where full-time enrollment is the norm at over 92%, your status there didn't sway things much, but these core academic markers painted a riskier picture overall. While your GPA exceeds average and your background is stable, the early decile and LSAT gaps outweighed them for this model. To move forward, consider retaking the LSAT to boost it closer to or above 37, as that could dramatically shift future predictions. Strengthening your early-grade narrative—perhaps through additional coursework or explanations in reapplications—might also help address that top concern. Many students in similar situations succeed by targeting these areas; reaching out to admissions advisors for feedback or exploring prep programs tailored for Black law aspirants could open new doors. With targeted improvements, your full-time commitment and upward trend in later years position you well for another shot.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 30,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:40.780542",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 38, and your grades from earlier years that placed you in the lower deciles at your school—specifically the 3rd decile in Year 1 and 2nd in Year 3—along with your lower-middle family income background and plans to attend full-time. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on patterns from thousands of past students, estimated a 75% chance that you would fail it. This high predicted risk of failure is why your application was rejected, as the school uses this to prioritize applicants likely to succeed on the bar and graduate strong. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking, which was notably low compared to the typical student's 5th or 6th decile placement, signaling to the model a potential struggle with advanced coursework that often foreshadows bar challenges. Next in importance was your Year 1 decile, also in the lower third against an average around the 6th decile, reinforcing concerns about building a solid academic foundation early on. Your LSAT score worked in your favor, though, as it was above the average of 37, pulling the prediction somewhat toward success and showing your aptitude for the kind of logical reasoning the bar demands. Overall, these early grade deciles stood out as the biggest drags compared to peers who passed the bar, outweighing your stronger LSAT performance. Many successful applicants have deciles in the top half, highlighting how your trajectory differed from that typical path. While factors like your full-time status aligned with the vast majority of students and didn't sway things much, the model focused heavily on those academic rankings. To move forward, consider retaking the LSAT to boost it further or enrolling in a post-baccalaureate program to improve your GPA and decile rankings, demonstrating upward momentum. Targeted bar prep courses or community college classes could also help rebuild your academic profile. Reach out to admissions advisors for feedback, and explore bridge programs designed for students from similar backgrounds aiming for law school. With focused effort on these areas, you can strengthen your case for reapplication next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

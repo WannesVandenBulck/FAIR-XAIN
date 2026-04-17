@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 201,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:33.865474",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 38, Year 1 school decile of 6, Year 3 decile of 4, and middle family income bracket, along with planning to attend full-time. The admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 57.8% chance you'll fail the bar—crossing the threshold that led to your application's rejection. This prediction weighs various factors from your background against patterns in students who passed or failed, aiming to identify those most likely to thrive in law school and beyond. Among all these elements, your LSAT score stood out as the strongest positive force, pushing the model's view toward expecting you to pass because it's higher than the typical 36.7 average, signaling solid reasoning skills that often correlate with bar success. However, your Year 3 school decile of 4—the next biggest influence—worked against you, as it's below the average 5.53 and suggested a dip in performance that the model links to higher failure risk later on. Your undergraduate GPA of 2.70, the third key factor, also pulled in the negative direction compared to the usual 3.21, reinforcing concerns about sustaining strong academics under law school pressure. These top three shaped the decision more than your solid Year 1 decile, family income, or full-time status, which are common among admitted students. While your LSAT gives you a real edge over many peers, the model saw your later academic metrics as red flags when stacked against those who typically pass the bar. To move forward, consider retaking the LSAT to boost it further or strengthening your recent grades through post-bac courses or targeted prep to shift those deciles upward. Building a narrative around your Hispanic background—perhaps highlighting leadership or community work—could also help in appeals or reapplying to schools with holistic reviews. Many students in similar spots improve these metrics and succeed, so focus on actionable steps like GPA-boosting programs tailored for law applicants. With persistence, you can reframe your profile for the next cycle.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

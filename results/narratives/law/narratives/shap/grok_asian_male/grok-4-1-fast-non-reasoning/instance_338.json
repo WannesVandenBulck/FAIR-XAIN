@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 338,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:28.376038",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, you've shared your undergraduate GPA of 2.90, LSAT score of 30, middle family income bracket, full-time student status, and school deciles of 4th in both Year 1 and Year 3—solid details that paint a picture of your academic journey so far. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 41.4% chance that you would fail the bar on your first try, which tipped the scale toward rejecting your application to prioritize candidates with lower predicted risks. This prediction isn't a judgment on your potential or character, but a data-driven assessment based on patterns from past students' outcomes. The three most influential factors in pushing your prediction away from failure—and somewhat in your favor—were your family income, Year 3 school decile, and full-time enrollment status. Your middle family income bracket stood out as the strongest positive influence, as it aligns with backgrounds where students often succeed despite challenges, unlike lower brackets that sometimes correlate with higher failure rates. Similarly, landing in the 4th decile for Year 3 grades (below the typical 5.53 average) still nudged the model positively compared to even lower performers, suggesting resilience in your later academics. Being a full-time student, like over 92% of applicants, provided another favorable boost, as part-timers have historically faced steeper odds in passing the bar promptly. While your LSAT and undergrad GPA were below averages (36.7 and 3.21, respectively), they weren't the top drivers here; the model weighed your overall profile holistically. This means your application was close—far from a slam-dunk rejection—but the cumulative risk was just high enough to pause admission. To turn this around, consider retaking the LSAT to aim above 36, bolstering your GPA through post-bac courses or a master's, and gathering strong recommendation letters highlighting your full-time dedication and upward trajectory. Many students in similar situations, including Asian males from middle-income families, have succeeded by addressing these gaps and reapplying stronger. You're clearly motivated; use this feedback as a roadmap to boost your bar passage odds and secure that spot next cycle. Keep pushing—you've got the foundation to outperform this prediction.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

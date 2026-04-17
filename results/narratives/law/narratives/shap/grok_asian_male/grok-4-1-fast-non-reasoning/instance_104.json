@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 104,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:31:37.303968",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 52% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting those predicted to succeed and avoid high-risk profiles. The primary driver pushing toward this failure prediction was your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers—far below the typical average of around 5.5—signaling to the model a significant drop in performance that strongly correlates with bar struggles. This was the most influential factor in the decision, outweighing others by a wide margin. On a more positive note, your family's high income bracket worked in your favor, pulling the prediction toward success compared to the dataset's average lower-income profiles, as it often links to better resources and support. Your LSAT score of 30 also nudged things slightly toward passing, though it fell short of the typical 37 average seen in successful applicants. Overall, while your undergraduate GPA of 2.6 and Year 1 decile of 4 were below averages too, they weren't the top influencers here—your later academic slide dominated the model's concern. Full-time enrollment status aligned with the vast majority of students (over 90%), so it didn't sway the outcome much either. Compared to typical admitted students, who boast stronger consistent rankings and higher test scores, your profile raised red flags about bar readiness despite strengths like family background. This isn't a judgment on your potential as a person or lawyer—models like this focus narrowly on historical patterns. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through targeted prep or additional coursework, and gathering strong recommendation letters that highlight your resilience and non-academic strengths. Reapplying after addressing these gaps could shift your prediction dramatically, opening doors at schools that value growth stories like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

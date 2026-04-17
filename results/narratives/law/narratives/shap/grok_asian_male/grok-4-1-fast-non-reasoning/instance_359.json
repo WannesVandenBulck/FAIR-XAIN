@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 359,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:47:51.196740",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a high family income background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 3.00 and LSAT score of 29, which are below the typical averages of 3.21 and 36.70 seen among past students in our dataset. The admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 40.6% chance that you would fail it—a risk level high enough to lead to the rejection of your application, as the school prioritizes candidates with stronger projected bar success. The most influential factor pushing the prediction toward failure was your Year 3 school decile ranking of 1, meaning your grades placed you in the bottom tenth of your peers that year, far below the average decile of about 5.5 and signaling a potential struggle with the rigorous demands ahead. Counterbalancing this somewhat was your family's high income bracket, which is associated with better resources and support, nudging the model slightly toward expecting bar passage success compared to lower-income peers. Your undergraduate GPA also helped in a similar way, pulling the prediction toward passing since, while below average, it still demonstrated a baseline of academic capability. These top three elements—your Year 3 performance as the strongest driver toward failure, tempered by family income and GPA—together shaped the model's cautious outlook on your bar exam odds. For context, most admitted students have stronger Year 3 deciles closer to the middle or top of their class, which aligns with higher bar passage rates in our historical data. Your full-time enrollment plan is typical for over 90% of students and didn't sway the decision much. This isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds succeed with targeted improvements—but the model weighs these academic signals heavily to protect the school's bar passage reputation. To move forward, focus on boosting your academic decile through stronger coursework or test prep, perhaps retaking the LSAT to hit closer to 37, and consider part-time options if they fit better with building study habits. Gathering letters highlighting your resilience or extracurriculars could also strengthen a reapplication, and exploring bridge programs might help demonstrate bar readiness. With deliberate steps like these, you can reshape your profile for future success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 236,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:02.749705",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.30 and an LSAT score of 35, your law school application stood out in some positive ways, including your upper-middle family income background and plans to attend full-time like most students. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 53.1% chance that you would fail it—crossing the threshold that led to your rejection. This prediction was driven primarily by your academic performance in school, especially your position in the lower deciles for grades in Year 3, which was the single most influential factor pushing the model toward forecasting failure. Your undergraduate GPA, while slightly above the typical 3.21 average, played a helpful counterbalancing role, nudging the prediction in a more favorable direction by suggesting stronger overall college-level preparation. Similarly, your LSAT score of 35, though below the dataset average of 36.70, still contributed positively by indicating solid reasoning skills compared to lower performers. These top three elements—your Year 3 decile ranking, undergrad GPA, and LSAT—were the key drivers, with the weaker Year 3 performance outweighing the strengths in your other metrics and tipping the scales against you relative to students who typically succeed on the bar. In the broader dataset, applicants who pass often rank higher in later-year deciles like yours, making your profile appear riskier by comparison. While your full-time status aligns with the vast majority (over 92%) of successful students, it wasn't enough to offset the academic concerns. This isn't a judgment on your potential as an Asian male student with a solid foundation—many in similar demographics excel with targeted improvements. To move forward, focus on bolstering your later-stage academic record, perhaps through postgraduate courses or retaking the LSAT to push closer to or above average, and reapply to programs with more holistic reviews. Building a stronger narrative around your resilience and any relevant experiences could also help in appeals or alternative schools. With these steps, you can reshape how models and admissions teams see your bar exam prospects.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

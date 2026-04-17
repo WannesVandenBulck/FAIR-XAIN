@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:03:30.036827",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background and achievements—like your solid LSAT score and middle-income family situation—show real determination to pursue this path. However, the admissions model, which predicts first-time bar exam success based on profiles like yours from past students, estimated a 72.3% chance that you would fail the bar exam. This high predicted risk led to your application's rejection, as the school prioritizes candidates likely to pass on their first try. The model's decision hinged most strongly on your Year 3 school grades, which placed you in the bottom decile compared to peers, powerfully signaling to the model a heightened risk of bar failure. Next in influence was your LSAT score of 39, which is above the typical student's 36.7 and actually worked in your favor by nudging the prediction toward expecting you to pass. Your Year 1 grades, landing in the second decile well below the average fifth decile, also pushed against you, reinforcing concerns about consistent academic performance. While factors like planning full-time study aligned with the norm for most students, they didn't outweigh these grade-related red flags. Compared to typical applicants who pass the bar, your deciles suggest room for growth in coursework rigor, unlike the stronger mid-to-upper rankings that often predict success. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar starts—but the model weighs early academic signals heavily for bar outcomes. To move forward, consider retaking courses or a post-bac program to boost your deciles, perhaps targeting schools with holistic reviews that value your LSAT strength. Building a narrative around your unique background through recommenders could also help in reapplying. With targeted improvements, you can shift these predictions in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

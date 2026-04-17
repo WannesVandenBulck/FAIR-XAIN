@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:25:16.646852",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like grades, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.90 (below the typical 3.21 average), LSAT score of 34 (under the usual 36.70), Year 1 school decile of 2 (far below the average 5.71), Year 3 decile of 2 (versus the average 5.53), upper-middle family income, and full-time student status—and predicted a 99.2% chance that you would fail the bar exam on your first attempt. This extremely high failure risk led directly to the rejection of your application, as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing the prediction toward failure was your Year 3 academic decile ranking of 2, which signaled weaker performance relative to peers and strongly indicated bar struggles ahead. Next in importance was your Year 1 decile of 2, similarly below average and reinforcing concerns about consistent underperformance from early on. Your upper-middle family income also contributed toward the failure prediction, as the model associates it with patterns of lower bar passage in the data, though less strongly than your grades. Compared to typical students who pass, your deciles are in the lower tail of the distribution, while your LSAT and GPA, though not the top drivers here, align with profiles that rarely overcome such early academic hurdles. Full-time status is common and didn't sway things much either way. This isn't a judgment on your potential or background—many Asian male students with stronger early grades do succeed—but the model saw your grades as the biggest red flags. To move forward, focus on retaking the LSAT to boost it above 36, auditing undergrad courses or targeted prep to rebuild your GPA foundation, and seeking mentorship from bar-passed alumni in similar circumstances. Document any extenuating factors like personal challenges during those early years, as appealing with evidence of improvement could help future applications. With deliberate steps to address these academic gaps, you can shift your profile toward the successful passers and reapply stronger.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

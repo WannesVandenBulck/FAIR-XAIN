@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 338,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:19:17.344232",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, LSAT score of 30, middle-family income background, full-time student status, and school deciles of 4th in both Year 1 and Year 3 grades—details that paint a picture of your academic journey so far. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 41.4% chance that you would fail the bar on your first try, which crossed the threshold for rejecting your application to protect the school's bar passage rates. This prediction wasn't random; it weighed your profile against patterns from past students, focusing on key factors that best predict bar success. The three strongest influences pulling the model toward seeing you as likely to pass—rather than fail—were your middle-family income, your Year 3 decile ranking, and your full-time enrollment status. Your middle-income background stood out as the top positive factor, as it aligns with many students who went on to pass the bar, unlike lower brackets that sometimes signal extra hurdles. Similarly, landing in the 4th decile for Year 3 grades (below the typical 5.53 average) still nudged the prediction favorably compared to even lower performers. Being a full-time student, like over 92% of applicants, further helped by matching the profile of those who balance studies without part-time work distractions. However, other elements in your profile, such as your LSAT score of 30 (well below the 36.7 average) and undergraduate GPA of 2.90 (under the 3.21 norm), likely tipped the overall balance toward that concerning 41.4% failure risk. In short, while these top three factors gave you a boost toward passing, they weren't quite enough to offset weaker areas when stacked against typical admitted students who boast stronger test scores and GPAs. You're not far off, though—many in similar situations have turned things around. To strengthen future applications, consider retaking the LSAT to push toward 35 or higher, bolstering your GPA through post-bac courses or a master's program, and gathering letters highlighting your resilience as a Hispanic student overcoming challenges. Reach out to admissions advisors for targeted feedback, and explore bridge programs designed for diverse applicants like you to build that bar-ready track record. With focused steps, you can shift the odds decisively in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

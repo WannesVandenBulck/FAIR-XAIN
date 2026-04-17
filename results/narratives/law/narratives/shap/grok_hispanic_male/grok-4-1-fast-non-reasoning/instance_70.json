@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 70,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:14.214842",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your strong undergraduate GPA of 3.20, which is right in line with the typical applicant's 3.21, along with an LSAT score of 34, your upper-middle family income background, and your plan to attend full-time. The admissions model, trained on data from thousands of past students' paths to the bar exam, predicted a 75.2% chance that you would fail the bar on your first try, tipping the decision against your application. This high failure risk stems primarily from your academic decile rankings in school—specifically, your Year 3 decile of 2, which placed you in the lower end compared to the average of about 5.5, and this was the single biggest factor pushing the model toward expecting a bar exam struggle. Your Year 1 decile of 2, also below the typical 5.7 average, added to that concern as the third-most influential element, signaling to the model a consistent pattern of underperformance relative to peers. On a more positive note, your undergraduate GPA stood out as the second-most important factor, actively working in your favor by pulling the prediction toward bar exam success, much like it does for many who pass. While your LSAT score was a bit below the group average of 36.7 and your full-time status is common among applicants, they played smaller roles here. Compared to typical students who pass the bar, your lower deciles stand out as the key deviation, as stronger mid-school rankings often correlate with first-try success in this model's view of historical data. This isn't a judgment on your potential or background—many from similar Hispanic and upper-middle family situations succeed with targeted improvements. To move forward, focus on boosting your academic deciles through stronger coursework or prep in the coming years, perhaps retaking the LSAT to hit closer to 37 or above, and gathering letters highlighting your resilience. Consider community college or targeted tutoring programs that have helped others in your position climb those rankings. Reapplying after addressing these gaps could shift the model's outlook significantly, opening doors to approval. You're clearly driven, and with these steps, your story can still lead to passing the bar and practicing law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

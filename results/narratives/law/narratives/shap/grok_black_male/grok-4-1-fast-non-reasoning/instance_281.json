@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 281,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:48:39.892759",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid LSAT score and plans to attend full-time, you've put real effort into your law school application, including your undergraduate GPA of 2.60 and background from a lower-middle income family. The admissions model we use predicts your likelihood of failing the bar exam on the first try, and it estimated a 58.9% chance of failure for you—high enough that it tipped the decision toward rejecting your application to help ensure we admit students most likely to succeed on the bar. This prediction wasn't random; it hinged on a few key parts of your academic record that stood out the most to the model. The biggest factor pushing toward a failure prediction was your Year 3 school decile ranking of 1st, which is much lower than the typical student's 5.53 average—this suggested to the model a dip in performance that often correlates with bar struggles. Next, your LSAT score of 38, above the average of 36.70, worked strongly in your favor, pulling the prediction toward expecting you to pass. Your Year 1 decile of 3rd, below the average of 5.71, added a moderate push toward failure, reinforcing concerns about early inconsistencies in your grades. Compared to typical students who pass the bar, your later academic decile is a standout red flag, even though your LSAT shines brighter than most. These top three elements—your Year 3 deciles, LSAT, and Year 1 deciles—drove about 80% of the model's reasoning for you specifically. While factors like your full-time status (common for 93% of students) and family income played smaller roles, they didn't outweigh the academic signals. This isn't a judgment on your potential as a Black man from a modest background pursuing law—many in similar situations succeed with targeted improvements. To move forward, focus on boosting your recent grades through tutoring or extra coursework, retake the LSAT if possible to solidify that strength, and consider programs offering bar prep support for students like you. Reapplying after addressing these could flip the model's view, and we're here to guide you on building that stronger profile.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

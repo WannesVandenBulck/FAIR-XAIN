@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 66,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:59.652008",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.70, an LSAT score of 39, upper-middle family income, and plans to attend full-time, along with your school decile rankings from Year 1 and Year 3 both sitting at the lowest 10th percentile. The admissions model, which predicts the likelihood of passing the bar exam on the first try based on profiles like yours, estimated a 62.6% chance that you would fail it—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your background that stood out the most to the model. The strongest influence pushing toward a failure prediction was your Year 3 school decile ranking in the bottom 10%, well below the typical student's midpoint around the 5th or 6th decile, signaling to the model a notable dip in later academic performance. Next in importance was your LSAT score of 39, which actually worked in your favor by pulling the prediction toward passing, as it's stronger than the average of 36.7 seen in the dataset. Rounding out the top influences, your Year 1 decile also in the bottom 10%—again lower than the average—nudged the outlook toward failure, suggesting early struggles that the model weighs heavily. Compared to typical students who pass the bar, your low deciles are a bigger red flag than most, while your LSAT helps but couldn't fully offset them. Your full-time status aligns with the vast majority at 92.7%, so it didn't sway things much either way. This isn't a judgment on your potential as a Hispanic student from an upper-middle background—it's the model highlighting patterns from past bar outcomes. To move forward, consider retaking the LSAT to boost it further or strengthening your recent academic record through additional coursework or a post-bac program to improve those decile rankings. Many applicants in similar spots have succeeded by addressing these exact areas before reapplying. With targeted improvements, you can shift the model's view and open doors to law school.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

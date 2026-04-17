@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 348,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:47:09.669826",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including a solid LSAT score of 36—close to the typical 36.7 average—and an undergraduate GPA of 2.8, which is a bit below the usual 3.21. However, the university's admission model, trained on past students' data to predict first-time bar exam success, estimated a 73.2% chance that you would fail the bar exam, leading directly to the rejection of your application. This prediction hinges on how your academic history stacks up against patterns seen in thousands of similar students. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 1, meaning you placed in the bottom tenth of your peers that year—far below the average decile of about 5.5—which strongly signaled potential struggles on a high-stakes exam like the bar. Next in importance, your LSAT score, while respectable, worked slightly in your favor by nudging the prediction toward passing, as it aligned well with scores of students who succeeded. Your Year 1 decile of 3, also below the average of 5.7, added further weight toward the failure side, reinforcing concerns about consistent academic performance early on. Compared to typical admitted students, who often rank higher in these school deciles and show steadier trajectories, your lower rankings in both years made your profile riskier in the model's eyes, even with your other strengths. This isn't a judgment on your potential or background—many Asian males from similar family incomes thrive in law—but the model prioritizes these proven bar exam predictors to protect the program's outcomes. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or targeted GPA improvement initiative, and reapply after demonstrating stronger academic momentum. You might also seek bar prep resources early or explore part-time options if full-time study proved challenging before. With focused effort on these gaps, your LSAT strength could shine brighter next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

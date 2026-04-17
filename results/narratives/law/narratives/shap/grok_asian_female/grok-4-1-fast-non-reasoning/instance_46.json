@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 46,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:07:09.432891",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 40.5% chance that you would fail—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 2.60, LSAT score of 37.50, Year 1 and Year 3 decile rankings both at 2, middle family income bracket, and full-time enrollment plans. Among students who passed the bar, the average undergraduate GPA is 3.24, and typical Year 1 and Year 3 deciles are around 6 and 5.9, respectively, showing your grades placed you lower in your class compared to those who succeeded. Your LSAT score was slightly above the average for passers at 37.27, which helped your case. The three most influential factors in this decision were your LSAT, Year 3 decile, and Year 1 decile, in that order of impact. Your solid LSAT performance was the strongest positive force, pushing the prediction toward expecting you to pass by demonstrating key analytical skills needed for the bar. However, your Year 3 decile ranking had the biggest negative pull, signaling to the model a concerning dip in performance relative to peers who passed, which strongly nudged the outlook toward failure. Your Year 1 decile added further concern in the same direction, reinforcing that early struggles carried weight. While your middle income and full-time status align reasonably with successful students—where full-time is the norm at 93% and middle income is common—they weren't decisive here. This isn't a judgment on your potential or background, just how these patterns from past students shaped the model's view of your bar exam odds. To move forward, consider retaking the LSAT to boost that strength further, seeking academic advising to improve your class rankings in future studies, or exploring programs with bar passage support tailored to students starting from similar positions. With targeted improvements, you can shift these predictions in your favor for the next application cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 21,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:09.150507",
+  "status": "success",
+  "narrative": "As a Black male applicant with a lower-middle family income background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, predicting their likelihood of passing on the first try. The model assessed your profile—including your undergraduate GPA of 3.00, LSAT score of 24, Year 1 and Year 3 school decile rankings both at the 1st decile, and your plan to attend full-time—and calculated a 59.8% probability that you would fail the bar exam. This high risk of failure tipped the scales, leading to the rejection of your application, as the school prioritizes admitting students predicted to succeed on the bar. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking, which placed you in the bottom 10% of your school—far below the typical student's middle-of-the-pack standing around the 5th or 6th decile—and signaled to the model a concerning drop-off or stagnation in performance. Next in importance, your family income bracket worked in your favor, pulling the prediction toward passing because lower-middle incomes in the dataset often correlated with students who overcame challenges to succeed. Your LSAT score ranked third in influence, unfortunately contributing toward the failure prediction since your 24 was substantially below the average of about 37, making it harder for the model to see strong bar exam readiness. Compared to typical students, who often enter with higher test scores, mid-range GPAs around 3.21, and stronger decile rankings, your early academic struggles stood out as the biggest red flag despite your full-time commitment, which is common for 93% of applicants. This isn't a judgment on your potential as a Black man from a modest background who's clearly driven to pursue law full-time—many in similar situations have turned things around. To move forward, focus on retaking the LSAT to boost it toward or above the average, while strengthening your academic record through targeted coursework or a post-bac program to improve those decile rankings. Building a narrative in your next application about how you've addressed these gaps, perhaps with test prep or mentorship tailored to students like you, could shift the model's view. Admissions teams value resilience, so document concrete steps you've taken since this prediction. With persistence, you can reapply stronger and show the model—and the school—what you're capable of achieving.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

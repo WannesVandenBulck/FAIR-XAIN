@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 72,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:23.894364",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 40.3% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed strongly. Your undergraduate GPA of 3.50 stands out positively—it's above the typical 3.21 average—which was the most influential factor pushing the prediction toward you passing. However, your Year 3 school decile ranking of 1 (well below the average of 5.53) had the second-strongest pull in the opposite direction, signaling to the model a notable dip in performance that raised concerns about bar exam readiness. Your LSAT score of 30 (compared to the usual 36.70) also contributed somewhat toward the failure prediction, though less forcefully than your Year 3 deciles. Other details, like your middle family income bracket and full-time student status (common among 92.7% of applicants), played smaller roles. In contrast to typical students who pass, your profile shows strengths in undergrad work but weaker later rankings and test scores that tipped the balance. This isn't a judgment on your potential as a Black man pursuing law—many overcome similar hurdles—but the model weighs these patterns heavily from historical data. To move forward, consider retaking the LSAT to boost it closer to average, strengthening your recent academic deciles through additional coursework or explanations in a new application, and highlighting any bar prep or leadership experiences that counter these signals. Reapplying next cycle with targeted improvements could shift your predicted odds significantly, opening doors at this or other programs. You're clearly capable, given your solid GPA foundation—keep pushing.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

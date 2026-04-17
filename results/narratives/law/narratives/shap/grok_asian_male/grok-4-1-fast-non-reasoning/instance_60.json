@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 60,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:28:54.393510",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, predicting their likelihood of passing on the first try based on academic and personal factors. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 37, full-time student status, and school decile rankings from Years 1 and 3—and calculated a 91.9% probability that you would fail the bar exam. This high predicted risk of failure is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar from the outset. The decision hinged most heavily on your Year 3 school decile ranking of 1, which placed you in the bottom tenth of your peers and strongly pushed the prediction toward failure, signaling to the model a significant drop or struggle in performance later in your studies. Next in influence was your Year 1 decile ranking, also a 1 compared to the typical student's midpoint around the 5th or 6th decile, further reinforcing concerns about consistently low academic standing relative to others. Your LSAT score of 37, slightly above the average of 36.7, worked in your favor as the third most important factor, nudging the prediction somewhat toward passing and showing strength in standardized testing. While your full-time status aligns with most applicants and your GPA was close to average, these lower-ranked elements couldn't offset the dominant impact of your early and late-year deciles. In comparison to typical students who pass the bar, your bottom-decile rankings stand out as unusually low, often correlating with higher failure rates in the model's patterns. This isn't a judgment on your potential or background, but a data-driven flag that your grades may not predict bar success as reliably as they do for others. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through community college or targeted GPA improvement initiatives, and reapply after demonstrating stronger academic trends. Many students in similar situations have succeeded by addressing these exact gaps, so focus on building that upward trajectory. Your LSAT edge is a solid foundation—leverage it while tackling the areas that mattered most here.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

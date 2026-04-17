@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 333,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:08.042594",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid undergraduate GPA of 3.40—above the typical 3.21 average—and a strong LSAT score of 39, which beats the dataset average of 36.70, you've put together an impressive profile that many would envy. You're planning to attend full-time, aligning with the vast majority of students at 92.7%, and your family's middle-income bracket is right in line with common backgrounds. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 52.4% chance that you would fail the bar on your first try—tipping the scales just over the threshold that led to your application's rejection. This prediction hinges on a few key factors from your record that stood out most strongly to the model. The biggest influence pushing toward a failure prediction was your Year 3 school decile ranking of 1, placing you in the bottom tenth of your peers that year, well below the average decile of about 5.5. Next, though your LSAT score was a bright spot and actively worked in your favor by pulling the prediction toward passing, it wasn't quite enough to offset the concerns. Rounding out the top influences, your Year 1 decile of 1—again, far below the average around 5.7—further nudged the model toward expecting bar exam struggles, as early low performance like this has historically correlated with tougher outcomes for students in similar situations. Compared to typical admitted students, who often show stronger decile rankings across their early years, your profile signals higher risk in the model's eyes despite your later strengths. This isn't a judgment on your potential as an Asian male applicant—many from similar backgrounds succeed—but a data-driven flag on those early academic deciles. To move forward, consider retaking courses or building a stronger graduate record to boost those rankings, perhaps supplementing with bar prep experience or additional test prep to demonstrate growth. Admissions teams often value stories of improvement, so highlighting how you've addressed these early hurdles in a reapplication could shift the odds. With your LSAT and GPA as anchors, targeted steps here could position you strongly for another shot at law school.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

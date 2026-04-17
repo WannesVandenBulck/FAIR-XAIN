@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 327,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:45:40.311143",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, looking at their academic records, family backgrounds, and other details to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 3.10, LSAT score of 28, lower-middle family income bracket, full-time student status, and notably low Year 1 and Year 3 school decile rankings of 1—and predicted a 63.3% chance that you would fail the bar exam on your first attempt. This high predicted failure risk is why your application was rejected, as the school prioritizes admitting students likely to succeed on the bar based on patterns from past applicants. The three most influential factors in this decision were your Year 3 decile ranking, your Year 1 decile ranking, and your undergraduate GPA, in that order of impact. Your Year 3 decile of 1, which places you in the bottom 10% of your school's grades that year (far below the typical 5th or 6th decile), was the strongest driver pushing the prediction toward failure, signaling to the model a significant dip in performance at a critical stage. Similarly, your Year 1 decile of 1, also well below the average around the 5th or 6th decile, reinforced this concern by highlighting early struggles that often correlate with bar exam challenges in the dataset. On a more positive note, your undergraduate GPA of 3.10—slightly below the average of 3.21—worked in your favor, nudging the prediction somewhat toward passing and softening the overall risk assessment. Compared to typical students who pass the bar, your decile rankings stand out as unusually low, while your GPA is closer to the norm but couldn't outweigh those early red flags. Your LSAT of 28 is notably below the average of about 37, and while it played a role, it wasn't among the top influences here. This pattern suggests the model saw your academic trajectory in school as the biggest hurdle relative to peers who succeed. To move forward, consider retaking the LSAT to boost your score toward the typical 37 range, strengthening your high school-level grades through additional coursework or explanations in a new application, and perhaps exploring part-time options if full-time status factored into workload concerns. Reapplying after addressing these core areas could shift your predicted odds significantly, as many students improve their profiles and succeed on later attempts. Keep pushing—you've already shown resilience in completing your undergrad, and targeted improvements can change the story for schools like this one.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

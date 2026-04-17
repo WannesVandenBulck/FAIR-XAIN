@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:11:23.646350",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 49.9% chance that you would not pass—right on the edge, but enough to tip the decision against admission. This model looks at key indicators from past students' academic records and backgrounds to forecast bar success, helping the school make fair choices without considering gender or race. In your case, three factors stood out as having the strongest influence on this prediction: your LSAT score, your first-year grade decile, and your undergraduate GPA. Your LSAT score of 35 was the most pivotal, as it pulled the prediction toward expecting you to pass, performing better than what might drag others down but still below the average of 37.27 seen in students who succeeded on the bar. However, your first-year decile of 4 worked against you, pushing the outlook toward failure since successful students typically ranked around 6. Your undergraduate GPA of 2.60 had a similar negative pull, falling short of the 3.24 average among those who passed, signaling potential challenges ahead. Compared to admitted students, where middle family income like yours is common at 35% and full-time status aligns with 93% of passers, these academic metrics set you apart in a way that raised concerns. It's understandable to feel disappointed, especially with your full-time commitment and solid middle-income background mirroring many who make it through. To move forward, consider retaking the LSAT to boost that score closer to 37 or higher, as it could significantly shift future predictions in your favor. Strengthening your GPA through post-baccalaureate courses or highlighting upward trends in later deciles, like aiming above 5-6, would also help. Reach out to admissions advisors for targeted feedback, and explore programs with bar passage support tailored to students in your position. With focused improvements, you can reshape this story and reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 10,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:33.987063",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, an LSAT score of 25, middle-family income background, and your Year 1 and Year 3 school decile rankings both at 2—meaning you placed in the lower end of your class compared to typical students, whose averages hover around the 5th or 6th decile. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing the bar at 40%, a risk high enough to lead to the rejection of your application. This threshold reflects the school's aim to prioritize applicants likely to pass on their first try, avoiding the challenges of higher failure rates. Among all the factors considered, your undergraduate GPA stood out as the strongest positive influence, suggesting it pulled the prediction toward expecting you to pass despite other concerns. However, your Year 3 decile ranking had the most significant negative impact, pushing the model firmly toward predicting failure because it signals weaker performance relative to peers who typically rank higher. Your middle-family income also helped in a positive direction, as it aligns with backgrounds that have supported bar success for many students. Compared to averages, your LSAT score of 25 is notably below the typical 36.7, and your low deciles contrast with most applicants' stronger academic standings, amplifying the overall risk in the model's eyes. Your plan to attend full-time, like over 90% of students, didn't sway things much either way. While this decision stings, especially given your determination as a first-generation or underrepresented applicant, it doesn't define your potential. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your academic record through additional coursework or a post-bac program, and gathering strong letters of recommendation that highlight your resilience. Reapplying after addressing these gaps could shift the model's view, and exploring schools with holistic reviews might better value your unique story. Keep pushing—you've got the drive to rewrite this outcome.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

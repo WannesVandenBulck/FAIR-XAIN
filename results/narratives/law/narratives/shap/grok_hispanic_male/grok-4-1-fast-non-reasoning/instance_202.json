@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 202,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:10:41.745569",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes upper-middle family income and plans to attend full-time, which are common among applicants and didn't sway the decision much either way. The admissions model, trained on past students' data to predict bar exam success on the first try, estimated an 86% chance you'll fail it—far higher than what it sees in most applicants—leading directly to the rejection of your application. This prediction hinged most strongly on your LSAT score of 24, well below the typical 36.7 average, as lower scores like yours consistently signal higher bar failure risk in the model's view, pushing the outcome firmly toward failure. Next in influence was your Year 3 school decile ranking of 3rd, lower than the average 5.53, which further reinforced concerns about your academic trajectory compared to peers who ranked higher and passed the bar. Your undergraduate GPA of 2.4, dipping under the 3.21 average, added to this by nudging the prediction toward failure, though less forcefully than the others. Meanwhile, your solid 5th decile in Year 1 offered some counterbalance, hinting at early potential that might have helped if sustained. Overall, these top factors—your LSAT, later-year grades, and undergrad performance—stood out as the biggest drivers, painting a picture riskier than typical students who balance stronger scores across the board to earn passing predictions. It's tough news, especially when you're motivated to build on your family's progress, but this isn't a judgment on your worth—it's the model flagging patterns from thousands of similar paths. To move forward, consider retaking the LSAT to boost that score closer to average, strengthening your later academics through targeted prep or additional coursework, and perhaps seeking mentorship from successful Hispanic lawyers who've navigated similar hurdles. Reapplying with those improvements could shift your predicted odds dramatically, opening doors at schools that value resilience like yours. Keep pushing; many have turned early setbacks into bar-passing triumphs.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

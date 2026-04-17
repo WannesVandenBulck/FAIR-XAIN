@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:51.516567",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 61.9% chance that you would not pass—above the threshold we use for admission decisions. This prediction draws from your academic record, test scores, family background, and enrollment plans, focusing on patterns seen in past students without considering gender or race. The most influential factor pushing toward this failure prediction was your Year 3 grade decile of 1, which ranks you at the lower end compared to the average of about 6 for those who passed, signaling to the model a potential struggle with sustained performance leading into bar preparation. Next in importance, your strong LSAT score of 41—higher than the 37 average for passers—worked strongly in your favor, pulling the prediction toward success and showing your aptitude for the kind of reasoning the bar demands. Your Year 1 decile of 2 also contributed toward failure, though less forcefully, as it similarly trails the typical 6 seen among successful bar takers, highlighting early academic challenges. While your middle family income aligns with over a third of those who passed and your full-time enrollment matches nearly all of them, these didn't outweigh the grade concerns in the model's eyes. Overall, your profile stands out with that impressive LSAT amid lower undergraduate deciles and a GPA of 2.4 versus the 3.24 average for passers, creating a mixed signal where grades dominated. Compared to typical admitted students, who often show consistently higher deciles across years, your trajectory raised red flags about bar readiness despite your strengths. This isn't a judgment on your potential or background—it's a data-driven call to protect the program's outcomes. To move forward, consider retaking courses or programs to boost your deciles, perhaps supplementing with targeted bar prep to build on your LSAT edge. You might also explore part-time options or gap-year experiences that strengthen your record, then reapply with fresh evidence of growth. Many students in similar spots have turned things around by addressing these exact gaps—your LSAT suggests you have the raw ability to do so. Keep pushing; this is just one model's snapshot, not your story's end.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

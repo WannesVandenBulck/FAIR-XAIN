@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 208,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:59.458229",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid undergraduate GPA of 3.70—well above the typical 3.21 average—and an impressive LSAT score of 42, which stands out compared to the average of 36.70, you've clearly demonstrated strong academic potential in several areas. Your family comes from a lower-middle income bracket, and you're planning to attend law school full-time, which is the norm for about 93% of students in the dataset we used. However, the admissions model, trained on past students' data to predict first-time bar exam success, estimated a 48% probability that you would fail the bar on your first attempt—a risk level that unfortunately tipped the decision toward rejecting your application. This prediction hinges on just a few key factors from your profile, with your LSAT score being the single most influential one, as it strongly pulled the model's assessment toward expecting you to pass. Next in importance was your Year 1 school decile ranking of 2, which is notably lower than the average of about 5.7 and pushed the prediction toward failure by signaling early academic challenges relative to peers. Your undergraduate GPA ranked third in influence, providing a moderate boost toward passing but not enough to fully offset the concerns from your early performance. Compared to typical students who pass the bar, your early decile stands out as a bigger red flag, while your LSAT and GPA align more favorably with successful profiles. The model weighs these elements to gauge overall bar readiness, and in your case, that Year 1 dip created enough uncertainty. While this outcome is disappointing, especially given your strengths and the barriers Black students like yourself often face in competitive admissions, it doesn't define your future. To strengthen a future application, focus on building a stronger early academic record if reapplying, perhaps through targeted prep courses or additional undergrad-level achievements to lift that decile perception. You might also gather letters of recommendation highlighting your resilience and growth since Year 1, or retake the LSAT to push your already strong score even higher. Consider reaching out to admissions counselors at other programs for feedback, and explore bar prep resources early to demonstrate proactive commitment—many students in similar situations turn things around with persistence.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

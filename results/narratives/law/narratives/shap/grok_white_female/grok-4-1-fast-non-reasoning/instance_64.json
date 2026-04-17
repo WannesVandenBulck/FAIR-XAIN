@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 64,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T16:49:32.796163",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 51.6% chance that you would not pass—tipping just over the threshold that leads to rejection for many applicants. This prediction draws from your academic record, including your undergraduate GPA of 2.90 and LSAT score of 33.50, alongside your Year 1 and Year 3 school deciles, family income in the middle bracket, and your plan to attend full-time. The model weighed these factors against patterns from thousands of past students, focusing on those most predictive of bar success. The strongest influence pushing toward a failure prediction was your Year 1 decile ranking of 1st, which is notably lower than the 6th decile average among those who passed, signaling early academic challenges that often carry forward. Next in importance was your LSAT score, which actually worked in your favor by pulling the prediction toward passing, though not quite enough to offset other concerns since it's below the 37.27 average for successful bar takers. Your Year 3 decile of 2nd also contributed toward failure, remaining well below the typical 6th decile for passers and showing limited improvement over time. While your middle family income aligns with about a third of those who passed and your full-time status matches most successful students, these didn't outweigh the key academic signals. Compared to admitted applicants, who generally show stronger early and sustained rankings plus higher entrance scores, your profile appeared riskier for bar passage. This isn't a judgment on your potential or background—gender and race weren't factors here—but a data-driven call to protect the program's outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through post-bac courses if possible, or targeting schools with more flexible admissions while building a standout personal statement highlighting any upward trends. You might also seek bar prep resources early or explore part-time options if that fits your circumstances better. With targeted improvements, a stronger application could change the outcome next time.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "white",
+  "bias_batch": "white_female"
+}

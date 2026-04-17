@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 90,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:16:25.180500",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 72.3% chance that you would not pass. This high predicted risk of failure automatically triggers a rejection to ensure the program's overall success rates. The model's decision hinged most strongly on your Year 3 grade decile, which ranked quite low at 1 out of 10—far below the average of around 6 for students who went on to pass the bar—pushing the prediction firmly toward failure. Next in influence was your strong LSAT score of 39, which exceeded the typical 37.3 average among bar passers and worked in your favor, nudging the outlook toward success. Your Year 1 grade decile of 2 also played a notable role, as it too fell well short of the 6.0 average for successful students, further tipping the scales against you. While your middle family income aligns with over a third of bar passers and your plan to attend full-time matches nearly all of them, along with your solid undergraduate GPA of 2.9 compared to their 3.24 average, these weren't enough to offset the early and later academic deciles. Overall, your profile showed promise in test performance and stability, but the model saw your class rankings in the first and third years as the biggest red flags when stacked against those who typically succeed. This isn't a judgment on your potential or background—it's a data-driven call focused purely on bar passage patterns. To move forward, consider retaking courses or pursuing a post-baccalaureate program to boost your decile rankings, as even modest improvements there could dramatically shift future predictions. You might also seek targeted LSAT-level prep to amplify your strengths, or explore part-time options at schools with more flexible admissions. Gathering letters from professors who can highlight your growth trajectory would personalize your next application. With focused effort on those early academic hurdles, you're well-positioned to reapply stronger next cycle.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

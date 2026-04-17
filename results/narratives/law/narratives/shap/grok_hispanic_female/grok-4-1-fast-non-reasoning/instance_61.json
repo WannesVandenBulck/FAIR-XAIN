@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 61,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:01:37.426976",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 60% chance that you would not pass. This threshold triggered the rejection to help the university select applicants with the strongest projected outcomes. The model's decision hinged most strongly on your ranking in Year 3 grades at school, which fell in the bottom decile—far below the middle-to-upper deciles typical for students who go on to pass the bar. This low standing pushed the prediction heavily toward expecting failure, as it signals challenges in sustaining strong performance over time. Next in influence was your LSAT score of 36, which is slightly under the average of about 37 that successful bar takers usually have; even so, it worked in your favor by nudging the odds a bit toward passing. Your Year 1 grade decile of 2 also contributed toward the failure prediction, though less forcefully, placing you well below the sixth-decile average seen in passers. While your middle family income aligns with over a third of those who succeed, and your undergraduate GPA of 2.8 trails the 3.24 average for bar passers, these played smaller roles here. Being full-time like most admitted students was neutral in the mix. Overall, your profile compares to accepted applicants by lagging notably in those early and later grade rankings, despite a solid LSAT pulling some weight. To move forward, focus on boosting your academic deciles through targeted study habits or retaking key assessments, and consider retaking the LSAT to strengthen that favorable factor. Building a stronger upward grade trajectory could shift future predictions dramatically in your favor. Many students in similar positions have succeeded by addressing these core academic signals head-on. Keep pushing—you have the drive to redefine this story.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

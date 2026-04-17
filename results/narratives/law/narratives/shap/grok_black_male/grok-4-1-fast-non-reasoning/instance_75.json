@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:35:39.173667",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, test scores, family background, and other details to forecast your future performance. For you specifically, it calculated a 77% probability that you would fail the bar exam initially, which is high enough that the admissions team decided to reject your application to minimize the risk of poor bar passage rates at the school. This prediction was driven primarily by three key factors from your profile, ranked by their influence on pushing the outcome toward failure.\n\nThe most influential was your Year 3 school decile ranking of 1, meaning you placed in the bottom tenth of your peers that year—far below the typical student's middle-of-the-pack average around the 5th or 6th decile—which strongly signaled to the model a higher risk of bar struggles ahead. Next, your LSAT score of 24 stood out as a major concern, well below the dataset average of about 37, further tilting the prediction toward failure by suggesting challenges with the standardized reasoning skills needed for the bar. Rounding out the top influences, your Year 1 decile of 1—again, in the lowest tenth compared to peers' average of around 6—reinforced this pattern of early underperformance, consistently pointing the model in the same worrying direction.\n\nUnlike many full-time applicants who form the vast majority of the dataset, your consistently low decile rankings set you apart from typical students who hover in mid-range performance and succeed more often. Your undergraduate GPA of 2.9, slightly below average, and low family income bracket played supporting roles but weren't the main drivers here. While these factors paint a tough picture right now, they're not destiny—many students in similar situations have improved through targeted effort.\n\nTo move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your high school and undergrad grades if possible through additional coursework or post-bac programs, and seeking mentorship programs tailored for Black male law aspirants that focus on study habits and bar prep. Building a stronger academic trajectory now could dramatically shift future predictions in your favor. Keep pushing; your determination can rewrite this story.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 317,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:45:01.035786",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam, based on profiles from thousands of past students. The model estimated a 40.4% chance that you would fail the bar exam on your first attempt—a risk level high enough that the university rejected your application to prioritize candidates with stronger predicted odds of passing. The primary driver pushing toward this failure prediction was your Year 3 school decile ranking of 2, which placed you in the lower part of your class (compared to the typical student's decile of about 5.5), signaling to the model a potential struggle with the rigorous demands ahead. Closely counterbalancing that was your undergraduate GPA of 3.40, which is solid and above the average of 3.21 for past students, strongly pulling the prediction in favor of bar exam success. Your LSAT score of 35 also helped your case by nudging the odds toward passing, though it fell a bit short of the typical 36.7 average. Other aspects, like your middle family income bracket and full-time student status (shared by over 90% of applicants), played smaller roles in the overall assessment. In essence, while your college grades and LSAT showed promise, your weaker Year 3 performance stood out as the most influential concern, outweighing those positives just enough to tip the scales. Compared to typical students who pass, your profile aligns well on GPA and enrollment type but lags on later high school rankings, which the model weighs heavily for law school outcomes. This isn't a judgment on your potential as an Asian male student—many in similar demographics succeed with targeted improvements—but a data-driven flag on bar passage risk. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps supplementing with LSAT prep or GPA-enhancing post-bac work to strengthen future applications. Universities often re-evaluate with updated transcripts, so focus on demonstrating upward trends. You're clearly capable, given your above-average undergrad record; channeling that into visible academic gains could shift your predicted odds dramatically for the next cycle. Keep pursuing your legal ambitions—persistence pays off for determined students like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

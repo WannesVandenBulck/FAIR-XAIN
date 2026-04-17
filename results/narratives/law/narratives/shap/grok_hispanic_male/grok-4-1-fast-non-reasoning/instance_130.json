@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 130,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:58.557595",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 2.10, LSAT score of 23.50, lower-middle family income background, and your grades placing you in the bottom decile for both your first and third years of school, along with your plan to attend full-time. The admissions model evaluated these details to predict your likelihood of passing the bar exam on the first try, and it estimated a 97% chance that you would fail. This high predicted risk of failure is why your application was rejected—law schools use this model to prioritize students with stronger signals of bar exam success to maintain their pass rates. The three biggest factors pushing the prediction toward failure were your third-year school decile ranking, your LSAT score, and your first-year school decile ranking, in that order of influence. Your third-year decile of 1—well below the typical student's midpoint around 5.5—stood out as the strongest signal, suggesting to the model that your later academic performance raises serious concerns about handling rigorous legal studies and the bar. Similarly, your LSAT score of 23.50, far under the average of about 36.7, heavily contributed to the failure prediction by indicating potential challenges with the analytical skills tested on the bar exam. Your first-year decile of 1, also much lower than the average near 5.7, reinforced this pattern, showing early struggles that the model sees as predictive of ongoing difficulties. Compared to typical students who pass the bar, who often have mid-to-high deciles, stronger LSATs around 37, and GPAs averaging 3.21, your profile aligns more closely with those who fail, especially given these key gaps. While factors like your full-time status (common for 93% of students) and family income didn't sway the decision much, they couldn't offset the top concerns. This isn't a judgment on your potential or background—it's the model highlighting areas where your metrics fell short of bar-passing norms. To move forward, consider retaking the LSAT to boost your score, strengthening your academic record through additional coursework or a post-bac program, and exploring schools with holistic reviews that might weigh your personal story more heavily. With targeted improvements, you can reshape these signals and reapply stronger.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

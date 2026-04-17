@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:30:56.585230",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile shows a mix of strengths and challenges that the admissions model carefully evaluated. Your undergraduate GPA of 3.10 is close to the typical student's 3.21 average, while your LSAT score of 32 falls below the dataset average of 36.70, and your Year 1 school decile ranking of 4 is lower than the average of 5.71, though your Year 3 decile of 8 exceeds the typical 5.53. The model predicts a 48.7% probability that you would fail the bar exam on your first try, which is high enough to tip the decision toward rejecting your application, as the school prioritizes candidates likely to pass and succeed in practice. This prediction hinges on just a few key factors from your record, ranked by their influence on the outcome. The strongest positive factor in your favor was your Year 3 decile ranking, which significantly pushed the model toward expecting you to pass the bar, highlighting your later academic improvement as a major strength. Next in influence was your LSAT score, which pulled the prediction in the direction of failure because it was on the lower side compared to most applicants. Finally, your Year 1 decile ranking had a modest but negative effect, nudging the model toward failure due to that earlier weaker performance. Overall, while your upward trajectory in grades helped, the LSAT and early decile concerns outweighed it, making your risk profile higher than typical admitted students who often have stronger early and test scores. Many successful applicants from similar backgrounds balance these by excelling across the board early on. To move forward, consider retaking the LSAT to boost your score above average, as that could dramatically shift future predictions in your favor. Strengthening any early-grade weak spots through additional coursework or explanations in reapplications might also help. With your demonstrated improvement by Year 3, persistence could position you strongly for other programs that value growth stories like yours. Keep building on that momentum—you've already shown you can rise to the challenge.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

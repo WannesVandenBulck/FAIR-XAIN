@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 140,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:33:54.166356",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.40, LSAT score of 42, Year 3 school decile ranking of 2, middle family income bracket, and plan to attend full-time—and predicted a 52% chance that you would fail the bar exam on your first attempt. This probability tipped just over the threshold, leading to the rejection of your application as the school prioritizes admitting students likely to succeed on the bar. The three most influential factors in this decision were your LSAT score, Year 3 decile ranking, and undergraduate GPA, ranked in that order of impact. Your LSAT score of 42, which stands out well above the typical 36.7 average, was the strongest force pushing the prediction toward bar passage, essentially acting as a significant positive in your favor. However, your Year 3 decile of 2—far below the average of 5.53—had the largest negative pull, strongly signaling to the model a risk of bar failure based on that later academic performance. Your undergraduate GPA of 2.40, lower than the typical 3.21, added further concern by nudging the prediction toward failure, though with less intensity than the Year 3 ranking. Compared to typical students, your stronger LSAT helped offset some risks, but the weaker later grades stood out as a bigger red flag than average. Your full-time status aligns with most applicants at 92.7%, so it was neutral, and your middle income bracket was right around typical. While this rejection stings, especially with your solid LSAT showing real potential, it highlights where your record diverges from bar-passing patterns. To move forward, consider retaking courses or pursuing a post-bac program to boost your decile rankings and GPA, as those proved pivotal here—many students in similar situations have strengthened their profiles this way and succeeded later. You might also connect with advisors familiar with Asian American applicants navigating competitive admissions to strategize targeted improvements. With focused effort on those academic gaps, a stronger application could flip this prediction in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

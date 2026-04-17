@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 45,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:00:33.787383",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated an 84% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most heavily on your Year 3 school decile ranking, which placed you in the bottom tenth of your class that year—far below the top-half average where most students who passed the bar landed. This low standing was the strongest factor pushing the prediction toward failure, as it signals potential challenges in sustaining strong performance through law school and beyond. Next in influence was your Year 1 decile of 2, again well under the sixth-decile average of bar passers, reinforcing concerns about early academic momentum. Your LSAT score of 30 also played a key role, pulling the prediction further toward failure since it sits notably below the 37 average among those who succeeded on the bar. While your undergraduate GPA of 3.20 is close to the 3.24 average of passers and your full-time enrollment aligns with the vast majority who passed, these weren't enough to offset the top concerns. Your lower-middle family income bracket, though less pivotal here, is underrepresented among bar passers compared to middle and upper-middle groups, adding a subtle layer to the model's caution. Compared to typical accepted students—who boast higher deciles, stronger LSATs, and similar GPAs—your profile raised red flags in the areas the model weighs most for long-term success. This isn't a judgment on your potential or background, but a data-driven call to protect the program's outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your later-year grades through targeted study habits or tutoring, and exploring programs with more flexible admissions or bar prep support. With focused improvements in these core areas, you could reshape your profile for future applications and build real confidence for the bar ahead.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

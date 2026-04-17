@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 270,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:15:01.171309",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.20, which is right around the typical 3.21 average for students in our dataset, along with your Year 1 and Year 3 school decile rankings both at the 1st decile—meaning your early grades placed you at the lower end compared to peers—and an LSAT score of 23, well below the average of about 37. Your family comes from a lower-middle income bracket, and you've indicated plans to attend full-time, which is the norm for over 90% of applicants. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 47.7% chance that you would fail the bar exam, tipping the scales just enough to reject your application since the school prioritizes those predicted to pass with high confidence. Among all the factors considered, your undergraduate GPA stood out as the strongest positive influence, steadily pushing the prediction toward expecting you to pass the bar, likely because your solid GPA signals reliable academic habits despite not being exceptional. However, your Year 3 decile ranking had an even stronger counter-effect, driving the model toward failure by highlighting that your later high school performance lagged far behind most students' mid-range averages around the 5th or 6th decile. Your family income also played a supportive role, nudging things toward success, perhaps reflecting how lower-middle backgrounds have historically correlated with resilience in similar applicants. These top three elements—your GPA helping, Year 3 deciles hurting most, and income assisting—overrode other details like your LSAT or full-time status to shape this close-call decision. Compared to typical students who get approved, your profile shows strengths in GPA and background but is pulled down by those low deciles and LSAT, placing you below the stronger academic trajectories the model favors for bar passage. This isn't a judgment on your potential as a Hispanic man with clear drive—many in similar circumstances succeed with targeted effort. To move forward, focus on retaking the LSAT to boost it toward 35 or higher, seek academic advising to understand and improve on patterns like your Year 3 deciles, and consider programs offering LSAT prep or GPA-enhancing post-bac options tailored for underrepresented applicants like yourself. Reapplying after addressing these could flip the model's view in your favor. Keep pushing; your story is far from over.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

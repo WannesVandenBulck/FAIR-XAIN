@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:05:27.385416",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 65% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from patterns in academic records, test scores, and backgrounds of past students, focusing on key indicators of bar success without considering gender or race. The most influential factor pushing toward this failure prediction was your Year 3 grade decile ranking of 1st, which stands out sharply compared to the typical 6th decile among students who passed the bar, signaling a significant drop in performance that the model associates strongly with later struggles. Next in importance, your undergraduate GPA of 3.00 worked in your favor, as it's close to the 3.24 average for bar passers, helping to pull the prediction somewhat toward success. Your LSAT score of 28 also played a notable role, though it nudged the outlook toward failure since it's well below the 37 average seen in successful students. Other aspects, like your upper-middle family income aligning with many who passed and your full-time enrollment plans matching the norm for admittees, had less sway here. Overall, the model saw your Year 3 grades as the dominant concern, overshadowing strengths like your solid undergrad record. Compared to typical accepted students, who maintain steadier high school deciles and stronger entrance exam scores, your profile highlighted more risk in that late academic dip. This isn't a judgment on your potential or background—it's a data-driven flag based on historical outcomes. To move forward, consider retaking the LSAT to boost that score, reflecting on what led to the Year 3 dip and building a stronger upward trend in any further studies, or exploring programs with bridge courses for bar prep. Gathering letters from mentors who can speak to your resilience could also strengthen a reapplication. With targeted improvements, you can shift these predictors in your favor for another shot.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

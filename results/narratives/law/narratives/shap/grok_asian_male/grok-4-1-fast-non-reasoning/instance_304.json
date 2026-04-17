@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 304,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:44:09.512121",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 74.7% probability that you would fail the bar exam, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes. This decision hinged primarily on your school grade deciles from earlier years, which stood out as the strongest influences pushing the prediction toward failure. Specifically, your Year 3 decile ranking of 2—well below the typical student's 5.53—had the biggest negative impact, signaling to the model that your later academic performance might not build the momentum needed for bar success. Your Year 1 decile of 3, also lower than the average of 5.71, reinforced this concern by suggesting early struggles that carried over. On a brighter note, your LSAT score of 38—above the average of 36.7—worked in your favor, pulling the prediction somewhat toward passing and showing your potential in standardized testing. While your undergraduate GPA of 2.80 trails the typical 3.21, and your upper-middle family income aligns with many applicants, these played smaller roles compared to your deciles. Full-time enrollment, like most students at 92.7%, was neutral here. Compared to typical admitted students, your profile shows solid test-taking strength but weaker school rankings that outweighed it, placing you in a higher-risk group for bar failure. This isn't a judgment on your overall worth—many with similar starts have succeeded elsewhere—but the model prioritizes patterns from historical data. To move forward, consider retaking courses or programs to boost your decile rankings, perhaps through a post-baccalaureate or targeted prep that addresses those early gaps. You could also reapply after strengthening your GPA or gaining relevant experience, as schools often value demonstrated improvement. Keep pushing; your LSAT edge suggests real capability waiting to shine.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

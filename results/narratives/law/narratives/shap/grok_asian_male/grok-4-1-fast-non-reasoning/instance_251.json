@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 251,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:40:56.098305",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an upper-middle-class family background and plans to attend law school full-time, your profile stood out in several ways, including your undergraduate GPA of 2.80—which is below the typical 3.21 average—and an LSAT score of 26, significantly lower than the dataset average of 36.70. The admissions model evaluated your likelihood of passing the bar exam on the first try, predicting a 95.9% chance of failure, which directly led to the rejection of your application since the school prioritizes candidates expected to succeed. This high failure probability means the model saw your overall academic indicators as a strong risk for not making it through the bar on the initial attempt. The most influential factor pushing toward this fail prediction was your Year 3 school decile ranking of 1, placing you in the bottom 10% of your peers that year, far below the average decile of about 5.5, which signaled to the model a notable dip in performance at a critical stage. Next in importance was your LSAT score, which, being well below average, further reinforced the model's concern about your readiness for the rigors of law school and the bar. Your Year 1 decile of 1, also in the bottom 10% compared to the typical 5.7 average, added to this by highlighting early struggles that the model weighed as a consistent pattern. While your full-time enrollment aligns with the vast majority of students (over 92%), it didn't offset these academic red flags. In comparison to typical students who pass the bar, your low decile rankings and LSAT put you in a much riskier group, where others with mid-range performances often tip toward success. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your later-year grades through additional coursework or tutoring, and reapplying after demonstrating clearer upward trends—these steps could significantly shift future predictions in your favor. Many applicants in similar situations have succeeded by targeting these exact areas, so you're not out of options yet.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

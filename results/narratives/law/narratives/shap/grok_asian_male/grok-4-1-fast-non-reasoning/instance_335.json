@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 335,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:16.992290",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid LSAT score of 37—right above the typical 36.7 average—your undergraduate GPA of 2.90 and middle family income background positioned you as a determined student pursuing full-time law studies. However, the admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 61.5% chance that you would fail the bar, tipping the scales against your application. This prediction led to the rejection, as the school prioritizes candidates likely to pass on their first try. The most influential factor pushing toward this failure prediction was your Year 3 school decile ranking of 2, well below the average of 5.53, signaling to the model that your later academic performance lagged behind peers who typically succeed. Next in importance, your LSAT score worked strongly in your favor, pulling the prediction toward passing by showing competitive standardized reasoning skills compared to most applicants. Your Year 1 decile of 3, also under the average of 5.71, further nudged the model toward failure, highlighting early inconsistencies in your school grades relative to high achievers. Overall, while your LSAT stood out positively against typical students, your lower decile rankings in both early and later years outweighed it, placing you below the profile of those predicted to pass. This isn't a judgment on your potential as an Asian male from a middle-income background—many in similar situations succeed with targeted improvements. To move forward, focus on bolstering your academic record, perhaps through postgraduate courses or retaking key exams to climb those decile rankings. Consider programs that value LSAT strength while offering bar prep support. Reapplying after addressing these gaps could shift your predicted odds dramatically. You're clearly capable, and with strategic steps, law school doors can reopen.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

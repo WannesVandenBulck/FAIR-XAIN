@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:58:30.132213",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 29, middle-family income background, and your Year 1 school decile of 5, which put you solidly in the middle of your peers. Your Year 3 decile dropped to 3, reflecting a dip in performance relative to classmates, while planning to attend full-time aligns with most students at 92.7%. The admissions model, trained on past students' data to predict first-time bar exam success, estimated your probability of failing at 45.8%—a risk level that tipped the decision against your application, as the school prioritizes those predicted to pass confidently. The most influential factor pushing toward this failure prediction was your lower Year 3 decile ranking compared to the typical 5.53 average, signaling to the model a concerning slide in academic standing that often correlates with bar struggles. Countering that somewhat was your undergraduate GPA, which, though below the 3.21 average, still nudged the prediction toward passing by showing a baseline of college-level competence. Your Year 1 decile of 5, right around the 5.71 average, provided another mild positive pull, indicating early stability amid your circumstances. Overall, these top three academic markers outweighed other details like your LSAT or family income in shaping the model's close-call rejection. Compared to typical admitted students, your profile shows stronger early footing but a later dip that stands out as a red flag. This isn't a judgment on your potential as a Hispanic man from a middle-income home—many overcome similar hurdles—but the model weighs patterns from past data conservatively. To move forward, consider retaking the LSAT to boost it toward the 36.7 average, strengthening your later-year grades through targeted prep or additional coursework, and highlighting any bar-relevant experiences in a reapplication. Schools value persistence, and addressing these gaps could flip the prediction next time. You're capable of turning this around with focused effort.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

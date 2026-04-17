@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:02:57.705101",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, your background includes a middle-income family, full-time student status, an LSAT score of 41, an undergraduate GPA of 2.40, and school decile rankings of 2nd in Year 1 and 1st in Year 3 based on your grades. The admissions model, which predicts first-time bar exam success using profiles like yours, estimated a 61.9% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application. This decision hinged on just a few key factors from your profile that stood out the most to the model. The strongest influence pushing toward a failure prediction was your Year 3 decile ranking of 1, which is notably lower than the typical student's 5.5 average and signaled weaker performance relative to peers. Next, your strong LSAT score of 41—above the average of 36.7—worked strongly in your favor, pulling the prediction toward expecting you to pass. Your Year 1 decile of 2, also below the average of about 5.7, added a moderate push toward the failure side, reinforcing concerns about early academic consistency. Compared to typical students who pass the bar, your lower deciles suggest your grades placed you in the bottom tiers of your school, which outweighed even your impressive LSAT in the model's eyes. While your full-time status aligns with most applicants and your GPA of 2.40 is below average, they played smaller roles here. To move forward, focus on boosting your academic deciles through stronger coursework or targeted prep, perhaps retaking the LSAT if possible or seeking programs that value your LSAT strength over past grades. Consider bridge programs or community college pathways that rebuild your record, and gather strong recommendation letters highlighting your potential as a dedicated Hispanic leader in law. With targeted improvements, you can reshape your profile for future applications and prove the model wrong.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

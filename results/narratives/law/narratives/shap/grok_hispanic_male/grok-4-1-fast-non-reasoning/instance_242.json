@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 242,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:13:17.716384",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared a solid undergraduate GPA of 3.40, which stands above the typical 3.21 average, along with a Year 1 school decile of 6 and a Year 3 decile of 8, reflecting steady academic progress, and a middle-class family income background. Your LSAT score of 32, however, falls below the dataset average of about 37 seen among past students. The admissions model, which predicts first-time bar exam outcomes based on profiles like yours, estimated a 70% chance that you would fail the bar—high enough to trigger an automatic rejection of your application to protect the school's bar passage rates. This prediction wasn't random; it hinged on just a few key factors from your profile that carried the most weight in the decision. The strongest influence pushing toward a failure prediction was your LSAT score, as lower scores like yours have historically correlated with tougher bar challenges compared to higher-scoring peers. Next in influence, your Year 3 school decile worked in your favor, pulling the prediction toward passing since your rank of 8 is stronger than the average of around 5.5, showing later academic strength that the model views positively. Your middle-class family income also nudged the prediction slightly toward failure, as students from similar brackets have shown mixed bar outcomes relative to others. Overall, your LSAT stood out as the dominant factor overriding these positives, placing your profile among those the model sees as higher-risk compared to typical admitted students with stronger test scores. While your full-time student status aligns with most (over 90%) in the dataset, it didn't sway things much here. This rejection stings, especially given your upward grade trajectory, but it's a signal to target that LSAT—consider targeted prep courses or retakes, as boosting it could flip future predictions. You might also gather letters highlighting your Year 3 improvements or personal resilience as a Hispanic student navigating these paths. Reapply after addressing the LSAT, or explore programs with holistic reviews that weigh your full story beyond numbers. Your potential is clear; this is just one model's snapshot, and with tweaks, doors will open.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

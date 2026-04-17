@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 31,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:59:44.881461",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your academic journey, including your undergraduate GPA of 3.20, LSAT score of 33, middle-family income background, part-time enrollment plans, and school deciles of 5th in Year 1 and 3rd in Year 3. The admissions model, trained on data from thousands of students who took the bar exam, predicted an 83% chance that you would fail it on your first try, which directly led to the rejection of your application since the school prioritizes candidates likely to pass and succeed in practice. This high failure probability means the model saw your profile as carrying substantial risk compared to others who typically pass. The three biggest factors pushing toward this fail prediction, in order of influence, were your choice of part-time status, your lower Year 3 decile ranking, and your middle-income family bracket. Choosing part-time study stood out most strongly, as only about 7% of students opt for it versus over 90% full-time, and it significantly raised the model's concern about bar exam success in your case. Your 3rd-place decile in Year 3—below the typical 5.5 average—further nudged the prediction toward failure, signaling a dip in performance that worried the model more than your solid Year 1 ranking. Even your middle-income background played a supporting role in heightening the risk, unlike higher brackets that often correlate with passing. While your undergrad GPA was right around the 3.21 average and didn't sway things much, these top factors overshadowed them. Compared to typical admitted students, who often have stronger late-year grades, full-time commitments, and different financial supports, your situation appeared riskier to the model. This isn't a judgment on your potential as a Hispanic leader in law—many overcome similar hurdles—but a data-driven call. To move forward, consider retaking the LSAT for a higher score, strengthening your recent academics through additional coursework, exploring full-time options if feasible, or applying to programs with holistic reviews that weigh your unique story more heavily. With targeted improvements, you can reshape this narrative and boost your odds next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

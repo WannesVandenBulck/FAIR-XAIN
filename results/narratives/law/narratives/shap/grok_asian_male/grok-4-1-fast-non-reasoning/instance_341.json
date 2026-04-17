@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 341,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:46:39.683334",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a Year 1 school decile of 3, which is below the typical 5.7 average, a notably lower Year 3 decile of 1 compared to the usual 5.5, a middle family income bracket, an LSAT score of 30 against an average of about 37, and an undergraduate GPA of 2.7 versus the standard 3.2, along with your plan to attend part-time rather than full-time like most applicants. The admissions model, trained on past students' data to predict first-time bar exam success, estimated an 87% chance that you would fail the bar exam, which directly led to the rejection of your application since the school prioritizes candidates likely to pass on their first try. This high failure probability means the model saw your overall profile as carrying substantial risk compared to students who typically get approved. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking at the bottom of your school, signaling weaker performance in later undergraduate years that strongly correlated with bar struggles in similar students. Next in importance was your choice of part-time enrollment, which is uncommon—only about 7% of students opt for it—and appears to hinder bar success in the model's view, unlike the full-time path taken by over 92% of peers. Your Year 1 decile, while not as dominant, still contributed toward the failure outlook by being in the lower third of your school, reinforcing concerns about early academic momentum. These top three elements—especially that low Year 3 standing—stood out as the biggest drivers, outweighing other aspects like your LSAT or GPA in shaping the decision for your specific situation. Compared to typical admitted students, who boast higher deciles across the board and full-time commitments, your markers placed you in a higher-risk group for bar passage. While this rejection stings, it's not the end of the road—consider retaking the LSAT to boost your score closer to average, strengthening your later-year grades through additional coursework, or exploring full-time options if feasible. You might also seek targeted bar prep programs proven to help students with similar profiles succeed. Reapplying after addressing these key areas could shift the model's view in your favor, and many in your position have turned things around with focused effort. Keep pushing forward; your determination as an Asian male navigating these challenges can make all the difference.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

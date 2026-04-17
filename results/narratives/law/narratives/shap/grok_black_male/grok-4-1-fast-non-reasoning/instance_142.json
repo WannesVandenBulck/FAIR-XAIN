@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 142,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:39:52.577965",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which evaluates applicants based on their likelihood of passing the bar exam on the first try, estimated a 62% chance that you would fail it. This prediction draws from patterns in data about thousands of past students, including their grades, test scores, family backgrounds, and more, to help the school make informed admission decisions. For you, as a Black male applicant, the model focused heavily on your academic performance in school, particularly your Year 3 grades placing you in the third decile—meaning you ranked in the lower third of your classmates—which stood out as the strongest factor pushing toward a failure prediction compared to typical students who average around the fifth or sixth decile. Your Year 1 grades, also in the third decile and below the average fifth-decile mark, added further weight in the same direction, signaling to the model a consistent challenge in standing out academically early on. Additionally, your upper-middle family income, while solid, influenced the prediction toward failure because the model associates certain income brackets with varying bar passage outcomes in the dataset, unlike the broader average trends. These top three factors—your Year 3 decile most prominently, followed by family income and Year 1 decile—together tipped the scales more toward risk than your other strengths, like your LSAT score of 34 (close to the average of 36.7) or undergraduate GPA of 3.10 (near the 3.21 average), or even planning full-time studies like most applicants. In contrast to many admitted students who show higher decile rankings, your profile aligned more closely with those who struggled on the bar exam. This isn't a judgment on your potential or background—it's the model's data-driven assessment to protect the school's bar passage rates. To move forward, consider retaking the LSAT to boost your score above average, strengthening your later-year grades through targeted coursework or tutoring, and perhaps exploring programs that value diverse backgrounds like yours with holistic reviews. You could also seek feedback from admissions counselors on building a stronger narrative around your resilience, or apply to schools with more flexible criteria. With focused improvements, your next application could tell a different story to models like this one. Keep pushing—many students in similar positions have turned things around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

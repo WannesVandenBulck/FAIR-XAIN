@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:33:29.881087",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 43.2% probability that you would fail the bar exam, which crossed the threshold for rejection, as the school prioritizes admitting those predicted to succeed strongly. Your undergraduate GPA of 3.10 is solid and close to the average of 3.21, while your family comes from a middle-income bracket, and you plan to attend full-time like most applicants. However, your Year 1 school decile ranking of 3 and Year 3 ranking of 2 are notably below the typical averages of around 5.7 and 5.5, respectively, and your LSAT score of 25.5 falls well short of the average 36.7. Among all these factors, your undergraduate GPA had the strongest positive influence, pushing the prediction toward expecting you to pass the bar, as it signals a reliable foundation despite not being exceptional. In contrast, your lower Year 3 decile ranking was the next most influential factor, nudging the model toward predicting failure by highlighting a dip in performance relative to peers. Your LSAT score followed closely, also contributing toward the failure prediction because it deviated significantly from what the model sees in successful students. Overall, while your GPA helped balance things out, the weaker showings in later school rankings and especially the LSAT tipped the scales against you compared to typical admitted students who excel across these metrics. This doesn't reflect your full potential or personal story—models like this look at patterns, not individuals. To strengthen future applications, consider retaking the LSAT to boost your score closer to or above average, and seek ways to improve or explain your decile rankings, perhaps through additional coursework or references. You might also explore targeted bar prep programs tailored for students from similar backgrounds, and apply to schools with holistic reviews that weigh personal resilience alongside numbers. Keep pushing forward; many overcome these hurdles and thrive in law.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

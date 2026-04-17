@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 75,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:08:59.280624",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try based on academic and background factors, estimated a 77% chance that you would not pass. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom group and significantly pushed the prediction toward expecting a bar exam struggle, unlike the much higher mid-to-upper deciles typical among those who passed. Your LSAT score of 24 was the second-biggest factor, as it fell well below the average of about 37 seen in students who successfully passed the bar, further tilting the outlook negatively. Rounding out the top influences, your Year 1 decile of 1 also contributed substantially to the failure prediction by signaling early academic challenges not common among passers. While your undergraduate GPA of 2.90 was somewhat lower than the 3.24 average for bar passers and your low family income bracket is rarer among successful students, these played lesser roles compared to your deciles and LSAT. Being a full-time student aligned with the norm for those who pass, offering a small counterbalance, but it wasn't enough to offset the key concerns. Overall, your profile stood out as riskier than typical accepted applicants, who generally show stronger rankings and test scores from the start. This isn't a judgment on your potential or hard work—many factors like these have proven predictive in past bar outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through additional coursework or tutoring, and exploring programs with supportive bar prep for students from similar income backgrounds. You might also gather letters highlighting your resilience and growth, then reapply after addressing these areas. With targeted improvements, your chances could shift dramatically for future opportunities.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

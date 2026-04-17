@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 81,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:36:01.823933",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic and background factors from past students. The model estimated a 61.9% probability that you would fail the bar exam, which crossed the threshold for rejection to minimize the risk of admitting students who might struggle post-graduation. The primary reason for this decision centered on your academic performance in school, particularly your lower rankings in Year 3 and Year 1 compared to peers—your Year 3 decile of 1 (well below the average of about 5.5) had the strongest pull toward predicting failure, as it signals challenges in sustaining strong grades over time. This outweighed your solid LSAT score of 41, which is above the typical average of 37 and pushed noticeably in favor of predicting success, showing your potential in standardized testing. Your Year 1 decile of 2 (versus an average around 5.7) also contributed toward the failure prediction, reinforcing concerns about early academic hurdles. Other factors like your middle family income bracket and full-time student status played lesser roles, aligning with the norm for most applicants. Compared to typical students who pass, your grades placed you in the lower tail of the distribution, while your LSAT stood out positively but wasn't enough to offset the rest. This isn't a judgment on your determination or background—many from similar circumstances succeed with targeted improvements—but the model prioritizes patterns from historical data. To move forward, focus on bolstering your GPA through retakes, supplemental courses, or test prep that highlights your strengths like the LSAT; consider part-time programs if work demands arise. Reapply after addressing these gaps, perhaps with letters explaining your journey as a Black male navigating these challenges. Schools value resilience, and data shows students who improve key metrics often overturn initial predictions. Your path to law is still viable with strategic next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

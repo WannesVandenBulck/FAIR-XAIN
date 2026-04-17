@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:17.061701",
+  "status": "success",
+  "narrative": "As an Asian male applicant with a solid LSAT score of 40—well above the typical 36.7—and upper-middle family income, you brought several strengths to your law school application, including strong Year 1 and Year 3 decile rankings of 7 in your school, both higher than average. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated a 72% chance that you would fail it, leading directly to the rejection of your application. This prediction hinges on how your profile stacks up against patterns from thousands of past students, focusing on key indicators of bar success. The most influential factor pushing toward this failure prediction was your undergraduate GPA of 2.6, which falls below the average of 3.21 and signaled to the model a potential gap in foundational academic readiness for the rigors of law school and the bar. Next in importance, your upper-middle family income level contributed toward the failure outlook, as the model associates certain income brackets with varying levels of external support or pressures that have historically impacted bar outcomes. Your Year 1 decile of 7, while above average, also nudged the prediction slightly toward failure rather than overriding other concerns. Compared to typical students who get approved, your profile shows promise in test scores and later school performance but is held back by that lower undergrad GPA, which often distinguishes passers from those who struggle on the bar. Full-time enrollment plans align with the vast majority of students, so that didn't sway things much. To move forward, consider retaking undergrad-level courses or targeted GPA-boosting programs to lift that key metric, while leveraging your LSAT strength in reapplying—many students in similar situations have succeeded by addressing undergrad weaknesses head-on.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

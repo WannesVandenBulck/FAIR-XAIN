@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:54.584151",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on academic records, test scores, and background details like yours. The model estimated a 63.2% probability that you would fail the bar exam, which crossed the threshold for rejection, as schools prioritize admitting students likely to succeed and avoid high-risk profiles. The primary factor driving this prediction was your Year 3 school decile ranking of 1st, which is notably lower than the typical 5.5 average—this stood out as the strongest signal pushing the model toward forecasting failure, suggesting your later academic performance raised concerns about sustained readiness for the bar's demands. In contrast, your undergraduate GPA of 3.00 worked in your favor, as it pulled the prediction somewhat toward success despite being slightly below the 3.21 average, showing your college record provided a positive counterbalance. Your LSAT score of 25.5, well below the usual 36.7, also nudged the outlook toward failure, reinforcing doubts about standardized test performance under pressure. Compared to typical students, where full-time enrollment is the norm at over 92%, your planned full-time status aligned with the majority and didn't sway the decision much, while your middle family income bracket was average and neutral. These top influences—especially the low Year 3 decile—overrode other aspects, painting a picture riskier than most applicants who rank higher in later school years. It's understandable to feel frustrated, particularly as an Asian applicant where strong academics are often expected, but this model focuses narrowly on bar passage signals. To move forward, consider retaking the LSAT to boost your score closer to average, strengthening your later-year grades through additional coursework or post-bac programs, and gathering letters highlighting your resilience. Reapplying after addressing these gaps could shift your profile toward the successful majority. Many students in similar positions improve and get accepted elsewhere—your UGPA shows you have potential to build on. Keep pursuing your goals; targeted improvements often turn predictions around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

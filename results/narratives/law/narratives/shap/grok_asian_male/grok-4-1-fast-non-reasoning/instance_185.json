@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 185,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:36:49.566956",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a Year 1 school decile of 2, a Year 3 decile of 2, middle family income, an LSAT score of 25, an undergraduate GPA of 2.50, and plans to attend full-time. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 52% chance you'll fail the bar—tipping just over the threshold that led to your application's rejection. This decision hinged on a few key factors from your background that stood out most strongly in the model's assessment. The biggest influence was your Year 3 school decile ranking of 2, well below the typical student's 5.5-ish average, which significantly pushed the prediction toward expecting bar failure by signaling lower relative performance among peers. Next, your middle family income level worked in your favor, pulling the odds somewhat toward passing, as it aligns with many students who succeed despite not coming from high-wealth homes. Your undergraduate GPA of 2.50, lower than the average 3.21, also nudged things positively but less powerfully, offering a modest counterbalance since it's not drastically out of line with some passers. Compared to typical students, your LSAT of 25 is notably below the 37 average, though it wasn't the top driver here, and your full-time status matches the vast majority who go on to pass. Overall, your lower Year 3 decile carried the most weight in overriding these positives, mirroring patterns where students in the bottom third of their class struggle more on the bar. While this stings, especially with your determination as a full-time aspiring lawyer, it's not a final verdict—many overcome similar starts. To move forward, consider retaking the LSAT to boost it toward average levels, strengthening your upper-year grades if possible through targeted study, or exploring post-bac programs to lift your GPA trajectory. Building a standout personal statement highlighting your resilience as an Asian male navigating these academics could also sway human reviewers in appeals or reapplications. With focused improvements, you can shift these odds in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

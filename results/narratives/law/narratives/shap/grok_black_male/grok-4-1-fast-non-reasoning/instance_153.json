@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 153,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:40:33.265168",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was carefully evaluated by an admissions model trained on data from thousands of students who went on to take the bar exam, looking at their academic records, test scores, and backgrounds to predict first-time success. The model assessed your profile— including your undergraduate GPA of 2.20 (well below the typical 3.21 average), LSAT score of 28 (compared to the usual 36.7), first-year school decile of 1 (versus an average of 5.71), third-year decile of 1 (against 5.53), middle family income bracket, and plan to attend full-time—and predicted an 82.7% chance that you would fail the bar exam on your first attempt. This high predicted risk of failure is why your application was rejected, as the school prioritizes admitting students likely to pass and succeed in their legal careers. The decision hinged most heavily on your third-year academic decile, which was in the bottom tier of your school; this stood out as the strongest factor pushing the model toward predicting bar failure, likely because students in higher deciles historically perform much better on the exam. Your first-year decile, also at the lowest level, played a significant supporting role in the same direction, reinforcing concerns about early academic struggles that often carry through to bar prep. Even your LSAT score contributed by nudging the prediction further toward failure, as it fell short of what's typically needed to signal strong analytical readiness for the rigors ahead. While your full-time enrollment plan aligns with most students (over 92% of whom go this route) and didn't sway things much, these core academic indicators painted a picture riskier than the profiles of admitted applicants, who generally rank higher in school deciles and score better on key tests. It's understandable to feel discouraged, especially given the extra hurdles many Black students like yourself face in competitive academic pipelines, but this isn't a judgment on your potential—it's a data-driven flag on patterns from past outcomes. To move forward, consider retaking the LSAT to boost your score, strengthening your undergrad record through post-bac courses or a master's program, or targeting schools with holistic reviews that weigh personal stories alongside metrics. Building a stronger academic foundation now could dramatically shift future predictions in your favor. Many students in similar spots have rebounded by focusing on these areas—your determination as a full-time committed learner positions you well to do the same. Keep pushing; law needs diverse voices like yours.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 182,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:42:24.644369",
+  "status": "success",
+  "narrative": "As a Black male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam, based on academic records, test scores, and background details from past students. The model estimated a 44% probability that you would fail the bar exam on your first attempt—a risk level high enough that the admissions team decided to reject your application to prioritize candidates with stronger predicted odds of passing. While your undergraduate GPA of 3.50 stands out above the typical 3.21 average, and your Year 1 and Year 3 school decile rankings both at 7 are solid compared to averages around 5.5-5.7, other elements tipped the scales toward concern. The most influential factor in the model's decision was actually your Year 3 academic decile ranking, which worked strongly in your favor by suggesting you'd perform well enough to pass the bar. Coming in second was your family's middle-income bracket, which unfortunately pushed the prediction toward failure, as the model associates lower-to-middle income levels with slightly higher bar exam risks in its analysis of past students. Your Year 1 decile ranking also helped your case, nudging the prediction toward passing, though with less impact than your later performance. Compared to typical students, your full-time enrollment plan aligns with the vast majority (over 92%), so it didn't sway things much either way, and your LSAT score of 30.50 below the 36.70 average likely played a supporting role in the overall caution. These top three factors—your Year 3 deciles pulling positively, family income pushing negatively, and Year 1 deciles offering moderate support—collectively drove the model to flag you as a higher-risk admit despite some bright spots in your record. It's understandable to feel frustrated, especially given your strong GPA and consistent decile performance that exceed many peers. To move forward, consider retaking the LSAT to boost your score closer to or above the average, as that could significantly shift future predictions in your favor. You might also explore programs or resources that support students from middle-income backgrounds in law prep, or gather letters highlighting your resilience and potential. Reapplying after addressing these areas could position you much stronger next time—many students turn predictions like this around with targeted improvements. Keep pushing; your profile shows real promise beneath the numbers.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

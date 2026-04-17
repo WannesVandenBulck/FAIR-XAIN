@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 408,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:23:42.671575",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.50, LSAT score of 31, upper-middle family income, full-time student status, and school deciles of 3rd in both Year 1 and Year 3 based on your grades. The admissions model, trained on data from thousands of past students, predicted a 44.9% chance that you would fail the bar exam on your first try—a risk level high enough to lead to the rejection of your application, as the school prioritizes applicants likely to pass and succeed in their legal careers. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out most to the model. Your undergraduate GPA was the strongest positive factor, pushing the prediction toward expecting you to pass the bar, likely because your 3.50 exceeds the typical student's 3.21 average and signals solid academic foundation. However, your Year 3 school decile ranked as the most influential negative factor, nudging the model toward failure because being in the 3rd decile (below the average of 5.53) suggests your performance relative to peers dipped in later years. Your Year 1 decile, also 3rd (versus an average of 5.71), played a supporting negative role, reinforcing concerns about consistent high achievement in your school's rankings. Compared to typical students who pass the bar, your LSAT of 31 falls notably below their average of 36.70, though it wasn't the top driver here, and your upper-middle income and full-time plans align closely with the majority (92.7% full-time). While your GPA gives you a real strength to build on, the model saw the lower deciles as red flags for bar success, outweighing other positives in this case. To move forward, consider retaking the LSAT to boost it toward or above the 36.70 average, strengthening your high school decile performance through additional coursework or explanations in reapplications, and gathering strong letters of recommendation that highlight your resilience as a Hispanic student overcoming challenges. Many students in similar situations improve their profiles and gain admission elsewhere—your above-average GPA shows you have the potential, so focus on addressing those deciles and LSAT next. Reapplying with targeted improvements could shift the odds significantly in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

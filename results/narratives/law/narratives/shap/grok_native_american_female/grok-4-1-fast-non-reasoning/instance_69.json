@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 69,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:15:10.486384",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 69% chance that you would not pass—high enough to trigger rejection as a way to protect the school's outcomes. This prediction drew heavily from your academic record in undergraduate and early law school years, alongside other background factors like your LSAT score and family income level. The three biggest influences pushing the model toward this \"fail\" prediction were your Year 3 grade decile, your Year 1 grade decile, and—counteracting somewhat—your undergraduate GPA. Your Year 3 decile of 1 had the strongest pull toward failure, as it placed you at the bottom of your class that year, far below the typical top-half standing of students who go on to pass the bar. Similarly, your Year 1 decile of 1 reinforced this concern, signaling early struggles that the model sees as a major red flag compared to passers who averaged around the 6th decile. On a more positive note, your solid undergraduate GPA of 3.50 actually nudged the prediction toward success, outperforming the 3.24 average among those who passed and showing you have the capability when it counts. While your LSAT score of 27.50 was notably lower than the 37 average for bar passers, and your low family income bracket is uncommon among successful students (who are mostly middle to upper-middle class), these played supporting roles rather than leading ones. Being full-time aligns with the vast majority of passers, so that didn't hurt you. Overall, your profile stood out as riskier than typical accepted students, whose stronger early law school deciles tipped their predicted failure odds well below 50%. This isn't a judgment on your potential or background—it's the model prioritizing patterns from past bar-takers to guide admissions. To move forward, focus on boosting your law school grades through tutoring or study groups, retake the LSAT for a higher score, and consider schools with strong bar prep support or more flexible profiles. With targeted improvements, you could reapply stronger next cycle and shift that prediction in your favor.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

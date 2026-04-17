@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 401,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:23:14.698726",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.80, an LSAT score of 38, middle family income bracket, and your plan to attend full-time, along with your lower decile rankings in Year 1 and Year 3 grades at school. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 45.4% chance that you would fail the bar exam—high enough to trigger an automatic rejection of your application, as the school prioritizes applicants likely to pass on their first try. This decision hinged on just a few key factors from your profile that stood out the most to the model. Your LSAT score was the strongest positive signal, performing above the typical student's average of around 37, which significantly pushed the prediction toward you passing the bar. On the flip side, your Year 3 decile ranking in the bottom tenth of your school—well below the average fifth-decile position—had the largest negative pull, strongly nudging the model toward expecting failure. Your undergraduate GPA of 2.80, lower than the average of 3.21, also worked against you, though to a lesser degree, reinforcing concerns about sustaining strong performance. Compared to typical students who get approved, who often have higher GPAs and school rankings closer to the middle or top deciles, your academic trajectory in later years raised red flags despite the solid LSAT boost. Your full-time status aligns with most applicants, and your middle-income background is common, so they didn't sway the outcome much. While this rejection stings, especially given your determination as a first-generation Hispanic applicant breaking into law, it doesn't define your potential—the model is just one data-driven lens. To move forward, consider retaking the LSAT to push even higher, bolstering your recent grades through post-bac courses or targeted tutoring, and applying to programs with holistic reviews that value your unique background. Gathering stronger letters of recommendation highlighting your resilience could also help reframe your story for the next cycle. With focused improvements, you'll be better positioned to succeed.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

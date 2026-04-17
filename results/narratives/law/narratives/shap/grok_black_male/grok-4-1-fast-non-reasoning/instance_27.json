@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 27,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:32:32.983218",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on academic and background factors, estimated a 63.2% chance that you would not pass the bar on your first attempt—a risk level that led to the rejection to protect the program's outcomes. As a Black male student with a middle-income family background and plans to attend full-time, your profile includes a Year 1 school decile of 2, a Year 3 decile of 1, an undergraduate GPA of 3.00, and an LSAT score of 25.50—metrics that, while showing some strengths, fell short in key areas compared to typical applicants. The model's decision hinged primarily on three factors, ranked by their influence on your specific prediction. Most significantly, your low Year 3 decile ranking—placing you in the bottom tenth of your school that year, well below the average of around the middle—strongly pushed the prediction toward expecting bar failure, as it signals challenges in sustaining strong performance over time. Countering that somewhat was your undergraduate GPA of 3.00, which is close to the typical 3.21 average and nudged the model toward anticipating success by demonstrating solid prior academic ability. Your LSAT score of 25.50, however, which is notably lower than the average of 36.70, added further weight toward the failure prediction despite its lesser overall influence. In contrast to many successful students who maintain higher deciles and stronger test scores throughout, your trajectory dipped in later years, making your profile riskier in the model's eyes. This isn't a judgment on your potential or background—many from similar circumstances overcome these hurdles—but the patterns in our data led to this outcome. To move forward, consider retaking the LSAT to boost your score, strengthening your upper-year grades if possible through additional coursework or tutoring, and exploring programs with more flexible admissions or bar passage support tailored to full-time students like you. Building a stronger academic narrative could shift future predictions in your favor. Keep pushing; your determination as a Black man navigating these challenges positions you well for the next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

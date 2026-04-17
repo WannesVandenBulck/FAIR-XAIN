@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:26:10.429488",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of passing the bar exam on the first try, based on profiles from thousands of past students. The model looked at your academic record, including your undergraduate GPA of 2.80—which is below the typical 3.21 average—your Year 1 school decile ranking of 3rd out of 10, your Year 3 decile of 4th out of 10, your solid LSAT score of 40 (above the average of 36.70), your upper-middle family income bracket, and your plan to attend full-time like most applicants. It predicted a 67% probability that you would fail the bar exam on your first attempt, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes and bar passage rates. This decision hinged on just a few key factors from your profile that stood out as the strongest influences. The most impactful was your undergraduate GPA, which significantly pushed the prediction toward failure because it's lower than what the model sees in students who typically pass. Next in influence was your Year 1 decile ranking, also pulling strongly toward a failure prediction since being in the lower third of your class early on signals challenges ahead. Your LSAT score had the third-strongest effect, but in a positive way—it nudged the prediction toward passing, helping offset some concerns given how it exceeds the norm. Compared to typical students who pass, your early academic deciles are noticeably weaker, while your LSAT shines brighter, but those early grades carried more weight here. Your full-time status and family background aligned with the majority, so they didn't sway things much either way. While this rejection stings, especially with your strong LSAT as an Asian male navigating competitive admissions, it doesn't define your potential. To move forward, consider retaking undergrad-level courses or a post-bac program to boost your GPA equivalent, gaining targeted bar prep experience, or applying to schools with more holistic reviews that value your LSAT strength. With focused effort on those early-grade weaknesses, you can reshape your profile for future success.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

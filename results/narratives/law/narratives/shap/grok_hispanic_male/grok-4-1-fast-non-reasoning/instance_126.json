@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 126,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:05:43.521916",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 3.00, LSAT score of 36, upper-middle family income background, and your Year 1 and Year 3 school decile rankings both at 3—solid but below the typical student's averages of around 3.21 for GPA, 36.7 for LSAT, and mid-5s for those deciles. The admissions model, trained on past students' data to predict first-time bar exam success, estimated a 61.8% chance you'll fail the bar, crossing the threshold that led to your application's rejection. This prediction hinges on a few key aspects of your profile that stood out most strongly to the model. The biggest influence was your Year 3 school decile ranking of 3, which significantly pushed the prediction toward expecting a bar failure since it lags behind the average of 5.53 and signals weaker late-stage academic performance compared to peers who passed. Next, your LSAT score of 36 worked in your favor, pulling the odds toward passing because it's close to the typical 36.7 seen in successful students, showing your potential in that area. Your Year 1 decile of 3 also contributed toward the failure prediction, though less strongly than Year 3, as it similarly trails the average of 5.71 and highlights an early pattern of below-average grades relative to bar passers. Overall, these academic deciles outweighed your other strengths, like planning full-time study, in the model's eyes when stacked against typical admitted students who boast higher deciles. While factors like your family income didn't sway things much here, the model saw your grades trajectory as the dominant risk for bar struggles. To move forward, consider retaking the LSAT to boost it above average or strengthening your recent academic record through post-bac courses or a targeted prep program to shift those deciles. Many students in similar situations, including Hispanic applicants, have succeeded by addressing these exact gaps—reach out to admissions advisors for appeal options or reapply after targeted improvements. Your upper-middle background and full-time commitment are assets that could shine brighter with polished academics. Keep pushing; law school doors reopen for determined applicants like you.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

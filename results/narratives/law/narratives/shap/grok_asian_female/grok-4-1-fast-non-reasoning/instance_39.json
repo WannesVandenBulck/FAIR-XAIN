@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 39,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:06:45.694848",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 92% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 school decile ranking, which placed you in the bottom group and significantly pushed the prediction toward expecting a bar exam failure, unlike the much higher mid-level deciles typical of students who passed. Next in influence was your LSAT score of 26, well below the average of 37 for those who succeeded on the bar, further tilting the odds against passing in the model's eyes. Your Year 1 decile, also at the lowest level compared to the sixth-decile average for passers, added to this concern by signaling early academic struggles that carried weight in the prediction. While your upper-middle family income aligns with nearly half of bar passers and your choice of full-time study matches over 90% of them, these did not outweigh the dominant negative signals from your grades and test score. In contrast, admitted students typically show stronger early and later academic deciles, higher LSATs around 37, and undergraduate GPAs averaging 3.24—your 2.3 UGPA fell short there too, though it played a lesser role. This combination made your profile stand out as riskier than the solid academic foundations seen in accepted applicants. It's understandable to feel disappointed, especially with your background and commitment to full-time study, but these insights highlight where the model saw the biggest gaps. To move forward, consider retaking the LSAT to aim for 35 or higher, strengthening your academic record through additional coursework or a post-bac program to boost your decile rankings, and seeking targeted bar prep resources early. Building these areas could dramatically shift future predictions in your favor and open doors at other programs. You're clearly driven—use this as motivation to refine your strengths.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "asian",
+  "bias_batch": "asian_female"
+}

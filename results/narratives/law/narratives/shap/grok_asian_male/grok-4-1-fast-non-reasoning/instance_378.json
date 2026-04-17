@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 378,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:49:01.567593",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes strong early academic performance in your first year, placing you in the top decile of your school, alongside a middle-class family background and plans to attend full-time. However, your undergraduate GPA of 2.50 falls below the typical 3.21 average, and your LSAT score of 22.70 is notably lower than the dataset average of 36.70 seen among students who passed the bar exam on their first try. The admissions model, which evaluates applicants based on predictors of first-time bar exam success, calculated a 64.9% probability that you would fail the bar exam—crossing the threshold that led to your application's rejection. This prediction stems from a careful weighing of your background factors against patterns from thousands of past students. The most influential factor pushing toward this failure prediction was your third-year school decile ranking of 1, which is well below the average of around 5.5 and signaled to the model a potential decline or weaker performance relative to peers who typically pass. Your LSAT score was the next strongest driver in the same direction, as its low value compared to typical successful applicants reinforced concerns about exam readiness. On a more positive note, your middle-income family background worked in your favor, nudging the prediction slightly toward bar passage success in line with students from similar circumstances who often fare better. Overall, your situation contrasts with typical admitted students, who boast higher deciles, GPAs, and LSATs that align more closely with bar passers. While these academic metrics carried the heaviest weight, your full-time status aligns with the vast majority of successful candidates. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your later-year grades to improve your school decile, and gathering letters of recommendation that highlight your early potential and resilience. Many students in your position have succeeded by addressing these gaps—reapplying after targeted improvements could shift the model's view in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

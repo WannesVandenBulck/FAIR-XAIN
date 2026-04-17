@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 39,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:00:06.301916",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 92% chance that you would not pass based on your academic profile. This high predicted risk of failure triggered the rejection to help the university maintain strong bar passage rates for its graduates. The model's decision hinged most strongly on your Year 3 class rank, which fell in the bottom decile—far below the middle-upper deciles typical for students who go on to pass the bar. This low ranking was the biggest factor pushing the prediction toward failure, signaling to the model potential struggles with advanced coursework that often predict bar challenges. Next in influence was your LSAT score of 26, well under the average of 37 for successful bar takers, which further reinforced the model's concern about foundational legal reasoning skills. Your Year 1 class rank, also in the bottom decile compared to the higher averages of those who passed, added to this picture, suggesting early academic hurdles that carried forward. While your upper-middle family income aligns with many who succeed and your choice of full-time study matches the norm for passers, these did not outweigh the dominant signals from your ranks and test score. In contrast, admitted students typically show much stronger decile placements and LSATs, placing them in the lower-risk zone for bar failure. Your undergraduate GPA of 2.3, below the 3.24 average for passers, played a supporting role but was less pivotal here. This combination painted a riskier profile than the balanced, higher-performing records of accepted applicants. To move forward, consider retaking the LSAT to boost your score, strengthening your recent academic performance through targeted coursework or tutoring, and reapplying with evidence of improvement like updated grades or prep course completions—these steps have helped many in similar situations turn predictions around.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_female"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 58,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:28:47.131424",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a model trained on data from thousands of students who took the bar exam, focusing on factors like academic records, test scores, and background to predict first-time pass rates. The model assessed your profile— including your undergraduate GPA of 2.60 (below the typical 3.21 average), LSAT score of 23 (well under the 36.70 average), Year 1 grade decile of 4th (versus the average 5.71), Year 3 decile of 3rd (below the 5.53 average), lower-middle family income bracket, and part-time enrollment status—and predicted a 51% chance that you would fail the bar exam on your first attempt. This probability tipped just over the threshold, leading to the rejection of your application as the school prioritizes admitting students likely to succeed on the bar. The most influential factor pushing the prediction toward failure was your LSAT score, which stood out as unusually low compared to what the model sees in students who typically pass, signaling potential challenges in the rigorous legal reasoning needed for the exam. Next in importance, your lower-middle family income actually worked in your favor, as the model associates it with slightly higher bar passage rates than higher brackets in the dataset, pulling the prediction toward success. Your Year 1 grade decile also helped your case somewhat, performing better than the model expected for failure risks and nudging the odds toward passing. Overall, while your part-time status and other academics like your undergraduate GPA and later grade decile contributed to the picture, they weren't the top drivers here—your LSAT was the standout concern relative to peers who pass. Compared to typical admitted students, who often have stronger test scores and full-time commitments (only 7.3% opt for part-time like you), your profile aligned more closely with those predicted to struggle. This doesn't define your potential, but it explains the model's cautious decision. To move forward, consider retaking the LSAT to boost your score closer to the average, strengthening your academic deciles through additional coursework, and exploring programs that support part-time students from similar backgrounds. Many applicants in your situation succeed by addressing these key areas and reapplying—persistence pays off. You have the drive; now target these improvements for a stronger shot next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

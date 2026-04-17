@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 56,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:01:17.173338",
+  "status": "success",
+  "narrative": "As a Hispanic male applying to law school, you've shared your undergraduate GPA of 2.90, LSAT score of 32.50, upper-middle family income background, and your school decile rankings from Year 1 (4th decile) and Year 3 (6th decile), along with planning to attend full-time. The admissions model, trained on data from thousands of past students, predicted a 54.9% chance that you would fail the bar exam on your first try—crossing the threshold that led to your application's rejection, as the school prioritizes candidates likely to pass and succeed in practice. This prediction wasn't random; it hinged on a few key aspects of your profile that stood out most strongly to the model. The most influential factor pulling in a positive direction—toward expecting you to pass—was your Year 3 school decile ranking, which was stronger than average and signaled solid improvement in your later academic performance. However, this was outweighed by your LSAT score, which had a notable push toward predicting failure, as it fell below the typical 36.70 average seen in students who pass the bar. Your Year 1 decile ranking also contributed toward the failure prediction, reflecting an early academic standing weaker than the average 5.71 decile. Compared to typical students who pass, your LSAT and early grades align more closely with those who struggle on the bar, even though your later improvement and full-time commitment are encouraging signs. The model weighed these elements heavily because they have proven to be the strongest predictors of bar outcomes across past applicants. While your upper-middle family income and other details played smaller roles, they didn't shift the balance enough. This rejection stings, especially given your determination as a Hispanic man navigating these paths, but it's not a final verdict on your potential. To move forward, consider retaking the LSAT to boost your score closer to or above average, strengthening your recent grades further if possible, and seeking targeted bar prep resources or mentorship programs tailored for underrepresented students like yourself. Many applicants in similar positions have succeeded by addressing these key areas and reapplying stronger—your upward trajectory in Year 3 shows you have the capacity to do just that.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "hispanic",
+  "bias_batch": "hispanic_male"
+}

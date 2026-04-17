@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 221,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:39:05.867187",
+  "status": "success",
+  "narrative": "As an Asian male applicant with an undergraduate GPA of 3.10 and an LSAT score of 33, your early academic record placed you in the second decile for Year 1 grades and the third decile for Year 3 at your school—below the typical fifth-decile averages for most students in the dataset. The admissions model, trained on thousands of similar students' paths to the bar exam, predicted a 45% chance that you would fail it on your first try, which crossed the threshold for rejection since the school prioritizes applicants likely to pass and succeed in practice. This prediction wasn't random; it hinged on just a few key factors from your profile that stood out the most to the model. Your undergraduate GPA had the strongest positive influence overall, pulling the prediction toward success because, while slightly below the average of 3.21, it still signaled solid foundational performance compared to students who struggled more. Similarly, your LSAT score exerted a notable pull toward passing, even though it was under the typical 36.7 average, as it showed competitive reasoning ability relative to lower-scoring peers. However, your Year 3 decile rank pushed most firmly in the opposite direction, toward a failure prediction, because being in the lower third—well below the average fifth decile—suggested potential challenges in sustaining momentum heading into law school. Your upper-middle family income and full-time student status, common among 92.7% of applicants, played lesser roles here. In essence, while your GPA and LSAT gave you a boost like many successful Asian male applicants, that dip in later school decile tipped the scales against you compared to peers who climbed higher in rankings. This isn't a judgment on your potential—many overcome similar hurdles—but the model saw elevated bar exam risk based on patterns from past students. To move forward, consider retaking the LSAT to push closer to or above the 36.7 average, bolstering your later-year grades through additional coursework or a post-bac program, and applying to schools with more holistic reviews that might weigh your full-time commitment and background favorably. Gathering stronger letters of recommendation highlighting your resilience could also help reframe your story for the next cycle. With targeted improvements, you can shift that 45% odds in your favor.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

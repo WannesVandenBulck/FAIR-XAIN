@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 15,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:46.444156",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of first-time bar exam success based on students' academic and background profiles, estimated a 50.7% chance that you would fail the bar exam. This prediction tips the balance toward rejection, as the school prioritizes admitting applicants with stronger projected odds of passing on their first try. For you, a Black male with an upper-middle-class family background and plans to attend full-time, the model's decision hinged on just a few key factors from your profile, compared against patterns from thousands of past students. The most influential was your LSAT score of 34, which falls below the typical 36.7 average; this actually worked in your favor, nudging the prediction toward expecting you to pass rather than fail. However, your Year 1 school decile ranking of 3—lower than the average of about 5.7—had the strongest pull in the opposite direction, significantly raising the model's concern about bar failure risk. Your family's upper-middle income bracket, while solid, added a modest push toward the failure prediction compared to broader student trends. These top three elements overshadowed other details like your undergraduate GPA of 2.6 or Year 3 decile of 3, both also below typical averages. In essence, while your LSAT showed promise, your earlier academic decile stood out as the biggest red flag, placing you below many peers who succeeded on the bar. This isn't a judgment on your potential as a Black man from a supportive background—many in similar circumstances have thrived with targeted improvements—but the model saw elevated risk here. To move forward, consider retaking the LSAT to boost your score further, strengthening your early-grade performance through additional coursework or tutoring, and reapplying with updated credentials that align closer to top performers. Schools value persistence, and addressing these gaps could shift your predicted odds dramatically in your favor next time.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

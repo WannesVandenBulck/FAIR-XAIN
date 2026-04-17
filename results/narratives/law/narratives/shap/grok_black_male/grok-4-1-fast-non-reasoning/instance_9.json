@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 9,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:31:23.390954",
+  "status": "success",
+  "narrative": "As a Black male applicant with a solid middle-income family background and plans to attend full-time, your law school application was evaluated using a model trained on past students' data to predict bar exam success on the first try. The model assessed your Year 1 grades, which placed you in the 5th decile at your school—roughly average compared to others—your Year 3 grades in the 3rd decile, your undergraduate GPA of 2.80 (below the typical 3.21 average), your LSAT score of 29 (well under the 36.7 average), and other details like your full-time status, which is common among applicants. It predicted a 45.8% chance that you would fail the bar exam on your first attempt, tipping the scales toward rejection to minimize the risk of admitting students who might struggle to pass this critical hurdle. The most influential factor pushing toward this failure prediction was your Year 3 academic decile ranking, as being in the lower third of your school's performance distribution signaled potential challenges in sustaining strong grades over time. Counterbalancing that somewhat was your undergraduate GPA, which had a strong favorable pull toward predicting success, showing your college performance was a bright spot despite being slightly below average. Your Year 1 decile also nudged things positively, indicating steadier early progress that the model viewed as a helpful foundation. Overall, while your LSAT and other metrics played roles, these three academic standings were the key drivers, with Year 3 grades outweighing the positives from your earlier record and undergrad work. Compared to typical admitted students, who often have higher deciles and stronger test scores, your profile aligned more closely with those who faced bar exam difficulties, especially given the competitive nature of law school outcomes for underrepresented groups like Black males. This isn't a judgment on your potential or resilience—many in similar situations succeed with targeted effort. To move forward, consider retaking the LSAT to boost your score toward the average, strengthening your later-year grades through additional coursework or tutoring, and highlighting any leadership or extracurriculars that demonstrate your commitment. Reapplying after addressing these could shift the model's view, and exploring schools with holistic reviews or support programs for students like you might open new doors. Your path to law isn't closed; it's about strategic next steps.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

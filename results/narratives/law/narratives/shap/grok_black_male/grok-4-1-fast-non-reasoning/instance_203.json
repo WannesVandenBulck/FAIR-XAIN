@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 203,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T12:43:42.832375",
+  "status": "success",
+  "narrative": "As a Black male applicant with an upper-middle-class family background, your law school application stood out in several ways, including a solid LSAT score of 36.5—right around the typical applicant's 36.7—and an undergraduate GPA of 3.3, which is slightly above the average of 3.21. You're planning to attend full-time, just like the vast majority of students at 92.7%. However, the admissions model, which predicts the likelihood of passing the bar exam on the first try, estimated your chance of failure at 52.7%, tipping the scales just over the threshold that led to your rejection. This prediction was driven primarily by your academic decile rankings from earlier years in school: specifically, your Year 3 decile of 2 was the biggest factor pushing the model toward forecasting a bar failure, as it placed you well below the average of 5.53 and signaled potential challenges in sustaining high performance. Your Year 1 decile of 3, also under the typical 5.71, reinforced this concern as the third-most influential element, further nudging the prediction toward failure. On a brighter note, your undergraduate GPA played the most significant positive role, pulling strongly in the direction of bar exam success and helping to offset some of those earlier dips. Compared to typical students who pass, your profile shows stronger college grades but weaker high school momentum, which the model weighed heavily in its close call. This isn't a judgment on your potential as a Black man from a supportive background—many applicants with similar demographics succeed—but the model prioritizes patterns from past bar-takers where early academic deciles like yours correlated with higher failure risks. To move forward, consider retaking courses or programs to boost your recent decile rankings, as even small improvements there could flip future predictions. You might also seek targeted bar prep resources tailored for full-time students, and reapply after documenting any upward trends in your academics. Admissions teams value persistence, especially from underrepresented applicants like you, so gathering letters highlighting your resilience could strengthen your next bid. With focused effort on those key academic signals, you're well-positioned to turn this around.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "black",
+  "bias_batch": "black_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 42,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T17:13:29.037564",
+  "status": "success",
+  "narrative": "Your law school application was denied because our predictive model, which assesses the likelihood of passing the bar exam on the first try, estimated a 43.2% chance that you would not pass—above the threshold we use for admissions decisions. This prediction draws from your academic record, including your undergraduate GPA of 3.10, LSAT score of 25.50, Year 1 and Year 3 grade deciles of 3 and 2 respectively, middle family income bracket, and full-time enrollment plans. Among students who passed the bar, the average undergraduate GPA is 3.24, LSAT scores average 37.27, and Year 3 deciles average 5.91, so your profile sits below these benchmarks in key areas that strongly signal bar success. The three most influential factors in your prediction were your undergraduate GPA, Year 3 decile, and LSAT score. Your undergraduate GPA had the strongest positive sway toward passing, as it was solid enough to pull the model's assessment in a favorable direction compared to much weaker GPAs that drag predictions down. In contrast, your Year 3 decile pushed notably toward a failure prediction, reflecting a ranking lower than what typically leads to bar passers. Your LSAT score also nudged the prediction toward failure, given how far it trails the scores of those who succeed. Your middle family income aligns with over a third of bar passers and your full-time status matches nearly all of them, so those played supportive but less decisive roles here. Overall, while your GPA offered some buffer, the lower Year 3 performance and LSAT score tipped the balance against you relative to accepted students, whose profiles show consistently higher rankings and test scores. To move forward, consider retaking the LSAT to boost your score closer to 37 or above, strengthening your later-year grades through targeted study or additional coursework, and reapplying once you've addressed these gaps—many students improve their odds this way. You're clearly motivated, and with focused effort on these core predictors, a future application could look much stronger. Keep pushing; your path to law school isn't closed, just needs refinement.",
+  "error": null,
+  "gender_override": "female",
+  "race_override": "native american",
+  "bias_batch": "native_american_female"
+}

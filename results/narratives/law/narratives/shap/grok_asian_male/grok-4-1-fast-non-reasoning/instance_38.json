@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 38,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:27:35.732281",
+  "status": "success",
+  "narrative": "As an Asian male applicant, your law school application was evaluated using a predictive model that assesses the likelihood of first-time success on the bar exam, based on profiles from thousands of past students. The model estimated a 67.4% probability that you would fail the bar exam on your first attempt, which is high enough to trigger an automatic rejection of your admission to protect the school's outcomes and reputation. This decision hinged primarily on three key factors from your academic record: your Year 3 school decile ranking, your Year 1 school decile ranking, and your undergraduate GPA. The most influential was your Year 3 decile of 2, well below the typical student's 5.5, which strongly signaled to the model a risk of struggling with the rigorous demands ahead, pushing the prediction firmly toward failure. Nearly as important was your Year 1 decile of 2, again much lower than the average of about 5.7, reinforcing concerns about early academic momentum that often predicts bar exam challenges. On a brighter note, your strong undergraduate GPA of 3.70—above the typical 3.21—worked in your favor, nudging the prediction toward success and somewhat offsetting those lower deciles. Compared to typical students who pass the bar, your early and later school rankings stand out as unusually low, while your LSAT score of 31 (below the average 36.7) and middle family income bracket didn't sway the balance much either way. Your plan to attend full-time, like most students, was neutral in this assessment. While this rejection stings, especially with your solid undergrad performance, it highlights where your high school grades may have raised red flags for long-term law success. To move forward, consider retaking the LSAT to boost your score closer to or above average, seeking targeted tutoring to improve your academic decile equivalent in any post-bac work, and applying to programs with holistic reviews that weigh your full story. Building a stronger narrative around your resilience as an Asian male navigating these metrics could also open doors at schools with more flexible criteria. With focused improvements, you can reshape this prediction and pursue your legal ambitions effectively.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "law",
+  "instance_idx": 364,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-17T13:48:10.004950",
+  "status": "success",
+  "narrative": "As an Asian male applying to law school, your profile includes a lower-middle family income background, an undergraduate GPA of 2.60—which is below the typical 3.21 average—and an LSAT score of 25, significantly lower than the average of around 37. You also ranked in the bottom decile for your school's Year 3 grades, compared to a middle-of-the-pack average, while your Year 1 grades were similarly in the first decile. The admissions model, which predicts first-time bar exam success based on patterns from thousands of past students, estimated a 76% chance that you would fail the bar exam. This high predicted risk of failure is why your application was rejected—law schools use this to prioritize applicants likely to pass and succeed in practice. The three biggest factors pulling the prediction toward failure were your Year 3 school decile ranking, your LSAT score, and your family income bracket. Most strongly, your low Year 3 ranking signaled to the model a notable dip in academic performance compared to peers who typically pass the bar, pushing the odds firmly against you. Your LSAT score reinforced this concern, as it fell well short of what's usually needed for strong bar outcomes. On a more positive note, your lower-middle family income actually nudged the prediction slightly toward passing, likely because students from similar backgrounds have sometimes overcome challenges to succeed. Overall, your situation stands out from typical admitted students, who tend to have higher test scores, GPAs, and class rankings that align with bar passers. While this decision stings, it's not the end—consider retaking the LSAT to boost your score, strengthening your undergraduate record through additional coursework or a post-bac program, and seeking mentorship from Asian lawyers who've navigated similar paths. Building these areas could dramatically shift future predictions in your favor and open new doors.",
+  "error": null,
+  "gender_override": "male",
+  "race_override": "asian",
+  "bias_batch": "asian_male"
+}
