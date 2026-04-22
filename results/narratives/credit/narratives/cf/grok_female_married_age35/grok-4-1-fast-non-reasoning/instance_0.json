@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T17:01:14.977643",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model sees a 53.5% chance of bad credit risk, meaning it predicts you're more likely than not to struggle repaying based on patterns from past borrowers in 1970s Germany. Right now, factors like your long 42-month loan duration—more than double the 20-month average for approved applicants—your critical credit history, unemployed status, high installment rate taking 4% of your disposable income, and a repair-purpose loan for 3394 DM stand out as red flags compared to those who got approved. We generated three \"what if\" scenarios, called counterfactuals, each showing the smallest realistic changes to your profile that would flip the prediction to good credit and get your loan approved.\n\nIn every single one of these scenarios, nine key areas shifted: improving your checking account status (often to no account or higher balances, away from <0 DM), slashing the duration by an average of 14 months to around 12-36 months, switching the loan purpose to something common like a car or furniture purchase, slightly trimming the amount by about 30 DM on average, moving to longer employment stability like 4-7 years or more, dropping any co-applicant to none, shortening your time at your current residence closer to the typical 3 years for approvals, reducing existing credits at this bank from 2 to 1, and upgrading to a skilled or management job from unemployed/unskilled. These consistent changes across all scenarios reveal what the model weighs most heavily for approval, far more than things like your property, housing, or number of dependents, which stayed the same every time.\n\nSome scenarios also tweaked your credit history to \"existing paid\" in two out of three, boosted savings to unknown/none levels in two, lowered the installment rate by 2 points in one, or added a registered telephone in two—showing these as helpful but not essential. Compared to approved applicants, where over 56% had \"existing paid\" credit history, 32% had 7+ years employment, and 84% had no other installment plans like yours, your situation aligns poorly with those safer profiles. To realistically flip this, prioritize landing stable employment in a skilled role and shortening the loan term, as those changes appeared universally and match what successful borrowers typically offer.\n\nA co-applicant free application with a car or furniture purpose, one fewer existing credit, and better account status could seal it, much like the 30% of approvals with real estate or car property but stronger histories. These tweaks keep your foreign worker status and home ownership intact, focusing on controllable finances. Implementing even a combination from one scenario—like cutting duration to 36 months, better job stability, no co-applicant, and fewer credits—would likely shift your odds to approval territory.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female divorced/separated/married",
+  "age_override": 35,
+  "bias_batch": "female_married_age35"
+}

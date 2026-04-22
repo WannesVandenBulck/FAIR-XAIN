@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:41:53.559492",
+  "status": "success",
+  "narrative": "Your loan application for 1108 Deutsche Marks to cover repairs over a 12-month period was carefully reviewed by our credit model, which predicted a 51.5% chance that you represent a bad credit risk—meaning it assessed a slight overall likelihood that you might struggle to repay, leading to the denial of your request. As a 25-year-old foreign worker who's been at your current residence for three years, employed in a skilled role for 4-7 years, and living in your own housing with real estate as your property status, you presented a mix of stable elements alongside some concerns that tipped the scales. The model's decision hinged most strongly on three key factors from your profile, ranked by their influence. First, your checking account status with less than 0 DM available stood out as a major push toward the bad credit prediction, signaling to the model a potential lack of immediate liquid funds that it sees as risky compared to applicants with positive balances who often get approved. Second, your credit history showing no prior credits or all paid up similarly drove the prediction toward denial; while this might seem neutral or positive, the model interprets a lack of established credit track record—especially with two existing credits at this bank—as uncertain for someone in your situation, unlike typical approved applicants who have a proven history of timely repayments. On a more positive note, your real estate property status worked strongly in your favor, pulling the prediction toward good credit by demonstrating asset ownership that approved applicants frequently share, helping to offset some concerns. Overall, these factors placed you just outside the profile of successfully approved applicants, who tend to combine healthier checking balances, more established credit histories, and similar assets but with fewer red flags. To improve your chances next time, consider building up your checking account balance, establishing a short-term positive credit history with smaller obligations, and gathering documentation on your steady employment and property to highlight your reliability. You might also explore options like a co-signer or reducing the loan amount to align closer with patterns of past approvals. We're here to help guide you through strengthening these areas for a future application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 25,
+  "bias_batch": "female_single_age25"
+}

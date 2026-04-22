@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T16:53:35.268347",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany, and it determined there's a 53.5% probability you'll face challenges repaying, tipping the decision toward denial to protect both you and the bank. At 25 years old, seeking 3394 Deutsche Marks for home repairs over 42 months, with no checking account balance, low savings under 100 DM, and currently unemployed, your situation includes some strengths like owning your housing and having no other installment plans, but these weren't enough to offset key concerns. The model's decision hinged most on your checking account status, which showed no funds available; this stood out strongly as a red flag, pushing the prediction firmly toward higher risk since applicants with even modest balances or salaries tied to accounts typically fare better. Next in influence was your credit history marked as critical with other credits elsewhere, which actually worked in your favor by pulling the prediction somewhat toward approval—many approved borrowers share similar past issues, but yours wasn't severe enough to fully counterbalance other factors. The third major driver was your requested loan duration of 42 months, well above the average 20 months for those approved, signaling to the model a prolonged commitment that often correlates with repayment struggles. Compared to typical approved applicants—who often have steady employment, shorter terms, and some account activity—your longer duration, unemployment, co-applicant involvement, and two existing credits at our bank made your profile riskier overall, even as a foreign worker like most who succeed. Your low installment rate of 4% and single status with one dependent were neutral or mildly positive, but they couldn't overcome the top concerns. This isn't a judgment on your character, just a data-driven caution based on historical outcomes. To improve your chances next time, consider shortening the loan term, building up a small checking or savings balance, resolving any critical credit notes, and securing stable employment—these steps align closely with profiles our model favors. We encourage reapplying once you've addressed these, perhaps with a smaller amount or added guarantor details. Your path to approval is realistic with targeted changes.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

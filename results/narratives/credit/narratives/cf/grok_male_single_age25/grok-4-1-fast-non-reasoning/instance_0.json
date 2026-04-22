@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T17:00:38.346329",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 53.5% chance you'll face challenges repaying, based on factors like your long 42-month loan duration, critical credit history, unemployed status, and request for repairs funding an amount around 3,400 DM. This edges just over the threshold for concern, unlike typical approved applicants who average shorter 20-month durations, cleaner payment records, stable jobs, and common purposes like cars or furniture. Imagine \"what if\" scenarios where small tweaks to your situation flip the model's view to a good credit risk—these counterfactuals show the minimal, realistic changes that would get you approved.\n\nWe generated three such scenarios, and in every single one, nine key areas shifted: improving your checking account status (often to no account or higher balances), slashing duration by about 14 months on average to around 12-36 months, switching purpose to something like furniture or a new car, trimming the loan amount slightly by 30 DM, securing longer employment like 4-7 years or more, dropping any co-applicant to none, shortening your residence time a bit, reducing existing bank credits from two to one, and upgrading to a skilled or management job. These consistent changes across all scenarios highlight what's most pivotal—your employment stability and credit history stand out as they deviate sharply from approved applicants, where over 60% hold skilled roles and 56% have fully paid prior credits.\n\nFive aspects never needed changing, like your property, lack of other installment plans, housing setup, dependents, or foreign worker status, so they're already in a favorable zone matching what works for others. In two-thirds of scenarios, further boosts appeared: better credit history to \"existing paid,\" savings to unknown or substantial levels, and adding a registered telephone. For instance, one path keeps your installment rate steady but pairs a 36-month duration with these upgrades, while another cuts it to 2% of income alongside massive employment improvement.\n\nTo turn this around, prioritize landing a skilled job and longer employment tenure, as those recurred universally and align with the 31% of approved folks stable over seven years. Combine that with a shorter loan term and cleaner checking status—realistic steps like building savings or paying down existing credits could mimic two of the scenarios. Compared to averages, dialing your duration and residence years closer to 20 and three would bridge the gap to typical approvals. These targeted shifts, often just one or two units in model terms, would convincingly signal lower risk and likely approve your application next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

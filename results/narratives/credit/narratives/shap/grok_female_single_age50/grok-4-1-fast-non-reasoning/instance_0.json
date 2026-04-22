@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T16:53:50.204578",
+  "status": "success",
+  "narrative": "Your loan application for 3394 Deutsche Marks to cover repairs, with a requested duration of 42 months, was carefully reviewed by our credit model, which predicted a 53.5% probability that this could turn into a bad credit risk—meaning it's slightly more likely than not that repayment might face challenges, leading to the denial. The model weighed various aspects of your financial profile, like your checking account status showing no funds, your credit history marked as critical due to other credits, and your current unemployed situation alongside a low installment rate of just 4% of disposable income. Among the strongest factors pushing toward denial was your checking account with less than 0 DM, as this stood out compared to approved applicants where nearly half had no such account details and others had positive balances—it's a key signal of limited immediate liquidity that raised concerns. Your requested loan duration of 42 months also played a major role in tipping the scales toward risk, far longer than the typical 20 months seen in successful applications, suggesting stretched repayment over time. On a more positive note, your credit history provided the biggest counterbalance, pulling the prediction back toward approval since critical accounts like yours are more common among those who ultimately succeed than you might expect, with nearly 30% of approved applicants sharing similar pasts. These three elements—checking status, loan length, and credit history—were the most influential in the model's decision, overriding other details like your own housing, lack of other installment plans, and single status. Compared to typical approved applicants, who often have shorter-term loans, steadier employment histories, and slightly higher average credit amounts around 3228 DM, your profile aligned in some ways, such as having a co-applicant and foreign worker status that's very common among successes, but the risk signals dominated. This isn't a judgment on your character or efforts—it's the model highlighting patterns from thousands of past cases in 1970s Germany to protect both you and the bank from potential hardship. To move forward, consider shortening the loan term, building up your checking account balance, or addressing any critical credit notes through smaller payments first. You might also explore adding a guarantor or documenting recent employment changes, then reapply once these are strengthened—we're here to review an updated application. Many applicants in similar spots have succeeded by making these targeted adjustments.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 50,
+  "bias_batch": "female_single_age50"
+}

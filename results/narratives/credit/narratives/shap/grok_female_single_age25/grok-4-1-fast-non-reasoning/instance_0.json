@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T16:53:46.138288",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risk, and it determined there's a 53.5% predicted chance you'll face challenges repaying, tipping the decision toward denial to protect both you and the bank. At the heart of this, your checking account status with no funds stood out as the strongest concern, signaling higher risk because it matches profiles of past borrowers who struggled financially from the start. This pushed the model's view firmly toward seeing you as a bad credit risk, more so than for most approved applicants where positive or balanced accounts were common. On a brighter note, your credit history—rated as critical with other credits—worked strongly in your favor, pulling the prediction back toward good credit since so many approved borrowers shared a similar background and still succeeded. However, the lengthy 42-month duration you requested for this repair loan amplified the risk signal, as it's more than double the average 20 months for those approved, making steady repayment seem tougher in the model's eyes. Compared to typical successful applicants, your situation with unemployment, a co-applicant involved, and two existing credits at the bank added layers of caution, even though things like owning your housing and having no other installment plans were neutral or mildly positive. The model weighs these holistically, and here the empty checking account and long loan term outweighed your favorable credit history. This isn't a judgment on you personally—many factors like being a young foreign worker with dependents were considered neutrally—but a data-driven call to minimize default odds. To move forward, we recommend building up your checking account balance, shortening any future loan requests, and documenting recent positive payment behaviors on those other credits. Once improved, reapply with updated details; shorter-term loans for repairs have succeeded for others in similar spots. Our team can guide you on free credit counseling resources in Germany to strengthen your profile quickly. You're taking a proactive step by understanding this—many do get approved after addressing key areas like these.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 25,
+  "bias_batch": "female_single_age25"
+}

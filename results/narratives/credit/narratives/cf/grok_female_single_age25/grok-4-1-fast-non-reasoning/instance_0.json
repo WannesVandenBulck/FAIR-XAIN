@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T17:01:01.446012",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 53.5% chance you'll face challenges repaying, based on factors like your long 42-month loan duration, critical credit history, unemployed status, and request for repairs funding an amount around 3,400 DM. This edges into bad credit risk territory, unlike typical approved applicants who average shorter 20-month durations, steadier employment, and common purposes like cars or furniture. Imagine \"what if\" scenarios where small tweaks to your situation flip the model's view to good credit—these counterfactuals show the minimal real-world changes that would get you approved. We generated three such scenarios, and in every single one, nine key areas shifted: improving your checking account status (often to no account or higher balance), slashing duration by about 14 months on average, switching purpose to something like furniture or a car, trimming the loan amount slightly by around 30 DM, gaining longer employment tenure (like over 7 years), dropping any co-applicant, shortening your residence time a bit, reducing existing bank credits to one, and upgrading to a skilled or management job. These consistent changes across all scenarios highlight what's most pivotal for approval. For instance, no scenario kept your current employment or credit count unchanged, underscoring how unemployed status and multiple credits stand out compared to approved folks, where over 60% hold skilled jobs and most have just one credit. A few scenarios also tweaked your credit history to \"existing paid,\" boosted savings to substantial levels, added a registered telephone, or eased the installment rate from 4%—but these weren't universal. Notably, your property, installment plans, housing, dependents, and foreign worker status never needed changing, as they align well with approved profiles. To realistically pivot toward approval, prioritize landing stable employment in a skilled role and building a cleaner credit history with fewer bank loans, perhaps by paying down existing ones. Shortening the loan term to 12-36 months and reframing the purpose could combine powerfully with better account status and savings. These steps mirror patterns of successful applicants, like those with no co-applicants and solid job tenure, and could drop your risk below the threshold in various combinations. Small, achievable shifts like these often make the difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 25,
+  "bias_batch": "female_single_age25"
+}

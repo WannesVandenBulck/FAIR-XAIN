@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T16:53:56.160196",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess the risk of repayment issues, based on patterns from past borrowers in 1970s Germany. The model calculated a 53.5% probability that this credit request could lead to problems, tipping the decision toward denial to protect both you and the bank from potential difficulties. The strongest factor pushing toward this concern was the status of your checking account, showing no positive balance, which stands out because successful applicants more often have some funds or stability there—only about 17% were in a similar position. This detail carried the most weight in the model's thinking, signaling higher risk compared to those approved. On a more positive note, your credit history, rated as critical with other credits, actually worked in your favor, pulling the prediction toward approval much like it does for over half of successful applicants who had existing paid credits. However, the requested duration of 42 months played a notable role against you, as it's more than double the average 20 months seen among those approved, suggesting longer commitments often correlate with challenges. These three elements—checking account status as the top influence, followed by the supportive credit history and the extended duration—together shaped the overall cautionary outlook. Your situation, including being a foreign worker with a co-applicant, unemployed status, plans for repairs on a 3394 DM amount, and owning your housing, was considered, but those checking and duration aspects overshadowed the positives. Compared to typical approved applicants, your profile aligns in areas like amount requested and having no other installment plans, but diverges in employment stability and residence length, which subtly amplified the risks. To move forward, we recommend building up your checking account balance, shortening any future credit duration if possible, and gathering evidence of steady employment or additional guarantors. Reapplying after addressing these could show a stronger picture—perhaps start by discussing options with a financial advisor or providing updated income details. We're here to help guide you toward a better outcome next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female divorced/separated/married",
+  "age_override": 35,
+  "bias_batch": "female_married_age35"
+}

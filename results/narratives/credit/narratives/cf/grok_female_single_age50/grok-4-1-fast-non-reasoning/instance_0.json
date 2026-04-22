@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T17:01:07.750622",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 53.5% chance you'll face challenges repaying, based on factors like your long 42-month loan duration—more than double the 20-month average for approved applicants—your critical credit history, unemployed status, and request for repairs funding with a co-applicant involved. This puts you in a higher-risk category compared to typical approved borrowers, who often have steady employment for years, cleaner credit records like \"existing paid\" histories (held by over half), and common purposes like cars or furniture rather than the rare repairs loans that make up just 1.4% of approvals. To help you understand, we've explored \"what if\" scenarios—counterfactuals showing the smallest realistic changes to your profile that would flip the model's view to a good credit risk and approve the loan. We generated three such scenarios, and in every single one, nine key areas shifted: improving your checking account status (often to no account or higher balances, from your current <0 DM), cutting the duration by about 14 months on average to around 12-36 months, switching the loan purpose (twice to furniture/equipment, once to a car), slightly lowering the 3394 DM amount by roughly 30 DM, moving to longer employment stability like 4-7 years or more (from unemployed), removing the co-applicant in favor of none, reducing your residence years from 4 toward the approved average of about 3, dropping to just one existing credit at the bank (from two), and upgrading job type (twice to skilled or management, once to official roles from unemployed/unskilled). These consistent changes across all scenarios highlight them as the most critical levers—addressing employment and credit history gaps that set you apart from the 60% of approvals with skilled jobs and the majority with solid payment tracks. Other factors like building more savings to unknown/none levels or adding a phone registration appeared in two-thirds of cases, while your installment rate dipped in one. Notably, five stable elements—your property, no other installment plans, owned housing, one dependent, and foreign worker status—never needed tweaking, as they already align well with approved profiles. By prioritizing stable longer-term employment, a shorter loan for something like furniture or a car without a co-applicant, and tidying up your account and credit count, you'd match successful applicants more closely; for instance, one scenario keeps much of your profile but swaps to 12 months duration, better status, furniture purpose, solid job, and solo application to tip the scales. These actionable steps, grounded in real patterns from past approvals, could realistically shift your prediction—consider discussing shorter terms or purpose tweaks with us next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 50,
+  "bias_batch": "female_single_age50"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T16:53:40.820181",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risk, and it determined there's a 53.5% chance you'd face challenges repaying, tipping the decision toward denial to protect both you and the bank. At the heart of this, your checking account status with no funds stood out as the strongest concern, as it signals limited immediate liquidity compared to most approved applicants who had some balance or none specified. This pushed the model firmly toward seeing higher risk, since empty accounts have historically linked to repayment troubles. On a more positive note, your credit history—rated as critical with other credits elsewhere—was the second-biggest factor, actually working in your favor by showing you've managed past debts without total default, unlike some riskier cases. However, your requested loan duration of 42 months ranked third in influence and raised a red flag, far longer than the typical 20 months for those approved, suggesting stretched finances over time. These three elements together outweighed other details like your repair-purpose loan of about 3,400 DM, which is close to averages, or your current unemployment spell and single status with a co-applicant. While factors like owning your home and having no other installment plans helped a bit, they weren't enough to counterbalance the top concerns. Compared to successfully approved applicants, who often have steadier employment histories and shorter terms, your profile aligns more with those who've struggled, especially given the unemployed job type that's rare among approvals. This isn't a judgment on you personally, but a data-driven caution based on similar past outcomes. To move forward, consider shortening the loan term, building up your checking account, or improving your credit interactions before reapplying—we're here to discuss options. In the meantime, reviewing your full credit report or exploring smaller credit builds could strengthen your next application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 50,
+  "bias_batch": "male_single_age50"
+}

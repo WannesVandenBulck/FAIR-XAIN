@@ -35,12 +35,18 @@ datasets = {
 def make_predictions(dataset_name, config):
     """Load model and make predictions for the test set.
     
-    Predictions are filtered for class 1 (adverse/bad class).
+    Predictions are filtered for class 1 (adverse/bad class) and class 0 (positive/good class).
     Target variable is renamed to standardized name (e.g., target_credit).
     The target value 1 represents the adverse outcome for each dataset.
+    The target value 0 represents the favorable outcome for each dataset.
     
     For law dataset: Uses model trained WITHOUT protected attributes (gender, race1).
+    For credit dataset: Uses model trained WITHOUT protected attributes (age, personal_status_sex).
     For other datasets: Uses standard model with all features.
+    
+    Outputs:
+    - {dataset}_adverse.csv: Instances with predicted_class == 1
+    - {dataset}_positive.csv: Instances with predicted_class == 0
     """
     
     dataset_path = config['path']
@@ -55,6 +61,9 @@ def make_predictions(dataset_name, config):
     if dataset_name == 'law':
         model_path = os.path.join(dataset_path, 'RF_no_protected.pkl')
         model_type = "WITHOUT protected attributes (gender, race1)"
+    elif dataset_name == 'credit':
+        model_path = os.path.join(dataset_path, 'RF.pkl')
+        model_type = "WITHOUT protected attributes (age, personal_status_sex)"
     else:
         model_path = os.path.join(dataset_path, 'RF.pkl')
         model_type = "with all features"
@@ -74,10 +83,13 @@ def make_predictions(dataset_name, config):
     test_features = test_df.drop(columns=[target_col])
     test_target = test_df[target_col].rename(target_name)  # Rename to standardized name
     
-    # For law dataset, create a copy without protected attributes for model prediction
+    # For law and credit datasets, create a copy without protected attributes for model prediction
     # but keep original test_features with all columns for saving later
     if dataset_name == 'law':
         protected_attributes = ['gender', 'race1']
+        features_for_prediction = test_features.drop(columns=protected_attributes)
+    elif dataset_name == 'credit':
+        protected_attributes = ['age', 'personal_status_sex']
         features_for_prediction = test_features.drop(columns=protected_attributes)
     else:
         features_for_prediction = test_features
@@ -92,28 +104,52 @@ def make_predictions(dataset_name, config):
     # This is more permissive and catches more adverse cases
     threshold = 0.4
     adverse_mask = test_proba >= threshold
+    positive_mask = test_proba < threshold  # Complementary mask for positive predictions
     
     # Get predicted class based on threshold (1 if >= threshold, 0 otherwise)
     test_pred_threshold = (test_proba >= threshold).astype(int)
     
+    # ===== SAVE ADVERSE INSTANCES =====
     test_adverse = test_features[adverse_mask].copy()
     test_adverse['predicted_class'] = test_pred_threshold[adverse_mask]
     test_adverse['prediction_score'] = test_proba[adverse_mask]
     test_adverse[target_name] = test_target[adverse_mask]  # Use standardized target name
     
     # Capture original test set indices before resetting
-    original_indices = test_features[adverse_mask].index.values
+    original_indices_adverse = test_features[adverse_mask].index.values
     
     # Add explicit instance_index column (sequential 0, 1, 2, ...)
     test_adverse.reset_index(drop=True, inplace=True)
     test_adverse.insert(0, 'instance_index', range(len(test_adverse)))
-    test_adverse.insert(1, 'original_test_index', original_indices)
+    test_adverse.insert(1, 'original_test_index', original_indices_adverse)
     
-    # Save to CSV without index (instance_index is now an explicit column)
-    output_path = os.path.join(dataset_path, f'{output_file}.csv')
-    test_adverse.to_csv(output_path, index=False)
+    # Save adverse to CSV without index (instance_index is now an explicit column)
+    output_path_adverse = os.path.join(dataset_path, f'{output_file}.csv')
+    test_adverse.to_csv(output_path_adverse, index=False)
     
-    print(f"  Saved {len(test_adverse)} adverse instances to {output_path}")
+    print(f"  Saved {len(test_adverse)} adverse instances to {output_path_adverse}")
+    
+    # ===== SAVE POSITIVE INSTANCES =====
+    test_positive = test_features[positive_mask].copy()
+    test_positive['predicted_class'] = test_pred_threshold[positive_mask]
+    test_positive['prediction_score'] = test_proba[positive_mask]
+    test_positive[target_name] = test_target[positive_mask]  # Use standardized target name
+    
+    # Capture original test set indices before resetting
+    original_indices_positive = test_features[positive_mask].index.values
+    
+    # Add explicit instance_index column (sequential 0, 1, 2, ...)
+    test_positive.reset_index(drop=True, inplace=True)
+    test_positive.insert(0, 'instance_index', range(len(test_positive)))
+    test_positive.insert(1, 'original_test_index', original_indices_positive)
+    
+    # Save positive to CSV without index (instance_index is now an explicit column)
+    # Use 'positive' suffix instead of 'adverse'
+    output_file_positive = output_file.replace('adverse', 'positive')
+    output_path_positive = os.path.join(dataset_path, f'{output_file_positive}.csv')
+    test_positive.to_csv(output_path_positive, index=False)
+    
+    print(f"  Saved {len(test_positive)} positive instances to {output_path_positive}")
     
     return test_adverse
 

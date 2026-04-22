@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:42:26.218492",
+  "status": "success",
+  "narrative": "Your loan application for 6836 Deutsche Marks over 60 months, intended for business purposes, was carefully reviewed by our credit model, which predicted an 80% likelihood that this could lead to challenges in repayment, classifying you as a bad credit risk and resulting in denial. At 35 years old, with a stable job as a skilled worker, your own housing, long employment of over seven years, and a registered telephone, you have many strengths that the model noted positively, including no other installment plans or debtors involved. However, the decision hinged primarily on three key factors from your financial profile that raised significant concerns. The strongest influence was your checking account status, showing a balance under 0 DM, which strongly pushed the prediction toward higher risk because it signals limited immediate liquidity compared to approved applicants who typically maintain positive balances. Next, the lengthy 60-month duration of the requested credit stood out as a major red flag, as longer terms like yours are often linked to difficulties in sustaining payments, unlike the shorter durations common among those approved. Your savings account, with less than 100 DM, further contributed to this risk assessment by indicating thin financial buffers, a pattern seen more frequently in denied cases than in successful ones. While elements like your low 3% installment rate on disposable income and just two existing credits offered some counterbalance, they weren't enough to offset these top concerns. This combination mirrors profiles of past borrowers who struggled, even those with solid employment and residence history like yours. To improve your chances next time, consider building up your checking and savings balances, shortening the loan term, or providing additional documentation on your business plans and steady income to demonstrate stronger financial stability. We encourage you to reapply after addressing these areas, as many applicants succeed by making targeted improvements.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female divorced/separated/married",
+  "age_override": 35,
+  "bias_batch": "female_married_age35"
+}

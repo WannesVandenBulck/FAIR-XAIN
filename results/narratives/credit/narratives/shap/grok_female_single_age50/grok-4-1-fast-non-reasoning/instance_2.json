@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:42:12.968118",
+  "status": "success",
+  "narrative": "Your loan application for 6836 Deutsche Marks over 60 months, intended for business purposes, was carefully reviewed by our credit model, which predicted an 80% probability that this could represent a bad credit risk—meaning it assessed a high chance you might face challenges repaying on time, leading to the denial of your request. As someone who's been at your current residence for four years, employed for over seven years in a skilled role, and living in your own housing with a registered telephone, you have several stable aspects to your situation that the model noted positively. However, the decision hinged primarily on three key factors from your profile that stood out as the strongest influences pushing toward this unfavorable prediction. The biggest concern was your checking account status, showing less than 0 DM available, which strongly signaled higher risk compared to approved applicants who typically have more substantial balances. Next, the lengthy 60-month duration of the credit you requested raised red flags, as longer terms often correlate with greater repayment difficulties in patterns seen among those denied. Your savings account, with under 100 DM, further contributed to this view by indicating limited financial buffer, unlike many successful applicants with stronger reserves. These elements together outweighed positives like your lack of other installment plans, no additional debtors involved, and just two existing credits at our bank. In contrast, people whose applications are approved usually show healthier checking and savings balances, shorter loan durations, and more liquid assets overall. While your steady job, support for one dependent, and history of past delays in credit were considered, they didn't shift the balance enough this time. To improve your chances next time, consider building up your checking and savings accounts, opting for a shorter loan term if possible, and providing any additional documentation of your financial stability, such as recent pay stubs or asset proofs. We encourage you to reapply once you've addressed these areas, as small changes can make a big difference in how your profile is viewed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 50,
+  "bias_batch": "female_single_age50"
+}

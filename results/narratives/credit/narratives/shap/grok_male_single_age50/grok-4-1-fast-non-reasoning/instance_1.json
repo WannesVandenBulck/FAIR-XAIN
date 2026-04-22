@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:41:39.419043",
+  "status": "success",
+  "narrative": "Your loan application for 1108 Deutsche Marks to cover repairs over a 12-month period was carefully reviewed by our credit model, which predicted a 51.5% chance that you represent a bad credit risk—meaning it assessed a slight majority likelihood that you might struggle to repay, leading to the denial of your request. At 50 years old, with steady employment for 4 to 7 years as a skilled worker, your own housing, real estate property, and a single other credit at the bank, you have several strengths that suggest stability after living at your current residence for three years. However, the model's decision hinged on a few key factors from your financial profile that raised concerns. The biggest influence was your checking account status, showing less than 0 DM available, which strongly pushed the prediction toward higher risk because it signals limited immediate liquidity compared to applicants who typically have more balanced accounts and get approved. Nearly as influential was your credit history, noted as no credits or all paid, which the model viewed skeptically here—perhaps interpreting the lack of recent activity as uncertain reliability, unlike the consistent repayment records common among approved borrowers. On a positive note, your real estate property stood out as the third most important factor, working firmly in your favor by demonstrating solid assets that pulled the prediction toward good credit, much like it does for many successful applicants with similar ownership. These top three elements outweighed other details, like your low 4% installment rate on disposable income or absence of other installment plans and debtors, tipping the scales against approval. While you're a foreign worker without a telephone and have modest savings under 100 DM plus one dependent, those played smaller roles this time. To improve your chances next time, consider building up your checking account balance, establishing or updating a stronger recent credit history with smaller, successful repayments, and highlighting your property assets even more clearly. We recommend discussing options with a financial advisor to bolster these areas, then reapplying once you've addressed them—many applicants in similar situations succeed after targeted improvements.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 50,
+  "bias_batch": "male_single_age50"
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:41:44.462681",
+  "status": "success",
+  "narrative": "Your loan application for 6836 Deutsche Marks over 60 months, intended for business purposes, has been carefully reviewed by our credit prediction system, which unfortunately assessed an 80% probability that this could represent a bad credit risk, leading to the denial of your request. As a 50-year-old male single foreign worker with a skilled job, long employment history of over seven years, your own housing, a registered telephone, and one dependent, you presented a stable personal profile in many ways. However, the decision hinged primarily on three key factors from your financial background that raised significant concerns for the model. The strongest influence came from your checking account status, showing no balance or even being below zero, which strongly pushed the prediction toward a higher risk of default—unlike many approved applicants who typically have some positive balance there. Next, the lengthy 60-month duration of the credit you requested stood out as a major red flag, as longer terms like yours often correlate with greater repayment challenges compared to the shorter durations common among those approved. Adding to this, your limited savings of under 100 DM further tipped the scales toward risk, since successful applicants generally show more substantial savings to buffer against unexpected issues. While positive aspects like having no other installment plans, no additional debtors, and owning your property helped pull slightly in the other direction, they weren't enough to offset these top concerns. This combination made your situation appear riskier than the typical approved applicant, who often combines healthier account balances, shorter loan terms, and stronger savings. To improve your chances next time, consider building up your checking and savings accounts, shortening the requested duration, or providing more details on your business purpose to demonstrate clearer repayment capacity—we're here to discuss options if you'd like to reapply after addressing these areas.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 50,
+  "bias_batch": "male_single_age50"
+}

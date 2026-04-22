@@ -19,25 +19,29 @@ datasets = {
         'path': r'datasets_prep/data/credit_dataset',
         'target_col': 'credit_risk',
         'target_name': 'target_credit',        # Standardized column name (1=bad credit risk, 0=good)
-        'adverse_file': 'credit_adverse.csv'
+        'adverse_file': 'credit_adverse.csv',
+        'frozen_features': ['age', 'personal_status_sex']  # Features NOT to be changed in counterfactuals
     },
     'law': {
         'path': r'datasets_prep/data/law_dataset',
         'target_col': 'bar',
         'target_name': 'target_law',           # Standardized column name (1=failed bar exam, 0=passed)
-        'adverse_file': 'law_adverse.csv'
+        'adverse_file': 'law_adverse.csv',
+        'frozen_features': ['gender', 'race1']  # Features NOT to be changed in counterfactuals
     },
     'saudi': {
         'path': r'datasets_prep/data/saudi_dataset',
         'target_col': 'Attrition',
         'target_name': 'target_saudi',         # Standardized column name (1=left company, 0=stayed)
-        'adverse_file': 'saudi_adverse.csv'
+        'adverse_file': 'saudi_adverse.csv',
+        'frozen_features': []  # No frozen features for this dataset
     },
     'student': {
         'path': r'datasets_prep/data/student_dataset',
         'target_col': 'target',
         'target_name': 'target_student',       # Standardized column name (1=failed final exams, 0=passed)
-        'adverse_file': 'student_adverse.csv'
+        'adverse_file': 'student_adverse.csv',
+        'frozen_features': []  # No frozen features for this dataset
     }
 }
 
@@ -48,13 +52,17 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     Adds target variable with standardized name to SHAP and CF outputs.
     
     For law dataset: Uses model trained WITHOUT protected attributes (gender, race1).
+    For credit dataset: Uses model trained WITHOUT protected attributes (age, personal_status_sex).
     For other datasets: Uses standard model with all features.
+    
+    Frozen features (specified in config) are kept constant across all counterfactuals.
     """
         
     dataset_path = config['path']
     target_col = config['target_col']
     target_name = config['target_name']  # Standardized target column name
     adverse_file = config['adverse_file']
+    frozen_features = config.get('frozen_features', [])  # Features to keep constant in counterfactuals
     
     # Load adverse predictions (instance_index is now an explicit column, not index)
     adverse_path = os.path.join(dataset_path, adverse_file)
@@ -64,8 +72,12 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     # For law dataset, use the model trained WITHOUT protected attributes
     if dataset_name == 'law':
         model_path = os.path.join(dataset_path, 'RF_no_protected.pkl')
-        model_type = "WITHOUT protected attributes"
+        model_type = "WITHOUT protected attributes (gender, race1)"
         protected_attributes = ['gender', 'race1']
+    elif dataset_name == 'credit':
+        model_path = os.path.join(dataset_path, 'RF.pkl')
+        model_type = "WITHOUT protected attributes (age, personal_status_sex)"
+        protected_attributes = ['age', 'personal_status_sex']
     else:
         model_path = os.path.join(dataset_path, 'RF.pkl')
         model_type = "with all features"
@@ -75,6 +87,8 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
         rf_model = pickle.load(f)
     
     print(f"  Model: {model_type}")
+    if frozen_features:
+        print(f"  Frozen features (constant in counterfactuals): {frozen_features}")
     
     # Load test data for context
     test_path = os.path.join(dataset_path, 'test_cleaned.parquet')
@@ -127,7 +141,12 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     shap_output_path = os.path.join(dataset_path, f'{dataset_name}_shap.csv')
     shap_df.to_csv(shap_output_path, index=False)
     
-    # ===== COUNTERFACTUALS (using NICE Algorithm) =====    
+    # ===== COUNTERFACTUALS (using NICE Algorithm) =====
+    # Get features for counterfactual generation (excluding frozen features)
+    cf_feature_cols = [col for col in feature_cols if col not in frozen_features]
+    
+    print(f"  Generating counterfactuals using {len(cf_feature_cols)} mutable features (excluding {len(frozen_features)} frozen)")
+    
     # Get predictions for test set to identify good class instances
     test_pred = rf_model.predict(test_features)
     
@@ -135,12 +154,15 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
     good_class_indices = np.where(test_pred == 0)[0]
     good_class_instances = test_features.iloc[good_class_indices]
     
-    # Fit KNN on good class instances for NICE algorithm
+    # For NICE algorithm, use only mutable features for KNN fitting and distance calculation
+    good_class_instances_mutable = good_class_instances[cf_feature_cols]
+    
+    # Fit KNN on good class instances for NICE algorithm (using only mutable features)
     all_counterfactuals = []
     
     if len(good_class_instances) > 0:
         nbrs = NearestNeighbors(n_neighbors=min(num_cf, len(good_class_instances)), 
-                                algorithm='ball_tree').fit(good_class_instances.values)
+                                algorithm='ball_tree').fit(good_class_instances_mutable.values)
         
         # Generate counterfactuals for each adverse instance
         for adverse_idx, (_, adverse_row) in enumerate(adverse_df.iterrows()):
@@ -148,17 +170,23 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
                 print(f"    Processing instance {adverse_idx + 1}/{len(adverse_df)}")
             
             try:
-                # Get the feature values for this adverse instance
-                instance = adverse_row[feature_cols].values.reshape(1, -1)
+                # Get ONLY mutable feature values for this adverse instance (for KNN query)
+                instance_mutable = adverse_row[cf_feature_cols].values.reshape(1, -1)
                 instance_idx_val = adverse_row['instance_index']
                 original_idx_val = adverse_row['original_test_index']
                 
-                # Find nearest neighbors in good class using NICE
-                distances, indices = nbrs.kneighbors(instance)
+                # Find nearest neighbors in good class using NICE (based on mutable features only)
+                distances, indices = nbrs.kneighbors(instance_mutable)
                 
                 # Extract the nearest instances as counterfactuals
                 for cf_idx, neighbor_idx in enumerate(indices[0]):
                     cf_instance = good_class_instances.iloc[neighbor_idx].copy()
+                    
+                    # Replace frozen features with values from the original adverse instance
+                    for frozen_feat in frozen_features:
+                        if frozen_feat in cf_instance.index:
+                            cf_instance[frozen_feat] = adverse_row[frozen_feat]
+                    
                     cf_instance['instance_index'] = instance_idx_val
                     cf_instance['original_test_index'] = original_idx_val
                     cf_instance['CF_number'] = cf_idx + 1
@@ -172,6 +200,9 @@ def generate_explanations(dataset_name, config, num_cf=NUM_COUNTERFACTUALS):
         
         # Create counterfactual dataframe
         cf_df = pd.DataFrame(all_counterfactuals)
+        
+        # Drop protected attributes from counterfactual dataframe
+        cf_df = cf_df.drop(columns=protected_attributes, errors='ignore')
         
         # Reorganize columns: instance_index and original_test_index first, then CF metadata
         # Ensure instance_index, original_test_index, and CF_number are integer types

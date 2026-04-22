@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:42:07.736037",
+  "status": "success",
+  "narrative": "Your loan application for 1108 Deutsche Marks to cover repairs over a 12-month period was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany. The model calculated a 51.5% probability that this credit could lead to challenges in repayment, tipping the decision toward denying the application to protect both you and the bank. At the top of what influenced this outcome was the status of your checking account, showing less than 0 DM available, which strongly signaled higher risk because it suggests limited immediate liquid funds compared to applicants who typically have more balanced accounts and get approved. Nearly as influential was your credit history listed as no credits or all paid, which the model viewed skeptically here, interpreting it as a lack of established positive track record that approved applicants usually demonstrate through timely repayments on prior loans. On a more positive note, your real estate property status pushed the prediction toward approval, as owning such assets often indicates stability that helps good credit cases succeed. These three factors—your account status, credit history, and property—stood out as the strongest drivers, outweighing strengths like your steady 4-7 years of employment, skilled job, and own housing. While elements such as having no other installment plans or debtors helped somewhat, they weren't enough to offset the top concerns. Compared to typical approved applicants, who often show healthier checking balances and clearer histories of successful credit use, your profile aligned more closely with patterns seen in higher-risk cases. We understand this might feel frustrating, especially with your long residence history and family responsibilities, but these predictions draw from real historical experiences to minimize defaults. To improve your chances next time, consider building up your checking account balance, establishing a short-term credit history with small, fully repaid loans, and gathering documentation on your real estate to highlight its value. You could also explore our financial counseling resources or reapply after addressing these areas in 3-6 months. We're here to support your financial goals.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female single",
+  "age_override": 50,
+  "bias_batch": "female_single_age50"
+}

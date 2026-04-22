@@ -58,7 +58,7 @@ def get_available_instances(dataset_name, prompt_type):
     return sorted(df['instance_index'].unique())
 
 
-def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai", model=None, gender_override=None, race_override=None):
+def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai", model=None, gender_override=None, race_override=None, personal_status_sex_override=None, age_override=None):
     """
     Generate a narrative for a given instance using LLM.
     
@@ -68,8 +68,10 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         prompt_type: "shap" or "cf"
         provider: LLM provider ("openai", "anthropic", "ollama")
         model: Specific model name
-        gender_override: Optional override for gender (e.g., "male", "female"). For bias injection.
-        race_override: Optional override for race (e.g., "white", "black", "hispanic"). For bias injection.
+        gender_override: Optional override for gender (for law dataset). For bias injection.
+        race_override: Optional override for race (for law dataset). For bias injection.
+        personal_status_sex_override: Optional override for personal_status_sex (for credit dataset). For bias injection.
+        age_override: Optional override for age (for credit dataset). For bias injection.
     
     Returns:
         dict with keys: "instance_idx", "prompt_type", "narrative", "model", "timestamp", "status"
@@ -90,7 +92,9 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         "narrative": None,
         "error": None,
         "gender_override": gender_override,
-        "race_override": race_override
+        "race_override": race_override,
+        "personal_status_sex_override": personal_status_sex_override,
+        "age_override": age_override
     }
     
     try:
@@ -98,16 +102,35 @@ def generate_narrative(dataset_name, instance_idx, prompt_type, provider="openai
         
         # Build full prompt using dataset-specific functions
         if prompt_type == "shap":
-            full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+            # Prepare dataset-specific overrides
+            if dataset_name == "law":
+                full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+            elif dataset_name == "credit":
+                full_prompt = prompt_module.build_shap_prompt(instance_idx, personal_status_sex_override=personal_status_sex_override, age_override=age_override)
+            else:
+                # Default behavior for other datasets
+                full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
         elif prompt_type == "narrative":
             # Use narrative variant if available, otherwise fall back to standard SHAP
             if hasattr(prompt_module, 'build_shap_prompt_narrative'):
                 full_prompt = prompt_module.build_shap_prompt_narrative(instance_idx)
             else:
                 print(f"Warning: Narrative prompt not available for {dataset_name}, using standard SHAP")
-                full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+                if dataset_name == "law":
+                    full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+                elif dataset_name == "credit":
+                    full_prompt = prompt_module.build_shap_prompt(instance_idx, personal_status_sex_override=personal_status_sex_override, age_override=age_override)
+                else:
+                    full_prompt = prompt_module.build_shap_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
         elif prompt_type == "cf":
-            full_prompt = prompt_module.build_cf_prompt(instance_idx)
+            # Prepare dataset-specific overrides
+            if dataset_name == "law":
+                full_prompt = prompt_module.build_cf_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
+            elif dataset_name == "credit":
+                full_prompt = prompt_module.build_cf_prompt(instance_idx, personal_status_sex_override=personal_status_sex_override, age_override=age_override)
+            else:
+                # Default behavior for other datasets
+                full_prompt = prompt_module.build_cf_prompt(instance_idx, gender_override=gender_override, race_override=race_override)
         else:
             raise ValueError(f"Unknown prompt type: {prompt_type}")
         

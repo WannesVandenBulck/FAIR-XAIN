@@ -23,16 +23,16 @@ if str(ROOT) not in sys.path:
 QUICK_GENERATE_ENABLED = True  # Set to True to generate a narrative
 
 QUICK_GENERATE_CONFIG = {
-    "dataset": "law",                    # Dataset: "law", "credit", "student", "saudi"
-    "instance": 1,                       # Instance index to generate narrative for
-    "prompt_type": "shap",               # "shap" or "cf"
+    "dataset": "credit",                    # Dataset: "law", "credit", "student", "saudi"
+    "instance": 2,                       # Instance index to generate narrative for
+    "prompt_type": "cf",               # "shap" or "cf"
     "provider": "grok",                  # LLM provider for generation: "openai", "grok", etc.
     "model": "grok-4-1-fast-non-reasoning",  # Model name
     "display": True,                     # Display narrative after generation
-    "save_to_file": "to_check_3",                # Save to file: None or path like "temp_narrative.txt"
+    "save_to_file": "narrative_output.md",                # Save to file: None, or path like "narrative.md" (markdown format if .md)
     # Optional bias injection settings (only used if model supports it)
-    "gender_override": "female",             # "male", "female", or None for no override
-    "race_override": "black",               # "white", "black", "hispanic", etc., or None
+    "personal_status_sex_override": "female single",             # For credit: personal_status_sex override like "male single"
+    "age_override": 50,               # For credit: age override as number
 }
 
 # ============================================================================
@@ -66,12 +66,17 @@ def generate_narrative_quick(dataset, instance, prompt_type, provider, model,
     """Quick generation of a single narrative using LLM."""
     try:
         from llm_tools.llm_client import generate_text
-        if prompt_type == "shap":
-            from llm_tools.prompts.prompt_law import build_shap_prompt
-        elif prompt_type == "cf":
-            from llm_tools.prompts.prompt_law import build_cf_prompt
+        # Import the appropriate prompt module based on dataset
+        if dataset == "law":
+            from llm_tools.prompts import prompt_law as prompt_module
+        elif dataset == "credit":
+            from llm_tools.prompts import prompt_credit as prompt_module
+        elif dataset == "saudi":
+            from llm_tools.prompts import prompt_saudi as prompt_module
+        elif dataset == "student":
+            from llm_tools.prompts import prompt_student as prompt_module
         else:
-            print(f"ERROR: Unknown prompt type: {prompt_type}")
+            print(f"ERROR: Unknown dataset: {dataset}")
             return None
     except ImportError as e:
         print(f"ERROR: Could not import required modules: {e}")
@@ -80,11 +85,24 @@ def generate_narrative_quick(dataset, instance, prompt_type, provider, model,
     print(f"Generating narrative for {dataset} instance {instance} ({prompt_type})...")
     
     try:
-        # Build prompt
+        # Build prompt based on dataset and prompt type
         if prompt_type == "shap":
-            prompt = build_shap_prompt(instance, gender_override=gender_override, race_override=race_override)
-        else:  # cf
-            prompt = build_cf_prompt(instance)
+            if dataset == "law":
+                prompt = prompt_module.build_shap_prompt(instance, gender_override=gender_override, race_override=race_override)
+            elif dataset == "credit":
+                prompt = prompt_module.build_shap_prompt(instance, personal_status_sex_override=gender_override, age_override=race_override)
+            else:
+                prompt = prompt_module.build_shap_prompt(instance, gender_override=gender_override, race_override=race_override)
+        elif prompt_type == "cf":
+            if dataset == "law":
+                prompt = prompt_module.build_cf_prompt(instance, gender_override=gender_override, race_override=race_override)
+            elif dataset == "credit":
+                prompt = prompt_module.build_cf_prompt(instance, personal_status_sex_override=gender_override, age_override=race_override)
+            else:
+                prompt = prompt_module.build_cf_prompt(instance, gender_override=gender_override, race_override=race_override)
+        else:
+            print(f"ERROR: Unknown prompt type: {prompt_type}")
+            return None
         
         # Generate narrative using generate_text function
         messages = [{"role": "user", "content": prompt}]
@@ -127,7 +145,7 @@ def display_narrative(dataset, instance, prompt_type, provider="openai", model=N
         print(f"Narrative not found: {dataset}/{prompt_type}/{provider}/{model or 'any_model'}/instance_{instance}")
         return
     
-    # Build output text
+    # Build output text for console display (plain text format)
     output = []
     output.append("="*80)
     output.append(f"NARRATIVE: {data['dataset'].upper()} | Instance {data['instance_idx']} | {data['prompt_type'].upper()}")
@@ -158,8 +176,30 @@ def display_narrative(dataset, instance, prompt_type, provider="openai", model=N
     # Save to file if requested
     if save_to:
         Path(save_to).parent.mkdir(parents=True, exist_ok=True)
-        with open(save_to, "a", encoding="utf-8") as f:
-            f.write(text)
+        
+        # Use markdown formatting if saving to .md file
+        if save_to.endswith('.md'):
+            markdown_text = f"""# Narrative: {data['dataset'].upper()} | Instance {data['instance_idx']} | {data['prompt_type'].upper()}
+
+**Provider:** {data['provider']}  
+**Model:** {data['model']}  
+**Status:** {data['status']}  
+**Timestamp:** {data['timestamp']}
+
+"""
+            if data['status'] != 'success':
+                markdown_text += f"**Error:** {data['error']}\n"
+            else:
+                markdown_text += f"""## Explanation
+
+{data['narrative']}
+"""
+            with open(save_to, "a", encoding="utf-8") as f:
+                f.write(markdown_text)
+        else:
+            # Plain text format for non-markdown files
+            with open(save_to, "a", encoding="utf-8") as f:
+                f.write(text)
         print(f"✓ Saved to: {save_to}")
     
     return text

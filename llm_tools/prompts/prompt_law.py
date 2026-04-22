@@ -1,6 +1,7 @@
 import pickle
 import pandas as pd
 import numpy as np
+import json
 from pathlib import Path
 
 # ===== CONFIGURATION =====
@@ -453,15 +454,18 @@ The model's prediction:
     return prompt
 
 
-def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None) -> str:
+def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: str = None, shap_csv_path: str = None, analysis_json_path: str = None, gender_override=None, race_override=None) -> str:
     """
-    Build a counterfactual prompt by loading from the CSV files.
+    Build a counterfactual prompt by loading from the CSV files and analysis JSON.
     
     Parameters:
     - instance_index: the instance index to explain (e.g., 10, 25, etc.)
     - cf_csv_path: path to counterfactual CSV (defaults to law_dataset/law_counterfactual.csv)
     - adverse_csv_path: path to adverse CSV (defaults to law_dataset/law_adverse.csv)
     - shap_csv_path: path to SHAP CSV for predicted_probability (defaults to law_dataset/law_shap.csv)
+    - analysis_json_path: path to counterfactual analysis JSON (defaults to law_dataset/law_counterfactual_analysis.json)
+    - gender_override: Optional override for gender ("male", "female", or numeric 0/1). For bias injection experiment.
+    - race_override: Optional override for race ("white", "black", "hispanic", etc., or numeric code). For bias injection experiment.
     
     Returns:
     - Full prompt string ready for LLM
@@ -472,6 +476,8 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
         adverse_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_adverse.csv"
     if shap_csv_path is None:
         shap_csv_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_shap.csv"
+    if analysis_json_path is None:
+        analysis_json_path = Path(__file__).parent.parent.parent / "datasets_prep" / "data" / "law_dataset" / "law_counterfactual_analysis.json"
     
     # Load original instance (instance_index is now an explicit column)
     adverse_df = pd.read_csv(adverse_csv_path)
@@ -491,6 +497,68 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     else:
         predicted_probability = shap_row.iloc[0]['predicted_probability']
     
+    # Load counterfactual analysis
+    analysis_summary = ""
+    try:
+        with open(analysis_json_path, 'r') as f:
+            analysis_data = json.load(f)
+        
+        instance_key = f"instance_{instance_index}"
+        if instance_key in analysis_data:
+            instance_analysis = analysis_data[instance_key]
+            num_cfs = instance_analysis.get('num_counterfactuals', 0)
+            features = instance_analysis.get('features', {})
+            
+            # Summarize key statistics
+            features_always_changed = []
+            features_never_changed = []
+            features_sometimes_changed = []
+            
+            for feature_name, stats in features.items():
+                pct_changed = stats.get('percentage_changed', 0)
+                if pct_changed == 100.0:
+                    features_always_changed.append(feature_name)
+                elif pct_changed == 0.0:
+                    features_never_changed.append(feature_name)
+                else:
+                    features_sometimes_changed.append(feature_name)
+            
+            # Build analysis summary text
+            analysis_summary = f"""
+COUNTERFACTUAL ANALYSIS SUMMARY:
+Generated {num_cfs} counterfactual scenarios for this instance.
+
+Features that changed in ALL counterfactuals ({len(features_always_changed)}): {', '.join(features_always_changed) if features_always_changed else 'None'}
+Features that NEVER changed ({len(features_never_changed)}): {', '.join(features_never_changed) if features_never_changed else 'None'}
+Features that changed in SOME counterfactuals ({len(features_sometimes_changed)}): {', '.join(features_sometimes_changed[:5]) if features_sometimes_changed else 'None'}{'...' if len(features_sometimes_changed) > 5 else ''}
+
+Detailed feature changes:
+"""
+            # Add top changing features with their statistics
+            feature_changes = []
+            for feature_name, stats in features.items():
+                pct = stats.get('percentage_changed', 0)
+                if pct > 0:
+                    if 'average_change' in stats:
+                        avg_change = stats['average_change']
+                        feature_changes.append((feature_name, pct, f"avg change: {avg_change}"))
+                    elif 'distribution' in stats:
+                        dist = stats.get('distribution', {})
+                        # Format distribution with counts: "value1 (count1), value2 (count2), ..."
+                        dist_str = ', '.join([f"{v} ({c} times)" for v, c in sorted(dist.items())])
+                        feature_changes.append((feature_name, pct, f"changed to: {dist_str}"))
+            
+            # Sort by percentage changed descending
+            feature_changes.sort(key=lambda x: x[1], reverse=True)
+            
+            for feature_name, pct, change_info in feature_changes:  # Show all features
+                analysis_summary += f"  - {feature_name}: changed in {pct}% of cases ({change_info})\n"
+            
+    except FileNotFoundError:
+        analysis_summary = ""
+    except Exception as e:
+        analysis_summary = f""
+    
     # Load counterfactuals for this instance (use integer comparison, no float conversion)
     cf_df = pd.read_csv(cf_csv_path)
     cf_rows = cf_df[cf_df['instance_index'] == instance_index]
@@ -499,9 +567,9 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
         raise ValueError(f"No counterfactuals found for instance {instance_index}")
     
     # Create table with original + counterfactuals
-    # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original, and target)
+    # Extract feature columns only (exclude metadata like instance_index, original_test_index, CF_number, distance_to_original, target, and protected attributes)
     feature_cols = [col for col in adverse_df.columns 
-                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]
+                   if col not in ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law', 'gender', 'race1']]
     
     table_data = []
     
@@ -518,10 +586,8 @@ def build_cf_prompt(instance_index, cf_csv_path: str = None, adverse_csv_path: s
     
     table_df = pd.DataFrame(table_data).set_index('row_type')
     
-    # Create instance description (excluding metadata and target)
-    instance_features = original[[c for c in original.index if c not in 
-                                   ['instance_index', 'original_test_index', 'predicted_class', 'prediction_score', 'actual_target', 'target_law']]]
-    instance_desc = describe_instance(instance_features)
+    # Create instance description using overrides if provided
+    instance_desc, _ = separate_features_and_protected_attributes(original, gender_override=gender_override, race_override=race_override)
     
     table_str = table_df.to_string()
 
@@ -547,6 +613,8 @@ The model's prediction:
 
 
 {table_str}
+
+{analysis_summary}
 
 {INSTRUCTIONS_SECTION}
 {COUNTERFACTUAL_PROMPT_INSTRUCTIONS}

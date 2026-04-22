@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 2,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:41:30.137819",
+  "status": "success",
+  "narrative": "Your loan application for 6836 Deutsche Marks over 60 months, intended for business purposes, was carefully reviewed by our credit model, which predicted an 80% likelihood that you represent a bad credit risk—meaning it assessed a high chance you might struggle to repay, leading to the denial of your request. As a 25-year-old male living on your own in a place you've called home for four years, with steady employment over seven years as a skilled worker, own housing, a registered telephone, and status as a foreign worker supporting one dependent, you have some solid foundations that the model noted positively in areas like your job stability and lack of other installment plans or debtors. However, the decision hinged on a few key aspects of your financial profile that raised significant concerns. The strongest factor pushing toward denial was your checking account status, showing no balance, which strongly signaled to the model an elevated risk compared to applicants with funds available who typically get approved. Next in influence was the lengthy 60-month duration of the loan you requested, as longer terms like yours often correlate with higher default rates in our historical data from successful borrowers, who usually seek shorter periods. Your savings account holding less than 100 DM also contributed notably toward the bad credit prediction, standing out as lower than what approved applicants generally maintain, hinting at limited financial buffer. While elements like your low 3% installment rate on disposable income and just two existing credits worked somewhat in your favor, they weren't enough to offset these top concerns. This combination mirrored patterns from past debtors in the 1970s who faced repayment challenges under similar circumstances. To move forward, we recommend building up your checking and savings balances over the next few months, perhaps shortening any future loan duration, and reapplying once you've demonstrated more stability—our team can guide you on specific steps or connect you with free financial counseling resources tailored for situations like yours.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

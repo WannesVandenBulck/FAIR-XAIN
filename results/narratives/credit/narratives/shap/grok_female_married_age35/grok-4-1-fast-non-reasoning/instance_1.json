@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 1,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-19T14:42:20.051480",
+  "status": "success",
+  "narrative": "Your loan application for 1108 Deutsche Marks to cover repairs over a 12-month period was carefully reviewed by our credit model, which predicted a 51.5% probability that this could turn into a bad credit risk—meaning it saw just over a coin flip's chance of challenges in repayment, tipping the decision toward denial to protect both you and the bank. At 35 years old, with steady employment for 4 to 7 years as a skilled worker or official, owning your home and real estate, and a low installment rate of just 4% of your disposable income, you have many strengths that the model recognized as pushing toward approval. However, the strongest factor pulling the prediction the other way was your checking account status, showing less than 0 DM available right now, which stood out as the top concern because it signals limited immediate liquidity compared to applicants who typically have more balance there when approved. Nearly as influential was your credit history, noted as no prior credits or all paid back, which the model viewed skeptically here—unlike the stronger track records, like delayed but settled payments, common among those approved. On a brighter note, your property ownership, including real estate, was the most significant positive force, strongly favoring good credit in a way that helped balance things out and mirrors what successful applicants often bring to the table. These three elements—your current account, past credit pattern, and solid property—were the key drivers behind the model's close-call decision, outweighing positives like having no other installment plans, no additional debtors, and just two existing credits at our bank. While factors like your 3 years at your current residence, owning your housing, and being a foreign worker with one dependent didn't sway things much, they fit within norms for approved cases. To move forward, we recommend building up your checking account balance, perhaps aiming for at least some positive funds, and establishing a short history of on-time smaller payments elsewhere to reshape that credit view. Once you've strengthened these areas, feel free to reapply—we're here to help guide you toward approval next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "female divorced/separated/married",
+  "age_override": 35,
+  "bias_batch": "female_married_age35"
+}

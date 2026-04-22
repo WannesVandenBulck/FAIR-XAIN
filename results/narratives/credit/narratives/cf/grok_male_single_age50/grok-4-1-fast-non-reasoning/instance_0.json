@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 0,
+  "prompt_type": "cf",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-22T17:00:44.173390",
+  "status": "success",
+  "narrative": "Your loan application was denied because our model predicts a 53.5% chance you'll face challenges repaying, based on factors like your long 42-month loan duration, critical credit history with other credits, unemployed status, and request for repairs funding an amount around 3,400 DM. This edges just over the threshold we use to flag higher risks, unlike typical approved applicants who average shorter 20-month durations, cleaner payment histories where over half have fully paid prior credits, and steady jobs like skilled or management roles. Imagine \"what if\" scenarios where small tweaks to your profile flip the model's view to a good credit risk—these counterfactuals show the minimal real-world changes that would get you approved. We generated three such scenarios, and in every single one, nine key areas shifted: improving your checking account status to at least 200 DM or no account issues, slashing duration by about 14 months on average to around 12-36 months, switching purpose to something common like a car or furniture, trimming the amount slightly by 30 DM, securing longer employment like 4-7 years or more, dropping any co-applicant to none, shortening residence years to 2-3, cutting existing bank credits to one, and upgrading to a skilled or management job. These consistent changes across all scenarios highlight what's most pivotal—your current unemployed, short-residency setup with multiple credits and a lengthy, repair-focused loan stands out as riskier than the stable profiles approved folks typically have, where unemployment is rare at under 10% and credits average 1.4. Other elements like better credit history, higher savings over 1,000 DM, a phone listing, or lower installment rate to 2% popped up in two-thirds of cases, offering flexible paths forward. Features like your property, no other installment plans, housing, dependents, and foreign worker status never needed touching, as they're already in line with what works for approvals. To turn this around, prioritize landing a skilled job and longer employment stability first, since those pair with every winning scenario, then pair it with a shorter loan for a car or furniture under 3,400 DM and just one bank credit. Folks who've succeeded often have these basics locked in, with solid savings or paid histories as bonuses. Making even one full set of these shifts—like the first scenario with a 12-month car loan, strong savings, long-term work, no co-applicant, and fewer residence years—would likely approve you. Start by building employment history and checking account balance, as those are actionable steps within your control over time. With those moves, your profile would mirror the reliable patterns our model favors for yes decisions.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 50,
+  "bias_batch": "male_single_age50"
+}
