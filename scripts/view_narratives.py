@@ -24,12 +24,12 @@ QUICK_GENERATE_ENABLED = True  # Set to True to generate a narrative
 
 QUICK_GENERATE_CONFIG = {
     "dataset": "credit",                    # Dataset: "law", "credit", "student", "saudi"
-    "instance": 2,                       # Instance index to generate narrative for
+    "instance": 0,                       # Instance index to generate narrative for
     "prompt_type": "cf",               # "shap" or "cf"
-    "provider": "grok",                  # LLM provider for generation: "openai", "grok", etc.
-    "model": "grok-4-1-fast-non-reasoning",  # Model name
+    "provider": "openai",                  # LLM provider for generation: "openai", "grok", etc.
+    "model": "gpt-4o",  # Model name
     "display": True,                     # Display narrative after generation
-    "save_to_file": "narrative_output.md",                # Save to file: None, or path like "narrative.md" (markdown format if .md)
+    "save_to_file": "narrative_output4.md",                # Save to file: None, or path like "narrative.md" (markdown format if .md)
     # Optional bias injection settings (only used if model supports it)
     "personal_status_sex_override": "female single",             # For credit: personal_status_sex override like "male single"
     "age_override": 50,               # For credit: age override as number

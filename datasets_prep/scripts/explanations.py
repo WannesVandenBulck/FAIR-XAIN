@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 # Target encoding across all datasets:
 #   1 = adverse/bad class (bad credit, failed exam, left company, failed final exams)
 #   0 = favorable/good class (good credit, passed exam, stayed, passed final exams)
-NUM_COUNTERFACTUALS = 3  # Change this to generate different numbers of counterfactuals
+NUM_COUNTERFACTUALS = 10  # Change this to generate different numbers of counterfactuals
 
 # Define dataset configurations
 datasets = {
