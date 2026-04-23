@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 19,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:52.971294",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risk, and unfortunately, it determined there's a 72.5% chance you'd face challenges repaying, leading to the denial. This prediction stems largely from three key aspects of your situation that stood out as higher risk compared to those typically approved. First, the length of the loan you requested—48 months—is much longer than the average of about 20 months for approved applicants, which the model sees as a strong signal of potential repayment strain since longer terms often correlate with difficulties for similar borrowers. Similarly, the amount you applied for, at 15,672 DM, is substantially higher than the typical 3,200 DM or so for those who get approved, raising concerns about affordability given historical data on debtor outcomes. Adding to this, your checking account status with a balance under 200 DM places you in a category that's common but riskier, as approved applicants more often had no account or negative balances less frequently tied to defaults. While positives like your existing paid credit history and skilled job align well with approved profiles—where such histories make up over half and skilled roles are the norm—they weren't enough to offset these top concerns. Your relatively short time at your current residence and other details fit typical patterns, but the model weighed the loan size, duration, and account status most heavily in pushing toward a bad credit outlook. This isn't a judgment on you personally, but a reflection of how these elements combined differently from the safer profiles that usually succeed. To improve your chances next time, consider requesting a shorter loan term, a smaller amount closer to average salaries of the era (10,000-20,000 DM yearly), or building up your checking account balance first—these adjustments often tip the scales for applicants like you. You might also gather additional proof of stability, such as updated employment details, to strengthen a new application. We're here to help guide you through resubmitting if you'd like.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

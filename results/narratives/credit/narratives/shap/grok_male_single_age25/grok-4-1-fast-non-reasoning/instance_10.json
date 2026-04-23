@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 10,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:12.428803",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess risk, drawing from patterns in historical data on borrowers from 1970s Germany. With your request for 1410 Deutsche Marks over 12 months for retraining, along with your current checking account balance under 200 DM, no prior credits or savings over 100 DM, and steady but shorter-term employment of 1-4 years as an unskilled resident worker living in owned housing, the model predicted a 44.5% probability that you might face challenges repaying—high enough to classify you as a bad credit risk and deny the application. The decision hinged most strongly on your credit history, specifically the fact that you have no prior credits or all paid ones, which stood out as the top concern because it's quite uncommon among those approved—only about 2% share this profile, and it signaled higher uncertainty to the model compared to applicants with a track record of timely payments. Next, your checking account status of 0-200 DM played a significant role in pushing toward denial, as it deviates from the majority of successful applicants who had no account or negative balances. On a more positive note, your shorter credit duration of just 12 months worked in your favor, pulling the prediction toward approval since approved loans typically average around 20 months, suggesting lower overall exposure. These three elements—credit history as the biggest driver toward risk, checking account status reinforcing caution, and duration offering some balance—together tipped the scales against approval, even with strengths like owning real estate, no other debts, and being a foreign worker like most approved applicants. You're similar to many approved borrowers in having few financial dependents, a low installment rate of 2% on your disposable income, and no other installment plans, but those weren't enough to offset the key concerns. To improve your chances next time, consider building a basic credit history through smaller, reliably repaid obligations, growing your checking or savings balance, or extending the loan term if feasible. You might also explore providing more details on stable employment or property to strengthen your profile. We encourage reapplying after addressing these areas, as small changes can make a big difference in how the model views your reliability.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

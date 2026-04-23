@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 6,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:39:51.792242",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess risk, drawing from patterns in historical bank data from 1970s Germany. The model calculated a 41.5% probability that you might face challenges repaying a loan, which is above our threshold for approval, leading to the denial of your request for 8229 DM over 36 months to buy a used car. The primary factor pushing toward this higher-risk assessment was your checking account status, showing no positive balance, which stands out because successful applicants more often have some funds or stability there—only about 17% share your exact situation. This detail carried the most weight in the model's decision, signaling potential strain on managing new debt. On a more positive note, your purpose of financing a used car worked in your favor, as it's a common and lower-risk reason among those approved, unlike riskier purposes that sometimes flag concerns. Additionally, your low installment rate of 2% of disposable income was another helpful element, better than the average around 3% for approved applicants, suggesting you could handle payments without overburdening your budget. While your solid credit history of existing paid accounts aligns well with over half of successful cases, and factors like owning your housing or having no other installment plans helped balance things, they weren't enough to offset the top concern. Compared to typical approved applicants—who often request smaller amounts around 3200 DM for shorter durations and have longer residence stability—your profile appeared riskier in scale and account readiness. At 25, with 1-4 years in your skilled job, two dependents, and as a foreign worker with no phone registered, you're in a position many build from, but the model saw echoes of past struggles in similar setups. To move forward, consider building up your checking account balance, perhaps shortening the loan duration or reducing the amount next time, and gathering any additional proof of steady income or savings under 100 DM to strengthen your case. Reapplying after addressing the checking account issue could shift the balance, as even small improvements in key areas often tip predictions favorably. We're here to help guide you through options if you'd like to discuss personalized steps.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

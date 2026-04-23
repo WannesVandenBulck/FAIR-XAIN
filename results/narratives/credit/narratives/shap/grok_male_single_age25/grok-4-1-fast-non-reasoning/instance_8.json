@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 8,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:00.377498",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risk, and it determined there's a 54% chance you'd face challenges repaying, tipping the decision toward denial to protect both you and the bank. At 25 years old, as a single male foreign worker in management or self-employment with a stable job for 1-4 years, own housing, a registered telephone, and no other installment plans or guarantors, you have several strengths that suggest reliability—yet a few key aspects stood out as higher risks. The most influential factor pushing toward a bad credit prediction was the 48-month duration you requested for this furniture and equipment purchase, far longer than the typical 20 months seen in approved applicants, as extended terms often correlate with tougher repayment histories. Next, your checking account status with 0-200 DM stood out strongly as a concern, since applicants with no overdraft or very low balances like yours have historically shown higher default rates compared to those with clean or no accounts. On a positive note, your credit history—rated as critical with other credits—actually worked in your favor here, pulling the prediction toward approval because many approved borrowers shared similar past experiences and still succeeded. These three elements were the biggest drivers, outweighing positives like your low 2% installment rate on disposable income (below the 2.94% average for approvals), modest credit amount of about 5,100 DM relative to average salaries back then, and low savings under 100 DM, which is common among those approved. Compared to typical approved applicants—who often sought smaller, shorter loans for cars or radios/TV with cleaner account histories—your combination signaled elevated risk despite your solid employment and property like a car. This isn't a judgment on your character, but a data-driven caution based on how similar profiles fared decades ago. To improve your chances next time, consider shortening the loan term, clearing any checking account issues, or building a stronger payment history with smaller credits first. You might also explore adding a guarantor or reducing the amount requested, as those align better with approved patterns. Feel free to reapply after addressing these, or contact us for personalized advice on strengthening your profile. We're here to help you succeed.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

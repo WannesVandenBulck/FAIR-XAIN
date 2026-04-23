@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 11,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:17.995294",
+  "status": "success",
+  "narrative": "Your loan application for 6260 Deutsche Marks to buy a new car was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risk. The model estimates a 43.5% chance that you might face challenges repaying over the 18-month duration, which is high enough to lead to denial as a precaution against bad credit outcomes. While several aspects of your situation, like your existing paid credit history and real estate property, leaned in a positive direction, three key factors tipped the scales toward concern. Most notably, your checking account status with a small balance of 0-200 DM stood out as a stronger risk signal compared to many approved applicants, where nearly half had no account or negative balances but still passed—pushing the model to view it as a moderate warning sign of tighter finances. The purpose of the loan for a new car also contributed toward caution, as this type of purchase has sometimes correlated with repayment issues in similar profiles, even though it's common among those approved. On a brighter note, the amount you requested actually worked in your favor, as the model saw it as manageable relative to patterns in successful cases, where approved averages hover around 3200 DM—helping to pull the prediction somewhat toward good credit. Your steady 4-7 years of employment, lack of other installment plans, and single status without dependents painted a stable picture overall, much like many who get approved, including foreign workers like yourself. Compared to typical approved applicants, your installment rate of 3% and short 3 years at your residence align closely with their norms, and having just one existing credit at the bank is below their average. To improve your chances next time, consider building up your checking account balance, exploring smaller loan amounts or different purposes like furniture that show lower risk historically, and documenting any additional financial stability such as savings growth beyond <100 DM or longer residence tenure. We encourage you to reapply after addressing these areas, perhaps with updated proof of income stability in your unskilled resident role and rented housing setup—many similar applicants succeed this way. Your profile shows real potential, and small adjustments could make a big difference.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

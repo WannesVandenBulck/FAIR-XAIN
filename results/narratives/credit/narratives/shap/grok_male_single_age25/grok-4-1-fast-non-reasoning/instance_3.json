@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 3,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:39:37.298649",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess risk, and unfortunately, it determined there's a 66% likelihood you'd face challenges repaying, leading to the denial. At 25 years old, as a single male foreign worker with a job as an unskilled resident, requesting 1659 DM for a radio or TV over 24 months while renting and having just under a year of employment, your situation stood out in ways that raised concerns compared to others who've been approved. The biggest factor pushing toward this risky assessment was your checking account status, showing no positive balance—something less common among approved applicants, where nearly half had no account issues and others had some funds, making it a strong red flag for potential repayment struggles. Next, the 24-month duration of your requested credit played a significant role in heightening the risk, as it's longer than the average 20 months seen in successful applications, suggesting extended exposure to financial pressure. Your savings under 100 DM also contributed notably toward the denial, since over half of approved folks had at least that much or more set aside, indicating better financial cushions. These top three elements together outweighed positives like your lack of other debtors or installment plans, and your property like a car, which might have helped in other cases. In contrast, typical approved applicants often have steadier credit histories without past delays, longer job or residence stability, and own their homes, aligning more closely with lower-risk profiles from our 1970s German dataset. While your requested amount was below the average for approvals and you have a registered telephone, these weren't enough to shift the balance. This isn't a judgment on you personally—it's the model highlighting patterns where similar profiles have led to issues. To improve your chances next time, consider building up your checking account balance, shortening the loan term if possible, and growing your savings, perhaps by saving steadily from your income, which averaged 10,000-20,000 DM yearly back then. You might also work on extending your employment duration or residence stability before reapplying. Feel free to gather recent payment proofs or adjust your request, and our team can guide you on next steps.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

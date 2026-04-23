@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 12,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:22.279973",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at various aspects of your financial profile to assess risk, and unfortunately, it determined there's a 57% probability that this credit might lead to challenges in repayment, leading to the denial. At 25 years old and working as an unskilled resident with a steady but short employment history of 1-4 years, you're requesting 1521 DM for furniture or equipment over just 10 months, which is notably shorter than the average 20 months seen in approved cases. The model's decision hinged primarily on three key factors from your profile. The biggest concern was your checking account status, showing a small balance of 0-200 DM; this stood out as a red flag because, while common among approved applicants, it signaled higher risk in your specific combination of circumstances, strongly pushing the prediction toward denial. On a more positive note, your relatively brief credit duration worked in your favor, pulling the assessment toward approval since shorter terms often correlate with lower risk for profiles like yours. However, your savings below 100 DM added another layer of caution, as it indicated limited financial buffer compared to what the model favors for stability, nudging the decision further toward bad credit risk. Compared to typical approved applicants—who often have higher credit amounts around 3200 DM, longer residence stability, and stronger savings or property like real estate—your profile appeared riskier overall, especially with no other installment plans or guarantors and owning your housing outright. This foreign worker status, while common among those approved, didn't offset the core financial signals in your case. To move forward, we recommend building up your checking and savings accounts over the next few months, perhaps aiming for a no-balance or positive status, and considering a longer credit duration or smaller amount next time. Reapplying after demonstrating more stability, like extended employment or added savings, could significantly improve your odds, as the model responds well to those changes in similar profiles. We're here to help guide you through strengthening your application.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

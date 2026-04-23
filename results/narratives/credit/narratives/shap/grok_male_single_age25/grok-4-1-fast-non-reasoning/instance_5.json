@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 5,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:39:47.388071",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany, and unfortunately, it predicted a 47% chance that you might face challenges repaying, leading to the denial. At 25 years old, working as an unskilled resident, and requesting a modest 1344 DM for a new car over just 12 months, your situation includes a checking account with less than 0 DM balance, some past delays in credit payments, low savings under 100 DM, and a small installment rate of 4% of your disposable income, while owning your housing and having real estate as property. The model flagged your profile as higher risk primarily due to your checking account status, which stood out as the strongest concern because accounts with negative balances have been linked to repayment issues in many similar cases. This pushed the prediction firmly toward a bad credit risk. Your short credit duration actually worked in your favor, as briefer loans like your 12-month request have often succeeded for approved applicants, whose average is around 20 months, pulling the decision somewhat toward approval. The purpose of financing a new car also nudged things toward risk, since while it's common among those approved, it sometimes correlates with stretched finances in profiles like yours. Compared to typical approved applicants—who often have cleaner credit histories, longer employment or residence stability, fewer dependents, and higher average loan amounts—your combination of past delays, low savings, no phone, being a foreign worker, and two people financially dependent on you added layers of caution, even if some elements like no other installment plans and owning your home were positive. Overall, these factors tipped the scales against approval. To improve your chances next time, consider building up your checking and savings balances, paying down any existing credits promptly to strengthen your history, and perhaps extending the loan duration or reducing the number of dependents if possible. You might also provide more details on stable employment or assets. Reapplying after addressing these could show a stronger picture—feel free to reach out for guidance on next steps.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

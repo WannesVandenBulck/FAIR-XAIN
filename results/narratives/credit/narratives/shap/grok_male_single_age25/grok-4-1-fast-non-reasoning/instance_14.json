@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 14,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:30.484526",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which looks at patterns from past borrowers in 1970s Germany to assess risks, and it determined there's an 83% chance you'd face challenges repaying, leading to the denial. At 25 years old, as a single male foreign worker with a skilled job and steady 1-4 years of employment, you have some solid foundations, like an existing credit history that's mostly paid and no other installment plans or debtors pulling at your finances. However, the model flagged a few key aspects of your request that stood out as higher risks compared to those typically approved. The biggest concern was the 60-month duration you requested for this education loan—much longer than the average 20 months among approved applicants—which often signals tougher repayment paths based on historical patterns. Next, your checking account status at 0-200 DM didn't inspire full confidence, as it's less favorable than the no-debt or negative balances common in over 65% of successful cases. Adding to that, having no known property or assets to secure the loan, unlike the real estate, cars, or savings backing most approvals, made the 6288 DM amount—nearly double the typical approved request—feel riskier overall. These three factors were the strongest drivers pushing the prediction toward a bad credit risk, outweighing positives like your low 4% installment rate on disposable income and living rent-free. While your situation shares traits with many approved borrowers, such as being a foreign worker and having one dependent, the combination of a lengthy loan for education, modest account balance, and lack of collateral set you apart in ways the model sees as cautionary. To move forward, consider shortening the loan term, building up savings or property assets, or clearing your checking account to zero or below—these steps often tip the scales for similar profiles. You might also explore smaller amounts or alternative purposes that align more with common approvals like cars or furniture. If circumstances change, feel free to reapply with updated details—we're here to help guide you toward success.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

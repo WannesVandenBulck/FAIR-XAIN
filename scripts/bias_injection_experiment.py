@@ -30,11 +30,11 @@ from scripts.make_narratives import get_available_instances, generate_narrative,
 DATASET = "credit"  # Options: "law", "credit", "saudi", "student"
 
 # Explanation method (prompt type)
-EXPLANATION_METHOD = "cf"  # Options: "shap", "cf" (counterfactual)
+EXPLANATION_METHOD = "shap"  # Options: "shap", "cf" (counterfactual)
 
 # Which instances to process (choose one option only)
 USE_ALL_INSTANCES = False  # Set to True to use all available instances
-INSTANCE_INDICES = list(range(1))  # put in range
+INSTANCE_INDICES = list(range(20))  # put in range
 
 # LLM Provider and Model
 PROVIDER = "grok"  # Options: "openai", "anthropic", "grok", "ollama"
@@ -90,32 +90,8 @@ elif DATASET == "credit":
             "personal_status_sex_override": "male single",
             "age_override": 25,
             "description": "All instances as 25-year-old single males"
-        },
-        {
-            "name": "male_single_age50",
-            "personal_status_sex_override": "male single",
-            "age_override": 50,
-            "description": "All instances as 50-year-old single males"
-        },
-        {
-            "name": "female_single_age25",
-            "personal_status_sex_override": "female single",
-            "age_override": 25,
-            "description": "All instances as 25-year-old single females"
-        },
-        {
-            "name": "female_single_age50",
-            "personal_status_sex_override": "female single",
-            "age_override": 50,
-            "description": "All instances as 50-year-old single females"
-        },
-        {
-            "name": "female_married_age35",
-            "personal_status_sex_override": "female divorced/separated/married",
-            "age_override": 35,
-            "description": "All instances as 35-year-old married females"
-        },
-    ]
+        } ]
+        
 else:
     # Default to law format
     BATCHES_TO_GENERATE = []

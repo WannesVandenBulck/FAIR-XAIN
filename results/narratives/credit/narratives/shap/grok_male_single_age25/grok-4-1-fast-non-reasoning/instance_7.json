@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 7,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:39:55.704798",
+  "status": "success",
+  "narrative": "Your loan application for 4006 Deutsche Marks to buy a new car over 28 months was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany. The model calculated a 50% probability that this credit would turn into a bad risk—meaning it saw an even chance of repayment issues, tipping the decision toward denial to protect both you and the bank. While several aspects of your profile, like your existing paid credits, no other installment plans, and stable housing situation, leaned in your favor, three key factors ultimately drove the rejection. The strongest concern was your checking account status showing less than 0 DM, which stood out as a red flag compared to approved applicants where nearly half had no such account or better balances—this pushed the model firmly toward seeing higher risk. Your request for a new car also contributed to that direction, as this purpose appeared less common among those approved, unlike more frequent ones like radios or furniture. On a positive note, the amount you requested actually worked against a bad credit prediction, since it was higher than the typical 3228 DM for approvals, suggesting the model viewed it as manageable relative to others. These top influences overshadowed positives like your one to four years of employment and single status without co-debtors. Compared to typical approved applicants—who often had longer residence histories around three years, more savings visibility, and skilled jobs—your shorter time at your current address and unskilled resident role added subtle caution, though not the main drivers. At 25, as a foreign worker without a telephone, you fit profiles that sometimes succeed but didn't align strongly enough here. To move forward, consider building up your checking account balance, shortening the loan duration, or choosing a purpose like repairs that matches approved patterns, then reapply with updated details—we're here to help review those changes.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

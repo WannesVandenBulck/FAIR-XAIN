@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 16,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:39.930606",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany, and unfortunately, it predicted a 75.5% probability that you might face challenges repaying, leading to the denial. This high risk score means the model saw your profile as more likely to align with those who struggled in the past, even though we know you're a foreign worker with a skilled job, owning your housing, and having just one existing credit at our bank with no other installment plans or debtors involved. The decision hinged primarily on three key aspects of your request that stood out as stronger warning signals compared to what we've seen in approved applicants.\n\nFirst and foremost, your checking account status with less than 0 DM available played the biggest role in pushing the prediction toward higher risk—unlike many approved borrowers, where nearly half had no account or better balances, this immediately raised concerns about immediate financial liquidity. Next, the 48-month duration you requested for this radio/TV purchase significantly influenced the denial, as it's more than double the average 20 months among those approved, suggesting to the model a longer commitment that could strain finances over time. Your savings below 100 DM also contributed toward the risk assessment, since over half of approved applicants had similar low savings, but in combination with the others, it reinforced doubts about your buffer for unexpected issues.\n\nThese factors together outweighed positives like your existing paid credit history, which is common among approvals, and your steady 1-4 years of employment. Compared to typical approved profiles, your requested amount of 6758 DM is notably higher than their average of around 3230 DM, adding to the cautious view despite your single status and short 2 years at your residence. To move forward, we recommend shortening the loan term, building up your checking and savings balances, or reducing the amount requested, then reapplying after demonstrating a few months of positive account activity—these steps have helped many in similar situations get approved.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}

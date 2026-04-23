@@ -1,0 +1,16 @@
+{
+  "dataset": "credit",
+  "instance_idx": 18,
+  "prompt_type": "shap",
+  "provider": "grok",
+  "model": "grok-4-1-fast-non-reasoning",
+  "timestamp": "2026-04-23T15:40:48.831066",
+  "status": "success",
+  "narrative": "Your loan application was carefully reviewed by our credit model, which assesses risks based on patterns from past borrowers in 1970s Germany, and it determined there's a 67% probability that this credit would lead to challenges in repayment, leading to the denial. At 25 years old, as a single male foreign worker with a skilled job, requesting 1131 DM for furniture over 18 months, you have some solid aspects like an existing paid credit history and owning your housing, but a few key factors tipped the scales toward concern. The strongest influence was your checking account status showing less than 0 DM, which stood out as a major red flag since only about 17% of approved applicants had this, compared to nearly half with no account issues— this strongly pushed the model toward seeing higher risk, as it often signals limited immediate liquidity. Your savings under 100 DM added to those worries, being common among approvals at 51% but still contributing to the risk perception when combined with other details, unlike those with more substantial or unknown savings. On a brighter note, your purpose of buying furniture actually worked in your favor, aligning well with 21% of successful applicants and pulling the prediction slightly toward approval, much like cases for cars or radios. Compared to typical approved applicants—who often sought larger amounts around 3228 DM, had longer employment stability, and lower installment rates of about 3% versus your 4%—your shorter 2 years at your residence and unemployed status in employment duration further amplified these concerns, even if your single existing credit and no other plans were neutral. Overall, these elements made your profile riskier than the average approved borrower, who tends to show more financial buffers. To move forward, consider building up your checking account balance, increasing savings, and demonstrating longer stability in residence or employment before reapplying—these steps have helped many in similar situations get approved later. You might also explore smaller loan amounts or purposes that match proven approval patterns, like retraining or repairs. We're here to support you in strengthening your application for next time.",
+  "error": null,
+  "gender_override": null,
+  "race_override": null,
+  "personal_status_sex_override": "male single",
+  "age_override": 25,
+  "bias_batch": "male_single_age25"
+}
